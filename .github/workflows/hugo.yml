@@ -41,35 +41,33 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
+          go-version: '1.22'
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
       - name: Setup Hugo
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        # Use the latest release of the theme to build exampleSite
         run: |
-          cd exampleSite && rm go.mod
-          hugo mod init github.com/beginnerprivacy/hextra/exampleSite
-          hugo mod get -u github.com/beginnerprivacy/hextra
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo \
+            --gc --minify \
+            --baseURL "https://beginnerprivacy.github.io/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./exampleSite/public
+          path: ./public
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://beginnerprivacy.github.io/
     runs-on: ubuntu-latest
     needs: build
     steps:
