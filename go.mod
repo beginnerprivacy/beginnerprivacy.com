@@ -1,5 +1,5 @@
-module github.com/beginnerprivacy/hextra/exampleSite
+module github.com/imfing/hextra/exampleSite
 
 go 1.20
 
-replace github.com/beginnerprivacy/hextra => ../
+replace github.com/imfing/hextra => ../
