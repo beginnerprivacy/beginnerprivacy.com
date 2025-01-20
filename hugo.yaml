@@ -1,5 +1,5 @@
 # Configuration
-baseURL: "https://localhost:1313/"
+baseURL: "https://beginnerprivacy.github.io/"
 title: "Beginner Privacy"
 
 enableRobotsTXT: true
@@ -21,23 +21,23 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Hextra
+    title: Beginner Privacy
   fa:
     languageName: فارسی
     languageCode: fa
     languageDirection: rtl
     weight: 2
-    title: هگزترا
+    title: حریم خصوصی مبتدی
   ja:
     languageName: 日本語
     languageCode: ja
     weight: 3
-    title: Hextra
+    title: 初心者のプライバシー
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 4
-    title: Hextra
+    title: 初学者的隐私
 
 module:
   hugoVersion:
@@ -65,49 +65,25 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+    - identifier: tools
+      name: Tools
+      pageRef: /tools
       weight: 1
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
+    - identifier: articles
+      name: Articles
+      pageRef: /articles
       weight: 2
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
-      weight: 3
     - identifier: about
       name: About
       pageRef: /about
-      weight: 4
+      weight: 3
     - name: Search
-      weight: 5
+      weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 6
-      url: "https://github.com/imfing/hextra"
-      params:
-        icon: github
-
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: A beginner-friendly roadmap for enhancing your online privacy through actionable tips and resources.
 
   navbar:
     displayTitle: true
@@ -153,9 +129,9 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+    base: "https://github.com/beginnnerprivacy/beginnerprivacy.github.io/edit/main/content"
 
-  blog:
+  articles:
     list:
       displayTags: true
       # date | lastmod | publishDate | title | weight

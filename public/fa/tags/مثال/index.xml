@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>هگزترا – مثال</title>
+    <title>حریم خصوصی مبتدی – مثال</title>
     <link>http://localhost:1313/fa/tags/%D9%85%D8%AB%D8%A7%D9%84/</link>
-    <description>Recent content in مثال on هگزترا</description>
+    <description>Recent content in مثال on حریم خصوصی مبتدی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa</language>
     <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
@@ -17,10 +17,10 @@
     
     <item>
       <title>راهنمای استفاده سینتکس مارک‌داون</title>
-      <link>http://localhost:1313/fa/blog/markdown/</link>
+      <link>http://localhost:1313/fa/articles/markdown/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fa/blog/markdown/</guid>
+      <guid>http://localhost:1313/fa/articles/markdown/</guid>
       <description>
         
         

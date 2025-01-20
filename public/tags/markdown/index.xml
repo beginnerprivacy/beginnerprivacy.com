@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hextra – Markdown</title>
+    <title>Beginner Privacy – Markdown</title>
     <link>http://localhost:1313/tags/markdown/</link>
-    <description>Recent content in Markdown on Hextra</description>
+    <description>Recent content in Markdown on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,11 +16,29 @@
     
     
     <item>
+      <title>Why You Should Care About Your Privacy</title>
+      <link>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Heading 2&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heading-2&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#heading-2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Heading 3&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heading-3&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#heading-3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Heading 4&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heading-4&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#heading-4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;Heading 5&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heading-5&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#heading-5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h6&gt;Heading 6&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;heading-6&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#heading-6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h6&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/blog/markdown/</link>
+      <link>http://localhost:1313/articles/markdown/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/markdown/</guid>
+      <guid>http://localhost:1313/articles/markdown/</guid>
       <description>
         
         

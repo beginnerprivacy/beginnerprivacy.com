@@ -1,0 +1,805 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>حریم خصوصی مبتدی – کدهای کوتاه</title>
+    <link>http://localhost:1313/fa/tools/guide/shortcodes/</link>
+    <description>Recent content in کدهای کوتاه on حریم خصوصی مبتدی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    
+	  <atom:link href="http://localhost:1313/fa/tools/guide/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>کامپوننت FileTree</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/filetree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/filetree/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-filetree hx-mt-6 hx-select-none hx-text-sm hx-text-gray-800 dark:hx-text-gray-300 not-prose&#34;&gt;
+  &lt;div class=&#34;hx-inline-block hx-rounded-lg hx-border hx-px-4 hx-py-2 dark:hx-border-neutral-800&#34;&gt;
+  
+
+&lt;li class=&#34;hx-group hx-flex hx-list-none hx-flex-col&#34;&gt;
+  &lt;button class=&#34;hextra-filetree-folder hx-inline-flex hx-cursor-pointer hx-items-center hx-py-1 hover:hx-opacity-60&#34;&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=open]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=closed]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;content&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul data-state=&#34;open&#34; class=&#34;ltr:hx-pl-5 rtl:hx-pr-5 data-[state=closed]:hx-hidden&#34;&gt;
+    &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+      &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;_index.md&lt;/span&gt;
+      &lt;/span&gt;
+    &lt;/li&gt;
+
+    
+
+&lt;li class=&#34;hx-group hx-flex hx-list-none hx-flex-col&#34;&gt;
+  &lt;button class=&#34;hextra-filetree-folder hx-inline-flex hx-cursor-pointer hx-items-center hx-py-1 hover:hx-opacity-60&#34;&gt;
+    &lt;span data-state=&#34;closed&#34; class=&#34;data-[state=open]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span data-state=&#34;closed&#34; class=&#34;data-[state=closed]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;docs&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul data-state=&#34;closed&#34; class=&#34;ltr:hx-pl-5 rtl:hx-pr-5 data-[state=closed]:hx-hidden&#34;&gt;
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;_index.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;introduction.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;introduction.fa.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+    &lt;/ul&gt;
+&lt;/li&gt;
+
+  &lt;/ul&gt;
+&lt;/li&gt;
+
+  &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+    &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;hugo.toml&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/li&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;Markdown&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; filetree/container &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{&amp;lt; filetree/folder name=&amp;#34;content&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {{&amp;lt; filetree/file name=&amp;#34;_index.md&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {{&amp;lt; filetree/folder name=&amp;#34;docs&amp;#34; state=&amp;#34;closed&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      {{&amp;lt; filetree/file name=&amp;#34;_index.md&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      {{&amp;lt; filetree/file name=&amp;#34;introduction.md&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      {{&amp;lt; filetree/file name=&amp;#34;introduction.fa.md&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {{&amp;lt; /filetree/folder &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{&amp;lt; /filetree/folder &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{&amp;lt; filetree/file name=&amp;#34;hugo.toml&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /filetree/container &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>آیکون</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/icon/</guid>
+      <description>
+        
+        
+        &lt;p&gt;برای استفاده از این کد کوتاه درون‌خطی، باید آن را در پیکربندی فعال کنید:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;enableInlineShortcodes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;فهرست آیکون‌های موجود را می‌توانید در &lt;a href=&#34;https://github.com/imfing/hextra/blob/main/data/icons.yaml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;data/icons.yaml&lt;/code&gt;&lt;/a&gt; پیدا کنید.&lt;/p&gt;
+&lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;span class=&#34;hx-inline-block hx-align-text-bottom icon&#34;&gt;&lt;svg height=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;M12 14l9-5-9-5-9 5 9 5z&#34;/&gt;&lt;path d=&#34;M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z&#34;/&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+
+&lt;span class=&#34;hx-inline-block hx-align-text-bottom icon&#34;&gt;&lt;svg height=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+
+&lt;span class=&#34;hx-inline-block hx-align-text-bottom icon&#34;&gt;&lt;svg height=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+
+&lt;span class=&#34;hx-inline-block hx-align-text-bottom icon&#34;&gt;&lt;svg height=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; icon &amp;#34;github&amp;#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;آیکون‌های با طرح‌های متفاوت در &lt;a href=&#34;https://v1.heroicons.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heroicons&lt;/a&gt; نسخه ۱ خارج از جعبه در دسترس هستند.&lt;/p&gt;
+&lt;h3&gt;چجوری آیکون‌های خودمان را اضافه کنیم&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;چجوری-آیکونهای-خودمان-را-اضافه-کنیم&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%da%86%d8%ac%d9%88%d8%b1%db%8c-%d8%a2%db%8c%da%a9%d9%88%d9%86%d9%87%d8%a7%db%8c-%d8%ae%d9%88%d8%af%d9%85%d8%a7%d9%86-%d8%b1%d8%a7-%d8%a7%d8%b6%d8%a7%d9%81%d9%87-%da%a9%d9%86%db%8c%d9%85&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;پرونده &lt;code&gt;data/icons.yaml&lt;/code&gt; را ایجاد کنید، سپس آیکون‌های SVG خود را در فرمت زیر اضافه کنید:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;data/icons.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;your-icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;&amp;lt;svg&amp;gt;your icon svg content&amp;lt;/svg&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;سپس می‌توان آن را در کد کوتاه مانند زیر استفاده کرد:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; icon &amp;#34;your-icon&amp;#34; &amp;gt;}}
+
+{{&amp;lt; card icon=&amp;#34;your-icon&amp;#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;نکته: &lt;a href=&#34;https://iconify.design/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Iconify Design&lt;/a&gt; مکانی عالی برای پیدا کردن آیکون‌های SVG برای سایت شما است.&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>جزئیات</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/details/</guid>
+      <description>
+        
+        
+        &lt;p&gt;یک کامپوننت داخلی برای نمایش محتوای قابل باز و بسته شدن.&lt;/p&gt;
+&lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;details class=&#34;last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group&#34; open&gt;
+  &lt;summary class=&#34;hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[&#39;&#39;] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90&#34;&gt;
+    &lt;strong class=&#34;hx-text-lg&#34;&gt;جزئیات&lt;/strong&gt;
+  &lt;/summary&gt;
+  &lt;div class=&#34;hx-p-2 hx-overflow-hidden&#34;&gt;
+    &lt;p&gt;این محتوای جزئیات است.&lt;/p&gt;
+&lt;p&gt;مارک‌داون &lt;strong&gt;پشتیبانی می‌شود&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;details class=&#34;last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group&#34; &gt;
+  &lt;summary class=&#34;hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[&#39;&#39;] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90&#34;&gt;
+    &lt;strong class=&#34;hx-text-lg&#34;&gt;برای نمایش روی من کلیک کنید&lt;/strong&gt;
+  &lt;/summary&gt;
+  &lt;div class=&#34;hx-p-2 hx-overflow-hidden&#34;&gt;
+    این به طور پیش‌فرض پنهان می‌شود.
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% details title=&amp;#34;جزئیات&amp;#34; %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;این محتوای جزئیات است.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;مارک‌داون &lt;span class=&#34;gs&#34;&gt;**پشتیبانی می‌شود**&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /details %}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% details title=&amp;#34;برای نمایش روی من کلیک کنید&amp;#34;closed=&amp;#34;true&amp;#34; %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;این به طور پیش‌فرض پنهان می‌شود.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /details %}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>زبانه‌ها</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/tabs/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800&#34;&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-0&#34; aria-selected=&#34;true&#34;  tabindex=&#34;0&#34;  data-state=&#34;selected&#34;&gt;JSON&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-1&#34;&gt;YAML&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-2&#34;&gt;TOML&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-0&#34;
+  role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;strong&gt;JSON&lt;/strong&gt;: جیسون معادل اختصاری عبارت JavaScript Object Notation به معنی «نمادگذاری اشیا در جاوا اسکریپت» است. جیسون یک قالب استاندارد باز است که امکان تبادل داده‌ها در وب با استفاده از جفت‌های خصوصیت-کلید را ممکن ساخته است.&lt;/div&gt;
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-1&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;YAML&lt;/strong&gt;: یک زبان برای سریال‌سازی داده قابل-خواندن-برای-انسان است.&lt;/div&gt;
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-2&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;TOML&lt;/strong&gt;: یک قالب پرونده پیکربندی که به هدف سادگی در خوانایی به کمک داشتن معانی مشخص با هدف «کمینه» و مینیمال بودن ارائه شده است.&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;پیش‌فرض&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;پیشفرض&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%be%db%8c%d8%b4%d9%81%d8%b1%d8%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tabs items=&amp;#34;JSON,YAML,TOML&amp;#34; &amp;gt;}}
+
+  {{&amp;lt; tab &amp;gt;}}**JSON**: جیسون معادل اختصاری عبارت JavaScript Object Notation به معنی «نمادگذاری اشیا در جاوا اسکریپت» است. جیسون یک قالب استاندارد باز است که امکان تبادل داده‌ها در وب با استفاده از جفت‌های خصوصیت-کلید را ممکن ساخته است.{{&amp;lt; /tab &amp;gt;}}
+  {{&amp;lt; tab &amp;gt;}}**YAML**: یک زبان برای سریال‌سازی داده قابل-خواندن-برای-انسان است.{{&amp;lt; /tab &amp;gt;}}
+  {{&amp;lt; tab &amp;gt;}}**TOML**: یک قالب پرونده پیکربندی که به هدف سادگی در خوانایی به کمک داشتن معانی مشخص با هدف «کمینه» و مینیمال بودن ارائه شده است.{{&amp;lt; /tab &amp;gt;}}
+
+{{&amp;lt; /tabs &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;مشخص کردن زبانه‌ پیش‌فرض&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مشخص-کردن-زبانه-پیشفرض&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%b4%d8%ae%d8%b5-%da%a9%d8%b1%d8%af%d9%86-%d8%b2%d8%a8%d8%a7%d9%86%d9%87-%d9%be%db%8c%d8%b4%d9%81%d8%b1%d8%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;از ویژگی &lt;code&gt;defaultIndex&lt;/code&gt; برای مشخص کردن زبانه‌ پیش‌فرض استفاده کنید. این شاخص از 0 شروع می‌شود.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tabs items=&amp;#34;JSON,YAML,TOML&amp;#34; defaultIndex=&amp;#34;1&amp;#34; &amp;gt;}}
+
+  {{&amp;lt; tab &amp;gt;}}**JSON**: جیسون معادل اختصاری عبارت JavaScript Object Notation به معنی «نمادگذاری اشیا در جاوا اسکریپت» است. جیسون یک قالب استاندارد باز است که امکان تبادل داده‌ها در وب با استفاده از جفت‌های خصوصیت-کلید را ممکن ساخته است.{{&amp;lt; /tab &amp;gt;}}
+  {{&amp;lt; tab &amp;gt;}}**YAML**: یک زبان برای سریال‌سازی داده قابل-خواندن-برای-انسان است.{{&amp;lt; /tab &amp;gt;}}
+  {{&amp;lt; tab &amp;gt;}}**TOML**: یک قالب پرونده پیکربندی که به هدف سادگی در خوانایی به کمک داشتن معانی مشخص با هدف «کمینه» و مینیمال بودن ارائه شده است.{{&amp;lt; /tab &amp;gt;}}
+
+{{&amp;lt; /tabs &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;زبانه‌ &lt;code&gt;YAML&lt;/code&gt; به طور پیش‌فرض انتخاب می‌شود.&lt;/p&gt;
+&lt;div class=&#34;hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800&#34;&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-0&#34;&gt;JSON&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-1&#34; aria-selected=&#34;true&#34;  tabindex=&#34;0&#34;  data-state=&#34;selected&#34;&gt;YAML&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-2&#34;&gt;TOML&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-0&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;JSON&lt;/strong&gt;: جیسون معادل اختصاری عبارت JavaScript Object Notation به معنی «نمادگذاری اشیا در جاوا اسکریپت» است. جیسون یک قالب استاندارد باز است که امکان تبادل داده‌ها در وب با استفاده از جفت‌های خصوصیت-کلید را ممکن ساخته است.&lt;/div&gt;
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-1&#34;
+  role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;strong&gt;YAML&lt;/strong&gt;: یک زبان برای سریال‌سازی داده قابل-خواندن-برای-انسان است.&lt;/div&gt;
+&lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-2&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;TOML&lt;/strong&gt;: یک قالب پرونده پیکربندی که به هدف سادگی در خوانایی به کمک داشتن معانی مشخص با هدف «کمینه» و مینیمال بودن ارائه شده است.&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h3&gt;استفاده از مارک‌داون&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده-از-مارکداون&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87-%d8%a7%d8%b2-%d9%85%d8%a7%d8%b1%da%a9%d8%af%d8%a7%d9%88%d9%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;سینتکس مارک‌داون از جمله بلوک کد نیز پشتیبانی می‌شود:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tabs items=&amp;#34;JSON,YAML,TOML&amp;#34; &amp;gt;}}
+
+  {{&amp;lt; tab &amp;gt;}}
+  ```json
+  { &amp;#34;سلام&amp;#34;: &amp;#34;دنیا&amp;#34; }
+  ```
+  {{&amp;lt; /tab &amp;gt;}}
+
+  ... زبانه‌های دیگر را به همین ترتیب اضافه کنید
+
+{{&amp;lt; /tabs &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800&#34;&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-0&#34; aria-selected=&#34;true&#34;  tabindex=&#34;0&#34;  data-state=&#34;selected&#34;&gt;JSON&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-1&#34;&gt;YAML&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-2&#34;&gt;TOML&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-0&#34;
+  role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;&amp;#34;سلام&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;دنیا&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-1&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;سلام&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;دنیا&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-2&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;سلام&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;دنیا&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>کامپوننت فراخوانی</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/callout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/callout/</guid>
+      <description>
+        
+        
+        &lt;p&gt;یک کامپوننت داخلی برای نشان دادن اطلاعات مهم به خواننده.&lt;/p&gt;
+&lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-orange-100 hx-bg-orange-50 hx-text-orange-800 dark:hx-border-orange-400/30 dark:hx-bg-orange-400/20 dark:hx-text-orange-300&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;👾&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;فراخوانی&lt;/strong&gt; یک متن کوتاه است که برای جلب توجه در نظر گرفته شده است.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;فراخوانی&lt;/strong&gt; یک متن کوتاه است که برای جلب توجه در نظر گرفته شده است.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;فراخوانی&lt;/strong&gt; یک متن کوتاه است که برای جلب توجه در نظر گرفته شده است.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-red-200 hx-bg-red-100 hx-text-red-900 dark:hx-border-red-200/30 dark:hx-bg-red-900/30 dark:hx-text-red-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;🚫&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;فراخوانی&lt;/strong&gt; یک متن کوتاه است که برای جلب توجه در نظر گرفته شده است.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;پیش‌فرض&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;پیشفرض&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%be%db%8c%d8%b4%d9%81%d8%b1%d8%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-orange-100 hx-bg-orange-50 hx-text-orange-800 dark:hx-border-orange-400/30 dark:hx-bg-orange-400/20 dark:hx-text-orange-300&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;🌐&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Hugo را می‌توانید برای ایجاد طیف گسترده‌ای از وب‌سایت‌ها، از جمله وبلاگ‌ها، نمونه‌کارها، سایت‌های مستندسازی و غیره استفاده کرد.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;emoji&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;🌐&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  Hugo را می‌توانید برای ایجاد طیف گسترده‌ای از وب‌سایت‌ها، از جمله وبلاگ‌ها، نمونه‌کارها، سایت‌های مستندسازی و غیره استفاده کرد.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;اطلاعات&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;اطلاعات&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;لطفا برای مشاهده آخرین نسخه‌ها به گیت‌هاب مراجعه کنید.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;info&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  لطفا برای مشاهده آخرین نسخه‌ها به گیت‌هاب مراجعه کنید.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;هشدار&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;هشدار&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%87%d8%b4%d8%af%d8%a7%d8%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;این API در نسخه بعدی منسوخ خواهد شد.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;warning&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  این API در نسخه بعدی منسوخ خواهد شد.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;خطا&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;خطا&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%ae%d8%b7%d8%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-red-200 hx-bg-red-100 hx-text-red-900 dark:hx-border-red-200/30 dark:hx-bg-red-900/30 dark:hx-text-red-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;🚫&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;مشکلی پیش آمد و اتفاقی رخ خواهد شد.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;error&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  مشکلی پیش آمد و اتفاقی رخ خواهد شد.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;callout&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>کامپوننت کارت‌ها</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/cards/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;../callout&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;1.5&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;فراخوانی&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/fa&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;بدون آیکون&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+      &gt;&lt;img
+        alt=&#34;کارت تصویر&#34;
+        class=&#34;hextra-card-image&#34;
+        loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        src=&#34;https://source.unsplash.com/featured/800x600?landscape&#34;
+        
+        
+        
+      /&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;کارت تصویر&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;یک چشم‌انداز Unsplash&lt;/div&gt;&lt;/a&gt;
+  
+      &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+      &gt;&lt;img
+        alt=&#34;تصویر محلی&#34;
+        class=&#34;hextra-card-image&#34;
+        loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        src=&#34;http://localhost:1313/images/card-image-unprocessed.jpg&#34;
+        
+        
+        
+      /&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;تصویر محلی&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;تصویر خام در دایرکتوری استاتیک است.&lt;/div&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-gray-100 hx-shadow dark:hx-border-neutral-700 dark:hx-bg-neutral-800 dark:hx-text-gray-50 hover:hx-shadow-lg dark:hover:hx-border-neutral-500 dark:hover:hx-bg-neutral-700&#34;href=&#34;http://localhost:1313/&#34;
+      &gt;&lt;img
+        alt=&#34;تصویر محلی&#34;
+        class=&#34;hextra-card-image&#34;
+        loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        src=&#34;http://localhost:1313/images/space_hu11732582055139980167.webp&#34;
+        width=&#34;600&#34;
+        height=&#34;450&#34;
+        
+      /&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;تصویر محلی&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;تصویر در دایرکتوری assets می‌باشد و پردازش توسط Hugo شده است.&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; cards &amp;gt;}}
+  {{&amp;lt; card link=&amp;#34;../callout&amp;#34; title=&amp;#34;فراخوانی&amp;#34; icon=&amp;#34;warning&amp;#34; &amp;gt;}}
+  {{&amp;lt; card link=&amp;#34;/fa&amp;#34; title=&amp;#34;بدون آیکون&amp;#34; &amp;gt;}}
+{{&amp;lt; /cards &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; cards &amp;gt;}}
+  {{&amp;lt; card link=&amp;#34;/&amp;#34; title=&amp;#34;کارت تصویر&amp;#34; image=&amp;#34;https://source.unsplash.com/featured/800x600?landscape&amp;#34; subtitle=&amp;#34;یک چشم‌انداز Unsplash&amp;#34; &amp;gt;}}
+  {{&amp;lt; card link=&amp;#34;/&amp;#34; title=&amp;#34;تصویر محلی&amp;#34; image=&amp;#34;/images/card-image-unprocessed.jpg&amp;#34; subtitle=&amp;#34;تصویر خام در دایرکتوری استاتیک است.&amp;#34; &amp;gt;}}
+  {{&amp;lt; card link=&amp;#34;/&amp;#34; title=&amp;#34;تصویر محلی&amp;#34; image=&amp;#34;images/space.jpg&amp;#34; subtitle=&amp;#34;تصویر در دایرکتوری assets می‌باشد و پردازش توسط Hugo شده است.&amp;#34; method=&amp;#34;Resize&amp;#34; options=&amp;#34;600x q80 webp&amp;#34; &amp;gt;}}
+{{&amp;lt; /cards &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;پارامترهای کارت&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;پارامترهای-کارت&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%be%d8%a7%d8%b1%d8%a7%d9%85%d8%aa%d8%b1%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%aa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;پارامتر&lt;/th&gt;
+          &lt;th&gt;توضیحات&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;link&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;نشانی اینترنتی (داخلی یا خارجی).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;عنوان برای کارت.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;subtitle&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;عنوان زیرنویس (از مارک‌داون پشتیبانی می‌کند)..&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;icon&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;نام آیکون.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;کارت تصویر&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;کارت-تصویر&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%da%a9%d8%a7%d8%b1%d8%aa-%d8%aa%d8%b5%d9%88%db%8c%d8%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;علاوه بر این، کارت از افزودن تصویر و پردازش از طریق این پارامترها پشتیبانی می‌کند:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;پارامتر&lt;/th&gt;
+          &lt;th&gt;توضیحات&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;نشانی اینترنتی تصویر کارت را مشخص می‌کند.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;method&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;روش پردازش تصویر Hugo را تنظیم می‌کند.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;options&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;گزینه‌های پردازش تصویر Hugo را پیکربندی می‌کند.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;کارت از سه نوع تصویر پشتیبانی می‌کند:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;تصویر از راه دور: نشانی اینترنتی کامل در پارامتر &lt;code&gt;image&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;تصویر استاتیک: از مسیر نسبی در دایرکتوری &lt;code&gt;static/&lt;/code&gt; Hugo استفاده کنید.&lt;/li&gt;
+&lt;li&gt;تصویر پردازش شده: از مسیر نسبی در دایرکتوری &lt;code&gt;assets/&lt;/code&gt; Hugo استفاده کنید.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;هگزترا در صورت نیاز به پردازش تصویر در حین ساخت، به طور خودکار تشخیص می‌دهد و پارامتر &lt;code&gt;options&lt;/code&gt; یا تنظیمات پیش‌فرض را اعمال می‌کند (تغییر اندازه، 800x، کیفیت 80، فرمت WebP).
+در حال حاضر این &lt;code&gt;method&lt;/code&gt; را پشتیبانی می‌کند: &lt;code&gt;Resize&lt;/code&gt;، &lt;code&gt;Fit&lt;/code&gt;، &lt;code&gt;Fill&lt;/code&gt; و &lt;code&gt;Crop&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;برای اطلاعات بیشتر در مورد دستورات، روش‌ها و گزینه‌های پردازش تصویر داخلی Hugo به &lt;a href=&#34;https://gohugo.io/content-management/image-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;مستندات پردازش تصویر&lt;/a&gt; آن‌ها مراجعه کنید.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>مراحل</title>
+      <link>http://localhost:1313/fa/tools/guide/shortcodes/steps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/fa/tools/guide/shortcodes/steps/</guid>
+      <description>
+        
+        
+        &lt;p&gt;یک کامپوننت داخلی برای نمایش یک سری مراحل.&lt;/p&gt;
+&lt;h2&gt;مثال&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مثال&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%ab%d8%a7%d9%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;steps hx-ml-4 hx-mb-12 ltr:hx-border-l rtl:hx-border-r hx-border-gray-200 ltr:hx-pl-6 rtl:hx-pr-6 dark:hx-border-neutral-800 [counter-reset:step]&#34;&gt;
+&lt;h3&gt;مرحله ۱&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مرحله-۱&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%b1%d8%ad%d9%84%d9%87-%db%b1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;این اولین مرحله است.&lt;/p&gt;
+&lt;h3&gt;مرحله ۲&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مرحله-۲&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%b1%d8%ad%d9%84%d9%87-%db%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;این دومین مرحله است.&lt;/p&gt;
+&lt;h3&gt;مرحله ۳&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;مرحله-۳&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d9%85%d8%b1%d8%ad%d9%84%d9%87-%db%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;این سومین مرحله است.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;استفاده&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;استفاده&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;سرتیتر مارک‌داون h3 را در کد کوتاه &lt;code&gt;steps&lt;/code&gt; قرار دهید.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% steps %}}
+
+### مرحله ۱
+
+این اولین مرحله است.
+
+### مرحله ۲
+
+این دومین مرحله است.
+
+{{% /steps %}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;کپی کد&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

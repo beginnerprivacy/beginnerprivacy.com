@@ -1,5 +1,5 @@
 ---
-title: Hextra テーマ
+title: 初心者のプライバシー
 layout: hextra-home
 ---
 

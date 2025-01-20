@@ -1,0 +1,457 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>初心者のプライバシー – 上級者向けトピック</title>
+    <link>http://localhost:1313/ja/tools/advanced/</link>
+    <description>Recent content in 上級者向けトピック on 初心者のプライバシー</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+	  <atom:link href="http://localhost:1313/ja/tools/advanced/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>多言語対応</title>
+      <link>http://localhost:1313/ja/tools/advanced/multi-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ja/tools/advanced/multi-language/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hextraは、Hugoの&lt;a href=&#34;https://gohugo.io/content-management/multilingual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;多言語モード&lt;/a&gt;を使用して、複数の言語でサイトを作成することをサポートしています。&lt;/p&gt;
+&lt;h2&gt;多言語対応を有効にする&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;多言語対応を有効にする&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%9a%e8%a8%80%e8%aa%9e%e5%af%be%e5%bf%9c%e3%82%92%e6%9c%89%e5%8a%b9%e3%81%ab%e3%81%99%e3%82%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;サイトを多言語対応にするためには、Hugoにサポートする言語を伝える必要があります。サイトの設定ファイルに以下を追加します：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;defaultContentLanguage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;en&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;languages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;en&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;languageName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;English&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;fr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;languageName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Français&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ja&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;languageName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;日本語&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;ファイル名による翻訳管理&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ファイル名による翻訳管理&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%90%8d%e3%81%ab%e3%82%88%e3%82%8b%e7%bf%bb%e8%a8%b3%e7%ae%a1%e7%90%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hugoは、ファイル名による翻訳管理をサポートしています。例えば、英語のファイル &lt;code&gt;content/docs/_index.md&lt;/code&gt; がある場合、フランス語の翻訳用に &lt;code&gt;content/docs/_index.fr.md&lt;/code&gt; というファイルを作成できます。&lt;/p&gt;
+&lt;div class=&#34;hextra-filetree hx-mt-6 hx-select-none hx-text-sm hx-text-gray-800 dark:hx-text-gray-300 not-prose&#34;&gt;
+  &lt;div class=&#34;hx-inline-block hx-rounded-lg hx-border hx-px-4 hx-py-2 dark:hx-border-neutral-800&#34;&gt;
+  
+
+&lt;li class=&#34;hx-group hx-flex hx-list-none hx-flex-col&#34;&gt;
+  &lt;button class=&#34;hextra-filetree-folder hx-inline-flex hx-cursor-pointer hx-items-center hx-py-1 hover:hx-opacity-60&#34;&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=open]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=closed]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;content&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul data-state=&#34;open&#34; class=&#34;ltr:hx-pl-5 rtl:hx-pr-5 data-[state=closed]:hx-hidden&#34;&gt;
+    
+
+&lt;li class=&#34;hx-group hx-flex hx-list-none hx-flex-col&#34;&gt;
+  &lt;button class=&#34;hextra-filetree-folder hx-inline-flex hx-cursor-pointer hx-items-center hx-py-1 hover:hx-opacity-60&#34;&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=open]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span data-state=&#34;open&#34; class=&#34;data-[state=closed]:hx-hidden&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;
+    &lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;docs&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul data-state=&#34;open&#34; class=&#34;ltr:hx-pl-5 rtl:hx-pr-5 data-[state=closed]:hx-hidden&#34;&gt;
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;_index.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;_index.fr.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+      &lt;li class=&#34;hx-flex hx-list-none&#34;&gt;
+        &lt;span class=&#34;hx-inline-flex hx-cursor-default hx-items-center hx-py-1&#34;&gt;&lt;svg width=1em xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;ltr:hx-ml-1 rtl:hx-mr-1&#34;&gt;_index.ja.md&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/li&gt;
+
+    &lt;/ul&gt;
+&lt;/li&gt;
+
+  &lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;注: Hugoは&lt;a href=&#34;https://gohugo.io/content-management/multilingual/#translation-by-content-directory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;コンテンツディレクトリによる翻訳&lt;/a&gt;もサポートしています。&lt;/p&gt;
+&lt;h2&gt;メニュー項目の翻訳&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;メニュー項目の翻訳&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%e9%a0%85%e7%9b%ae%e3%81%ae%e7%bf%bb%e8%a8%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ナビゲーションバーのメニュー項目を翻訳するには、&lt;code&gt;identifier&lt;/code&gt; フィールドを設定する必要があります：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;menu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;identifier&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;documentation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Documentation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pageRef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;/docs&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;identifier&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;blog&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Blog&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pageRef&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;/blog&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;そして、対応するi18nファイルで翻訳します：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;i18n/fr.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;documentation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Documentation&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;blog&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Blog&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;文字列の翻訳&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;文字列の翻訳&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%96%87%e5%ad%97%e5%88%97%e3%81%ae%e7%bf%bb%e8%a8%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;他の場所の文字列を翻訳するには、対応するi18nファイルに翻訳を追加する必要があります：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;i18n/fr.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;readMore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Lire la suite&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;テーマで使用されている文字列のリストは、&lt;code&gt;i18n/en.yaml&lt;/code&gt; ファイルにあります。&lt;/p&gt;
+&lt;h2&gt;さらに詳しく&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;さらに詳しく&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%95%e3%82%89%e3%81%ab%e8%a9%b3%e3%81%97%e3%81%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/multilingual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo 多言語モード&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo 多言語 Part 1: コンテンツ翻訳&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo 多言語 Part 2: 文字列のローカライズ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Hextraのカスタマイズ</title>
+      <link>http://localhost:1313/ja/tools/advanced/customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ja/tools/advanced/customization/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hextraは、&lt;code&gt;hugo.yaml&lt;/code&gt;設定ファイル内でいくつかのデフォルトのカスタマイズオプションを提供し、テーマを設定できます。
+このページでは、利用可能なオプションと、テーマをさらにカスタマイズする方法について説明します。&lt;/p&gt;
+&lt;h2&gt;カスタムCSS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カスタムcss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0css&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;カスタムCSSを追加するには、サイト内に&lt;code&gt;assets/css/custom.css&lt;/code&gt;ファイルを作成する必要があります。Hextraはこのファイルを自動的に読み込みます。&lt;/p&gt;
+&lt;h3&gt;フォントファミリー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フォントファミリー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88%e3%83%95%e3%82%a1%e3%83%9f%e3%83%aa%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;コンテンツのフォントファミリーは、以下のようにカスタマイズできます：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;assets/css/custom.css&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;content&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Times New Roman&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Times&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;インラインコード要素&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;インラインコード要素&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b3%e3%83%bc%e3%83%89%e8%a6%81%e7%b4%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;other text&lt;/code&gt;と混在するテキストの色は、以下のようにカスタマイズできます：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;assets/css/custom.css&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;content&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;not&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;code-block&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#c97c2e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;プライマリカラー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;プライマリカラー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%97%e3%83%a9%e3%82%a4%e3%83%9e%e3%83%aa%e3%82%ab%e3%83%a9%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;テーマのプライマリカラーは、&lt;code&gt;--primary-hue&lt;/code&gt;、&lt;code&gt;--primary-saturation&lt;/code&gt;、&lt;code&gt;--primary-lightness&lt;/code&gt;変数を設定することでカスタマイズできます：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;assets/css/custom.css&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nv&#34;&gt;--primary-hue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;deg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nv&#34;&gt;--primary-saturation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nv&#34;&gt;--primary-lightness&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;テーマのさらなるカスタマイズ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;テーマのさらなるカスタマイズ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%86%e3%83%bc%e3%83%9e%e3%81%ae%e3%81%95%e3%82%89%e3%81%aa%e3%82%8b%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;テーマは、公開されているCSSクラスを介してデフォルトのスタイルをオーバーライドすることでさらにカスタマイズできます。フッター要素をカスタマイズする例：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;assets/css/custom.css&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;hextra-footer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c&#34;&gt;/* フッター要素に適用されるスタイル */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;hextra-footer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;is&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;~=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dark&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c&#34;&gt;/* ダークモードでのフッター要素に適用されるスタイル */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;以下のクラスを使用して、テーマのさまざまな部分をカスタマイズできます。&lt;/p&gt;
+&lt;h4&gt;一般&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;一般&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%80%e8%88%ac&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-scrollbar&lt;/code&gt; - スクロールバー要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content&lt;/code&gt; - ページコンテンツコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;ショートコード&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ショートコード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b7%e3%83%a7%e3%83%bc%e3%83%88%e3%82%b3%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;バッジ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;バッジ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%90%e3%83%83%e3%82%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-badge&lt;/code&gt; - バッジ要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;カード&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-card&lt;/code&gt; - カード要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-card-image&lt;/code&gt; - カード画像要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-card-icon&lt;/code&gt; - カードアイコン要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-card-subtitle&lt;/code&gt; - カードサブタイトル要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;カードグリッド&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カードグリッド&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%83%bc%e3%83%89%e3%82%b0%e3%83%aa%e3%83%83%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-cards&lt;/code&gt; - カードグリッドコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Jupyter Notebook&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;jupyter-notebook&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#jupyter-notebook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-jupyter-code-cell&lt;/code&gt; - Jupyterコードセルコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-jupyter-code-cell-outputs-container&lt;/code&gt; - Jupyterコードセル出力コンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-jupyter-code-cell-outputs&lt;/code&gt; - Jupyterコードセル出力div要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PDF&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pdf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pdf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-pdf&lt;/code&gt; - PDFコンテナ要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;ステップ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ステップ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;steps&lt;/code&gt; - ステップコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;タブ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;タブ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%bf%e3%83%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-tabs-panel&lt;/code&gt; - タブパネルコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-tabs-toggle&lt;/code&gt; - タブトグルボタン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;ファイルツリー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ファイルツリー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%84%e3%83%aa%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-filetree&lt;/code&gt; - ファイルツリーコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;フォルダ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フォルダ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-filetree-folder&lt;/code&gt; - ファイルツリーフォルダコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;ナビゲーションバー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ナビゲーションバー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%90%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;nav-container&lt;/code&gt; - ナビゲーションバーコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nav-container-blur&lt;/code&gt; - ナビゲーションバーコンテナのぼかし要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hamburger-menu&lt;/code&gt; - ハンバーガーメニューボタン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;フッター&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フッター&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-footer&lt;/code&gt; - フッター要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-custom-footer&lt;/code&gt; - カスタムフッターセクションコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;検索&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;検索&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a4%9c%e7%b4%a2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;search-wrapper&lt;/code&gt; - 検索ラッパーコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;search-input&lt;/code&gt; - 検索入力要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;search-results&lt;/code&gt; - 検索結果リストコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;目次&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;目次&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%9b%ae%e6%ac%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-toc&lt;/code&gt; - 目次コンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;サイドバー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;サイドバー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mobile-menu-overlay&lt;/code&gt; - モバイルメニューのオーバーレイ要素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebar-container&lt;/code&gt; - サイドバーコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebar-active-item&lt;/code&gt; - サイドバーのアクティブアイテム&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;言語スイッチャー&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;言語スイッチャー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%a8%80%e8%aa%9e%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%83%a3%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;language-switcher&lt;/code&gt; - 言語スイッチャーボタン&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;language-options&lt;/code&gt; - 言語オプションコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;テーマトグル&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;テーマトグル&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%86%e3%83%bc%e3%83%9e%e3%83%88%e3%82%b0%e3%83%ab&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;theme-toggle&lt;/code&gt; - テーマトグルボタン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;コードコピーボタン&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;コードコピーボタン&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b3%e3%83%bc%e3%83%89%e3%82%b3%e3%83%94%e3%83%bc%e3%83%9c%e3%82%bf%e3%83%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-code-copy-btn-container&lt;/code&gt; - コードコピーボタンコンテナ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hextra-code-copy-btn&lt;/code&gt; - コードコピーボタン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;コードブロック&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;コードブロック&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b3%e3%83%bc%e3%83%89%e3%83%96%e3%83%ad%e3%83%83%e3%82%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-code-block&lt;/code&gt; - コードブロックコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;フィーチャーカード&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フィーチャーカード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%83%bc%e3%82%ab%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-feature-card&lt;/code&gt; - フィーチャーカードリンク要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;フィーチャーグリッド&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フィーチャーグリッド&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%83%bc%e3%82%b0%e3%83%aa%e3%83%83%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hextra-feature-grid&lt;/code&gt; - フィーチャーグリッドコンテナ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;パンくずリスト&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;パンくずリスト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%91%e3%83%b3%e3%81%8f%e3%81%9a%e3%83%aa%e3%82%b9%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;パンくずリスト用の特定のクラスはありません。&lt;/p&gt;
+&lt;h3&gt;シンタックスハイライト&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;シンタックスハイライト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b7%e3%83%b3%e3%82%bf%e3%83%83%e3%82%af%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;利用可能なシンタックスハイライトテーマのリストは、&lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chroma Styles Gallery&lt;/a&gt;で確認できます。スタイルシートは以下のコマンドで生成できます：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo gen chromastyles --style&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;github&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;デフォルトのシンタックスハイライトテーマをオーバーライドするには、生成されたスタイルをカスタムCSSファイルに追加します。&lt;/p&gt;
+&lt;h2&gt;カスタムスクリプト&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カスタムスクリプト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;すべてのページのheadの最後にカスタムスクリプトを追加するには、以下のファイルを追加します：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;layouts/partials/custom/head-end.html&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;フッターのカスタムセクション&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;フッターのカスタムセクション&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%81%ae%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%82%bb%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;フッターに追加のセクションを追加するには、サイト内に&lt;code&gt;layouts/partials/custom/footer.html&lt;/code&gt;ファイルを作成します。&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;layouts/partials/custom/footer.html&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;&amp;lt;!-- ここにフッター要素を追加 --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;追加されたセクションは、フッターの著作権セクションの前に追加されます。
+&lt;a href=&#34;https://developer.mozilla.org/ja/docs/Web/HTML&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML&lt;/a&gt;と&lt;a href=&#34;https://gohugo.io/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugoテンプレート構文&lt;/a&gt;を使用して、独自のコンテンツを追加できます。&lt;/p&gt;
+&lt;p&gt;フッターセクションで利用可能なHugo変数は、&lt;code&gt;.switchesVisible&lt;/code&gt;と&lt;code&gt;.copyrightVisible&lt;/code&gt;です。&lt;/p&gt;
+&lt;h2&gt;カスタムレイアウト&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;カスタムレイアウト&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;テーマのレイアウトは、サイトの&lt;code&gt;layouts&lt;/code&gt;ディレクトリ内に同じ名前のファイルを作成することでオーバーライドできます。
+例えば、ドキュメント用の&lt;code&gt;single.html&lt;/code&gt;レイアウトをオーバーライドするには、サイト内に&lt;code&gt;layouts/docs/single.html&lt;/code&gt;ファイルを作成します。&lt;/p&gt;
+&lt;p&gt;詳細については、&lt;a href=&#34;https://gohugo.io/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugoテンプレート&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;h2&gt;さらなるカスタマイズ&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;さらなるカスタマイズ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%95%e3%82%89%e3%81%aa%e3%82%8b%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;探しているものが見つかりませんでしたか？&lt;a href=&#34;https://github.com/imfing/hextra/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ディスカッションを開く&lt;/a&gt;か、テーマに貢献してください！&lt;/p&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>コメントシステム</title>
+      <link>http://localhost:1313/ja/tools/advanced/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ja/tools/advanced/comments/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Hextraは、サイトにコメントシステムを追加することをサポートしています。
+現在、&lt;a href=&#34;https://giscus.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;giscus&lt;/a&gt;がサポートされています。&lt;/p&gt;
+&lt;h2&gt;giscus&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;giscus&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#giscus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://giscus.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;giscus&lt;/a&gt;は、&lt;a href=&#34;https://docs.github.com/ja/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Discussions&lt;/a&gt;を利用したコメントシステムです。無料でオープンソースです。&lt;/p&gt;
+&lt;p&gt;giscusを有効にするには、サイトの設定ファイルに以下を追加する必要があります：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;comments&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;giscus&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;giscus&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;&amp;lt;リポジトリ&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repoId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;&amp;lt;リポジトリID&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;category&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;&amp;lt;カテゴリ&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;categoryId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;&amp;lt;カテゴリID&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;giscusの設定は、&lt;a href=&#34;https://giscus.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;giscus.app&lt;/a&gt;のウェブサイトから構築できます。詳細もそこで確認できます。&lt;/p&gt;
+&lt;p&gt;特定のページでコメントを有効または無効にするには、ページのフロントマターに以下を追加します：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div class=&#34;filename not-prose&#34; dir=&#34;auto&#34;&gt;content/docs/about.md&lt;/div&gt;&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;について&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;comments&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

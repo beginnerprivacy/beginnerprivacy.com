@@ -2,275 +2,252 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/getting-started/</loc>
+    <loc>http://localhost:1313/tools/getting-started/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/getting-started/"
+                href="http://localhost:1313/fa/tools/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/getting-started/"
+                href="http://localhost:1313/ja/tools/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/getting-started/"
+                href="http://localhost:1313/zh-cn/tools/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/getting-started/"
+                href="http://localhost:1313/tools/getting-started/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/advanced/multi-language/</loc>
+    <loc>http://localhost:1313/tools/advanced/multi-language/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/advanced/multi-language/"
+                href="http://localhost:1313/fa/tools/advanced/multi-language/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/advanced/multi-language/"
+                href="http://localhost:1313/ja/tools/advanced/multi-language/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/advanced/multi-language/"
+                href="http://localhost:1313/zh-cn/tools/advanced/multi-language/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/advanced/multi-language/"
+                href="http://localhost:1313/tools/advanced/multi-language/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/organize-files/</loc>
+    <loc>http://localhost:1313/tools/guide/organize-files/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/organize-files/"
+                href="http://localhost:1313/fa/tools/guide/organize-files/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/organize-files/"
+                href="http://localhost:1313/ja/tools/guide/organize-files/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/organize-files/"
+                href="http://localhost:1313/zh-cn/tools/guide/organize-files/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/organize-files/"
+                href="http://localhost:1313/tools/guide/organize-files/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/configuration/</loc>
+    <loc>http://localhost:1313/tools/guide/configuration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/configuration/"
+                href="http://localhost:1313/fa/tools/guide/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/configuration/"
+                href="http://localhost:1313/ja/tools/guide/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/configuration/"
+                href="http://localhost:1313/zh-cn/tools/guide/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/configuration/"
+                href="http://localhost:1313/tools/guide/configuration/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/</loc>
+    <loc>http://localhost:1313/tools/guide/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/"
+                href="http://localhost:1313/fa/tools/guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/"
+                href="http://localhost:1313/ja/tools/guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/"
+                href="http://localhost:1313/zh-cn/tools/guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/"
+                href="http://localhost:1313/tools/guide/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/markdown/</loc>
+    <loc>http://localhost:1313/tools/guide/markdown/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/markdown/"
+                href="http://localhost:1313/fa/tools/guide/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/markdown/"
+                href="http://localhost:1313/ja/tools/guide/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/markdown/"
+                href="http://localhost:1313/zh-cn/tools/guide/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/markdown/"
+                href="http://localhost:1313/tools/guide/markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/syntax-highlighting/</loc>
+    <loc>http://localhost:1313/tools/guide/syntax-highlighting/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/syntax-highlighting/"
+                href="http://localhost:1313/fa/tools/guide/syntax-highlighting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/syntax-highlighting/"
+                href="http://localhost:1313/ja/tools/guide/syntax-highlighting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/syntax-highlighting/"
+                href="http://localhost:1313/zh-cn/tools/guide/syntax-highlighting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/syntax-highlighting/"
+                href="http://localhost:1313/tools/guide/syntax-highlighting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/latex/</loc>
+    <loc>http://localhost:1313/tools/guide/latex/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/latex/"
+                href="http://localhost:1313/fa/tools/guide/latex/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/latex/"
+                href="http://localhost:1313/ja/tools/guide/latex/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/latex/"
+                href="http://localhost:1313/zh-cn/tools/guide/latex/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/latex/"
+                href="http://localhost:1313/tools/guide/latex/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/diagrams/</loc>
+    <loc>http://localhost:1313/tools/guide/diagrams/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/diagrams/"
+                href="http://localhost:1313/fa/tools/guide/diagrams/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/diagrams/"
+                href="http://localhost:1313/ja/tools/guide/diagrams/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/diagrams/"
+                href="http://localhost:1313/zh-cn/tools/guide/diagrams/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/diagrams/"
+                href="http://localhost:1313/tools/guide/diagrams/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/"
+                href="http://localhost:1313/tools/guide/shortcodes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/articles/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/blog/"
+                href="http://localhost:1313/fa/articles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/blog/"
+                href="http://localhost:1313/zh-cn/articles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/"
+                href="http://localhost:1313/articles/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/guide/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/markdown/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -282,26 +259,8 @@
                 href="http://localhost:1313/tags/markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/markdown/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/blog/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/blog/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/markdown/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
@@ -323,11 +282,37 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/markdown/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://localhost:1313/fa/articles/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/markdown/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
                 href="http://localhost:1313/fa/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -340,70 +325,93 @@
                 href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/advanced/</loc>
+    <loc>http://localhost:1313/tools/advanced/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/advanced/"
+                href="http://localhost:1313/fa/tools/advanced/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/advanced/"
+                href="http://localhost:1313/ja/tools/advanced/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/advanced/"
+                href="http://localhost:1313/zh-cn/tools/advanced/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/advanced/"
+                href="http://localhost:1313/tools/advanced/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/callout/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-19T12:38:55+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/callout/"
+                href="http://localhost:1313/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/callout/"
+                href="http://localhost:1313/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/callout/"
+                href="http://localhost:1313/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/callout/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/cards/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/callout/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/cards/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/callout/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/cards/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/callout/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/cards/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/callout/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/cards/"
+                href="http://localhost:1313/tools/guide/shortcodes/callout/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/cards/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/cards/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/cards/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/cards/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/guide/shortcodes/cards/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -428,253 +436,236 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/advanced/comments/</loc>
+    <loc>http://localhost:1313/tools/advanced/comments/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/advanced/comments/"
+                href="http://localhost:1313/fa/tools/advanced/comments/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/advanced/comments/"
+                href="http://localhost:1313/ja/tools/advanced/comments/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/advanced/comments/"
+                href="http://localhost:1313/zh-cn/tools/advanced/comments/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/advanced/comments/"
+                href="http://localhost:1313/tools/advanced/comments/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/advanced/customization/</loc>
+    <loc>http://localhost:1313/tools/advanced/customization/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/advanced/customization/"
+                href="http://localhost:1313/fa/tools/advanced/customization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/advanced/customization/"
+                href="http://localhost:1313/ja/tools/advanced/customization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/advanced/customization/"
+                href="http://localhost:1313/zh-cn/tools/advanced/customization/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/advanced/customization/"
+                href="http://localhost:1313/tools/advanced/customization/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/deploy-site/</loc>
+    <loc>http://localhost:1313/tools/guide/deploy-site/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/deploy-site/"
+                href="http://localhost:1313/fa/tools/guide/deploy-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/deploy-site/"
+                href="http://localhost:1313/ja/tools/guide/deploy-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/deploy-site/"
+                href="http://localhost:1313/zh-cn/tools/guide/deploy-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/deploy-site/"
+                href="http://localhost:1313/tools/guide/deploy-site/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/details/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/details/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/details/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/details/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/details/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/details/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/details/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/details/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/details/"
+                href="http://localhost:1313/tools/guide/shortcodes/details/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/filetree/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/filetree/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/filetree/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/filetree/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/"
+                href="http://localhost:1313/tools/guide/shortcodes/filetree/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/filetree/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/icon/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/filetree/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/icon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/filetree/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/icon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/filetree/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/icon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/filetree/"
+                href="http://localhost:1313/tools/guide/shortcodes/icon/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/icon/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/jupyter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/jupyter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/jupyter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/guide/shortcodes/jupyter/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/others/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/others/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/others/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/guide/shortcodes/others/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/steps/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/icon/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/steps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/icon/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/steps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/icon/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/steps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/icon/"
+                href="http://localhost:1313/tools/guide/shortcodes/steps/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/jupyter/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/jupyter/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/others/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/others/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/others/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/others/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/showcase/</loc>
+    <loc>http://localhost:1313/tools/guide/shortcodes/tabs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/showcase/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/showcase/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/showcase/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/steps/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/steps/"
+                href="http://localhost:1313/fa/tools/guide/shortcodes/tabs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/steps/"
+                href="http://localhost:1313/ja/tools/guide/shortcodes/tabs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/steps/"
+                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/tabs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/steps/"
+                href="http://localhost:1313/tools/guide/shortcodes/tabs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/docs/guide/shortcodes/tabs/</loc>
+    <loc>http://localhost:1313/tools/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/docs/guide/shortcodes/tabs/"
+                href="http://localhost:1313/fa/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/docs/guide/shortcodes/tabs/"
+                href="http://localhost:1313/ja/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/docs/guide/shortcodes/tabs/"
+                href="http://localhost:1313/zh-cn/tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/docs/guide/shortcodes/tabs/"
+                href="http://localhost:1313/tools/"
                 />
   </url>
 </urlset>

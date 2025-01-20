@@ -1,5 +1,5 @@
 ---
-title: Hextra 主题
+title: 初学者的隐私
 layout: hextra-home
 ---
 

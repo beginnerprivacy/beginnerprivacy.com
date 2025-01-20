@@ -1,5 +1,5 @@
 ---
-title: Hextra Theme
+title: Beginner Privacy
 layout: hextra-home
 ---
 

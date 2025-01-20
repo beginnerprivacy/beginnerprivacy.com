@@ -1,11 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>هگزترا – وبلاگ</title>
+    <title>حریم خصوصی مبتدی – مقالات</title>
     <link>http://localhost:1313/fa/blog/</link>
-    <description>Recent content in وبلاگ on هگزترا</description>
+    <description>Recent content in مقالات on حریم خصوصی مبتدی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa</language>
-    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/fa/blog/index.xml" rel="self" type="application/rss+xml" />
     

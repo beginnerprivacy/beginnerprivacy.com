@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>حریم خصوصی مبتدی – درباره ما</title>
+    <link>http://localhost:1313/fa/about/</link>
+    <description>Recent content in درباره ما on حریم خصوصی مبتدی</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language>
+    
+	  <atom:link href="http://localhost:1313/fa/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
