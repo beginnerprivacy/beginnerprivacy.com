@@ -46,7 +46,7 @@ module:
 
   workspace: hugo.work
   imports:
-    - path: github.com/beginnerprivacy/hextra
+    - path: github.com/imfing/hextra
 
 markup:
   highlight:
