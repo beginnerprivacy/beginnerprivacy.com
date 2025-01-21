@@ -31,7 +31,7 @@
     background-color: #fff;
     box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
     border-radius: 99px;
-  }
+}
 
 input[type="radio"] {
     display: none;
@@ -42,7 +42,6 @@ input[type="radio"] {
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: fit-content;
     font-size: 1rem;
     font-weight: 500;
     border-radius: 99px;
@@ -56,32 +55,39 @@ input[type="radio"] {
     position: absolute;
     display: flex;
     height: 40px;
-    width: 55px;
     opacity: 0.3;
     background-color: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 45) / var(--tw-bg-opacity));
     z-index: 1;
     border-radius: 99px;
-    transition: 0.25s ease-out;
+    transition: transform 0.25s ease-out, width 0.25s ease-out;
 }
 
 input[type="radio"]:checked + label {
     color: black;
 }
-input[id="radio-start"]:checked ~ .glider {
-    transform: translateX(0);
-    width: 55px;
+
+.hextra-feature-card {
+    overflow: visible;
 }
-input[id="radio-normie"]:checked ~ .glider {
-    transform: translateX(85%);
-    width: 65px;
+
+.horizontal-line {
+    width: 17px;
+    height: 2px;
+    background-color: #ffffff;
+    transform: translateY(-50%);
+    top: -50%;
+    left: 100%;
+    position: relative;
 }
-input[id="radio-anonymous"]:checked ~ .glider {
-    transform: translateX(127%);
-    width: 100px;
-}
-input[id="radio-whistleblower"]:checked ~ .glider {
-    transform: translateX(193%);
-    width: 120px;
+
+.vertical-line {
+    width: 2px;
+    height: 25px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 980px) {

@@ -191,6 +191,23 @@ document.querySelectorAll('.hextra-tabs-toggle').forEach(function (button) {
   });
 });
 
+function updateRoadmap() {
+  const sections = document.querySelectorAll('.roadmap-section');
+  sections.forEach(section => section.style.display = 'none');
+
+  const selectedTab = document.querySelector('input[name="tabs"]:checked').value;
+  document.getElementById(selectedTab + 'Content').style.display = 'block';
+
+  const selectedLabel = document.querySelector(`label[for="radio-${selectedTab}"]`);
+  const glider = document.querySelector('.glider');
+  const labelRect = selectedLabel.getBoundingClientRect();
+  const tabsRect = document.querySelector('.tabs').getBoundingClientRect();
+
+  glider.style.width = `${labelRect.width}px`;
+  glider.style.transform = `translateX(${labelRect.left - tabsRect.left}px)`;
+}
+window.onload = updateRoadmap;
+
 ;
 (function () {
   const languageSwitchers = document.querySelectorAll('.language-switcher');

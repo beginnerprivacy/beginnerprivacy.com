@@ -34,12 +34,12 @@ layout: hextra-home
     <div class="tabs">
       <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
       <label class="tab" for="radio-start">开始</label>
-      <input type="radio" id="radio-normie" name="tabs" value="normie" onclick="updateRoadmap()" />
-      <label class="tab" for="radio-normie">菜鸟</label>
-      <input type="radio" id="radio-anonymous" name="tabs" value="anonymous" onclick="updateRoadmap()" />
-      <label class="tab" for="radio-anonymous">菜鸟</label>
-      <input type="radio" id="radio-whistleblower" name="tabs" value="whistleblower" onclick="updateRoadmap()" />
-      <label class="tab" for="radio-whistleblower">举报人</label>
+      <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-basic">基本</label>
+      <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-medium">中等</label>
+      <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-advanced">高级</label>
       <span class="glider"></span>
     </div>
   </div>
@@ -50,47 +50,45 @@ layout: hextra-home
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="初学者隐私如何运作" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="为什么你应该关心你的隐私" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="了解你的威胁模型" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="了解你的威胁模型" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
   </div>
 
-  <div id="normieContent" class="roadmap-section" style="display:none;">
+  <div id="basicContent" class="roadmap-section" style="display:none;">
+      {{< hextra/feature-grid >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
+      {{< /hextra/feature-grid >}}
+      <br>
+      {{< hextra/feature-grid >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+      {{< /hextra/feature-grid >}}
+  </div>
+
+  <div id="mediumContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
   </div>
 
-  <div id="anonymousContent" class="roadmap-section" style="display:none;">
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-    {{< /hextra/feature-grid >}}
-  </div>
-
-  <div id="whistleblowerContent" class="roadmap-section" style="display:none;">
+  <div id="advancedContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
   </div>
 </div>
-
-<script>
-  function updateRoadmap() {
-    const sections = document.querySelectorAll('.roadmap-section');
-    sections.forEach(section => section.style.display = 'none');
-    
-    const selectedTab = document.querySelector('input[name="tabs"]:checked').value;
-    document.getElementById(selectedTab + 'Content').style.display = 'block';
-  }
-</script>

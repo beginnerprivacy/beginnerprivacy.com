@@ -84,13 +84,3 @@ layout: hextra-home
     {{< /hextra/feature-grid >}}
   </div>
 </div>
-
-<script>
-  function updateRoadmap() {
-    const sections = document.querySelectorAll('.roadmap-section');
-    sections.forEach(section => section.style.display = 'none');
-    
-    const selectedTab = document.querySelector('input[name="tabs"]:checked').value;
-    document.getElementById(selectedTab + 'Content').style.display = 'block';
-  }
-</script>
