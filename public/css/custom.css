@@ -3,7 +3,6 @@
     align-items: center;
 }
 .language-theme-container .language-options {
-    display: block;
     position: fixed;
     inset: auto auto -190px 0px; 
     margin: 0px; 
@@ -18,6 +17,87 @@
     inset: auto auto 0px 0px; 
     margin: 0px; 
     min-width: 100px;
+}
+
+.hero-surveillance-image {
+    position: absolute !important;
+    top: 60px !important;
+    right: 10% !important;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+    border-radius: 99px;
+  }
+
+input[type="radio"] {
+    display: none;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+    color: black;
+    padding-inline: 10px;
+}
+
+.glider {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 55px;
+    opacity: 0.3;
+    background-color: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 45) / var(--tw-bg-opacity));
+    z-index: 1;
+    border-radius: 99px;
+    transition: 0.25s ease-out;
+}
+
+input[type="radio"]:checked + label {
+    color: black;
+}
+input[id="radio-start"]:checked ~ .glider {
+    transform: translateX(0);
+    width: 55px;
+}
+input[id="radio-normie"]:checked ~ .glider {
+    transform: translateX(85%);
+    width: 65px;
+}
+input[id="radio-anonymous"]:checked ~ .glider {
+    transform: translateX(127%);
+    width: 100px;
+}
+input[id="radio-whistleblower"]:checked ~ .glider {
+    transform: translateX(193%);
+    width: 120px;
+}
+
+@media (max-width: 980px) {
+    .hero-surveillance-image {
+        width: 150px !important;
+    }
+}
+@media (max-width: 880px) {
+    .hero-surveillance-image {
+        width: 100px !important;
+    }
+}
+@media (max-width: 320px) {
+    .hero-surveillance-image {
+        display: none !important;
+    }
 }
 
 @media (max-width: 768px) {

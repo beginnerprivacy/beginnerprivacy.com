@@ -1,76 +1,100 @@
 ---
-title: 初心者のプライバシー
+title: 初学者的隐私
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
+{{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>無料、オープンソース</span>
+  <span>無料でオープンソース</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
+{{< hextra/hero-container
+  image="surveillance.webp"
+  imageClass="hero-surveillance-image hx-block hx-overflow-hidden hx-rounded-3xl"
+  imageTitle="Surveillance Camera" 
+  imageWidth="250" imageHeight="250" >}}
+{{< /hextra/hero-container >}}
+
 <div class="hx-mt-6 hx-mb-6">
+
 {{< hextra/hero-headline >}}
-  MarkdownとHugoで&nbsp;<br class="sm:hx-block hx-hidden" />モダンなウェブサイトを構築
+  プライバシーの旅を始めよう&nbsp;<br class="sm:hx-block hx-hidden" />初心者プライバシーで
 {{< /hextra/hero-headline >}}
+
 </div>
 
-<div class="hx-mb-12">
+<div class=" hero-take-quiz hx-mb-12" style="display: inline-flex; width: 100%;">
+
 {{< hextra/hero-subtitle >}}
-  美しい静的ウェブサイトを作るための&nbsp;<br class="sm:hx-block hx-hidden" />高速でバッテリー同梱型のHugoテーマ
+  クイズを受けて、自分がロードマップのど&nbsp;<br class="sm:hx-block hx-hidden" />こに位置するかを見つけましょう。 👉
 {{< /hextra/hero-subtitle >}}
+{{< hextra/hero-button text="Take Quiz" link="/" style="height: 10%; margin: 5px 0px 0px 5%;" >}}
+
 </div>
 
-<div class="hx-mb-6">
-{{< hextra/hero-button text="始める" link="docs" >}}
+<div class="hx-mt-6">
+    <h1 class="hx-font-bold md:hx-text-5xl">Roadmap</h1>
+    <div class="tabs">
+      <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+      <label class="tab" for="radio-start">開始</label>
+      <input type="radio" id="radio-normie" name="tabs" value="normie" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-normie">初心者</label>
+      <input type="radio" id="radio-anonymous" name="tabs" value="anonymous" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-anonymous">匿名</label>
+      <input type="radio" id="radio-whistleblower" name="tabs" value="whistleblower" onclick="updateRoadmap()" />
+      <label class="tab" for="radio-whistleblower">内部告発者</label>
+      <span class="glider"></span>
+    </div>
+  </div>
 </div>
 
-<div class="hx-mt-6"></div>
+<div id="roadmapContent" class="hx-mt-4">
+  <div id="startContent" class="roadmap-section">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="初心者プライバシーの仕組み" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="なぜプライバシーを気にすべきか" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="脅威モデルの理解" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
+    {{< /hextra/feature-grid >}}
+  </div>
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
-    title="高速かつ多機能"
-    subtitle="シンプルで使いやすく、それでいて強力で豊富な機能を備えています。"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/hextra-doc.webp"
-    imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="MarkdownだけでOK"
-    subtitle="Markdownだけで作成可能。ショートコードコンポーネントで充実させることもできます。"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="/images/hextra-markdown.webp"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="全文検索"
-    subtitle="FlexSearchによる全文検索が内蔵されており、追加の設定は不要です。"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/hextra-search.webp"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="羽のように軽量"
-    subtitle="Hextraを使用するために依存関係やNode.jsは必要ありません。Hugoによって動力を得ており、単一のバイナリで数秒でサイトを構築できます。"
-  >}}
-  {{< hextra/feature-card
-    title="レスポンシブ対応とダークモード"
-    subtitle="さまざまな画面サイズで美しく見えます。内蔵のダークモードサポートにより、ユーザーのシステム設定に基づいて自動切り替えが可能です。"
-  >}}
-  {{< hextra/feature-card
-    title="無料で構築とホスティング"
-    subtitle="GitHub Actionsを使って構築し、GitHub Pagesで無料でホスティングできます。また、他の静的ホスティングサービスでもホスティング可能です。"
-  >}}
-  {{< hextra/feature-card
-    title="簡単な多言語対応"
-    subtitle="Markdownファイルにロケールサフィックスを追加するだけで多言語ページを作成できます。i18nサポートの追加も直感的です。"
-  >}}
-  {{< hextra/feature-card
-    title="さらに多くの機能"
-    icon="sparkles"
-    subtitle="構文ハイライト / 目次 / SEO / RSS / LaTeX / Mermaid / カスタマイズ可能 / など多数..."
-  >}}
-{{< /hextra/feature-grid >}}
+  <div id="normieContent" class="roadmap-section" style="display:none;">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+    {{< /hextra/feature-grid >}}
+  </div>
+
+  <div id="anonymousContent" class="roadmap-section" style="display:none;">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+    {{< /hextra/feature-grid >}}
+  </div>
+
+  <div id="whistleblowerContent" class="roadmap-section" style="display:none;">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="近日公開！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+    {{< /hextra/feature-grid >}}
+  </div>
+</div>
+
+<script>
+function updateRoadmap() {
+  const sections = document.querySelectorAll('.roadmap-section');
+  sections.forEach(section => section.style.display = 'none');
+  
+  const selectedTab = document.querySelector('input[name="tabs"]:checked').value;
+  document.getElementById(selectedTab + 'Content').style.display = 'block';
+}
+</script>

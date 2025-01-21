@@ -5,7 +5,6 @@
     <description>Recent content in 記事 on 初心者のプライバシー</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/ja/articles/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +15,7 @@
     
     
     <item>
-      <title>Why You Should Care About Your Privacy</title>
+      <title>プライバシーに配慮すべき理由</title>
       <link>http://localhost:1313/ja/articles/why-you-should-care-about-your-privacy/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -24,10 +23,7 @@
       <description>
         
         
-        &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
+        
       </description>
     </item>
     
