@@ -77,7 +77,8 @@ menu:
 
 params:
   description: A beginner-friendly roadmap for enhancing your online privacy through actionable tips and resources.
-
+  images:
+    - images/feature.png
   navbar:
     displayTitle: true
     displayLogo: true

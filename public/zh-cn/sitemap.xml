@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/zh-cn/tools/vpn/</loc>
+    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -127,7 +128,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

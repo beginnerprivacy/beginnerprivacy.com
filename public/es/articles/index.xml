@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beginner Privacy – مقالات</title>
+    <title>Beginner Privacy – Artículos</title>
     <link>http://localhost:1313/es/articles/</link>
-    <description>Recent content in مقالات on Beginner Privacy</description>
+    <description>Recent content in Artículos on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>چرا باید به حریم خصوصی خود اهمیت بدهید</title>
+      <title>Por qué deberías preocuparte por tu privacidad</title>
       <link>http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
