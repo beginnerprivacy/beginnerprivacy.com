@@ -11,16 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/multi-language/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/multi-language/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/advanced/multi-language/"
                 />
@@ -31,16 +21,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -57,16 +37,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/organize-files/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/organize-files/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/organize-files/"
                 />
@@ -77,16 +47,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -103,16 +63,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/configuration/"
                 />
@@ -123,16 +73,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -149,16 +89,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/syntax-highlighting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/syntax-highlighting/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/syntax-highlighting/"
                 />
@@ -169,16 +99,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/latex/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -195,16 +115,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/diagrams/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/diagrams/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/diagrams/"
                 />
@@ -215,16 +125,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -241,13 +141,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tags/privacy/"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -264,13 +159,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tags/"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -287,13 +177,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/articles/why-you-should-care-about-your-privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/articles/why-you-should-care-about-your-privacy/"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -309,13 +194,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/categories/"
+                hreflang="es"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -332,11 +212,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/jupyter/"
                 />
@@ -347,16 +222,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/tabs/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -373,16 +238,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/steps/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/steps/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/steps/"
                 />
@@ -396,22 +251,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/deploy-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/deploy-site/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/deploy-site/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-01-21T15:25:14+01:00</lastmod>
+    <lastmod>2025-01-21T21:07:13+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -419,13 +264,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/"
+                hreflang="es"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -442,16 +282,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/advanced/"
                 />
@@ -465,13 +295,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/about/"
+                hreflang="es"
+                href="http://localhost:1313/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -488,16 +313,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/cards/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/cards/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/cards/"
                 />
@@ -508,16 +323,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/advanced/comments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/comments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/comments/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -534,11 +339,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/others/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/others/"
                 />
@@ -549,16 +349,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/guide/shortcodes/callout/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/callout/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/callout/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -575,16 +365,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/icon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/icon/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/icon/"
                 />
@@ -598,13 +378,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -621,16 +396,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/filetree/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/filetree/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/filetree/"
                 />
@@ -644,13 +409,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/articles/"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -667,16 +427,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/details/"
                 />
@@ -687,16 +437,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/advanced/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/customization/"
                 />
     <xhtml:link
                 rel="alternate"

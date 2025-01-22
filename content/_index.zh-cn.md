@@ -24,9 +24,41 @@ layout: hextra-home
 
 <div class=" hero-take-quiz hx-mb-12" style="display: inline-flex; width: 100%;">
 {{< hextra/hero-subtitle >}}
-  找出你在路线图上的位置&nbsp;<br class="sm:hx-block hx-hidden" />通过参加测验 👉
+  找出你在路线图上的位置&nbsp;<br class="sm:hx-block hx-hidden" />通过参加测验 👇
 {{< /hextra/hero-subtitle >}}
-{{< hextra/hero-button text="Take Quiz" link="/" style="height: 10%; margin: 5px 0px 0px 5%;" >}}
+</div>
+
+{{< hextra/hero-button text="参加测验" onClick="takeQuiz();" >}}
+
+<div id="quizModal">  
+  <div id="question1" class="question">
+      <p>你用Linux吗？</p>
+  </div>
+  <div id="question2" class="question">
+      <p>你有技术经验吗？</p>
+  </div>
+  <div id="question3" class="question">
+      <p>你打算在隐私上投入多少精力？</p>
+      <p>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">非常</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">相当数量</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">一点点</button>
+      </p>
+  </div>
+  <div id="question4" class="question">
+      <p>你想保护你的数据不被谁获取？</p>
+      <p>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">大公司</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">黑客</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">政府</button>
+      </p>
+  </div>
+
+  <div style="text-align: center;">
+    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">是的</button>
+    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">不</button>
+  </div>
+  <div id="quizResult"></div>
 </div>
 
 <div class="hx-mt-6">

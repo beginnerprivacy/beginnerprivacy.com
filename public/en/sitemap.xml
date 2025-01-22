@@ -6,16 +6,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/getting-started/"
                 />
@@ -27,16 +17,6 @@
   </url><url>
     <loc>http://localhost:1313/tools/advanced/multi-language/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/multi-language/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/multi-language/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -52,16 +32,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/organize-files/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/organize-files/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/organize-files/"
                 />
@@ -71,18 +41,26 @@
                 href="http://localhost:1313/tools/guide/organize-files/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/advanced/multi-language.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/organize-files.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/getting-started.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/getting-started.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/organize-files.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/multi-language.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/configuration/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/configuration/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -98,16 +76,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/"
                 />
@@ -117,18 +85,11 @@
                 href="http://localhost:1313/tools/guide/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/markdown.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/markdown/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/markdown/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -140,18 +101,23 @@
                 href="http://localhost:1313/tools/guide/markdown/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/configuration.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/_index.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/markdown.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/_index.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/configuration.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/syntax-highlighting/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/syntax-highlighting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/syntax-highlighting/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -163,18 +129,20 @@
                 href="http://localhost:1313/tools/guide/syntax-highlighting/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/syntax-highlighting.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/syntax-highlighting.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/latex.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/latex.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/latex/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/latex/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -190,16 +158,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/diagrams/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/diagrams/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/diagrams/"
                 />
@@ -209,18 +167,14 @@
                 href="http://localhost:1313/tools/guide/diagrams/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/diagrams.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/diagrams.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/shortcodes/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -232,17 +186,18 @@
                 href="http://localhost:1313/tools/guide/shortcodes/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/_index.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/_index.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/privacy/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tags/privacy/"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -259,13 +214,8 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tags/"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -282,13 +232,8 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/articles/why-you-should-care-about-your-privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/articles/why-you-should-care-about-your-privacy/"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -302,16 +247,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-01-21T13:25:53+01:00</lastmod>
+    <lastmod>2025-01-21T21:57:02+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/about/"
+                hreflang="es"
+                href="http://localhost:1313/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -328,16 +268,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/advanced/"
                 />
@@ -351,13 +281,8 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/articles/"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -371,16 +296,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-21T15:25:14+01:00</lastmod>
+    <lastmod>2025-01-21T21:07:13+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/"
+                hreflang="es"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -397,16 +317,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/callout/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/callout/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/callout/"
                 />
@@ -418,16 +328,6 @@
   </url><url>
     <loc>http://localhost:1313/tools/guide/shortcodes/cards/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/cards/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/cards/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -442,13 +342,8 @@
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/categories/"
+                hreflang="es"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -465,16 +360,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/comments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/comments/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/advanced/comments/"
                 />
@@ -486,16 +371,6 @@
   </url><url>
     <loc>http://localhost:1313/tools/advanced/customization/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/advanced/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/advanced/customization/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -511,16 +386,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/deploy-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/deploy-site/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/deploy-site/"
                 />
@@ -534,16 +399,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/details/"
                 />
@@ -553,18 +408,14 @@
                 href="http://localhost:1313/tools/guide/shortcodes/details/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/filetree.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/filetree.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/shortcodes/filetree/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/filetree/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/filetree/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -580,16 +431,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/icon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/icon/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/icon/"
                 />
@@ -599,13 +440,11 @@
                 href="http://localhost:1313/tools/guide/shortcodes/icon/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/jupyter.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tools/guide/shortcodes/jupyter/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/jupyter/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -621,11 +460,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/others/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/others/"
                 />
@@ -637,16 +471,6 @@
   </url><url>
     <loc>http://localhost:1313/tools/guide/shortcodes/steps/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/steps/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/steps/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -662,16 +486,6 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/guide/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/guide/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tools/guide/shortcodes/tabs/"
                 />
@@ -685,13 +499,8 @@
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/fa/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/tools/"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -703,5 +512,80 @@
                 hreflang="en"
                 href="http://localhost:1313/tools/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/icon.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/deploy-site.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/_index.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/details.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/tabs.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/customization.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/callout.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/cards.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/steps.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/comments.fa/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/icon.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/cards.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/customization.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/callout.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/comments.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/deploy-site.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/steps.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/others.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/tabs.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/_index.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/advanced/_index.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/_index.ja/</loc>
+    <lastmod>2025-01-21T21:07:13+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/_index.ja/</loc>
+    <lastmod>2025-01-21T13:25:53+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/_index.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tools/guide/shortcodes/details.ja/</loc>
+    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
   </url>
 </urlset>

@@ -22,23 +22,16 @@ languages:
     languageName: English
     weight: 1
     title: Beginner Privacy
-  fa:
-    languageName: فارسی
-    languageCode: fa
-    languageDirection: rtl
+  es:
+    languageName: Español
+    languageCode: es
     weight: 2
-    title: حریم خصوصی مبتدی
-  ja:
-    languageName: 日本語
-    languageCode: ja
-    weight: 3
-    title: 初心者のプライバシー
+    title: Beginner Privacy
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 4
-    title: 初学者的隐私
-
+    title: Beginner Privacy
 module:
   hugoVersion:
     extended: true

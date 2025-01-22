@@ -24,11 +24,43 @@ layout: hextra-home
 
 </div>
 
-<div class=" hero-take-quiz hx-mb-12" style="display: inline-flex; width: 100%;">
+<div class=" hero-take-quiz hx-mb-6">
 {{< hextra/hero-subtitle >}}
-  Find out where you belong on the roadmap&nbsp;<br class="sm:hx-block hx-hidden" />by taking the quiz 👉
+  Find out where you belong on the roadmap&nbsp;<br class="sm:hx-block hx-hidden" />by taking the quiz 👇
 {{< /hextra/hero-subtitle >}}
-{{< hextra/hero-button text="Take Quiz" link="/" style="height: 10%; margin: 5px 0px 0px 5%;" >}}
+</div>
+
+{{< hextra/hero-button text="Take Quiz" onClick="takeQuiz();" >}}
+
+<div id="quizModal">  
+  <div id="question1" class="question">
+      <p>Do you use Linux?</p>
+  </div>
+  <div id="question2" class="question">
+      <p>Do you have technical experience?</p>
+  </div>
+  <div id="question3" class="question">
+      <p>How much effort do you plan to put into your privacy?</p>
+      <p>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Very much</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Decent amount</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Little bit</button>
+      </p>
+  </div>
+  <div id="question4" class="question">
+      <p>Who are you trying to protect your data from?</p>
+      <p>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Big Corporations</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
+        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Government</button>
+      </p>
+  </div>
+
+  <div style="text-align: center;">
+    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Yes</button>
+    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
+  </div>
+  <div id="quizResult"></div>
 </div>
 
 <div class="hx-mt-6">
@@ -65,15 +97,39 @@ layout: hextra-home
     {{< /hextra/feature-grid >}}
     <br>
     {{< hextra/feature-grid >}}
-        {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
         {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
+    <br>
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+    {{< /hextra/feature-grid >}}
   </div>
 
   <div id="mediumContent" class="roadmap-section" style="display:none;">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
+    {{< /hextra/feature-grid >}}
+    <br>
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+    {{< /hextra/feature-grid >}}
+    <br>
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
@@ -84,6 +140,22 @@ layout: hextra-home
   </div>
 
   <div id="advancedContent" class="roadmap-section" style="display:none;">
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
+    {{< /hextra/feature-grid >}}
+    <br>
+    {{< hextra/feature-grid >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+    {{< /hextra/feature-grid >}}
+    <br>
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Coming Soon!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
