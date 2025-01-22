@@ -2,134 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh-cn/tools/advanced/multi-language/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/tools/vpn/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tools/advanced/multi-language/"
+                href="http://localhost:1313/tools/vpn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/vpn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/advanced/multi-language/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/getting-started/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/getting-started/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/organize-files/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/organize-files/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/organize-files/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/markdown/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/markdown/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/configuration/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/configuration/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/syntax-highlighting/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/syntax-highlighting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/syntax-highlighting/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/latex/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/latex/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/diagrams/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/diagrams/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/diagrams/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/"
+                href="http://localhost:1313/zh-cn/tools/vpn/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/privacy/</loc>
@@ -203,60 +90,8 @@
                 href="http://localhost:1313/zh-cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/jupyter/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/jupyter/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/tabs/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/tabs/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/steps/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/steps/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/steps/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/deploy-site/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/deploy-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/deploy-site/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-01-21T21:07:13+01:00</lastmod>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -271,19 +106,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/advanced/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/advanced/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/advanced/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
@@ -304,71 +126,6 @@
                 href="http://localhost:1313/zh-cn/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/cards/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/cards/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/cards/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/advanced/comments/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/advanced/comments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/advanced/comments/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/others/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/others/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/others/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/callout/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/callout/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/callout/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/icon/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/icon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/icon/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/tools/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
@@ -387,19 +144,6 @@
                 href="http://localhost:1313/zh-cn/tools/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/filetree/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/filetree/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/filetree/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
@@ -416,32 +160,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/articles/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/guide/shortcodes/details/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/guide/shortcodes/details/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/guide/shortcodes/details/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/advanced/customization/</loc>
-    <lastmod>2025-01-20T14:55:05+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/advanced/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/advanced/customization/"
                 />
   </url>
 </urlset>

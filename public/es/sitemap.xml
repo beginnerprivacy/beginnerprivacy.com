@@ -2,8 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/es/tools/vpn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/vpn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/vpn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/vpn/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/tags/privacy/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,7 +38,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,26 +55,8 @@
                 href="http://localhost:1313/es/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -74,22 +73,40 @@
                 href="http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/articles/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/about/</loc>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/articles/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/"
+                href="http://localhost:1313/zh-cn/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/articles/"
+                href="http://localhost:1313/es/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/categories/</loc>
@@ -109,24 +126,8 @@
                 href="http://localhost:1313/es/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/tools/</loc>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -141,6 +142,24 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tools/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/articles/</loc>
+    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/"
                 />
   </url>
 </urlset>
