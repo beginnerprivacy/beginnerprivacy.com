@@ -276,6 +276,59 @@ function determineRoadmap() {
     const quizResult = document.getElementById('quizResult');
     quizResult.style.display = 'block';
 }
+
+function exportCheckbox() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const checkedItems = [];
+
+    checkboxes.forEach((checkbox) => {
+      if (checkbox.checked) {
+        checkedItems.push({
+          featureCardTitle: checkbox.id.replace('checkbox-', ''),
+          checked: true
+        });
+      }
+    });
+
+    const json = JSON.stringify(checkedItems, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'checked_items.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+};
+
+function importCheckbox() {
+    const fileInput = document.getElementById('importFile');
+    const file = fileInput.files[0];
+
+    if (!file) {
+        alert('Please select a file to import.');
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = function(event) {
+        try {
+        const data = JSON.parse(event.target.result);
+        data.forEach(item => {
+            const checkbox = document.getElementById(`checkbox-${item.featureCardTitle}`);
+            if (checkbox) {
+            checkbox.checked = item.checked;
+            }
+        });
+        } catch (error) {
+        alert('Error parsing JSON: ' + error.message);
+        }
+    };
+
+    reader.readAsText(file);
+}
 ;
 (function () {
   const languageSwitchers = document.querySelectorAll('.language-switcher');

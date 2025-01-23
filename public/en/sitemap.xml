@@ -2,21 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tools/providers/vpn/</loc>
+    <loc>http://localhost:1313/tools/services/vpn/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tools/providers/vpn/"
+                href="http://localhost:1313/es/tools/services/vpn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/providers/vpn/"
+                href="http://localhost:1313/zh-cn/tools/services/vpn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tools/providers/vpn/"
+                href="http://localhost:1313/tools/services/vpn/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/privacy/</loc>
@@ -73,6 +74,60 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/software/file-sharing/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/file-sharing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/file-sharing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/file-sharing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/software/notebooks/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/notebooks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/notebooks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/notebooks/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/software/password-managers/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/password-managers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/password-managers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/password-managers/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-01-21T21:57:02+01:00</lastmod>
     <xhtml:link
@@ -110,7 +165,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-22T14:10:48+01:00</lastmod>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -142,6 +197,60 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/hardware/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/hardware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/hardware/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/services/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/software/</loc>
+    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/"
                 />
   </url><url>
     <loc>http://localhost:1313/tools/</loc>

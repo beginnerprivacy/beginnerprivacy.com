@@ -66,18 +66,27 @@ layout: hextra-home
   </div>
 </div>
 
-<div class="hx-mt-6">
+<div class="hx-mt-6" style="width: 86%;">
     <h1 class="hx-font-bold md:hx-text-5xl">Roadmap</h1>
-    <div class="tabs">
-        <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-        <label class="tab" for="radio-start">Start</label>
-        <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-        <label class="tab" for="radio-basic">Basic</label>
-        <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-        <label class="tab" for="radio-medium">Medium</label>
-        <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-        <label class="tab" for="radio-advanced">Advanced</label>
-        <span class="glider"></span>
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+      <div class="tabs">
+          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+          <label class="tab" for="radio-start">Start</label>
+          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-basic">Basic</label>
+          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-medium">Medium</label>
+          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-advanced">Advanced</label>
+          <span class="glider"></span>
+      </div>
+      <div style="display: flex; align-items: center;">
+          <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
+              Import
+              <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
+          </label>
+          <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Export</button>
+      </div>
     </div>
 </div>
 
