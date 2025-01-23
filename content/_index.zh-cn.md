@@ -10,10 +10,9 @@ layout: hextra-home
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-container
-  image="../surveillance.webp"
-  imageClass="hero-surveillance-image hx-block hx-overflow-hidden hx-rounded-3xl"
-  imageTitle="Surveillance Camera" 
-  imageWidth="250" imageHeight="250" >}}
+  image="surveillance.webp"
+  imageClass="hero-surveillance-image hx-block"
+  imageTitle="Surveillance Camera" >}}
 {{< /hextra/hero-container >}}
 
 <div class="hx-mt-6 hx-mb-6">
@@ -58,7 +57,11 @@ layout: hextra-home
     <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">是的</button>
     <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">不</button>
   </div>
-  <div id="quizResult"></div>
+  <div id="quizResult">
+    <span id="basic" style="display: none;">你应该从基础路线图开始。</span>
+    <span id="medium" style="display: none;">你应该从Medium的路线图开始。</span>
+    <span id="advanced" style="display: none;">你应该从高级路线图开始。</span>
+  </div>
 </div>
 
 <div class="hx-mt-6">

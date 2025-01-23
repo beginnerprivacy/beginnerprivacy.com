@@ -16,10 +16,10 @@
     
     <item>
       <title>VPN</title>
-      <link>http://localhost:1313/tools/vpn/</link>
+      <link>http://localhost:1313/tools/services/vpn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tools/vpn/</guid>
+      <guid>http://localhost:1313/tools/services/vpn/</guid>
       <description>
         
         
@@ -38,6 +38,45 @@
 &lt;/div&gt;
 
 
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tools/software/file-sharing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tools/software/file-sharing/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tools/software/notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tools/software/notebooks/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tools/software/password-managers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tools/software/password-managers/</guid>
+      <description>
+        
+        
+        
       </description>
     </item>
     

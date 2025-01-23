@@ -223,6 +223,12 @@ function showQuestion() {
     quizResult.style.display = 'none';
     const questions = document.querySelectorAll('.question');
     questions.forEach(question => question.style.display = 'none');
+    const basicMessage = document.getElementById('basic');
+    const mediumMessage = document.getElementById('medium');
+    const advancedMessage = document.getElementById('advanced');
+    basicMessage.style.display = 'none';
+    mediumMessage.style.display = 'none';
+    advancedMessage.style.display = 'none';
     
     const quizButtons = document.querySelectorAll('.yes-no-button');
     
@@ -253,20 +259,22 @@ function answerQuestion(answer) {
 function determineRoadmap() {
     let roadmapMessage;
     if (score <= 2) {
-        roadmapMessage = "You should start on the Basic roadmap.";
+        roadmapMessage = document.getElementById('basic');
     } else if (score <= 4) {
-        roadmapMessage = "You should start on the Medium roadmap.";
+        roadmapMessage = document.getElementById('medium');
     } else {
-        roadmapMessage = "You should start on the Advanced roadmap.";
+        roadmapMessage = document.getElementById('advanced');
     }
-    document.getElementById('quizResult').innerText = roadmapMessage;
-    quizResult.style.display = 'block';
+    roadmapMessage.style.display = 'block';
     
     const questions = document.querySelectorAll('.question');
     questions.forEach(question => question.style.display = 'none');
     
     const quizButtons = document.querySelectorAll('.yes-no-button');
     quizButtons.forEach(button => button.style.display = 'none');
+
+    const quizResult = document.getElementById('quizResult');
+    quizResult.style.display = 'block';
 }
 ;
 (function () {

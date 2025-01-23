@@ -20,9 +20,10 @@
 }
 
 .hero-surveillance-image {
-    position: absolute !important;
-    top: 60px !important;
-    right: 10% !important;
+    position: absolute;
+    top: 60px;
+    right: 11%;
+    width: 300px;
 }
 
 .tabs {
@@ -73,7 +74,6 @@ input[type="radio"]:checked + label {
 .horizontal-line {
     width: 17px;
     height: 2px;
-    background-color: #ffffff;
     transform: translateY(-50%);
     top: -50%;
     left: 100%;
@@ -83,7 +83,6 @@ input[type="radio"]:checked + label {
 .vertical-line {
     width: 2px;
     height: 25px;
-    background-color: #ffffff;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -113,7 +112,7 @@ input[type="radio"]:checked + label {
         width: 150px !important;
     }
 }
-@media (max-width: 880px) {
+@media (max-width: 1030px) {
     .hero-surveillance-image {
         width: 100px !important;
     }

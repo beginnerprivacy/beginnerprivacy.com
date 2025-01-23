@@ -1001,6 +1001,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(254 243 199 / var(--tw-bg-opacity));
 }
+.hx-bg-black {
+  background-color: rgb(0 0 0);
+}
 .hx-bg-black\/80 {
   background-color: rgb(0 0 0 / 0.8);
 }
@@ -3020,6 +3023,9 @@ body:is(html[class~="dark"] *) {
 }
 .dark\:hx-bg-blue-900\/30:is(html[class~="dark"] *) {
   background-color: rgb(30 58 138 / 0.3);
+}
+.dark\:hx-bg-white:is(html[class~="dark"] *) {
+  background-color: rgb(255 255 255);
 }
 .dark\:hx-bg-dark:is(html[class~="dark"] *) {
   --tw-bg-opacity: 1;

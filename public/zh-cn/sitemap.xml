@@ -2,22 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh-cn/tools/vpn/</loc>
-    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/tools/providers/vpn/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tools/vpn/"
+                href="http://localhost:1313/tools/providers/vpn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tools/vpn/"
+                href="http://localhost:1313/es/tools/providers/vpn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/vpn/"
+                href="http://localhost:1313/zh-cn/tools/providers/vpn/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/privacy/</loc>

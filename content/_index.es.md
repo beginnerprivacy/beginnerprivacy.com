@@ -11,9 +11,8 @@ layout: hextra-home
 
 {{< hextra/hero-container
   image="surveillance.webp"
-  imageClass="hero-surveillance-image hx-block hx-overflow-hidden hx-rounded-3xl"
-  imageTitle="Surveillance Camera" 
-  imageWidth="250" imageHeight="250" >}}
+  imageClass="hero-surveillance-image hx-block"
+  imageTitle="Surveillance Camera" >}}
 {{< /hextra/hero-container >}}
 
 <div class="hx-mt-6 hx-mb-6">
@@ -58,7 +57,11 @@ layout: hextra-home
     <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Sí</button>
     <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
   </div>
-  <div id="quizResult"></div>
+  <div id="quizResult">
+    <span id="basic" style="display: none;">Deberías empezar con la hoja de ruta básica.</span>
+    <span id="medium" style="display: none;">Deberías empezar con la hoja de ruta de Medium.</span>
+    <span id="advanced" style="display: none;">Deberías comenzar con la hoja de ruta avanzada.</span>
+  </div>
 </div>
 
 <div class="hx-mt-6">
