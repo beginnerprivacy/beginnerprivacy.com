@@ -75,6 +75,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/operating-systems/desktop/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -92,6 +93,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/operating-systems/mobile/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,6 +111,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/services/email/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -126,6 +129,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/services/web-hosting/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -161,6 +165,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/software/frontends/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -231,6 +236,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/operating-systems/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -248,7 +254,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -266,7 +272,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/services/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -302,7 +308,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/software/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -356,7 +362,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tools/hardware/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

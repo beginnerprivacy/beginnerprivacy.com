@@ -75,6 +75,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/operating-systems/desktop/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -92,6 +93,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/operating-systems/mobile/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -109,6 +111,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/services/email/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -126,6 +129,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/services/web-hosting/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -161,6 +165,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/software/frontends/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -250,7 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-23T14:46:35+01:00</lastmod>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -303,6 +308,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tools/operating-systems/</loc>
+    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

@@ -21,7 +21,7 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class=" hero-take-quiz hx-mb-12" style="display: inline-flex; width: 100%;">
+<div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
 {{< hextra/hero-subtitle >}}
   找出你在路线图上的位置&nbsp;<br class="sm:hx-block hx-hidden" />通过参加测验 👇
 {{< /hextra/hero-subtitle >}}

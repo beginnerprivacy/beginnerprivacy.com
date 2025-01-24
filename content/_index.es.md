@@ -21,7 +21,7 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class=" hero-take-quiz hx-mb-12" style="display: inline-flex; width: 100%;">
+<div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
 {{< hextra/hero-subtitle >}}
   Descubre dónde perteneces en la hoja de ruta&nbsp;<br class="sm:hx-block hx-hidden" />haciendo el cuestionario 👇
 {{< /hextra/hero-subtitle >}}
