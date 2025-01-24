@@ -74,6 +74,9 @@ menu:
       weight: 4
       params:
         type: search
+  footer:
+    - identifier: footertext
+      name: A beginner-friendly roadmap for enhancing your online privacy.
 
 params:
   description: A beginner-friendly roadmap for enhancing your online privacy through actionable tips and resources.
