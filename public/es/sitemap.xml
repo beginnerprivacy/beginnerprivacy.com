@@ -74,6 +74,74 @@
                 href="http://localhost:1313/es/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/tools/operating-systems/desktop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/desktop/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tools/operating-systems/mobile/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/mobile/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tools/services/email/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/services/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/services/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/services/email/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tools/services/web-hosting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/services/web-hosting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/services/web-hosting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/services/web-hosting/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/tools/software/file-sharing/</loc>
     <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
@@ -90,6 +158,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tools/software/file-sharing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tools/software/frontends/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/frontends/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/frontends/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/frontends/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tools/software/notebooks/</loc>
@@ -199,24 +284,6 @@
                 href="http://localhost:1313/es/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tools/</loc>
-    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/tools/hardware/</loc>
     <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
@@ -235,6 +302,24 @@
                 href="http://localhost:1313/es/tools/hardware/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/tools/</loc>
+    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/tools/services/</loc>
     <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
@@ -251,6 +336,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tools/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tools/operating-systems/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tools/software/</loc>

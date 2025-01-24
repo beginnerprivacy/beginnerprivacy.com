@@ -74,6 +74,74 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tools/operating-systems/desktop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/desktop/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/operating-systems/mobile/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/mobile/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/services/email/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/services/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/services/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/services/email/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/services/web-hosting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/services/web-hosting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/services/web-hosting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/services/web-hosting/"
+                />
+  </url><url>
     <loc>http://localhost:1313/tools/software/file-sharing/</loc>
     <lastmod>2025-01-23T11:53:14+01:00</lastmod>
     <xhtml:link
@@ -90,6 +158,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/software/file-sharing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/software/frontends/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/software/frontends/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/software/frontends/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/software/frontends/"
                 />
   </url><url>
     <loc>http://localhost:1313/tools/software/notebooks/</loc>
@@ -165,7 +250,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
+    <lastmod>2025-01-23T14:46:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -215,6 +300,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/hardware/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tools/operating-systems/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tools/operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tools/operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tools/operating-systems/"
                 />
   </url><url>
     <loc>http://localhost:1313/tools/services/</loc>

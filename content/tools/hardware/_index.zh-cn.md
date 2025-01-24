@@ -1,3 +1,3 @@
 ---
-linkTitle: "文档"
+linkTitle: "硬件"
 ---

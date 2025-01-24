@@ -1,3 +1,3 @@
 ---
-linkTitle: "Herramientas"
+linkTitle: "Hardware"
 ---
