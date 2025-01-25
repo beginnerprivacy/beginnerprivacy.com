@@ -2,69 +2,67 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
+<div class="hero">
+  {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
+    <span>Gratuito, de código abierto</span>
+    {{< icon name="arrow-circle-right" attributes="height=14" >}}
+  {{< /hextra/hero-badge >}}
 
-{{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}
-  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Gratuito, de código abierto</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
+  {{< hextra/hero-container
+    image="surveillance.webp"
+    imageClass="hero-surveillance-image hx-block"
+    imageTitle="Surveillance Camera" >}}
+  {{< /hextra/hero-container >}}
 
-{{< hextra/hero-container
-  image="surveillance.webp"
-  imageClass="hero-surveillance-image hx-block"
-  imageTitle="Surveillance Camera" >}}
-{{< /hextra/hero-container >}}
-
-<div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-headline >}}
-  Comienza tu viaje de privacidad&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy
-{{< /hextra/hero-headline >}}
-</div>
-
-<div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
-{{< hextra/hero-subtitle >}}
-  Descubre dónde perteneces en la hoja de ruta&nbsp;<br class="sm:hx-block hx-hidden" />haciendo el cuestionario 👇
-{{< /hextra/hero-subtitle >}}
-</div>
-
-{{< hextra/hero-button text="Hacer el cuestionario" onClick="takeQuiz();" >}}
-
-<div id="quizModal">  
-  <div id="question1" class="question">
-      <p>¿Usas Linux?</p>
-  </div>
-  <div id="question2" class="question">
-      <p>¿Tienes experiencia técnica?</p>
-  </div>
-  <div id="question3" class="question">
-      <p>¿Cuánto esfuerzo planeas dedicar a tu privacidad?</p>
-      <p>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Mucho</button>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Cantidad decente</button>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Un poco</button>
-      </p>
-  </div>
-  <div id="question4" class="question">
-      <p>¿De quién estás tratando de proteger tus datos?</p>
-      <p>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Grandes Corporaciones</button>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
-        <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Gobierno</button>
-      </p>
+  <div class="hx-mt-6 hx-mb-6">
+  {{< hextra/hero-headline >}}Comienza tu viaje de privacidad ahora&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
-  <div style="text-align: center;">
-    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Sí</button>
-    <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
+  <div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
+  {{< hextra/hero-subtitle >}}¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy es tu hoja de ruta para recuperar una vida privada.
+  {{< /hextra/hero-subtitle >}}
   </div>
-  <div id="quizResult">
-    <span id="basic" style="display: none;">Deberías empezar con la hoja de ruta básica.</span>
-    <span id="medium" style="display: none;">Deberías empezar con la hoja de ruta de Medium.</span>
-    <span id="advanced" style="display: none;">Deberías comenzar con la hoja de ruta avanzada.</span>
+
+  {{< hextra/hero-button text="Empieza ahora" onClick="takeQuiz();" >}}
+  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón." link="articles/why-you-should-care-about-your-privacy" >}}
+
+  <div id="quizModal">  
+    <div id="question1" class="question">
+        <p>¿Usas Linux?</p>
+    </div>
+    <div id="question2" class="question">
+        <p>¿Tienes experiencia técnica?</p>
+    </div>
+    <div id="question3" class="question">
+        <p>¿Cuánto esfuerzo planeas dedicar a tu privacidad?</p>
+        <p>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Mucho</button>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Cantidad decente</button>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Un poco</button>
+        </p>
+    </div>
+    <div id="question4" class="question">
+        <p>¿De quién estás tratando de proteger tus datos?</p>
+        <p>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Grandes Corporaciones</button>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
+          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Gobierno</button>
+        </p>
+    </div>
+    <div style="text-align: center;">
+      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Sí</button>
+      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
+    </div>
+    <div id="quizResult">
+      <span id="basic" style="display: none;">Deberías empezar con la hoja de ruta básica.</span>
+      <span id="medium" style="display: none;">Deberías empezar con la hoja de ruta de Medium.</span>
+      <span id="advanced" style="display: none;">Deberías comenzar con la hoja de ruta avanzada.</span>
+    </div>
   </div>
 </div>
 
-<div class="hx-mt-6" style="width: 100%;">
+<div class="roadmap" style="margin-bottom: 10rem;">
+  <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
     <div style="display: flex; align-items: center; justify-content: space-between;">
       <div class="tabs">
@@ -175,4 +173,53 @@ layout: hextra-home
       {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
   </div>
+</div>
+</div>
+
+<div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
+    <h1 class="hx-font-bold">¡Necesitamos tu ayuda!</h1>
+    {{< hextra/hero-subtitle >}}¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:{{< /hextra/hero-subtitle >}}
+    <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
+    {{< hextra/hero-button text="Escribe contenido" link="/contribute" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    {{< hextra/hero-button text="Traducir" link="/contribute" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    {{< hextra/hero-button text="Donar" link="/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    {{< hextra/hero-button text="Corre la voz" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    </div>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 20px;
+        }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Rol</th>
+                <th>Contribuciones</th>
+                <th>Enlaces</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PrintN</td>
+                <td>Fundador, Desarrollador</td>
+                <td>Código, Documentación</td>
+                <td><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
+            </tr>
+            <tr>
+                <td>¡Podrías estar aquí!</td>
+                <td>Tu papel</td>
+                <td>Tu contribución</td>
+                <td><a href="https://github.com/" target="_blank">Tu GitHub</a></td>
+            </tr>
+        </tbody>
+    </table>
 </div>

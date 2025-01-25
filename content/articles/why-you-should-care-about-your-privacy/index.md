@@ -7,6 +7,6 @@ authors:
     image: https://github.com/PrintN.png
 tags:
   - Privacy
-excludeSearch: true
+excludeSearch: false
 ---
 

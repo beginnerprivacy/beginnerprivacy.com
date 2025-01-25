@@ -23,7 +23,8 @@
     position: absolute;
     top: 60px;
     right: 11%;
-    width: 300px;
+    width: 340px;
+    pointer-events: none;
 }
 
 .tabs {
@@ -112,9 +113,14 @@ input[type="radio"]:checked + label {
         width: 150px !important;
     }
 }
-@media (max-width: 1030px) {
+@media (max-width: 1170px) {
     .hero-surveillance-image {
-        width: 100px !important;
+        width: 200px !important;
+    }
+}
+@media (max-width: 1090px) {
+    .hero-surveillance-image {
+        width: 110px !important;
     }
 }
 @media (max-width: 320px) {
