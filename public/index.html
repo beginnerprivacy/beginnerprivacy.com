@@ -21,8 +21,8 @@
 
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Free, open source Start Your Privacy Journey Now with Beginner Privacy Your privacy is important! But big organizations are taking it away. Beginner Privacy is your roadmap for reclaiming a private life.">
-  <meta itemprop="dateModified" content="2025-01-26T14:18:33+01:00">
-  <meta itemprop="wordCount" content="229">
+  <meta itemprop="dateModified" content="2025-01-26T14:40:03+01:00">
+  <meta itemprop="wordCount" content="167">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -460,7 +460,7 @@
     
     class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     
-    onclick="takeQuiz();"
+    onclick="scrollDown();"
   >Start Now</a>
 
 <a
@@ -468,41 +468,8 @@
     class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     
     
-  >Not sure? Here&#39;s why.</a>
+  >Not sure? Here&#39;s why</a>
 </p>
-  <div id="quizModal">  
-    <div id="question1" class="question">
-        <p>Do you use Linux?</p>
-    </div>
-    <div id="question2" class="question">
-        <p>Do you have technical experience?</p>
-    </div>
-    <div id="question3" class="question">
-        <p>How much effort do you plan to put into your privacy?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Very much</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Decent amount</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Little bit</button>
-        </p>
-    </div>
-    <div id="question4" class="question">
-        <p>Who are you trying to protect your data from?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Big Corporations</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Government</button>
-        </p>
-    </div>
-    <div style="text-align: center;">
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Yes</button>
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
-    </div>
-    <div id="quizResult">
-      <span id="basic" style="display: none;">You should start on the Basic roadmap.</span>
-      <span id="medium" style="display: none;">You should start on the Medium roadmap.</span>
-      <span id="advanced" style="display: none;">You should start on the Advanced roadmap.</span>
-    </div>
-  </div>
 </div>
 <div class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
@@ -1081,7 +1048,7 @@
     </div>
   </div>
 </div>
-<div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
+<div id="contributors" class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
     <h1 class="hx-font-bold">We Need Your Help!</h1>
     <p
   class="not-prose hx-text-xl hx-text-gray-600 dark:hx-text-gray-400 sm:hx-text-xl"

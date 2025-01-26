@@ -22,7 +22,7 @@
   <meta itemprop="name" content="初学者的隐私">
   <meta itemprop="description" content="免费，开源 立即开始您的隐私之旅 初学者隐私 你的隐私很重要！但大组织正在夺走它。 初学者隐私是你重获私人生活的路线图。">
   <meta itemprop="dateModified" content="2025-01-26T14:18:33+01:00">
-  <meta itemprop="wordCount" content="476">
+  <meta itemprop="wordCount" content="370">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -458,7 +458,7 @@
     
     class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     
-    onclick="takeQuiz();"
+    onclick="scrollDown();"
   >现在开始</a>
 
 <a
@@ -466,43 +466,10 @@
     class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     
     
-  >不确定？ 这就是原因。</a>
+  >不确定？这就是原因</a>
 </p>
-  <div id="quizModal">  
-    <div id="question1" class="question">
-        <p>你用Linux吗？</p>
-    </div>
-    <div id="question2" class="question">
-        <p>你有技术经验吗？</p>
-    </div>
-    <div id="question3" class="question">
-        <p>你打算在隐私上投入多少精力？</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">非常</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">相当数量</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">一点点</button>
-        </p>
-    </div>
-    <div id="question4" class="question">
-        <p>你想保护你的数据不被谁获取？</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">大公司</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">黑客</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">政府</button>
-        </p>
-    </div>
-    <div style="text-align: center;">
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">是的</button>
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">不</button>
-    </div>
-    <div id="quizResult">
-      <span id="basic" style="display: none;">你应该从基础路线图开始。</span>
-      <span id="medium" style="display: none;">你应该从Medium的路线图开始。</span>
-      <span id="advanced" style="display: none;">你应该从高级路线图开始。</span>
-    </div>
-  </div>
 </div>
-<div class="roadmap" style="margin-bottom: 10rem;">
+<div id="roadmap" class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">路线图</h1>
     <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">

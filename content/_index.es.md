@@ -23,42 +23,8 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="Empieza ahora" onClick="takeQuiz();" >}}
-  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón." link="articles/why-you-should-care-about-your-privacy" >}}
-
-  <div id="quizModal">  
-    <div id="question1" class="question">
-        <p>¿Usas Linux?</p>
-    </div>
-    <div id="question2" class="question">
-        <p>¿Tienes experiencia técnica?</p>
-    </div>
-    <div id="question3" class="question">
-        <p>¿Cuánto esfuerzo planeas dedicar a tu privacidad?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Mucho</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Cantidad decente</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Un poco</button>
-        </p>
-    </div>
-    <div id="question4" class="question">
-        <p>¿De quién estás tratando de proteger tus datos?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Grandes Corporaciones</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Gobierno</button>
-        </p>
-    </div>
-    <div style="text-align: center;">
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Sí</button>
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
-    </div>
-    <div id="quizResult">
-      <span id="basic" style="display: none;">Deberías empezar con la hoja de ruta básica.</span>
-      <span id="medium" style="display: none;">Deberías empezar con la hoja de ruta de Medium.</span>
-      <span id="advanced" style="display: none;">Deberías comenzar con la hoja de ruta avanzada.</span>
-    </div>
-  </div>
+  {{< hextra/hero-button text="Empieza ahora" onclick="scrollDown();" >}}
+  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" link="articles/why-you-should-care-about-your-privacy" >}}
 </div>
 
 <div class="roadmap" style="margin-bottom: 10rem;">

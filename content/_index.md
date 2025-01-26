@@ -23,42 +23,8 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="Start Now" onClick="takeQuiz();" >}}
-  {{< hextra/hero-button text="Not sure? Here's why." link="articles/why-you-should-care-about-your-privacy" >}}
-
-  <div id="quizModal">  
-    <div id="question1" class="question">
-        <p>Do you use Linux?</p>
-    </div>
-    <div id="question2" class="question">
-        <p>Do you have technical experience?</p>
-    </div>
-    <div id="question3" class="question">
-        <p>How much effort do you plan to put into your privacy?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Very much</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Decent amount</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Little bit</button>
-        </p>
-    </div>
-    <div id="question4" class="question">
-        <p>Who are you trying to protect your data from?</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">Big Corporations</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">Hackers</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">Government</button>
-        </p>
-    </div>
-    <div style="text-align: center;">
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">Yes</button>
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">No</button>
-    </div>
-    <div id="quizResult">
-      <span id="basic" style="display: none;">You should start on the Basic roadmap.</span>
-      <span id="medium" style="display: none;">You should start on the Medium roadmap.</span>
-      <span id="advanced" style="display: none;">You should start on the Advanced roadmap.</span>
-    </div>
-  </div>
+  {{< hextra/hero-button text="Start Now" onclick="scrollDown();" >}}
+  {{< hextra/hero-button text="Not sure? Here's why" link="articles/why-you-should-care-about-your-privacy" >}}
 </div>
 
 <div class="roadmap" style="margin-bottom: 10rem;">
@@ -140,7 +106,7 @@ layout: hextra-home
   </div>
 </div>
 
-<div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
+<div id="contributors" class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
     <h1 class="hx-font-bold">We Need Your Help!</h1>
     {{< hextra/hero-subtitle >}}Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">

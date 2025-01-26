@@ -92,24 +92,6 @@ input[type="radio"]:checked + label {
     display: none;
 }
 
-#quizModal {
-    display: none;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.question {
-    display: none;
-}
-
-#quizModal button {
-  width: 40%;
-  border-radius: 20px;
-  color: white;
-}
-
 @media (max-width: 980px) {
     .hero-surveillance-image {
         width: 150px !important;

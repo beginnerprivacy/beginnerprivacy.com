@@ -21,45 +21,11 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="现在开始" onClick="takeQuiz();" >}}
-  {{< hextra/hero-button text="不确定？ 这就是原因。" link="articles/why-you-should-care-about-your-privacy" >}}
-
-  <div id="quizModal">  
-    <div id="question1" class="question">
-        <p>你用Linux吗？</p>
-    </div>
-    <div id="question2" class="question">
-        <p>你有技术经验吗？</p>
-    </div>
-    <div id="question3" class="question">
-        <p>你打算在隐私上投入多少精力？</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">非常</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">相当数量</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">一点点</button>
-        </p>
-    </div>
-    <div id="question4" class="question">
-        <p>你想保护你的数据不被谁获取？</p>
-        <p>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(0)">大公司</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(1)">黑客</button>
-          <button class="hx-bg-primary-600" onclick="answerQuestion(2)">政府</button>
-        </p>
-    </div>
-    <div style="text-align: center;">
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('yes')">是的</button>
-      <button class="yes-no-button hx-bg-primary-600" onclick="answerQuestion('no')">不</button>
-    </div>
-    <div id="quizResult">
-      <span id="basic" style="display: none;">你应该从基础路线图开始。</span>
-      <span id="medium" style="display: none;">你应该从Medium的路线图开始。</span>
-      <span id="advanced" style="display: none;">你应该从高级路线图开始。</span>
-    </div>
-  </div>
+  {{< hextra/hero-button text="现在开始" onclick="scrollDown();" >}}
+  {{< hextra/hero-button text="不确定？这就是原因" link="articles/why-you-should-care-about-your-privacy" >}}
 </div>
 
-<div class="roadmap" style="margin-bottom: 10rem;">
+<div id="roadmap" class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">路线图</h1>
     <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
