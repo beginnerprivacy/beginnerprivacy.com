@@ -159,17 +159,25 @@ input[type="radio"]:checked + label {
 }
 
 .hextra-feature-card::after {
+    --roadmap-line-color: black;
     content: '';
     position: absolute;
-    background: #000;
+    background: var(--roadmap-line-color);
     display: none;
 }
 
 .hextra-feature-card::before {
+    --roadmap-line-color: black;
     content: '';
     position: absolute;
-    background: #000;
+    background: var(--roadmap-line-color);
     display: none;
+}
+
+.hextra-feature-card:is(html[class~="dark"] *)::before,
+.hextra-feature-card:is(html[class~="dark"] *)::after {
+    --roadmap-line-color: white;
+    background: var(--roadmap-line-color);
 }
 
 /* Mobile */

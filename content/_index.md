@@ -141,13 +141,13 @@ layout: hextra-home
 </div>
 
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-font-bold" style="font-size: clamp(1.5rem, 6vw, 2rem);">We Need Your Help!</h1>
-    {{< hextra/hero-subtitle >}}<div style="font-size: clamp(1rem, 3vw, 1.2rem); margin: 1rem auto; max-width: 800px;">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</div>{{< /hextra/hero-subtitle >}}
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; justify-content: center; margin: 2rem auto; max-width: 850px; padding: 0 1rem;">
-        {{< hextra/hero-button text="Write content" link="/contribute" icon="pencil" style="height: 50px; font-size: clamp(14px, 3vw, 18px); display: flex; align-items: center; justify-content: center; width: 100%; margin: 0;" >}}
-        {{< hextra/hero-button text="Translate" link="/contribute" icon="translate" style="height: 50px; font-size: clamp(14px, 3vw, 18px); display: flex; align-items: center; justify-content: center; width: 100%; margin: 0;" >}}
-        {{< hextra/hero-button text="Donate" link="/donate" icon="heart" style="height: 50px; font-size: clamp(14px, 3vw, 18px); display: flex; align-items: center; justify-content: center; width: 100%; margin: 0;" >}}
-        {{< hextra/hero-button text="Spread the word" onClick="" icon="share" style="height: 50px; font-size: clamp(14px, 3vw, 18px); display: flex; align-items: center; justify-content: center; width: 100%; margin: 0;" >}}
+    <h1 class="hx-font-bold">We Need Your Help!</h1>
+    {{< hextra/hero-subtitle >}}Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:{{< /hextra/hero-subtitle >}}
+    <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
+        {{< hextra/hero-button text="Write content" link="/contribute" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Translate" link="/contribute" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Donate" link="/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Spread the word" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     </div>
     <table>
         <thead>
