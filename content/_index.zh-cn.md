@@ -62,7 +62,7 @@ layout: hextra-home
 <div class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">路线图</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
       <div class="tabs">
           <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
           <label class="tab" for="radio-start">开始</label>
@@ -74,7 +74,7 @@ layout: hextra-home
           <label class="tab" for="radio-advanced">高级</label>
           <span class="glider"></span>
       </div>
-      <div style="display: flex; align-items: center;">
+      <div id="import-export" style="display: flex; align-items: center;">
           <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
               导入
               <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
@@ -93,82 +93,46 @@ layout: hextra-home
       {{< hextra/feature-card title="逐步实施" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
     {{< /hextra/feature-grid >}}
   </div>
-
   <div id="basicContent" class="roadmap-section" style="display:none;">
-      {{< hextra/feature-grid >}}
+    {{< hextra/feature-grid >}}
         {{< hextra/feature-card title="基本介绍" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="隐私保护浏览器" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="搜索引擎" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="密码管理器" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="隐私保护电子邮件" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card invisibleFiller="true" >}}
+        {{< hextra/feature-card invisibleFiller="true" >}}
+        {{< hextra/feature-card title="有什么遗漏的吗？贡献吧！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="限制信息共享" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="虚拟专用网络" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="隐私专注的浏览器" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="强大且独特的密码" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="隐私保护电子邮件" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-      {{< /hextra/feature-grid >}}
-      <br>
-      {{< hextra/feature-grid >}}
-        {{< hextra/feature-card title="限制共享的信息" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-      {{< /hextra/feature-grid >}}
-      <br>
-      {{< hextra/feature-grid >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-      {{< /hextra/feature-grid >}}
+    {{< /hextra/feature-grid >}}
   </div>
-
   <div id="mediumContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="中级介绍" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="适度介绍" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="切换到Linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+      {{< hextra/feature-card title="社交媒体前端" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="即将推出！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="即将推出！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card title="有什么遗漏的吗？贡献吧！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="操作安全导论" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
-
   <div id="advancedContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="高级介绍" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="QubesOS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="获取加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="敬请期待！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+      {{< hextra/feature-card title="即将推出！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card title="有什么遗漏的吗？贡献吧！" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
 </div>

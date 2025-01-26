@@ -21,8 +21,8 @@
 
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Gratuito, de código abierto Comienza tu viaje de privacidad ahora con Beginner Privacy ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando. Beginner Privacy es tu hoja de ruta para recuperar una vida privada.">
-  <meta itemprop="dateModified" content="2025-01-24T15:04:34+01:00">
-  <meta itemprop="wordCount" content="260">
+  <meta itemprop="dateModified" content="2025-01-25T14:06:34+01:00">
+  <meta itemprop="wordCount" content="242">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -507,7 +507,7 @@
 <div class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
       <div class="tabs">
           <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
           <label class="tab" for="radio-start">Inicio</label>
@@ -519,7 +519,7 @@
           <label class="tab" for="radio-advanced">Avanzado</label>
           <span class="glider"></span>
       </div>
-      <div style="display: flex; align-items: center;">
+      <div id="import-export" style="display: flex; align-items: center;">
           <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
               Importar
               <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
@@ -537,57 +537,61 @@
   
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Cómo funciona Beginner Privacy</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-c%C3%B3mo-funciona-beginner-privacy" class="hx-checkbox" />  
         </div>
       </a>
       <a
         href="articles/why-you-should-care-about-your-privacy" 
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>¿Por qué preocuparse por la privacidad?</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-por-qu%C3%A9-preocuparse-por-la-privacidad" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Encontrar un modelo de amenaza</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-encontrar-un-modelo-de-amenaza" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Implementación gradual</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-implementaci%C3%B3n-gradual" class="hx-checkbox" />  
         </div>
       </a>
@@ -603,233 +607,154 @@
   
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
               <span>Introducción básica</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
             <input type="checkbox" id="checkbox-introducci%C3%B3n-b%C3%A1sica" class="hx-checkbox" />  
           </div>
         </a>
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>Redes Privadas Virtuales</span>
+              <span>Navegador Enfocado en la Privacidad</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-redes-privadas-virtuales" class="hx-checkbox" />  
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-navegador-enfocado-en-la-privacidad" class="hx-checkbox" />  
           </div>
         </a>
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>Navegadores enfocados en la privacidad</span>
+              <span>Motor de búsqueda</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-navegadores-enfocados-en-la-privacidad" class="hx-checkbox" />  
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-motor-de-b%C3%BAsqueda" class="hx-checkbox" />  
           </div>
         </a>
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>Contraseñas fuertes y únicas</span>
+              <span>Gestor de Contraseñas</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-contrase%C3%B1as-fuertes-y-%C3%BAnicas" class="hx-checkbox" />  
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-gestor-de-contrase%C3%B1as" class="hx-checkbox" />  
           </div>
         </a>
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>Correo electrónico enfocado en la privacidad</span>
+              <span>Correo Electrónico Enfocado en la Privacidad</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
             <input type="checkbox" id="checkbox-correo-electr%C3%B3nico-enfocado-en-la-privacidad" class="hx-checkbox" />  
           </div>
         </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          class="invisible-filler">
+          <div class="hx-relative hx-w-full hx-p-6">
+            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
+              <span></span>
+            </h3>
+            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
+          </div>
+        </a>
+        <a
+          
+          class="invisible-filler">
+          <div class="hx-relative hx-w-full hx-p-6">
+            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
+              <span></span>
+            </h3>
+            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
+          </div>
+        </a>
+        <a
+          
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
+          <div class="hx-relative hx-w-full hx-p-6">
+            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
+              <span>¿Falta algo? ¡Contribuye!</span>
+            </h3>
+            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-falta-algo-contribuye" class="hx-checkbox" />  
+          </div>
+        </a>
+        <a
+          
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
               <span>Limitar la información compartida</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
-            <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
             <input type="checkbox" id="checkbox-limitar-la-informaci%C3%B3n-compartida" class="hx-checkbox" />  
           </div>
         </a>
         <a
           
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
+          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
           <div class="hx-relative hx-w-full hx-p-6">
             <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>¡Próximamente!</span>
+              <span>Red Privada Virtual</span>
             </h3>
             <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+          </div>
+        
+          <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+            <input type="checkbox" id="checkbox-red-privada-virtual" class="hx-checkbox" />  
           </div>
         </a>
-        <a
-          
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
-          <div class="hx-relative hx-w-full hx-p-6">
-            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>¡Próximamente!</span>
-            </h3>
-            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-          </div>
-        </a>
-        <a
-          
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
-          <div class="hx-relative hx-w-full hx-p-6">
-            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>¡Próximamente!</span>
-            </h3>
-            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-          </div>
-        </a>
-        <a
-          
-          style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-          class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-        >
-          <div class="hx-relative hx-w-full hx-p-6">
-            <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-              <span>¡Próximamente!</span>
-            </h3>
-            <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-          </div><div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-          </div>
-        </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
     
 </div>
 
@@ -842,231 +767,152 @@
   
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Introducción Media</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-introducci%C3%B3n-media" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>Cambia a Linux</span>
+            <span>Cámbiate a Linux</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-cambia-a-linux" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-c%C3%A1mbiate-a-linux" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Interfaces de Redes Sociales</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-interfaces-de-redes-sociales" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>¡Próximamente!</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>¡Próximamente!</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
-      </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
-          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span>¿Falta algo? ¡Contribuye!</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
-      </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-falta-algo-contribuye" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span>Introducción a la OpSec</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>Introducción a la Seguridad Operativa</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-introducci%C3%B3n-a-la-seguridad-operativa" class="hx-checkbox" />  
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-introducci%C3%B3n-a-la-opsec" class="hx-checkbox" />  
         </div>
       </a>
     
@@ -1081,231 +927,152 @@
   
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Introducción Avanzada</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-introducci%C3%B3n-avanzada" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
+        <div class="hx-relative hx-w-full hx-p-6">
+          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
+            <span>QubesOS</span>
+          </h3>
+          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-qubesos" class="hx-checkbox" />  
+        </div>
+      </a>
+      <a
+        
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Criptomoneda</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-criptomoneda" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>Adquirir cripto</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-adquirir-cripto" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
             <span>¡Próximamente!</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
           <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
-      </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
-          <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        class="invisible-filler">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span></span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+        </div>
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
         </div>
       </a>
       <a
         
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
+        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient">
         <div class="hx-relative hx-w-full hx-p-6">
           <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
+            <span>¿Falta algo? ¡Contribuye!</span>
           </h3>
           <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
         </div>
-      </a>
-    
-</div>
-
-    <br>
-    <div
-  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-4 hx-w-full not-prose"
-  style="--hextra-feature-grid-cols: 3; "
->
-  
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
-        </div>
-      </a>
-      <a
-        
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));"
-        class=" hextra-feature-card not-prose hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
-      >
-        <div class="hx-relative hx-w-full hx-p-6">
-          <h3 class="hx-text-2xl hx-font-medium hx-leading-6 hx-mb-2 hx-flex hx-items-center">
-            <span>¡Próximamente!</span>
-          </h3>
-          <p class="hx-text-gray-500 dark:hx-text-gray-400 hx-text-sm hx-leading-6"></p>
-        </div><div style="position: absolute;top: 4px;right: 8px;">
-          <input type="checkbox" id="checkbox-pr%C3%B3ximamente" class="hx-checkbox" />  
+      
+        <div class="vertical-line hx-bg-black dark:hx-bg-white"></div>
+        <div class="horizontal-line hx-bg-black dark:hx-bg-white"></div><div style="position: absolute;top: 4px;right: 8px;">
+          <input type="checkbox" id="checkbox-falta-algo-contribuye" class="hx-checkbox" />  
         </div>
       </a>
     

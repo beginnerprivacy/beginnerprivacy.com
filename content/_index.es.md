@@ -64,7 +64,7 @@ layout: hextra-home
 <div class="roadmap" style="margin-bottom: 10rem;">
   <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
     <h1 class="hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
       <div class="tabs">
           <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
           <label class="tab" for="radio-start">Inicio</label>
@@ -76,7 +76,7 @@ layout: hextra-home
           <label class="tab" for="radio-advanced">Avanzado</label>
           <span class="glider"></span>
       </div>
-      <div style="display: flex; align-items: center;">
+      <div id="import-export" style="display: flex; align-items: center;">
           <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
               Importar
               <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
@@ -92,85 +92,49 @@ layout: hextra-home
       {{< hextra/feature-card title="Cómo funciona Beginner Privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="¿Por qué preocuparse por la privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Encontrar un modelo de amenaza" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Implementación gradual" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  displayVertical="false" >}}
+      {{< hextra/feature-card title="Implementación gradual" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"   >}}
     {{< /hextra/feature-grid >}}
   </div>
-
   <div id="basicContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
         {{< hextra/feature-card title="Introducción básica" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Redes Privadas Virtuales" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Navegadores enfocados en la privacidad" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Contraseñas fuertes y únicas" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Correo electrónico enfocado en la privacidad" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-        {{< hextra/feature-card title="Limitar la información compartida" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
-        {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+        {{< hextra/feature-card title="Navegador Enfocado en la Privacidad" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Motor de búsqueda" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Gestor de Contraseñas" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Correo Electrónico Enfocado en la Privacidad" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card invisibleFiller="true" >}}
+        {{< hextra/feature-card invisibleFiller="true" >}}
+        {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Limitar la información compartida" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Red Privada Virtual" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
-
   <div id="mediumContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="Introducción Media" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Cambia a Linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Cámbiate a Linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Interfaces de Redes Sociales" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
       {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Introducción a la Seguridad Operativa" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Introducción a la OpSec" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
-
   <div id="advancedContent" class="roadmap-section" style="display:none;">
     {{< hextra/feature-grid >}}
       {{< hextra/feature-card title="Introducción Avanzada" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="QubesOS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Criptomoneda" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Adquirir cripto" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="true" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="both" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
-    {{< /hextra/feature-grid >}}
-    <br>
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¡Próximamente!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" displayVertical="false" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card invisibleFiller="true" >}}
+      {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
 </div>
