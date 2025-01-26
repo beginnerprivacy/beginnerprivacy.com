@@ -149,19 +149,6 @@ layout: hextra-home
     {{< hextra/hero-button text="Donar" link="/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     {{< hextra/hero-button text="Corre la voz" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     </div>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 2rem;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-            font-size: 20px;
-        }
-    </style>
     <table>
         <thead>
             <tr>
@@ -173,16 +160,16 @@ layout: hextra-home
         </thead>
         <tbody>
             <tr>
-                <td>PrintN</td>
-                <td>Fundador, Desarrollador</td>
-                <td>Código, Documentación</td>
-                <td><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
+                <td data-label="Nombre">PrintN</td>
+                <td data-label="Rol">Fundador, Desarrollador</td>
+                <td data-label="Contribuciones">Código, Documentación</td>
+                <td data-label="Enlaces"><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
             </tr>
             <tr>
-                <td>¡Podrías estar aquí!</td>
-                <td>Tu papel</td>
-                <td>Tu contribución</td>
-                <td><a href="https://github.com/" target="_blank">Tu GitHub</a></td>
+                <td data-label="Nombre">¡Podrías estar aquí!</td>
+                <td data-label="Rol">Tu papel</td>
+                <td data-label="Contribuciones">Tu contribución</td>
+                <td data-label="Enlaces"><a href="https://github.com/" target="_blank">Tu GitHub</a></td>
             </tr>
         </tbody>
     </table>

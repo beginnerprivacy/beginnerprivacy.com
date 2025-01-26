@@ -147,19 +147,6 @@ layout: hextra-home
     {{< hextra/hero-button text="捐赠" link="/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     {{< hextra/hero-button text="传播消息" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     </div>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 2rem;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-            font-size: 20px;
-        }
-    </style>
     <table>
         <thead>
             <tr>
@@ -171,16 +158,16 @@ layout: hextra-home
         </thead>
         <tbody>
             <tr>
-                <td>PrintN</td>
-                <td>创始人，开发者</td>
-                <td>代码，文档</td>
-                <td><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
+                <td data-label="名字">PrintN</td>
+                <td data-label="角色">创始人，开发者</td>
+                <td data-label="贡献">代码，文档</td>
+                <td data-label="链接"><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
             </tr>
             <tr>
-                <td>你本可以在这里的！</td>
-                <td>你的角色</td>
-                <td>你的贡献</td>
-                <td><a href="https://github.com/" target="_blank">你的GitHub</a></td>
+                <td data-label="名字">你本可以在这里的！</td>
+                <td data-label="角色">你的角色</td>
+                <td data-label="贡献">你的贡献</td>
+                <td data-label="链接"><a href="https://github.com/" target="_blank">你的GitHub</a></td>
             </tr>
         </tbody>
     </table>

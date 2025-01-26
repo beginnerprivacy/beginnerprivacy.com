@@ -263,3 +263,46 @@ input[type="radio"]:checked + label {
         display: none;
     }
 }
+
+table {
+    width : 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    thead {
+        display: none;
+    }
+    tr {
+        display: block;
+        margin-bottom: 1rem;
+        width: 200%;
+    }
+    td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        text-align: left;
+        font-weight: bold;
+    }
+    th, td {
+        font-size: 16px;
+    }
+}
