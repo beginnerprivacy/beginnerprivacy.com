@@ -254,7 +254,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-01-26T20:07:59+01:00</lastmod>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -272,6 +272,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/contribute/translate/</loc>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -307,6 +308,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/contribute/</loc>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -324,7 +326,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
-    <lastmod>2025-01-25T12:11:58+01:00</lastmod>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -342,6 +344,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/donate/</loc>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -413,6 +416,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/contribute/write-content/</loc>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -448,6 +452,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/credits/</loc>
+    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
