@@ -14,5 +14,93 @@
       
     
     
+    <item>
+      <title>翻译</title>
+      <link>http://localhost:1313/zh-cn/about/contribute/translate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/contribute/translate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;发现翻译错误了吗？然后请在&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt;提交问题。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>捐赠</title>
+      <link>http://localhost:1313/zh-cn/about/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/donate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;初学者隐私并不通过联盟链接或推荐某些东西来赚钱。我们完全依靠捐款。所以，如果初学者隐私对你有所帮助，请考虑捐赠。&lt;/p&gt;
+&lt;h3&gt;目标&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;目标&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%9b%ae%e6%a0%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;没有JavaScript的Tor网站（1年）&lt;/p&gt;
+&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $192 collected&#34;&gt;
+    &lt;span class=&#34;progress-text&#34;&gt;$0 / $192&lt;/span&gt;
+    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;贡献者奖励系统&lt;/p&gt;
+&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $150 collected&#34;&gt;
+    &lt;span class=&#34;progress-text&#34;&gt;$0 / $150&lt;/span&gt;
+    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;捐赠 Monero (XMR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;捐赠-monero-xmr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%8d%90%e8%b5%a0-monero-xmr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;836HHAyiLmAEXtiFVktMvhJGSzCxSxi4FjYhMhmx1H3wNuhhkESmiRQRz7n4dcdMSDDtaw23ty9qdYzHf6ycfzpzLdx6Lxq&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>写内容</title>
+      <link>http://localhost:1313/zh-cn/about/contribute/write-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/contribute/write-content/</guid>
+      <description>
+        
+        
+        &lt;p&gt;关于为初学者隐私撰写内容的指南将很快发布。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>致谢</title>
+      <link>http://localhost:1313/zh-cn/about/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/credits/</guid>
+      <description>
+        
+        
+        &lt;p&gt;初学者隐私项目不可能在没有以下资源、工具和人员的情况下实现：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hextra 主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;初学者隐私贡献者&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;监控摄像头图像由 Clker-Free-Vector-Images&lt;/a&gt; 从 &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 保镖图像由 OpenClipart-Vectors 提供&lt;/a&gt; 从 &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

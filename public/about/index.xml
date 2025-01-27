@@ -14,5 +14,94 @@
       
     
     
+    <item>
+      <title>Credits</title>
+      <link>http://localhost:1313/about/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/credits/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Beginner Privacy wouldn&amp;rsquo;t be possible without the following resources, tools and people:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hextra Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beginner Privacy contributors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surveillance camera image by Clker-Free-Vector-Images&lt;/a&gt; from &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compass icons created by Creative Stall Premium - Flaticon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 bodyguard image by OpenClipart-Vectors&lt;/a&gt; from &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Donate</title>
+      <link>http://localhost:1313/about/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/donate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Beginner Privacy doesn&amp;rsquo;t make money by affliate links or recommending certain things. We solely rely on donations. So if Beginner Privacy has provided you some value, please consider donating.&lt;/p&gt;
+&lt;h3&gt;Goals&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;goals&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#goals&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;No JavaScript tor website (1 year)&lt;/p&gt;
+&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $192 collected&#34;&gt;
+    &lt;span class=&#34;progress-text&#34;&gt;$0 / $192&lt;/span&gt;
+    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Reward system for contributors&lt;/p&gt;
+&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $150 collected&#34;&gt;
+    &lt;span class=&#34;progress-text&#34;&gt;$0 / $150&lt;/span&gt;
+    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Donate Monero (XMR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;donate-monero-xmr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#donate-monero-xmr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;836HHAyiLmAEXtiFVktMvhJGSzCxSxi4FjYhMhmx1H3wNuhhkESmiRQRz7n4dcdMSDDtaw23ty9qdYzHf6ycfzpzLdx6Lxq&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Translate</title>
+      <link>http://localhost:1313/about/contribute/translate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/contribute/translate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Found an error in the translations? Then please submit an issue &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Write Content</title>
+      <link>http://localhost:1313/about/contribute/write-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/contribute/write-content/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A guide for writing content for Beginner Privacy will become available soon.&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

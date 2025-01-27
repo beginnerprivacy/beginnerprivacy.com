@@ -74,6 +74,23 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/contribute/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/"
+                />
+  </url><url>
     <loc>http://localhost:1313/tools/operating-systems/desktop/</loc>
     <lastmod>2025-01-24T12:32:35+01:00</lastmod>
     <xhtml:link
@@ -255,7 +272,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-26T14:40:03+01:00</lastmod>
+    <lastmod>2025-01-26T20:07:59+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -287,6 +304,40 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/credits/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/credits/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/donate/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/donate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/donate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/donate/"
                 />
   </url><url>
     <loc>http://localhost:1313/tools/hardware/</loc>
@@ -377,6 +428,40 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tools/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/contribute/translate/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/translate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/translate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/translate/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/contribute/write-content/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/write-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/write-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/write-content/"
                 />
   </url>
 </urlset>

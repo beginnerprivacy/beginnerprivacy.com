@@ -296,3 +296,34 @@ th, td {
         font-size: 16px;
     }
 }
+
+.donation-container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px 0;
+    position: relative;
+}
+
+.progress-bar {
+    height: 30px;
+    background-color: #008ae6;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    transition: color 0.5s;
+}

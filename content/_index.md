@@ -8,7 +8,7 @@ layout: hextra-home
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
 
   {{< hextra/hero-container
-    image="surveillance.webp"
+    image="images/surveillance.webp"
     imageClass="hero-surveillance-image hx-block"
     imageTitle="Surveillance Camera" >}}
   {{< /hextra/hero-container >}}
@@ -110,9 +110,9 @@ layout: hextra-home
     <h1 class="hx-font-bold">We Need Your Help!</h1>
     {{< hextra/hero-subtitle >}}Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
-        {{< hextra/hero-button text="Write content" link="/contribute" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-        {{< hextra/hero-button text="Translate" link="/contribute" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-        {{< hextra/hero-button text="Donate" link="/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Write content" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Translate" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+        {{< hextra/hero-button text="Donate" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
         {{< hextra/hero-button text="Spread the word" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
     </div>
     <table>
