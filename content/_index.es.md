@@ -55,10 +55,9 @@ layout: hextra-home
 <div id="roadmapContent" class="hx-mt-4">
   <div id="startContent" class="roadmap-section">
     {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="Cómo funciona Beginner Privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Cómo funciona Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="¿Por qué preocuparse por la privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Encontrar un modelo de amenaza" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Implementación gradual" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"   >}}
+      {{< hextra/feature-card title="Encontrar un modelo de amenaza" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
   <div id="basicContent" class="roadmap-section" style="display:none;">
