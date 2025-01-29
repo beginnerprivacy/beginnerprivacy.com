@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – Threat Model</title>
-    <link>http://localhost:1313/tags/threat-model/</link>
+    <link>http://localhost:1313/zh-cn/tags/threat-model/</link>
     <description>Recent content in Threat Model on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/threat-model/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/zh-cn/tags/threat-model/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>How To Find A Threat Model That Suits You</title>
-      <link>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</link>
       <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</guid>
       <description>
         
         

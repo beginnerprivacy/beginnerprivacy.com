@@ -20,8 +20,62 @@
                 href="http://localhost:1313/es/tools/services/vpn/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/threat-model/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/threat-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/threat-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/threat-model/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +93,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/privacy/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,24 +108,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/privacy/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tools/operating-systems/desktop/</loc>
@@ -219,7 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -255,7 +291,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -308,7 +344,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/credits/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

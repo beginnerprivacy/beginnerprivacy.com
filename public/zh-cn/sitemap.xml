@@ -20,26 +20,26 @@
                 href="http://localhost:1313/zh-cn/tools/services/vpn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tags/privacy/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/privacy/"
+                href="http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/privacy/"
+                href="http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/privacy/"
+                href="http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,8 +56,44 @@
                 href="http://localhost:1313/zh-cn/tags/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-cn/tags/threat-model/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/threat-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/threat-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/threat-model/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/tags/privacy/</loc>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/privacy/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/why-you-should-care-about-your-privacy/</loc>
-    <lastmod>2025-01-25T14:06:34+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -254,7 +290,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -326,7 +362,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -452,7 +488,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/credits/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
