@@ -20,26 +20,8 @@
                 href="http://localhost:1313/zh-cn/tools/services/vpn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/tags/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <lastmod>2025-01-29T14:04:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -57,7 +39,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/threat-model/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <lastmod>2025-01-29T14:04:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -72,6 +54,24 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/tags/threat-model/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</loc>
+    <lastmod>2025-01-29T14:04:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/privacy/</loc>

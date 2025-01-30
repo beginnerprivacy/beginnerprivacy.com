@@ -72,26 +72,6 @@ input[type="radio"]:checked + label {
     overflow: visible;
 }
 
-.horizontal-line {
-    width: 17px;
-    height: 2px;
-    transform: translateY(-50%);
-    top: -50%;
-    left: 100%;
-    position: relative;
-    display: none;
-}
-
-.vertical-line {
-    width: 2px;
-    height: 25px;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
-}
-
 @media (max-width: 980px) {
     .hero-surveillance-image {
         width: 150px !important;
@@ -188,15 +168,7 @@ input[type="radio"]:checked + label {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .hextra-feature-card:nth-child(4n-2)::after {
-        display: block;
-        width: 2px;
-        height: 17px;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
+    .hextra-feature-card:nth-child(4n-2)::after,
     .hextra-feature-card:nth-child(4n-1)::after {
         display: block;
         width: 2px;
@@ -226,7 +198,8 @@ input[type="radio"]:checked + label {
         grid-template-columns: repeat(5, 1fr);
     }
 
-    .hextra-feature-card:nth-child(5)::after {
+    .hextra-feature-card:nth-child(5)::after,
+    .hextra-feature-card:nth-child(6)::after {
         display: block;
         width: 2px;
         height: 17px;
@@ -245,6 +218,10 @@ input[type="radio"]:checked + label {
         top: 50%;
         left: 100%;
         transform: translateY(-50%);
+    }
+    .hextra-feature-card:last-child::after,
+    .hextra-feature-card:last-child::before {
+        display: none;
     }
 }
 
