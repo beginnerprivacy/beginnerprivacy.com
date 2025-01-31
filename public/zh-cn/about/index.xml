@@ -29,6 +29,40 @@
     </item>
     
     <item>
+      <title>高级</title>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/</guid>
+      <description>
+        
+        
+        &lt;p&gt;高级路线图是为那些准备在在线安全和隐私方面进行重大生活方式改变的人准备的。 本节强调了采用全面心态的重要性，在这种心态下，隐私优先于便利。&lt;/p&gt;
+&lt;p&gt;你将学习像Qubes OS这样的安全操作系统，以及Tor和I2P。 这些工具增强了你的匿名性，但需要承诺避免使用专有软件，并接受自由和开源的替代方案。 此外，你将探索自托管自己的服务，因为唯一可以真正信任的人是你自己——其他人都可能构成威胁。&lt;/p&gt;
+&lt;p&gt;此外，您将探讨加密货币，包括安全获取和管理实践，以及加密数据以保护您的通信和文件的重要性。 操作安全（OpSec）也将是一个关键重点，因为它对于减少在线活动中的风险至关重要。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;预计完成时间：&lt;/strong&gt; 完成路线图需要1个月，但你必须保持良好的操作安全，并不断调整你的实践；这不仅仅是安装工具和操作系统然后就完成了。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>基础</title>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</guid>
+      <description>
+        
+        
+        &lt;p&gt;基本路线图旨在为您提供基础知识和实用技能，以增强您的在线安全和隐私。 本节涵盖了每个人都应采用的基本实践，以保护个人信息并维护安全的数字存在。&lt;/p&gt;
+&lt;p&gt;在这份路线图中，您将了解创建强密码、实施双重身份验证（2FA）以及限制您在线分享的信息的重要性。 此外，您还将了解浏览器、移动设备和桌面隐私设置，以及使用虚拟专用网络（VPN）进行安全互联网访问的好处。 本节还讨论了电子邮件隐私、使用隐私保护搜索引擎以及安全通信方法。&lt;/p&gt;
+&lt;p&gt;我们建议您逐步将这些做法融入到您的日常生活中，让您在进入下一步之前，先对每一步感到舒适。 这种方法将帮助你在不感到不知所措的情况下，为你的在线安全打下坚实的基础。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;预计完成时间：&lt;/strong&gt; 1-2周&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>捐赠</title>
       <link>http://localhost:1313/zh-cn/about/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +144,24 @@
 &lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;监控摄像头图像由 Clker-Free-Vector-Images&lt;/a&gt; 从 &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 保镖图像由 OpenClipart-Vectors 提供&lt;/a&gt; 从 &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>中等</title>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/medium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/medium/</guid>
+      <description>
+        
+        
+        &lt;p&gt;中级路线图建立在基础路线图所奠定的基础知识之上，引导您迈向更高级的实践，以增强您的在线安全和隐私。 本节介绍了工具和策略，使您能够更好地控制您的数字足迹并保护您的个人信息。&lt;/p&gt;
+&lt;p&gt;在这份路线图中，您将了解切换到Linux的好处，这是一种以其安全性和隐私功能而闻名的操作系统。 您还将探索自由和开源软件（FOSS）的世界，它为可能危害您隐私的专有应用程序提供了替代方案。&lt;/p&gt;
+&lt;p&gt;最后，您将了解操作安全（OpSec）的概念，它专注于保护您的敏感信息并最小化您在线活动中的风险。&lt;/p&gt;
+&lt;p&gt;在您按照这条路线图前进时，我们建议您慢慢来，逐步实施这些做法。 这将使您能够适应新工具和概念，同时巩固您对在线安全的理解。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;预计完成时间：&lt;/strong&gt; 2周&lt;/p&gt;
 
       </description>
     </item>

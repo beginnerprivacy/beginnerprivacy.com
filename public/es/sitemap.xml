@@ -290,8 +290,44 @@
                 href="http://localhost:1313/es/articles/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/about/roadmap-introductions/advanced/</loc>
+    <lastmod>2025-01-30T13:11:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/roadmap-introductions/advanced/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/roadmap-introductions/advanced/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/roadmap-introductions/basic/</loc>
+    <lastmod>2025-01-30T13:11:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/roadmap-introductions/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/roadmap-introductions/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/roadmap-introductions/basic/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <lastmod>2025-01-30T13:11:33+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -431,6 +467,42 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tools/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/roadmap-introductions/</loc>
+    <lastmod>2025-01-30T13:11:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/roadmap-introductions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/roadmap-introductions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/roadmap-introductions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/roadmap-introductions/medium/</loc>
+    <lastmod>2025-01-30T13:11:33+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/roadmap-introductions/medium/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/roadmap-introductions/medium/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/roadmap-introductions/medium/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tools/services/</loc>
