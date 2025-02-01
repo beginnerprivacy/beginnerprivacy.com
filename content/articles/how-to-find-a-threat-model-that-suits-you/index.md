@@ -11,7 +11,7 @@ excludeSearch: false
 ---
 Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.
 
-## Developing Your Threat Model
+### Developing Your Threat Model
 To create an effective threat model, start by asking yourself the following questions:
 
 **1. What do I want to protect?**
@@ -34,7 +34,7 @@ Evaluate the potential impact of a security breach. Would it result in financial
 
 Determine your comfort level with various security measures. Are you willing to invest in advanced security tools, adopt strict privacy practices, or change your online behavior?
 
-## I have a threat model. Now what?
+### I have a threat model. Now what?
 Now that you have your threat model, it’s time to decide how far you want to go on the Beginner Privacy roadmap. Here are a few profiles to help guide your choice:
 
 **The Casual User:** If your main concern is simply hiding your personal information from big corporations and mass surveillance, the **Basic** roadmap is all you need.
@@ -43,5 +43,5 @@ Now that you have your threat model, it’s time to decide how far you want to g
 
 **The Activist or High-Risk Individual:** If you’re an activist, a journalist, or someone who is wanted by the government, or if you simply want to ensure the highest level of privacy, you should follow the **Advanced** roadmap after completing both the **Basic** and **Medium** roadmaps.
 
-## Regularly Updating Your Threat Model
+### Regularly Updating Your Threat Model
 Your threat model isn’t a one-and-done task; it’s something that should evolve as your life and circumstances change. To keep it relevant, consider setting a schedule to review your threat model regularly. This is especially important after significant life events, such as starting a new job, moving to a different location, or making changes to your online presence.

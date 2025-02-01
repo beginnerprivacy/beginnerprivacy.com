@@ -15,6 +15,41 @@
     
     
     <item>
+      <title>How To Create Strong Passwords &amp; Store Them Securely</title>
+      <link>http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securily/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securily/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Did you know that the most &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;commonly used password&lt;/a&gt; is &amp;ldquo;123456&amp;rdquo;? This highlights the importance of using strong, unique passwords for each of your online accounts. In this post, we&amp;rsquo;ll go over the best practices for generating and storing strong passwords.&lt;/p&gt;
+&lt;h3&gt;Common Password Security Mistakes:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-password-security-mistakes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-password-security-mistakes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Using personal information in your passwords&lt;/li&gt;
+&lt;li&gt;Using the same password for multiple accounts&lt;/li&gt;
+&lt;li&gt;Storing passwords in plaintext or in easily accessible locations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;How Do I Make Strong Passwords?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-do-i-make-strong-passwords&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-make-strong-passwords&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A strong password is a password that is difficult to guess or crack. It should be completely random and at least 16 characters long (preferably longer) and include a combination of uppercase and lowercase letters, numbers, and special characters.&lt;/p&gt;
+&lt;p&gt;To get a strong password you can use a free online password generator:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BitWarden Password Generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Storing Passwords Securely&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;storing-passwords-securely&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#storing-passwords-securely&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Password managers are great to use because they allow you to store long and complex passwords, and then simply copy and paste them when needed. It works by setting a master password, which is used to encrypt all of your other passwords. This means that all of your passwords are stored securely and can only be accessed with the master password.&lt;/p&gt;
+&lt;p&gt;Recommended password managers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KeePassXC&lt;/a&gt;:&lt;/strong&gt; Local, open-source for desktop and browser extension.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bitwarden&lt;/a&gt;:&lt;/strong&gt; Cloud-based, open-source for desktop, mobile and browser extension. It has a free version and a paid version with more features.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KeePassDX&lt;/a&gt;:&lt;/strong&gt; Local, open-source for Android.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Strongbox&lt;/a&gt;:&lt;/strong&gt; Local, open-source for iOS and MacOS.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>How To Find A Threat Model That Suits You</title>
       <link>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
@@ -24,8 +59,8 @@
         
         
         &lt;p&gt;Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.&lt;/p&gt;
-&lt;h2&gt;Developing Your Threat Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;developing-your-threat-model&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#developing-your-threat-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To create an effective threat model, start by asking yourself the following questions:&lt;/p&gt;
+&lt;h3&gt;Developing Your Threat Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;developing-your-threat-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#developing-your-threat-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To create an effective threat model, start by asking yourself the following questions:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. What do I want to protect?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Identify the assets that are most important to you. This could include personal data, financial information, intellectual property, or even your online reputation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2. Who do I want to protect it from?&lt;/strong&gt;&lt;/p&gt;
@@ -36,13 +71,13 @@
 &lt;p&gt;Evaluate the potential impact of a security breach. Would it result in financial loss, reputational damage, or legal repercussions? Understanding the stakes can help prioritize your efforts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;5. What lengths am I willing to go to prevent potential consequences?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Determine your comfort level with various security measures. Are you willing to invest in advanced security tools, adopt strict privacy practices, or change your online behavior?&lt;/p&gt;
-&lt;h2&gt;I have a threat model. Now what?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i-have-a-threat-model-now-what&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#i-have-a-threat-model-now-what&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now that you have your threat model, it’s time to decide how far you want to go on the Beginner Privacy roadmap. Here are a few profiles to help guide your choice:&lt;/p&gt;
+&lt;h3&gt;I have a threat model. Now what?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i-have-a-threat-model-now-what&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i-have-a-threat-model-now-what&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Now that you have your threat model, it’s time to decide how far you want to go on the Beginner Privacy roadmap. Here are a few profiles to help guide your choice:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Casual User:&lt;/strong&gt; If your main concern is simply hiding your personal information from big corporations and mass surveillance, the &lt;strong&gt;Basic&lt;/strong&gt; roadmap is all you need.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Privacy-Conscious Individual:&lt;/strong&gt; If you want to take your privacy more seriously and go beyond the basics to shield yourself from potential threats, you should continue to the &lt;strong&gt;Medium&lt;/strong&gt; roadmap after completing the &lt;strong&gt;Basic&lt;/strong&gt; roadmap.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Activist or High-Risk Individual:&lt;/strong&gt; If you’re an activist, a journalist, or someone who is wanted by the government, or if you simply want to ensure the highest level of privacy, you should follow the &lt;strong&gt;Advanced&lt;/strong&gt; roadmap after completing both the &lt;strong&gt;Basic&lt;/strong&gt; and &lt;strong&gt;Medium&lt;/strong&gt; roadmaps.&lt;/p&gt;
-&lt;h2&gt;Regularly Updating Your Threat Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;regularly-updating-your-threat-model&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#regularly-updating-your-threat-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Your threat model isn’t a one-and-done task; it’s something that should evolve as your life and circumstances change. To keep it relevant, consider setting a schedule to review your threat model regularly. This is especially important after significant life events, such as starting a new job, moving to a different location, or making changes to your online presence.&lt;/p&gt;
+&lt;h3&gt;Regularly Updating Your Threat Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;regularly-updating-your-threat-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#regularly-updating-your-threat-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Your threat model isn’t a one-and-done task; it’s something that should evolve as your life and circumstances change. To keep it relevant, consider setting a schedule to review your threat model regularly. This is especially important after significant life events, such as starting a new job, moving to a different location, or making changes to your online presence.&lt;/p&gt;
 
       </description>
     </item>
