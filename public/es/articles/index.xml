@@ -15,6 +15,47 @@
     
     
     <item>
+      <title>Cómo crear contraseñas seguras y almacenarlas de forma segura</title>
+      <link>http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely/</guid>
+      <description>
+        
+        
+        &lt;p&gt;¿Sabías que la contraseña más &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;comúnmente utilizada&lt;/a&gt; es &amp;ldquo;123456&amp;rdquo;? Esto resalta la importancia de usar contraseñas fuertes y únicas para cada una de tus cuentas en línea. En esta publicación, revisaremos las mejores prácticas para generar y almacenar contraseñas seguras.&lt;/p&gt;
+&lt;h3&gt;Errores Comunes de Seguridad de Contraseñas:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;errores-comunes-de-seguridad-de-contraseñas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#errores-comunes-de-seguridad-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Usar información personal en tus contraseñas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Usar la misma contraseña para múltiples cuentas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Almacenar contraseñas en texto plano o en ubicaciones de fácil acceso&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;¿Cómo hago contraseñas fuertes?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-hago-contraseñas-fuertes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%c3%b3mo-hago-contrase%c3%b1as-fuertes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una contraseña fuerte es una contraseña que es difícil de adivinar o descifrar. Debería ser completamente aleatoria y tener al menos 16 caracteres de longitud (preferiblemente más) e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.&lt;/p&gt;
+&lt;p&gt;Para obtener una contraseña fuerte, puedes usar un generador de contraseñas en línea gratuito:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generador de Contraseñas BitWarden&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Almacenamiento Seguro de Contraseñas&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;almacenamiento-seguro-de-contraseñas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#almacenamiento-seguro-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Los gestores de contraseñas son geniales porque te permiten almacenar contraseñas largas y complejas, y luego simplemente copiarlas y pegarlas cuando las necesites. Funciona estableciendo una contraseña maestra, que se utiliza para cifrar todas tus otras contraseñas. Esto significa que todas tus contraseñas se almacenan de manera segura y solo se pueden acceder con la contraseña maestra.&lt;/p&gt;
+&lt;p&gt;Gestores de contraseñas recomendados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KeePassXC&lt;/a&gt;:&lt;/strong&gt; Local, de código abierto para escritorio y extensión de navegador.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bitwarden&lt;/a&gt;:&lt;/strong&gt; Basado en la nube, de código abierto para escritorio, móvil y extensión de navegador. Tiene una versión gratuita y una versión de pago con más funciones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KeePassDX&lt;/a&gt;:&lt;/strong&gt; Local, de código abierto para Android.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Strongbox&lt;/a&gt;:&lt;/strong&gt; Local, de código abierto para iOS y MacOS.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Cómo encontrar un modelo de amenaza que te convenga</title>
       <link>http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>

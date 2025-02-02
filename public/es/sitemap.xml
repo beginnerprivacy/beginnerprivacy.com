@@ -20,6 +20,24 @@
                 href="http://localhost:1313/es/tools/services/vpn/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/</loc>
     <lastmod>2025-01-29T14:04:18+01:00</lastmod>
     <xhtml:link
@@ -327,7 +345,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-01-31T20:35:38+01:00</lastmod>
+    <lastmod>2025-02-01T18:01:25+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
