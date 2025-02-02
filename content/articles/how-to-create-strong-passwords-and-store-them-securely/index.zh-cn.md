@@ -18,13 +18,16 @@ excludeSearch: false
 一个强密码是一个难以猜测或破解的密码。 它应该是完全随机的，至少16个字符长（最好更长），并且包含大写字母、小写字母、数字和特殊字符的组合。
 
 要获得一个强密码，你可以使用一个免费的在线密码生成器：
-- [BitWarden 密码生成器](https://bitwarden.com/password-generator/#password-generator)
+- [Bitwarden 密码生成器](https://bitwarden.com/password-generator/#password-generator)
 
 ### 安全存储密码
 密码管理器非常好用，因为它们允许你存储长且复杂的密码，然后在需要时简单地复制和粘贴。 它的工作原理是设置一个主密码，用于加密你所有其他的密码。 这意味着您所有的密码都被安全地存储，并且只能通过主密码访问。
 
-推荐的密码管理器：
-- **[KeePassXC](https://keepassxc.org/):** 本地，开源，适用于桌面和浏览器扩展。
-- **[Bitwarden](https://bitwarden.com/):** 基于云的开源，适用于桌面、移动和浏览器扩展。 它有一个免费版本和一个具有更多功能的付费版本。
-- **[KeePassDX](https://keepassdx.com/):** 本地，开源的Android应用。
-- **[Strongbox](https://strongboxsafe.com/):** 本地，开源，适用于iOS和MacOS。
+<div class="recommendations">
+  <div class="grid">
+    {{< hextra/recommendation-card title="KeePassXC" link="https://keepassxc.org/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="本地开源密码管理器" platformIcon="linux macos windows extension" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="Bitwarden" link="https://bitwarden.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="基于云的开源密码管理器" platformIcon="linux android ios macos windows extension" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="KeePassDX" link="https://keepassdx.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="本地开源密码管理器" platformIcon="android" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="本地开源密码管理器" platformIcon="ios macos" buttonText="访问网站" >}}
+  </div>
+</div>

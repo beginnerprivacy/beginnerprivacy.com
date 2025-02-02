@@ -18,13 +18,16 @@ Did you know that the most [commonly used password](https://en.wikipedia.org/wik
 A strong password is a password that is difficult to guess or crack. It should be completely random and at least 16 characters long (preferably longer) and include a combination of uppercase and lowercase letters, numbers, and special characters.
 
 To get a strong password you can use a free online password generator:
-- [BitWarden Password Generator](https://bitwarden.com/password-generator/#password-generator)
+- [Bitwarden Password Generator](https://bitwarden.com/password-generator/#password-generator)
 
 ### Storing Passwords Securely
 Password managers are great to use because they allow you to store long and complex passwords, and then simply copy and paste them when needed. It works by setting a master password, which is used to encrypt all of your other passwords. This means that all of your passwords are stored securely and can only be accessed with the master password.
 
-Recommended password managers:
-- **[KeePassXC](https://keepassxc.org/):** Local, open-source for desktop and browser extension.
-- **[Bitwarden](https://bitwarden.com/):** Cloud-based, open-source for desktop, mobile and browser extension. It has a free version and a paid version with more features.
-- **[KeePassDX](https://keepassdx.com/):** Local, open-source for Android.
-- **[Strongbox](https://strongboxsafe.com/):** Local, open-source for iOS and MacOS.
+<div class="recommendations">
+  <div class="grid">
+    {{< hextra/recommendation-card title="KeePassXC" link="https://keepassxc.org/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="Local, open-source password manager" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="Bitwarden" link="https://bitwarden.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="Cloud-based, open-source password manager" platformIcon="linux android ios macos windows extension" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="KeePassDX" link="https://keepassdx.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="Local, open-source password manager" platformIcon="android" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Local, open-source password manager" platformIcon="ios macos" buttonText="Visit Website" >}}
+  </div>
+</div>

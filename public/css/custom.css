@@ -304,3 +304,73 @@ th, td {
     font-weight: bold;
     transition: color 0.5s;
 }
+
+.recommendations {
+    margin-top: 10px;
+}
+
+.recommendation-card {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #eee;
+}
+
+.recommendation-header {
+    display: flex;
+    align-items: center;
+}
+
+.recommendation-logo {
+    height: 40px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.recommendation-text {
+    margin-top: 0;
+}
+
+.platform-icons {
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem 0;
+}
+
+.platform-icon {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.recommendation-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    background: hsl(212.1, 100%, 45.1%);
+    color: white !important;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.recommendation-link:hover {
+    background: hsl(212, 100%, 33%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.recommended-title {
+  margin-top: 0rem;
+  border-bottom-width: 1px;
+  border-color: rgb(229 229 229 / 0.7);
+  padding-bottom: 0.25rem;
+  font-size: 1.875rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
