@@ -20,8 +20,26 @@
                 href="http://localhost:1313/zh-cn/tools/services/vpn/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-cn/articles/two-factor-authentication-and-why-you-need-it/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/two-factor-authentication-and-why-you-need-it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/two-factor-authentication-and-why-you-need-it/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/</loc>
-    <lastmod>2025-02-02T10:51:19+01:00</lastmod>
+    <lastmod>2025-02-02T14:13:01+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
