@@ -20,8 +20,26 @@
                 href="http://localhost:1313/zh-cn/tools/services/vpn/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online/</loc>
-    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-04T17:32:01+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -344,7 +362,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-02-03T16:04:56+01:00</lastmod>
+    <lastmod>2025-02-04T17:32:01+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
