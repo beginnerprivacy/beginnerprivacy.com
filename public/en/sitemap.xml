@@ -20,8 +20,26 @@
                 href="http://localhost:1313/tools/services/vpn/"
                 />
   </url><url>
+    <loc>http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</loc>
+    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/searching-safely-with-a-privacy-focused-search-engine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/"
+                />
+  </url><url>
     <loc>http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-06T18:20:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -417,7 +435,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-04T17:32:01+01:00</lastmod>
+    <lastmod>2025-02-06T18:20:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
