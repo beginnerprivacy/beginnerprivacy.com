@@ -73,7 +73,7 @@ layout: hextra-home
         {{< hextra/feature-card title="Configuración de Privacidad Móvil" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Configuración de privacidad del escritorio" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Red Privada Virtual (VPN)" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Motor de búsqueda privado" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Motor de búsqueda privado" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 3 -->
         {{< hextra/feature-card title="Mensajería Segura" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/contribute/write-content/" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
