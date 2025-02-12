@@ -20,6 +20,7 @@
 
   <meta itemprop="name" content="PrivyAI (Beta)">
   <meta itemprop="description" content="🔄 Send Loading model, please wait...">
+  <meta itemprop="dateModified" content="2025-02-12T12:48:47+01:00">
   <meta itemprop="wordCount" content="6">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -77,7 +78,7 @@
           title="PrivyAI"
           href="/privyai"
           
-          class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-font-medium"
+          class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
         >
           <span class="hx-text-center">PrivyAI</span>
         </a><a
@@ -208,6 +209,16 @@
 
     document.addEventListener("DOMContentLoaded", () => {
         initLLM();
+        const aiContainer = document.createElement('div');
+        aiContainer.className = 'message-container ai-message-container';
+        const aiAvatar = document.createElement('div');
+        aiAvatar.className = 'avatar ai-avatar';
+        const aiBubble = document.createElement('div');
+        aiBubble.className = 'message-bubble ai-message';
+        aiBubble.textContent = "Hi! I'm PrivyAI, your privacy assistant. Ask me anything about privacy/security 🕵️\n Running locally in your browser (Beta) - please verify important information independently.";
+        aiContainer.appendChild(aiAvatar);
+        aiContainer.appendChild(aiBubble);
+        document.getElementById('chatOutput').appendChild(aiContainer);
 
         document.getElementById('sendButton').addEventListener('click', async () => {
             const userInput = document.getElementById('userInput').value.trim();
@@ -229,36 +240,41 @@
             
             document.getElementById('userInput').value = '';
 
-            try {
-                const aiContainer = document.createElement('div');
-                aiContainer.className = 'message-container ai-message-container';
-                
-                const aiAvatar = document.createElement('div');
-                aiAvatar.className = 'avatar ai-avatar';
-                
-                const aiBubble = document.createElement('div');
-                aiBubble.className = 'message-bubble ai-message';
-                
-                aiContainer.appendChild(aiAvatar);
-                aiContainer.appendChild(aiBubble);
-                document.getElementById('chatOutput').appendChild(aiContainer);
+            const aiContainer = document.createElement('div');
+            aiContainer.className = 'message-container ai-message-container';
+            
+            const aiAvatar = document.createElement('div');
+            aiAvatar.className = 'avatar ai-avatar';
+            
+            const aiBubble = document.createElement('div');
+            aiBubble.className = 'message-bubble ai-message';
+            aiBubble.textContent = "Thinking..."; // Loading indicator
+            
+            aiContainer.appendChild(aiAvatar);
+            aiContainer.appendChild(aiBubble);
+            document.getElementById('chatOutput').appendChild(aiContainer);
 
-                const response = await chatPipeline(userInput, {
-                    max_new_tokens: 200,
-                    temperature: 0.7,
-                    callback_function: (beams) => {
-                        aiBubble.textContent = beams[0].output_text;
-                        document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
-                    }
-                });
+            document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
 
-                aiBubble.textContent = response[0].generated_text;
-                document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+            setTimeout(async () => {
+                try {
+                    const response = await chatPipeline(userInput, {
+                        max_new_tokens: 200,
+                        temperature: 0.7,
+                        callback_function: (beams) => {
+                            aiBubble.textContent = beams[0].output_text; // Update with partial response if needed
+                            document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+                        }
+                    });
 
-            } catch (error) {
-                console.error("Error during chat completion:", error);
-                aiBubble.textContent = "Sorry, I encountered an error. Please try again.";
-            }
+                    aiBubble.textContent = response[0].generated_text;
+                    document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+
+                } catch (error) {
+                    console.error("Error during chat completion:", error);
+                    aiBubble.textContent = "Sorry, I encountered an error. Please try again.";
+                }
+            }, 0);
         });
     });
 

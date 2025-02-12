@@ -35,6 +35,16 @@ toc: false
 
     document.addEventListener("DOMContentLoaded", () => {
         initLLM();
+        const aiContainer = document.createElement('div');
+        aiContainer.className = 'message-container ai-message-container';
+        const aiAvatar = document.createElement('div');
+        aiAvatar.className = 'avatar ai-avatar';
+        const aiBubble = document.createElement('div');
+        aiBubble.className = 'message-bubble ai-message';
+        aiBubble.textContent = "¡Hola! Soy PrivyAI, tu asistente de privacidad. Pregúntame cualquier cosa sobre privacidad/seguridad 🕵️ Ejecutándose localmente en tu navegador (Beta) - por favor verifica la información importante de manera independiente.";
+        aiContainer.appendChild(aiAvatar);
+        aiContainer.appendChild(aiBubble);
+        document.getElementById('chatOutput').appendChild(aiContainer);
 
         document.getElementById('sendButton').addEventListener('click', async () => {
             const userInput = document.getElementById('userInput').value.trim();
@@ -56,36 +66,41 @@ toc: false
             
             document.getElementById('userInput').value = '';
 
-            try {
-                const aiContainer = document.createElement('div');
-                aiContainer.className = 'message-container ai-message-container';
-                
-                const aiAvatar = document.createElement('div');
-                aiAvatar.className = 'avatar ai-avatar';
-                
-                const aiBubble = document.createElement('div');
-                aiBubble.className = 'message-bubble ai-message';
-                
-                aiContainer.appendChild(aiAvatar);
-                aiContainer.appendChild(aiBubble);
-                document.getElementById('chatOutput').appendChild(aiContainer);
+            const aiContainer = document.createElement('div');
+            aiContainer.className = 'message-container ai-message-container';
+            
+            const aiAvatar = document.createElement('div');
+            aiAvatar.className = 'avatar ai-avatar';
+            
+            const aiBubble = document.createElement('div');
+            aiBubble.className = 'message-bubble ai-message';
+            aiBubble.textContent = "Thinking..."; // Loading indicator
+            
+            aiContainer.appendChild(aiAvatar);
+            aiContainer.appendChild(aiBubble);
+            document.getElementById('chatOutput').appendChild(aiContainer);
 
-                const response = await chatPipeline(userInput, {
-                    max_new_tokens: 200,
-                    temperature: 0.7,
-                    callback_function: (beams) => {
-                        aiBubble.textContent = beams[0].output_text;
-                        document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
-                    }
-                });
+            document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
 
-                aiBubble.textContent = response[0].generated_text;
-                document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+            setTimeout(async () => {
+                try {
+                    const response = await chatPipeline(userInput, {
+                        max_new_tokens: 200,
+                        temperature: 0.7,
+                        callback_function: (beams) => {
+                            aiBubble.textContent = beams[0].output_text; // Update with partial response if needed
+                            document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+                        }
+                    });
 
-            } catch (error) {
-                console.error("Error during chat completion:", error);
-                aiBubble.textContent = "Sorry, I encountered an error. Please try again.";
-            }
+                    aiBubble.textContent = response[0].generated_text;
+                    document.getElementById('chatOutput').scrollTop = document.getElementById('chatOutput').scrollHeight;
+
+                } catch (error) {
+                    console.error("Error during chat completion:", error);
+                    aiBubble.textContent = "Sorry, I encountered an error. Please try again.";
+                }
+            }, 0);
         });
     });
 
