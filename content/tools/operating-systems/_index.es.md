@@ -1,3 +1,0 @@
----
-linkTitle: "Sistemas Operativos"
----

@@ -1,3 +1,0 @@
----
-linkTitle: "Software"
----

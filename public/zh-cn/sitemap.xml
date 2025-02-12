@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh-cn/tools/services/vpn/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/services/vpn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/services/vpn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/services/vpn/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/</loc>
     <lastmod>2025-02-10T14:19:10+01:00</lastmod>
     <xhtml:link
@@ -200,150 +182,6 @@
                 href="http://localhost:1313/zh-cn/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/operating-systems/desktop/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/operating-systems/desktop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/operating-systems/desktop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/operating-systems/desktop/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/operating-systems/mobile/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/operating-systems/mobile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/operating-systems/mobile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/operating-systems/mobile/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/services/email/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/services/email/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/services/email/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/services/email/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/services/web-hosting/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/services/web-hosting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/services/web-hosting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/services/web-hosting/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/software/file-sharing/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/software/file-sharing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/software/file-sharing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/software/file-sharing/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/software/frontends/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/software/frontends/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/software/frontends/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/software/frontends/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/software/notebooks/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/software/notebooks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/software/notebooks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/software/notebooks/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/software/password-managers/</loc>
-    <lastmod>2025-01-23T11:53:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/software/password-managers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/software/password-managers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/software/password-managers/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -361,26 +199,25 @@
                 href="http://localhost:1313/zh-cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/operating-systems/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/privyai/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tools/operating-systems/"
+                href="http://localhost:1313/privyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tools/operating-systems/"
+                href="http://localhost:1313/es/privyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/operating-systems/"
+                href="http://localhost:1313/zh-cn/privyai/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-02-06T18:20:53+01:00</lastmod>
+    <lastmod>2025-02-10T14:23:15+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -413,24 +250,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/about/contribute/translate/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/services/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/services/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/services/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/services/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/</loc>
@@ -541,42 +360,6 @@
                 href="http://localhost:1313/zh-cn/about/roadmap-introductions/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/software/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/software/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/</loc>
-    <lastmod>2025-01-22T14:46:37+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/</loc>
     <lastmod>2025-01-20T14:55:05+01:00</lastmod>
     <xhtml:link
@@ -611,24 +394,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/about/contribute/write-content/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/tools/hardware/</loc>
-    <lastmod>2025-01-24T12:32:35+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tools/hardware/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tools/hardware/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tools/hardware/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/credits/</loc>

@@ -1,0 +1,23 @@
+{
+  "name": "beginnerprivacy",
+  "version": "1.0.0",
+  "description": "<div style=\"display: flex; justify-content: center; width: 120px;\">     <img alt=\"Beginner Privacy Logo\" src=\"https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-512x512.png\"> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beginnerprivacy/beginnerprivacy.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues"
+  },
+  "homepage": "https://github.com/beginnerprivacy/beginnerprivacy.github.io#readme",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.78"
+  }
+}

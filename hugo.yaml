@@ -58,9 +58,9 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: tools
-      name: Tools
-      pageRef: /tools
+    - identifier: privyai
+      name: PrivyAI
+      pageRef: /privyai
       weight: 1
     - identifier: articles
       name: Articles
