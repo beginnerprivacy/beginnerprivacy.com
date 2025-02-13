@@ -460,3 +460,15 @@ th, td {
 #clearButton:hover {
     scale: 110%;
 }
+
+.coming-soon-label {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
