@@ -58,9 +58,9 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: privyai
-      name: PrivyAI
-      pageRef: /privyai
+    - identifier: privacyai
+      name: PrivacyAI
+      pageRef: /privacyai
       weight: 1
     - identifier: articles
       name: Articles

@@ -1,15 +1,15 @@
 ---
-title: PrivyAI (Beta)
+title: PrivacyAI (Beta)
 toc: false
 ---
 <div class="chat-container">
-    <button id="clearButton" title="Clear Chat">🔄</button>
+    <button id="clearButton" title="Borrar Chat">🔄</button>
     <div class="chat-output" id="chatOutput"></div>
     <div class="input-container">
-        <input type="text" id="userInput" placeholder="Type your message here..." />
-        <button id="sendButton">Send</button>
+        <input type="text" id="userInput" placeholder="Escribe tu mensaje aquí..." />
+        <button id="sendButton">Enviar</button>
     </div>
-    <div id="loadingMessage">Loading model, please wait...</div>
+    <div id="loadingMessage">Cargando modelo, por favor espere...</div>
 </div>
 
 <script type="module">
@@ -41,7 +41,7 @@ toc: false
         aiAvatar.className = 'avatar ai-avatar';
         const aiBubble = document.createElement('div');
         aiBubble.className = 'message-bubble ai-message';
-        aiBubble.textContent = "Hi! I'm PrivyAI, your privacy assistant. Ask me anything about privacy/security 🕵️\n Running locally in your browser (Beta) - please verify important information independently.";
+        aiBubble.textContent = "¡Hola! Soy PrivacyAI, tu asistente de privacidad. Pregúntame cualquier cosa sobre privacidad/seguridad 🕵️ Ejecutándose localmente en tu navegador (Beta) - por favor verifica la información importante de manera independiente.";
         aiContainer.appendChild(aiAvatar);
         aiContainer.appendChild(aiBubble);
         document.getElementById('chatOutput').appendChild(aiContainer);

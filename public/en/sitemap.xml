@@ -361,22 +361,21 @@
                 href="http://localhost:1313/about/roadmap-introductions/medium/"
                 />
   </url><url>
-    <loc>http://localhost:1313/privyai/</loc>
-    <lastmod>2025-02-12T12:48:47+01:00</lastmod>
+    <loc>http://localhost:1313/privacyai/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/privyai/"
+                href="http://localhost:1313/es/privacyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/privyai/"
+                href="http://localhost:1313/zh-cn/privacyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/privyai/"
+                href="http://localhost:1313/privacyai/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/roadmap-introductions/</loc>

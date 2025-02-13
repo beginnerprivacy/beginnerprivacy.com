@@ -199,22 +199,21 @@
                 href="http://localhost:1313/zh-cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/privyai/</loc>
-    <lastmod>2025-02-12T12:48:47+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/privacyai/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/privyai/"
+                href="http://localhost:1313/privacyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/privyai/"
+                href="http://localhost:1313/es/privacyai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/privyai/"
+                href="http://localhost:1313/zh-cn/privacyai/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>

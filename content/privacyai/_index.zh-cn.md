@@ -1,5 +1,5 @@
 ---
-title: PrivyAI (测试版)
+title: PrivacyAI (测试版)
 toc: false
 ---
 <div class="chat-container">
@@ -41,7 +41,7 @@ toc: false
         aiAvatar.className = 'avatar ai-avatar';
         const aiBubble = document.createElement('div');
         aiBubble.className = 'message-bubble ai-message';
-        aiBubble.textContent = "嗨！ 我是PrivyAI，你的隐私助手。问我任何关于隐私/安全的问题 🕵️ 在您的浏览器本地运行（测试版）- 请独立验证重要信息。";
+        aiBubble.textContent = "嗨！ 我是PrivacyAI，你的隐私助手。问我任何关于隐私/安全的问题 🕵️ 在您的浏览器本地运行（测试版）- 请独立验证重要信息。";
         aiContainer.appendChild(aiAvatar);
         aiContainer.appendChild(aiBubble);
         document.getElementById('chatOutput').appendChild(aiContainer);
