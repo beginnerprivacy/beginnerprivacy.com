@@ -493,7 +493,13 @@ function updateTourContainer(step) {
     }
 
     container.style.display = 'block';
-    document.querySelector(elementSelector).classList.add('highlight-tour');
+    if (currentStep === 1) {
+      document.querySelector(elementSelector).style.zIndex = '99';
+    }
+    else {
+      document.querySelector(elementSelector).classList.add('highlight-tour');
+      document.querySelector(steps[1].element).style.zIndex = '1';
+    }
 }
 
 function endTour() {

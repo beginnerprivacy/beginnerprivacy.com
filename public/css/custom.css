@@ -1,3 +1,10 @@
+:root {
+    --bg-highlight-tour: white;
+}
+.dark {
+    --bg-highlight-tour: black;
+}
+
 .language-theme-container {
     display: flex; 
     align-items: center;
@@ -476,11 +483,13 @@ th, td {
 .highlight-tour {
     position: relative;
     z-index: 99;
-    background: white;
+    background-color: var(--bg-highlight-tour);
 }
 .tour-container {
     position: absolute;
     background: white;
+    color: black;
+    border-radius: 8px;
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
