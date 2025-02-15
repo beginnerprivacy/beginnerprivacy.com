@@ -485,29 +485,29 @@
   >Not sure? Here&#39;s why</a>
 </p>
 </div>
-<div class="roadmap" style="margin-bottom: 10rem;">
-  <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
-      <h1 class="hx-font-bold" style="font-size: 3rem;">Roadmap</h1>
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-        <div class="tabs">
-            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-            <label class="tab" for="radio-start">Start</label>
-            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-basic">Basic</label>
-            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-medium">Medium</label>
-            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-advanced">Advanced</label>
-            <span class="glider"></span>
-        </div>
-        <div id="import-export" style="display: flex; align-items: center;">
-            <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
-                Import
-                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
-            </label>
-            <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Export</button>
-        </div>
+<div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+  <div>
+    <h1 class="hx-font-bold" style="font-size: 3rem;">Roadmap</h1>
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+      <div class="tabs">
+          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+          <label class="tab" for="radio-start">Start</label>
+          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-basic">Basic</label>
+          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-medium">Medium</label>
+          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-advanced">Advanced</label>
+          <span class="glider"></span>
       </div>
+      <div id="import-export" style="display: flex; align-items: center;">
+          <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
+              Import
+              <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
+          </label>
+          <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Export</button>
+      </div>
+    </div>
   </div>
   <div id="roadmapContent" class="hx-mt-4">
     <div id="startContent" class="roadmap-section">
@@ -526,9 +526,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-about-beginner-privacy" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-about-beginner-privacy" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           href="articles/why-you-should-care-about-your-privacy" target="_blank" rel="noreferrer"
@@ -540,9 +542,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-why-care-about-your-privacy" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-why-care-about-your-privacy?" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           href="articles/how-to-find-a-threat-model-that-suits-you" target="_blank" rel="noreferrer"
@@ -554,9 +558,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-finding-a-threat-model" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-finding-a-threat-model" class="hx-checkbox" />  
+            </div>
+          
         </a>
       
 </div>
@@ -579,9 +585,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-basic-introduction" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-basic-introduction" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="articles/how-to-create-strong-passwords-and-store-them-securely" target="_blank" rel="noreferrer"
@@ -593,9 +601,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-strong-passwords" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-strong-passwords" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="articles/two-factor-authentication-and-why-you-need-it" target="_blank" rel="noreferrer"
@@ -607,9 +617,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-two-factor-authentication-2fa" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-two-factor-authentication-(2fa)" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="articles/limit-the-personal-information-you-share-online" target="_blank" rel="noreferrer"
@@ -621,9 +633,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-limit-information-shared" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-limit-information-shared" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="articles/why-you-need-a-private-browser-to-protect-yourself" target="_blank" rel="noreferrer"
@@ -635,9 +649,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-private-browser" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-private-browser" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <!-- Row 2 -->
           <a
@@ -650,9 +666,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-private-email" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-private-email" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             
@@ -664,9 +682,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-mobile-privacy-settings" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-mobile-privacy-settings" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             
@@ -678,9 +698,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-desktop-privacy-settings" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-desktop-privacy-settings" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             
@@ -692,9 +714,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-virtual-private-network-vpn" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-virtual-private-network-(vpn)" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="articles/searching-safely-with-a-privacy-focused-search-engine" target="_blank" rel="noreferrer"
@@ -706,9 +730,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-private-search-engine" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-private-search-engine" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <!-- Row 3 -->
           <a
@@ -721,9 +747,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-secure-messaging" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-secure-messaging" class="hx-checkbox" />  
+              </div>
+            
           </a>
           <a
             href="about/contribute/write-content/" target="_blank" rel="noreferrer"
@@ -735,9 +763,11 @@
               </h3>
             </div>
           
-            <div style="position: absolute;top: 4px;right: 8px;">
-              <input type="checkbox" id="checkbox-something-missing-contribute" class="hx-checkbox" />  
-            </div>
+            
+              <div style="position: absolute;top: 4px;right: 8px;">
+                <input type="checkbox" id="checkbox-something-missing?-contribute!" class="hx-checkbox" />  
+              </div>
+            
           </a>
       
 </div>
@@ -760,9 +790,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-medium-introduction" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-medium-introduction" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -774,9 +806,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-free-and-open-source-software" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-free-and-open-source-software" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -788,9 +822,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-switch-to-linux" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-switch-to-linux" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -802,9 +838,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-social-media-frontends" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-social-media-frontends" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -816,9 +854,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-removal-from-data-brokers" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-removal-from-data-brokers" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <!-- Row 2 -->
         <a
@@ -831,9 +871,7 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-" class="hx-checkbox" />  
-          </div>
+          
         </a>
         <a
           href="about/contribute/write-content/" target="_blank" rel="noreferrer"
@@ -845,9 +883,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-something-missing-contribute" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-something-missing?-contribute!" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -859,9 +899,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-basic-opsec" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-basic-opsec" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -873,9 +915,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-what-is-tor" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-what-is-tor?" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -887,9 +931,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-encrypted-dns" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-encrypted-dns" class="hx-checkbox" />  
+            </div>
+          
         </a>
       
 </div>
@@ -912,9 +958,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-advanced-introduction" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-advanced-introduction" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -926,9 +974,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-desktop-operating-system" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-desktop-operating-system" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -940,9 +990,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-mobile-operating-system" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-mobile-operating-system" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -954,9 +1006,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-self-hosting" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-self-hosting" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -968,9 +1022,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-cryptocurrency" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-cryptocurrency" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <!-- Row 2 -->
         <a
@@ -983,9 +1039,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-advanced-opsec" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-advanced-opsec" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -997,9 +1055,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-what-is-i2p" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-what-is-i2p?" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -1011,9 +1071,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-avoiding-honeypots" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-avoiding-honeypots" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -1025,9 +1087,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-encrypting-everything" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-encrypting-everything" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <a
           
@@ -1039,9 +1103,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-acquiring-crypto" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-acquiring-crypto" class="hx-checkbox" />  
+            </div>
+          
         </a>
         <!-- Row 3 -->        
         <a
@@ -1054,9 +1120,11 @@
             </h3>
           </div>
         
-          <div style="position: absolute;top: 4px;right: 8px;">
-            <input type="checkbox" id="checkbox-something-missing-contribute" class="hx-checkbox" />  
-          </div>
+          
+            <div style="position: absolute;top: 4px;right: 8px;">
+              <input type="checkbox" id="checkbox-something-missing?-contribute!" class="hx-checkbox" />  
+            </div>
+          
         </a>
       
 </div>

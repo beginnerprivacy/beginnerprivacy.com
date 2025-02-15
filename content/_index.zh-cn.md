@@ -25,8 +25,8 @@ layout: hextra-home
   {{< hextra/hero-button text="不确定？这就是原因" link="articles/why-you-should-care-about-your-privacy" >}}
 </div>
 
-<div id="roadmap" class="roadmap" style="margin-bottom: 10rem;">
-  <div class="hx-mt-6" style="width: 100%; margin-top: 10rem;">
+<div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+  <div>
     <h1 class="hx-font-bold md:hx-text-5xl">路线图</h1>
     <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
       <div class="tabs">
