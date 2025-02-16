@@ -261,14 +261,66 @@ function importCheckbox() {
     reader.readAsText(file);
 }
 
+function showTourModal() {
+  const modal = document.createElement('div');
+  const modalContent = document.createElement('div');
+  const message = document.createElement('p');
+  const yesButton = document.createElement('button');
+  const noButton = document.createElement('button');
+  const checkboxLabel = document.createElement('label');
+  const checkbox = document.createElement('input');
+
+  modal.className = 'modal';
+  modalContent.className = 'modal-content';
+  checkboxLabel.className = 'modal-ask-again';
+  yesButton.className = 'modal-button';
+  noButton.className = 'modal-button';
+
+  const isSpanish = window.location.href.includes('/es/');
+  const isChinese = window.location.href.includes('/zh-cn/');
+
+  message.textContent = isSpanish ? '¿Te gustaría hacer un recorrido?' : isChinese ? '您想参加导览吗？' : 'Would you like to take a tour?';
+  yesButton.textContent = isSpanish ? 'Sí' : isChinese ? '是' : 'Yes';
+  noButton.textContent = isSpanish ? 'No' : isChinese ? '否' : 'No';
+
+  checkbox.type = 'checkbox';
+  checkboxLabel.appendChild(checkbox);
+  checkboxLabel.appendChild(document.createTextNode(isSpanish ? ' No preguntar de nuevo' : isChinese ? ' 不再询问' : ' Do not ask again'));
+  
+  modalContent.appendChild(message);
+  modalContent.appendChild(checkboxLabel);
+  modalContent.appendChild(yesButton);
+  modalContent.appendChild(noButton);
+  modal.appendChild(modalContent);
+  document.body.appendChild(modal);
+
+  yesButton.onclick = function() {
+      if (checkbox.checked) {
+          localStorage.setItem('doNotAskAgain', 'true');
+      }
+      guidedTour();
+      document.body.removeChild(modal);
+  };
+
+  noButton.onclick = function() {
+      if (checkbox.checked) {
+          localStorage.setItem('doNotAskAgain', 'true');
+      }
+      document.body.removeChild(modal);
+  };
+}
+
 function scrollDown() {
   window.scrollBy({
       top: 400,
       behavior: 'smooth'
   });
+  
   setTimeout(() => {
-    guidedTour();
-  }, 400); 
+      if (localStorage.getItem('doNotAskAgain') !== 'true') {
+          showTourModal();
+      }
+  }, 400);
 }
 
 const steps = [
