@@ -556,6 +556,7 @@ th, td {
 
 .modal-content {
   background: white;
+  color: black;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -571,11 +572,11 @@ th, td {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #007BFF; /* Bootstrap primary color */
+  background-color: #007BFF;
   color: white;
   cursor: pointer;
 }
 
 .modal-button:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
+  background-color: #0056b3;
 }
