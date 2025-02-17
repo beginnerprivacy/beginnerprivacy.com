@@ -503,11 +503,24 @@ function updateTourContainer(step) {
     }
 
     container.style.left = `${rect.left + window.scrollX}px`;
+    if (window.innerWidth <= 768) {
+      if (currentStep === 2) {
+        container.style.left = `${rect.left + window.scrollX - 400}px`;
+      }
+      if (currentStep === 4) {
+        container.style.left = `${rect.left + window.scrollX - 170}px`;
+      }
+    }
     if (!step.under) {
       container.style.top = `${rect.top + window.scrollY - 95}px`;
     }
     else {
       container.style.top = `${rect.top + window.scrollY + 50}px`;
+      if (window.innerWidth <= 768) {
+        if (currentStep === 5) {
+          container.style.top = `${rect.top + window.scrollY + 987}px`;
+        }
+      }
     }
     if (!step.noBtn) {
       if (window.innerWidth <= 768) {
