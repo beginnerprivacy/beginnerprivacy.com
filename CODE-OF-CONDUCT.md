@@ -3,7 +3,7 @@ The Beginner Privacy community is dedicated to providing a welcoming and inclusi
 
 ## Our Standards
 We expect all participants to:
-- **Be Respectful:**Treat everyone with respect, kindness, and consideration. Listen to others and be open to different perspectives.
+- **Be Respectful:** Treat everyone with respect, kindness, and consideration. Listen to others and be open to different perspectives.
 - **Be Inclusive:** Welcome and encourage participation from individuals of all backgrounds, identities, and experiences. Avoid language or behavior that could be seen as discriminatory or exclusionary.
 - **Be Constructive:** Provide constructive feedback and engage in discussions that promote learning and growth. Focus on the issue, not the person.
 - **Be Responsible:** Take responsibility for your actions and their impact on others. If you make a mistake, acknowledge it and learn from it.

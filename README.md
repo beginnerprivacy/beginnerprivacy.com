@@ -1,6 +1,4 @@
-<div style="display: flex; justify-content: center; width: 120px;">
-    <img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-512x512.png">
-</div>
+<img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-192x192.png">
 
 ## Beginner Privacy
 Welcome to Beginner Privacy!

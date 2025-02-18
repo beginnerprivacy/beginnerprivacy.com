@@ -12,7 +12,7 @@ If you find a bug or security vulnerability in Beginner Privacy, please report i
 We welcome pull requests! If you’d like to contribute code, please follow these steps:
 - **Fork the Repository:** Create a personal copy of the repository by forking it.
 - **Create a Branch:** Create a new branch for your feature or bug fix. Use a descriptive name for the branch (e.g., feature/new-feature or bugfix/fix-issue).
-- **Make Your Changes:**Implement your changes in your branch.
+- **Make Your Changes:** Implement your changes in your branch.
 - **Test It:** Make sure you test your changes thoroughly
 - **Commit Your Changes:** Write clear and concise commit messages that explain your changes.
 - **Push to Your Fork:** Push your changes to your forked repository.
@@ -29,8 +29,8 @@ If you would like to support Beginner Privacy financially, donations are a great
 
 ## Getting Started
 If you're new to contributing, here are some resources that may help you get started:
-- GitHub Guides
-- How to Contribute to Open Source
+- [GitHub Guides](https://docs.github.com/en)
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 ## Questions?
 If you have any questions or need assistance, feel free to reach out to us via SimpleX
