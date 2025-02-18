@@ -10,14 +10,14 @@ Our mission is to simplify your journey toward online privacy and anonymity, whe
 We provide clear, actionable guidance on everything from basic privacy practices to advanced security tools. Our goal is to empower you to take control of your online presence with confidence.
 
 ## Contributing
-Currently, we are not accepting contributions, but we will be opening up for them very soon!
+We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](.github/CONTRIBUTING.md) for more information on how you can get involved.
 
 ## License
 Copyright &copy; 2025 Beginner Privacy.
 
-Beginner Privacy content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](LICENSE), and the underlying source code used to format and display that content on [beginnerprivacy.github.io](https://beginnerprivacy.github.io) is licensed under the [MIT License](CODE-LICENSE).
+Beginner Privacy content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](LICENSE.md), and the underlying source code used to format and display that content on [beginnerprivacy.github.io](https://beginnerprivacy.github.io) is licensed under the [MIT License](CODE-LICENSE.md).
 
-Generally speaking, **content** can be found in the [`content/`](content/), [`assets/`](assets/) and [`static/`](static/) directories; and **source code** and configuration files can be found in the [`layouts/`](layouts/) and [`themes/`](themes/) directories, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](CODE-LICENSE). Please contact us if you require clarification on any of these terms.
+Generally speaking, **content** can be found in the [`content/`](content/), [`assets/`](assets/) and [`static/`](static/) directories; and **source code** and configuration files can be found in the [`layouts/`](layouts/) and [`themes/`](themes/) directories, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](CODE-LICENSE.md). Please contact us if you require clarification on any of these terms.
 
 These licenses do not apply to any work where another license is otherwise noted.
 
