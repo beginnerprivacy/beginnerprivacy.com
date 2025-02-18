@@ -2,6 +2,13 @@
 title: PrivacyAI (Beta)
 toc: false
 ---
+<style>     
+    @media (min-width: 768px) {         
+        .sidebar-container {             
+            display: none;         
+        }     
+    } 
+</style>
 <div class="chat-container">
     <button id="clearButton" title="Borrar Chat">🔄</button>
     <div class="chat-output" id="chatOutput"></div>
@@ -13,7 +20,7 @@ toc: false
 </div>
 
 <script type="module">
-    import { pipeline } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2/dist/transformers.min.js';
+    import { pipeline } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.3.3';
 
     let chatPipeline;
 
