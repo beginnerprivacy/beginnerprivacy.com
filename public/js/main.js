@@ -536,7 +536,15 @@ function updateTourContainer(step) {
       nextButton.onclick = () => {
         if (buttonText === 'Finish') {
             endTour();
-            window.location.href = '/';
+            if (isSpanish) {
+              window.location.href = '/es';
+            }
+            else if (isChinese) {
+              window.location.href = '/zh-cn';
+            }
+            else {
+              window.location.href = '/';
+            }
         } else {
             let elementSelector = steps[currentStep].element;
             if (isSpanish && steps[currentStep].element_es) {
@@ -548,6 +556,13 @@ function updateTourContainer(step) {
             if (currentElement) {currentElement.classList.remove('highlight-tour');}
             currentStep++;
             localStorage.setItem('currentStep', currentStep);
+            if (currentStep === 2) {
+              const startTabInput = document.getElementById('radio-start');
+              if (startTabInput) {
+                  startTabInput.checked = true;
+              }
+              updateRoadmap();
+            }
             updateTourContainer(steps[currentStep]);
         }
       };
