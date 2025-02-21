@@ -217,23 +217,6 @@
                 href="http://localhost:1313/zh-cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/about/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/links/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/privacyai/</loc>
     <lastmod>2025-02-18T14:01:01+01:00</lastmod>
     <xhtml:link
