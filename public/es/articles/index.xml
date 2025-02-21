@@ -15,6 +15,67 @@
     
     
     <item>
+      <title>Cambia estas configuraciones del teléfono para mejorar la privacidad.</title>
+      <link>http://localhost:1313/es/articles/change-these-mobile-settings-for-better-privacy/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/articles/change-these-mobile-settings-for-better-privacy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nuestros teléfonos inteligentes son los mayores recolectores de datos, absorbiendo todo tipo de información sobre nosotros: nuestras ubicaciones, huellas dactilares, uso de aplicaciones y mucho más.  Por eso es importante tomar el control y limitar lo que saben sobre nosotros.&lt;/p&gt;
+&lt;h2&gt;¿Cuál es más privado?  ¿Android o iOS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cuál-es-más-privado--android-o-ios&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cu%c3%a1l-es-m%c3%a1s-privado--android-o-ios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales.  La principal diferencia radica en cómo manejan esos datos: Apple los conserva para su propio uso, mientras que Google los vende con fines publicitarios.&lt;/p&gt;
+&lt;p&gt;Desde el punto de vista de la seguridad, ambas plataformas son relativamente iguales.  Sin embargo, Android es un sistema operativo más permisivo, lo que le da a los usuarios un mayor control sobre lo que pueden hacer, mientras que iOS tiende a ser más restrictivo.&lt;/p&gt;
+&lt;h2&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Nota: Los pasos para acceder a estas configuraciones pueden variar según la versión y el fabricante de su dispositivo.&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Restringir permisos de la aplicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;restringir-permisos-de-la-aplicación&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#restringir-permisos-de-la-aplicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Seguridad y privacidad &amp;gt; Administrador de permisos&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Elige un permiso específico (por ejemplo, ubicación, cámara) y selecciona una aplicación que no debería tener acceso a ese permiso.&lt;/li&gt;
+&lt;li&gt;Toca &amp;ldquo;No permitir&amp;rdquo; para revocar el acceso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Privacidad y Seguridad&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Selecciona el tipo de permiso (por ejemplo, Servicios de Ubicación, Contactos) y elige la aplicación que deseas limitar.&lt;/li&gt;
+&lt;li&gt;Cambia el interruptor para desactivar el acceso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Desactivar ubicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-ubicación&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-ubicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abre &lt;strong&gt;Configuración &amp;gt; Ubicación&lt;/strong&gt; y apaga el interruptor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad &amp;gt; Servicios de ubicación&lt;/strong&gt; y apaga el interruptor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Desactivar vista previa de notificaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-vista-previa-de-notificaciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-vista-previa-de-notificaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Notificaciones &amp;gt; Notificaciones de pantalla de bloqueo&lt;/strong&gt; y selecciona &amp;ldquo;Ocultar contenido&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Notificaciones &amp;gt; Mostrar Previews&lt;/strong&gt; y selecciona &amp;ldquo;Nunca&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Desactivar Telemetría&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-telemetría&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-telemetr%c3%ada&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Seguridad y privacidad &amp;gt; Más configuraciones de privacidad&lt;/strong&gt;.  Desactiva &amp;ldquo;Enviar datos de diagnóstico&amp;rdquo; y &amp;ldquo;Servicio de personalización de Android.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Luego, navega a &lt;strong&gt;Anuncios &amp;gt; Privacidad de anuncios&lt;/strong&gt; y desactiva todas las opciones.&lt;/li&gt;
+&lt;li&gt;Finalmente, regresa a &lt;strong&gt;Anuncios&lt;/strong&gt; y selecciona &amp;ldquo;Eliminar ID de publicidad,&amp;rdquo; y vuelve a &lt;strong&gt;Más configuraciones de privacidad &amp;gt; Uso y diagnósticos&lt;/strong&gt; y desactívalo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abre &lt;strong&gt;Configuración &amp;gt; Privacidad y Seguridad &amp;gt; Análisis y Mejoras&lt;/strong&gt; y desactiva opciones como &amp;ldquo;Compartir análisis del iPhone&amp;rdquo; y &amp;ldquo;Compartir con desarrolladores de aplicaciones.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>¿Qué es una VPN? ¿Y deberías usar una?</title>
       <link>http://localhost:1313/es/articles/what-is-a-vpn-and-should-you-use-one/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>

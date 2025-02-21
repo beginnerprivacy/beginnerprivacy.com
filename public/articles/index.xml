@@ -15,6 +15,85 @@
     
     
     <item>
+      <title>Change These Mobile Settings For Better Privacy</title>
+      <link>http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Our smartphones are the biggest data collectors, soaking up all kinds of information about us—our locations, fingerprints, app usage, and so much more. That’s why it’s important to take control and limit what they know about us.&lt;/p&gt;
+&lt;h2&gt;Which Is More Private? Android or iOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;which-is-more-private-android-or-ios&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#which-is-more-private-android-or-ios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Both Android and iOS collect similar data, such as location, app usage, and personal preferences. The main difference is in how they handle that data: Apple keeps it for its own use, while Google sells it for advertising purposes.&lt;/p&gt;
+&lt;p&gt;From a security standpoint, both platforms are relatively equal. However, Android is a more permissive operating system, giving users greater control over what they can do, while iOS tends to be more restrictive.&lt;/p&gt;
+&lt;h2&gt;Privacy Settings&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;privacy-settings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#privacy-settings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Note: The steps to access these settings may vary depending on your device&amp;rsquo;s version and manufacturer.&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Restrict App Permissions&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;restrict-app-permissions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#restrict-app-permissions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to &lt;strong&gt;Settings &amp;gt; Security and privacy &amp;gt; Permission manager&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose a specific permission (e.g., location, camera) and select an app that shouldn&amp;rsquo;t have access to the permission.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tap &amp;ldquo;Don&amp;rsquo;t allow&amp;rdquo; to revoke access.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &lt;strong&gt;Settings &amp;gt; Privacy &amp;amp; Security&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the permission type (e.g., Location Services, Contacts) and choose the app you want to limit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Toggle the switch to disable access.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Disable Location&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;disable-location&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#disable-location&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings &amp;gt; Location&lt;/strong&gt; and toggle the switch to off.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;strong&gt;Settings &amp;gt; Privacy &amp;amp; Security &amp;gt; Location Services&lt;/strong&gt; and toggle the switch to off.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Disable Notifications Preview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;disable-notifications-preview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#disable-notifications-preview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Head to &lt;strong&gt;Settings &amp;gt; Notifications &amp;gt; Lock screen notifications&lt;/strong&gt; and select &amp;ldquo;Hide content&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to &lt;strong&gt;Settings &amp;gt; Notifications &amp;gt; Show Previews&lt;/strong&gt; and select &amp;ldquo;Never&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Disable Telemetry&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;disable-telemetry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#disable-telemetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &lt;strong&gt;Settings &amp;gt; Security and privacy &amp;gt; More privacy settings&lt;/strong&gt;. Turn off &amp;ldquo;Send diagnostic data&amp;rdquo; and &amp;ldquo;Android personalization service.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then, navigate to &lt;strong&gt;Ads &amp;gt; Ads privacy&lt;/strong&gt; and disable all options.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally, return to &lt;strong&gt;Ads&lt;/strong&gt; and select &amp;ldquo;Delete advertising ID,&amp;rdquo; and go back to &lt;strong&gt;More privacy settings &amp;gt; Usage and diagnostics&lt;/strong&gt; and disable it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;Settings &amp;gt; Privacy &amp;amp; Security &amp;gt; Analytics &amp;amp; Improvements&lt;/strong&gt; and toggle off options like &amp;ldquo;Share iPhone Analytics&amp;rdquo; and &amp;ldquo;Share with App Developers.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>What Is A VPN? And Should You Use One?</title>
       <link>http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
