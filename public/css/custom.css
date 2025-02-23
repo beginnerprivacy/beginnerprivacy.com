@@ -1,8 +1,10 @@
 :root {
     --bg-highlight-tour: white;
+    --bg-roadmap-modal: white;
 }
 .dark {
     --bg-highlight-tour: black;
+    --bg-roadmap-modal: #181818;
 }
 
 .language-theme-container {
@@ -175,8 +177,8 @@ input[type="radio"]:checked + label {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .hextra-feature-card:nth-child(4n-2)::after,
-    .hextra-feature-card:nth-child(4n-1)::after {
+    .hextra-feature-card:nth-child(8n+4)::after,
+    .hextra-feature-card:nth-child(8n+6)::after {
         display: block;
         width: 2px;
         height: 17px;
@@ -185,7 +187,7 @@ input[type="radio"]:checked + label {
         transform: translateX(-50%);
     }
 
-    .hextra-feature-card:nth-child(2n+1):not(:last-child)::before {
+    .hextra-feature-card:nth-child(4n-2):not(:last-child)::before {
         display: block;
         width: 17px;
         height: 2px;
@@ -205,8 +207,8 @@ input[type="radio"]:checked + label {
         grid-template-columns: repeat(5, 1fr);
     }
 
-    .hextra-feature-card:nth-child(5)::after,
-    .hextra-feature-card:nth-child(6)::after {
+    .hextra-feature-card:nth-child(10)::after,
+    .hextra-feature-card:nth-child(12)::after {
         display: block;
         width: 2px;
         height: 17px;
@@ -580,4 +582,49 @@ th, td {
 
 .modal-button:hover {
   background-color: #0056b3;
+}
+
+.roadmap-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow: hidden;
+}
+  
+.roadmap-modal:target {
+  display: block;
+}
+
+.roadmap-modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-roadmap-modal);
+  padding: 20px;
+  border-radius: 8px;
+  width: 93%;
+  height: 95%;
+  overflow-y: auto;
+}
+
+.roadmap-modal-close {
+  position: absolute;
+  top: 0px;
+  right: 0.8rem;
+  cursor: pointer;
+  font-size: xx-large;
+}
+
+.article-content {
+  overflow-y: auto;
+}
+
+.mark-done-button {
+    width: 90%;
 }

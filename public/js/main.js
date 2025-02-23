@@ -611,6 +611,104 @@ window.onclick = function(event) {
         }
     }
 }
+
+function markAsDone(id) {
+  const checkbox = document.getElementById(`checkbox-${id}`);
+  if (!checkbox) return;
+  checkbox.checked = !checkbox.checked;
+  updateStatus(checkbox);
+}
+
+function updateStatus(checkbox) {
+  const id = checkbox.id.replace('checkbox-', '');
+  const button = document.getElementById(`mark-done-${id}`);
+  const icon = document.getElementById(`status-icon-${id}`);
+  const todoIcon = document.getElementById(`todo-icon-${id}`);
+  const doneIcon = document.getElementById(`done-icon-${id}`);
+
+  if (!button || !icon || !todoIcon || !doneIcon) return;
+
+  const isChecked = checkbox.checked;
+  button.textContent = isChecked ? 'Mark as todo' : 'Mark as done';
+  icon.style.color = isChecked ? '#008d0c' : '#9CA3AF';
+  todoIcon.classList.toggle('hx-hidden', isChecked);
+  doneIcon.classList.toggle('hx-hidden', !isChecked);
+}
+
+document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
+  checkbox.addEventListener('change', function() {
+    updateStatus(this);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
+    updateStatus(checkbox);
+  });
+  handleModalParam();
+});
+
+function handleModalParam() {
+  const params = new URLSearchParams(window.location.search);
+  const modalID = params.get('m');
+  
+  document.querySelectorAll('.roadmap-modal').forEach(modal => {
+    modal.style.display = 'none';
+  });
+  
+  if (modalID) {
+    const modal = document.getElementById(modalID);
+    if (modal) {
+      const parentSection = modal.closest('.roadmap-section');
+
+      if (parentSection) {
+        const tabName = parentSection.id.replace('Content', '');
+        const tabInput = document.querySelector(`input[name="tabs"][value="${tabName}"]`);
+
+        if (tabInput) {
+          tabInput.checked = true;
+          updateRoadmap();
+          modal.style.display = 'block';
+          const checkboxId = modalID.replace('modal-', '');
+          const checkbox = document.getElementById(`checkbox-${checkboxId}`);
+          if (checkbox) updateStatus(checkbox);
+        }
+      }
+    }
+  }
+}
+
+document.querySelectorAll('a[href^="?m="]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const modalID = new URL(this.href).searchParams.get('m');
+    const url = new URL(window.location);
+    url.searchParams.set('m', modalID);
+    window.history.pushState({}, '', url);
+    handleModalParam();
+  });
+});
+
+document.querySelectorAll('.roadmap-modal-close').forEach(btn => {
+  btn.onclick = () => {
+    const params = new URLSearchParams(window.location.search);
+    const modalID = params.get('m');
+    const url = new URL(window.location);
+    url.searchParams.delete('m');
+    window.history.replaceState({}, '', url);
+    document.getElementById(modalID).style.display = 'none';
+    return false;
+  };
+});
+
+document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
+  checkbox.addEventListener('click', function(e) {
+    e.stopPropagation();
+  });
+})
+
+window.addEventListener('popstate', handleModalParam);
+document.addEventListener('DOMContentLoaded', handleModalParam);
 ;
 (function () {
   const languageSwitchers = document.querySelectorAll('.language-switcher');
