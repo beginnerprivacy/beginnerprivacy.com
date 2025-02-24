@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beginner Privacy – </title>
+    <title>Beginner Privacy – Contribute</title>
     <link>http://localhost:1313/about/contribute/</link>
-    <description>Recent content on Beginner Privacy</description>
+    <description>Recent content in Contribute on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -13,6 +13,20 @@
         
       
     
+    
+    <item>
+      <title>Improve Code</title>
+      <link>http://localhost:1313/about/contribute/improve-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/contribute/improve-code/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A guide for improving the code of Beginner Privacy will become available soon.&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Translate</title>

@@ -1,31 +1,27 @@
 ## Contributing to Beginner Privacy
-Thank you for your interest in contributing to Beginner Privacy! We welcome contributions from everyone, whether you're a seasoned developer or just starting out. Your contributions help us improve the project and make it more useful for the community.
+Thank you for your interest in contributing to Beginner Privacy! We welcome contributions from everyone. Your contributions help us improve the website and make it more useful for the community.
 
-## How to Contribute
+## How To Help
 ### 1. Feature Requests
-If you have an idea for a new feature or improvement, we’d love to hear it! Please [open an issue in our GitHub repository](https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues) with a clear description of the feature, its benefits, and any relevant context.
+Share ideas for new features or improvements by [opening a GitHub Issue](https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues).
 
 ### 2. Bug Reports
-If you find a bug or security vulnerability in Beginner Privacy, please report it! Report it [here](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security) and provide as much detail as possible, including.
+Found a bug or security issue? Report it directly in our [Security Center](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security)!
 
-### 3. Pull Requests
-We welcome pull requests! If you’d like to contribute code, please follow these steps:
-- **Fork the Repository:** Create a personal copy of the repository by forking it.
-- **Create a Branch:** Create a new branch for your feature or bug fix. Use a descriptive name for the branch (e.g., feature/new-feature or bugfix/fix-issue).
-- **Make Your Changes:** Implement your changes in your branch.
-- **Test It:** Make sure you test your changes thoroughly
-- **Commit Your Changes:** Write clear and concise commit messages that explain your changes.
-- **Push to Your Fork:** Push your changes to your forked repository.
-- **Open a Pull Request:** Go to the original repository and open a pull request. Provide a description of your changes and reference any related issues.
+### 3. Improve Code
+Submit code changes using our [Code Contribution Guide](https://beginnerprivacy.com/about/contribute/code).
 
-### 4. Translations
-If you would like to help translate Beginner Privacy into another language, please reach out to us! We appreciate contributions that help make our project accessible to a wider audience.
-Code of Conduct
+### 4. Writing Content
+Write articles or tutorials with our [Content Style Guide](https://beginnerprivacy.com/about/contribute/write-content).
 
-By participating in this project, you agree to abide by our Code of Conduct. We are committed to creating a welcoming and inclusive environment for all contributors.
+### 5. Translations
+Help translate Beginner Privacy into another language, with our [Translation Guide](https://beginnerprivacy.com/about/contribute/translate).
 
-### 5. Donations
-If you would like to support Beginner Privacy financially, donations are a great way to contribute! Your donations help us cover costs related to domain name, future infrastructure, and other project-related expenses. Learn more about how to donate at [https://beginnerprivacy.com/about/donate/](https://beginnerprivacy.com/about/donate/).
+### 6. Donations
+Help fund domain and infrastructure costs; see how on our [Donation Page](https://beginnerprivacy.com/about/donate/).
+
+### 7. Spreading The Word
+Share our resources on social media or with friends and family.
 
 ## Getting Started
 If you're new to contributing, here are some resources that may help you get started:
@@ -33,4 +29,4 @@ If you're new to contributing, here are some resources that may help you get sta
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 ## Questions?
-If you have any questions or need assistance, feel free to reach out to us via SimpleX
+If you have any questions or need assistance, feel free to reach out to us via [SimpleX](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FcfczJf7T628buhqA3Wx-R5Z8Qeb8Rm6O%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAsuFeRqk-qIj6V3DaF651t7NnZZgaQdjIrVaanCtIjgs%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&data=%7B%22groupLinkId%22%3A%220DamkEDZ2yoh6F7pbxsmRw%3D%3D%22%7D).
