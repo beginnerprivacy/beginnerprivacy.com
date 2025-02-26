@@ -433,24 +433,6 @@
                 href="http://localhost:1313/es/about/roadmap-introductions/medium/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/contribute/improve-code/</loc>
-    <lastmod>2025-02-24T19:53:24+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/contribute/improve-code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/improve-code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/contribute/improve-code/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/privacyai/</loc>
     <lastmod>2025-02-18T14:01:01+01:00</lastmod>
     <xhtml:link
@@ -467,6 +449,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/privacyai/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/contribute/setup-locally/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/setup-locally/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/setup-locally/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/setup-locally/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contribute/translate/</loc>
