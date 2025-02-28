@@ -15,19 +15,6 @@
     
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/es/about/software-criteria/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/es/about/software-criteria/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Avanzado</title>
       <link>http://localhost:1313/es/about/roadmap-introductions/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -254,6 +241,28 @@ Usando Homebrew:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imagen de cámara de vigilancia por Clker-Free-Vector-Images&lt;/a&gt; de &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Íconos de brújula creados por Creative Stall Premium - Flaticon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 imagen de guardaespaldas por OpenClipart-Vectors&lt;/a&gt; de &lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Criterios de Software</title>
+      <link>http://localhost:1313/es/about/software-criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/software-criteria/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Aquí están los criterios generales para todo el software que recomendamos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Código Abierto:&lt;/strong&gt; El código fuente está disponible públicamente para mayor transparencia.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desarrollo Activo:&lt;/strong&gt; Mantenido activamente y actualizado regularmente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usabilidad:&lt;/strong&gt; Amigable para el usuario; no se requiere un conocimiento técnico extenso.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reputación Positiva:&lt;/strong&gt; Respaldado por defensores de la privacidad y expertos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disponibilidad Multiplataforma:&lt;/strong&gt; Accesible en múltiples sistemas operativos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentación:&lt;/strong&gt; Se proporciona documentación clara y extensa.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

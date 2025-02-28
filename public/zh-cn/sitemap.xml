@@ -218,23 +218,6 @@
                 href="http://localhost:1313/zh-cn/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/about/software-criteria/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/software-criteria/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/software-criteria/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/software-criteria/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -430,6 +413,24 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/about/roadmap-introductions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/about/software-criteria/</loc>
+    <lastmod>2025-02-28T15:56:51+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/software-criteria/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/articles/</loc>

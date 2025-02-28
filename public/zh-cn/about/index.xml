@@ -15,19 +15,6 @@
     
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/zh-cn/about/software-criteria/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/about/software-criteria/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>本地设置</title>
       <link>http://localhost:1313/zh-cn/about/contribute/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -273,6 +260,28 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>软件标准</title>
+      <link>http://localhost:1313/zh-cn/about/software-criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/software-criteria/</guid>
+      <description>
+        
+        
+        &lt;p&gt;以下是我们推荐的所有软件的一般标准：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源:&lt;/strong&gt; 源代码公开可用，以确保透明性。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;积极开发:&lt;/strong&gt; 定期维护和更新。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可用性:&lt;/strong&gt; 用户友好；不需要广泛的技术背景。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;良好声誉:&lt;/strong&gt; 得到隐私倡导者和专家的认可。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨平台可用性:&lt;/strong&gt; 可在多个操作系统上访问。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文档:&lt;/strong&gt; 提供清晰和详尽的文档。&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
