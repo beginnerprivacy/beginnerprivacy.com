@@ -434,6 +434,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/contribute/setup-locally/</loc>
+    <lastmod>2025-02-26T18:07:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -448,6 +449,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/about/contribute/setup-locally/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/software-criteria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/software-criteria/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/contribute/translate/</loc>

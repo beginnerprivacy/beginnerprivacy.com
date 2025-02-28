@@ -669,6 +669,10 @@ function handleModalParam() {
           tabInput.checked = true;
           updateRoadmap();
           modal.style.display = 'block';
+          const overlay = document.querySelector('.overlay')
+          const navoverlay = document.querySelector('.nav-overlay')
+          overlay.style.display = 'block';
+          navoverlay.style.display = 'block';
           const checkboxId = modalID.replace('modal-', '');
           const checkbox = document.getElementById(`checkbox-${checkboxId}`);
           if (checkbox) updateStatus(checkbox);
@@ -676,6 +680,20 @@ function handleModalParam() {
       }
     }
   }
+}
+
+function closeRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const modalID = params.get('m');
+  const url = new URL(window.location);
+  url.searchParams.delete('m');
+  window.history.replaceState({}, '', url);
+  document.getElementById(modalID).style.display = 'none';
+  const overlay = document.querySelector('.overlay')
+  const navoverlay = document.querySelector('.nav-overlay')
+  overlay.style.display = 'none';
+  navoverlay.style.display = 'none';
+  return false;
 }
 
 document.querySelectorAll('a[href^="?m="]').forEach(link => {
@@ -691,14 +709,14 @@ document.querySelectorAll('a[href^="?m="]').forEach(link => {
 
 document.querySelectorAll('.roadmap-modal-close').forEach(btn => {
   btn.onclick = () => {
-    const params = new URLSearchParams(window.location.search);
-    const modalID = params.get('m');
-    const url = new URL(window.location);
-    url.searchParams.delete('m');
-    window.history.replaceState({}, '', url);
-    document.getElementById(modalID).style.display = 'none';
-    return false;
+    closeRoadmapModal();
   };
+});
+
+document.querySelectorAll('.overlay, .nav-overlay').forEach(overlay => {
+  overlay.onclick = () => {
+    closeRoadmapModal();
+  }
 });
 
 document.querySelectorAll('.hx-checkbox').forEach(checkbox => {

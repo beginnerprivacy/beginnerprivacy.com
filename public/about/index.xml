@@ -304,6 +304,28 @@ Using Homebrew:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Software Criteria</title>
+      <link>http://localhost:1313/about/software-criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/software-criteria/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Here are the general criteria for all the software we recommend:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Open Source:&lt;/strong&gt; Source code is publicly available for transparency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active Development:&lt;/strong&gt; Actively maintained and regularly updated.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usability:&lt;/strong&gt; User-friendly; no extensive technical background required.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Positive Reputation:&lt;/strong&gt; Endorsed by privacy advocates and experts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Platform Availability:&lt;/strong&gt; Accessible on multiple operating systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation:&lt;/strong&gt; Clear and extensive documentation provided.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Translate</title>
       <link>http://localhost:1313/about/contribute/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

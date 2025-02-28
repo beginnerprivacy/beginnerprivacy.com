@@ -218,6 +218,23 @@
                 href="http://localhost:1313/es/tags/privacy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/about/software-criteria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/software-criteria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/software-criteria/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/about/</loc>
     <lastmod>2025-02-21T10:38:04+01:00</lastmod>
     <xhtml:link
@@ -323,6 +340,24 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/contribute/setup-locally/</loc>
+    <lastmod>2025-02-26T18:07:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/setup-locally/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/setup-locally/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/setup-locally/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contribute/</loc>
@@ -449,23 +484,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/privacyai/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/about/contribute/setup-locally/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/contribute/setup-locally/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/setup-locally/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/contribute/setup-locally/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contribute/translate/</loc>
