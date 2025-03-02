@@ -9,15 +9,15 @@ excludeSearch: false
 ---
 El escritorio recopila todo tipo de información sobre nosotros. Por eso es importante tomar el control y limitar lo que sabe sobre nosotros.
 
-## ¿Qué sistema operativo es más privado? Windows, Linux o MacOS
+### ¿Qué sistema operativo es más privado? Windows, Linux o MacOS
 Linux es la opción que más respeta la privacidad. Mientras que Windows y MacOS dominan el mercado, no priorizan la privacidad del usuario tanto como Linux (que también es de código abierto).
 
-## Configuración de privacidad
-### Linux
+### Configuración de privacidad
+#### Linux
 **Desactivar Telemetría** 
 - Algunas distribuciones pueden enviar datos de diagnóstico, generalmente desactivados por defecto. Puedes buscar cómo desactivarlo para tu distribución específica.
 
-### Windows
+#### Windows
 **Restringir permisos de aplicaciones** 
 - Navega a **Configuración > Privacidad y seguridad**.
 - Desplázate hacia abajo hasta la sección de permisos de aplicaciones y ajusta la siguiente configuración:
@@ -37,7 +37,7 @@ Linux es la opción que más respeta la privacidad. Mientras que Windows y MacOS
 - Accede a **Configuración > Privacidad y seguridad > General**.
 - Desactiva "Permitir que las aplicaciones me muestren anuncios personalizados utilizando mi ID de publicidad".
 
-### MacOS
+#### MacOS
 **Restringir permisos de aplicaciones** 
 - Navega a **Preferencias del sistema > Seguridad y privacidad > Pestaña de privacidad**. En las siguientes categorías, desactiva el acceso si no deseas que ninguna aplicación lo use, o permite solo a aplicaciones específicas:
     - Servicios de ubicación

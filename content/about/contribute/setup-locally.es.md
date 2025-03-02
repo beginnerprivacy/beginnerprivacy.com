@@ -2,11 +2,11 @@
 linkTitle: "Configuración Local"
 title: Configuración Local
 ---
-## Requisitos Previos
-### IDE
+### Requisitos Previos
+#### IDE
 Recomendamos usar [VSCodium](https://vscodium.com/) (versión sin telemetría de VSCode) para el desarrollo.
 
-### Git
+#### Git
 Instala el sistema de control de versiones para tu sistema operativo:
 
 **Linux:**
@@ -28,7 +28,7 @@ brew install git
 ```
 O descarga desde [git-scm.com](https://git-scm.com/downloads/mac)
 
-### Hugo (Versión Extendida)
+#### Hugo (Versión Extendida)
 Instala Hugo v0.145.0 o superior (se requiere versión extendida):
 
 **Linux:**
@@ -60,7 +60,7 @@ hugo version
 # Debe mostrar: hugo v0.145.0+extended linux/amd64 BuildDate=...
 ```
 
-## Descargar y Ejecutar Beginner Privacy
+### Descargar y Ejecutar Beginner Privacy
 Clona el repositorio:
 ```bash
 git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
@@ -75,7 +75,7 @@ El sitio estará disponible en:
 
 *Nota: Usa Ctrl+C para detener el servidor.*
 
-## Directrices de mensajes de confirmación de Git
+### Directrices de mensajes de confirmación de Git
 Siga estas convenciones para los mensajes de confirmación:
 
 **Formato:**

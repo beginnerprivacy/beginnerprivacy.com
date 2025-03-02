@@ -2,11 +2,11 @@
 linkTitle: "Setup Locally"
 title: Setup Locally
 ---
-## Prerequisites
-### IDE
+### Prerequisites
+#### IDE
 We recommend using [VSCodium](https://vscodium.com/) (no telemetry version of VSCode) for development.
 
-### Git
+#### Git
 Install the version control system for your operating system:
 
 **Linux:**
@@ -28,7 +28,7 @@ brew install git
 ```
 Or download from [git-scm.com](https://git-scm.com/downloads/mac)
 
-### Hugo (Extended Version)
+#### Hugo (Extended Version)
 Install Hugo v0.145.0 or later (extended version required):
 
 **Linux:**
@@ -61,7 +61,7 @@ hugo version
 # Should show: hugo v0.145.0+extended linux/amd64 BuildDate=...
 ```
 
-## Download & Run Beginner Privacy
+### Download & Run Beginner Privacy
 Clone the repository:
 ```bash
 git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
@@ -76,7 +76,7 @@ The site will be available at:
 
 *Note: Use Ctrl+C to stop the server.*
 
-## Git Commit Message Guidelines
+### Git Commit Message Guidelines
 Follow these conventions for commit messages:
 
 **Format:**

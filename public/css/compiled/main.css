@@ -1554,7 +1554,6 @@ video {
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 .content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  margin-top: 1.5rem;
   line-height: 1.75rem;
 }
 .content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)):first-child {
@@ -1714,7 +1713,6 @@ video {
   margin-bottom: 0.5rem;
 }
 .content :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  margin-top: 1.5rem;
   list-style-type: disc;
 }
 .content :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)):first-child {

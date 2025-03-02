@@ -2,11 +2,11 @@
 linkTitle: "本地设置"
 title: 本地设置
 ---
-## 先决条件
-### 集成开发环境 (IDE)
+### 先决条件
+#### 集成开发环境 (IDE)
 推荐使用 [VSCodium](https://vscodium.com/)（无遥测功能的 VSCode 版本）进行开发。
 
-### Git
+#### Git
 根据操作系统安装版本控制系统：
 
 **Linux:**
@@ -28,7 +28,7 @@ brew install git
 ```
 或从 [git-scm.com](https://git-scm.com/downloads/mac) 下载
 
-### Hugo (扩展版)
+#### Hugo (扩展版)
 安装 Hugo v0.145.0 或更高版本（需扩展版）：
 
 **Linux:**
@@ -60,7 +60,7 @@ hugo version
 # 应显示： hugo v0.145.0+extended linux/amd64 BuildDate=...
 ```
 
-## 下载并运行 Beginner Privacy
+### 下载并运行 Beginner Privacy
 克隆仓库：
 ```bash
 git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
@@ -75,7 +75,7 @@ cd beginnerprivacy
 
 *注：使用 Ctrl+C 停止服务器*
 
-## Git 提交信息规范
+### Git 提交信息规范
 遵循以下提交信息格式：
 
 **格式：**

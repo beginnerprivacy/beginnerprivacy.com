@@ -9,14 +9,14 @@ excludeSearch: false
 ---
 Our smartphones are the biggest data collectors, soaking up all kinds of information about us—our locations, fingerprints, app usage, and so much more. That’s why it’s important to take control and limit what they know about us.
 
-## Which Is More Private? Android or iOS
+### Which Is More Private? Android or iOS
 Both Android and iOS collect similar data, such as location, app usage, and personal preferences. The main difference is in how they handle that data: Apple keeps it for its own use, while Google sells it for advertising purposes.
 
 From a security standpoint, both platforms are relatively equal. However, Android is a more permissive operating system, giving users greater control over what they can do, while iOS tends to be more restrictive.
 
-## Privacy Settings
+### Privacy Settings
 *Note: The steps to access these settings may vary depending on your device's version and manufacturer.*
-### Restrict App Permissions
+#### Restrict App Permissions
 **Android:** 
 - Navigate to **Settings > Security and privacy > Permission manager**.
 
@@ -31,21 +31,21 @@ From a security standpoint, both platforms are relatively equal. However, Androi
 
 - Toggle the switch to disable access.
 
-### Disable Location
+#### Disable Location
 **Android:** 
 - Open **Settings > Location** and toggle the switch to off.
 
 **iOS:** 
 - Go to **Settings > Privacy & Security > Location Services** and toggle the switch to off.
 
-### Disable Notifications Preview
+#### Disable Notifications Preview
 **Android:** 
 - Head to **Settings > Notifications > Lock screen notifications** and select "Hide content".
 
 **iOS:** 
 - Navigate to **Settings > Notifications > Show Previews** and select "Never".
 
-### Disable Telemetry
+#### Disable Telemetry
 **Android:** 
 - Go to **Settings > Security and privacy > More privacy settings**. Turn off "Send diagnostic data" and "Android personalization service."
 

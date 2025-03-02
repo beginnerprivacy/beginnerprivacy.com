@@ -4,12 +4,12 @@ title: Write Content
 ---
 Welcome to the Beginner Privacy content guide!
 
-## Getting Started
+### Getting Started
 **Choose your editing method:**
 1. GitHub Editor: Edit directly in your browser.
 2. Local Setup (Recommended): Clone the repository using Git.
 
-## Create Your Article
+### Create Your Article
 1. Navigate to the [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) folder.
 2. Create a new folder with a URL-friendly name (e.g., `why-privacy-matters` for "Why Privacy Matters").
 3. Inside this folder, create three files:
@@ -20,7 +20,7 @@ Welcome to the Beginner Privacy content guide!
 🖼️ **Need images?**
 - Create a matching folder in [static/images/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles) (e.g., `why-privacy-matters`).
 
-## Article Template
+### Article Template
 Include this at the top of your article.
 ```markdown
 ---
@@ -34,7 +34,7 @@ excludeSearch: false
 ---
 ```
 
-## Writing Style
+### Writing Style
 **Audience:** Adults using technology – avoid oversimplification but explain jargon.
 
 **Style:**
@@ -42,7 +42,7 @@ excludeSearch: false
 - Be concise while covering key details (e.g., why a tool is recommended).
 - Structure content with Markdown headers (`##`, `###`).
 
-## Translating Article
+### Translating Article
 1. **Translate** the English version using tools like [LibreTranslate](https://libretranslate.com/) or any other translator you prefer.
 2. **Translation Verification:** Translate the article that has already been translated back into English, and then compare it to the original English article to:
     - Catch mistranslated technical terms
@@ -53,7 +53,7 @@ excludeSearch: false
 4. **Proofread:** Fix formatting issues and ensure clarity.
 
 
-## Markdown & Shortcodes
+### Markdown & Shortcodes
 Check out the Hextra documentation on [markdown](https://imfing.github.io/hextra/docs/guide/markdown/) and [shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/). If there is a certain tool or piece of software that you want to recommend in the article, you can use this shortcode.
 ```html
 <div class="recommendations">
