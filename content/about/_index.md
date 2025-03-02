@@ -25,3 +25,9 @@ Inspired by platforms like PrivacyTools and PrivacyGuides, we take a distinct, n
     {{< hextra/link-card title="GitLab" link="https://gitlab.com/BeginnerPrivacy" logo="../../images/about/gitlab.webp" >}}
   </div>
 </div>
+
+### Milestones
+Here are a few milestones we're particulary proud of.
+#### 2025
+- January 2025 - Beginner Privacy launches!
+- March 2025 - The fundamentals of Beginner Privacy are done.

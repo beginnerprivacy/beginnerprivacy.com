@@ -25,3 +25,9 @@ toc: false
     {{< hextra/link-card title="GitLab" link="https://gitlab.com/BeginnerPrivacy" logo="../../images/about/gitlab.webp" >}}
   </div>
 </div>
+
+### 里程碑
+以下是我们特别自豪的一些里程碑。
+#### 2025
+- 2025年1月 - Beginner Privacy 正式上线！
+- 2025年3月 - Beginner Privacy 的基础内容完成。

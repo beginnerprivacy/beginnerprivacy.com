@@ -25,3 +25,9 @@ Inspirados por plataformas como PrivacyTools y PrivacyGuides, adoptamos un enfoq
     {{< hextra/link-card title="GitLab" link="https://gitlab.com/BeginnerPrivacy" logo="../../images/about/gitlab.webp" >}}
   </div>
 </div>
+
+### Hitos
+Aquí hay algunos hitos de los que estamos particularmente orgullosos.
+#### 2025
+- Enero de 2025 - ¡Lanzamiento de Beginner Privacy!
+- Marzo de 2025 - Se completan los fundamentos de Beginner Privacy.
