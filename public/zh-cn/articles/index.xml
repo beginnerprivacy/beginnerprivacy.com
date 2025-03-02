@@ -15,15 +15,81 @@
     
     
     <item>
-      <title>Desktop Settings To Change For Better Privacy</title>
+      <title>改善隐私的桌面设置</title>
       <link>http://localhost:1313/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</guid>
       <description>
         
         
-        
+        &lt;p&gt;桌面收集关于我们的各种信息。这就是为什么掌控并限制它对我们的了解是重要的。&lt;/p&gt;
+&lt;h2&gt;哪个操作系统更注重隐私？Windows、Linux 还是 MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;哪个操作系统更注重隐私windowslinux-还是-macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%93%aa%e4%b8%aa%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e6%9b%b4%e6%b3%a8%e9%87%8d%e9%9a%90%e7%a7%81windowslinux-%e8%bf%98%e6%98%af-macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Linux 是最尊重隐私的选项。虽然 Windows 和 MacOS 主导市场，但它们并不像 Linux（也是开源的）那样优先考虑用户隐私。&lt;/p&gt;
+&lt;h2&gt;隐私设置&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;隐私设置&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%9a%90%e7%a7%81%e8%ae%be%e7%bd%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Linux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;禁用遥测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一些发行版可能会发送诊断数据，通常默认情况下是关闭的。你可以搜索如何为你的特定发行版禁用它。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Windows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;windows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;限制应用权限&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导航到 &lt;strong&gt;设置 &amp;gt; 隐私与安全&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;向下滚动到应用权限部分并调整以下设置：
+&lt;ul&gt;
+&lt;li&gt;位置：关闭“位置服务”。&lt;/li&gt;
+&lt;li&gt;相机：关闭“相机访问”。&lt;/li&gt;
+&lt;li&gt;麦克风：关闭“麦克风访问”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;禁用遥测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;转到 &lt;strong&gt;设置 &amp;gt; 隐私与安全 &amp;gt; 诊断与反馈&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;禁用“发送可选的诊断数据”。&lt;/li&gt;
+&lt;li&gt;此外，关闭：
+&lt;ul&gt;
+&lt;li&gt;“改善手写和打字”&lt;/li&gt;
+&lt;li&gt;“量身定制的体验”&lt;/li&gt;
+&lt;li&gt;“查看诊断数据”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;禁用广告追踪&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问 &lt;strong&gt;设置 &amp;gt; 隐私与安全 &amp;gt; 一般&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;关闭“允许应用通过使用我的广告 ID 向我展示个性化广告”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;限制应用权限&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导航到 &lt;strong&gt;系统偏好设置 &amp;gt; 安全性与隐私 &amp;gt; 隐私标签&lt;/strong&gt;。在以下类别中，如果你不希望任何应用使用它，请关闭访问权限，或仅允许特定应用：
+&lt;ul&gt;
+&lt;li&gt;位置服务&lt;/li&gt;
+&lt;li&gt;联系人&lt;/li&gt;
+&lt;li&gt;日历&lt;/li&gt;
+&lt;li&gt;照片&lt;/li&gt;
+&lt;li&gt;麦克风&lt;/li&gt;
+&lt;li&gt;相机&lt;/li&gt;
+&lt;li&gt;文件&lt;/li&gt;
+&lt;li&gt;文件夹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;禁用遥测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;转到 &lt;strong&gt;系统偏好设置 &amp;gt; 安全性与隐私 &amp;gt; 隐私标签 &amp;gt; 分析&lt;/strong&gt;，并关闭“共享 Mac 分析”和“与应用开发者共享”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;禁用广告追踪&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问 &lt;strong&gt;系统偏好设置 &amp;gt; 安全性与隐私 &amp;gt; 隐私标签 &amp;gt; 广告&lt;/strong&gt;，并勾选“限制广告追踪”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;禁用 Siri&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Siri 收集并向 Apple 发送大量关于你的信息。通过转到 &lt;strong&gt;系统偏好设置 &amp;gt; Siri&lt;/strong&gt; 并关闭“启用询问 Siri”来禁用它。&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     

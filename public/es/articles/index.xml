@@ -15,15 +15,81 @@
     
     
     <item>
-      <title>Desktop Settings To Change For Better Privacy</title>
+      <title>Configuraciones De Escritorio Para Cambiar Por Mejor Privacidad</title>
       <link>http://localhost:1313/es/articles/desktop-settings-to-change-for-better-privacy/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/es/articles/desktop-settings-to-change-for-better-privacy/</guid>
       <description>
         
         
-        
+        &lt;p&gt;El escritorio recopila todo tipo de información sobre nosotros. Por eso es importante tomar el control y limitar lo que sabe sobre nosotros.&lt;/p&gt;
+&lt;h2&gt;¿Qué sistema operativo es más privado? Windows, Linux o MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qué-sistema-operativo-es-más-privado-windows-linux-o-macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#qu%c3%a9-sistema-operativo-es-m%c3%a1s-privado-windows-linux-o-macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Linux es la opción que más respeta la privacidad. Mientras que Windows y MacOS dominan el mercado, no priorizan la privacidad del usuario tanto como Linux (que también es de código abierto).&lt;/p&gt;
+&lt;h2&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Linux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Desactivar Telemetría&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Algunas distribuciones pueden enviar datos de diagnóstico, generalmente desactivados por defecto. Puedes buscar cómo desactivarlo para tu distribución específica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Windows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;windows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Desplázate hacia abajo hasta la sección de permisos de aplicaciones y ajusta la siguiente configuración:
+&lt;ul&gt;
+&lt;li&gt;Ubicación: Desactiva &amp;ldquo;Servicios de ubicación&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Cámara: Desactiva &amp;ldquo;Acceso a la cámara&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Micrófono: Desactiva &amp;ldquo;Acceso al micrófono&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar Telemetría&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad &amp;gt; Diagnósticos y comentarios&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Desactiva &amp;ldquo;Enviar datos de diagnóstico opcionales&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Además, desactiva:
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Mejorar la escritura a mano y la escritura&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Experiencias personalizadas&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Ver datos de diagnóstico&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar seguimiento de anuncios&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accede a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad &amp;gt; General&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Desactiva &amp;ldquo;Permitir que las aplicaciones me muestren anuncios personalizados utilizando mi ID de publicidad&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navega a &lt;strong&gt;Preferencias del sistema &amp;gt; Seguridad y privacidad &amp;gt; Pestaña de privacidad&lt;/strong&gt;. En las siguientes categorías, desactiva el acceso si no deseas que ninguna aplicación lo use, o permite solo a aplicaciones específicas:
+&lt;ul&gt;
+&lt;li&gt;Servicios de ubicación&lt;/li&gt;
+&lt;li&gt;Contactos&lt;/li&gt;
+&lt;li&gt;Calendarios&lt;/li&gt;
+&lt;li&gt;Fotos&lt;/li&gt;
+&lt;li&gt;Micrófono&lt;/li&gt;
+&lt;li&gt;Cámara&lt;/li&gt;
+&lt;li&gt;Archivos&lt;/li&gt;
+&lt;li&gt;Carpetas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar Telemetría&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ve a &lt;strong&gt;Preferencias del sistema &amp;gt; Seguridad y privacidad &amp;gt; Pestaña de privacidad &amp;gt; Analíticas&lt;/strong&gt; y desactiva &amp;ldquo;Compartir analíticas de Mac&amp;rdquo; y &amp;ldquo;Compartir con desarrolladores de aplicaciones&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar seguimiento de anuncios&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accede a &lt;strong&gt;Preferencias del sistema &amp;gt; Seguridad y privacidad &amp;gt; Pestaña de privacidad &amp;gt; Publicidad&lt;/strong&gt; y marca la casilla &amp;ldquo;Limitar el seguimiento de anuncios&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar Siri&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Siri recopila y envía una gran cantidad de información a Apple sobre ti. Desactívalo yendo a &lt;strong&gt;Preferencias del sistema &amp;gt; Siri&lt;/strong&gt; y desactiva &amp;ldquo;Activar Preguntar a Siri&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
