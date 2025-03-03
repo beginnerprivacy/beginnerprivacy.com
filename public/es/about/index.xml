@@ -57,11 +57,11 @@
       <description>
         
         
-        &lt;h2&gt;Requisitos Previos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;requisitos-previos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#requisitos-previos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;IDE&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ide&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Recomendamos usar &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt; (versión sin telemetría de VSCode) para el desarrollo.&lt;/p&gt;
-&lt;h3&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Instala el sistema de control de versiones para tu sistema operativo:&lt;/p&gt;
+        &lt;h3&gt;Requisitos Previos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;requisitos-previos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#requisitos-previos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;IDE&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ide&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Recomendamos usar &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt; (versión sin telemetría de VSCode) para el desarrollo.&lt;/p&gt;
+&lt;h4&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Instala el sistema de control de versiones para tu sistema operativo:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
@@ -96,8 +96,8 @@ Usando Homebrew:&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;O descarga desde &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Hugo (Versión Extendida)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-versión-extendida&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#hugo-versi%c3%b3n-extendida&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Instala Hugo v0.145.0 o superior (se requiere versión extendida):&lt;/p&gt;
+&lt;h4&gt;Hugo (Versión Extendida)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-versión-extendida&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#hugo-versi%c3%b3n-extendida&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Instala Hugo v0.145.0 o superior (se requiere versión extendida):&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
@@ -168,8 +168,8 @@ Usando Homebrew:&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;Descargar y Ejecutar Beginner Privacy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;descargar-y-ejecutar-beginner-privacy&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#descargar-y-ejecutar-beginner-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Clona el repositorio:&lt;/p&gt;
+&lt;h3&gt;Descargar y Ejecutar Beginner Privacy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;descargar-y-ejecutar-beginner-privacy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#descargar-y-ejecutar-beginner-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Clona el repositorio:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
@@ -188,8 +188,8 @@ Usando Homebrew:&lt;/p&gt;
 &lt;p&gt;El sitio estará disponible en:
 &lt;code&gt;http://localhost:1313/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Nota: Usa Ctrl+C para detener el servidor.&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Directrices de mensajes de confirmación de Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;directrices-de-mensajes-de-confirmación-de-git&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#directrices-de-mensajes-de-confirmaci%c3%b3n-de-git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Siga estas convenciones para los mensajes de confirmación:&lt;/p&gt;
+&lt;h3&gt;Directrices de mensajes de confirmación de Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;directrices-de-mensajes-de-confirmación-de-git&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#directrices-de-mensajes-de-confirmaci%c3%b3n-de-git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Siga estas convenciones para los mensajes de confirmación:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Formato:&lt;/strong&gt;
 &lt;code&gt;&amp;lt;type&amp;gt;: &amp;lt;subject&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ejemplo:&lt;/strong&gt;
@@ -317,14 +317,14 @@ Usando Homebrew:&lt;/p&gt;
         
         
         &lt;p&gt;¡Bienvenido a la guía de contenido de Privacidad para Principiantes!&lt;/p&gt;
-&lt;h2&gt;Empezando&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;empezando&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#empezando&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Elige tu método de edición:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Empezando&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;empezando&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#empezando&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Elige tu método de edición:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Editor de GitHub: Edita directamente en tu navegador.&lt;/li&gt;
 &lt;li&gt;Configuración Local (Recomendada): Clona el repositorio usando Git.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Crea tu artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;crea-tu-artículo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#crea-tu-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h3&gt;Crea tu artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;crea-tu-artículo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#crea-tu-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Navega a la carpeta &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Crea una nueva carpeta con un nombre amigable para URL (por ejemplo, &lt;code&gt;why-privacy-matters&lt;/code&gt; para &amp;ldquo;¿Por qué es importante la privacidad?&amp;rdquo;).&lt;/li&gt;
 &lt;li&gt;Dentro de esta carpeta, crea tres archivos:&lt;/li&gt;
@@ -338,8 +338,8 @@ Usando Homebrew:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Crea una carpeta correspondiente en &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static/images/articles/&lt;/a&gt; (ejemplo, &lt;code&gt;why-privacy-matters&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Plantilla de Artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;plantilla-de-artículo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#plantilla-de-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Incluye esto al principio de tu artículo.&lt;/p&gt;
+&lt;h3&gt;Plantilla de Artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;plantilla-de-artículo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#plantilla-de-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Incluye esto al principio de tu artículo.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
@@ -360,16 +360,16 @@ Usando Homebrew:&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;Estilo de escritura&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;estilo-de-escritura&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#estilo-de-escritura&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Público:&lt;/strong&gt;  Adultos que usan tecnología: eviten la simplificación excesiva pero expliquen la jerga.&lt;/p&gt;
+&lt;h3&gt;Estilo de escritura&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;estilo-de-escritura&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#estilo-de-escritura&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Público:&lt;/strong&gt;  Adultos que usan tecnología: eviten la simplificación excesiva pero expliquen la jerga.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Estilo:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Usa el inglés americano.&lt;/li&gt;
 &lt;li&gt;Sea conciso mientras cubre los detalles clave (por ejemplo, por qué se recomienda una herramienta).&lt;/li&gt;
 &lt;li&gt;Estructura el contenido con encabezados Markdown (&lt;code&gt;##&lt;/code&gt;, &lt;code&gt;###&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Traduciendo Artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;traduciendo-artículo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#traduciendo-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h3&gt;Traduciendo Artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;traduciendo-artículo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#traduciendo-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Traduce&lt;/strong&gt; la versión en inglés usando herramientas como &lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreTranslate&lt;/a&gt; o cualquier otro traductor que prefieras.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Verificación de Traducción:&lt;/strong&gt;  Verificación de traducción: Traduce el artículo que ya ha sido traducido de nuevo al inglés, y luego compáralo con el artículo original en inglés para:
 &lt;ul&gt;
@@ -385,8 +385,8 @@ Usando Homebrew:&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Revisar:&lt;/strong&gt; Corrige problemas de formato y asegura la claridad.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Markdown y Shortcodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown-y-shortcodes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#markdown-y-shortcodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Consulta la documentación de Hextra sobre &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown&lt;/a&gt; y &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;. Si hay alguna herramienta o software que quieras recomendar en el artículo, puedes usar este shortcode.&lt;/p&gt;
+&lt;h3&gt;Markdown y Shortcodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown-y-shortcodes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#markdown-y-shortcodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Consulta la documentación de Hextra sobre &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown&lt;/a&gt; y &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;. Si hay alguna herramienta o software que quieras recomendar en el artículo, puedes usar este shortcode.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;recommendations&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;

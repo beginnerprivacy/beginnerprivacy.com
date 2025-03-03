@@ -23,11 +23,11 @@
       <description>
         
         
-        &lt;h2&gt;先决条件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;先决条件&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%85%88%e5%86%b3%e6%9d%a1%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;集成开发环境 (IDE)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;集成开发环境-ide&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e9%9b%86%e6%88%90%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83-ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;推荐使用 &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt;（无遥测功能的 VSCode 版本）进行开发。&lt;/p&gt;
-&lt;h3&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;根据操作系统安装版本控制系统：&lt;/p&gt;
+        &lt;h3&gt;先决条件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;先决条件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%85%88%e5%86%b3%e6%9d%a1%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;集成开发环境 (IDE)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;集成开发环境-ide&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%9b%86%e6%88%90%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83-ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;推荐使用 &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt;（无遥测功能的 VSCode 版本）进行开发。&lt;/p&gt;
+&lt;h4&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;根据操作系统安装版本控制系统：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
@@ -62,8 +62,8 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;或从 &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt; 下载&lt;/p&gt;
-&lt;h3&gt;Hugo (扩展版)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-扩展版&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#hugo-%e6%89%a9%e5%b1%95%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;安装 Hugo v0.145.0 或更高版本（需扩展版）：&lt;/p&gt;
+&lt;h4&gt;Hugo (扩展版)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-扩展版&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#hugo-%e6%89%a9%e5%b1%95%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;安装 Hugo v0.145.0 或更高版本（需扩展版）：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
@@ -134,8 +134,8 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;下载并运行 Beginner Privacy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;下载并运行-beginner-privacy&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%b8%8b%e8%bd%bd%e5%b9%b6%e8%bf%90%e8%a1%8c-beginner-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;克隆仓库：&lt;/p&gt;
+&lt;h3&gt;下载并运行 Beginner Privacy&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;下载并运行-beginner-privacy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%8b%e8%bd%bd%e5%b9%b6%e8%bf%90%e8%a1%8c-beginner-privacy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;克隆仓库：&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
@@ -154,8 +154,8 @@
 &lt;p&gt;访问以下地址查看：
 &lt;code&gt;http://localhost:1313/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;注：使用 Ctrl+C 停止服务器&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Git 提交信息规范&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git-提交信息规范&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#git-%e6%8f%90%e4%ba%a4%e4%bf%a1%e6%81%af%e8%a7%84%e8%8c%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;遵循以下提交信息格式：&lt;/p&gt;
+&lt;h3&gt;Git 提交信息规范&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git-提交信息规范&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#git-%e6%8f%90%e4%ba%a4%e4%bf%a1%e6%81%af%e8%a7%84%e8%8c%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;遵循以下提交信息格式：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;格式：&lt;/strong&gt;
 &lt;code&gt;&amp;lt;type&amp;gt;: &amp;lt;subject&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;示例：&lt;/strong&gt;
@@ -201,14 +201,14 @@
         
         
         &lt;p&gt;欢迎来到初学者隐私内容指南！&lt;/p&gt;
-&lt;h2&gt;开始使用&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;开始使用&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;选择你的编辑方式：&lt;/p&gt;
+&lt;h3&gt;开始使用&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;开始使用&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;选择你的编辑方式：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;GitHub 编辑器：直接在浏览器中编辑。&lt;/li&gt;
 &lt;li&gt;本地设置（推荐）：使用Git克隆代码库。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;创建您的文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;创建您的文章&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e6%82%a8%e7%9a%84%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h3&gt;创建您的文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;创建您的文章&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e6%82%a8%e7%9a%84%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;导航到 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt; 文件夹。&lt;/li&gt;
 &lt;li&gt;创建一个带有URL友好名称的新文件夹（例如，“为什么隐私很重要”的URL友好名称是&lt;code&gt;why-privacy-matters&lt;/code&gt;）。&lt;/li&gt;
 &lt;li&gt;在这个文件夹内，创建三个文件：&lt;/li&gt;
@@ -222,8 +222,8 @@
 &lt;ul&gt;
 &lt;li&gt;在 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static/images/articles/&lt;/a&gt; 中创建一个匹配的文件夹（例如，&lt;code&gt;why-privacy-matters&lt;/code&gt;）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;文章模板&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;文章模板&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%96%87%e7%ab%a0%e6%a8%a1%e6%9d%bf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;将此内容放在您文章的开头。&lt;/p&gt;
+&lt;h3&gt;文章模板&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;文章模板&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%96%87%e7%ab%a0%e6%a8%a1%e6%9d%bf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;将此内容放在您文章的开头。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
@@ -244,8 +244,8 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;写作风格&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;写作风格&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%86%99%e4%bd%9c%e9%a3%8e%e6%a0%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;受众：&lt;/strong&gt;  使用技术的成年人——避免过于简化，但要解释术语。
+&lt;h3&gt;写作风格&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;写作风格&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%86%99%e4%bd%9c%e9%a3%8e%e6%a0%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;受众：&lt;/strong&gt;  使用技术的成年人——避免过于简化，但要解释术语。
 上下文：&lt;strong&gt;风格：&lt;/strong&gt;&lt;br&gt;
 要翻译的文本：&lt;strong&gt;风格：&lt;/strong&gt;
 使用美式英语。&lt;/p&gt;
@@ -253,8 +253,8 @@
 &lt;li&gt;在涵盖关键细节时要简明扼要（例如，为什么推荐某个工具）。&lt;/li&gt;
 &lt;li&gt;使用Markdown标题（&lt;code&gt;##&lt;/code&gt;，&lt;code&gt;###&lt;/code&gt;）来结构化内容。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;翻译文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;翻译文章&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e7%bf%bb%e8%af%91%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h3&gt;翻译文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;翻译文章&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bf%bb%e8%af%91%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;翻译&lt;/strong&gt;英文版本，使用像&lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreTranslate&lt;/a&gt;或任何其他你喜欢的翻译工具。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;翻译验证：&lt;/strong&gt;  将已经翻译过的文章再翻译回英语，然后将其与原始英语文章进行比较：
 &lt;ul&gt;
@@ -270,8 +270,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;校对：&lt;/strong&gt; 修正格式问题并确保清晰度。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Markdown 和短代码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown-和短代码&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#markdown-%e5%92%8c%e7%9f%ad%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;查看Hextra文档中的&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown&lt;/a&gt;和&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;短代码&lt;/a&gt;。如果您想在文章中推荐某个工具或软件，可以使用这个短代码。&lt;/p&gt;
+&lt;h3&gt;Markdown 和短代码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown-和短代码&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#markdown-%e5%92%8c%e7%9f%ad%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;查看Hextra文档中的&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;markdown&lt;/a&gt;和&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;短代码&lt;/a&gt;。如果您想在文章中推荐某个工具或软件，可以使用这个短代码。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;recommendations&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;

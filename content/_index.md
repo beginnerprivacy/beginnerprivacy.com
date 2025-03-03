@@ -75,7 +75,7 @@ layout: hextra-home
           {{< hextra/feature-card title="Virtual Private Network (VPN)" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
           {{< hextra/feature-card title="Private Search Engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
           <!-- Row 3 -->
-          {{< hextra/feature-card title="Secure Messaging" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+          {{< hextra/feature-card title="Secure Messaging" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
           {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
       {{< /hextra/feature-grid >}}
     </div>

@@ -15,6 +15,19 @@
     
     
     <item>
+      <title>Ditch SMS &amp; Use Secure Communication Methods</title>
+      <link>http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Protege Tu Comunicación Con Un Correo Electrónico Privado.</title>
       <link>http://localhost:1313/es/articles/protect-your-communication-with-a-private-email/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
@@ -86,16 +99,16 @@
         
         
         &lt;p&gt;El escritorio recopila todo tipo de información sobre nosotros. Por eso es importante tomar el control y limitar lo que sabe sobre nosotros.&lt;/p&gt;
-&lt;h2&gt;¿Qué sistema operativo es más privado? Windows, Linux o MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qué-sistema-operativo-es-más-privado-windows-linux-o-macos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#qu%c3%a9-sistema-operativo-es-m%c3%a1s-privado-windows-linux-o-macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Linux es la opción que más respeta la privacidad. Mientras que Windows y MacOS dominan el mercado, no priorizan la privacidad del usuario tanto como Linux (que también es de código abierto).&lt;/p&gt;
-&lt;h2&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Linux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Desactivar Telemetría&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;¿Qué sistema operativo es más privado? Windows, Linux o MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qué-sistema-operativo-es-más-privado-windows-linux-o-macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#qu%c3%a9-sistema-operativo-es-m%c3%a1s-privado-windows-linux-o-macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux es la opción que más respeta la privacidad. Mientras que Windows y MacOS dominan el mercado, no priorizan la privacidad del usuario tanto como Linux (que también es de código abierto).&lt;/p&gt;
+&lt;h3&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Linux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Desactivar Telemetría&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Algunas distribuciones pueden enviar datos de diagnóstico, generalmente desactivados por defecto. Puedes buscar cómo desactivarlo para tu distribución específica.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Windows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;windows&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Windows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;windows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Desplázate hacia abajo hasta la sección de permisos de aplicaciones y ajusta la siguiente configuración:
@@ -123,8 +136,8 @@
 &lt;li&gt;Accede a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad &amp;gt; General&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Desactiva &amp;ldquo;Permitir que las aplicaciones me muestren anuncios personalizados utilizando mi ID de publicidad&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;MacOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Restringir permisos de aplicaciones&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Navega a &lt;strong&gt;Preferencias del sistema &amp;gt; Seguridad y privacidad &amp;gt; Pestaña de privacidad&lt;/strong&gt;. En las siguientes categorías, desactiva el acceso si no deseas que ninguna aplicación lo use, o permite solo a aplicaciones específicas:
 &lt;ul&gt;
@@ -165,13 +178,13 @@
         
         
         &lt;p&gt;Nuestros teléfonos inteligentes son los mayores recolectores de datos, absorbiendo todo tipo de información sobre nosotros: nuestras ubicaciones, huellas dactilares, uso de aplicaciones y mucho más.  Por eso es importante tomar el control y limitar lo que saben sobre nosotros.&lt;/p&gt;
-&lt;h2&gt;¿Cuál es más privado?  ¿Android o iOS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cuál-es-más-privado--android-o-ios&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cu%c3%a1l-es-m%c3%a1s-privado--android-o-ios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales.  La principal diferencia radica en cómo manejan esos datos: Apple los conserva para su propio uso, mientras que Google los vende con fines publicitarios.&lt;/p&gt;
+&lt;h3&gt;¿Cuál es más privado?  ¿Android o iOS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cuál-es-más-privado--android-o-ios&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cu%c3%a1l-es-m%c3%a1s-privado--android-o-ios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales.  La principal diferencia radica en cómo manejan esos datos: Apple los conserva para su propio uso, mientras que Google los vende con fines publicitarios.&lt;/p&gt;
 &lt;p&gt;Desde el punto de vista de la seguridad, ambas plataformas son relativamente iguales.  Sin embargo, Android es un sistema operativo más permisivo, lo que le da a los usuarios un mayor control sobre lo que pueden hacer, mientras que iOS tiende a ser más restrictivo.&lt;/p&gt;
-&lt;h2&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Nota: Los pasos para acceder a estas configuraciones pueden variar según la versión y el fabricante de su dispositivo.&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Restringir permisos de la aplicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;restringir-permisos-de-la-aplicación&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#restringir-permisos-de-la-aplicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Configuración de privacidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuración-de-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuraci%c3%b3n-de-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;em&gt;Nota: Los pasos para acceder a estas configuraciones pueden variar según la versión y el fabricante de su dispositivo.&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Restringir permisos de la aplicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;restringir-permisos-de-la-aplicación&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#restringir-permisos-de-la-aplicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Seguridad y privacidad &amp;gt; Administrador de permisos&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Elige un permiso específico (por ejemplo, ubicación, cámara) y selecciona una aplicación que no debería tener acceso a ese permiso.&lt;/li&gt;
@@ -183,8 +196,8 @@
 &lt;li&gt;Selecciona el tipo de permiso (por ejemplo, Servicios de Ubicación, Contactos) y elige la aplicación que deseas limitar.&lt;/li&gt;
 &lt;li&gt;Cambia el interruptor para desactivar el acceso.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Desactivar ubicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-ubicación&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#desactivar-ubicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Desactivar ubicación&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-ubicación&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-ubicaci%c3%b3n&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Abre &lt;strong&gt;Configuración &amp;gt; Ubicación&lt;/strong&gt; y apaga el interruptor.&lt;/li&gt;
 &lt;/ul&gt;
@@ -192,8 +205,8 @@
 &lt;ul&gt;
 &lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Privacidad y seguridad &amp;gt; Servicios de ubicación&lt;/strong&gt; y apaga el interruptor.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Desactivar vista previa de notificaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-vista-previa-de-notificaciones&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#desactivar-vista-previa-de-notificaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Desactivar vista previa de notificaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-vista-previa-de-notificaciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-vista-previa-de-notificaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Notificaciones &amp;gt; Notificaciones de pantalla de bloqueo&lt;/strong&gt; y selecciona &amp;ldquo;Ocultar contenido&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -201,8 +214,8 @@
 &lt;ul&gt;
 &lt;li&gt;Navega a &lt;strong&gt;Configuración &amp;gt; Notificaciones &amp;gt; Mostrar Previews&lt;/strong&gt; y selecciona &amp;ldquo;Nunca&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Desactivar Telemetría&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-telemetría&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#desactivar-telemetr%c3%ada&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Desactivar Telemetría&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;desactivar-telemetría&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desactivar-telemetr%c3%ada&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ve a &lt;strong&gt;Configuración &amp;gt; Seguridad y privacidad &amp;gt; Más configuraciones de privacidad&lt;/strong&gt;.  Desactiva &amp;ldquo;Enviar datos de diagnóstico&amp;rdquo; y &amp;ldquo;Servicio de personalización de Android.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;Luego, navega a &lt;strong&gt;Anuncios &amp;gt; Privacidad de anuncios&lt;/strong&gt; y desactiva todas las opciones.&lt;/li&gt;
