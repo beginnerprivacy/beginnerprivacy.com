@@ -727,6 +727,56 @@ document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
 
 window.addEventListener('popstate', handleModalParam);
 document.addEventListener('DOMContentLoaded', handleModalParam);
+
+document.addEventListener("DOMContentLoaded", function() {
+  const grids = [
+      document.querySelector('#basicContent .hextra-feature-grid'),
+      document.querySelector('#advancedContent .hextra-feature-grid')
+  ];
+
+  if (window.innerWidth > 1025) {
+    grids.forEach(grid => {
+        if (!grid) return;
+        const cards = Array.from(grid.children); 
+        
+        if (cards.length < 10) {
+            return;
+        }
+
+        const cardsToRearrange = [
+            cards[11],
+            cards[13],
+            cards[15],
+            cards[17],
+            cards[19]
+        ];
+
+        const newOrder = [
+            cardsToRearrange[4],
+            cardsToRearrange[3],
+            cardsToRearrange[2],
+            cardsToRearrange[1],
+            cardsToRearrange[0]
+        ];
+
+        const insertPositions = [
+            cards[11].nextElementSibling,
+            cards[13].nextElementSibling,
+            cards[15].nextElementSibling,
+            cards[17].nextElementSibling,
+            cards[19].nextElementSibling
+        ];
+
+        cardsToRearrange.forEach(card => {
+            grid.removeChild(card);
+        });
+
+        newOrder.forEach((card, index) => {
+            grid.insertBefore(card, insertPositions[index]);
+        });
+    });
+  }
+});
 ;
 (function () {
   const languageSwitchers = document.querySelectorAll('.language-switcher');

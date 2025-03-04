@@ -68,12 +68,12 @@ layout: hextra-home
         {{< hextra/feature-card title="Autenticación de Dos Factores (2FA)" link="articles/two-factor-authentication-and-why-you-need-it" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Limitar la información compartida" link="articles/limit-the-personal-information-you-share-online" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Navegador Privado" link="articles/why-you-need-a-private-browser-to-protect-yourself" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        <!-- Row 2 -->
-        {{< hextra/feature-card title="Correo electrónico privado" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Configuración de privacidad del escritorio" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Configuración de Privacidad Móvil" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="Red Privada Virtual (VPN)" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        <!-- Row 2 rtl -->
         {{< hextra/feature-card title="Motor de búsqueda privado" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Red Privada Virtual (VPN)" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Configuración de Privacidad Móvil" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Configuración de privacidad del escritorio" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Correo electrónico privado" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 3 -->
         {{< hextra/feature-card title="Mensajería Segura" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
@@ -103,12 +103,12 @@ layout: hextra-home
       {{< hextra/feature-card title="Sistema Operativo Móvil" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Autoalojamiento" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="Criptomoneda" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      <!-- Row 2 -->
-      {{< hextra/feature-card title="OpSec Avanzado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¿Qué es I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Evitando trampas de miel" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Encriptar Todo" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      <!-- Row 2 rtl -->
       {{< hextra/feature-card title="Adquirir cripto" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Encriptar Todo" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Evitando trampas de miel" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="¿Qué es I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="OpSec Avanzado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       <!-- Row 3 -->        
       {{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
