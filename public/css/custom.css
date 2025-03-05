@@ -383,6 +383,7 @@ th, td {
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
+  max-width: 85%;
 }
 
 .chat-container {

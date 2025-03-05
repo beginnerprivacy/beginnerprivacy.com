@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/break-free-from-proprietary-software-with-foss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/break-free-from-proprietary-software-with-foss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods/</loc>
     <lastmod>2025-03-03T17:57:31+01:00</lastmod>
     <xhtml:link
@@ -201,7 +219,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2025-01-29T14:04:18+01:00</lastmod>
+    <lastmod>2025-03-05T12:01:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -237,7 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/why-you-should-care-about-your-privacy/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <lastmod>2025-03-05T12:01:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -255,7 +273,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/privacy/</loc>
-    <lastmod>2025-01-28T17:45:08+01:00</lastmod>
+    <lastmod>2025-03-05T12:01:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -345,7 +363,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-03-03T17:57:31+01:00</lastmod>
+    <lastmod>2025-03-04T18:25:10+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -470,7 +488,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contribute/write-content/</loc>
-    <lastmod>2025-03-02T21:30:59+01:00</lastmod>
+    <lastmod>2025-03-05T12:36:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
