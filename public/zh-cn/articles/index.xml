@@ -45,7 +45,7 @@
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;OpenSourceAlternative.to&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;一个全面的开源替代品目录。&lt;/p&gt;
@@ -54,7 +54,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;F-Droid&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;一个免费的开源Android应用商店。&lt;/p&gt;
@@ -63,7 +63,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;AlternativeTo&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;查找专有软件的替代品。&lt;/p&gt;

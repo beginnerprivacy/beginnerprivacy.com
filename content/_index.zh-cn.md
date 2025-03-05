@@ -81,8 +81,8 @@ layout: hextra-home
     {{< hextra/feature-grid >}}
       <!-- Row 1 -->
       {{< hextra/feature-card title="中级介绍" link="about/roadmap-introductions/medium" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="自由和开源软件" link="articles/break-free-from-proprietary-software-with-foss" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="切换到Linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="自由和开源软件" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="社交媒体前端" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="从数据经纪人处删除" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       <!-- Row 2 -->
