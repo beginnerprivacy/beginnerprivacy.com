@@ -7,7 +7,7 @@ title: 写内容
 ### 开始使用
 选择你的编辑方式：
 1. GitHub 编辑器：直接在浏览器中编辑。
-2. 本地设置（推荐）：使用Git克隆代码库。
+2. 本地设置（推荐）：[学习如何在本地设置这个网站。](../setup-locally/)
 
 ### 创建您的文章
 1. 导航到 [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) 文件夹。
@@ -43,7 +43,8 @@ excludeSearch: false
 - 使用Markdown标题（`##`，`###`）来结构化内容。
 
 ### 翻译文章
-1. **翻译**英文版本，使用像[LibreTranslate](https://libretranslate.com/)或任何其他你喜欢的翻译工具。
+Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
+1. **翻译** 英文版本，使用像 [LibreTranslate](https://libretranslate.com/) 这样的工具或您喜欢的任何其他翻译器翻译成西班牙语和中文（简 体）。
 2. **翻译验证：**  将已经翻译过的文章再翻译回英语，然后将其与原始英语文章进行比较：
     - 捕捉翻译错误的技术术语
     - 验证句子结构是否符合预期的意思

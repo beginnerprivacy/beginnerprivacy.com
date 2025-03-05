@@ -7,7 +7,7 @@ title: Escribir contenido
 ### Empezando
 **Elige tu método de edición:**
 1. Editor de GitHub: Edita directamente en tu navegador.
-2. Configuración Local (Recomendada): Clona el repositorio usando Git.
+2. Configuración Local (Recomendada): [Aprende cómo configurar este sitio web localmente.](../setup-locally/)
 
 ### Crea tu artículo
 1. Navega a la carpeta [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles).
@@ -43,7 +43,8 @@ excludeSearch: false
 - Estructura el contenido con encabezados Markdown (`##`, `###`).
 
 ### Traduciendo Artículo
-1. **Traduce** la versión en inglés usando herramientas como [LibreTranslate](https://libretranslate.com/) o cualquier otro traductor que prefieras.
+Beginner Privacy está disponible en 3 idiomas: inglés, español y chino (simplificado).
+1. **Traduce** la versión en inglés usando herramientas como [LibreTranslate](https://libretranslate.com/) o cualquier otro traductor que prefieras al español y al chino (simplificado).
 2. **Verificación de Traducción:**  Verificación de traducción: Traduce el artículo que ya ha sido traducido de nuevo al inglés, y luego compáralo con el artículo original en inglés para:
     - Atrapar términos técnicos mal traducidos
     - Verifica que la estructura de la oración coincida con el significado previsto.

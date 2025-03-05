@@ -7,7 +7,7 @@ Welcome to the Beginner Privacy content guide!
 ### Getting Started
 **Choose your editing method:**
 1. GitHub Editor: Edit directly in your browser.
-2. Local Setup (Recommended): Clone the repository using Git.
+2. Local Setup (Recommended): [Learn how to setup this website locally.](../setup-locally/)
 
 ### Create Your Article
 1. Navigate to the [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) folder.
@@ -43,7 +43,8 @@ excludeSearch: false
 - Structure content with Markdown headers (`##`, `###`).
 
 ### Translating Article
-1. **Translate** the English version using tools like [LibreTranslate](https://libretranslate.com/) or any other translator you prefer.
+Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Simplified).
+1. **Translate** the English version using a tool like [LibreTranslate](https://libretranslate.com/) or any other translator you prefer into Spanish and Chinese (Simplified).
 2. **Translation Verification:** Translate the article that has already been translated back into English, and then compare it to the original English article to:
     - Catch mistranslated technical terms
     - Verify sentence structure matches the intended meaning
