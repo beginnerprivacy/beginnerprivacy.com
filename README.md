@@ -22,3 +22,6 @@ These licenses do not apply to any work where another license is otherwise noted
 You may comply with our license terms in any reasonable manner, but not in any way that suggests Beginner Privacy endorses you or your use. You **may not** use the Beginner Privacy branding in your own project without express approval from this project.
 
 When you contribute to this repository you are doing so under the above licenses, and you are granting Beginner Privacy a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=beginnerprivacy/beginnerprivacy.github.io&type=Date)](https://star-history.com/#beginnerprivacy/beginnerprivacy.github.io&Date)
