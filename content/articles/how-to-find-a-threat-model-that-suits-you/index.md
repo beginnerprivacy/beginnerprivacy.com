@@ -12,7 +12,47 @@ excludeSearch: false
 Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.
 
 ### Developing Your Threat Model
-To create an effective threat model, start by asking yourself the following questions:
+To create a threat model, you can take our theat model assessment. 
+{{< hextra/quiz >}}
+{
+  "questions": [
+    {
+      "question": "How sensitive is your typical online activity?",
+      "answers": [
+        {"text": "Basic web browsing (e.g., reading news, shopping)", "score": 1},
+        {"text": "Some personal communications (e.g., social media, emails)", "score": 2},
+        {"text": "Handling sensitive work documents (e.g., client data, contracts)", "score": 3},
+        {"text": "Activism or whistleblowing (e.g., sharing sensitive information)", "score": 4}
+      ]
+    },
+    {
+      "question": "What's your biggest privacy concern?",
+      "answers": [
+        {"text": "Targeted ads", "score": 1},
+        {"text": "Mass surveillance", "score": 2},
+        {"text": "Having a digital footprint", "score": 3},
+        {"text": "Being targeted by malicious actors", "score": 4}
+      ]
+    },
+    {
+      "question": "What lengths are you willing to go to protect your privacy?",
+      "answers": [
+        {"text": "I prefer convenience over security", "score": 1},
+        {"text": "I'll make some effort, but not too much", "score": 2},
+        {"text": "I'm willing to sacrifice a decent amount of convenience for better security and privacy", "score": 3},
+        {"text": "I’m ready to invest heavily in security and change my lifestyle", "score": 4}
+      ]
+    }
+  ],
+  "resultText": {
+    "casual": "Casual User: Basic privacy protections recommended",
+    "privacyConscious": "Privacy-Conscious: Medium-level security measures advised",
+    "advanced": "Advanced User: Comprehensive security framework needed"
+  }
+}
+{{< /hextra/quiz >}}
+
+You can also do it manually by asking yourself the following questions:
 
 **1. What do I want to protect?**
 

@@ -21,8 +21,8 @@
 
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Gratuito, de código abierto Comienza tu viaje de privacidad ahora con Beginner Privacy ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando. Beginner Privacy es tu hoja de ruta para recuperar una vida privada.">
-  <meta itemprop="dateModified" content="2025-03-04T18:25:10+01:00">
-  <meta itemprop="wordCount" content="5926">
+  <meta itemprop="dateModified" content="2025-03-05T14:30:38+01:00">
+  <meta itemprop="wordCount" content="6068">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -774,8 +774,119 @@
                       </a></div>
               <div class="content">
                   <p>Crear un modelo de amenazas es un paso importante en tu camino hacia una mejor privacidad y seguridad. Se trata de averiguar de quién o de qué necesitas protegerte y qué estás dispuesto a hacer para mantener tu información segura. Pero aquí está el truco: cuanto más privacidad y seguridad quieras, más inconvenientes pueden surgir. Podrías encontrarte manejando pasos adicionales, usando herramientas complejas o cambiando tus hábitos. Es un acto de equilibrio: encontrar la mezcla adecuada de seguridad que te mantenga a salvo sin complicar demasiado tu vida.</p>
-      <h2>Desarrollando tu Modelo de Amenazas<span class="hx-absolute -hx-mt-20" id="desarrollando-tu-modelo-de-amenazas"></span>
-          <a href="#desarrollando-tu-modelo-de-amenazas" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Para crear un modelo de amenazas efectivo, comienza haciéndote las siguientes preguntas:</p>
+      <h3>Desarrollando tu Modelo de Amenazas<span class="hx-absolute -hx-mt-20" id="desarrollando-tu-modelo-de-amenazas"></span>
+          <a href="#desarrollando-tu-modelo-de-amenazas" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Para crear un modelo de amenazas, puedes realizar nuestra evaluación de modelo de amenazas.
+      
+      
+      
+      
+      <script>
+      const resultTexts = {
+        casual: "Usuario Casual: Se recomiendan protecciones básicas de privacidad",
+        privacyConscious: "Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio",
+        advanced: "Usuario Avanzado: Se necesita un marco de seguridad integral"
+      };
+      </script>
+      
+      <div class="threat-model-assessment" id="threat-model-assessment">
+        <button class="tm-start-button" onclick="startAssessment('threat-model-assessment')">
+        
+          Iniciar Evaluación del Modelo de Amenazas
+        
+        </button>
+        
+        <div class="tm-questions-container">
+          
+          <div class="tm-question" data-index="0">
+            <h4>¿Qué tan sensible es tu actividad en línea típica?</h4>
+            <div class="tm-options">
+              
+              <button class="tm-option" data-score="1">
+                Navegación web básica (por ejemplo, leer noticias, comprar)
+              </button>
+              
+              <button class="tm-option" data-score="2">
+                Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)
+              </button>
+              
+              <button class="tm-option" data-score="3">
+                Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)
+              </button>
+              
+              <button class="tm-option" data-score="4">
+                Activismo o denuncia (por ejemplo, compartir información sensible)
+              </button>
+              
+            </div>
+            
+          </div>
+          
+          <div class="tm-question" data-index="1">
+            <h4>¿Cuál es tu mayor preocupación de privacidad?</h4>
+            <div class="tm-options">
+              
+              <button class="tm-option" data-score="1">
+                Anuncios dirigidos
+              </button>
+              
+              <button class="tm-option" data-score="2">
+                Vigilancia masiva
+              </button>
+              
+              <button class="tm-option" data-score="3">
+                Tener una huella digital
+              </button>
+              
+              <button class="tm-option" data-score="4">
+                Ser objetivo de actores maliciosos
+              </button>
+              
+            </div>
+            
+            <button class="tm-nav-button" onclick="previousQuestion('threat-model-assessment')">
+              ← Anterior
+            </button>
+            
+          </div>
+          
+          <div class="tm-question" data-index="2">
+            <h4>¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?</h4>
+            <div class="tm-options">
+              
+              <button class="tm-option" data-score="1">
+                Prefiero la conveniencia a la seguridad
+              </button>
+              
+              <button class="tm-option" data-score="2">
+                Haré un esfuerzo, pero no demasiado
+              </button>
+              
+              <button class="tm-option" data-score="3">
+                Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad
+              </button>
+              
+              <button class="tm-option" data-score="4">
+                Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida
+              </button>
+              
+            </div>
+            
+            <button class="tm-nav-button" onclick="previousQuestion('threat-model-assessment')">
+              ← Anterior
+            </button>
+            
+          </div>
+          
+          <div class="tm-result">
+            <h4 style="margin: 0;">Tu Modelo de Amenaza:</h4>
+            <div class="tm-result-content"></div>
+            <button class="tm-restart" onclick="restartAssessment('threat-model-assessment')">
+              Repetir Evaluación
+            </button>
+          </div>
+        </div>
+      </div></p>
+      <p>También puedes hacerlo manualmente haciéndote las siguientes preguntas:</p>
       <p><strong>1. ¿Qué quiero proteger?</strong></p>
       <p>Identifica los activos que son más importantes para ti. Esto podría incluir datos personales, información financiera, propiedad intelectual o incluso tu reputación en línea.</p>
       <p><strong>2. ¿De quién quiero protegerlo?</strong></p>
@@ -786,13 +897,13 @@
       <p>Evalúa el impacto potencial de una violación de seguridad. ¿Resultaría en una pérdida financiera, daño reputacional o repercusiones legales? Entender los riesgos puede ayudar a priorizar tus esfuerzos.</p>
       <p><strong>5. ¿Hasta dónde estoy dispuesto a llegar para prevenir posibles consecuencias?</strong></p>
       <p>Determina tu nivel de comodidad con varias medidas de seguridad. ¿Estás dispuesto a invertir en herramientas de seguridad avanzadas, adoptar prácticas estrictas de privacidad o cambiar tu comportamiento en línea?</p>
-      <h2>Tengo un modelo de amenazas. ¿Y ahora qué?<span class="hx-absolute -hx-mt-20" id="tengo-un-modelo-de-amenazas-y-ahora-qué"></span>
-          <a href="#tengo-un-modelo-de-amenazas-y-ahora-qu%c3%a9" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Ahora que tienes tu modelo de amenazas, es hora de decidir hasta dónde quieres llegar en la hoja de ruta de Privacidad para Principiantes. Aquí hay algunos perfiles para ayudarte a guiar tu elección:</p>
+      <h3>Tengo un modelo de amenazas. ¿Y ahora qué?<span class="hx-absolute -hx-mt-20" id="tengo-un-modelo-de-amenazas-y-ahora-qué"></span>
+          <a href="#tengo-un-modelo-de-amenazas-y-ahora-qu%c3%a9" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Ahora que tienes tu modelo de amenazas, es hora de decidir hasta dónde quieres llegar en la hoja de ruta de Privacidad para Principiantes. Aquí hay algunos perfiles para ayudarte a guiar tu elección:</p>
       <p><strong>El Usuario Casual:</strong> Si tu principal preocupación es simplemente ocultar tu información personal de las grandes corporaciones y la vigilancia masiva, la hoja de ruta <strong>Básica</strong> es todo lo que necesitas.</p>
       <p><strong>La Persona Consciente de la Privacidad:</strong> Si quieres tomarte más en serio tu privacidad y ir más allá de lo básico para protegerte de posibles amenazas, deberías continuar con la hoja de ruta <strong>Media</strong> después de completar la hoja de ruta <strong>Básica</strong>.</p>
       <p><strong>El Activista o Individuo de Alto Riesgo:</strong> Si eres un activista, un periodista, o alguien buscado por el gobierno, o si simplemente quieres asegurar el más alto nivel de privacidad, deberías seguir la hoja de ruta <strong>Avanzada</strong> después de completar las hojas de ruta <strong>Básica</strong> y <strong>Media</strong>.</p>
-      <h2>Actualizando Regularmente Su Modelo de Amenazas<span class="hx-absolute -hx-mt-20" id="actualizando-regularmente-su-modelo-de-amenazas"></span>
-          <a href="#actualizando-regularmente-su-modelo-de-amenazas" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Tu modelo de amenazas no es una tarea de una sola vez; es algo que debe evolucionar a medida que tu vida y circunstancias cambian. Para mantenerlo relevante, considera establecer un horario para revisar tu modelo de amenazas regularmente. Esto es especialmente importante después de eventos significativos en la vida, como comenzar un nuevo trabajo, mudarse a una ubicación diferente o hacer cambios en su presencia en línea.</p>
+      <h3>Actualizando Regularmente Su Modelo de Amenazas<span class="hx-absolute -hx-mt-20" id="actualizando-regularmente-su-modelo-de-amenazas"></span>
+          <a href="#actualizando-regularmente-su-modelo-de-amenazas" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Tu modelo de amenazas no es una tarea de una sola vez; es algo que debe evolucionar a medida que tu vida y circunstancias cambian. Para mantenerlo relevante, considera establecer un horario para revisar tu modelo de amenazas regularmente. Esto es especialmente importante después de eventos significativos en la vida, como comenzar un nuevo trabajo, mudarse a una ubicación diferente o hacer cambios en su presencia en línea.</p>
       
                 </div>
               
