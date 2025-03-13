@@ -617,6 +617,8 @@ function markAsDone(id) {
   if (!checkbox) return;
   checkbox.checked = !checkbox.checked;
   updateStatus(checkbox);
+  
+  localStorage.setItem(`checkbox-${id}`, checkbox.checked);
 }
 
 function updateStatus(checkbox) {
@@ -638,12 +640,18 @@ function updateStatus(checkbox) {
 document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
   checkbox.addEventListener('change', function() {
     updateStatus(this);
+    localStorage.setItem(this.id, this.checked);
   });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
-    updateStatus(checkbox);
+    const id = checkbox.id;
+    const savedState = localStorage.getItem(id);
+    if (savedState === 'true') {
+      checkbox.checked = true;
+      updateStatus(checkbox);
+    }
   });
   handleModalParam();
 });
@@ -727,6 +735,60 @@ document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
 
 window.addEventListener('popstate', handleModalParam);
 document.addEventListener('DOMContentLoaded', handleModalParam);
+
+function previousRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const currentModalID = params.get('m');
+  const modals = document.querySelectorAll('.roadmap-modal');
+  let currentIndex = -1;
+
+  modals.forEach((modal, index) => {
+    if (modal.id === currentModalID) {
+      currentIndex = index;
+    }
+  });
+
+  while (currentIndex > 0) {
+    const previousModal = modals[currentIndex - 1];
+    const previousModalID = previousModal.id;
+
+    if (previousModalID !== 'something-missing-contribute') {
+      const url = new URL(window.location);
+      url.searchParams.set('m', previousModalID);
+      window.history.pushState({}, '', url);
+      handleModalParam();
+      break;
+    }
+    currentIndex--;
+  }
+}
+
+function nextRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const currentModalID = params.get('m');
+  const modals = document.querySelectorAll('.roadmap-modal');
+  let currentIndex = -1;
+
+  modals.forEach((modal, index) => {
+    if (modal.id === currentModalID) {
+      currentIndex = index;
+    }
+  });
+
+  while (currentIndex < modals.length - 1) {
+    const nextModal = modals[currentIndex + 1];
+    const nextModalID = nextModal.id;
+
+    if (nextModalID !== 'something-missing-contribute') {
+      const url = new URL(window.location);
+      url.searchParams.set('m', nextModalID);
+      window.history.pushState({}, '', url);
+      handleModalParam();
+      break;
+    }
+    currentIndex++;
+  }
+}
 
 document.addEventListener("DOMContentLoaded", function() {
   const grids = [

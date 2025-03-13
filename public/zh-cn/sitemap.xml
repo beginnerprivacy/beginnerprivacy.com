@@ -128,22 +128,22 @@
                 href="http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/articles/why-you-need-a-private-email-to-protect-yourself/</loc>
+    <loc>http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</loc>
     <lastmod>2025-03-02T18:05:31+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/articles/why-you-need-a-private-email-to-protect-yourself/"
+                href="http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/articles/why-you-need-a-private-email-to-protect-yourself/"
+                href="http://localhost:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/why-you-need-a-private-email-to-protect-yourself/"
+                href="http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online/</loc>
@@ -201,7 +201,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/</loc>
-    <lastmod>2025-03-05T12:01:37+01:00</lastmod>
+    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -219,7 +219,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/threat-model/</loc>
-    <lastmod>2025-02-01T18:01:25+01:00</lastmod>
+    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -237,7 +237,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</loc>
-    <lastmod>2025-02-01T18:01:25+01:00</lastmod>
+    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
