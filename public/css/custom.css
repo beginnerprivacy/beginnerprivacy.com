@@ -7,6 +7,7 @@
     --bg-roadmap-modal: #181818;
 }
 
+/* Start language dropdown */
 .language-theme-container {
     display: flex; 
     align-items: center;
@@ -17,7 +18,6 @@
     margin: 0px; 
     min-width: 100px;
 }
-
 .language-theme-sidebar-container {
     display: none;
 }
@@ -27,7 +27,30 @@
     margin: 0px; 
     min-width: 100px;
 }
+@media (max-width: 768px) {
+    .language-theme-container {
+      display: none;
+    }
+    .language-theme-sidebar-container {
+        display: block;
+    }
+    .footer-content {
+        flex-direction: column !important;
+    }
+    .middle-footer-section {
+        flex: 0 0 100% !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .left-footer-section, .right-footer-section {
+        flex: 0 0 100% !important;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+/* End language dropdown */
 
+/* Start hero image */
 .hero-surveillance-image {
     position: absolute;
     top: 60px;
@@ -35,7 +58,29 @@
     width: 340px;
     pointer-events: none;
 }
+@media (max-width: 980px) {
+    .hero-surveillance-image {
+        width: 150px !important;
+    }
+}
+@media (max-width: 1250px) {
+    .hero-surveillance-image {
+        width: 15% !important;
+    }
+}
+@media (max-width: 1090px) {
+    .hero-surveillance-image {
+        width: 110px !important;
+    }
+}
+@media (max-width: 325px) {
+    .hero-surveillance-image {
+        display: none !important;
+    }
+}
+/* End hero image */
 
+/* Start roadmap tabs */
 .tabs {
     display: flex;
     position: relative;
@@ -76,53 +121,25 @@ input[type="radio"] {
 input[type="radio"]:checked + label {
     color: black;
 }
+/* End roadmap tabs */
 
+/* Start roadmap cards */
 .hextra-feature-card {
     overflow: visible;
 }
 
-@media (max-width: 980px) {
-    .hero-surveillance-image {
-        width: 150px !important;
-    }
-}
-@media (max-width: 1250px) {
-    .hero-surveillance-image {
-        width: 15% !important;
-    }
-}
-@media (max-width: 1090px) {
-    .hero-surveillance-image {
-        width: 110px !important;
-    }
-}
-@media (max-width: 325px) {
-    .hero-surveillance-image {
-        display: none !important;
-    }
+.coming-soon-label {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-@media (max-width: 768px) {
-    .language-theme-container {
-      display: none;
-    }
-    .language-theme-sidebar-container {
-        display: block;
-    }
-    .footer-content {
-        flex-direction: column !important;
-    }
-    .middle-footer-section {
-        flex: 0 0 100% !important;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .left-footer-section, .right-footer-section {
-        flex: 0 0 100% !important;
-        flex-wrap: wrap;
-        justify-content: center !important;
-    }
-}
 @media (max-width: 520px) {
     #import-export {
         margin-top: 10px;
@@ -239,7 +256,9 @@ input[type="radio"]:checked + label {
         display: none;
     }
 }
+/* End roadmap cards */
 
+/* Start contributors table */
 table {
     width : 100%;
     border-collapse: collapse;
@@ -282,7 +301,9 @@ th, td {
         font-size: 16px;
     }
 }
+/* End contributors table */
 
+/* Start donation page goals */
 .donation-container {
     width: 80%;
     max-width: 600px;
@@ -313,7 +334,9 @@ th, td {
     font-weight: bold;
     transition: color 0.5s;
 }
+/* End donation page goals */
 
+/* Start recommended software shortcode */
 .recommendations {
     margin-top: 10px;
 }
@@ -385,7 +408,9 @@ th, td {
   color: rgb(15 23 42 / var(--tw-text-opacity));
   max-width: 85%;
 }
+/* End recommended software shortcode */
 
+/* Start PrivacyAI */
 .chat-container {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -470,19 +495,9 @@ th, td {
 #clearButton:hover {
     scale: 110%;
 }
+/* End PrivacyAI */
 
-.coming-soon-label {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 75%;
-    overflow: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
+/* Start tour guide */
 .highlight-tour {
     position: relative;
     z-index: 99;
@@ -584,7 +599,9 @@ th, td {
 .modal-button:hover {
   background-color: #0056b3;
 }
+/* End tour guide */
 
+/* Start roadmap modal */
 .roadmap-modal {
   display: none;
   position: fixed;
@@ -707,3 +724,4 @@ th, td {
     border-radius: 4px;
     cursor: pointer;
 }
+/* End roadmap modal */
