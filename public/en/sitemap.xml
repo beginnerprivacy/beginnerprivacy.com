@@ -541,6 +541,8 @@
                 href="http://localhost:1313/about/software-criteria/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/statistics/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/contribute/translate/</loc>
     <lastmod>2025-01-27T17:22:18+01:00</lastmod>
     <xhtml:link

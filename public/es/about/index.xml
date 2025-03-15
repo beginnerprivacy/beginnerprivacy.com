@@ -448,6 +448,25 @@ Usando Homebrew:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Statistics</title>
+      <link>http://localhost:1313/es/about/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/statistics/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We use GoatCounter for web analytics. The traffic statistics are available &lt;a href=&#34;https://beginnerprivacy.goatcounter.com/?filter=&amp;amp;daily=on&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.&lt;br&gt;
+— &lt;cite&gt;GoatCounter&amp;rsquo;s Homepage&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+Please bear in mind that, while GoatCounter is a useful tool for displaying traffic and different forms of traffic, it may not give accurate numbers due to scripts that prevent it.
+      </description>
+    </item>
+    
+    <item>
       <title>Traducir</title>
       <link>http://localhost:1313/es/about/contribute/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
