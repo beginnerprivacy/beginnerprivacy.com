@@ -7,21 +7,27 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
+
 Usar FOSS es un paso importante en tu viaje hacia la privacidad y también es una opción superior al software propietario.
 
 ### ¿Qué es FOSS?
+
 FOSS significa **Software Libre y de Código Abierto**. Esto significa que el código fuente del software es accesible al público, lo que permite a cualquiera verlo, modificarlo y distribuirlo. Esta apertura fomenta la colaboración y la innovación dentro de la comunidad de software.
 
 ### ¿Por qué es mejor FOSS que el software propietario?
+
 FOSS ofrece varias ventajas sobre el software propietario:
+
 - **Transparencia**: Los usuarios pueden inspeccionar el código fuente para entender cómo funciona el software, asegurando que no haya características maliciosas ocultas o recolección de datos en curso.
-  
+
 - **Seguridad**: Con la capacidad de construir software desde el código fuente, los usuarios pueden evitar descargar versiones potencialmente dañinas que pueden contener malware, como caballos de Troya.
-  
+
 - **Soporte de la comunidad**: FOSS a menudo tiene una comunidad vibrante que contribuye a su desarrollo, proporcionando soporte y actualizaciones.
 
 ### ¿Cómo encuentro alternativas a FOSS?
+
 Encontrar alternativas a FOSS es más fácil que nunca, gracias a sitios web dedicados que enumeran varias opciones. Aquí hay algunos recursos recomendados:
+
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="Un directorio completo de alternativas de código abierto." buttonText="Visitar Sitio Web" >}}
@@ -31,9 +37,11 @@ Encontrar alternativas a FOSS es más fácil que nunca, gracias a sitios web ded
 </div>
 
 ### Cómo reemplazar el software propietario con FOSS
+
 Migrar del software propietario a FOSS puede ser un desafío. Aquí hay algunos consejos para hacer la transición más suave:
+
 - **Comienza despacio**: Comienza reemplazando una aplicación propietaria a la vez con su alternativa FOSS. Esto te permite ajustarte gradualmente.
-  
+
 - **Prueba las alternativas**: Descarga la alternativa FOSS y úsala durante unos días para familiarizarte con sus características e interfaz.
-  
+
 - **Migra tus datos**: Una vez que te sientas cómodo, transfiere tus archivos y datos al nuevo software.
