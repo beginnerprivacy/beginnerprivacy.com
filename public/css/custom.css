@@ -256,6 +256,32 @@ input[type="radio"]:checked + label {
         display: none;
     }
 }
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #6b6969;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #006be6;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 4.5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
 /* End roadmap cards */
 
 /* Start contributors table */
@@ -513,7 +539,7 @@ th, td {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: none;
-    z-index: 100;
+    z-index: 1000;
 }
 .overlay {
   position: fixed;
