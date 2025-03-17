@@ -1,3 +1,1 @@
-files:
-  - source: /content/articles/**/index.md
-    translation: /content/articles/**/index.%locale%.md
+files: []
