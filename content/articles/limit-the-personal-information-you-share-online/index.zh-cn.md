@@ -1,5 +1,5 @@
 ---
-title: 限制在线共享的个人信息
+title: Limit The Personal Information You Share Online
 date: 2025-02-04
 authors:
   - name: PrintN
@@ -7,39 +7,46 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-你是否厌倦了无休止的垃圾邮件、自动拨打电话，或者发现你的个人数据被卖给了可疑的数据经纪人？ 每次你把真实姓名、电子邮件或电话号码交给一个随机的应用程序或网站时，你都在拿隐私来赌博。 为了避免这种情况，你需要提供虚假信息。
 
-### 何时不使用虚假信息
-重要的是要知道何时应该使用虚假信息，何时不应该使用，因为这可能会迅速适得其反。
-- **长期使用账户：** 在注册计划使用超过一次的账户时，不要使用临时邮箱。
-- **网上购物：** 如果你要把包裹送到家里，你应该提供一个真实的地址。 如果你要在邮局取包裹，建议使用你的真实姓名，因为他们有时会要求你出示身份证明。
-- **其他：** 请每次在提供虚假信息之前考虑以下两点：
-    - 这个服务或账户对我的生活重要吗？
-    - 如果我提供虚假信息，会有麻烦吗？
+Are you tired of endless spam emails, robocalls, or discovering your personal data was sold to shady data brokers? Every time you hand over your real name, email, or phone number to a random app or website, you’re gambling with your privacy. To avoid this you'll have to provide fake information.
 
-### 假信息
-并不是每个网站或表单都值得你诚实对待。 对于非关键账户，使用虚构的详细信息：
-- **假名：** 使用像“亚历克斯·史密斯”这样的假名，而不是你的真实姓名。
-- **虚假生日：** 选择一个随机日期（例如，1985年1月1日）。
-- **虚假地址：** 使用随机地址（例如，图书馆或咖啡店）。
+### When Not To Use Fake Information
 
-### 临时邮箱
-为什么要冒着在你的主要邮箱上收到垃圾邮件的风险呢？使用**临时邮箱**进行一次性注册或可疑下载。
+It's important to know when you should use fake information and when you should not, as it can quickly backfire.
+
+- **Long Term Use Accounts:** Don't use a temporary email when signing up for accounts that you plan to use more than 1 time.
+- **Buying things online:** You should provide a real address if you're getting your package delivered to your house. If you are picking up a package at a post office, you should consider using your real name, as they sometime require you to show ID.
+- **Other:** Please consider the following two things each time before you provide fake information:
+  - Is this service or account important to my life?
+  - Will I get in trouble if I provide fake information?
+
+### Fake Information
+
+Not every website or form deserves your honesty. For non-critical accounts, use fabricated details:
+
+- **Fake names:** Use a pseudonym like “Alex Smith” instead of your real name.
+- **Fake birthdays:** Pick a random date (e.g., January 1, 1985).
+- **Fake addresses:** Use a random address (e.g., a library or coffee shop).
+
+### Temporary Email
+
+Why risk getting spammed on your primary email? Use a **burner email** for one-time signups or sketchy downloads.
+
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="流行的临时邮件提供商" platformIcon="android ios globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="开源且可以自托管" platformIcon="globe-alt" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="Temp Mail" link="https://temp-mail.org" logo="../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="Popular temporary mail provider" platformIcon="android ios globe-alt" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="smail" link="https://smail.pw/" logo="../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="Open-source and can be self-hosted" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
 
-### 临时电话号码
-电话号码也是如此。你不必为临时账户提供你的真实电话号码。
+### Temporary Phone Number
+
 {{< callout type="info" >}}
-  请记住，所有消息都是公开可见的。
 {{< /callout >}}
+
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Receive SMS" link="https://receive-smss.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="Receive SMS" link="https://receive-smss.com/" logo="../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
