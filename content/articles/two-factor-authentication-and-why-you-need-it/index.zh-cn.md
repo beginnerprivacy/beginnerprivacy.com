@@ -1,5 +1,5 @@
 ---
-title: 双重身份验证（2FA）及其必要性
+title: Two-Factor Authentication (2FA) & Why You Need It
 date: 2025-02-03
 authors:
   - name: PrintN
@@ -7,45 +7,51 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-**想象一下：** 你已经用了多年的同一个密码。  然后，一封电子邮件说有人从另一个国家登录了你的银行账户。
 
-仅靠密码是不够的。黑客通过网络钓鱼、泄露或暴力破解攻击窃取它们。双重身份验证（2FA）增加了第二层防护来阻止他们。
+**Imagine this:** You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.
 
-### 双重身份验证是如何工作的？
-1. 输入您的密码。
-2. 使用第二个因素进行验证
-    - 一次性代码（应用程序 / 短信 / 电子邮件）。
-    - 生物识别（指纹/面部扫描）。
-    - 一把物理安全钥匙。
+Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute forcing attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.
 
-即使有了你的密码，黑客也无法在没有第二因素的情况下访问你的账户。
+### How Does 2FA Work?
 
-### 2FA的类型：你应该使用哪种？
-并非所有的双重身份验证方法都是同样安全的。
+1. Enter your password.
+2. Verify with a second factor
+  - A one-time code (app / SMS / email).
+  - Biometrics (fingerprint / face scan).
+  - A physical security key.
 
-**安全密钥：** 最佳的物理设备（如 YubiKey），可以插入你的手机或电脑。
+Even with your password, hackers can’t access your account without the second factor.
 
-**身份验证器应用程序：** 太好了，这些应用程序允许你扫描二维码，然后完全离线生成时间敏感的代码。
+### Types of 2FA: Which Should You Use?
 
-**短信/电子邮件验证码：** 方便，但黑客可以通过SIM交换或网络钓鱼来拦截这些信息。
+Not all 2FA methods are equally secure.
 
-**生物识别技术：** 好吧，指纹或面部扫描是安全的，但只适用于你拥有的设备。
+**Security Keys:** Best, physical devices (like YubiKey) that plug into your phone or computer.
 
-### 如何在您的账户上启用双重身份验证
-大多数平台都很简单。 以下是在一些平台上操作的方法：
-- **谷歌：** 安全 → 两步验证 → 开始使用。
-- **Apple ID：** 设置 → [你的名字] → 密码与安全。
-- **Facebook：** 设置 → 安全与登录 → 双重身份验证。
-- **其他：** 通常与上述平台相同的步骤。
+**Authenticator Apps:** Great, these apps allow you to scan a QR code and then generate time-sensitive codes completely offline.
 
-### 推荐的身份验证器应用程序
-以下是我们推荐的用于存储您的双重身份验证代码的身份验证器应用程序。许多[密码管理器](https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely)也可以存储2FA代码。
+**SMS / Email Codes:** Convenient, but hackers can intercept these via SIM-swapping or phishing.
+
+**Biometrics:** Good, fingerprint or face scans are secure but only work on devices you own.
+
+### How to Enable 2FA on Your Accounts
+
+Most platforms make it easy. Here’s how to do it on some platforms:
+
+- **Google:** Security → 2-Step Verification → Get Started.
+- **Apple ID:** Settings → [Your Name] → Password & Security.
+- **Facebook:** Settings → Security and Login → Two-Factor Authentication.
+- **Other:** Usually the same steps as the platforms above.
+
+### Recommended Authenticator Apps
+
+Here are the authenticator apps we recommend for storing your 2FA codes. Many [password managers](https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely) can also store 2FA codes.
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Ente Auth" link="https://ente.io/auth" logo="../../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="本地（代码可以选择性地存储在云端），开源" platformIcon="linux android ios macos windows globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Aegis" link="https://getaegis.app/" logo="../../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="本地，开源" platformIcon="android" buttonText="访问网站" >}}
-  </div>  
+    {{< hextra/recommendation-card title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="Local (Codes can optionally be stored in the cloud), open-source" platformIcon="linux android ios macos windows globe-alt" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, open-source" platformIcon="android" buttonText="Visit Website" >}}
+  </div>
 </div>
 
-*把这篇文章分享给那些还在单靠密码的人吧！*
+_Share this article with someone who’s still risking it with passwords alone!_
