@@ -76,7 +76,7 @@ layout: hextra-home
           {{< hextra/feature-card title="Private Email" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
           <!-- Row 3 -->
           {{< hextra/feature-card title="Secure Messaging" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-          {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+          {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
       {{< /hextra/feature-grid >}}
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -89,7 +89,7 @@ layout: hextra-home
         {{< hextra/feature-card title="Removal from Data Brokers" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 2 -->
         {{< hextra/feature-card invisibleFiller="true" >}}
-        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Basic OpSec" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="What is Tor?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Encrypted DNS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
@@ -110,7 +110,7 @@ layout: hextra-home
         {{< hextra/feature-card title="What is I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Advanced OpSec" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 3 -->        
-        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute/write-content/" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< /hextra/feature-grid >}}
     </div>
   </div>

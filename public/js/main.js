@@ -464,8 +464,17 @@ function showTourModal() {
       document.body.style.overflow = 'hidden';
       
       if (currentStep === 3) {
-        element.style.backgroundColor = 'white';
+        if (document.documentElement.classList.contains('dark')) {
+          element.style.backgroundColor = 'black';
+        }
+        else {
+          element.style.backgroundColor = 'white';
+        }
         element.style.borderRadius = '1.5rem';
+        thirdElement = element;
+      }
+      if (currentStep === 4) {
+        thirdElement.style.backgroundColor = '';
       }
 
       container.style.left = `${rect.left + window.scrollX}px`;
@@ -745,14 +754,7 @@ function updateRoadmap() {
     todoIcon.classList.toggle('hx-hidden', isChecked);
     doneIcon.classList.toggle('hx-hidden', !isChecked);
   }
-  
-  document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
-    checkbox.addEventListener('change', function() {
-      updateStatus(this);
-      localStorage.setItem(this.id, this.checked);
-    });
-  });
-  
+    
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
       const id = checkbox.id;
