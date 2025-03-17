@@ -1,5 +1,5 @@
 ---
-title: 如何找到适合你的威胁模型
+title: How To Find A Threat Model That Suits You
 date: 2025-01-29
 authors:
   - name: PrintN
@@ -9,79 +9,46 @@ tags:
   - Threat Model
 excludeSearch: false
 ---
-创建威胁模型是你迈向更好隐私和安全的重要一步。 关键在于弄清楚你需要保护自己免受谁或什么的侵害，以及你愿意做些什么来确保你的信息安全。 但这里有个问题：你越想要隐私和安全，事情就会变得越不方便。 你可能会发现自己需要应对额外的步骤，使用复杂的工具，或者改变你的习惯。 这是一种平衡艺术——找到既能让你安全又不让你的生活变得太复杂的安全措施的正确组合。
 
-### 制定你的威胁模型
-要创建威胁模型，您可以参加我们的威胁模型评估。 
+Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.
+
+### Developing Your Threat Model
+
 {{< hextra/quiz >}}
-{
-  "questions": [
-    {
-      "question": "您典型的在线活动有多敏感？",
-      "answers": [
-        {"text": "基本的网页浏览（例如，阅读新闻、购物）", "score": 1},
-        {"text": "一些个人通信（例如，社交媒体、电子邮件）", "score": 2},
-        {"text": "处理敏感的工作文件（例如，客户数据、合同）", "score": 3},
-        {"text": "激进主义或举报（例如，分享敏感信息）", "score": 4}
-      ]
-    },
-    {
-      "question": "您最大的隐私担忧是什么？",
-      "answers": [
-        {"text": "定向广告", "score": 1},
-        {"text": "大规模监控", "score": 2},
-        {"text": "拥有数字足迹", "score": 3},
-        {"text": "被恶意行为者针对", "score": 4}
-      ]
-    },
-    {
-      "question": "您愿意付出多大努力来保护您的隐私？",
-      "answers": [
-        {"text": "我更喜欢便利而不是安全", "score": 1},
-        {"text": "我会付出一些努力，但不会太多", "score": 2},
-        {"text": "我愿意牺牲一定的便利以获得更好的安全和隐私", "score": 3},
-        {"text": "我准备在安全上投入大量资金并改变我的生活方式", "score": 4}
-      ]
-    }
-  ],
-  "resultText": {
-    "casual": "普通用户：建议基本隐私保护",
-    "privacyConscious": "隐私意识：建议中等安全措施",
-    "advanced": "高级用户：需要全面的安全框架"
-  }
-}
 {{< /hextra/quiz >}}
 
-您还可以通过问自己以下问题来手动进行：
+You can also do it manually by asking yourself the following questions:
 
-**1. 我想要保护什么？**
+**1. What do I want to protect?**
 
-确定对你最重要的资产。 这可能包括个人数据、财务信息、知识产权，甚至是你的在线声誉。
+Identify the assets that are most important to you. This could include personal data, financial information, intellectual property, or even your online reputation.
 
-**2. 我想要保护它免受谁的伤害？**
+**2. Who do I want to protect it from?**
 
-考虑潜在的对手。 你是否担心网络犯罪分子、政府监控、内部威胁，甚至是朋友或家人无意间的泄密？
+Consider the potential adversaries. Are you concerned about cybercriminals, government surveillance, insider threats, or even unintentional breaches by friends or family?
 
-**3. 我需要保护它的可能性有多大？**
+**3. How likely is it that I will need to protect it?**
 
-评估遇到这些威胁的可能性。 你是一个高知名度的人，还是从事可能引起不必要注意的活动？
+Assess the likelihood of encountering these threats. Are you a high-profile individual, or do you engage in activities that might attract unwanted attention?
 
-**4. 如果我失败，后果会有多严重？**
+**4. How severe are the consequences if I fail?**
 
-评估安全漏洞的潜在影响。 这会导致财务损失、声誉受损还是法律后果？ 了解利害关系可以帮助你优先安排工作。
+Evaluate the potential impact of a security breach. Would it result in financial loss, reputational damage, or legal repercussions? Understanding the stakes can help prioritize your efforts.
 
-**5. 为了防止潜在后果，我愿意付出多大的努力？**
+**5. What lengths am I willing to go to prevent potential consequences?**
 
-确定您对各种安全措施的舒适度。 你愿意投资于先进的安全工具，采用严格的隐私实践，还是改变你的在线行为？
+Determine your comfort level with various security measures. Are you willing to invest in advanced security tools, adopt strict privacy practices, or change your online behavior?
 
-### 我有一个威胁模型。 现在怎么办？
-现在你已经有了威胁模型，是时候决定你想在初学者隐私路线图上走多远了。 以下是一些可以帮助您做出选择的个人资料：
+### I have a threat model. Now what?
 
-**普通用户：** 如果您主要关心的是简单地将个人信息隐藏在大公司和大规模监控之外，那么**基础**路线图就足够了。
+Now that you have your threat model, it’s time to decide how far you want to go on the Beginner Privacy roadmap. Here are a few profiles to help guide your choice:
 
-**注重隐私的个人：** 如果你想更认真地对待隐私，并超越基础知识来保护自己免受潜在威胁，你应该在完成**基础**路线图后继续到**中级**路线图。
+**The Casual User:** If your main concern is simply hiding your personal information from big corporations and mass surveillance, the **Basic** roadmap is all you need.
 
-**活动家或高风险个人：** 如果你是一个活动家、记者，或者是被政府通缉的人，或者你只是想确保最高级别的隐私，你应该在完成**基础**和**中级**路线图后，遵循**高级**路线图。
+**The Privacy-Conscious Individual:** If you want to take your privacy more seriously and go beyond the basics to shield yourself from potential threats, you should continue to the **Medium** roadmap after completing the **Basic** roadmap.
 
-### 定期更新您的威胁模型
-你的威胁模型不是一次性任务；它应该随着你的生活和环境的变化而不断演变。 为了保持其相关性，考虑定期安排时间审查你的威胁模型。 这在经历重大生活事件后尤为重要，例如开始新工作、搬到不同的地方或更改在线存在。
+**The Activist or High-Risk Individual:** If you’re an activist, a journalist, or someone who is wanted by the government, or if you simply want to ensure the highest level of privacy, you should follow the **Advanced** roadmap after completing both the **Basic** and **Medium** roadmaps.
+
+### Regularly Updating Your Threat Model
+
+Your threat model isn’t a one-and-done task; it’s something that should evolve as your life and circumstances change. To keep it relevant, consider setting a schedule to review your threat model regularly. This is especially important after significant life events, such as starting a new job, moving to a different location, or making changes to your online presence.
