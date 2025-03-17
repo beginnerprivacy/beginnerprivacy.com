@@ -1,5 +1,5 @@
 ---
-title: 改善隐私的桌面设置
+title: Desktop Settings To Change For Better Privacy
 date: 2025-03-01
 authors:
   - name: PrintN
@@ -7,53 +7,67 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-桌面收集关于我们的各种信息。这就是为什么掌控并限制它对我们的了解是重要的。
 
-### 哪个操作系统更注重隐私？Windows、Linux 还是 MacOS
-Linux 是最尊重隐私的选项。虽然 Windows 和 MacOS 主导市场，但它们并不像 Linux（也是开源的）那样优先考虑用户隐私。
+The desktop collects all kinds of information about us. That’s why it’s important to take control and limit what it knows about us.
 
-### 隐私设置
+### Which Operating System Is More Private? Windows, Linux, or MacOS
+
+Linux is the most privacy-respecting option. While Windows and MacOS dominate the market, they don’t prioritize user privacy as much as Linux (which is also open source).
+
+### Privacy Settings
+
 #### Linux
-**禁用遥测** 
-- 一些发行版可能会发送诊断数据，通常默认情况下是关闭的。你可以搜索如何为你的特定发行版禁用它。
+
+**Disable Telemetry**
+
+- Some distributions may send diagnostic data, usually off by default. You can search for how to disable it for your specific distribution.
 
 #### Windows
-**限制应用权限** 
-- 导航到 **设置 > 隐私与安全**。
-- 向下滚动到应用权限部分并调整以下设置：
-    - 位置：关闭“位置服务”。
-    - 相机：关闭“相机访问”。
-    - 麦克风：关闭“麦克风访问”。
 
-**禁用遥测** 
-- 转到 **设置 > 隐私与安全 > 诊断与反馈**。
-- 禁用“发送可选的诊断数据”。
-- 此外，关闭：
-    - “改善手写和打字”
-    - “量身定制的体验”
-    - “查看诊断数据”
+**Restrict App Permissions**
 
-**禁用广告追踪**
-- 访问 **设置 > 隐私与安全 > 一般**。
-- 关闭“允许应用通过使用我的广告 ID 向我展示个性化广告”。
+- Navigate to **Settings > Privacy & security**.
+- Scroll down to the App permissions section and adjust the following settings:
+  - Location: Turn off "Location services".
+  - Camera: Turn off "Camera access".
+  - Microphone: Turn off "Microphone access".
+
+**Disable Telemetry**
+
+- Go to **Settings > Privacy & security > Diagnostics & feedback**.
+- Disable "Send optional diagnostic data".
+- Additionally, turn off:
+  - "Improve inking and typing"
+  - "Tailored experiences"
+  - "View diagnostic data"
+
+**Disable Ad Tracking**
+
+- Access **Settings > Privacy & security > General**.
+- Turn off "Let apps show me personalized ads by using my advertising ID".
 
 #### MacOS
-**限制应用权限** 
-- 导航到 **系统偏好设置 > 安全性与隐私 > 隐私标签**。在以下类别中，如果你不希望任何应用使用它，请关闭访问权限，或仅允许特定应用：
-    - 位置服务
-    - 联系人
-    - 日历
-    - 照片
-    - 麦克风
-    - 相机
-    - 文件 
-    - 文件夹
 
-**禁用遥测** 
-- 转到 **系统偏好设置 > 安全性与隐私 > 隐私标签 > 分析**，并关闭“共享 Mac 分析”和“与应用开发者共享”。
+**Restrict App Permissions**
 
-**禁用广告追踪**
-- 访问 **系统偏好设置 > 安全性与隐私 > 隐私标签 > 广告**，并勾选“限制广告追踪”。
+- Navigate to **System Preferences > Security & Privacy > Privacy Tab**. In the following categories, turn off access if you don’t want any apps to use it, or allow it only for specific apps:
+  - Location Services
+  - Contacts
+  - Calendars
+  - Photos
+  - Microphone
+  - Camera
+  - Files
+  - Folders
 
-**禁用 Siri**
-- Siri 收集并向 Apple 发送大量关于你的信息。通过转到 **系统偏好设置 > Siri** 并关闭“启用询问 Siri”来禁用它。
+**Disable Telemetry**
+
+- Go to **System Preferences > Security & Privacy > Privacy Tab > Analytics** and turn off "Share Mac Analytics" and "Share with App Developers".
+
+**Disable Ad Tracking**
+
+- Access **System Preferences > Security & Privacy > Privacy Tab > Advertising** and check the box "Limit Ad Tracking".
+
+**Disable Siri**
+
+- Siri collects and sends a ton of information to Apple about you. Disable it by going to **System Preferences > Siri** and turn off "Enable Ask Siri".
