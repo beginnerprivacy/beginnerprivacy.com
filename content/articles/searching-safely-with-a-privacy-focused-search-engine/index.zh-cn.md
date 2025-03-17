@@ -7,29 +7,44 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-拥有一个私人浏览器是不够的，你还需要使用一个私人搜索引擎。幸运的是，切换到一个注重隐私的搜索引擎非常简单。
+
+拥有一个私人浏览器是不够的，你还需要使用一个私人搜索引擎。幸运的是，切换到一个注重隐私的搜索引擎非常简单。 Fortunately for you it's very easy to switch to a privacy focused search engine.
 
 ### 搜索引擎是如何工作的？
+
 **1. 爬虫程序扫描网络**
 把这些机器人想象成数字图书管理员，不断扫描和编目网站。
 
+Think of these bots as digital librarians, constantly scanning and cataloging websites.
+
 **2. 索引互联网**
 所有抓取的页面都会存储在一个庞大的数据库中（“索引”），就像图书馆的卡片目录一样。
+
+All crawled pages get stored in a massive database (the "index"), like a library’s card catalog for the web.
 
 **3. 匹配您的查询**
 当你搜索时，搜索引擎会在其索引中查找与您的关键词匹配的页面，然后对它们进行排名。
 像谷歌这样的搜索引擎会在顶部显示付费的“赞助”网站。这些广告是由公司购买的，以便出现在最前面——它们不是自然结果。
 
+When you search, the engine scours its index for pages matching your keywords, then ranks them.
+
+Search engines like Google show paid "Sponsored" websites at the top. These ads are bought by companies to appear first—they’re not organic results.
+
 ### 为什么要费心？
+
 传统搜索引擎如谷歌或必应：
+
 - 跟踪您的查询以建立您的兴趣档案。
 - 将您的数据出售给广告商或用它来个性化结果。
 
 然而，注重隐私的搜索引擎：
+
 - 不要存储你的搜索记录并将其与你的身份绑定。
-提供无偏见的结果，不会根据您的历史进行过滤。
+  提供无偏见的结果，不会根据您的历史进行过滤。
+- Serve unbiased results without filtering based on your history.
 
 ### 如何更换搜索引擎
+
 **Chrome/Edge/Brave：**
 点击三点菜单 → 设置 → 搜索引擎 → 选择你的新默认搜索引擎。
 
@@ -40,6 +55,7 @@ excludeSearch: false
 打开Safari设置 → 搜索 → 选择你的搜索引擎。
 
 ### 推荐的搜索引擎
+
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="流行的私人搜索引擎" buttonText="试试 DuckDuckGo" >}}
