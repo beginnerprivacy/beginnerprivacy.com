@@ -290,6 +290,8 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/privacy-policy/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-03-02T21:18:50+01:00</lastmod>
     <xhtml:link
@@ -363,7 +365,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-05T14:30:38+01:00</lastmod>
+    <lastmod>2025-03-17T17:53:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
