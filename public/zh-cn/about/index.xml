@@ -15,22 +15,6 @@
     
     
     <item>
-      <title>Contact Us</title>
-      <link>http://localhost:1313/zh-cn/about/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/about/contact/</guid>
-      <description>
-        
-        
-        &lt;p&gt;We’d love to hear from you! Whether you have questions, feedback, or need assistance, please don’t hesitate to reach out.&lt;/p&gt;
-&lt;h3&gt;Email&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;email&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#email&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h3&gt;Other&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;other&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#other&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-      </description>
-    </item>
-    
-    <item>
       <title>本地设置</title>
       <link>http://localhost:1313/zh-cn/about/contribute/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -276,6 +260,25 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>联系我们</title>
+      <link>http://localhost:1313/zh-cn/about/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/contact/</guid>
+      <description>
+        
+        
+        &lt;p&gt;我们很想听到您的声音！无论您有任何问题、反馈或需要帮助，请随时与我们联系。&lt;/p&gt;
+&lt;h3&gt;电子邮件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;电子邮件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如有一般咨询，请发送电子邮件至：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:printn@tutamail.com&#34; &gt;printn@tutamail.com&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;您也可以通过 &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SimpleX&lt;/a&gt; 联系我们，加入我们的 &lt;a href=&#34;https://simplex.chat/contact#/?v=2-7&amp;amp;smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FcfczJf7T628buhqA3Wx-R5Z8Qeb8Rm6O%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAsuFeRqk-qIj6V3DaF651t7NnZZgaQdjIrVaanCtIjgs%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&amp;amp;data=%7B%22groupLinkId%22%3A%220DamkEDZ2yoh6F7pbxsmRw%3D%3D%22%7D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;群聊&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

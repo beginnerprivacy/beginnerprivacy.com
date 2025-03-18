@@ -307,23 +307,6 @@
                 href="http://localhost:1313/zh-cn/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/about/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contact/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/privacyai/</loc>
     <lastmod>2025-02-18T14:01:01+01:00</lastmod>
     <xhtml:link
@@ -484,6 +467,24 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/about/donate/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/about/contact/</loc>
+    <lastmod>2025-03-18T17:55:44+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/roadmap-introductions/</loc>
