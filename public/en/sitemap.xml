@@ -290,8 +290,6 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/privacy-policy/</loc>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-03-02T21:18:50+01:00</lastmod>
     <xhtml:link
@@ -399,6 +397,23 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contact/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/contribute/</loc>
     <lastmod>2025-02-24T19:53:24+01:00</lastmod>
     <xhtml:link
@@ -469,6 +484,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/about/roadmap-introductions/medium/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/privacy-policy/</loc>
+    <lastmod>2025-03-18T17:33:49+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/privacy-policy/"
                 />
   </url><url>
     <loc>http://localhost:1313/privacyai/</loc>

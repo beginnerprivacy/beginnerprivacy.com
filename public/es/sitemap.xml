@@ -415,6 +415,23 @@
                 href="http://localhost:1313/es/about/contribute/setup-locally/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/about/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contact/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/about/contribute/</loc>
     <lastmod>2025-02-24T19:53:24+01:00</lastmod>
     <xhtml:link
@@ -557,6 +574,24 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/about/roadmap-introductions/medium/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/privacy-policy/</loc>
+    <lastmod>2025-03-18T17:33:49+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/privacy-policy/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/privacyai/</loc>
