@@ -2,7 +2,7 @@
 linkTitle: "Donate"
 title: Donate
 ---
-Beginner Privacy doesn't make money by affliate links or recommending certain things. We solely rely on donations. So if Beginner Privacy has provided you some value, please consider donating.
+Beginner Privacy relies solely on donations, not by affiliate links or recommending certain things. If you find value in our work, please consider donating or supporting us by purchasing from our [shop](https://shop.beginnerprivacy.com).
 
 ### Goals
 No JavaScript tor website (1 year)

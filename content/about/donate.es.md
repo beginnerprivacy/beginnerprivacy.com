@@ -2,7 +2,7 @@
 linkTitle: "Donar"
 title: Donar
 ---
-Beginner Privacy no gana dinero a través de enlaces de afiliados ni recomendando ciertas cosas. Dependemos únicamente de las donaciones. Entonces, si Beginner Privacy te ha proporcionado algún valor, por favor considera hacer una donación.
+Beginner Privacy se basa únicamente en donaciones, no en enlaces de afiliados ni en recomendaciones de ciertos productos. Si encuentras valor en nuestro trabajo, considera hacer una donación o apoyarnos comprando en nuestra [tienda](https://shop.beginnerprivacy.com).
 
 ### Objetivos
 Sitio web de Tor sin JavaScript (1 año)
