@@ -15,7 +15,7 @@ layout: hextra-home
   {{< /hextra/hero-container >}}
 
   <div class="hx-mt-6 hx-mb-6">
-  {{< hextra/hero-headline >}}Comienza tu viaje de privacidad ahora&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
+  {{< hextra/hero-headline >}}Comienza Tu Viaje De Privacidad Hoy&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
   <div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
