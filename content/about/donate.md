@@ -1,6 +1,7 @@
 ---
 linkTitle: "Donate"
 title: Donate
+category: About
 ---
 Beginner Privacy relies solely on donations, not by affiliate links or recommending certain things. If you find value in our work, please consider donating or supporting us by purchasing from our [shop](https://shop.beginnerprivacy.com).
 

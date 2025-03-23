@@ -1,6 +1,7 @@
 ---
 linkTitle: "Statistics"
 title: Statistics
+category: Community
 ---
 We use GoatCounter for web analytics. The traffic statistics are available [here](https://beginnerprivacy.goatcounter.com/?filter=&daily=on).
 

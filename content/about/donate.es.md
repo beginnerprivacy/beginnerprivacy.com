@@ -1,6 +1,7 @@
 ---
 linkTitle: "Donar"
 title: Donar
+category: About
 ---
 Beginner Privacy se basa únicamente en donaciones, no en enlaces de afiliados ni en recomendaciones de ciertos productos. Si encuentras valor en nuestro trabajo, considera hacer una donación o apoyarnos comprando en nuestra [tienda](https://shop.beginnerprivacy.com).
 

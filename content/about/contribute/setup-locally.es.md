@@ -89,6 +89,7 @@ Siga estas convenciones para los mensajes de confirmación:
 - Mantén el asunto debajo de 72 caracteres
 
 **Tipos comunes:**
+- **chore:** Cambios generales
 - **feat:** Nueva funcionalidad
 - **fix:** Corrección de errores
 - **docs:** Cambios en documentación

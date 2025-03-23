@@ -1,6 +1,7 @@
 ---
 linkTitle: "Créditos"
 title: Créditos
+category: About
 ---
 La privacidad para principiantes no sería posible sin los siguientes recursos, herramientas y personas:
 ### Gente

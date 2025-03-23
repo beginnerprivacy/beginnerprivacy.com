@@ -1,6 +1,7 @@
 ---
 linkTitle: "Contáctanos"
 title: Contáctanos
+category: About
 ---
 ¡Nos encantaría saber de ti! Ya sea que tengas preguntas, comentarios o necesites asistencia, no dudes en ponerte en contacto.
 

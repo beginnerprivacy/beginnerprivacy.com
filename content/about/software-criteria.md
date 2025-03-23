@@ -1,6 +1,7 @@
 ---
 linkTitle: "Software Criteria"
 title: Software Criteria
+category: Policies
 ---
 Here are the general criteria for all the software we recommend:
 - **Open Source:** Source code is publicly available for transparency.

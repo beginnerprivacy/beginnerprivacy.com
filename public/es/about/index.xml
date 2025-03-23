@@ -49,6 +49,46 @@
     </item>
     
     <item>
+      <title>Código de Conducta</title>
+      <link>http://localhost:1313/es/about/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/code-of-conduct/</guid>
+      <description>
+        
+        
+        &lt;p&gt;La comunidad Beginner Privacy se compromete a proporcionar un entorno acogedor e inclusivo para todos los participantes. Creemos que la diversidad enriquece nuestra comunidad y fortalece nuestros esfuerzos colectivos. Este Código de Conducta describe nuestras expectativas de comportamiento y las consecuencias por conductas inaceptables.&lt;/p&gt;
+&lt;h3&gt;Nuestros Estándares&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;nuestros-estándares&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nuestros-est%c3%a1ndares&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Esperamos que todos los participantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sean Respetuosos:&lt;/strong&gt; Traten a todos con respeto, amabilidad y consideración. Escuchen a los demás y estén abiertos a diferentes perspectivas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sean Inclusivos:&lt;/strong&gt; Den la bienvenida y fomenten la participación de personas de todos los orígenes, identidades y experiencias. Eviten lenguaje o comportamientos discriminatorios o excluyentes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sean Constructivos:&lt;/strong&gt; Ofrezcan retroalimentación constructiva y participen en discusiones que promuevan el aprendizaje y el crecimiento. Enfóquense en el tema, no en la persona.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sean Responsables:&lt;/strong&gt; Asuman la responsabilidad de sus acciones y su impacto en los demás. Si cometen un error, reconózcanlo y aprendan de él.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sean Solidarios:&lt;/strong&gt; Ofrezcan ayuda y apoyo a otros miembros de la comunidad. Compartan conocimientos y recursos para fomentar la colaboración.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Comportamiento Inaceptable&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;comportamiento-inaceptable&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#comportamiento-inaceptable&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;El comportamiento inaceptable incluye, pero no se limita a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acoso, intimidación o discriminación de cualquier tipo.&lt;/li&gt;
+&lt;li&gt;Comportamiento disruptivo en discusiones o eventos.&lt;/li&gt;
+&lt;li&gt;Ataques personales o comentarios despectivos.&lt;/li&gt;
+&lt;li&gt;Cualquier forma de violencia o amenazas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Reporte y Cumplimiento&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reporte-y-cumplimiento&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reporte-y-cumplimiento&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si experimentas o presencias un comportamiento inaceptable, repórtalo al equipo de Beginner Privacy. Puedes contactarnos a través de SimpleX.&lt;/p&gt;
+&lt;p&gt;Las consecuencias por violar este Código de Conducta pueden incluir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una advertencia o solicitud para cesar el comportamiento.&lt;/li&gt;
+&lt;li&gt;Remoción temporal o permanente de actividades o plataformas comunitarias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Reconocimiento&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reconocimiento&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reconocimiento&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Al participar en la comunidad de Beginner Privacy, aceptas cumplir con este Código de Conducta. Estamos comprometidos a fomentar un entorno positivo e inclusivo para todos, y agradecemos tu cooperación para hacer de esta comunidad un espacio acogedor.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Configuración Local</title>
       <link>http://localhost:1313/es/about/contribute/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -201,6 +241,7 @@ Usando Homebrew:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Tipos comunes:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; Cambios generales&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; Nueva funcionalidad&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; Corrección de errores&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Cambios en documentación&lt;/li&gt;

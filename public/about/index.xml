@@ -49,6 +49,46 @@
     </item>
     
     <item>
+      <title>Code of Conduct</title>
+      <link>http://localhost:1313/about/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/code-of-conduct/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The Beginner Privacy community is dedicated to providing a welcoming and inclusive environment for all participants. We believe that diversity enriches our community and enhances our collective efforts. This Code of Conduct outlines our expectations for behavior and the consequences for unacceptable behavior.&lt;/p&gt;
+&lt;h3&gt;Our Standards&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;our-standards&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#our-standards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We expect all participants to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Be Respectful:&lt;/strong&gt; Treat everyone with respect, kindness, and consideration. Listen to others and be open to different perspectives.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Inclusive:&lt;/strong&gt; Welcome and encourage participation from individuals of all backgrounds, identities, and experiences. Avoid language or behavior that could be seen as discriminatory or exclusionary.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Constructive:&lt;/strong&gt; Provide constructive feedback and engage in discussions that promote learning and growth. Focus on the issue, not the person.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Responsible:&lt;/strong&gt; Take responsibility for your actions and their impact on others. If you make a mistake, acknowledge it and learn from it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Supportive:&lt;/strong&gt; Offer help and support to others in the community. Share knowledge and resources to foster collaboration and learning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unacceptable Behavior&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;unacceptable-behavior&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#unacceptable-behavior&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Unacceptable behavior includes, but is not limited to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Harassment, intimidation, or discrimination of any kind.&lt;/li&gt;
+&lt;li&gt;Disruptive behavior in discussions or events.&lt;/li&gt;
+&lt;li&gt;Personal attacks or derogatory remarks.&lt;/li&gt;
+&lt;li&gt;Any form of violence or threats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Reporting and Enforcement&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reporting-and-enforcement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reporting-and-enforcement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you experience or witness unacceptable behavior, please report it to the Beginner Privacy team. You can reach us via SimpleX.&lt;/p&gt;
+&lt;p&gt;Consequences for violating this Code of Conduct may include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A warning or request to cease the unacceptable behavior.&lt;/li&gt;
+&lt;li&gt;Temporary or permanent removal from community activities or platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Acknowledgment&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;acknowledgment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#acknowledgment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;By participating in the Beginner Privacy community, you agree to abide by this Code of Conduct. We are committed to fostering a positive and inclusive environment for everyone, and we appreciate your cooperation in making this community a welcoming space.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Contact Us</title>
       <link>http://localhost:1313/about/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -506,6 +546,7 @@ Using Homebrew:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Common types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; General changes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; New feature&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; Bug fix&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Documentation changes&lt;/li&gt;

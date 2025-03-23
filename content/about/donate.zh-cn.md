@@ -1,6 +1,7 @@
 ---
 linkTitle: "捐赠"
 title: 捐赠
+category: About
 ---
 Beginner Privacy 完全依赖捐款，而不是通过联盟链接或推荐特定产品。如果您觉得我们的工作有价值，请考虑捐款或通过我们的[商店](https://shop.beginnerprivacy.com)支持我们。
 

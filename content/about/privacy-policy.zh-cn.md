@@ -1,6 +1,7 @@
 ---
 linkTitle: "隐私政策"  
-title: 隐私政策  
+title: 隐私政策
+category: Policies
 ---
 最后更新：2025年3月18日
 

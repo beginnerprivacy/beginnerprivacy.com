@@ -1,6 +1,7 @@
 ---
 linkTitle: "Privacy Policy"
 title: Privacy Policy
+category: Policies
 ---
 Last updated: March 18, 2025
 

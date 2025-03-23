@@ -1,6 +1,7 @@
 ---
 linkTitle: "统计"
 title: 统计
+category: Community
 ---
 我们使用 GoatCounter 进行网络分析。流量统计数据可在 [这里](https://beginnerprivacy.goatcounter.com/?filter=&daily=on) 获取。
 

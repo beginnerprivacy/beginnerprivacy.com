@@ -1,6 +1,7 @@
 ---
 linkTitle: "Contact Us"
 title: Contact Us
+category: About
 ---
 We’d love to hear from you! Whether you have questions, feedback, or need assistance, please don’t hesitate to reach out.
 

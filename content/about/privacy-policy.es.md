@@ -1,6 +1,7 @@
 ---
 linkTitle: "Política de Privacidad"  
-title: Política de Privacidad  
+title: Política de Privacidad
+category: Policies
 ---
 Última actualización: 18 de marzo de 2025
 

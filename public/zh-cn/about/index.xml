@@ -167,6 +167,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;常用类型：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; 一般更改&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; 新功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; 错误修复&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; 文档变更&lt;/li&gt;
@@ -443,6 +444,46 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>行为准则</title>
+      <link>http://localhost:1313/zh-cn/about/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/code-of-conduct/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Beginner Privacy 社区致力于为所有参与者提供一个友好且包容的环境。我们相信多样性能够丰富我们的社区并增强集体努力。本行为准则概述了我们对行为的期望以及不可接受行为的后果。&lt;/p&gt;
+&lt;h3&gt;我们的标准&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我们的标准&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%91%e4%bb%ac%e7%9a%84%e6%a0%87%e5%87%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;我们期望所有参与者：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;保持尊重：&lt;/strong&gt; 以尊重、友善和体谅的态度对待他人。倾听不同观点并保持开放心态。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持包容：&lt;/strong&gt; 欢迎并鼓励来自不同背景、身份和经历的人参与。避免使用歧视性或排斥性的语言或行为。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持建设性：&lt;/strong&gt; 提供建设性反馈，参与促进学习和成长的讨论。对事不对人。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持责任感：&lt;/strong&gt; 对自己的行为及其对他人的影响负责。如果犯错，请承认并从中学习。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保持支持：&lt;/strong&gt; 为社区其他成员提供帮助和支持。分享知识和资源以促进协作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;不可接受的行为&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;不可接受的行为&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%8d%e5%8f%af%e6%8e%a5%e5%8f%97%e7%9a%84%e8%a1%8c%e4%b8%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;不可接受的行为包括但不限于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任何形式的骚扰、恐吓或歧视。&lt;/li&gt;
+&lt;li&gt;在讨论或活动中进行破坏性行为。&lt;/li&gt;
+&lt;li&gt;人身攻击或贬损性言论。&lt;/li&gt;
+&lt;li&gt;任何形式的暴力或威胁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;举报与执行&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;举报与执行&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%be%e6%8a%a5%e4%b8%8e%e6%89%a7%e8%a1%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您遭遇或目睹不可接受的行为，请向 Beginner Privacy 团队举报。您可通过 SimpleX 联系我们。&lt;/p&gt;
+&lt;p&gt;违反本行为准则的后果可能包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;警告或要求停止不当行为。&lt;/li&gt;
+&lt;li&gt;暂时或永久移除社区活动或平台权限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;承诺&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;承诺&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%89%bf%e8%af%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;通过参与Beginner Privacy社区，您同意遵守本行为准则。我们致力于为所有人营造积极包容的环境，感谢您协助让本社区成为友好空间。&lt;/p&gt;
+
       </description>
     </item>
     

@@ -90,6 +90,7 @@ Follow these conventions for commit messages:
 - Keep subject line under 72 characters
 
 **Common types:**
+- **chore:** General changes
 - **feat:** New feature
 - **fix:** Bug fix
 - **docs:** Documentation changes

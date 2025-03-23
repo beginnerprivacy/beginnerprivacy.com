@@ -1,6 +1,7 @@
 ---
 linkTitle: "Credits"
 title: Credits
+category: About
 ---
 Beginner Privacy wouldn't be possible without the following resources, tools and people:
 ### People

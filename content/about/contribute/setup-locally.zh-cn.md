@@ -89,6 +89,7 @@ cd beginnerprivacy
 - 主题行不超过72个字符
 
 **常用类型：**
+- **chore:** 一般更改
 - **feat:** 新功能
 - **fix:** 错误修复
 - **docs:** 文档变更

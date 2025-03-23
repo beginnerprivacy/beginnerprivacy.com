@@ -167,6 +167,7 @@ Usando Homebrew:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Tipos comunes:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; Cambios generales&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; Nueva funcionalidad&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; Corrección de errores&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Cambios en documentación&lt;/li&gt;

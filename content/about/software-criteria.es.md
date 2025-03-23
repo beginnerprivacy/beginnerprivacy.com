@@ -1,6 +1,7 @@
 ---
 linkTitle: "Criterios de Software"
 title: Criterios de Software
+category: Policies
 ---
 Aquí están los criterios generales para todo el software que recomendamos:
 - **Código Abierto:** El código fuente está disponible públicamente para mayor transparencia.

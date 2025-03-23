@@ -167,6 +167,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;常用类型：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; 一般更改&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; 新功能&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; 错误修复&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; 文档变更&lt;/li&gt;
