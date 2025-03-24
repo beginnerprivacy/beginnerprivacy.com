@@ -749,7 +749,18 @@ function updateRoadmap() {
     if (!button || !icon || !todoIcon || !doneIcon) return;
   
     const isChecked = checkbox.checked;
-    button.textContent = isChecked ? 'Mark as todo' : 'Mark as done';
+    const isSpanish = window.location.href.includes('/es/');
+    const isChinese = window.location.href.includes('/zh-cn/');
+    if (isSpanish) {
+      button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
+    }
+    else if (isChinese) {
+      button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
+    }
+    else {
+      button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
+    }
+
     icon.style.color = isChecked ? '#008d0c' : '#9CA3AF';
     todoIcon.classList.toggle('hx-hidden', isChecked);
     doneIcon.classList.toggle('hx-hidden', !isChecked);
