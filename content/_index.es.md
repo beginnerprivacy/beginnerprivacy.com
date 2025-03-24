@@ -23,8 +23,8 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="Empieza ahora" onclick="scrollDown();" >}}
-  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" link="articles/why-you-should-care-about-your-privacy" >}}
+  {{< hextra/hero-button text="Empieza ahora" onclick="scrollDown();" style="margin: 2px;" >}}
+  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" link="articles/why-you-should-care-about-your-privacy" style="margin: 2px;" >}}
 </div>
 
 <div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
@@ -55,9 +55,9 @@ layout: hextra-home
 <div id="roadmapContent" class="hx-mt-4">
   <div id="startContent" class="roadmap-section">
     {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="Sobre Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="¿Por qué preocuparse por tu privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="Encontrar un modelo de amenaza" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));"  >}}
+      {{< hextra/feature-card title="Sobre Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="¿Por qué preocuparse por tu privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="Encontrar un modelo de amenaza" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));"  >}}
     {{< /hextra/feature-grid >}}
   </div>
   <div id="basicContent" class="roadmap-section" style="display:none;">
@@ -120,10 +120,10 @@ layout: hextra-home
     <h1 class="hx-font-bold">¡Necesitamos tu ayuda!</h1>
     {{< hextra/hero-subtitle >}}¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
-    {{< hextra/hero-button text="Escribe contenido" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="Traducir" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="Donar" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="Corre la voz" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    {{< hextra/hero-button text="Escribe contenido" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="Traducir" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="Donar" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="Corre la voz" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     </div>
     <table>
         <thead>

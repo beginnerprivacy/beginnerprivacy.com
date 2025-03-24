@@ -21,8 +21,8 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="现在开始" onclick="scrollDown();" >}}
-  {{< hextra/hero-button text="不确定？这就是原因" link="articles/why-you-should-care-about-your-privacy" >}}
+  {{< hextra/hero-button text="现在开始" onclick="scrollDown();" style="margin: 2px;" >}}
+  {{< hextra/hero-button text="不确定？这就是原因" link="articles/why-you-should-care-about-your-privacy" style="margin: 2px;" >}}
 </div>
 
 <div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
@@ -53,9 +53,9 @@ layout: hextra-home
 <div id="roadmapContent" class="hx-mt-4">
   <div id="startContent" class="roadmap-section">
     {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="关于 Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="为什么要关心你的隐私？" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="找到威胁模型" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.20),hsla(0,0%,100%,0));"  >}}
+      {{< hextra/feature-card title="关于 Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="为什么要关心你的隐私？" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="找到威胁模型" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));"  >}}
     {{< /hextra/feature-grid >}}
   </div>
   <div id="basicContent" class="roadmap-section" style="display:none;">
@@ -118,10 +118,10 @@ layout: hextra-home
     <h1 class="hx-font-bold">我们需要你的帮助！</h1>
     {{< hextra/hero-subtitle >}}初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
-    {{< hextra/hero-button text="写内容" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="翻译" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="捐赠" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
-    {{< hextra/hero-button text="传播消息" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin-inline: 2px;" >}}
+    {{< hextra/hero-button text="写内容" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="翻译" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="捐赠" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="传播消息" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     </div>
     <table>
         <thead>
