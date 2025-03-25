@@ -76,7 +76,7 @@ layout: hextra-home
           {{< hextra/feature-card title="Private Email" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
           <!-- Row 3 -->
           {{< hextra/feature-card title="Secure Messaging" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-          {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+          {{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
       {{< /hextra/feature-grid >}}
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -89,7 +89,7 @@ layout: hextra-home
         {{< hextra/feature-card title="Removal from Data Brokers" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 2 -->
         {{< hextra/feature-card invisibleFiller="true" >}}
-        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Basic OpSec" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="What is Tor?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Encrypted DNS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
@@ -110,7 +110,7 @@ layout: hextra-home
         {{< hextra/feature-card title="What is I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
         {{< hextra/feature-card title="Advanced OpSec" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 3 -->        
-        {{< hextra/feature-card title="Something missing? Contribute!" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< /hextra/feature-grid >}}
     </div>
   </div>
@@ -120,8 +120,8 @@ layout: hextra-home
     <h1 class="hx-font-bold">We Need Your Help!</h1>
     {{< hextra/hero-subtitle >}}Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
-        {{< hextra/hero-button text="Write content" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
-        {{< hextra/hero-button text="Translate" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+        {{< hextra/hero-button text="Write content" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+        {{< hextra/hero-button text="Translate" link="about/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
         {{< hextra/hero-button text="Donate" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
         {{< hextra/hero-button text="Spread the word" onclick="toggleShareDropdown();" icon="share" class="share-button" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
         <div id="shareDropdown" class="dropdown-content" style="display: none; position: absolute; background-color: white; color: black; padding: 10px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); font-size: 20px; border-radius: 10px; margin-top: 55px;">

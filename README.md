@@ -8,7 +8,7 @@ Our mission is to simplify your journey toward online privacy and anonymity, whe
 We provide clear, actionable guidance on everything from basic privacy practices to advanced security tools. Our goal is to empower you to take control of your online presence with confidence.
 
 ## Contributing
-We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](.github/CONTRIBUTING.md) for more information on how you can get involved.
+We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](https://beginnerprivacy.com/about/contribute) for more information on how you can get involved.
 
 ## License
 Copyright &copy; 2025 Beginner Privacy.
@@ -23,5 +23,4 @@ You may comply with our license terms in any reasonable manner, but not in any w
 
 When you contribute to this repository you are doing so under the above licenses, and you are granting Beginner Privacy a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
-## Star History
-![Star History Chart](https://api.star-history.com/svg?repos=beginnerprivacy/beginnerprivacy.github.io&type=Date)
+## Contributors

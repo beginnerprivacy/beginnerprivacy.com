@@ -74,7 +74,7 @@ layout: hextra-home
         {{< hextra/feature-card title="私人电子邮件" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
         <!-- Row 3 -->
         {{< hextra/feature-card title="安全消息传递" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
+        {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
   <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -87,7 +87,7 @@ layout: hextra-home
       {{< hextra/feature-card title="从数据经纪人处删除" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       <!-- Row 2 -->
       {{< hextra/feature-card invisibleFiller="true" >}}
-      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="基本操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="什么是Tor？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="加密DNS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
@@ -108,7 +108,7 @@ layout: hextra-home
       {{< hextra/feature-card title="什么是I2P？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       {{< hextra/feature-card title="高级操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
       <!-- Row 3 -->        
-      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/contribute" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
+      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
     {{< /hextra/feature-grid >}}
   </div>
 </div>
@@ -118,8 +118,8 @@ layout: hextra-home
     <h1 class="hx-font-bold">我们需要你的帮助！</h1>
     {{< hextra/hero-subtitle >}}初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：{{< /hextra/hero-subtitle >}}
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
-    {{< hextra/hero-button text="写内容" link="about/contribute/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
-    {{< hextra/hero-button text="翻译" link="about/contribute/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="写内容" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
+    {{< hextra/hero-button text="翻译" link="about/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     {{< hextra/hero-button text="捐赠" link="about/donate" icon="heart" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     {{< hextra/hero-button text="传播消息" onClick="" icon="share" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     </div>
