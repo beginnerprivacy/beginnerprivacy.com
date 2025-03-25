@@ -1,0 +1,34 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "PrintN",
+      "name": "PrintN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127101769?v=4",
+      "profile": "http://printn.github.io",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design",
+        "financial",
+        "ideas",
+        "maintenance",
+        "promotion",
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "beginnerprivacy.github.io",
+  "projectOwner": "beginnerprivacy"
+}
