@@ -1,4 +1,7 @@
 <img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-192x192.png">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Beginner Privacy
 Welcome to Beginner Privacy!
@@ -24,3 +27,19 @@ You may comply with our license terms in any reasonable manner, but not in any w
 When you contribute to this repository you are doing so under the above licenses, and you are granting Beginner Privacy a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://printn.github.io"><img src="https://avatars.githubusercontent.com/u/127101769?v=4?s=100" width="100px;" alt="PrintN"/><br /><sub><b>PrintN</b></sub></a><br /><a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Code">💻</a> <a href="#content-PrintN" title="Content">🖋</a> <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Documentation">📖</a> <a href="#design-PrintN" title="Design">🎨</a> <a href="#financial-PrintN" title="Financial">💵</a> <a href="#ideas-PrintN" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PrintN" title="Maintenance">🚧</a> <a href="#promotion-PrintN" title="Promotion">📣</a> <a href="#translation-PrintN" title="Translation">🌍</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
