@@ -1,9 +1,22 @@
-<img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-192x192.png">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<div align="center">
+  <a href="https://beginnerprivacy.com"><img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-192x192.png" width="150"></a>
+  <h1>Beginner Privacy</h1>
 
-## Beginner Privacy
+  <p>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/pulls?q=is%3Apr+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors">
+    <img src="https://img.shields.io/github/commit-activity/m/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <a href="#contributors">
+    <img src="https://img.shields.io/github/all-contributors/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <a href="https://github.com/sponsors/beginnerprivacy#sponsors">
+    <img src="https://img.shields.io/github/sponsors/beginnerprivacy"></a>
+  </p>
+</div>
+
+## About
 Welcome to Beginner Privacy!
 
 Our mission is to simplify your journey toward online privacy and anonymity, whether you’re a complete beginner or an advanced tech enthusiast. In today’s digital world, protecting your personal information can be overwhelming, but we’re here to help.
