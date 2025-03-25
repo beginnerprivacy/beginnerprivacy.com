@@ -5,11 +5,16 @@ authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
-tags:
-  - Privacy
 excludeSearch: false
 ---
 En la era digital, se está recopilando una cantidad cada vez mayor de datos personales sobre nosotros. Estos datos son recopilados por diversas entidades con diferentes propósitos, pero las posibles consecuencias de tener tanta información personal expuesta pueden ser significativas. Desde el robo de identidad hasta la vigilancia gubernamental, es crucial que todos tomen medidas para proteger su información personal y mantener su privacidad.
+
+### Privacidad vs Anonimato vs Seguridad
+- **Privacidad** es controlar quién tiene acceso a tu información personal.
+
+- **Anonimato** significa ser no identificable, permitiendo acciones sin revelar tu identidad.
+
+- **Seguridad** implica proteger tus datos de accesos no autorizados.
 
 ### "No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?"
 Solo porque no tienes nada que ocultar, no significa que no tengas nada que proteger. La privacidad no se trata solo de ocultar algo, se trata de tener control sobre tu información personal y quién tiene acceso a ella. Incluso si piensas que no tienes nada que ocultar, tu información personal puede ser utilizada con fines maliciosos como el robo de identidad, estafas de phishing y publicidad dirigida.

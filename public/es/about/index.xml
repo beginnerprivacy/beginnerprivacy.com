@@ -245,6 +245,7 @@ Usando Homebrew:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; Nueva funcionalidad&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; Corrección de errores&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Cambios en documentación&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;article:&lt;/strong&gt; Cambios en el artículo&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;style:&lt;/strong&gt; Cambios de formato&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;refactor:&lt;/strong&gt; Reestructuración de código&lt;/li&gt;
 &lt;/ul&gt;
@@ -267,35 +268,6 @@ Usando Homebrew:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;mailto:printn@tutamail.com&#34; &gt;printn@tutamail.com&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;simplex&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;También puedes contactarnos en &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SimpleX&lt;/a&gt;, uniéndote a nuestro &lt;a href=&#34;https://simplex.chat/contact#/?v=2-7&amp;amp;smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FcfczJf7T628buhqA3Wx-R5Z8Qeb8Rm6O%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAsuFeRqk-qIj6V3DaF651t7NnZZgaQdjIrVaanCtIjgs%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&amp;amp;data=%7B%22groupLinkId%22%3A%220DamkEDZ2yoh6F7pbxsmRw%3D%3D%22%7D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chat grupal&lt;/a&gt;.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Contribuir</title>
-      <link>http://localhost:1313/es/about/contribute/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/es/about/contribute/</guid>
-      <description>
-        
-        
-        &lt;p&gt;¡Gracias por tu interés en contribuir a Beginner Privacy! Damos la bienvenida a las contribuciones de todos. Sus contribuciones nos ayudan a mejorar el sitio web y hacerlo más útil para la comunidad.&lt;/p&gt;
-&lt;h3&gt;Cómo ayudar&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-ayudar&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-ayudar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. Solicitudes de Funciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-solicitudes-de-funciones&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-solicitudes-de-funciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte ideas para nuevas funciones o mejoras abriendo un &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue en GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;2. Informes de errores&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-informes-de-errores&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-informes-de-errores&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;¿Encontraste un error o un problema de seguridad? ¡Repórtalo directamente en nuestro &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centro de Seguridad&lt;/a&gt;!&lt;/p&gt;
-&lt;h4&gt;3. Mejorar el Código&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-mejorar-el-código&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-mejorar-el-c%c3%b3digo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Envía los cambios de código utilizando nuestra &lt;a href=&#34;improve-code&#34; &gt;Guía de Contribución de Código&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;4. Escribir Contenido&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-escribir-contenido&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-escribir-contenido&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Escribe artículos o tutoriales siguiendo nuestra &lt;a href=&#34;write-content&#34; &gt;Guía de Estilo de Contenido&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;5. Traducciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-traducciones&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-traducciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a traducir Beginner Privacy a otro idioma, con nuestra &lt;a href=&#34;translate&#34; &gt;Guía de Traducción&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;6. Donaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-donaciones&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-donaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a financiar los costos de dominio e infraestructura; consulta cómo en nuestra &lt;a href=&#34;../donate&#34; &gt;Página de Donaciones&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;7. Difundir la Palabra&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-difundir-la-palabra&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#7-difundir-la-palabra&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte nuestros recursos en las redes sociales o con amigos y familiares.&lt;/p&gt;
 
       </description>
     </item>
@@ -408,10 +380,12 @@ Usando Homebrew:&lt;/p&gt;
         &lt;p&gt;¡Bienvenido a la guía de contenido de Privacidad para Principiantes!&lt;/p&gt;
 &lt;h3&gt;Empezando&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;empezando&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#empezando&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Elige tu método de edición:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Editor de GitHub: Edita directamente en tu navegador.&lt;/li&gt;
 &lt;li&gt;Configuración Local (Recomendada): &lt;a href=&#34;../setup-locally/&#34; &gt;Aprende cómo configurar este sitio web localmente.&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Echa un vistazo a lo que debes escribir:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dirígete a nuestro &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tablero de Estado de Artículos&lt;/a&gt; en GitHub para ver qué artículos no se han hecho.&lt;/p&gt;
 &lt;h3&gt;Crea tu artículo&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;crea-tu-artículo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#crea-tu-art%c3%adculo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Navega a la carpeta &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt;.&lt;/li&gt;
@@ -747,6 +721,35 @@ Por favor, tenga en cuenta que, aunque GoatCounter es una herramienta útil para
 &lt;ul&gt;
 &lt;li&gt;Visitando esta página en nuestro sitio web: &lt;a href=&#34;https://beginnerprivacy.com/about/contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://beginnerprivacy.com/es/about/contact&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sobre Contribuir</title>
+      <link>http://localhost:1313/es/about/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/contribute/</guid>
+      <description>
+        
+        
+        &lt;p&gt;¡Gracias por tu interés en contribuir a Beginner Privacy! Damos la bienvenida a las contribuciones de todos. Sus contribuciones nos ayudan a mejorar el sitio web y hacerlo más útil para la comunidad.&lt;/p&gt;
+&lt;h3&gt;Cómo ayudar&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-ayudar&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%c3%b3mo-ayudar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. Solicitudes de Funciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-solicitudes-de-funciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-solicitudes-de-funciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte ideas para nuevas funciones o mejoras abriendo un &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue en GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;2. Informes de errores&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-informes-de-errores&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-informes-de-errores&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;¿Encontraste un error o un problema de seguridad? ¡Repórtalo directamente en nuestro &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centro de Seguridad&lt;/a&gt;!&lt;/p&gt;
+&lt;h4&gt;3. Mejorar el Código&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-mejorar-el-código&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-mejorar-el-c%c3%b3digo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Envía los cambios de código utilizando nuestra &lt;a href=&#34;improve-code&#34; &gt;Guía de Contribución de Código&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;4. Escribir Contenido&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-escribir-contenido&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-escribir-contenido&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Escribe artículos o tutoriales siguiendo nuestra &lt;a href=&#34;write-content&#34; &gt;Guía de Estilo de Contenido&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;5. Traducciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-traducciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-traducciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a traducir Beginner Privacy a otro idioma, con nuestra &lt;a href=&#34;translate&#34; &gt;Guía de Traducción&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;6. Donaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-donaciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-donaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a financiar los costos de dominio e infraestructura; consulta cómo en nuestra &lt;a href=&#34;../donate&#34; &gt;Página de Donaciones&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;7. Difundir la Palabra&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-difundir-la-palabra&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-difundir-la-palabra&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte nuestros recursos en las redes sociales o con amigos y familiares.&lt;/p&gt;
 
       </description>
     </item>

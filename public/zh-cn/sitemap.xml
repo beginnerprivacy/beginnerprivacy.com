@@ -276,11 +276,6 @@
     <lastmod>2025-03-05T12:01:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/privacy/"
                 />
@@ -344,6 +339,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/setup-locally/</loc>
+    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -379,6 +375,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/translate/</loc>
+    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -413,23 +410,6 @@
                 href="http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/about/contribute/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/contribute/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/contribute/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
     <lastmod>2025-03-02T21:18:50+01:00</lastmod>
     <xhtml:link
@@ -446,6 +426,24 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/about/contribute/</loc>
+    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contribute/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contribute/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contribute/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</loc>
@@ -575,6 +573,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/write-content/</loc>
+    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

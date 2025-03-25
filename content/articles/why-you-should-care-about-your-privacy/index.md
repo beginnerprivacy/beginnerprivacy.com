@@ -5,11 +5,16 @@ authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
-tags:
-  - Privacy
 excludeSearch: false
 ---
 In the digital age, an increasing amount of personal data is being collected about us. This data is collected by various entities for various purposes, but the potential consequences of having so much personal information exposed can be significant. From identity theft to government surveillance, it is crucial for everybody to take steps to protect their personal information and maintain their privacy.
+
+### Privacy vs Anonymity vs Security
+- **Privacy** is controlling who has access to your personal information.
+
+- **Anonymity** means being unidentifiable, allowing actions without revealing your identity.
+
+- **Security** involves protecting your data from unauthorized access.
 
 ### "I have nothing to hide. Why should I care about my privacy?"
 Just because you have nothing to hide, it doesn't mean you don't have anything to protect. Privacy is not just about hiding something, it's about having control over your personal information and who has access to it. Even if you think you have nothing to hide, your personal information can be used for malicious purposes such as identity theft, phishing scams, and targeted advertising.
