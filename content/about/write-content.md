@@ -1,13 +1,18 @@
 ---
 linkTitle: "Write Content"
 title: Write Content
+category: Contributing
 ---
 Welcome to the Beginner Privacy content guide!
 
 ### Getting Started
 **Choose your editing method:**
-1. GitHub Editor: Edit directly in your browser.
-2. Local Setup (Recommended): [Learn how to setup this website locally.](../setup-locally/)
+- GitHub Editor: Edit directly in your browser.
+- Local Setup (Recommended): [Learn how to setup this website locally.](../setup-locally/)
+
+**Check out what to write:** 
+
+Head over to our [Article Status Board](https://github.com/orgs/beginnerprivacy/projects/1) on GitHub to see what articles haven't been done.
 
 ### Create Your Article
 1. Navigate to the [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) folder.

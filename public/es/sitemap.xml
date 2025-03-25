@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/es/articles/how-to-easily-switch-to-linux/</loc>
-    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-24T14:36:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -381,7 +381,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-03-24T10:41:21+01:00</lastmod>
+    <lastmod>2025-03-24T14:36:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -433,22 +433,21 @@
                 href="http://localhost:1313/es/about/code-of-conduct/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/contribute/setup-locally/</loc>
-    <lastmod>2025-03-23T10:56:49+01:00</lastmod>
+    <loc>http://localhost:1313/es/about/setup-locally/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/contribute/setup-locally/"
+                href="http://localhost:1313/about/setup-locally/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/setup-locally/"
+                href="http://localhost:1313/zh-cn/about/setup-locally/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/contribute/setup-locally/"
+                href="http://localhost:1313/es/about/setup-locally/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contact/</loc>
@@ -470,7 +469,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/contribute/</loc>
-    <lastmod>2025-03-23T10:56:49+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -541,22 +539,21 @@
                 href="http://localhost:1313/es/about/donate/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/contribute/write-content/</loc>
-    <lastmod>2025-03-05T12:36:56+01:00</lastmod>
+    <loc>http://localhost:1313/es/about/write-content/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/contribute/write-content/"
+                href="http://localhost:1313/about/write-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/write-content/"
+                href="http://localhost:1313/zh-cn/about/write-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/contribute/write-content/"
+                href="http://localhost:1313/es/about/write-content/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/statistics/</loc>
@@ -649,22 +646,21 @@
                 href="http://localhost:1313/es/privacyai/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/contribute/translate/</loc>
-    <lastmod>2025-01-27T17:22:18+01:00</lastmod>
+    <loc>http://localhost:1313/es/about/translate/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/contribute/translate/"
+                href="http://localhost:1313/about/translate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/translate/"
+                href="http://localhost:1313/zh-cn/about/translate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/contribute/translate/"
+                href="http://localhost:1313/es/about/translate/"
                 />
   </url>
 </urlset>

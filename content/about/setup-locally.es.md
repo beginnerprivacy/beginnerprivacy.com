@@ -1,6 +1,7 @@
 ---
 linkTitle: "Configuración Local"
 title: Configuración Local
+category: Contributing
 ---
 ### Requisitos Previos
 #### IDE
@@ -93,5 +94,6 @@ Siga estas convenciones para los mensajes de confirmación:
 - **feat:** Nueva funcionalidad
 - **fix:** Corrección de errores
 - **docs:** Cambios en documentación
+- **article:** Cambios en el artículo
 - **style:** Cambios de formato
 - **refactor:** Reestructuración de código

@@ -1,13 +1,18 @@
 ---
 linkTitle: "Escribir contenido"
 title: Escribir contenido
+category: Contributing
 ---
 ¡Bienvenido a la guía de contenido de Privacidad para Principiantes!
 
 ### Empezando
 **Elige tu método de edición:**
-1. Editor de GitHub: Edita directamente en tu navegador.
-2. Configuración Local (Recomendada): [Aprende cómo configurar este sitio web localmente.](../setup-locally/)
+- Editor de GitHub: Edita directamente en tu navegador.
+- Configuración Local (Recomendada): [Aprende cómo configurar este sitio web localmente.](../setup-locally/)
+
+**Echa un vistazo a lo que debes escribir:** 
+
+Dirígete a nuestro [Tablero de Estado de Artículos](https://github.com/orgs/beginnerprivacy/projects/1) en GitHub para ver qué artículos no se han hecho.
 
 ### Crea tu artículo
 1. Navega a la carpeta [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles).

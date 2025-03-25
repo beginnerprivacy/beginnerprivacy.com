@@ -1,6 +1,6 @@
 ---
-linkTitle: "贡献"
-title: 贡献
+linkTitle: "关于贡献"
+title: 关于贡献
 category: Contributing
 ---
 感谢您对贡献于初学者隐私的兴趣！我们欢迎每个人的贡献。您的贡献帮助我们改进网站，使其对社区更有用。

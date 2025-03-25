@@ -15,6 +15,35 @@
     
     
     <item>
+      <title>About Contributing</title>
+      <link>http://localhost:1313/about/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/contribute/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Thank you for your interest in contributing to Beginner Privacy! We welcome contributions from everyone. Your contributions help us improve the website and make it more useful for the community.&lt;/p&gt;
+&lt;h3&gt;How To Help&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-help&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-help&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. Feature Requests&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-feature-requests&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-feature-requests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Share ideas for new features or improvements by &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;opening a GitHub Issue&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;2. Bug Reports&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-bug-reports&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-bug-reports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Found a bug or security issue? Report it directly in our &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Security Center&lt;/a&gt;!&lt;/p&gt;
+&lt;h4&gt;3. Improve Code&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-improve-code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-improve-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Submit code changes using our &lt;a href=&#34;improve-code&#34; &gt;Code Contribution Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;4. Writing Content&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-writing-content&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-writing-content&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Write articles or tutorials with our &lt;a href=&#34;write-content&#34; &gt;Content Style Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;5. Translations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-translations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-translations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Help translate Beginner Privacy into another language, with our &lt;a href=&#34;translate&#34; &gt;Translation Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;6. Donations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-donations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-donations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Help fund domain and infrastructure costs; see how on our &lt;a href=&#34;../donate&#34; &gt;Donation Page&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;7. Spreading The Word&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-spreading-the-word&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-spreading-the-word&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Share our resources on social media or with friends and family.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Advanced</title>
       <link>http://localhost:1313/about/roadmap-introductions/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -395,10 +424,10 @@ Other legal requirements&lt;/p&gt;
     
     <item>
       <title>Setup Locally</title>
-      <link>http://localhost:1313/about/contribute/setup-locally/</link>
+      <link>http://localhost:1313/about/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/contribute/setup-locally/</guid>
+      <guid>http://localhost:1313/about/setup-locally/</guid>
       <description>
         
         
@@ -600,10 +629,10 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
     
     <item>
       <title>Translate</title>
-      <link>http://localhost:1313/about/contribute/translate/</link>
+      <link>http://localhost:1313/about/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/contribute/translate/</guid>
+      <guid>http://localhost:1313/about/translate/</guid>
       <description>
         
         
@@ -614,20 +643,22 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
     
     <item>
       <title>Write Content</title>
-      <link>http://localhost:1313/about/contribute/write-content/</link>
+      <link>http://localhost:1313/about/write-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/contribute/write-content/</guid>
+      <guid>http://localhost:1313/about/write-content/</guid>
       <description>
         
         
         &lt;p&gt;Welcome to the Beginner Privacy content guide!&lt;/p&gt;
 &lt;h3&gt;Getting Started&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-started&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#getting-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Choose your editing method:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;GitHub Editor: Edit directly in your browser.&lt;/li&gt;
 &lt;li&gt;Local Setup (Recommended): &lt;a href=&#34;../setup-locally/&#34; &gt;Learn how to setup this website locally.&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Check out what to write:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Head over to our &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Article Status Board&lt;/a&gt; on GitHub to see what articles haven&amp;rsquo;t been done.&lt;/p&gt;
 &lt;h3&gt;Create Your Article&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-your-article&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-your-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Navigate to the &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt; folder.&lt;/li&gt;

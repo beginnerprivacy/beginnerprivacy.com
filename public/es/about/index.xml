@@ -90,10 +90,10 @@
     
     <item>
       <title>Configuración Local</title>
-      <link>http://localhost:1313/es/about/contribute/setup-locally/</link>
+      <link>http://localhost:1313/es/about/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/about/contribute/setup-locally/</guid>
+      <guid>http://localhost:1313/es/about/setup-locally/</guid>
       <description>
         
         
@@ -272,6 +272,35 @@ Usando Homebrew:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Contribuir</title>
+      <link>http://localhost:1313/es/about/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/contribute/</guid>
+      <description>
+        
+        
+        &lt;p&gt;¡Gracias por tu interés en contribuir a Beginner Privacy! Damos la bienvenida a las contribuciones de todos. Sus contribuciones nos ayudan a mejorar el sitio web y hacerlo más útil para la comunidad.&lt;/p&gt;
+&lt;h3&gt;Cómo ayudar&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-ayudar&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%c3%b3mo-ayudar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. Solicitudes de Funciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-solicitudes-de-funciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-solicitudes-de-funciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte ideas para nuevas funciones o mejoras abriendo un &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;issue en GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;2. Informes de errores&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-informes-de-errores&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-informes-de-errores&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;¿Encontraste un error o un problema de seguridad? ¡Repórtalo directamente en nuestro &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centro de Seguridad&lt;/a&gt;!&lt;/p&gt;
+&lt;h4&gt;3. Mejorar el Código&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-mejorar-el-código&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-mejorar-el-c%c3%b3digo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Envía los cambios de código utilizando nuestra &lt;a href=&#34;improve-code&#34; &gt;Guía de Contribución de Código&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;4. Escribir Contenido&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-escribir-contenido&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-escribir-contenido&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Escribe artículos o tutoriales siguiendo nuestra &lt;a href=&#34;write-content&#34; &gt;Guía de Estilo de Contenido&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;5. Traducciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-traducciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-traducciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a traducir Beginner Privacy a otro idioma, con nuestra &lt;a href=&#34;translate&#34; &gt;Guía de Traducción&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;6. Donaciones&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-donaciones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-donaciones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ayuda a financiar los costos de dominio e infraestructura; consulta cómo en nuestra &lt;a href=&#34;../donate&#34; &gt;Página de Donaciones&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;7. Difundir la Palabra&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-difundir-la-palabra&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-difundir-la-palabra&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Comparte nuestros recursos en las redes sociales o con amigos y familiares.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Créditos</title>
       <link>http://localhost:1313/es/about/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -369,10 +398,10 @@ Usando Homebrew:&lt;/p&gt;
     
     <item>
       <title>Escribir contenido</title>
-      <link>http://localhost:1313/es/about/contribute/write-content/</link>
+      <link>http://localhost:1313/es/about/write-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/about/contribute/write-content/</guid>
+      <guid>http://localhost:1313/es/about/write-content/</guid>
       <description>
         
         
@@ -724,10 +753,10 @@ Por favor, tenga en cuenta que, aunque GoatCounter es una herramienta útil para
     
     <item>
       <title>Traducir</title>
-      <link>http://localhost:1313/es/about/contribute/translate/</link>
+      <link>http://localhost:1313/es/about/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/about/contribute/translate/</guid>
+      <guid>http://localhost:1313/es/about/translate/</guid>
       <description>
         
         

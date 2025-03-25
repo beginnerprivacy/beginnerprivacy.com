@@ -1,6 +1,7 @@
 ---
 linkTitle: "Setup Locally"
 title: Setup Locally
+category: Contributing
 ---
 ### Prerequisites
 #### IDE
@@ -94,5 +95,6 @@ Follow these conventions for commit messages:
 - **feat:** New feature
 - **fix:** Bug fix
 - **docs:** Documentation changes
+- **article:** Article changes
 - **style:** Formatting changes
 - **refactor:** Code restructuring

@@ -1,6 +1,6 @@
 ---
-linkTitle: "Contribute"
-title: Contribute
+linkTitle: "About Contributing"
+title: About Contributing
 category: Contributing
 ---
 Thank you for your interest in contributing to Beginner Privacy! We welcome contributions from everyone. Your contributions help us improve the website and make it more useful for the community.

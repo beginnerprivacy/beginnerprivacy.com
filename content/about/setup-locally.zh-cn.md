@@ -1,6 +1,7 @@
 ---
 linkTitle: "本地设置"
 title: 本地设置
+category: Contributing
 ---
 ### 先决条件
 #### 集成开发环境 (IDE)
@@ -93,5 +94,6 @@ cd beginnerprivacy
 - **feat:** 新功能
 - **fix:** 错误修复
 - **docs:** 文档变更
+- **article:** 文章更改
 - **style:** 格式调整
 - **refactor:** 代码重构

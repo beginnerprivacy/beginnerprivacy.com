@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginner Privacy – Escribir contenido</title>
+    <link>http://localhost:1313/es/about/write-content/</link>
+    <description>Recent content in Escribir contenido on Beginner Privacy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+	  <atom:link href="http://localhost:1313/es/about/write-content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Articles To Do</title>
+      <link>http://localhost:1313/es/about/write-content/articles-to-do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/write-content/articles-to-do/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To Do:&lt;/p&gt;
+&lt;p&gt;Doing:&lt;/p&gt;
+&lt;p&gt;Done:&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

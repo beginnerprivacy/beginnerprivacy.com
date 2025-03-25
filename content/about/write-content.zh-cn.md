@@ -1,13 +1,18 @@
 ---
 linkTitle: "写内容"
 title: 写内容
+category: Contributing
 ---
 欢迎来到初学者隐私内容指南！
 
 ### 开始使用
-选择你的编辑方式：
-1. GitHub 编辑器：直接在浏览器中编辑。
-2. 本地设置（推荐）：[学习如何在本地设置这个网站。](../setup-locally/)
+**选择你的编辑方式：**
+- GitHub 编辑器：直接在浏览器中编辑。
+- 本地设置（推荐）：[学习如何在本地设置这个网站。](../setup-locally/)
+
+**查看要写的内容：** 
+
+前往我们的 [文章状态板](https://github.com/orgs/beginnerprivacy/projects/1) 在 GitHub 上查看哪些文章尚未完成。
 
 ### 创建您的文章
 1. 导航到 [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) 文件夹。
