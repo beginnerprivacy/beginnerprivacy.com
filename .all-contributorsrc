@@ -1,9 +1,9 @@
 {
   "files": [
     "README.md",
-    "/content/about/contributors.md",
-    "/content/about/contributors.es.md",
-    "/content/about/contributors.zh-cn.md"
+    "content/about/contributors.md",
+    "content/about/contributors.es.md",
+    "content/about/contributors.zh-cn.md"
   ],
   "imageSize": 100,
   "badgeTemplate": "none",
