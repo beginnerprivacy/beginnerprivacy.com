@@ -13,13 +13,13 @@ category: Contributing
 发现了漏洞或安全问题吗？直接在我们的[安全中心](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security)报告！
 
 #### 3. 改进代码
-使用我们的[代码贡献指南](improve-code)提交代码更改。
+使用我们的[代码贡献指南](../improve-code)提交代码更改。
 
 #### 4. 撰写内容
-使用我们的[内容风格指南](write-content)撰写文章或教程。
+使用我们的[内容风格指南](../write-content)撰写文章或教程。
 
 #### 5. 翻译
-帮助将《初学者隐私》翻译成另一种语言，请参阅我们的[翻译指南](translate)。
+帮助将《初学者隐私》翻译成另一种语言，请参阅我们的[翻译指南](../translate)。
 
 #### 6. 捐赠
 帮助资助域名和基础设施费用；请查看我们的[捐赠页面](../donate)。

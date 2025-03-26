@@ -13,13 +13,13 @@ Share ideas for new features or improvements by [opening a GitHub Issue](https:/
 Found a bug or security issue? Report it directly in our [Security Center](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security)!
 
 #### 3. Improve Code
-Submit code changes using our [Code Contribution Guide](improve-code).
+Submit code changes using our [Code Contribution Guide](../improve-code).
 
 #### 4. Writing Content
-Write articles or tutorials with our [Content Style Guide](write-content).
+Write articles or tutorials with our [Content Style Guide](../write-content).
 
 #### 5. Translations
-Help translate Beginner Privacy into another language, with our [Translation Guide](translate).
+Help translate Beginner Privacy into another language, with our [Translation Guide](../translate).
 
 #### 6. Donations
 Help fund domain and infrastructure costs; see how on our [Donation Page](../donate).
