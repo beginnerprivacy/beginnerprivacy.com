@@ -1,5 +1,10 @@
 {
-  "files": ["content/about/contributors.md", "content/about/contributors.es.md", "content/about/contributors.zh-cn.md", "README.md"],
+  "files": [
+    "content/about/contributors.md",
+    "content/about/contributors.es.md",
+    "content/about/contributors.zh-cn.md",
+    "README.md"
+  ],
   "imageSize": 100,
   "badgeTemplate": "none",
   "commit": false,
@@ -21,7 +26,8 @@
         "ideas",
         "maintenance",
         "promotion",
-        "translation"
+        "translation",
+        "infra"
       ]
     }
   ],
