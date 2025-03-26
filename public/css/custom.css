@@ -751,3 +751,14 @@ th, td {
     cursor: pointer;
 }
 /* End roadmap modal */
+
+/* Start contributors page table */
+.all-contributors-table table tbody tr td {
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .all-contributors-table table tbody tr td {
+        width: 100%;
+    }
+}
+/* End contributors page table */

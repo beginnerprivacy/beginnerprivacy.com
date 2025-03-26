@@ -46,7 +46,6 @@ When you contribute to this repository you are doing so under the above licenses
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="http://printn.github.io"><img src="https://avatars.githubusercontent.com/u/127101769?v=4" width="100px;" loading=lazy /><br /><sub><b>PrintN</b></sub></a><br /><a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Code">💻</a> <a href="#content-PrintN" title="Content">🖋</a> <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Documentation">📖</a> <a href="#design-PrintN" title="Design">🎨</a> <a href="#financial-PrintN" title="Financial">💵</a> <a href="#ideas-PrintN" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PrintN" title="Maintenance">🚧</a> <a href="#promotion-PrintN" title="Promotion">📣</a> <a href="#translation-PrintN" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>

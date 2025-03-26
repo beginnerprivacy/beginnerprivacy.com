@@ -147,6 +147,20 @@
         
         &lt;p&gt;A huge thank you from Beginner Privacy to the amazing individuals who have contributed to the project 💙&lt;/p&gt;
 &lt;p&gt;We use &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all-contributors&lt;/a&gt; to showcase our contributors, and we follow the &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emoji Key&lt;/a&gt; to highlight the various types of contributions made.&lt;/p&gt;
+&lt;div class=&#34;all-contributors-table&#34;&gt;
+&lt;!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --&gt;
+&lt;!-- prettier-ignore-start --&gt;
+&lt;!-- markdownlint-disable --&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- markdownlint-restore --&gt;
+&lt;!-- prettier-ignore-end --&gt;
+&lt;!-- ALL-CONTRIBUTORS-LIST:END --&gt;
+&lt;/div&gt;
 
       </description>
     </item>
