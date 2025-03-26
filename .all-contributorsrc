@@ -5,7 +5,7 @@
   "commit": false,
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributorTemplate": "<% if (contributor.profile) { %><a rel=\"nofollow noopener noreferrer\" href=\"<%= contributor.profile %>\"><% } %><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" loading=lazy /><sub><b><%= contributor.name %></b></sub><% if (contributor.profile) { %></a><% } %><br /><%= contributions %>",
+  "contributorTemplate": "<% if (contributor.profile) { %><a rel=\"nofollow noopener noreferrer\" href=\"<%= contributor.profile %>\"><% } %><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" loading=lazy /><br /><sub><b><%= contributor.name %></b></sub><% if (contributor.profile) { %></a><% } %><br /><%= contributions %>",
   "contributors": [
   ],
   "contributorsPerLine": 5,
