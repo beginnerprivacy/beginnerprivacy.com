@@ -344,7 +344,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-03-24T14:36:23+01:00</lastmod>
+    <lastmod>2025-03-25T16:30:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -397,6 +397,23 @@
                 href="http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-cn/about/contributors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/contributors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/contributors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/contributors/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/about/</loc>
     <lastmod>2025-03-02T21:18:50+01:00</lastmod>
     <xhtml:link
@@ -415,22 +432,22 @@
                 href="http://localhost:1313/zh-cn/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/about/contribute/</loc>
-    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
+    <loc>http://localhost:1313/zh-cn/about/about-contributing/</loc>
+    <lastmod>2025-03-25T16:30:44+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/contribute/"
+                href="http://localhost:1313/about/about-contributing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/contribute/"
+                href="http://localhost:1313/es/about/about-contributing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/contribute/"
+                href="http://localhost:1313/zh-cn/about/about-contributing/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</loc>

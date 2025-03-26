@@ -211,6 +211,21 @@
     </item>
     
     <item>
+      <title>贡献者</title>
+      <link>http://localhost:1313/zh-cn/about/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/contributors/</guid>
+      <description>
+        
+        
+        &lt;p&gt;来自 Beginner Privacy 的衷心感谢，感谢那些为项目做出贡献的了不起的人们 💙&lt;/p&gt;
+&lt;p&gt;我们使用 &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all-contributors&lt;/a&gt; 来展示我们的贡献者，并遵循 &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emoji Key&lt;/a&gt; 来突出显示所做贡献的不同类型。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>关于贡献</title>
       <link>http://localhost:1313/zh-cn/about/about-contributing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

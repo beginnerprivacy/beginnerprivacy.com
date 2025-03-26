@@ -1,31 +1,19 @@
 {
   "files": [
-    "README.md"
+    "README.md",
+    "content/about/contributors.md",
+    "content/about/contributors.es.md",
+    "content/about/contributors.zh-cn.md"
   ],
   "imageSize": 100,
+  "badgeTemplate": "none",
   "commit": false,
   "commitType": "docs",
   "commitConvention": "angular",
+  "contributorTemplate": "<% if (contributor.profile) { %><a rel=\"nofollow noopener noreferrer\" href=\"<%= contributor.profile %>\"><% } %><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" loading=lazy /><br /><sub><b><%= contributor.name %></b></sub><% if (contributor.profile) { %></a><% } %><br /><%= contributions %>",
   "contributors": [
-    {
-      "login": "PrintN",
-      "name": "PrintN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127101769?v=4",
-      "profile": "http://printn.github.io",
-      "contributions": [
-        "code",
-        "content",
-        "doc",
-        "design",
-        "financial",
-        "ideas",
-        "maintenance",
-        "promotion",
-        "translation"
-      ]
-    }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 5,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",

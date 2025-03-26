@@ -137,6 +137,21 @@
     </item>
     
     <item>
+      <title>Contributors</title>
+      <link>http://localhost:1313/about/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/contributors/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A huge thank you from Beginner Privacy to the amazing individuals who have contributed to the project 💙&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all-contributors&lt;/a&gt; to showcase our contributors, and we follow the &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emoji Key&lt;/a&gt; to highlight the various types of contributions made.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Credits</title>
       <link>http://localhost:1313/about/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
