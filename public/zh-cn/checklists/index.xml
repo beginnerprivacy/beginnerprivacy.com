@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginner Privacy – 检查表</title>
+    <link>http://localhost:1313/zh-cn/checklists/</link>
+    <description>Recent content in 检查表 on Beginner Privacy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	  <atom:link href="http://localhost:1313/zh-cn/checklists/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

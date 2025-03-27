@@ -58,9 +58,9 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: privacyai
-      name: PrivacyAI
-      pageRef: /privacyai
+    - identifier: checklists
+      name: Checklists
+      pageRef: /checklists
       weight: 1
     - identifier: articles
       name: Articles

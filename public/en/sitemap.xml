@@ -309,7 +309,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/about-contributing/</loc>
-    <lastmod>2025-03-25T16:30:44+01:00</lastmod>
+    <lastmod>2025-03-26T21:08:51+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -413,6 +413,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/code-of-conduct/</loc>
@@ -539,24 +556,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/about/privacy-policy/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/privacyai/</loc>
-    <lastmod>2025-02-18T14:01:01+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/privacyai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/privacyai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/privacyai/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/roadmap-introductions/</loc>
