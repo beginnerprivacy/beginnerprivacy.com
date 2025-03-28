@@ -828,3 +828,142 @@ th, td {
     }
 }
 /* End checklists */
+
+/* Start community section on homepage */
+.community-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1280px;
+    margin: 8rem 0 auto;
+}
+
+.community-content {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community-cta {
+    text-align: center;
+}
+
+.community-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-chat-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.chat-section {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.chat-section:last-child {
+    margin-right: 0;
+}
+
+.chat-section .platform-icons {
+    justify-content: center;
+}
+
+@media (min-width: 1080px) {
+    .community-section {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+    
+    .community-content {
+        flex: 1;
+        order: 1;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .community-cta {
+        flex: 1;
+        order: 2;
+        text-align: left;
+    }
+    
+    .community-cta p {
+        margin: 0;
+    }
+
+    .chat-section .platform-icons {
+        justify-content: left;
+    }
+}
+/* End community section on homepage */
+
+/* Start checklists section on homepage */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item {
+    width: 250px;
+    max-height: 70px;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carousel-item:hover {
+    transform: scale(1.05);
+}
+
+.carousel-item h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.checklist-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.checklist-link:hover {
+    background: #0056b3;
+}
+
+.carousel-button {
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-flex;
+}
+/* End checklists section on homepage */

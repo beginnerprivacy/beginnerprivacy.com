@@ -27,7 +27,7 @@ layout: hextra-home
 
 <div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
   <div>
-    <h1 class="hx-font-bold md:hx-text-5xl">路线图</h1>
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h1>
     <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
       <div class="tabs">
           <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
@@ -114,9 +114,100 @@ layout: hextra-home
 </div>
 </div>
 
+<div class="community-section">
+    <div class="community-content">
+        <img src="../images/earth.webp" alt="社区图片" class="community-image">
+    </div>
+    <div class="community-cta">
+        <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">加入我们的社区</h1>
+        <p style="font-size: 1.1rem;">与热衷于隐私的志同道合者联系。加入我们的论坛，关注我们的社交媒体，参与讨论。</p>
+        <div class="social-chat-container">
+          <div class="chat-section">
+            <h2 style="font-size: 2rem; font-weight: bold;">社交媒体</h2>
+            <div class="platform-icons">
+                <a href="https://x.com/BeginnerPrivacy" title="𝕏" target="_blank" rel="noopener noreferrer">
+                    {{< hextra/icon name="x-twitter" attributes="height=25" >}}
+                </a>
+                <a href="https://youtube.com/@BeginnerPrivacy" title="YouTube" target="_blank" rel="noopener noreferrer">
+                    {{< hextra/icon name="youtube" attributes="height=25" >}}
+                </a>
+                <a href="https://odysee.com/@BeginnerPrivacy" title="Odysee" target="_blank" rel="noopener noreferrer">
+                    {{< hextra/icon name="odysee" attributes="height=25" >}}
+                </a>
+                <a href="https://tiktok.com/@BeginnerPrivacy" target="_blank" title="TikTok" rel="noopener noreferrer">
+                    {{< hextra/icon name="tiktok" attributes="height=25" >}}
+                </a>
+                <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer">
+                    {{< hextra/icon name="mastodon" attributes="height=25" >}}
+                </a>
+            </div>
+          </div>
+          <div class="chat-section">
+            <h2 style="font-size: 2rem; font-weight: bold;">聊天</h2>
+            <div class="platform-icons">
+              <a href="https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FcfczJf7T628buhqA3Wx-R5Z8Qeb8Rm6O%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAsuFeRqk-qIj6V3DaF651t7NnZZgaQdjIrVaanCtIjgs%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&data=%7B%22groupLinkId%22%3A%220DamkEDZ2yoh6F7pbxsmRw%3D%3D%22%7D" target="_blank" title="SimpleX 聊天" rel="noopener noreferrer">
+                  {{< hextra/icon name="simplex" attributes="height=25" >}}
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="checklists-section" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">检查清单</h1>
+    <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
+    <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
+    <p style="font-size: 1.1rem; margin-bottom: 10px;">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
+    <div class="carousel">
+        <div class="carousel-track">
+            <a href="checklists/?m=whistleblower">
+              <div class="carousel-item">
+                  <h3>举报人</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=protestor">
+              <div class="carousel-item">
+                  <h3>抗议者</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=casual-internet-users">
+              <div class="carousel-item">
+                  <h3>普通互联网用户</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=darknet-users">
+              <div class="carousel-item">
+                  <h3>暗网用户</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=social-media-influencers">
+              <div class="carousel-item">
+                  <h3>社交媒体影响者</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=hacker">
+              <div class="carousel-item">
+                  <h3>黑客</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=digital-nomad">
+              <div class="carousel-item">
+                  <h3>数字游牧者</h3>
+              </div>
+            </a>
+            <a href="checklists/?m=mass-surveillance">
+              <div class="carousel-item">
+                  <h3>大规模监控</h3>
+              </div>
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
     <h1 class="hx-font-bold">我们需要你的帮助！</h1>
-    {{< hextra/hero-subtitle >}}初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：{{< /hextra/hero-subtitle >}}
+    <p style="font-size: 1.1rem;">初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
     {{< hextra/hero-button text="写内容" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
     {{< hextra/hero-button text="翻译" link="about/translate" icon="translate" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}

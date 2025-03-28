@@ -17,6 +17,7 @@ Beginner Privacy wouldn't be possible without the following resources, tools and
 - [Transformers.js](https://github.com/huggingface/transformers.js/)
 
 ### Images
-- [Surveillance camera image by Clker-Free-Vector-Images](https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)
+- [Surveillance camera image by Clker-Free-Vector-Images from Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)
+- [Earth image by Tung Lam from Pixabay](https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8552339)
 - [Compass icons created by Creative Stall Premium - Flaticon](https://www.flaticon.com/free-icons/compass)
-- [404 bodyguard image by OpenClipart-Vectors](https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=145447) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=145447)
+- [404 bodyguard image by OpenClipart-Vectors from Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=145447)
