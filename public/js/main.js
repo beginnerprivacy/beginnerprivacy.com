@@ -660,45 +660,75 @@ function toggleShareDropdown () {
       }
   }
 
+// Carousel for checklists on homepage
+let currentIndex = 0;
 
-  let currentIndex = 0;
+function moveCarousel(direction) {
+    const items = document.querySelectorAll('.carousel-item');
+    const totalItems = items.length - 3;
+    const itemWidth = items[0].offsetWidth + 15;
 
-  function getItemsToShow() {
-      const width = window.innerWidth;
-  
-      if (width >= 1200) {
-          return 2.7;
-      } else if (width >= 992) {
-          return 2;
-      } else if (width >= 768) {
-          return 1.9;
-      } else {
-          return 1.4;
-      }
-  }
-  
-  function moveCarousel(direction) {
-      const items = document.querySelectorAll('.carousel-item');
-      const totalItems = items.length;
-      const itemsToShow = getItemsToShow();
-  
-      currentIndex += direction;
-  
-      if (currentIndex < 0) {
-          currentIndex = Math.ceil(totalItems / itemsToShow) - 1;
-      } else if (currentIndex >= Math.ceil(totalItems / itemsToShow)) {
-          currentIndex = 0;
-      }
-  
-      const track = document.querySelector('.carousel-track');
-      const offset = -currentIndex * (100 / itemsToShow);
-      track.style.transform = `translateX(${offset}%)`;
-  }
-  
-  window.addEventListener('resize', () => {
-      currentIndex = 0;
-      moveCarousel(0);
-  });
+    currentIndex += direction;
+
+    if (currentIndex < 0) {
+        currentIndex = totalItems - 1;
+    } else if (currentIndex >= totalItems) {
+        currentIndex = 0;
+    }
+
+    const newPosition = -currentIndex * itemWidth;
+    document.querySelector('.carousel-track').style.transform = `translateX(${newPosition}px)`;
+}
+
+let isDragging = false;
+let startX;
+let scrollLeft;
+
+const carousel = document.querySelector('.carousel');
+const carouselTrack = document.querySelector('.carouselTrack');
+
+if (carousel) {
+    carousel.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        startX = e.pageX - carousel.offsetLeft;
+        scrollLeft = carousel.scrollLeft;
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+        isDragging = false;
+    });
+
+    carousel.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+
+    carousel.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+        const x = e.pageX - carousel.offsetLeft;
+        const walk = (x - startX) * 2; // The multiplier controls the scroll speed
+        carousel.scrollLeft = scrollLeft - walk;
+    });
+
+    // Touch events for mobile
+    carousel.addEventListener('touchstart', (e) => {
+        isDragging = true;
+        startX = e.touches[0].pageX - carousel.offsetLeft;
+        scrollLeft = carousel.scrollLeft;
+    });
+
+    carousel.addEventListener('touchend', () => {
+        isDragging = false;
+    });
+
+    carousel.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+        const x = e.touches[0].pageX - carousel.offsetLeft;
+        const walk = (x - startX) * 2; // The multiplier controls the scroll speed
+        carousel.scrollLeft = scrollLeft - walk;
+    });
+}
 ;
 function updateRoadmap() {
     const sections = document.querySelectorAll('.roadmap-section');

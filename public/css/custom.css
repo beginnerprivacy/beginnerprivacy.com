@@ -914,6 +914,7 @@ th, td {
     overflow: hidden;
     width: 100%;
     overflow-x: auto;
+    padding: 10px 0 10px 0;
 }
 
 .carousel-track {
@@ -933,6 +934,7 @@ th, td {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    user-select: none;
 }
 
 .carousel-item:hover {

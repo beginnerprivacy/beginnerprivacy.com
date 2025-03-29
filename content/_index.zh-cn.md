@@ -161,42 +161,42 @@ layout: hextra-home
     <p style="font-size: 1.1rem; margin-bottom: 10px;">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
     <div class="carousel">
         <div class="carousel-track">
-            <a href="checklists/?m=whistleblower">
+            <a href="checklists/?m=whistleblower" draggable="false">
               <div class="carousel-item">
                   <h3>举报人</h3>
               </div>
             </a>
-            <a href="checklists/?m=protestor">
+            <a href="checklists/?m=protestor" draggable="false">
               <div class="carousel-item">
                   <h3>抗议者</h3>
               </div>
             </a>
-            <a href="checklists/?m=casual-internet-users">
+            <a href="checklists/?m=casual-internet-user" draggable="false">
               <div class="carousel-item">
                   <h3>普通互联网用户</h3>
               </div>
             </a>
-            <a href="checklists/?m=darknet-users">
+            <a href="checklists/?m=darknet-user" draggable="false">
               <div class="carousel-item">
                   <h3>暗网用户</h3>
               </div>
             </a>
-            <a href="checklists/?m=social-media-influencers">
+            <a href="checklists/?m=social-media-influencer" draggable="false">
               <div class="carousel-item">
                   <h3>社交媒体影响者</h3>
               </div>
             </a>
-            <a href="checklists/?m=hacker">
+            <a href="checklists/?m=hacker" draggable="false">
               <div class="carousel-item">
                   <h3>黑客</h3>
               </div>
             </a>
-            <a href="checklists/?m=digital-nomad">
+            <a href="checklists/?m=digital-nomad" draggable="false">
               <div class="carousel-item">
                   <h3>数字游牧者</h3>
               </div>
             </a>
-            <a href="checklists/?m=mass-surveillance">
+            <a href="checklists/?m=mass-surveillance" draggable="false">
               <div class="carousel-item">
                   <h3>大规模监控</h3>
               </div>

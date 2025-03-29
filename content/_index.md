@@ -163,42 +163,42 @@ layout: hextra-home
     <p style="font-size: 1.1rem; margin-bottom: 10px;">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
     <div class="carousel">
         <div class="carousel-track">
-            <a href="checklists/?m=whistleblower">
+            <a href="checklists/?m=whistleblower" draggable="false">
               <div class="carousel-item">
                   <h3>Whistleblower</h3>
               </div>
             </a>
-            <a href="checklists/?m=protestor">
+            <a href="checklists/?m=protestor" draggable="false">
               <div class="carousel-item">
                   <h3>Protestor</h3>
               </div>
             </a>
-            <a href="checklists/?m=casual-internet-users">
+            <a href="checklists/?m=casual-internet-user" draggable="false">
               <div class="carousel-item">
-                  <h3>Casual Internet Users</h3>
+                  <h3>Casual Internet User</h3>
               </div>
             </a>
-            <a href="checklists/?m=darknet-users">
+            <a href="checklists/?m=darknet-user" draggable="false">
               <div class="carousel-item">
-                  <h3>Darknet Users</h3>
+                  <h3>Darknet User</h3>
               </div>
             </a>
-            <a href="checklists/?m=social-media-influencers">
+            <a href="checklists/?m=social-media-influencer" draggable="false">
               <div class="carousel-item">
                   <h3>Social Media Influencers</h3>
               </div>
             </a>
-            <a href="checklists/?m=hacker">
+            <a href="checklists/?m=hacker" draggable="false">
               <div class="carousel-item">
                   <h3>Hacker</h3>
               </div>
             </a>
-            <a href="checklists/?m=digital-nomad">
+            <a href="checklists/?m=digital-nomad" draggable="false">
               <div class="carousel-item">
                   <h3>Digital Nomad</h3>
               </div>
             </a>
-            <a href="checklists/?m=mass-surveillance">
+            <a href="checklists/?m=mass-surveillance" draggable="false">
               <div class="carousel-item">
                   <h3>Mass Surveillance</h3>
               </div>
