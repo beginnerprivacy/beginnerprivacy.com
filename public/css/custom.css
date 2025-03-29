@@ -29,6 +29,14 @@
     margin: 0px; 
     min-width: 100px;
 }
+.language-switcher-label {
+    display: none;
+}
+.language-switcher-flag-icon {
+    font-size: 25px;
+    margin-top: -5px;
+}
+
 @media (max-width: 768px) {
     .language-theme-container {
       display: none;
@@ -48,6 +56,12 @@
         flex: 0 0 100% !important;
         flex-wrap: wrap;
         justify-content: center !important;
+    }
+    .language-switcher-label {
+        display: block;
+    }
+    .language-switcher-flag-icon {
+        display: none;
     }
 }
 /* End language dropdown */
