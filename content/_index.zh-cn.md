@@ -52,64 +52,55 @@ layout: hextra-home
 
 <div id="roadmapContent" class="hx-mt-4">
   <div id="startContent" class="roadmap-section">
-    {{< hextra/feature-grid >}}
-      {{< hextra/feature-card title="关于 Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="为什么要关心你的隐私？" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="找到威胁模型" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));"  >}}
-    {{< /hextra/feature-grid >}}
+    <ol>
+      <li>{{< hextra/feature-card title="关于 Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="为什么要关心你的隐私？" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="找到威胁模型" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+    </ol>
   </div>
   <div id="basicContent" class="roadmap-section" style="display:none;">
-    {{< hextra/feature-grid >}}
-        <!-- Row 1 -->
-        {{< hextra/feature-card title="基本介绍" link="about/roadmap-introductions/basic" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="强密码" link="articles/how-to-create-strong-passwords-and-store-them-securely" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="双重身份验证 (2FA)" link="articles/two-factor-authentication-and-why-you-need-it" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="限制共享的信息" link="articles/limit-the-personal-information-you-share-online" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="私人浏览器" link="articles/why-you-need-a-private-browser-to-protect-yourself" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        <!-- Row 2 rtl -->
-        {{< hextra/feature-card title="私人搜索引擎" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="虚拟专用网络（VPN）" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="桌面隐私设置" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="移动隐私设置" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="私人电子邮件" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        <!-- Row 3 -->
-        {{< hextra/feature-card title="安全消息传递" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-        {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}
-    {{< /hextra/feature-grid >}}
+    <ol>
+      <li>{{< hextra/feature-card title="基本介绍" link="about/roadmap-introductions/basic" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="强密码" link="articles/how-to-create-strong-passwords-and-store-them-securely" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="双重身份验证 (2FA)" link="articles/two-factor-authentication-and-why-you-need-it" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="限制共享的信息" link="articles/limit-the-personal-information-you-share-online" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="私人浏览器" link="articles/why-you-need-a-private-browser-to-protect-yourself" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="私人搜索引擎" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="虚拟专用网络（VPN）" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="桌面隐私设置" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="移动隐私设置" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="私人电子邮件" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="安全消息传递" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+    </ol>
   </div>
   <div id="mediumContent" class="roadmap-section" style="display:none;">
-    {{< hextra/feature-grid >}}
-      <!-- Row 1 -->
-      {{< hextra/feature-card title="中级介绍" link="about/roadmap-introductions/medium" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="自由和开源软件" link="articles/break-free-from-proprietary-software-with-foss" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="切换到Linux" link="articles/how-to-easily-switch-to-linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="社交媒体前端" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="从数据经纪人处删除" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      <!-- Row 2 -->
-      {{< hextra/feature-card invisibleFiller="true" >}}
-      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="基本操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="什么是Tor？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="加密DNS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}
-    {{< /hextra/feature-grid >}}
+    <ol>
+      <li>{{< hextra/feature-card title="中级介绍" link="about/roadmap-introductions/medium" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="自由和开源软件" link="articles/break-free-from-proprietary-software-with-foss" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="切换到Linux" link="articles/how-to-easily-switch-to-linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="社交媒体前端" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="从数据经纪人处删除" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="基本操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="什么是Tor？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="加密DNS" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+    </ol>
   </div>
   <div id="advancedContent" class="roadmap-section" style="display:none;">
-    {{< hextra/feature-grid >}}
-      <!-- Row 1 -->
-      {{< hextra/feature-card title="高级介绍" link="about/roadmap-introductions/advanced" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="桌面操作系统" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="移动操作系统" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="自托管" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      <!-- Row 2 rtl -->
-      {{< hextra/feature-card title="获取加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="加密一切" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="避免蜜罐" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="什么是I2P？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      {{< hextra/feature-card title="高级操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-      <!-- Row 3 -->        
-      {{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}
-    {{< /hextra/feature-grid >}}
+    <ol>
+      <li>{{< hextra/feature-card title="高级介绍" link="about/roadmap-introductions/advanced" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="桌面操作系统" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="移动操作系统" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="自托管" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="获取加密货币" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="加密一切" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="避免蜜罐" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="什么是I2P？" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="高级操作安全" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+    </ol>
   </div>
 </div>
 </div>
