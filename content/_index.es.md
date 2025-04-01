@@ -24,87 +24,108 @@ layout: hextra-home
   </div>
 
   {{< hextra/hero-button text="Empieza ahora" onclick="scrollDown();" style="margin: 2px;" >}}
-  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" link="articles/why-you-should-care-about-your-privacy" style="margin: 2px;" >}}
+  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" onclick="scrollMisconceptions();" style="margin: 2px;" >}}
 </div>
 
-<div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
-  <div>
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-      <div class="tabs">
-          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-          <label class="tab" for="radio-start">Inicio</label>
-          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-basic">Básico</label>
-          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-medium">Medio</label>
-          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-advanced">Avanzado</label>
-          <span class="glider"></span>
+<div id="roadmap" style="margin-bottom: 10rem; width: 100%; padding-top: 10rem;">
+  <div class="roadmap hx-mt-6">
+    <div>
+      <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        <div class="tabs">
+            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+            <label class="tab" for="radio-start">Inicio</label>
+            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-basic">Básico</label>
+            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-medium">Medio</label>
+            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-advanced">Avanzado</label>
+            <span class="glider"></span>
+        </div>
+        <div id="import-export" style="display: flex; align-items: center;">
+            <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
+                Importar
+                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
+            </label>
+            <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Exportar</button>
+        </div>
       </div>
-      <div id="import-export" style="display: flex; align-items: center;">
-          <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
-              Importar
-              <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
-          </label>
-          <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Exportar</button>
-      </div>
+  </div>
+
+  <div id="roadmapContent" class="hx-mt-4">
+    <div id="startContent" class="roadmap-section">
+      <ol>
+        <li>{{< hextra/feature-card title="Sobre Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="¿Por qué preocuparse por tu privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Encontrar un modelo de amenaza" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      </ol>
     </div>
+    <div id="basicContent" class="roadmap-section" style="display:none;">
+      <ol>
+          <li>{{< hextra/feature-card title="Introducción Básica" link="about/roadmap-introductions/basic" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Contraseñas Fuertes" link="articles/how-to-create-strong-passwords-and-store-them-securely" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Autenticación de Dos Factores (2FA)" link="articles/two-factor-authentication-and-why-you-need-it" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Limitar la información compartida" link="articles/limit-the-personal-information-you-share-online" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Navegador Privado" link="articles/why-you-need-a-private-browser-to-protect-yourself" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Motor de búsqueda privado" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Red Privada Virtual (VPN)" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Configuración de Privacidad Móvil" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Configuración de privacidad del escritorio" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Correo electrónico privado" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="Mensajería Segura" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+          <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      </ol>
+    </div>
+    <div id="mediumContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>{{< hextra/feature-card title="Introducción Media" link="about/roadmap-introductions/medium" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Software Libre y de Código Abierto" link="articles/break-free-from-proprietary-software-with-foss" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Cámbiate a Linux" link="articles/how-to-easily-switch-to-linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Eliminación de corredores de datos" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="OpSec Básico" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="¿Qué es Tor?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="DNS cifrado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      </ol>
+    </div>
+    <div id="advancedContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>{{< hextra/feature-card title="Introducción Avanzada" link="about/roadmap-introductions/advanced" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Sistema Operativo de Escritorio" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Sistema Operativo Móvil" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Autoalojamiento" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Criptomoneda" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Adquirir cripto" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Encriptar Todo" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="Evitando trampas de miel" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="¿Qué es I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="OpSec Avanzado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+        <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
+      </ol>
+    </div>
+  </div>
+  </div>
 </div>
 
-<div id="roadmapContent" class="hx-mt-4">
-  <div id="startContent" class="roadmap-section">
-    <ol>
-      <li>{{< hextra/feature-card title="Sobre Beginner Privacy" link="about" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="¿Por qué preocuparse por tu privacidad?" link="articles/why-you-should-care-about-your-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Encontrar un modelo de amenaza" link="articles/how-to-find-a-threat-model-that-suits-you" style="background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));" >}}</li>
-    </ol>
-  </div>
-  <div id="basicContent" class="roadmap-section" style="display:none;">
-    <ol>
-        <li>{{< hextra/feature-card title="Introducción Básica" link="about/roadmap-introductions/basic" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Contraseñas Fuertes" link="articles/how-to-create-strong-passwords-and-store-them-securely" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Autenticación de Dos Factores (2FA)" link="articles/two-factor-authentication-and-why-you-need-it" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Limitar la información compartida" link="articles/limit-the-personal-information-you-share-online" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Navegador Privado" link="articles/why-you-need-a-private-browser-to-protect-yourself" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Motor de búsqueda privado" link="articles/searching-safely-with-a-privacy-focused-search-engine" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Red Privada Virtual (VPN)" link="articles/what-is-a-vpn-and-should-you-use-one" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Configuración de Privacidad Móvil" link="articles/change-these-mobile-settings-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Configuración de privacidad del escritorio" link="articles/desktop-settings-to-change-for-better-privacy" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Correo electrónico privado" link="articles/protect-your-communication-with-a-private-email" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="Mensajería Segura" link="articles/ditch-sms-and-use-secure-communication-methods" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-        <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));" >}}</li>
-    </ol>
-  </div>
-  <div id="mediumContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li>{{< hextra/feature-card title="Introducción Media" link="about/roadmap-introductions/medium" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Software Libre y de Código Abierto" link="articles/break-free-from-proprietary-software-with-foss" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Cámbiate a Linux" link="articles/how-to-easily-switch-to-linux" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Eliminación de corredores de datos" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="OpSec Básico" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="¿Qué es Tor?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="DNS cifrado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-    </ol>
-  </div>
-  <div id="advancedContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li>{{< hextra/feature-card title="Introducción Avanzada" link="about/roadmap-introductions/advanced" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Sistema Operativo de Escritorio" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Sistema Operativo Móvil" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Autoalojamiento" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Criptomoneda" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Adquirir cripto" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Encriptar Todo" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="Evitando trampas de miel" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="¿Qué es I2P?" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="OpSec Avanzado" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-      <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" style="background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));" >}}</li>
-    </ol>
-  </div>
-</div>
+<div id="common-misconceptions" class="hx-text-center" style="margin-bottom: 10rem;width: 100%; padding-top: 10rem;">
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Conceptos Erróneos Comunes</h1>
+    <div class="misconception-container">
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿Por qué debería preocuparme?"</h2>
+            <p style="font-size: 1rem;">Tu privacidad es esencial para tu seguridad y dignidad. Así como cierras la puerta del baño para tener espacio personal, proteger tu información personal es vital. La idea de "no tengo nada que ocultar" pasa por alto el hecho de que la privacidad es un derecho fundamental, no solo para aquellos que tienen secretos. Proteger tus datos ayuda a prevenir el robo de identidad y la vigilancia no deseada.</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿No es demasiado tarde ahora?"</h2>
+            <p style="font-size: 1rem;">¡El mejor momento para comenzar a proteger tu privacidad es hoy! Es crucial tomar acción ahora, ya que las empresas pueden tener acceso a tus datos. Al ser proactivo con la configuración de tu privacidad y el intercambio de datos, puedes reducir significativamente tu huella digital y mantener tu información personal segura.</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿Qué debo hacer?"</h2>
+            <p style="font-size: 1rem;">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
+            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollUp();" style="margin-top: 15px;" >}}
+        </div>
+    </div>
 </div>
 
 <div class="community-section">
@@ -147,7 +168,7 @@ layout: hextra-home
     </div>
 </div>
 
-<div class="checklists-section" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+<div class="checklists-section" style="margin-bottom: 16rem; width: 100%; margin-top: 16rem;">
     <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Listas de Verificación</h1>
     <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
     <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
@@ -199,7 +220,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-font-bold">¡Necesitamos tu ayuda!</h1>
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">¡Necesitamos tu ayuda!</h1>
     <p style="font-size: 1.1rem;">¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
     {{< hextra/hero-button text="Escribe contenido" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}

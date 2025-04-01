@@ -347,11 +347,28 @@ function showTourModal() {
     };
   }
   
-  function scrollDown() {
-    window.scrollBy({
-        top: 400,
-        behavior: 'smooth'
-    });
+  const roadmapId = document.getElementById('roadmap');
+  function scrollDown() {    
+    if (roadmapId) {
+      roadmapId.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+    
+    setTimeout(() => {
+        if (localStorage.getItem('doNotAskAgain') !== 'true') {
+            showTourModal();
+        }
+    }, 400);
+  }
+  function scrollUp() {    
+    if (roadmapId) {
+      roadmapId.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
     
     setTimeout(() => {
         if (localStorage.getItem('doNotAskAgain') !== 'true') {
@@ -706,7 +723,7 @@ if (carousel) {
         if (!isDragging) return;
         e.preventDefault();
         const x = e.pageX - carousel.offsetLeft;
-        const walk = (x - startX) * 2; // The multiplier controls the scroll speed
+        const walk = (x - startX) * 2;
         carousel.scrollLeft = scrollLeft - walk;
     });
 
@@ -725,10 +742,23 @@ if (carousel) {
         if (!isDragging) return;
         e.preventDefault();
         const x = e.touches[0].pageX - carousel.offsetLeft;
-        const walk = (x - startX) * 2; // The multiplier controls the scroll speed
+        const walk = (x - startX) * 2;
         carousel.scrollLeft = scrollLeft - walk;
     });
 }
+
+// Scroll down to common misconceptions section on homepage
+function scrollMisconceptions() {
+    const commonMisconceptionsId = document.getElementById('common-misconceptions');
+    
+    if (commonMisconceptionsId) {
+        commonMisconceptionsId.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+}
+  
 ;
 function updateRoadmap() {
     const sections = document.querySelectorAll('.roadmap-section');

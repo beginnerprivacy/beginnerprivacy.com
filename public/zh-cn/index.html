@@ -22,7 +22,7 @@
   <meta itemprop="name" content="初学者的隐私">
   <meta itemprop="description" content="免费，开源 今天就开始你的隐私之旅 与 Beginner Privacy 你的隐私很重要！但大组织正在夺走它。 初学者隐私是你重获私人生活的路线图。">
   <meta itemprop="dateModified" content="2025-03-30T14:21:09+02:00">
-  <meta itemprop="wordCount" content="12390">
+  <meta itemprop="wordCount" content="12682">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -595,41 +595,43 @@
   >现在开始</a>
 
 <a
-    href="articles/why-you-should-care-about-your-privacy"
+    
     class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     style="margin: 2px;"
-    onclick="toggleShareDropdown();"
+    onclick="scrollMisconceptions();"
+    
   >不确定？这就是原因</a>
 </p>
 </div>
-<div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
-  <div>
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-      <div class="tabs">
-          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-          <label class="tab" for="radio-start">开始</label>
-          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-basic">基本</label>
-          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-medium">基本</label>
-          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-advanced">高级</label>
-          <span class="glider"></span>
+<div id="roadmap" style="margin-bottom: 10rem; width: 100%; padding-top: 10rem;">
+  <div class="roadmap hx-mt-6">
+    <div>
+      <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h1>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        <div class="tabs">
+            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+            <label class="tab" for="radio-start">开始</label>
+            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-basic">基本</label>
+            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-medium">基本</label>
+            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-advanced">高级</label>
+            <span class="glider"></span>
+        </div>
+        <div id="import-export" style="display: flex; align-items: center;">
+            <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
+                导入
+                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
+            </label>
+            <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">出口</button>
+        </div>
       </div>
-      <div id="import-export" style="display: flex; align-items: center;">
-          <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
-              导入
-              <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
-          </label>
-          <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">出口</button>
-      </div>
-    </div>
-</div>
-<div id="roadmapContent" class="hx-mt-4">
-  <div id="startContent" class="roadmap-section">
-    <ol>
-      <li><div id="%E5%85%B3%E4%BA%8E-beginner-privacy" class="roadmap-modal">
+  </div>
+  <div id="roadmapContent" class="hx-mt-4">
+    <div id="startContent" class="roadmap-section">
+      <ol>
+        <li><div id="%E5%85%B3%E4%BA%8E-beginner-privacy" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -755,7 +757,7 @@
     </div>
   
 </a></li>
-      <li><div id="%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%85%B3%E5%BF%83%E4%BD%A0%E7%9A%84%E9%9A%90%E7%A7%81" class="roadmap-modal">
+        <li><div id="%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%85%B3%E5%BF%83%E4%BD%A0%E7%9A%84%E9%9A%90%E7%A7%81" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -826,7 +828,7 @@
     </div>
   
 </a></li>
-      <li><div id="%E6%89%BE%E5%88%B0%E5%A8%81%E8%83%81%E6%A8%A1%E5%9E%8B" class="roadmap-modal">
+        <li><div id="%E6%89%BE%E5%88%B0%E5%A8%81%E8%83%81%E6%A8%A1%E5%9E%8B" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1009,11 +1011,11 @@ const resultTexts = {
     </div>
   
 </a></li>
-    </ol>
-  </div>
-  <div id="basicContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li><div id="%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="basicContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li><div id="%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1061,7 +1063,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%BC%BA%E5%AF%86%E7%A0%81" class="roadmap-modal">
+        <li><div id="%E5%BC%BA%E5%AF%86%E7%A0%81" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1193,7 +1195,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%8F%8C%E9%87%8D%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81-2fa" class="roadmap-modal">
+        <li><div id="%E5%8F%8C%E9%87%8D%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81-2fa" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1311,7 +1313,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E9%99%90%E5%88%B6%E5%85%B1%E4%BA%AB%E7%9A%84%E4%BF%A1%E6%81%AF" class="roadmap-modal">
+        <li><div id="%E9%99%90%E5%88%B6%E5%85%B1%E4%BA%AB%E7%9A%84%E4%BF%A1%E6%81%AF" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1457,7 +1459,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A7%81%E4%BA%BA%E6%B5%8F%E8%A7%88%E5%99%A8" class="roadmap-modal">
+        <li><div id="%E7%A7%81%E4%BA%BA%E6%B5%8F%E8%A7%88%E5%99%A8" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1598,7 +1600,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A7%81%E4%BA%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" class="roadmap-modal">
+        <li><div id="%E7%A7%81%E4%BA%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1708,7 +1710,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E7%BD%91%E7%BB%9Cvpn" class="roadmap-modal">
+        <li><div id="%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E7%BD%91%E7%BB%9Cvpn" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1830,7 +1832,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E6%A1%8C%E9%9D%A2%E9%9A%90%E7%A7%81%E8%AE%BE%E7%BD%AE" class="roadmap-modal">
+        <li><div id="%E6%A1%8C%E9%9D%A2%E9%9A%90%E7%A7%81%E8%AE%BE%E7%BD%AE" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1930,7 +1932,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A7%BB%E5%8A%A8%E9%9A%90%E7%A7%81%E8%AE%BE%E7%BD%AE" class="roadmap-modal">
+        <li><div id="%E7%A7%BB%E5%8A%A8%E9%9A%90%E7%A7%81%E8%AE%BE%E7%BD%AE" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2048,7 +2050,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A7%81%E4%BA%BA%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6" class="roadmap-modal">
+        <li><div id="%E7%A7%81%E4%BA%BA%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2149,7 +2151,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%AE%89%E5%85%A8%E6%B6%88%E6%81%AF%E4%BC%A0%E9%80%92" class="roadmap-modal">
+        <li><div id="%E5%AE%89%E5%85%A8%E6%B6%88%E6%81%AF%E4%BC%A0%E9%80%92" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2252,7 +2254,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
+        <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2308,11 +2310,11 @@ const resultTexts = {
 
   
 </a></li>
-    </ol>
-  </div>
-  <div id="mediumContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li><div id="%E4%B8%AD%E7%BA%A7%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="mediumContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li><div id="%E4%B8%AD%E7%BA%A7%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2361,7 +2363,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E8%87%AA%E7%94%B1%E5%92%8C%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6" class="roadmap-modal">
+        <li><div id="%E8%87%AA%E7%94%B1%E5%92%8C%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2475,7 +2477,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%88%87%E6%8D%A2%E5%88%B0linux" class="roadmap-modal">
+        <li><div id="%E5%88%87%E6%8D%A2%E5%88%B0linux" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2628,7 +2630,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E5%89%8D%E7%AB%AF" class="roadmap-modal">
+        <li><div id="%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E5%89%8D%E7%AB%AF" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2671,7 +2673,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E4%BB%8E%E6%95%B0%E6%8D%AE%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%A4%84%E5%88%A0%E9%99%A4" class="roadmap-modal">
+        <li><div id="%E4%BB%8E%E6%95%B0%E6%8D%AE%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%A4%84%E5%88%A0%E9%99%A4" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2714,7 +2716,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8" class="roadmap-modal">
+        <li><div id="%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2757,7 +2759,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E4%BB%80%E4%B9%88%E6%98%AFtor" class="roadmap-modal">
+        <li><div id="%E4%BB%80%E4%B9%88%E6%98%AFtor" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2800,7 +2802,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%8A%A0%E5%AF%86dns" class="roadmap-modal">
+        <li><div id="%E5%8A%A0%E5%AF%86dns" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2843,7 +2845,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
+        <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2899,11 +2901,11 @@ const resultTexts = {
 
   
 </a></li>
-    </ol>
-  </div>
-  <div id="advancedContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li><div id="%E9%AB%98%E7%BA%A7%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="advancedContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li><div id="%E9%AB%98%E7%BA%A7%E4%BB%8B%E7%BB%8D" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2951,7 +2953,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" class="roadmap-modal">
+        <li><div id="%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2994,7 +2996,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E7%A7%BB%E5%8A%A8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" class="roadmap-modal">
+        <li><div id="%E7%A7%BB%E5%8A%A8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3037,7 +3039,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E8%87%AA%E6%89%98%E7%AE%A1" class="roadmap-modal">
+        <li><div id="%E8%87%AA%E6%89%98%E7%AE%A1" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3080,7 +3082,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81" class="roadmap-modal">
+        <li><div id="%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3123,7 +3125,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81" class="roadmap-modal">
+        <li><div id="%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3166,7 +3168,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E5%8A%A0%E5%AF%86%E4%B8%80%E5%88%87" class="roadmap-modal">
+        <li><div id="%E5%8A%A0%E5%AF%86%E4%B8%80%E5%88%87" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3209,7 +3211,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E9%81%BF%E5%85%8D%E8%9C%9C%E7%BD%90" class="roadmap-modal">
+        <li><div id="%E9%81%BF%E5%85%8D%E8%9C%9C%E7%BD%90" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3252,7 +3254,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E4%BB%80%E4%B9%88%E6%98%AFi2p" class="roadmap-modal">
+        <li><div id="%E4%BB%80%E4%B9%88%E6%98%AFi2p" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3295,7 +3297,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E9%AB%98%E7%BA%A7%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8" class="roadmap-modal">
+        <li><div id="%E9%AB%98%E7%BA%A7%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3338,7 +3340,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-      <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
+        <li><div id="%E6%9C%89%E4%BB%80%E4%B9%88%E9%81%97%E6%BC%8F%E5%90%97%E8%B4%A1%E7%8C%AE%E5%90%A7" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3394,9 +3396,35 @@ const resultTexts = {
 
   
 </a></li>
-    </ol>
+      </ol>
+    </div>
+  </div>
   </div>
 </div>
+<div id="common-misconceptions" class="hx-text-center" style="margin-bottom: 10rem;width: 100%; padding-top: 10rem;">
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">常见误解</h1>
+    <div class="misconception-container">
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"我为什么要关心？"</h2>
+            <p style="font-size: 1rem;">你的隐私对你的安全和尊严至关重要。就像你在上厕所时关上门以保护个人空间一样，保护你的个人信息也是至关重要的。“我没有什么好隐藏的”这个想法忽视了隐私是每个人的基本权利，而不仅仅是那些有秘密的人。保护你的数据有助于防止身份盗窃和不必要的监视。</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"现在还来得及吗？"</h2>
+            <p style="font-size: 1rem;">保护你隐私的最佳时机就是今天！现在采取行动至关重要，因为公司可能已经可以访问你的数据。通过主动管理你的隐私设置和数据共享，你可以显著减少你的数字足迹，并保护你的个人信息安全。</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"我该怎么办？"</h2>
+            <p style="font-size: 1rem;">尝试改善你的隐私可能会让人感到不知所措；这就是我们创建 Beginner Privacy 的原因，旨在尽可能简化这一过程。</p>
+            <a
+              
+              class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
+              style="margin-top: 15px;"
+              onclick="scrollUp();"
+              
+            >开始改善你的隐私</a>
+
+        </div>
+    </div>
 </div>
 <div class="community-section">
     <div class="community-content">
@@ -3437,7 +3465,7 @@ const resultTexts = {
         </div>
     </div>
 </div>
-<div class="checklists-section" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+<div class="checklists-section" style="margin-bottom: 16rem; width: 100%; margin-top: 16rem;">
     <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">检查清单</h1>
     <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
     <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
@@ -3488,7 +3516,7 @@ const resultTexts = {
     </div>
 </div>
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-font-bold">我们需要你的帮助！</h1>
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">我们需要你的帮助！</h1>
     <p style="font-size: 1.1rem;">初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
     <a

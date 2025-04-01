@@ -22,7 +22,7 @@
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Gratuito, de código abierto Comienza Tu Viaje De Privacidad Hoy con Beginner Privacy ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando. Beginner Privacy es tu hoja de ruta para recuperar una vida privada.">
   <meta itemprop="dateModified" content="2025-03-30T14:21:09+02:00">
-  <meta itemprop="wordCount" content="7000">
+  <meta itemprop="wordCount" content="7160">
   <meta itemprop="image" content="http://localhost:1313/images/feature.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/feature.png">
@@ -597,41 +597,43 @@
   >Empieza ahora</a>
 
 <a
-    href="articles/why-you-should-care-about-your-privacy"
+    
     class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
     style="margin: 2px;"
-    onclick="toggleShareDropdown();"
+    onclick="scrollMisconceptions();"
+    
   >¿No estás seguro? Aquí está la razón</a>
 </p>
 </div>
-<div class="roadmap hx-mt-6" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
-  <div>
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-      <div class="tabs">
-          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-          <label class="tab" for="radio-start">Inicio</label>
-          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-basic">Básico</label>
-          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-medium">Medio</label>
-          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-advanced">Avanzado</label>
-          <span class="glider"></span>
+<div id="roadmap" style="margin-bottom: 10rem; width: 100%; padding-top: 10rem;">
+  <div class="roadmap hx-mt-6">
+    <div>
+      <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de ruta</h1>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        <div class="tabs">
+            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+            <label class="tab" for="radio-start">Inicio</label>
+            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-basic">Básico</label>
+            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-medium">Medio</label>
+            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+            <label class="tab" for="radio-advanced">Avanzado</label>
+            <span class="glider"></span>
+        </div>
+        <div id="import-export" style="display: flex; align-items: center;">
+            <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
+                Importar
+                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
+            </label>
+            <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Exportar</button>
+        </div>
       </div>
-      <div id="import-export" style="display: flex; align-items: center;">
-          <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
-              Importar
-              <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
-          </label>
-          <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Exportar</button>
-      </div>
-    </div>
-</div>
-<div id="roadmapContent" class="hx-mt-4">
-  <div id="startContent" class="roadmap-section">
-    <ol>
-      <li><div id="sobre-beginner-privacy" class="roadmap-modal">
+  </div>
+  <div id="roadmapContent" class="hx-mt-4">
+    <div id="startContent" class="roadmap-section">
+      <ol>
+        <li><div id="sobre-beginner-privacy" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -757,7 +759,7 @@
     </div>
   
 </a></li>
-      <li><div id="por-qu%C3%A9-preocuparse-por-tu-privacidad" class="roadmap-modal">
+        <li><div id="por-qu%C3%A9-preocuparse-por-tu-privacidad" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -828,7 +830,7 @@
     </div>
   
 </a></li>
-      <li><div id="encontrar-un-modelo-de-amenaza" class="roadmap-modal">
+        <li><div id="encontrar-un-modelo-de-amenaza" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1011,11 +1013,11 @@ const resultTexts = {
     </div>
   
 </a></li>
-    </ol>
-  </div>
-  <div id="basicContent" class="roadmap-section" style="display:none;">
-    <ol>
-        <li><div id="introducci%C3%B3n-b%C3%A1sica" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="basicContent" class="roadmap-section" style="display:none;">
+      <ol>
+          <li><div id="introducci%C3%B3n-b%C3%A1sica" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1063,7 +1065,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-        <li><div id="contrase%C3%B1as-fuertes" class="roadmap-modal">
+          <li><div id="contrase%C3%B1as-fuertes" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1200,7 +1202,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-        <li><div id="autenticaci%C3%B3n-de-dos-factores-2fa" class="roadmap-modal">
+          <li><div id="autenticaci%C3%B3n-de-dos-factores-2fa" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1318,7 +1320,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-        <li><div id="limitar-la-informaci%C3%B3n-compartida" class="roadmap-modal">
+          <li><div id="limitar-la-informaci%C3%B3n-compartida" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1464,7 +1466,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-        <li><div id="navegador-privado" class="roadmap-modal">
+          <li><div id="navegador-privado" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1605,7 +1607,7 @@ const resultTexts = {
     </div>
   
 </a></li>
-        <li><div id="motor-de-b%C3%BAsqueda-privado" class="roadmap-modal">
+          <li><div id="motor-de-b%C3%BAsqueda-privado" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1715,7 +1717,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="red-privada-virtual-vpn" class="roadmap-modal">
+          <li><div id="red-privada-virtual-vpn" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1837,7 +1839,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="configuraci%C3%B3n-de-privacidad-m%C3%B3vil" class="roadmap-modal">
+          <li><div id="configuraci%C3%B3n-de-privacidad-m%C3%B3vil" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1937,7 +1939,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="configuraci%C3%B3n-de-privacidad-del-escritorio" class="roadmap-modal">
+          <li><div id="configuraci%C3%B3n-de-privacidad-del-escritorio" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2055,7 +2057,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="correo-electr%C3%B3nico-privado" class="roadmap-modal">
+          <li><div id="correo-electr%C3%B3nico-privado" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2156,7 +2158,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="mensajer%C3%ADa-segura" class="roadmap-modal">
+          <li><div id="mensajer%C3%ADa-segura" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2259,7 +2261,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-        <li><div id="falta-algo-contribuye" class="roadmap-modal">
+          <li><div id="falta-algo-contribuye" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2315,11 +2317,11 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
 
   
 </a></li>
-    </ol>
-  </div>
-  <div id="mediumContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li><div id="introducci%C3%B3n-media" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="mediumContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li><div id="introducci%C3%B3n-media" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2368,7 +2370,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-      <li><div id="software-libre-y-de-c%C3%B3digo-abierto" class="roadmap-modal">
+        <li><div id="software-libre-y-de-c%C3%B3digo-abierto" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2482,7 +2484,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
     </div>
   
 </a></li>
-      <li><div id="c%C3%A1mbiate-a-linux" class="roadmap-modal">
+        <li><div id="c%C3%A1mbiate-a-linux" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2635,7 +2637,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="interfaces-de-redes-sociales" class="roadmap-modal">
+        <li><div id="interfaces-de-redes-sociales" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2678,7 +2680,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="eliminaci%C3%B3n-de-corredores-de-datos" class="roadmap-modal">
+        <li><div id="eliminaci%C3%B3n-de-corredores-de-datos" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2721,7 +2723,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="opsec-b%C3%A1sico" class="roadmap-modal">
+        <li><div id="opsec-b%C3%A1sico" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2764,7 +2766,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="qu%C3%A9-es-tor" class="roadmap-modal">
+        <li><div id="qu%C3%A9-es-tor" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2807,7 +2809,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="dns-cifrado" class="roadmap-modal">
+        <li><div id="dns-cifrado" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2850,7 +2852,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="falta-algo-contribuye" class="roadmap-modal">
+        <li><div id="falta-algo-contribuye" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2906,11 +2908,11 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
 
   
 </a></li>
-    </ol>
-  </div>
-  <div id="advancedContent" class="roadmap-section" style="display:none;">
-    <ol>
-      <li><div id="introducci%C3%B3n-avanzada" class="roadmap-modal">
+      </ol>
+    </div>
+    <div id="advancedContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li><div id="introducci%C3%B3n-avanzada" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2958,7 +2960,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="sistema-operativo-de-escritorio" class="roadmap-modal">
+        <li><div id="sistema-operativo-de-escritorio" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3001,7 +3003,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="sistema-operativo-m%C3%B3vil" class="roadmap-modal">
+        <li><div id="sistema-operativo-m%C3%B3vil" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3044,7 +3046,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="autoalojamiento" class="roadmap-modal">
+        <li><div id="autoalojamiento" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3087,7 +3089,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="criptomoneda" class="roadmap-modal">
+        <li><div id="criptomoneda" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3130,7 +3132,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="adquirir-cripto" class="roadmap-modal">
+        <li><div id="adquirir-cripto" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3173,7 +3175,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="encriptar-todo" class="roadmap-modal">
+        <li><div id="encriptar-todo" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3216,7 +3218,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="evitando-trampas-de-miel" class="roadmap-modal">
+        <li><div id="evitando-trampas-de-miel" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3259,7 +3261,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="qu%C3%A9-es-i2p" class="roadmap-modal">
+        <li><div id="qu%C3%A9-es-i2p" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3302,7 +3304,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="opsec-avanzado" class="roadmap-modal">
+        <li><div id="opsec-avanzado" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3345,7 +3347,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
   
 </a></li>
-      <li><div id="falta-algo-contribuye" class="roadmap-modal">
+        <li><div id="falta-algo-contribuye" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3401,9 +3403,35 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
 
   
 </a></li>
-    </ol>
+      </ol>
+    </div>
+  </div>
   </div>
 </div>
+<div id="common-misconceptions" class="hx-text-center" style="margin-bottom: 10rem;width: 100%; padding-top: 10rem;">
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Conceptos Erróneos Comunes</h1>
+    <div class="misconception-container">
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿Por qué debería preocuparme?"</h2>
+            <p style="font-size: 1rem;">Tu privacidad es esencial para tu seguridad y dignidad. Así como cierras la puerta del baño para tener espacio personal, proteger tu información personal es vital. La idea de "no tengo nada que ocultar" pasa por alto el hecho de que la privacidad es un derecho fundamental, no solo para aquellos que tienen secretos. Proteger tus datos ayuda a prevenir el robo de identidad y la vigilancia no deseada.</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿No es demasiado tarde ahora?"</h2>
+            <p style="font-size: 1rem;">¡El mejor momento para comenzar a proteger tu privacidad es hoy! Es crucial tomar acción ahora, ya que las empresas pueden tener acceso a tus datos. Al ser proactivo con la configuración de tu privacidad y el intercambio de datos, puedes reducir significativamente tu huella digital y mantener tu información personal segura.</p>
+        </div>
+        <div class="misconception-card">
+            <h2 style="font-size: 1.5rem; font-weight: bold;">"¿Qué debo hacer?"</h2>
+            <p style="font-size: 1rem;">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
+            <a
+              
+              class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
+              style="margin-top: 15px;"
+              onclick="scrollUp();"
+              
+            >Comienza a Mejorar Tu Privacidad</a>
+
+        </div>
+    </div>
 </div>
 <div class="community-section">
     <div class="community-content">
@@ -3444,7 +3472,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
         </div>
     </div>
 </div>
-<div class="checklists-section" style="margin-bottom: 10rem;width: 100%; margin-top: 10rem;">
+<div class="checklists-section" style="margin-bottom: 16rem; width: 100%; margin-top: 16rem;">
     <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Listas de Verificación</h1>
     <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
     <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
@@ -3495,7 +3523,7 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     </div>
 </div>
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-font-bold">¡Necesitamos tu ayuda!</h1>
+    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">¡Necesitamos tu ayuda!</h1>
     <p style="font-size: 1.1rem;">¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
     <a

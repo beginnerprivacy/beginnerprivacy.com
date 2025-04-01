@@ -1035,3 +1035,30 @@ th, td {
     display: inline-flex;
 }
 /* End checklists section on homepage */
+
+/* Start common misconceptions section on homepage */
+.misconception-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0.7rem; 
+    justify-content: center;
+}
+
+.misconception-card {
+    margin: 0.7rem; 
+    padding: 1rem;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .misconception-container {
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 600px) {
+    .misconception-card:last-child {
+        grid-column: span 2;
+    }
+}
+/* End common misconceptions section on homepage */
