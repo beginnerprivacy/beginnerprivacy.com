@@ -28,7 +28,7 @@ layout: hextra-home
 <div id="roadmap" style="margin-bottom: 10rem; width: 100%; padding-top: 10rem;">
   <div class="roadmap hx-mt-6">
     <div>
-      <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h1>
+      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h2>
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <div class="tabs">
             <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
@@ -108,7 +108,7 @@ layout: hextra-home
 </div>
 
 <div id="common-misconceptions" class="hx-text-center" style="margin-bottom: 10rem;width: 100%; padding-top: 10rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">常见误解</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">常见误解</h2>
     <div class="misconception-container">
         <div class="misconception-card">
             <h2 style="font-size: 1.5rem; font-weight: bold;">"我为什么要关心？"</h2>
@@ -131,7 +131,7 @@ layout: hextra-home
         <img src="../images/earth.webp" alt="社区图片" class="community-image">
     </div>
     <div class="community-cta">
-        <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">加入我们的社区</h1>
+        <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">加入我们的社区</h2>
         <p style="font-size: 1.1rem;">与热衷于隐私的志同道合者联系。加入我们的论坛，关注我们的社交媒体，参与讨论。</p>
         <div class="social-chat-container">
           <div class="chat-section">
@@ -167,7 +167,7 @@ layout: hextra-home
 </div>
 
 <div class="checklists-section" style="margin-bottom: 16rem; width: 100%; margin-top: 16rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">检查清单</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">检查清单</h2>
     <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
     <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
     <p style="font-size: 1.1rem; margin-bottom: 10px;">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
@@ -218,7 +218,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">我们需要你的帮助！</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">我们需要你的帮助！</h2>
     <p style="font-size: 1.1rem;">初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
     {{< hextra/hero-button text="写内容" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}

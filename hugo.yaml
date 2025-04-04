@@ -1,5 +1,5 @@
 # Configuration
-baseURL: "https://beginnerprivacy.github.io/"
+baseURL: "https://beginnerprivacy.com/"
 title: "Beginner Privacy"
 
 enableRobotsTXT: true
@@ -83,9 +83,9 @@ menu:
       name: A beginner-friendly roadmap for enhancing your online privacy.
 
 params:
-  description: A beginner-friendly roadmap for enhancing your online privacy through actionable tips and resources.
+  description: Online privacy made simple with Beginner Privacy. Learn how to protect your data with our actionable roadmap and guides.
   images:
-    - images/feature.png
+    - images/og_image.png
   navbar:
     displayTitle: true
     displayLogo: true

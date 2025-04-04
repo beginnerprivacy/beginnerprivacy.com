@@ -30,7 +30,7 @@ layout: hextra-home
 <div id="roadmap" style="margin-bottom: 10rem; width: 100%; padding-top: 10rem;">
   <div class="roadmap">
     <div>
-      <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h1>
+      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <div class="tabs">
             <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
@@ -109,7 +109,7 @@ layout: hextra-home
 </div>
 
 <div id="common-misconceptions" class="hx-text-center" style="margin-bottom: 10rem;width: 100%; padding-top: 10rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Common Misconceptions</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Common Misconceptions</h2>
     <div class="misconception-container">
       <div class="misconception-card">
           <h2 style="font-size: 1.5rem; font-weight: bold;">"Why should I care?"</h2>
@@ -132,7 +132,7 @@ layout: hextra-home
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
     <div class="community-cta">
-        <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Join Our Community</h1>
+        <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Join Our Community</h2>
         <p style="font-size: 1.1rem;">Connect with like-minded individuals who are passionate about privacy. Join our forums, follow us on social media, and participate in discussions.</p>
         <div class="social-chat-container">
           <div class="chat-section">
@@ -168,7 +168,7 @@ layout: hextra-home
 </div>
 
 <div class="checklists-section" style="margin-bottom: 16rem; width: 100%; margin-top: 16rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Checklists</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl" style="display: inline;">Checklists</h2>
     <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
     <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
     <p style="font-size: 1.1rem; margin-bottom: 10px;">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
@@ -219,7 +219,7 @@ layout: hextra-home
 </div>
 
 <div id="contributors" class="hx-mt-16" style="width: 100%; text-align: center; font-size: 2rem;">
-    <h1 class="hx-text-4xl hx-font-bold md:hx-text-5xl">We Need Your Help!</h1>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">We Need Your Help!</h2>
     <p style="font-size: 1.1rem;">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
         {{< hextra/hero-button text="Write content" link="about/write-content" icon="pencil" style="height: 50px; font-size: 18px; display: flex; center; align-items: center;justify-content: center; width: 200px; margin: 2px;" >}}
