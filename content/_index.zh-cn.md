@@ -121,7 +121,7 @@ layout: hextra-home
         <div class="misconception-card">
             <h2 style="font-size: 1.5rem; font-weight: bold;">"我该怎么办？"</h2>
             <p style="font-size: 1rem;">尝试改善你的隐私可能会让人感到不知所措；这就是我们创建 Beginner Privacy 的原因，旨在尽可能简化这一过程。</p>
-            {{< hextra/hero-button text="开始改善你的隐私" onclick="scrollUp();" style="margin-top: 15px;" >}}
+            {{< hextra/hero-button text="开始改善你的隐私" onclick="scrollUpMisconceptions();" style="margin-top: 15px;" >}}
         </div>
     </div>
 </div>

@@ -123,7 +123,7 @@ layout: hextra-home
         <div class="misconception-card">
             <h2 style="font-size: 1.5rem; font-weight: bold;">"¿Qué debo hacer?"</h2>
             <p style="font-size: 1rem;">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
-            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollUp();" style="margin-top: 15px;" >}}
+            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollUpMisconceptions();" style="margin-top: 15px;" >}}
         </div>
     </div>
 </div>

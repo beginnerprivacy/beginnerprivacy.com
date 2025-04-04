@@ -864,6 +864,52 @@ th, td {
     display: block;
 }
 
+.checklist-items ul {
+    color: var(--color-black);
+    list-style-type: none;
+    margin: 0;
+}
+
+.checklist-modal-content article main .checklist-items ul li {
+    border: var(--color-black) 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.checklist-items li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.checklist-items ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-black);
+}
+
+.checklist-checkbox {
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+
+.checklist-text {
+    transition: text-decoration 0.2s;
+    vertical-align: top;
+}
+  
+.checklist-checkbox:checked + .checklist-text {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.checklist-checkbox:checked::after {
+    left: 6.5px !important;
+    top: 2px !important;
+    height: 13px !important;
+}
+
 .checklist-modal-content {
     position: absolute;
     width: 100%;
@@ -882,7 +928,7 @@ th, td {
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
-    height: 126px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
