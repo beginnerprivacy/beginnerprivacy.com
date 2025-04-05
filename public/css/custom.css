@@ -319,12 +319,6 @@ input[type="radio"]:checked + label {
     border-bottom-right-radius: 20px;
 }
 
-@media (max-width: 520px) {
-    #import-export {
-        margin-top: 10px;
-    }
-}
-
 input[type="checkbox"] {
     width: 13px;
     height: 13px;

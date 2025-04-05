@@ -43,13 +43,6 @@ layout: hextra-home
             <label class="tab" for="radio-advanced">Advanced</label>
             <span class="glider"></span>
         </div>
-        <div id="import-export" style="display: flex; align-items: center;">
-            <label for="importFile" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700">
-                Import
-                <input type="file" id="importFile" accept=".json" style="display: none;" onchange="importCheckbox();" />
-            </label>
-            <button id="exportButton" style="margin-left: 5px;" class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700" onclick="exportCheckbox();">Export</button>
-        </div>
       </div>
     </div>
     <div id="roadmapContent" class="hx-mt-4">
@@ -122,7 +115,7 @@ layout: hextra-home
       <div class="misconception-card">
           <h2 style="font-size: 1.5rem; font-weight: bold;">"What should I do?"</h2>
           <p style="font-size: 1rem;">Trying to improve your privacy can feel overwhelming; that's why we created Beginner Privacy, to make it as easy as possible.</p>
-{{< hextra/hero-button text="Start Improving Your Privacy" onclick="scrollUpMisconceptions();" style="margin-top: 15px;" >}}
+{{< hextra/hero-button text="Start Improving Your Privacy" onclick="scrollDown();" style="margin-top: 15px;" >}}
       </div>
     </div>
 </div>
