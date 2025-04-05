@@ -384,6 +384,15 @@ function toggleShareDropdown () {
       }
   }
 
+const overlay = document.createElement('div');
+overlay.className = 'overlay';
+document.body.appendChild(overlay);
+
+const navOverlay = document.createElement('div');
+navOverlay.className = 'nav-overlay';
+const navContainer = document.querySelector('.nav-container');
+navContainer.appendChild(navOverlay);
+
 // Carousel for checklists on homepage
 let currentIndex = 0;
 
@@ -709,4 +718,17 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
+        const id = checkbox.id;
+        const savedState = localStorage.getItem(id);
+        if (savedState === 'true') {
+            checkbox.checked = true;
+        }
+        checkbox.addEventListener('change', function() {
+            localStorage.setItem(id, checkbox.checked);
+        });
+  });
 });
