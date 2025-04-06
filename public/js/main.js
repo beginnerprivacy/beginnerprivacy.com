@@ -504,16 +504,16 @@ function updateRoadmap() {
   window.onload = updateRoadmap;
   
   function markAsDone(id) {
-    const checkbox = document.getElementById(`checkbox-${id}`);
+    const checkbox = document.getElementById(`roadmap-${id}`);
     if (!checkbox) return;
     checkbox.checked = !checkbox.checked;
     updateStatus(checkbox);
     
-    localStorage.setItem(`checkbox-${id}`, checkbox.checked);
+    localStorage.setItem(`roadmap-${id}`, checkbox.checked);
   }
   
   function updateStatus(checkbox) {
-    const id = checkbox.id.replace('checkbox-', '');
+    const id = checkbox.id.replace('roadmap-', '');
     const button = document.getElementById(`mark-done-${id}`);
     const icon = document.getElementById(`status-icon-${id}`);
     const todoIcon = document.getElementById(`todo-icon-${id}`);
@@ -577,7 +577,7 @@ function updateRoadmap() {
             overlay.style.display = 'block';
             navoverlay.style.display = 'block';
             const checkboxId = modalID.replace('modal-', '');
-            const checkbox = document.getElementById(`checkbox-${checkboxId}`);
+            const checkbox = document.getElementById(`roadmap-${checkboxId}`);
             if (checkbox) updateStatus(checkbox);
           }
         }

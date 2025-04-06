@@ -741,7 +741,7 @@
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-about-beginner-privacy" aria-label="Checkbox for About Beginner Privacy" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for About Beginner Privacy" disabled />  
     </div>
   
 </a></li>
@@ -812,7 +812,7 @@
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-why-care-about-your-privacy" aria-label="Checkbox for Why care about your privacy?" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for Why care about your privacy?" disabled />  
     </div>
   
 </a></li>
@@ -995,7 +995,7 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-finding-a-threat-model" aria-label="Checkbox for Finding a threat model" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for Finding a threat model" disabled />  
     </div>
   
 </a></li>
@@ -1047,7 +1047,7 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-basic-introduction" aria-label="Checkbox for Basic Introduction" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for Basic Introduction" disabled />  
     </div>
   
 </a></li>
@@ -1178,11 +1178,11 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-strong-passwords" aria-label="Checkbox for Strong Passwords" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for Strong Passwords" disabled />  
     </div>
   
 </a></li>
-            <li><div id="two-factor-authentication-2fa" class="roadmap-modal">
+            <li><div id="two-factor-authentication" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1269,10 +1269,10 @@ const resultTexts = {
         
         <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
         <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-          <button id="mark-done-two-factor-authentication-2fa" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('two-factor-authentication-2fa')">Mark as done</button>
-          <svg id="status-icon-two-factor-authentication-2fa" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="todo-icon-two-factor-authentication-2fa" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-            <path id="done-icon-two-factor-authentication-2fa" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <button id="mark-done-two-factor-authentication" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('two-factor-authentication')">Mark as done</button>
+          <svg id="status-icon-two-factor-authentication" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="todo-icon-two-factor-authentication" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
+            <path id="done-icon-two-factor-authentication" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;"><button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">&lt; Previous</button>
@@ -1283,7 +1283,7 @@ const resultTexts = {
 </div>
 
 <a
-  href="?m=two-factor-authentication-2fa" rel="noreferrer"
+  href="?m=two-factor-authentication" rel="noreferrer"
   style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0)); height: 100px;"
     class=" hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
@@ -1296,7 +1296,7 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-two-factor-authentication-2fa" aria-label="Checkbox for Two-Factor Authentication (2FA)" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for Two-Factor Authentication (2FA)" disabled />  
     </div>
   
 </a></li>
@@ -1441,7 +1441,7 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-limit-information-shared" aria-label="Checkbox for Limit information shared" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for Limit information shared" disabled />  
     </div>
   
 </a></li>
@@ -1582,7 +1582,7 @@ const resultTexts = {
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-private-browser" aria-label="Checkbox for Private Browser" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for Private Browser" disabled />  
     </div>
   
 </a></li>
@@ -1693,11 +1693,11 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-private-search-engine" aria-label="Checkbox for Private Search Engine" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for Private Search Engine" disabled />  
     </div>
   
 </a></li>
-            <li><div id="virtual-private-network-vpn" class="roadmap-modal">
+            <li><div id="virtual-private-network" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -1788,10 +1788,10 @@ Open Safari Settings → Search → Pick your engine.</p>
         
         <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
         <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-          <button id="mark-done-virtual-private-network-vpn" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('virtual-private-network-vpn')">Mark as done</button>
-          <svg id="status-icon-virtual-private-network-vpn" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="todo-icon-virtual-private-network-vpn" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-            <path id="done-icon-virtual-private-network-vpn" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <button id="mark-done-virtual-private-network" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('virtual-private-network')">Mark as done</button>
+          <svg id="status-icon-virtual-private-network" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="todo-icon-virtual-private-network" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
+            <path id="done-icon-virtual-private-network" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;"><button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">&lt; Previous</button>
@@ -1802,7 +1802,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 </div>
 
 <a
-  href="?m=virtual-private-network-vpn" rel="noreferrer"
+  href="?m=virtual-private-network" rel="noreferrer"
   style="background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0)); height: 100px;"
     class=" hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
@@ -1815,7 +1815,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-virtual-private-network-vpn" aria-label="Checkbox for Virtual Private Network (VPN)" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for Virtual Private Network (VPN)" disabled />  
     </div>
   
 </a></li>
@@ -1933,7 +1933,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-mobile-privacy-settings" aria-label="Checkbox for Mobile Privacy Settings" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for Mobile Privacy Settings" disabled />  
     </div>
   
 </a></li>
@@ -2051,7 +2051,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-desktop-privacy-settings" aria-label="Checkbox for Desktop Privacy Settings" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for Desktop Privacy Settings" disabled />  
     </div>
   
 </a></li>
@@ -2152,7 +2152,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-private-email" aria-label="Checkbox for Private Email" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-private-email" aria-label="Checkbox for Private Email" disabled />  
     </div>
   
 </a></li>
@@ -2255,11 +2255,11 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-secure-messaging" aria-label="Checkbox for Secure Messaging" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for Secure Messaging" disabled />  
     </div>
   
 </a></li>
-            <li><div id="something-missing-contribute" class="roadmap-modal">
+            <li><div id="" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2288,10 +2288,10 @@ Open Safari Settings → Search → Pick your engine.</p>
         
         <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
         <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-          <button id="mark-done-something-missing-contribute" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('something-missing-contribute')">Mark as done</button>
-          <svg id="status-icon-something-missing-contribute" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="todo-icon-something-missing-contribute" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-            <path id="done-icon-something-missing-contribute" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <button id="mark-done-" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('')">Mark as done</button>
+          <svg id="status-icon-" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="todo-icon-" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
+            <path id="done-icon-" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;"><button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">&lt; Previous</button>
@@ -2364,7 +2364,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-medium-introduction" aria-label="Checkbox for Medium Introduction" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for Medium Introduction" disabled />  
     </div>
   
 </a></li>
@@ -2478,7 +2478,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-free-and-open-source-software" aria-label="Checkbox for Free and Open Source Software" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for Free and Open Source Software" disabled />  
     </div>
   
 </a></li>
@@ -2639,7 +2639,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-switch-to-linux" aria-label="Checkbox for Switch to Linux" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for Switch to Linux" disabled />  
     </div>
   
 </a></li>
@@ -2682,7 +2682,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-social-media-frontends" aria-label="Checkbox for Social Media Frontends" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for Social Media Frontends" disabled />  
     </div>
   
 </a></li>
@@ -2725,7 +2725,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-removal-from-data-brokers" aria-label="Checkbox for Removal from Data Brokers" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for Removal from Data Brokers" disabled />  
     </div>
   
 </a></li>
@@ -2768,7 +2768,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-basic-opsec" aria-label="Checkbox for Basic OpSec" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-basic-opsec" aria-label="Checkbox for Basic OpSec" disabled />  
     </div>
   
 </a></li>
@@ -2811,7 +2811,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-what-is-tor" aria-label="Checkbox for What is Tor?" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for What is Tor?" disabled />  
     </div>
   
 </a></li>
@@ -2854,11 +2854,11 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-encrypted-dns" aria-label="Checkbox for Encrypted DNS" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for Encrypted DNS" disabled />  
     </div>
   
 </a></li>
-          <li><div id="something-missing-contribute" class="roadmap-modal">
+          <li><div id="" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -2887,10 +2887,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
         <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
         <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-          <button id="mark-done-something-missing-contribute" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('something-missing-contribute')">Mark as done</button>
-          <svg id="status-icon-something-missing-contribute" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="todo-icon-something-missing-contribute" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-            <path id="done-icon-something-missing-contribute" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <button id="mark-done-" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('')">Mark as done</button>
+          <svg id="status-icon-" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="todo-icon-" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
+            <path id="done-icon-" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;"><button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">&lt; Previous</button>
@@ -2962,7 +2962,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-advanced-introduction" aria-label="Checkbox for Advanced Introduction" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for Advanced Introduction" disabled />  
     </div>
   
 </a></li>
@@ -3005,7 +3005,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-desktop-operating-system" aria-label="Checkbox for Desktop Operating System" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for Desktop Operating System" disabled />  
     </div>
   
 </a></li>
@@ -3048,7 +3048,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-mobile-operating-system" aria-label="Checkbox for Mobile Operating System" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for Mobile Operating System" disabled />  
     </div>
   
 </a></li>
@@ -3091,7 +3091,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-self-hosting" aria-label="Checkbox for Self-Hosting" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for Self-Hosting" disabled />  
     </div>
   
 </a></li>
@@ -3134,7 +3134,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-cryptocurrency" aria-label="Checkbox for Cryptocurrency" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for Cryptocurrency" disabled />  
     </div>
   
 </a></li>
@@ -3177,7 +3177,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-acquiring-crypto" aria-label="Checkbox for Acquiring crypto" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-acquiring-crypto" aria-label="Checkbox for Acquiring crypto" disabled />  
     </div>
   
 </a></li>
@@ -3220,7 +3220,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-encrypting-everything" aria-label="Checkbox for Encrypting Everything" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-encrypting-everything" aria-label="Checkbox for Encrypting Everything" disabled />  
     </div>
   
 </a></li>
@@ -3263,7 +3263,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-avoiding-honeypots" aria-label="Checkbox for Avoiding Honeypots" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-avoiding-honeypots" aria-label="Checkbox for Avoiding Honeypots" disabled />  
     </div>
   
 </a></li>
@@ -3306,7 +3306,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-what-is-i2p" aria-label="Checkbox for What is I2P?" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-what-is-i2p" aria-label="Checkbox for What is I2P?" disabled />  
     </div>
   
 </a></li>
@@ -3349,11 +3349,11 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
     <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="checkbox-advanced-opsec" aria-label="Checkbox for Advanced OpSec" disabled />  
+      <input class="hx-checkbox" type="checkbox" id="roadmap-advanced-opsec" aria-label="Checkbox for Advanced OpSec" disabled />  
     </div>
   
 </a></li>
-          <li><div id="something-missing-contribute" class="roadmap-modal">
+          <li><div id="" class="roadmap-modal">
   <div class="roadmap-modal-content">
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
@@ -3382,10 +3382,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
         <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
         <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-          <button id="mark-done-something-missing-contribute" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('something-missing-contribute')">Mark as done</button>
-          <svg id="status-icon-something-missing-contribute" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="todo-icon-something-missing-contribute" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-            <path id="done-icon-something-missing-contribute" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <button id="mark-done-" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('')">Mark as done</button>
+          <svg id="status-icon-" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path id="todo-icon-" stroke-width="2"  d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
+            <path id="done-icon-" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;"><button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">&lt; Previous</button>
