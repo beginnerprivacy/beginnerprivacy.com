@@ -367,22 +367,22 @@ function startAssessment(id) {
     showQuestion(id, 0);
   }
 ;
-function toggleShareDropdown () {
+function toggleShareDropdown() {
     const dropdown = document.getElementById("shareDropdown");
-    dropdown.style.display = "block";
-  }
-  
-  window.onclick = function(event) {
-      if (!event.target.matches('.share-button')) {
-          const dropdowns = document.getElementsByClassName ("dropdown-content");
-          for (let i = 0; i < dropdowns.length; i++) {
-              const openDropdown = dropdowns[i];
-              if (openDropdown.style.display === "block") {
-                  openDropdown.style.display = "none";
-              }
-          }
-      }
-  }
+    if (dropdown.style.display === "block") {
+        dropdown.style.display = "none";
+    } else {
+        dropdown.style.display = "block";
+    }
+}
+
+document.addEventListener('click', function (e) {
+    const dropdown = document.getElementById("shareDropdown");
+    const dropdownButton = document.querySelector(".shareDropdownButton");
+    if (dropdown.style.display === "block" && !dropdown.contains(e.target) && !dropdownButton.contains(e.target)) {
+        dropdown.style.display = "none";
+    }
+});
 
 const overlay = document.createElement('div');
 overlay.className = 'overlay';

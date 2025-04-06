@@ -673,6 +673,9 @@ video {
 .hx-mt-8 {
   margin-top: 2rem;
 }
+.hx-mb-10px {
+  margin-bottom: 10px;
+}
 .hx-line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -1207,6 +1210,9 @@ video {
   font-size: 1.5rem;
 }
 .hx-text-4xl {
+  font-size: 2.25rem;
+}
+.hx-text-2rem {
   font-size: 2.25rem;
 }
 .hx-text-\[\.65rem\] {
