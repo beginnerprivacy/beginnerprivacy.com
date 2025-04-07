@@ -14,7 +14,7 @@ layout: hextra-home
     imageTitle="Surveillance Camera" >}}
   {{< /hextra/hero-container >}}
 
-  <div class="hx-mt-6 hx-mb-6">
+  <div class="hx-mt-6 hx-mb-4">
   {{< hextra/hero-headline >}}Comienza Tu Viaje De Privacidad Hoy&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 

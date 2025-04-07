@@ -14,7 +14,7 @@ layout: hextra-home
     imageTitle="Surveillance Camera" >}}
   {{< /hextra/hero-container >}}
 
-  <div class="hx-mt-6 hx-mb-6">{{< hextra/hero-headline >}}今天就开始你的隐私之旅&nbsp;<br class="sm:hx-block hx-hidden" />与 Beginner Privacy{{< /hextra/hero-headline >}}
+  <div class="hx-mt-6 hx-mb-4">{{< hextra/hero-headline >}}今天就开始你的隐私之旅&nbsp;<br class="sm:hx-block hx-hidden" />与 Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
   <div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">{{< hextra/hero-subtitle >}}你的隐私很重要！但大组织正在夺走它。&nbsp;<br class="sm:hx-block hx-hidden" />初学者隐私是你重获私人生活的路线图。
