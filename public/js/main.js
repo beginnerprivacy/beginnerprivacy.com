@@ -486,7 +486,7 @@ function scrollDown() {
           block: 'start'
       });
   }
-} 
+}
 ;
 function updateRoadmap() {
   const sections = document.querySelectorAll('.roadmap-section');
