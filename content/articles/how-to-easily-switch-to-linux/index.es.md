@@ -16,7 +16,11 @@ Con cientos de distribuciones (o "distros") disponibles, elegir la correcta pued
 - Las **distros basadas en Arch** (por ejemplo, Manjaro) se dirigen a usuarios que desean software de vanguardia y una personalización más profunda.
 - **Fedora** u **openSUSE** logran un equilibrio entre innovación y fiabilidad.
 
-Para la mayoría de los recién llegados, recomendamos **Debian**, la base sólida para muchas distros populares. Una vez que hayas elegido una distro, decide un entorno de escritorio:
+{{< callout type="info" >}}
+  Si no estás seguro de qué distribución elegir, visita el sitio web de [Distrochooser](https://distrochooser.de/).
+{{< /callout >}}
+
+Para la mayoría de los recién llegados, recomendamos **Debian**—la base sólida para muchas distribuciones populares, como puedes ver en el gráfico a continuación. Una vez que hayas elegido una distribución, decide sobre un entorno de escritorio:
 - **GNOME**: Elegante, moderno e intuitivo (similar a macOS).
 - **KDE Plasma**: Altamente personalizable con una sensación similar a Windows.
 - **XFCE** o **LXQt**: Opciones ligeras para hardware más antiguo.

@@ -16,7 +16,11 @@ With hundreds of distributions (or “distros”) available, picking the right o
 - **Arch-based distros** (e.g., Manjaro) cater to users who want bleeding-edge software and deeper customization.
 - **Fedora** or **openSUSE** strike a balance between innovation and reliability.
 
-For most newcomers, we recommend **Debian**—the rock-solid foundation for many popular distros. Once you’ve chosen a distro, decide on a desktop environment:
+{{< callout type="info" >}}
+  If you're unsure which distro to choose, visit the [Distrochooser](https://distrochooser.de/) website.
+{{< /callout >}}
+
+For most newcomers, we recommend **Debian**—the rock-solid foundation for many popular distros, as you can see on the chart below. Once you’ve chosen a distro, decide on a desktop environment:
 - **GNOME**: Sleek, modern, and intuitive (similar to macOS).
 - **KDE Plasma**: Highly customizable with a Windows-like feel.
 - **XFCE** or **LXQt**: Lightweight options for older hardware.
