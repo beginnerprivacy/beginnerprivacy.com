@@ -20,16 +20,30 @@ title: Checklists
 {{< hextra/checklist-card title="Protestor" modalID="protestor" image="../images/checklists/protestor.webp" >}}
     {{< hextra/checklist-item text="Turn your phone completely off to be 100% sure nothing is leaking from it. Airplane mode is not enough!" id="turn-your-phone-completely-off" >}}Turn your phone completely off{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="Carefully plan your route to and from the protest to avoid potential hotspots of police activity and surveillance." id="plan-your-trip" >}}Plan your trip {{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="Carefully plan your route to and from the protest to avoid potential hotspots of police activity and surveillance." id="plan-your-trip" >}}Plan your trip{{< /hextra/checklist-item >}}
     
-    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Use end-to-end encrypted messaging apps to communicate with your team." id="only-use-encrypted-communication" >}}Only use encrypted communication{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Use end-to-end encrypted messaging apps to communicate with other protestors." id="only-use-encrypted-communication" >}}Only use encrypted communication{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Back up your data in case your phone is lost or confiscated by the police." id="back-up-your-phone" >}}Back up your phone{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Wear clothing that conceals your identity and protects you from surveillance." id="cover-yourself" >}}Cover yourself{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Whistleblower" modalID="whistleblower" image="../images/checklists/whistleblower.webp" >}}{{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Social Media Influencer" modalID="social-media-influencer" image="../images/checklists/social-media-influencer.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Whistleblower" modalID="whistleblower" image="../images/checklists/whistleblower.webp" >}}
+    {{< hextra/checklist-item text="In case you need to flee." id="find-countries-that-won't-extradite-you" >}}Find countries that won't extradite you{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Use end-to-end encrypted messaging apps to communicate." id="only-use-encrypted-communication" >}}Only use encrypted communication{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Ensure you maintain a high level of operational security to stay anonymous." id="learn-about-advanced-opsec-techniques" >}}Learn about advanced OpSec techniques{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Social Media Influencer" modalID="social-media-influencer" image="../images/checklists/social-media-influencer.webp" >}}
+    {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="Create strong and unique passwords for each of your accounts to enhance security." id="strong-unique-passwords" >}}Strong unique passwords{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/two-factor-authentication-and-why-you-need-it" text="Use 2FA to secure your accounts." id="two-factor-authentication" >}}Two-Factor Authentication (2FA){{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Limit the amount of personal information shared online, including details about family, home address, and daily activities." id="be -cautious-with-personal-information" >}}Be cautious with personal information{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="With a large following, you're a target for hackers. Verify email senders and be cautious of emails asking for personal information or containing suspicious links." id="avoid-phishing-emails" >}}Avoid phishing emails{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Hacker" modalID="hacker" image="../images/checklists/hacker.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Mass Surveillance" modalID="mass-surveillance" image="../images/checklists/mass-surveillance.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Digital Nomad" modalID="digital-nomad" image="../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}

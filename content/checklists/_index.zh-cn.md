@@ -18,18 +18,32 @@ title: 检查表
     {{< hextra/checklist-item link="../articles/desktop-settings-to-change-for-better-privacy" text="对桌面设置进行必要的更改以增强您的隐私。" id="desktop-privacy-settings" >}} 桌面隐私设置{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="抗议者" modalID="protestor" image="../../images/checklists/protestor.webp" >}}
-    {{< hextra/checklist-item text="完全关闭你的手机，以确保没有任何信息泄露。飞行模式是不够的！" id="turn-your-phone-completely-off" >}}完全关闭你的手机{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="完全关闭你的手机，以确保100%没有信息泄露。飞行模式不够！" id="turn-your-phone-completely-off" >}}完全关闭你的手机{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="仔细规划你前往和离开抗议活动的路线，以避免潜在的警察活动和监视热点。" id="plan-your-trip" >}}规划你的行程{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="仔细规划前往和离开抗议活动的路线，以避免潜在的警察活动和监视热点。" id="plan-your-trip" >}}规划你的行程{{< /hextra/checklist-item >}}
     
-    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="使用端到端加密的消息应用程序与团队沟通。" id="only-use-encrypted-communication" >}}仅使用加密通信{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="使用端到端加密的消息应用程序与其他抗议者沟通。" id="only-use-encrypted-communication" >}}仅使用加密通信{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="备份你的数据，以防你的手机丢失或被警方没收。" id="back-up-your-phone" >}}备份你的手机{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="备份你的数据，以防手机丢失或被警方没收。" id="back-up-your-phone" >}}备份你的手机{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="穿着能够隐藏你身份并保护你免受监视的衣物。" id="cover-yourself" >}}遮掩自己{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="穿着能够掩盖你身份并保护你免受监视的衣物。" id="cover-yourself" >}}保护自己{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="举报人" modalID="whistleblower" image="../../images/checklists/whistleblower.webp" >}}{{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="社交媒体影响者" modalID="social-media-influencer" image="../../images/checklists/social-media-influencer.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="举报人" modalID="whistleblower" image="../../images/checklists/whistleblower.webp" >}}
+    {{< hextra/checklist-item text="如果你需要逃跑。" id="find-countries-that-won't-extradite-you" >}}寻找不会引渡你的国家{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="使用端到端加密的消息应用程序进行沟通。" id="only-use-encrypted-communication" >}}仅使用加密通信{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="确保保持高水平的操作安全，以保持匿名。" id="learn-about-advanced-opsec-techniques" >}}了解高级操作安全技术{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="社交媒体影响者" modalID="social-media-influencer" image="../../images/checklists/social-media-influencer.webp" >}}
+    {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="为每个账户创建强大且独特的密码以增强安全性。" id="strong-unique-passwords" >}}强大且独特的密码{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/two-factor-authentication-and-why-you-need-it" text="使用双因素认证来保护你的账户。" id="two-factor-authentication" >}}双因素认证 (2FA){{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="限制在线分享的个人信息，包括家庭、住址和日常活动的细节。" id="be -cautious-with-personal-information" >}}谨慎对待个人信息{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="拥有大量粉丝，你是黑客的目标。验证电子邮件发件人，并对请求个人信息或包含可疑链接的电子邮件保持警惕。" id="avoid-phishing-emails" >}}避免网络钓鱼邮件{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="黑客" modalID="hacker" image="../../images/checklists/hacker.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="大规模监控" modalID="mass-surveillance" image="../../images/checklists/mass-surveillance.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="数字游牧者" modalID="digital-nomad" image="../../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}

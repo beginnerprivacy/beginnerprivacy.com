@@ -18,18 +18,32 @@ title: Listas de verificación
     {{< hextra/checklist-item link="../articles/desktop-settings-to-change-for-better-privacy" text="Realice los cambios necesarios en la configuración de su escritorio para mejorar su privacidad." id="desktop-privacy-settings" >}}Configuraciones de privacidad de escritorio{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Protestor" modalID="protestor" image="../../images/checklists/protestor.webp" >}}
-    {{< hextra/checklist-item text="Apaga completamente tu teléfono para estar 100% seguro de que no se está filtrando nada. ¡El modo avión no es suficiente!" id="turn-your-phone-completely-off" >}}Apaga tu teléfono completamente{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item text="Apaga completamente tu teléfono para asegurarte al 100% de que no se está filtrando nada. ¡El modo avión no es suficiente!" id="turn-your-phone-completely-off" >}}Apaga completamente tu teléfono{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Planifica cuidadosamente tu ruta hacia y desde la protesta para evitar posibles puntos críticos de actividad policial y vigilancia." id="plan-your-trip" >}}Planifica tu viaje{{< /hextra/checklist-item >}}
     
-    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería cifrada de extremo a extremo para comunicarte con tu equipo." id="only-use-encrypted-communication" >}}Solo usa comunicación cifrada{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte con otros manifestantes." id="only-use-encrypted-communication" >}}Solo usa comunicación cifrada{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Haz una copia de seguridad de tus datos en caso de que tu teléfono se pierda o sea confiscado por la policía." id="back-up-your-phone" >}}Haz una copia de seguridad de tu teléfono{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Usa ropa que oculte tu identidad y te proteja de la vigilancia." id="cover-yourself" >}}Cúbrete{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Denunciante" modalID="whistleblower" image="../../images/checklists/whistleblower.webp" >}}{{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Influencer de Redes Sociales" modalID="social-media-influencer" image="../../images/checklists/social-media-influencer.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Denunciante" modalID="whistleblower" image="../../images/checklists/whistleblower.webp" >}}
+    {{< hextra/checklist-item text="En caso de que necesites huir." id="find-countries-that-won't-extradite-you" >}}Encuentra países que no te extraditen{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte." id="only-use-encrypted-communication" >}}Solo usa comunicación cifrada{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Asegúrate de mantener un alto nivel de seguridad operativa para permanecer anónimo." id="learn-about-advanced-opsec-techniques" >}}Aprende sobre técnicas avanzadas de OpSec{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Influencer de Redes Sociales" modalID="social-media-influencer" image="../../images/checklists/social-media-influencer.webp" >}}
+    {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad." id="strong-unique-passwords" >}}Contraseñas fuertes y únicas{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/two-factor-authentication-and-why-you-need-it" text="Usa 2FA para asegurar tus cuentas." id="two-factor-authentication" >}}Autenticación de Dos Factores (2FA){{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Limita la cantidad de información personal compartida en línea, incluidos detalles sobre tu familia, dirección y actividades diarias." id="be -cautious-with-personal-information" >}}Ten cuidado con la información personal{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Con un gran número de seguidores, eres un objetivo para los hackers. Verifica los remitentes de los correos electrónicos y ten cuidado con los correos que piden información personal o contienen enlaces sospechosos." id="avoid-phishing-emails" >}}Evita correos electrónicos de phishing{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Hacker" modalID="hacker" image="../../images/checklists/hacker.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Vigilancia Masiva" modalID="mass-surveillance" image="../../images/checklists/mass-surveillance.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Nómada Digital" modalID="digital-nomad" image="../../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}

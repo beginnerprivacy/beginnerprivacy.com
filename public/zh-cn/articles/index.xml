@@ -32,7 +32,15 @@
 &lt;li&gt;&lt;strong&gt;基于 Arch 的发行版&lt;/strong&gt;（例如，Manjaro）适合希望获得前沿软件和更深层次定制的用户。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fedora&lt;/strong&gt; 或 &lt;strong&gt;openSUSE&lt;/strong&gt; 在创新和可靠性之间取得了平衡。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;对于大多数新手，我们推荐 &lt;strong&gt;Debian&lt;/strong&gt;——许多流行发行版的坚实基础。一旦你选择了一个发行版，决定一个桌面环境：&lt;/p&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;如果您不确定选择哪个发行版，请访问 &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distrochooser&lt;/a&gt; 网站。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;对于大多数新手，我们推荐 &lt;strong&gt;Debian&lt;/strong&gt;——许多流行发行版的坚实基础，您可以在下面的图表中看到。一旦您选择了一个发行版，请决定一个桌面环境：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;GNOME&lt;/strong&gt;：简洁、现代且直观（类似于 macOS）。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;：高度可定制，具有类似 Windows 的感觉。&lt;/li&gt;
