@@ -24,7 +24,7 @@ Our mission is to simplify your journey toward online privacy and anonymity, whe
 We provide clear, actionable guidance on everything from basic privacy practices to advanced security tools. Our goal is to empower you to take control of your online presence with confidence.
 
 ## Contributing
-We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](https://beginnerprivacy.com/about/contribute) for more information on how you can get involved.
+We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](https://beginnerprivacy.com/about/about-contributing) for more information on how you can get involved.
 
 ## License
 Copyright &copy; 2025 Beginner Privacy.

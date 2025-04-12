@@ -415,6 +415,23 @@
                 href="http://localhost:1313/zh-cn/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-cn/about/transparency/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/transparency/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/transparency/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/transparency/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/about/about-contributing/</loc>
     <lastmod>2025-03-26T21:08:51+01:00</lastmod>
     <xhtml:link
@@ -452,7 +469,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/checklists/</loc>
-    <lastmod>2025-04-07T17:38:04+02:00</lastmod>
+    <lastmod>2025-04-11T20:33:27+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
