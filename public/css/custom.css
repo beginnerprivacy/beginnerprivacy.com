@@ -535,6 +535,12 @@ th, td {
     gap: 1rem;
 }
 
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
 .recommended-title {
   margin-top: 0rem;
   border-bottom-width: 1px;

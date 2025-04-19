@@ -12,7 +12,7 @@ category: Contributing
 
 **Echa un vistazo a lo que debes escribir:** 
 
-Dirígete a nuestro [Tablero de Estado de Artículos](https://github.com/orgs/beginnerprivacy/projects/1) en GitHub para ver qué artículos no se han hecho.
+Dirígete a nuestro [Tablero de estado de artículos](https://github.com/orgs/beginnerprivacy/projects/1) en GitHub para ver qué artículos aún no se han escrito.
 
 ### Crea tu artículo
 1. Navega a la carpeta [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles).
@@ -40,12 +40,14 @@ excludeSearch: false
 ```
 
 ### Estilo de escritura
-**Público:**  Adultos que usan tecnología: eviten la simplificación excesiva pero expliquen la jerga.
+**Público:**
+
+La audiencia de Beginner Privacy está compuesta por adultos de entre 18 y 50 años que tienen un conocimiento básico de internet y computadoras. Es importante aclarar cualquier jerga utilizada, evitando la simplificación excesiva.
 
 **Estilo:**
 - Usa el inglés americano.
 - Sea conciso mientras cubre los detalles clave (por ejemplo, por qué se recomienda una herramienta).
-- Estructura el contenido con encabezados Markdown (`##`, `###`).
+- Estructura el contenido con encabezados Markdown (`###`).
 
 ### Traduciendo Artículo
 Beginner Privacy está disponible en 3 idiomas: inglés, español y chino (simplificado).

@@ -12,7 +12,7 @@ Welcome to the Beginner Privacy content guide!
 
 **Check out what to write:** 
 
-Head over to our [Article Status Board](https://github.com/orgs/beginnerprivacy/projects/1) on GitHub to see what articles haven't been done.
+Head over to our [Article Status Board](https://github.com/orgs/beginnerprivacy/projects/1) on GitHub to see what articles haven't been written yet.
 
 ### Create Your Article
 1. Navigate to the [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) folder.
@@ -40,12 +40,14 @@ excludeSearch: false
 ```
 
 ### Writing Style
-**Audience:** Adults using technology – avoid oversimplification but explain jargon.
+**Audience:** 
+
+Beginner Privacy's audience consists of adults aged 18 to 50 who possess a foundational understanding of the internet and computers. While avoiding oversimplification, it is important to clarify any jargon used.
 
 **Style:**
 - Use American English.
 - Be concise while covering key details (e.g., why a tool is recommended).
-- Structure content with Markdown headers (`##`, `###`).
+- Structure content with Markdown headers (`###`).
 
 ### Translating Article
 Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Simplified).
@@ -57,7 +59,6 @@ Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Sim
 3. **Adjust image paths** for non-English articles:
     - Add `../` to paths (e.g., `../../images/...` → `../../../images/...` for the Spanish/Chinese articles).
 4. **Proofread:** Fix formatting issues and ensure clarity.
-
 
 ### Markdown & Shortcodes
 Check out the Hextra documentation on [markdown](https://imfing.github.io/hextra/docs/guide/markdown/) and [shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/). If there is a certain tool or piece of software that you want to recommend in the article, you can use this shortcode.

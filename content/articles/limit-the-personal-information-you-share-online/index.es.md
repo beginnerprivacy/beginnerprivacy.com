@@ -1,5 +1,5 @@
 ---
-title: Limitar la información personal compartida en línea
+title: Limite la Información Personal Que Comparte en Línea
 date: 2025-02-04
 authors:
   - name: PrintN

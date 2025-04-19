@@ -1,5 +1,5 @@
 ---
-title: Limit The Personal Information You Share Online
+title: Limit the Personal Information You Share Online
 date: 2025-02-04
 authors:
   - name: PrintN

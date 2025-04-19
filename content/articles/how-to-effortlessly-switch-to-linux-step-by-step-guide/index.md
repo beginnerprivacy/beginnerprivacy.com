@@ -1,5 +1,5 @@
 ---
-title: "How To Effortlessly Switch To Linux: Step-by-Step Guide"
+title: "How to Effortlessly Switch to Linux: Step-by-Step Guide"
 date: 2025-03-24
 authors:
   - name: PrintN

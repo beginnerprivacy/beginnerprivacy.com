@@ -1,5 +1,5 @@
 ---
-title: Break Free From Proprietary Software With FOSS
+title: Break Free from Proprietary Software with FOSS
 date: 2025-03-05
 authors:
   - name: PrintN

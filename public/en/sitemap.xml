@@ -559,8 +559,44 @@
                 href="http://localhost:1313/about/privacy-policy/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/transparency/2025/q1/</loc>
+    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/transparency/2025/q1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/transparency/2025/q1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/transparency/2025/q1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/transparency/2025/q2/</loc>
+    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/transparency/2025/q2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/transparency/2025/q2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/transparency/2025/q2/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/roadmap-introductions/</loc>
-    <lastmod>2025-03-23T10:56:49+01:00</lastmod>
+    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -650,6 +686,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/transparency/</loc>
+    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

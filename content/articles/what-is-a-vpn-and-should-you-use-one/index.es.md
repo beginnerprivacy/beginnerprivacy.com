@@ -1,5 +1,5 @@
 ---
-title: ¿Qué es una VPN? ¿Y deberías usar una?
+title: ¿Qué Es Una VPN? ¿Y Deberías Usar Una?
 date: 2025-02-16
 authors:
   - name: PrintN

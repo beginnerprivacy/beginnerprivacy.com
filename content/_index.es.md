@@ -74,7 +74,7 @@ layout: hextra-home
       <ol>
         <li>{{< hextra/feature-card title="Introducción Media" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Software Libre y de Código Abierto" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Cámbiate a Linux" id="switch-to-linux" link="articles/how-to-easily-switch-to-linux" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Cámbiate a Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" id="social-media-frontends" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Eliminación de corredores de datos" id="removal-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="OpSec Básico" id="basic-opsec" class="medium-hf-card-color" >}}</li>

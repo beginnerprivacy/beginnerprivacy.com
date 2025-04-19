@@ -1,5 +1,5 @@
 ---
-title: Por qué deberías preocuparte por tu privacidad
+title: Por Qué Deberías Preocuparte Por Tu Privacidad
 date: 2025-01-20
 authors:
   - name: PrintN

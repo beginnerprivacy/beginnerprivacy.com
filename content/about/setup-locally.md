@@ -38,8 +38,8 @@ sudo apt install hugo
 ```
 Or
 ```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-arm64.deb
-sudo dpkg -i hugo_extended_0.145.0_linux-arm64.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb
 ```
 
 **Windows:**

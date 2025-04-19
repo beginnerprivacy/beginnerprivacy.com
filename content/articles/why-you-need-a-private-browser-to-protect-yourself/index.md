@@ -1,5 +1,5 @@
 ---
-title: Why You Need A Private Browser To Protect Yourself
+title: Why You Need a Private Browser to Protect Yourself
 date: 2025-02-06
 authors:
   - name: PrintN

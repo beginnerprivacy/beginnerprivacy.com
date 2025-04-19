@@ -1,5 +1,5 @@
 ---
-title: How To Find A Threat Model That Suits You
+title: How to Find a Threat Model That Suits You
 date: 2025-01-29
 authors:
   - name: PrintN

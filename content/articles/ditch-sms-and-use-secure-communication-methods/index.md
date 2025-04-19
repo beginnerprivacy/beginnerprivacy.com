@@ -1,5 +1,5 @@
 ---
-title: Ditch SMS & Use Secure Communication Methods
+title: Ditch SMS and Use Secure Communication Methods
 date: 2025-03-03
 authors:
   - name: PrintN

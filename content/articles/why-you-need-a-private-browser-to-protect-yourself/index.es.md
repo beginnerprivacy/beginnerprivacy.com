@@ -1,5 +1,5 @@
 ---
-title: Por qué necesitas un navegador privado para protegerte
+title: Por Qué Necesitas Un Navegador Privado Para Protegerte
 date: 2025-02-06
 authors:
   - name: PrintN

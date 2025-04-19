@@ -12,7 +12,7 @@ category: Contributing
 
 **查看要写的内容：** 
 
-前往我们的 [文章状态板](https://github.com/orgs/beginnerprivacy/projects/1) 在 GitHub 上查看哪些文章尚未完成。
+前往我们在 GitHub 上的 [文章状态板](https://github.com/orgs/beginnerprivacy/projects/1) 查看哪些文章尚未编写。
 
 ### 创建您的文章
 1. 导航到 [content/articles/](https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles) 文件夹。
@@ -40,12 +40,14 @@ excludeSearch: false
 ```
 
 ### 写作风格
-**受众：**  使用技术的成年人——避免过于简化，但要解释术语。
-上下文：**风格：**  
-要翻译的文本：**风格：**
-使用美式英语。
+**受众：** 
+
+Beginner Privacy 的受众是年龄在 18 到 50 岁之间的成年人，他们对互联网和计算机有基本的了解。在避免过度简化的同时，重要的是要澄清使用的任何行话。
+
+**风格：**
+- 使用美式英语。
 - 在涵盖关键细节时要简明扼要（例如，为什么推荐某个工具）。
-- 使用Markdown标题（`##`，`###`）来结构化内容。
+- 使用Markdown标题（`###`）来结构化内容。
 
 ### 翻译文章
 Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。

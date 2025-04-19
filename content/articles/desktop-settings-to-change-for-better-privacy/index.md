@@ -1,5 +1,5 @@
 ---
-title: Desktop Settings To Change For Better Privacy
+title: Desktop Settings to Change for Better Privacy
 date: 2025-03-01
 authors:
   - name: PrintN

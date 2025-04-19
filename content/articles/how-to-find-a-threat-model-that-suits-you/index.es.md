@@ -1,5 +1,5 @@
 ---
-title: Cómo encontrar un modelo de amenaza que te convenga
+title:  Cómo Encontrar un Modelo de Amenazas que se Adapte a Ti
 date: 2025-01-29
 authors:
   - name: PrintN

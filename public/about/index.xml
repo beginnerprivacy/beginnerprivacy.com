@@ -313,15 +313,71 @@
     </item>
     
     <item>
-      <title>Quarter 1 2025</title>
-      <link>http://localhost:1313/about/transparency/2025/quarter-2/</link>
+      <title>Q1 2025 Transparency Report</title>
+      <link>http://localhost:1313/about/transparency/2025/q1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/transparency/2025/quarter-2/</guid>
+      <guid>http://localhost:1313/about/transparency/2025/q1/</guid>
       <description>
         
         
+        &lt;h3&gt;Building the Basics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;building-the-basics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#building-the-basics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hey everyone!&lt;/p&gt;
+&lt;p&gt;Welcome to our first transparency report! In Q1, we focused on laying the groundwork for &lt;strong&gt;Beginner Privacy&lt;/strong&gt;. Here’s a quick rundown of what we accomplished:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;What We Did in Q1&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-did-in-q1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-we-did-in-q1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Built the Basics&lt;/strong&gt;: We set up our core principles and workflows to get things rolling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prepared for Transparency&lt;/strong&gt;: We created systems to track our progress and finances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;What’s Next?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;whats-next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#whats-next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For all the details and updates, check out our &lt;a href=&#34;../q2&#34; &gt;Q2 2025 Report&lt;/a&gt; where we’ll dive into everything we’ve been working on!&lt;/p&gt;
+&lt;p&gt;Thanks for being part of this journey with us!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Q2 2025</title>
+      <link>http://localhost:1313/about/transparency/2025/q2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/transparency/2025/q2/</guid>
+      <description>
         
+        
+        &lt;h3&gt;Progress Update&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;progress-update&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#progress-update&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Systems Complete&lt;/strong&gt;: The foundational work for Beginner Privacy is now in place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Established&lt;/strong&gt;: Basic processes are functional and ready for expansion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. Team Expansion&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recruiting &lt;strong&gt;2-3 admins/maintainers&lt;/strong&gt; to assist with operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Community Development&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Self-Hosted Forum&lt;/strong&gt;: A Discourse forum will be set up on a VPS to foster discussions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: Implementation will take time due to technical setup and testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Fiscal Hosting&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Applying for a fiscal host (e.g., Open Collective) to manage donations and sponsorships transparently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Finances&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;finances&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#finances&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Current Costs&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Website: Free (Hosted with GitHub Pages)&lt;/li&gt;
+&lt;li&gt;Domain: $15.99/year.&lt;/li&gt;
+&lt;li&gt;Upcoming VPS: ~$10/month (for forum hosting + transactional email server).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost Strategy&lt;/strong&gt;: Expenses will remain minimal, focusing only on essential services.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Closing Notes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;closing-notes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#closing-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Growth will be gradual, with a focus on sustainability. Updates on forum progress and fiscal hosting will follow in Q3.&lt;/p&gt;
+
       </description>
     </item>
     
@@ -391,8 +447,8 @@ Using Homebrew:&lt;/p&gt;
 &lt;p&gt;Or&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-arm64.deb
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dpkg -i hugo_extended_0.145.0_linux-arm64.deb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_linux-amd64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dpkg -i hugo_extended_0.145.0_linux-amd64.deb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -562,7 +618,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;li&gt;Local Setup (Recommended): &lt;a href=&#34;../setup-locally/&#34; &gt;Learn how to setup this website locally.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Check out what to write:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Head over to our &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Article Status Board&lt;/a&gt; on GitHub to see what articles haven&amp;rsquo;t been done.&lt;/p&gt;
+&lt;p&gt;Head over to our &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Article Status Board&lt;/a&gt; on GitHub to see what articles haven&amp;rsquo;t been written yet.&lt;/p&gt;
 &lt;h3&gt;Create Your Article&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-your-article&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-your-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Navigate to the &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt; folder.&lt;/li&gt;
@@ -602,12 +658,13 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;Writing Style&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;writing-style&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#writing-style&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Audience:&lt;/strong&gt; Adults using technology – avoid oversimplification but explain jargon.&lt;/p&gt;
+    &lt;a href=&#34;#writing-style&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Audience:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beginner Privacy&amp;rsquo;s audience consists of adults aged 18 to 50 who possess a foundational understanding of the internet and computers. While avoiding oversimplification, it is important to clarify any jargon used.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Style:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use American English.&lt;/li&gt;
 &lt;li&gt;Be concise while covering key details (e.g., why a tool is recommended).&lt;/li&gt;
-&lt;li&gt;Structure content with Markdown headers (&lt;code&gt;##&lt;/code&gt;, &lt;code&gt;###&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Structure content with Markdown headers (&lt;code&gt;###&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Translating Article&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;translating-article&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#translating-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Simplified).&lt;/p&gt;

@@ -1,5 +1,5 @@
 ---
-title: How To Create Strong Passwords & Store Them Securely
+title: How to Create Strong Passwords and Store Them Securely
 date: 2025-02-01
 authors:
   - name: PrintN

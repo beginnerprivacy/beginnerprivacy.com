@@ -1,5 +1,5 @@
 ---
-title: Cambia estas configuraciones del teléfono para mejorar la privacidad.
+title: Cambia Estos Ajustes Móviles Para Mejorar La Privacidad
 date: 2025-02-21
 authors:
   - name: PrintN

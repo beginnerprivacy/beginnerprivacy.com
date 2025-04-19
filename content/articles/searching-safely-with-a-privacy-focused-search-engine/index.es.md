@@ -1,5 +1,5 @@
 ---
-title: Buscar de manera segura con un motor de búsqueda centrado en la privacidad
+title: Buscar de Manera Segura Con Un Motor de Búsqueda Centrado en la Privacidad
 date: 2025-02-10
 authors:
   - name: PrintN

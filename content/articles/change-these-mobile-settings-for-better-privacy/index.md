@@ -1,5 +1,5 @@
 ---
-title: Change These Mobile Settings For Better Privacy
+title: Change These Mobile Settings for Better Privacy
 date: 2025-02-21
 authors:
   - name: PrintN

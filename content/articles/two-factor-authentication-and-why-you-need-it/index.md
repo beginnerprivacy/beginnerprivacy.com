@@ -1,5 +1,5 @@
 ---
-title: Two-Factor Authentication (2FA) & Why You Need It
+title: Two-Factor Authentication (2FA) and Why You Need It
 date: 2025-02-03
 authors:
   - name: PrintN

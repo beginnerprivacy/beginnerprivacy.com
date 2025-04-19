@@ -1,5 +1,5 @@
 ---
-title: Searching Safely With A Privacy Focused Search Engine
+title: Searching Safely with a Privacy Focused Search Engine
 date: 2025-02-10
 authors:
   - name: PrintN

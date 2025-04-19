@@ -1,5 +1,5 @@
 ---
-title: Protect Your Communication With A Private Email
+title: Protect Your Communication with a Private Email
 date: 2025-03-02
 authors:
   - name: PrintN
