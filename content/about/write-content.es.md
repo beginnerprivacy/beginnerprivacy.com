@@ -60,17 +60,150 @@ Beginner Privacy está disponible en 3 idiomas: inglés, español y chino (simpl
     - Agrega `../` a las rutas (por ejemplo, `../../images/...` → `../../../images/...` para los artículos en español/chino).
 4. **Revisar:** Corrige problemas de formato y asegura la claridad.
 
+**Translation to Spanish**
+
 ### Markdown y Shortcodes
-Consulta la documentación de Hextra sobre [markdown](https://imfing.github.io/hextra/docs/guide/markdown/) y [shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/). Si hay alguna herramienta o software que quieras recomendar en el artículo, puedes usar este shortcode.
-```html
+Explora la documentación de Hextra sobre [Markdown](https://imfing.github.io/hextra/docs/guide/markdown/) y [Shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/) para mejorar tus artículos, haciéndolos más interactivos y fáciles de leer. Además, Beginner Privacy ofrece varios shortcodes personalizados, que se detallan a continuación.
+
+#### Tarjeta de Recomendación
+Cuando hay una herramienta o software que deseas recomendar.
+```
 <div class="recommendations">
   <div class="grid">
-    {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
+    {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
+
+#### Evaluación
+Ayuda al lector a descubrir más sobre, por ejemplo, sus necesidades de privacidad.
+```
+{{</* hextra/assessment id="threat-model-assesment" */>}}
+{
+  "questions": [
+    {
+      "question": "¿Qué tan sensible es tu actividad en línea típica?",
+      "answers": [
+        {"text": "Navegación web básica (por ejemplo, leer noticias, comprar)", "score": 1},
+        {"text": "Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)", "score": 2},
+        {"text": "Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)", "score": 3},
+        {"text": "Activismo o filtración de información (por ejemplo, compartir información sensible)", "score": 4}
+      ]
+    },
+    {
+      "question": "¿Cuál es tu mayor preocupación de privacidad?",
+      "answers": [
+        {"text": "Anuncios dirigidos", "score": 1},
+        {"text": "Vigilancia masiva", "score": 2},
+        {"text": "Tener una huella digital", "score": 3},
+        {"text": "Ser objetivo de actores maliciosos", "score": 4}
+      ]
+    },
+    {
+      "question": "¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?",
+      "answers": [
+        {"text": "Prefiero la conveniencia sobre la seguridad", "score": 1},
+        {"text": "Haré un esfuerzo, pero no demasiado", "score": 2},
+        {"text": "Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad", "score": 3},
+        {"text": "Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida", "score": 4}
+      ]
+    }
+  ],
+  "resultText": {
+    "casual": "Usuario Casual: Se recomiendan protecciones básicas de privacidad",
+    "privacyConscious": "Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio",
+    "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
+  }
+}
+{{</* /hextra/assessment */>}}
+```
+
+{{< hextra/assessment id="threat-model-assesment" >}}
+{
+  "questions": [
+    {
+      "question": "¿Qué tan sensible es tu actividad en línea típica?",
+      "answers": [
+        {"text": "Navegación web básica (por ejemplo, leer noticias, comprar)", "score": 1},
+        {"text": "Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)", "score": 2},
+        {"text": "Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)", "score": 3},
+        {"text": "Activismo o filtración de información (por ejemplo, compartir información sensible)", "score": 4}
+      ]
+    },
+    {
+      "question": "¿Cuál es tu mayor preocupación de privacidad?",
+      "answers": [
+        {"text": "Anuncios dirigidos", "score": 1},
+        {"text": "Vigilancia masiva", "score": 2},
+        {"text": "Tener una huella digital ", "score": 3},
+        {"text": "Ser objetivo de actores maliciosos", "score": 4}
+      ]
+    },
+    {
+      "question": "¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?",
+      "answers": [
+        {"text": "Prefiero la conveniencia sobre la seguridad", "score": 1},
+        {"text": "Haré un esfuerzo, pero no demasiado", "score": 2},
+        {"text": "Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad", "score": 3},
+        {"text": "Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida", "score": 4}
+      ]
+    }
+  ],
+  "resultText": {
+    "casual": "Usuario Casual: Se recomiendan protecciones básicas de privacidad",
+    "privacyConscious": "Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio",
+    "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
+  }
+}
+{{< /hextra/assessment >}}
+
+#### Cuestionario
+Pon a prueba el conocimiento del lector o evalúa su comprensión del artículo.
+```
+{{</* hextra/quiz id="math-quiz" */>}}
+{
+  "questions": [
+    {
+      "question": "¿Cuál es el número primo?",
+      "answers": [
+        {"text": "3", "isCorrect": true},
+        {"text": "4", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "¿Cuáles de los siguientes son números pares?",
+      "answers": [
+        {"text": "2", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ]
+    }
+  ]
+}
+{{</* /hextra/quiz */>}}
+```
+
+{{< hextra/quiz id="math-quiz" >}}
+{
+  "questions": [
+    {
+      "question": "¿Cuál es el número primo?",
+      "answers": [
+        {"text": "3", "isCorrect": true},
+        {"text": "4", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "¿Cuáles de los siguientes son números pares?",
+      "answers": [
+        {"text": "2", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ]
+    }
+  ]
+}
+{{< /hextra/quiz >}}

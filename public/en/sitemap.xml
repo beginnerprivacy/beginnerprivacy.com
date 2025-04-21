@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articles/how-to-easily-switch-to-linux/</loc>
-    <lastmod>2025-04-11T11:20:36+02:00</lastmod>
+    <loc>http://localhost:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</loc>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/articles/how-to-easily-switch-to-linux/"
+                href="http://localhost:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/how-to-easily-switch-to-linux/"
+                href="http://localhost:1313/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/articles/how-to-easily-switch-to-linux/"
+                href="http://localhost:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/"
                 />
   </url><url>
     <loc>http://localhost:1313/articles/break-free-from-proprietary-software-with-foss/</loc>
-    <lastmod>2025-03-05T14:23:49+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -39,7 +39,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods/</loc>
-    <lastmod>2025-03-03T17:57:31+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -57,7 +57,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/protect-your-communication-with-a-private-email/</loc>
-    <lastmod>2025-03-02T18:05:31+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -75,7 +75,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/desktop-settings-to-change-for-better-privacy/</loc>
-    <lastmod>2025-03-02T21:30:59+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -93,7 +93,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy/</loc>
-    <lastmod>2025-03-02T21:30:59+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -111,7 +111,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one/</loc>
-    <lastmod>2025-02-16T20:41:55+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -129,7 +129,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</loc>
-    <lastmod>2025-02-10T14:19:10+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -147,7 +147,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</loc>
-    <lastmod>2025-03-13T12:30:30+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -165,7 +165,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/limit-the-personal-information-you-share-online/</loc>
-    <lastmod>2025-02-04T17:32:01+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -183,7 +183,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it/</loc>
-    <lastmod>2025-02-03T16:01:43+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -201,7 +201,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/</loc>
-    <lastmod>2025-02-02T14:13:01+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -219,7 +219,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</loc>
-    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -237,7 +237,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -255,7 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/threat-model/</loc>
-    <lastmod>2025-03-08T18:28:46+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -381,7 +381,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-07T20:08:07+02:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -614,7 +614,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/setup-locally/</loc>
-    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -704,7 +704,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/write-content/</loc>
-    <lastmod>2025-03-25T15:37:22+01:00</lastmod>
+    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

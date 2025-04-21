@@ -1033,16 +1033,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
 
 
 
-&lt;script&gt;
-const resultTexts = {
-  casual: &#34;Usuario Casual: Se recomiendan protecciones básicas de privacidad&#34;,
-  privacyConscious: &#34;Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio&#34;,
-  advanced: &#34;Usuario Avanzado: Se necesita un marco de seguridad integral&#34;
-};
-&lt;/script&gt;
-
-&lt;div class=&#34;threat-model-assessment&#34; id=&#34;threat-model-assessment&#34;&gt;
-  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+&lt;div class=&#34;threat-model-assessment&#34; id=&#34;&#34; data-type=&#34;quiz&#34;&gt;
+  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startQuizAssessment(&#39;&#39;)&#34;&gt;
   
     Iniciar Evaluación del Modelo de Amenazas
   
@@ -1054,19 +1046,19 @@ const resultTexts = {
       &lt;h4&gt;¿Qué tan sensible es tu actividad en línea típica?&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Navegación web básica (por ejemplo, leer noticias, comprar)
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Activismo o denuncia (por ejemplo, compartir información sensible)
         &lt;/button&gt;
         
@@ -1078,25 +1070,25 @@ const resultTexts = {
       &lt;h4&gt;¿Cuál es tu mayor preocupación de privacidad?&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Anuncios dirigidos
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Vigilancia masiva
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Tener una huella digital
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Ser objetivo de actores maliciosos
         &lt;/button&gt;
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;&#39;)&#34;&gt;
         ← Anterior
       &lt;/button&gt;
       
@@ -1106,25 +1098,25 @@ const resultTexts = {
       &lt;h4&gt;¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Prefiero la conveniencia a la seguridad
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Haré un esfuerzo, pero no demasiado
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida
         &lt;/button&gt;
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;&#39;)&#34;&gt;
         ← Anterior
       &lt;/button&gt;
       
@@ -1133,7 +1125,7 @@ const resultTexts = {
     &lt;div class=&#34;tm-result&#34;&gt;
       &lt;h4 style=&#34;margin: 0;&#34;&gt;Tu Modelo de Amenaza:&lt;/h4&gt;
       &lt;div class=&#34;tm-result-content&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartQuizAssessment(&#39;&#39;)&#34;&gt;
         Repetir Evaluación
       &lt;/button&gt;
     &lt;/div&gt;

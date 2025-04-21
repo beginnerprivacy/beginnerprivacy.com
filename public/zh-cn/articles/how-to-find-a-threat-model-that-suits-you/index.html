@@ -621,16 +621,8 @@
 
 
 
-<script>
-const resultTexts = {
-  casual: "普通用户：建议基本隐私保护",
-  privacyConscious: "隐私意识：建议中等安全措施",
-  advanced: "高级用户：需要全面的安全框架"
-};
-</script>
-
-<div class="threat-model-assessment" id="threat-model-assessment">
-  <button class="tm-start-button" onclick="startAssessment('threat-model-assessment')">
+<div class="threat-model-assessment" id="" data-type="quiz">
+  <button class="tm-start-button" onclick="startQuizAssessment('')">
   
     开始威胁模型评估
   
@@ -642,19 +634,19 @@ const resultTexts = {
       <h4>您典型的在线活动有多敏感？</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-score="1">
+        <button class="tm-option" data-iscorrect="">
           基本的网页浏览（例如，阅读新闻、购物）
         </button>
         
-        <button class="tm-option" data-score="2">
+        <button class="tm-option" data-iscorrect="">
           一些个人通信（例如，社交媒体、电子邮件）
         </button>
         
-        <button class="tm-option" data-score="3">
+        <button class="tm-option" data-iscorrect="">
           处理敏感的工作文件（例如，客户数据、合同）
         </button>
         
-        <button class="tm-option" data-score="4">
+        <button class="tm-option" data-iscorrect="">
           激进主义或举报（例如，分享敏感信息）
         </button>
         
@@ -666,25 +658,25 @@ const resultTexts = {
       <h4>您最大的隐私担忧是什么？</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-score="1">
+        <button class="tm-option" data-iscorrect="">
           定向广告
         </button>
         
-        <button class="tm-option" data-score="2">
+        <button class="tm-option" data-iscorrect="">
           大规模监控
         </button>
         
-        <button class="tm-option" data-score="3">
+        <button class="tm-option" data-iscorrect="">
           拥有数字足迹
         </button>
         
-        <button class="tm-option" data-score="4">
+        <button class="tm-option" data-iscorrect="">
           被恶意行为者针对
         </button>
         
       </div>
       
-      <button class="tm-nav-button" onclick="previousQuestion('threat-model-assessment')">
+      <button class="tm-nav-button" onclick="previousQuestion('')">
         ← 之前
       </button>
       
@@ -694,25 +686,25 @@ const resultTexts = {
       <h4>您愿意付出多大努力来保护您的隐私？</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-score="1">
+        <button class="tm-option" data-iscorrect="">
           我更喜欢便利而不是安全
         </button>
         
-        <button class="tm-option" data-score="2">
+        <button class="tm-option" data-iscorrect="">
           我会付出一些努力，但不会太多
         </button>
         
-        <button class="tm-option" data-score="3">
+        <button class="tm-option" data-iscorrect="">
           我愿意牺牲一定的便利以获得更好的安全和隐私
         </button>
         
-        <button class="tm-option" data-score="4">
+        <button class="tm-option" data-iscorrect="">
           我准备在安全上投入大量资金并改变我的生活方式
         </button>
         
       </div>
       
-      <button class="tm-nav-button" onclick="previousQuestion('threat-model-assessment')">
+      <button class="tm-nav-button" onclick="previousQuestion('')">
         ← 之前
       </button>
       
@@ -721,7 +713,7 @@ const resultTexts = {
     <div class="tm-result">
       <h4 style="margin: 0;">你的威胁模型:</h4>
       <div class="tm-result-content"></div>
-      <button class="tm-restart" onclick="restartAssessment('threat-model-assessment')">
+      <button class="tm-restart" onclick="restartQuizAssessment('')">
         重新评估
       </button>
     </div>

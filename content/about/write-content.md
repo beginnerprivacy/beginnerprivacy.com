@@ -61,8 +61,11 @@ Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Sim
 4. **Proofread:** Fix formatting issues and ensure clarity.
 
 ### Markdown & Shortcodes
-Check out the Hextra documentation on [markdown](https://imfing.github.io/hextra/docs/guide/markdown/) and [shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/). If there is a certain tool or piece of software that you want to recommend in the article, you can use this shortcode.
-```html
+Explore the Hextra documentation on [Markdown](https://imfing.github.io/hextra/docs/guide/markdown/) and [Shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/) to enhance your articles, making them more interactive and easier to read. Additionally, Beginner Privacy offers several custom shortcodes, which are detailed below
+
+#### Recommendation Card
+When there is a certain tool or piece of software that you want to recommend.
+```
 <div class="recommendations">
   <div class="grid">
     {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
@@ -74,3 +77,131 @@ Check out the Hextra documentation on [markdown](https://imfing.github.io/hextra
     {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
+
+#### Assessment
+Help the reader discover more about e.g. their privacy needs.
+```
+{{</* hextra/assessment id="threat-model-assesment" */>}}
+{
+  "questions": [
+    {
+      "question": "How sensitive is your typical online activity?",
+      "answers": [
+        {"text": "Basic web browsing (e.g., reading news, shopping)", "score": 1},
+        {"text": "Some personal communications (e.g., social media, emails)", "score": 2},
+        {"text": "Handling sensitive work documents (e.g., client data, contracts)", "score": 3},
+        {"text": "Activism or whistleblowing (e.g., sharing sensitive information)", "score": 4}
+      ]
+    },
+    {
+      "question": "What's your biggest privacy concern?",
+      "answers": [
+        {"text": "Targeted ads", "score": 1},
+        {"text": "Mass surveillance", "score": 2},
+        {"text": "Having a digital footprint", "score": 3},
+        {"text": "Being targeted by malicious actors", "score": 4}
+      ]
+    },
+    {
+      "question": "What lengths are you willing to go to protect your privacy?",
+      "answers": [
+        {"text": "I prefer convenience over security", "score": 1},
+        {"text": "I'll make some effort, but not too much", "score": 2},
+        {"text": "I'm willing to sacrifice a decent amount of convenience for better security and privacy", "score": 3},
+        {"text": "I’m ready to invest heavily in security and change my lifestyle", "score": 4}
+      ]
+    }
+  ],
+  "resultText": {
+    "casual": "Casual User: Basic privacy protections recommended",
+    "privacyConscious": "Privacy-Conscious: Medium-level security measures advised",
+    "advanced": "Advanced User: Comprehensive security framework needed"
+  }
+}
+{{</* /hextra/assessment */>}}
+```
+
+{{< hextra/assessment id="threat-model-assesment" >}}
+{
+  "questions": [
+    {
+      "question": "How sensitive is your typical online activity?",
+      "answers": [
+        {"text": "Basic web browsing (e.g., reading news, shopping)", "score": 1},
+        {"text": "Some personal communications (e.g., social media, emails)", "score": 2},
+        {"text": "Handling sensitive work documents (e.g., client data, contracts)", "score": 3},
+        {"text": "Activism or whistleblowing (e.g., sharing sensitive information)", "score": 4}
+      ]
+    },
+    {
+      "question": "What's your biggest privacy concern?",
+      "answers": [
+        {"text": "Targeted ads", "score": 1},
+        {"text": "Mass surveillance", "score": 2},
+        {"text": "Having a digital footprint", "score": 3},
+        {"text": "Being targeted by malicious actors", "score": 4}
+      ]
+    },
+    {
+      "question": "What lengths are you willing to go to protect your privacy?",
+      "answers": [
+        {"text": "I prefer convenience over security", "score": 1},
+        {"text": "I'll make some effort, but not too much", "score": 2},
+        {"text": "I'm willing to sacrifice a decent amount of convenience for better security and privacy", "score": 3},
+        {"text": "I’m ready to invest heavily in security and change my lifestyle", "score": 4}
+      ]
+    }
+  ],
+  "resultText": {
+    "casual": "Casual User: Basic privacy protections recommended",
+    "privacyConscious": "Privacy-Conscious: Medium-level security measures advised",
+    "advanced": "Advanced User: Comprehensive security framework needed"
+  }
+}
+{{< /hextra/assessment >}}
+
+#### Quiz
+Test the reader's knowledge or assess their understanding of the article.
+```
+{{</* hextra/quiz id="math-quiz" */>}}
+{
+  "questions": [
+    {
+      "question": "What is the prime number?",
+      "answers": [
+        {"text": "3", "isCorrect": true},
+        {"text": "4", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Which of the following are even numbers?",
+      "answers": [
+        {"text": "2", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ]
+    }
+  ]
+}
+{{</* /hextra/quiz */>}}
+```
+
+{{< hextra/quiz id="math-quiz" >}}
+{
+  "questions": [
+    {
+      "question": "What is the prime number?",
+      "answers": [
+        {"text": "3", "isCorrect": true},
+        {"text": "4", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Which of the following are even numbers?",
+      "answers": [
+        {"text": "2", "isCorrect": true},
+        {"text": "5", "isCorrect": false}
+      ]
+    }
+  ]
+}
+{{< /hextra/quiz >}}

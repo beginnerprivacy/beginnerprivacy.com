@@ -1061,8 +1061,8 @@ const resultTexts = {
 };
 &lt;/script&gt;
 
-&lt;div class=&#34;threat-model-assessment&#34; id=&#34;threat-model-assessment&#34;&gt;
-  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+&lt;div class=&#34;threat-model-assessment&#34; id=&#34;threat-model-assesment&#34; data-type=&#34;assessment&#34;&gt;
+  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startQuizAssessment(&#39;threat-model-assesment&#39;)&#34;&gt;
   
     Start Threat Model Assessment
   
@@ -1116,7 +1116,7 @@ const resultTexts = {
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assesment&#39;)&#34;&gt;
         ← Previous
       &lt;/button&gt;
       
@@ -1144,7 +1144,7 @@ const resultTexts = {
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assesment&#39;)&#34;&gt;
         ← Previous
       &lt;/button&gt;
       
@@ -1153,12 +1153,70 @@ const resultTexts = {
     &lt;div class=&#34;tm-result&#34;&gt;
       &lt;h4 style=&#34;margin: 0;&#34;&gt;Your Threat Model:&lt;/h4&gt;
       &lt;div class=&#34;tm-result-content&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartQuizAssessment(&#39;threat-model-assesment&#39;)&#34;&gt;
         Retake Assessment
       &lt;/button&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
+
+
+
+
+&lt;div class=&#34;threat-model-assessment&#34; id=&#34;math-quiz&#34; data-type=&#34;quiz&#34;&gt;
+  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startQuizAssessment(&#39;math-quiz&#39;)&#34;&gt;
+  
+    Start Quiz
+  
+  &lt;/button&gt;
+  
+  &lt;div class=&#34;tm-questions-container&#34;&gt;
+    
+    &lt;div class=&#34;tm-question&#34; data-index=&#34;0&#34;&gt;
+      &lt;h4&gt;What is the prime number?&lt;/h4&gt;
+      &lt;div class=&#34;tm-options&#34;&gt;
+        
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;true&#34;&gt;
+          3
+        &lt;/button&gt;
+        
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;false&#34;&gt;
+          4
+        &lt;/button&gt;
+        
+      &lt;/div&gt;
+      
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;tm-question&#34; data-index=&#34;1&#34;&gt;
+      &lt;h4&gt;Which of the following are even numbers?&lt;/h4&gt;
+      &lt;div class=&#34;tm-options&#34;&gt;
+        
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;true&#34;&gt;
+          2
+        &lt;/button&gt;
+        
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;false&#34;&gt;
+          5
+        &lt;/button&gt;
+        
+      &lt;/div&gt;
+      
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;math-quiz&#39;)&#34;&gt;
+        ← Previous
+      &lt;/button&gt;
+      
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;tm-result&#34;&gt;
+      &lt;h4 style=&#34;margin: 0;&#34;&gt;Your Score:&lt;/h4&gt;
+      &lt;div class=&#34;tm-result-content&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartQuizAssessment(&#39;math-quiz&#39;)&#34;&gt;
+        Retake Quiz
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;You can also do it manually by asking yourself the following questions:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. What do I want to protect?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Identify the assets that are most important to you. This could include personal data, financial information, intellectual property, or even your online reputation.&lt;/p&gt;

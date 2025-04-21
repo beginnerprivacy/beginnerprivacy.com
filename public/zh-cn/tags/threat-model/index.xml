@@ -31,16 +31,8 @@
 
 
 
-&lt;script&gt;
-const resultTexts = {
-  casual: &#34;普通用户：建议基本隐私保护&#34;,
-  privacyConscious: &#34;隐私意识：建议中等安全措施&#34;,
-  advanced: &#34;高级用户：需要全面的安全框架&#34;
-};
-&lt;/script&gt;
-
-&lt;div class=&#34;threat-model-assessment&#34; id=&#34;threat-model-assessment&#34;&gt;
-  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+&lt;div class=&#34;threat-model-assessment&#34; id=&#34;&#34; data-type=&#34;quiz&#34;&gt;
+  &lt;button class=&#34;tm-start-button&#34; onclick=&#34;startQuizAssessment(&#39;&#39;)&#34;&gt;
   
     开始威胁模型评估
   
@@ -52,19 +44,19 @@ const resultTexts = {
       &lt;h4&gt;您典型的在线活动有多敏感？&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           基本的网页浏览（例如，阅读新闻、购物）
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           一些个人通信（例如，社交媒体、电子邮件）
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           处理敏感的工作文件（例如，客户数据、合同）
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           激进主义或举报（例如，分享敏感信息）
         &lt;/button&gt;
         
@@ -76,25 +68,25 @@ const resultTexts = {
       &lt;h4&gt;您最大的隐私担忧是什么？&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           定向广告
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           大规模监控
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           拥有数字足迹
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           被恶意行为者针对
         &lt;/button&gt;
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;&#39;)&#34;&gt;
         ← 之前
       &lt;/button&gt;
       
@@ -104,25 +96,25 @@ const resultTexts = {
       &lt;h4&gt;您愿意付出多大努力来保护您的隐私？&lt;/h4&gt;
       &lt;div class=&#34;tm-options&#34;&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;1&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           我更喜欢便利而不是安全
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;2&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           我会付出一些努力，但不会太多
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;3&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           我愿意牺牲一定的便利以获得更好的安全和隐私
         &lt;/button&gt;
         
-        &lt;button class=&#34;tm-option&#34; data-score=&#34;4&#34;&gt;
+        &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;&#34;&gt;
           我准备在安全上投入大量资金并改变我的生活方式
         &lt;/button&gt;
         
       &lt;/div&gt;
       
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;&#39;)&#34;&gt;
         ← 之前
       &lt;/button&gt;
       
@@ -131,7 +123,7 @@ const resultTexts = {
     &lt;div class=&#34;tm-result&#34;&gt;
       &lt;h4 style=&#34;margin: 0;&#34;&gt;你的威胁模型:&lt;/h4&gt;
       &lt;div class=&#34;tm-result-content&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartAssessment(&#39;threat-model-assessment&#39;)&#34;&gt;
+      &lt;button class=&#34;tm-restart&#34; onclick=&#34;restartQuizAssessment(&#39;&#39;)&#34;&gt;
         重新评估
       &lt;/button&gt;
     &lt;/div&gt;
