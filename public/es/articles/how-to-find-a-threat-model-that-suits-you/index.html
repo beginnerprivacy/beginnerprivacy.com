@@ -18,7 +18,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/es/articles/how-to-find-a-threat-model-that-suits-you/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2025-01-29T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-04-19T17:29:24+02:00" />
+<meta property="article:modified_time" content="2025-04-21T14:34:48+02:00" />
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beginnerprivacy.com/images/og_image.png">
@@ -28,7 +28,7 @@
   <meta itemprop="name" content="Cómo Encontrar un Modelo de Amenazas que se Adapte a Ti">
   <meta itemprop="description" content="Crear un modelo de amenazas es un paso importante en tu camino hacia una mejor privacidad y seguridad. Se trata de averiguar de quién o de qué necesitas protegerte y qué estás dispuesto a hacer para mantener tu información segura. Pero aquí está el truco: cuanto más privacidad y seguridad quieras, más inconvenientes pueden surgir. Podrías encontrarte manejando pasos adicionales, usando herramientas complejas o cambiando tus hábitos. Es un acto de equilibrio: encontrar la mezcla adecuada de seguridad que te mantenga a salvo sin complicar demasiado tu vida.">
   <meta itemprop="datePublished" content="2025-01-29T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-04-19T17:29:24+02:00">
+  <meta itemprop="dateModified" content="2025-04-21T14:34:48+02:00">
   <meta itemprop="wordCount" content="650">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
   <meta itemprop="keywords" content="Threat Model">
@@ -621,7 +621,15 @@
 
 
 
-<div class="threat-model-assessment" id="" data-type="quiz">
+<script>
+const resultTexts = {
+  casual: "Usuario Casual: Se recomiendan protecciones básicas de privacidad",
+  privacyConscious: "Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio",
+  advanced: "Usuario Avanzado: Se necesita un marco de seguridad integral"
+};
+</script>
+
+<div class="threat-model-assessment" id="" data-type="assessment">
   <button class="tm-start-button" onclick="startQuizAssessment('')">
   
     Iniciar Evaluación del Modelo de Amenazas
@@ -634,19 +642,19 @@
       <h4>¿Qué tan sensible es tu actividad en línea típica?</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="1">
           Navegación web básica (por ejemplo, leer noticias, comprar)
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="2">
           Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="3">
           Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="4">
           Activismo o denuncia (por ejemplo, compartir información sensible)
         </button>
         
@@ -658,19 +666,19 @@
       <h4>¿Cuál es tu mayor preocupación de privacidad?</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="1">
           Anuncios dirigidos
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="2">
           Vigilancia masiva
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="3">
           Tener una huella digital
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="4">
           Ser objetivo de actores maliciosos
         </button>
         
@@ -686,19 +694,19 @@
       <h4>¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?</h4>
       <div class="tm-options">
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="1">
           Prefiero la conveniencia a la seguridad
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="2">
           Haré un esfuerzo, pero no demasiado
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="3">
           Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad
         </button>
         
-        <button class="tm-option" data-iscorrect="">
+        <button class="tm-option" data-score="4">
           Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida
         </button>
         
@@ -740,7 +748,7 @@
 
         </div>
         
-    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">Última actualización <time datetime="2025-04-19T17:29:24.000Z">abril 19, 2025</time></div>
+    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">Última actualización <time datetime="2025-04-21T14:34:48.000Z">abril 21, 2025</time></div>
         
         <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden"><a
         href="/es/articles/why-you-should-care-about-your-privacy/"
