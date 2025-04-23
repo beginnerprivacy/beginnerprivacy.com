@@ -357,12 +357,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;2. Community Development&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Self-Hosted Forum&lt;/strong&gt;: A Discourse forum will be set up on a VPS to foster discussions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: Implementation will take time due to technical setup and testing.&lt;/li&gt;
+&lt;li&gt;Establish a community on Beginner Privacy&amp;rsquo;s SimpleX group to facilitate engagement, discussions, and collaboration among members.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;3. Fiscal Hosting&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Applying for a fiscal host (e.g., Open Collective) to manage donations and sponsorships transparently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4. Newsletter&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A monthly newsletter will be initiated, although it won&amp;rsquo;t be the biggest priority in Q2.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Finances&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;finances&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#finances&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -370,7 +373,11 @@
 &lt;ul&gt;
 &lt;li&gt;Website: Free (Hosted with GitHub Pages)&lt;/li&gt;
 &lt;li&gt;Domain: $15.99/year.&lt;/li&gt;
-&lt;li&gt;Upcoming VPS: ~$10/month (for forum hosting + transactional email server).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upcoming Costs&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Newsletter: ~$10/month&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cost Strategy&lt;/strong&gt;: Expenses will remain minimal, focusing only on essential services.&lt;/li&gt;

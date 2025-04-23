@@ -744,14 +744,15 @@ const resultTexts = {
         
         &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;true&#34;&gt;
           3
+          
         &lt;/button&gt;
         
         &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;false&#34;&gt;
           4
+          
         &lt;/button&gt;
         
       &lt;/div&gt;
-      
     &lt;/div&gt;
     
     &lt;div class=&#34;tm-question&#34; data-index=&#34;1&#34;&gt;
@@ -760,18 +761,15 @@ const resultTexts = {
         
         &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;true&#34;&gt;
           2
+          
         &lt;/button&gt;
         
         &lt;button class=&#34;tm-option&#34; data-iscorrect=&#34;false&#34;&gt;
           5
+          
         &lt;/button&gt;
         
       &lt;/div&gt;
-      
-      &lt;button class=&#34;tm-nav-button&#34; onclick=&#34;previousQuestion(&#39;math-quiz&#39;)&#34;&gt;
-        ← Anterior
-      &lt;/button&gt;
-      
     &lt;/div&gt;
     
     &lt;div class=&#34;tm-result&#34;&gt;
