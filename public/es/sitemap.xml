@@ -686,7 +686,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/about/transparency/2025/q2/</loc>
-    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
+    <lastmod>2025-04-23T18:52:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -737,6 +737,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/about/transparency/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/about/join-simplex-group/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/join-simplex-group/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/join-simplex-group/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/join-simplex-group/"
                 />
   </url>
 </urlset>

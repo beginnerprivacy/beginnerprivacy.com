@@ -190,36 +190,43 @@
         
         &lt;h3&gt;进展更新&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;进展更新&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e8%bf%9b%e5%b1%95%e6%9b%b4%e6%96%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;核心系统完成&lt;/strong&gt;：Beginner Privacy 的基础工作现已到位。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心系统完成&lt;/strong&gt;：初学者隐私的基础工作现已到位。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;工作流程建立&lt;/strong&gt;：基本流程已功能齐全，准备扩展。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;下一步&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;下一步&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%b8%8b%e4%b8%80%e6%ad%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. 团队扩展&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;招募 &lt;strong&gt;2-3 名管理员/维护人员&lt;/strong&gt; 来协助运营。&lt;/li&gt;
+&lt;li&gt;招募 &lt;strong&gt;2-3 名管理员/维护者&lt;/strong&gt; 来协助运营。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;2. 社区发展&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;自托管论坛&lt;/strong&gt;：将在 VPS 上建立一个 Discourse 论坛，以促进讨论。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;时间表&lt;/strong&gt;：由于技术设置和测试，实施将需要时间。&lt;/li&gt;
+&lt;li&gt;在初学者隐私的 SimpleX 群组中建立一个社区，以促进成员之间的互动、讨论和合作。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;3. 财政托管&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 财务托管&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;申请财政托管（例如，Open Collective）以透明地管理捐款和赞助。&lt;/li&gt;
+&lt;li&gt;申请财务托管（例如，Open Collective）以透明地管理捐款和赞助。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4. 新闻通讯&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将启动每月新闻通讯，尽管这在第二季度不会是最大的优先事项。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;财务&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;财务&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e8%b4%a2%e5%8a%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;当前成本&lt;/strong&gt;：
 &lt;ul&gt;
-&lt;li&gt;网站：免费（托管在 GitHub Pages 上）&lt;/li&gt;
-&lt;li&gt;域名：$15.99/年。&lt;/li&gt;
-&lt;li&gt;即将到来的 VPS：约 $10/月（用于论坛托管 + 事务性电子邮件服务器）。&lt;/li&gt;
+&lt;li&gt;网站：免费（托管于 GitHub Pages）&lt;/li&gt;
+&lt;li&gt;域名：$15.99/年&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;成本策略&lt;/strong&gt;：费用将保持在最低限度，专注于必要的服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即将发生的费用&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;新闻通讯：约 $10/月&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;成本策略&lt;/strong&gt;：费用将保持在最低限度，仅专注于必要的服务。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;结束语&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;结束语&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e7%bb%93%e6%9d%9f%e8%af%ad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;增长将是渐进的，重点是可持续性。关于论坛进展和财政托管的更新将在第三季度发布。&lt;/p&gt;
+    &lt;a href=&#34;#%e7%bb%93%e6%9d%9f%e8%af%ad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;增长将是渐进的，重点是可持续性。关于论坛进展和财务托管的更新将在第三季度发布。&lt;/p&gt;
 
       </description>
     </item>
@@ -350,6 +357,100 @@
 &lt;p&gt;在这份路线图中，您将了解创建强密码、实施双重身份验证（2FA）以及限制您在线分享的信息的重要性。 此外，您还将了解浏览器、移动设备和桌面隐私设置，以及使用虚拟专用网络（VPN）进行安全互联网访问的好处。 本节还讨论了电子邮件隐私、使用隐私保护搜索引擎以及安全通信方法。&lt;/p&gt;
 &lt;p&gt;我们建议您逐步将这些做法融入到您的日常生活中，让您在进入下一步之前，先对每一步感到舒适。 这种方法将帮助你在不感到不知所措的情况下，为你的在线安全打下坚实的基础。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;预计完成时间：&lt;/strong&gt; 1-2周&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>加入SimpleX群组</title>
+      <link>http://localhost:1313/zh-cn/about/join-simplex-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/join-simplex-group/</guid>
+      <description>
+        
+        
+        &lt;p&gt;感谢您对加入我们社区的兴趣！初学者隐私社区在SimpleX上运营，这是我们选择的一个平台，因为它具有强大的隐私功能。好消息是，安装SimpleX非常简单。&lt;/p&gt;
+&lt;h3&gt;安装SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安装simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX兼容多种平台，您可以选择图形用户界面（GUI）或终端版本。对于初学者，我们建议使用GUI，因为它更易于使用。如果您更喜欢终端版本，可以在&lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt;找到说明。&lt;/p&gt;
+&lt;h3&gt;第一步：下载SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第一步下载simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bdsimplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AppImage&lt;/a&gt;，&lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatpak&lt;/a&gt;（适用于大多数Linux发行版）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 20.04&lt;/a&gt;，&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 22.04&lt;/a&gt;（基于Debian的发行版）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aarch64&lt;/a&gt;（适用于Apple Silicon）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;（适用于Intel）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;设置SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;设置simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%ae%be%e7%bd%aesimplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;要开始使用SimpleX，请按照以下步骤操作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;创建您的个人资料&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击&lt;strong&gt;创建个人资料&lt;/strong&gt;按钮。&lt;/li&gt;
+&lt;li&gt;选择一个&lt;strong&gt;个人资料名称&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;选择一个&lt;strong&gt;长且独特的密码短语&lt;/strong&gt;来加密您的数据。
+&lt;ul&gt;
+&lt;li&gt;我们建议将此密码短语存储在&lt;a href=&#34;../../articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;密码管理器&lt;/a&gt;中以确保安全。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;加入SimpleX群组&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要加入我们的SimpleX群组，只需将以下链接粘贴到左侧边栏：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://simplex.chat/contact#/?v=2-7&amp;amp;smp=smp%3A%2F%2FUkMFNAXLXeAAe0beCa4w6X_zp18PwxSaSjY17BKUGXQ%3D%40smp12.simplex.im%2Fzj00X02yGzei2Rp3WMKAyNUKGyl5QVE2%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAdP3VcLQQb74HmtYJ2nq3gIbEXxC9S9eFHpvftdVXmmc%253D%26srv%3Die42b5weq7zdkghocs3mgxdjeuycheeqqmksntj57rmejagmg4eor5yd.onion&amp;amp;data=%7B%22groupLinkId%22%3A%22pIZL5_QG4XLv_zVpQVkCTQ%3D%3D%22%7D&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;如果您使用的是移动设备，可以通过扫描下面的二维码轻松加入：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt=&#34;初学者隐私SimpleX群组二维码&#34; src=&#34;../../../images/about/simplex-group-qr.webp&#34; width=&#34;400&#34;&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;恭喜您！您已完全设置好 🎉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;随时探索SimpleX的功能，享受安全的通信体验！&lt;/p&gt;
 
       </description>
     </item>

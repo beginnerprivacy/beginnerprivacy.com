@@ -251,6 +251,100 @@
     </item>
     
     <item>
+      <title>Join SimpleX Group</title>
+      <link>http://localhost:1313/about/join-simplex-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/join-simplex-group/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Thank you for your interest in joining our community! The Beginner Privacy community operates on SimpleX, a platform we selected for its strong privacy features. The good news is that installing SimpleX is very straightforward.&lt;/p&gt;
+&lt;h3&gt;Installing SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#installing-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX is compatible with various platforms, and you can choose between a Graphical User Interface (GUI) or a terminal version. For beginners, we recommend using the GUI, as it is more user-friendly. If you prefer the terminal version, you can find instructions &lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Step 1: Download SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-download-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-download-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AppImage&lt;/a&gt;, &lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatpak&lt;/a&gt; (for most Linux distributions)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 20.04&lt;/a&gt;, &lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 22.04&lt;/a&gt; (Debian-based distros)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aarch64&lt;/a&gt; (for Apple Silicon)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt; (for Intel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Setting Up SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;setting-up-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#setting-up-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To get started with SimpleX, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create Your Profile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Create Profile&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Choose a &lt;strong&gt;profile name&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select a &lt;strong&gt;long, unique passphrase&lt;/strong&gt; for encrypting your data.
+&lt;ul&gt;
+&lt;li&gt;We recommend storing this passphrase in a &lt;a href=&#34;../../articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;password manager&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Join the SimpleX Group&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To join our SimpleX group, simply paste the following link into the left sidebar:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://simplex.chat/contact#/?v=2-7&amp;amp;smp=smp%3A%2F%2FUkMFNAXLXeAAe0beCa4w6X_zp18PwxSaSjY17BKUGXQ%3D%40smp12.simplex.im%2Fzj00X02yGzei2Rp3WMKAyNUKGyl5QVE2%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAdP3VcLQQb74HmtYJ2nq3gIbEXxC9S9eFHpvftdVXmmc%253D%26srv%3Die42b5weq7zdkghocs3mgxdjeuycheeqqmksntj57rmejagmg4eor5yd.onion&amp;amp;data=%7B%22groupLinkId%22%3A%22pIZL5_QG4XLv_zVpQVkCTQ%3D%3D%22%7D&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using a mobile device, you can easily join by scanning the QR code below:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt=&#34;Beginner Privacy SimpleX Group QR Code&#34; src=&#34;../../images/about/simplex-group-qr.webp&#34; width=&#34;400&#34;&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations! You are all set up 🎉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to explore the features of SimpleX and enjoy secure communication!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Medium</title>
       <link>http://localhost:1313/about/roadmap-introductions/medium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -372,7 +466,7 @@
 &lt;li&gt;&lt;strong&gt;Current Costs&lt;/strong&gt;:
 &lt;ul&gt;
 &lt;li&gt;Website: Free (Hosted with GitHub Pages)&lt;/li&gt;
-&lt;li&gt;Domain: $15.99/year.&lt;/li&gt;
+&lt;li&gt;Domain: $15.99/year&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upcoming Costs&lt;/strong&gt;:

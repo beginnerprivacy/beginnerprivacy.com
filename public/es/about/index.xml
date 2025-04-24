@@ -940,26 +940,33 @@ Por favor, tenga en cuenta que, aunque GoatCounter es una herramienta útil para
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;2. Desarrollo de la Comunidad&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Foro Autohospedado&lt;/strong&gt;: Se establecerá un foro de Discourse en un VPS para fomentar las discusiones.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cronograma&lt;/strong&gt;: La implementación tomará tiempo debido a la configuración técnica y las pruebas.&lt;/li&gt;
+&lt;li&gt;Establecer una comunidad en el grupo SimpleX de Beginner Privacy para facilitar la participación, las discusiones y la colaboración entre los miembros.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;3. Alojamiento Fiscal&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Solicitar un anfitrión fiscal (por ejemplo, Open Collective) para gestionar donaciones y patrocinios de manera transparente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4. Boletín&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se iniciará un boletín mensual, aunque no será la mayor prioridad en el segundo trimestre.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Finanzas&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;finanzas&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#finanzas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Costos Actuales&lt;/strong&gt;:
 &lt;ul&gt;
 &lt;li&gt;Sitio web: Gratis (Alojado con GitHub Pages)&lt;/li&gt;
-&lt;li&gt;Dominio: $15.99/año.&lt;/li&gt;
-&lt;li&gt;VPS Próximo: ~$10/mes (para alojamiento del foro + servidor de correo electrónico transaccional).&lt;/li&gt;
+&lt;li&gt;Dominio: $15.99/año&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Costos Futuros&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Boletín: ~$10/mes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Estrategia de Costos&lt;/strong&gt;: Los gastos se mantendrán al mínimo, enfocándose solo en servicios esenciales.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Notas Finales&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;notas-finales&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#notas-finales&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;El crecimiento será gradual, con un enfoque en la sostenibilidad. Las actualizaciones sobre el progreso del foro y el alojamiento fiscal seguirán en el T3.&lt;/p&gt;
+    &lt;a href=&#34;#notas-finales&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;El crecimiento será gradual, con un enfoque en la sostenibilidad. Las actualizaciones sobre el progreso del foro y el alojamiento fiscal seguirán en el tercer trimestre.&lt;/p&gt;
 
       </description>
     </item>
@@ -974,6 +981,100 @@ Por favor, tenga en cuenta que, aunque GoatCounter es una herramienta útil para
         
         
         &lt;p&gt;¿Encontraste un error en las traducciones? Entonces, por favor, envía un problema &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Únete al Grupo SimpleX</title>
+      <link>http://localhost:1313/es/about/join-simplex-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/about/join-simplex-group/</guid>
+      <description>
+        
+        
+        &lt;p&gt;¡Gracias por tu interés en unirte a nuestra comunidad! La comunidad de Beginner Privacy opera en SimpleX, una plataforma que seleccionamos por sus sólidas características de privacidad. La buena noticia es que instalar SimpleX es muy sencillo.&lt;/p&gt;
+&lt;h3&gt;Instalando SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;instalando-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#instalando-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX es compatible con varias plataformas, y puedes elegir entre una Interfaz Gráfica de Usuario (GUI) o una versión de terminal. Para principiantes, recomendamos usar la GUI, ya que es más fácil de usar. Si prefieres la versión de terminal, puedes encontrar instrucciones &lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Paso 1: Descargar SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;paso-1-descargar-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#paso-1-descargar-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AppImage&lt;/a&gt;, &lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatpak&lt;/a&gt; (para la mayoría de las distribuciones de Linux)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 20.04&lt;/a&gt;, &lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 22.04&lt;/a&gt; (distribuciones basadas en Debian)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aarch64&lt;/a&gt; (para Apple Silicon)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt; (para Intel)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Configurando SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configurando-simplex&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configurando-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Para comenzar con SimpleX, sigue estos pasos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crea tu perfil&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Haz clic en el botón &lt;strong&gt;Crear perfil&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Elige un &lt;strong&gt;nombre de perfil&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Selecciona una &lt;strong&gt;frase de paso larga y única&lt;/strong&gt; para cifrar tus datos.
+&lt;ul&gt;
+&lt;li&gt;Recomendamos almacenar esta frase de paso en un &lt;a href=&#34;../../articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;gestor de contraseñas&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Únete al Grupo SimpleX&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Para unirte a nuestro grupo SimpleX, simplemente pega el siguiente enlace en la barra lateral izquierda:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://simplex.chat/contact#/?v=2-7&amp;amp;smp=smp%3A%2F%2FUkMFNAXLXeAAe0beCa4w6X_zp18PwxSaSjY17BKUGXQ%3D%40smp12.simplex.im%2Fzj00X02yGzei2Rp3WMKAyNUKGyl5QVE2%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAdP3VcLQQb74HmtYJ2nq3gIbEXxC9S9eFHpvftdVXmmc%253D%26srv%3Die42b5weq7zdkghocs3mgxdjeuycheeqqmksntj57rmejagmg4eor5yd.onion&amp;amp;data=%7B%22groupLinkId%22%3A%22pIZL5_QG4XLv_zVpQVkCTQ%3D%3D%22%7D&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Si estás usando un dispositivo móvil, puedes unirte fácilmente escaneando el código QR a continuación:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt=&#34;Código QR del Grupo SimpleX para Principiantes&#34; src=&#34;../../../images/about/simplex-group-qr.webp&#34; width=&#34;400&#34;&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;¡Felicidades! Est ás completamente configurado 🎉&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Siéntete libre de explorar las características de SimpleX y disfrutar de una comunicación segura.&lt;/p&gt;
 
       </description>
     </item>
