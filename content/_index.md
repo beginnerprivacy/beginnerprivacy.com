@@ -76,9 +76,7 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Switch to Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Social Media Frontends" id="social-media-frontends" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Removal from Data Brokers" id="removal-from-data-brokers" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Basic OpSec" id="basic-opsec" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="What is Tor?" id="what-is-tor" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Encrypted DNS" id="encrypted-dns" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
         </ol>
       </div>
@@ -89,11 +87,10 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Mobile Operating System" id="mobile-operating-system" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Self-Hosting" id="self-hosting" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Acquiring crypto" id="acquiring-crypto" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Encrypting Everything" id="encrypting-everything" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Avoiding Honeypots" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="What is I2P?" id="what-is-i2p" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Advanced OpSec" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Advanced Operational Security" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Threat Intelligence" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
         </ol>
       </div>
@@ -151,7 +148,7 @@ layout: hextra-home
           <div class="chat-section">
             <h2 class="hx-text-2rem hx-font-bold">Chat</h2>
             <div class="platform-icons">
-              <a href="https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FcfczJf7T628buhqA3Wx-R5Z8Qeb8Rm6O%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAsuFeRqk-qIj6V3DaF651t7NnZZgaQdjIrVaanCtIjgs%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&data=%7B%22groupLinkId%22%3A%220DamkEDZ2yoh6F7pbxsmRw%3D%3D%22%7D" target="_blank" title="SimpleX Chat" rel="noopener noreferrer">
+              <a href="about/join-simplex-group" target="_blank" title="SimpleX Chat" rel="noopener noreferrer">
                   {{< hextra/icon name="simplex" attributes="height=25" >}}
               </a>
             </div>
