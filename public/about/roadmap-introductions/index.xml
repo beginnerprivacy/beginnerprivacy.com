@@ -23,9 +23,11 @@
       <description>
         
         
-        &lt;p&gt;The Advanced Roadmap is for those ready to make a significant lifestyle change in their approach to online security and privacy. This section emphasizes the importance of adopting a comprehensive mindset where privacy is prioritized over convenience.&lt;/p&gt;
-&lt;p&gt;You will learn about secure operating systems like Qubes OS and also about Tor and I2P. These tools enhance your anonymity but require a commitment to avoiding proprietary software and embracing free and open-source alternatives. Additionally, you will explore self-hosting your own services, because the only person you can truly trust is yourself—everyone else poses a potential threat.&lt;/p&gt;
-&lt;p&gt;Additionally, you will explore cryptocurrency, including secure acquisition and management practices, and the critical importance of encrypting your data to protect your communications and files. Operational Security (OpSec) will also be a key focus, as it is essential for minimizing risks in your online activities.&lt;/p&gt;
+        &lt;p&gt;The Advanced Roadmap is for those ready to make a significant lifestyle change in their approach to online security and privacy. This section emphasizes the importance of adopting a comprehensive mindset where privacy is prioritized over convenience.
+&lt;br&gt;&lt;br&gt;
+You will learn about secure operating systems like Qubes OS and also about Tor and I2P. These tools enhance your anonymity but require a commitment to avoiding proprietary software and embracing free and open-source alternatives. Additionally, you will explore self-hosting your own services, because the only person you can truly trust is yourself—everyone else poses a potential threat.&lt;/p&gt;
+&lt;p&gt;Additionally, you will explore cryptocurrency, including secure acquisition and management practices, and the critical importance of encrypting your data to protect your communications and files. Operational Security (OpSec) will also be a key focus, as it is essential for minimizing risks in your online activities.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Expected Time to Complete:&lt;/strong&gt; 1 month for completing the roadmap, but you must maintain good OpSec and continuously adapt your practices; it’s not simply about installing tools and operating systems and then being done.&lt;/p&gt;
 
       </description>
@@ -40,9 +42,11 @@
       <description>
         
         
-        &lt;p&gt;The Basic Roadmap is designed to provide you with foundational knowledge and practical skills to enhance your online security and privacy. This section covers essential practices that everyone should adopt to protect their personal information and maintain a secure digital presence.&lt;/p&gt;
-&lt;p&gt;In this roadmap, you will learn about the importance of creating strong passwords, implementing Two-Factor Authentication (2FA), and limiting the information you share online. Additionally, you will explore browser, mobile, and desktop privacy settings, as well as the benefits of using a Virtual Private Network (VPN) for secure internet access. The section also addresses email privacy, the use of privacy-focused search engines, and secure communication methods.&lt;/p&gt;
-&lt;p&gt;We recommend that you gradually implement these practices into your daily routine, allowing you to become comfortable with each step before moving on to the next. This approach will help you build a solid foundation for your online security without feeling overwhelmed.&lt;/p&gt;
+        &lt;p&gt;The Basic Roadmap is designed to provide you with foundational knowledge and practical skills to enhance your online security and privacy. This section covers essential practices that everyone should adopt to protect their personal information and maintain a secure digital presence.
+&lt;br&gt;&lt;br&gt;
+In this roadmap, you will learn about the importance of creating strong passwords, implementing Two-Factor Authentication (2FA), and limiting the information you share online. Additionally, you will explore browser, mobile, and desktop privacy settings, as well as the benefits of using a Virtual Private Network (VPN) for secure internet access. The section also addresses email privacy, the use of privacy-focused search engines, and secure communication methods.
+&lt;br&gt;&lt;br&gt;
+We recommend that you gradually implement these practices into your daily routine, allowing you to become comfortable with each step before moving on to the next. This approach will help you build a solid foundation for your online security without feeling overwhelmed.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Expected Time to Complete:&lt;/strong&gt; 1-2 weeks&lt;/p&gt;
 
       </description>
@@ -57,10 +61,12 @@
       <description>
         
         
-        &lt;p&gt;The Medium Roadmap builds upon the foundational knowledge established in the Basic Roadmap, guiding you toward more advanced practices for enhancing your online security and privacy. This section introduces tools and strategies that empower you to take greater control over your digital footprint and safeguard your personal information.&lt;/p&gt;
-&lt;p&gt;In this roadmap, you will learn about the benefits of switching to Linux, an operating system known for its security and privacy features. You will also explore the world of Free and Open Source Software (FOSS), which offers alternatives to proprietary applications that may compromise your privacy.&lt;/p&gt;
-&lt;p&gt;Finally, you will be introduced to the concept of Operational Security (OpSec), which focuses on protecting your sensitive information and minimizing risks in your online activities.&lt;/p&gt;
-&lt;p&gt;As you progress through this roadmap, we recommend taking your time to implement these practices gradually. This will allow you to adapt to new tools and concepts while reinforcing your understanding of online security.&lt;/p&gt;
+        &lt;p&gt;The Medium Roadmap builds upon the foundational knowledge established in the Basic Roadmap, guiding you toward more advanced practices for enhancing your online security and privacy. This section introduces tools and strategies that empower you to take greater control over your digital footprint and safeguard your personal information.
+&lt;br&gt;&lt;br&gt;
+In this roadmap, you will learn about the benefits of switching to Linux, an operating system known for its security and privacy features. You will also explore the world of Free and Open Source Software (FOSS), which offers alternatives to proprietary applications that may compromise your privacy.&lt;/p&gt;
+&lt;p&gt;Finally, you will be introduced to the concept of Operational Security (OpSec), which focuses on protecting your sensitive information and minimizing risks in your online activities.
+&lt;br&gt;&lt;br&gt;
+As you progress through this roadmap, we recommend taking your time to implement these practices gradually. This will allow you to adapt to new tools and concepts while reinforcing your understanding of online security.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Expected Time to Complete:&lt;/strong&gt; 2 weeks&lt;/p&gt;
 
       </description>

@@ -760,7 +760,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
         
         &lt;p&gt;Having a privacy-respecting browser helps protect you from websites that collect more data than they should. It reduces tracking, safeguards your personal information, and minimizes your digital footprint while you browse.&lt;/p&gt;
-&lt;h3&gt;Difference Between Browser And Search Engine&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;difference-between-browser-and-search-engine&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;Difference Between Browser and Search Engine&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;difference-between-browser-and-search-engine&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#difference-between-browser-and-search-engine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To understand the importance of a private browser, it&amp;rsquo;s essential to differentiate between a browser and a search engine. A &lt;strong&gt;browser&lt;/strong&gt; is a software application that allows users to access and view websites on the internet, while a &lt;strong&gt;search engine&lt;/strong&gt; is a tool that helps users find specific information by searching through indexed web content based on keywords or phrases. In essence, the browser is the interface for navigating the web, and the search engine is a resource for discovering web content.&lt;/p&gt;
 &lt;h3&gt;What Does Websites Know About You&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-does-websites-know-about-you&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-does-websites-know-about-you&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Websites can gather a lot of information from your browser, which is why using a privacy-focused browser is essential for protecting your personal data. When you visit a website, it can track various details, including:&lt;/p&gt;
@@ -772,7 +772,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Tracking Scripts:&lt;/strong&gt; Many websites use third-party scripts to track user behavior across the web.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To see what other information websites can see about you, you can use websites like &lt;a href=&#34;https://webkay.robinlinus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Webkay&lt;/a&gt;, &lt;a href=&#34;https://browserleaks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrowserLeaks&lt;/a&gt;, or &lt;a href=&#34;https://printn.github.io/whoareyou&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;whoareyou&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;The Main Types Of Browsers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-main-types-of-browsers&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;The Main Types of Browsers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-main-types-of-browsers&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#the-main-types-of-browsers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When it comes to choosing a browser, the two main options are &lt;strong&gt;Chromium&lt;/strong&gt; and &lt;strong&gt;Firefox&lt;/strong&gt;. Both are open-source projects, meaning their source code is publicly available for anyone to inspect and contribute to. Most modern browsers are built on either Chromium or Firefox, which means they share similar underlying technologies.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -849,6 +849,11 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;Using an Encrypted DNS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-an-encrypted-dns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-an-encrypted-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After you have installed a private browser, you need to make sure it uses an encrypted DNS (Domain Name Server).&lt;/p&gt;
+&lt;h4&gt;What is DNS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-dns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;Switching Your DNS Provider&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;switching-your-dns-provider&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#switching-your-dns-provider&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
       </description>
     </item>
     
