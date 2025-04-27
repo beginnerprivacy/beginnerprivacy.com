@@ -182,6 +182,24 @@
                 href="http://localhost:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/why-you-need-to-use-an-encrypted-dns/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-need-to-use-an-encrypted-dns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-need-to-use-an-encrypted-dns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-need-to-use-an-encrypted-dns/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/limit-the-personal-information-you-share-online/</loc>
     <lastmod>2025-04-19T17:29:24+02:00</lastmod>
     <xhtml:link
@@ -381,7 +399,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-04-25T12:10:36+02:00</lastmod>
+    <lastmod>2025-04-25T13:40:53+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

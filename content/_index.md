@@ -74,7 +74,7 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Medium Introduction" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Free and Open Source Software" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Switch to Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Encrypted DNS" id="encrypted-dns" class="medium-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Encrypted DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Social Media Frontends" id="social-media-frontends" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Removal from Data Brokers" id="removal-from-data-brokers" class="medium-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="What is Tor?" id="what-is-tor" class="medium-hf-card-color" >}}</li>

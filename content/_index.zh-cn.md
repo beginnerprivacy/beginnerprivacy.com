@@ -73,7 +73,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="中级介绍" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="自由和开源软件" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="切换到Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="加密DNS" id="encrypted-dns" link="articles/using-encrypted-dns" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="加密DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="社交媒体前端" id="social-media-frontends" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="从数据经纪人处删除" id="removal-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="什么是Tor？" id="what-is-tor" class="medium-hf-card-color" >}}</li>
