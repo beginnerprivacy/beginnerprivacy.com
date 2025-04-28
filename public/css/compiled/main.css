@@ -36,7 +36,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -102,7 +102,8 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-  font-weight: bolder;
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 500;
 }
 
 /*
@@ -116,7 +117,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: Menlo, monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -636,6 +637,9 @@ video {
 }
 .hx-mb-8 {
   margin-bottom: 2rem;
+}
+.hx-ml-2 {
+  margin-left: 0.5rem;
 }
 .hx-ml-4 {
   margin-left: 1rem;
@@ -1204,7 +1208,7 @@ video {
   vertical-align: -2.5px;
 }
 .hx-font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, monospace;
 }
 .hx-text-2xl {
   font-size: 1.5rem;
@@ -1237,9 +1241,11 @@ video {
   font-size: .75rem;
 }
 .hx-font-bold {
-  font-weight: 700;
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: 500;
 }
 .hx-font-extrabold {
+  font-family: 'Roboto-Bold', sans-serif;
   font-weight: 800;
 }
 .hx-font-medium {
@@ -1249,7 +1255,8 @@ video {
   font-weight: 400;
 }
 .hx-font-semibold {
-  font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
+  font-weight: 300;
 }
 .hx-capitalize {
   text-transform: capitalize;
@@ -1473,6 +1480,7 @@ video {
   margin-top: 0.5rem;
   font-size: 2.25rem;
   font-weight: 700;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1488,6 +1496,7 @@ video {
   padding-bottom: 0.25rem;
   font-size: 1.875rem;
   font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1515,6 +1524,7 @@ video {
   margin-top: 2rem;
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1527,6 +1537,7 @@ video {
   margin-top: 2rem;
   font-size: 1.25rem;
   font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1539,6 +1550,7 @@ video {
   margin-top: 2rem;
   font-size: 1.125rem;
   font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -1551,6 +1563,7 @@ video {
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: 600;
+  font-family: 'Roboto-SemiBold', sans-serif;
   letter-spacing: -0.015em;
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
