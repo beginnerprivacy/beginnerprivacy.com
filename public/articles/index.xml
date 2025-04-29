@@ -25,7 +25,7 @@
         
         &lt;p&gt;The importance of using an encrypted DNS cannot be overstated. While many people are aware of the need for secure browsers and VPNs, the role of DNS encryption often flies under the radar.&lt;/p&gt;
 &lt;h3&gt;What is DNS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-is-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;At its core, the Domain Name System (DNS) is the internet&amp;rsquo;s phone book. It translates user-friendly domain names—like &lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.example.com&lt;/a&gt;—into the numerical IP addresses that computers use to communicate with each other. This process is essential for navigating the web, as it allows your browser to locate and connect to the websites you want to visit.&lt;/p&gt;
+    &lt;a href=&#34;#what-is-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;At its core, the Domain Name System (DNS) is the internet&amp;rsquo;s phone book. It translates user-friendly domain names—like &lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;www.example.com&lt;/a&gt;—into the numerical IP addresses that computers use to communicate with each other. This process is essential for navigating the web, as it allows your browser to locate and connect to the websites you want to visit.&lt;/p&gt;
 &lt;h4&gt;Types of DNS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;types-of-dns&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#types-of-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;
@@ -69,7 +69,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/help/dns-over-https-and-dns-over-tls&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/help/dns-over-https-and-dns-over-tls&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -78,7 +78,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://controld.com/free-dns&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://controld.com/free-dns&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -87,7 +87,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://developers.cloudflare.com/1.1.1.1/setup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://developers.cloudflare.com/1.1.1.1/setup&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -152,7 +152,7 @@
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;Test yourself in spotting phishing emails with the&lt;/strong&gt;
-&lt;a href=&#34;https://phishingquiz.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jigsaw Phishing Quiz&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&#34;https://phishingquiz.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Jigsaw Phishing Quiz&lt;/a&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -208,7 +208,7 @@
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;If you&amp;rsquo;re unsure which distro to choose, visit the &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distrochooser&lt;/a&gt; website.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;If you&amp;rsquo;re unsure which distro to choose, visit the &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Distrochooser&lt;/a&gt; website.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -241,7 +241,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.virtualbox.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://www.virtualbox.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -269,7 +269,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;Installing Debian: Step-by-Step Guide&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-debian-step-by-step-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#installing-debian-step-by-step-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Step 1: Download the Correct Debian ISO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-download-the-correct-debian-iso&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#step-1-download-the-correct-debian-iso&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Visit &lt;a href=&#34;https://www.debian.org/distrib/netinst&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian’s download page&lt;/a&gt; and select under the &amp;ldquo;Small CDs or USB sticks&amp;rdquo; header:&lt;/p&gt;
+    &lt;a href=&#34;#step-1-download-the-correct-debian-iso&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Visit &lt;a href=&#34;https://www.debian.org/distrib/netinst&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Debian’s download page&lt;/a&gt; and select under the &amp;ldquo;Small CDs or USB sticks&amp;rdquo; header:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;amd64&lt;/strong&gt;: For most 64-bit Intel/AMD systems.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;arm64&lt;/strong&gt;: For newer ARM-based devices (e.g., Raspberry Pi 4).&lt;/li&gt;
@@ -277,7 +277,7 @@
 &lt;/ul&gt;
 &lt;h4&gt;Step 2: Create a Bootable USB&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-create-a-bootable-usb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-create-a-bootable-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;Install &lt;strong&gt;Balena Etcher&lt;/strong&gt; (&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Install &lt;strong&gt;Balena Etcher&lt;/strong&gt; (&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;download here&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Plug in your USB drive, open Etcher, and select the Debian ISO.&lt;/li&gt;
 &lt;li&gt;Click &lt;strong&gt;Flash!&lt;/strong&gt; and wait for the process to complete.&lt;/li&gt;
 &lt;/ol&gt;
@@ -352,7 +352,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;A comprehensive directory of open source alternatives.&lt;/p&gt;
       
-      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -361,7 +361,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;An app store for free and open source Android apps.&lt;/p&gt;
       
-      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -370,7 +370,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;Find alternatives to proprietary software.&lt;/p&gt;
       
-      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -431,7 +431,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://signal.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://signal.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -448,7 +448,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -492,7 +492,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://tuta.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://tuta.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -510,7 +510,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://proton.me/mail&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://proton.me/mail&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -716,7 +716,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -734,7 +734,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://protonvpn.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://protonvpn.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -751,7 +751,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.ivpn.net/en/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://www.ivpn.net/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -804,7 +804,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;Popular private search engine&lt;/p&gt;
       
-      &lt;a href=&#34;https://duckduckgo.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Try DuckDuckGo&lt;/a&gt;
+      &lt;a href=&#34;https://duckduckgo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Try DuckDuckGo&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -813,7 +813,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;Delivers Google results anonymously&lt;/p&gt;
       
-      &lt;a href=&#34;https://startpage.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Try Startpage&lt;/a&gt;
+      &lt;a href=&#34;https://startpage.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Try Startpage&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -822,7 +822,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;Brave Search runs on an independent index&lt;/p&gt;
       
-      &lt;a href=&#34;https://search.brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Try Brave Search&lt;/a&gt;
+      &lt;a href=&#34;https://search.brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Try Brave Search&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -851,7 +851,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Cookies:&lt;/strong&gt; These small files store information about your preferences and browsing history, allowing websites to recognize you on future visits.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tracking Scripts:&lt;/strong&gt; Many websites use third-party scripts to track user behavior across the web.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To see what other information websites can see about you, you can use websites like &lt;a href=&#34;https://webkay.robinlinus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Webkay&lt;/a&gt;, &lt;a href=&#34;https://browserleaks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrowserLeaks&lt;/a&gt;, or &lt;a href=&#34;https://printn.github.io/whoareyou&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;whoareyou&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To see what other information websites can see about you, you can use websites like &lt;a href=&#34;https://webkay.robinlinus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Webkay&lt;/a&gt;, &lt;a href=&#34;https://browserleaks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;BrowserLeaks&lt;/a&gt;, or &lt;a href=&#34;https://printn.github.io/whoareyou&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;whoareyou&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;The Main Types Of Browsers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-main-types-of-browsers&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#the-main-types-of-browsers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When it comes to choosing a browser, the two main options are &lt;strong&gt;Chromium&lt;/strong&gt; and &lt;strong&gt;Firefox&lt;/strong&gt;. Both are open-source projects, meaning their source code is publicly available for anyone to inspect and contribute to. Most modern browsers are built on either Chromium or Firefox, which means they share similar underlying technologies.&lt;/p&gt;
 &lt;ul&gt;
@@ -880,7 +880,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -896,7 +896,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/browser&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/browser&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -911,7 +911,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://librewolf.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://librewolf.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -925,7 +925,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -978,7 +978,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://temp-mail.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://temp-mail.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -991,7 +991,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://smail.pw/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://smail.pw/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1018,7 +1018,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://receive-smss.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://receive-smss.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1031,7 +1031,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://smstome.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://smstome.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1076,7 +1076,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Usually the same steps as the platforms above.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recommended Authenticator Apps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-authenticator-apps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
+    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -1095,7 +1095,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://ente.io/auth&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://ente.io/auth&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1108,7 +1108,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://getaegis.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://getaegis.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1126,7 +1126,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Did you know that the most &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;commonly used password&lt;/a&gt; is &amp;ldquo;123456&amp;rdquo;? This highlights the importance of using strong, unique passwords for each of your online accounts. In this post, we&amp;rsquo;ll go over the best practices for generating and storing strong passwords.&lt;/p&gt;
+        &lt;p&gt;Did you know that the most &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;commonly used password&lt;/a&gt; is &amp;ldquo;123456&amp;rdquo;? This highlights the importance of using strong, unique passwords for each of your online accounts. In this post, we&amp;rsquo;ll go over the best practices for generating and storing strong passwords.&lt;/p&gt;
 &lt;h3&gt;Common Password Security Mistakes:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-password-security-mistakes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-password-security-mistakes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Using personal information in your passwords&lt;/li&gt;
@@ -1137,7 +1137,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
     &lt;a href=&#34;#how-do-i-make-strong-passwords&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A strong password is a password that is difficult to guess or crack. It should be completely random and at least 16 characters long (preferably longer) and include a combination of uppercase and lowercase letters, numbers, and special characters.&lt;/p&gt;
 &lt;p&gt;To get a strong password you can use a free online password generator:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bitwarden Password Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Bitwarden Password Generator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Storing Passwords Securely&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;storing-passwords-securely&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#storing-passwords-securely&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Password managers are great to use because they allow you to store long and complex passwords, and then simply copy and paste them when needed. It works by setting a master password, which is used to encrypt all of your other passwords. This means that all of your passwords are stored securely and can only be accessed with the master password.&lt;/p&gt;
@@ -1157,7 +1157,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1175,7 +1175,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1188,7 +1188,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1202,7 +1202,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

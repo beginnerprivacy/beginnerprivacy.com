@@ -25,7 +25,7 @@
         
         &lt;h3&gt;先决条件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;先决条件&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%85%88%e5%86%b3%e6%9d%a1%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;集成开发环境 (IDE)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;集成开发环境-ide&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e9%9b%86%e6%88%90%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83-ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;推荐使用 &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt;（无遥测功能的 VSCode 版本）进行开发。&lt;/p&gt;
+    &lt;a href=&#34;#%e9%9b%86%e6%88%90%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83-ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;推荐使用 &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;VSCodium&lt;/a&gt;（无遥测功能的 VSCode 版本）进行开发。&lt;/p&gt;
 &lt;h4&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;根据操作系统安装版本控制系统：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;
-从 &lt;a href=&#34;https://git-scm.com/downloads/win&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt; 下载并运行安装程序&lt;/p&gt;
+从 &lt;a href=&#34;https://git-scm.com/downloads/win&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;git-scm.com&lt;/a&gt; 下载并运行安装程序&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MacOS:&lt;/strong&gt;
 使用 Homebrew：&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -61,7 +61,7 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;或从 &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt; 下载&lt;/p&gt;
+&lt;p&gt;或从 &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;git-scm.com&lt;/a&gt; 下载&lt;/p&gt;
 &lt;h4&gt;Hugo (扩展版)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-扩展版&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#hugo-%e6%89%a9%e5%b1%95%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;安装 Hugo v0.145.0 或更高版本（需扩展版）：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
@@ -105,7 +105,7 @@
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;或从 &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Releases&lt;/a&gt; 下载&lt;/p&gt;
+&lt;p&gt;或从 &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub Releases&lt;/a&gt; 下载&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MacOS:&lt;/strong&gt;
 使用 Homebrew：&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -264,7 +264,7 @@
       <description>
         
         
-        &lt;p&gt;发现翻译错误了吗？然后请在&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt;提交问题。&lt;/p&gt;
+        &lt;p&gt;发现翻译错误了吗？然后请在&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;这里&lt;/a&gt;提交问题。&lt;/p&gt;
 
       </description>
     </item>
@@ -298,7 +298,7 @@
         
         
         &lt;p&gt;来自 Beginner Privacy 的衷心感谢，感谢那些为项目做出贡献的了不起的人们 💙&lt;/p&gt;
-&lt;p&gt;我们使用 &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all-contributors&lt;/a&gt; 来展示我们的贡献者，并遵循 &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emoji Key&lt;/a&gt; 来突出显示所做贡献的不同类型。&lt;/p&gt;
+&lt;p&gt;我们使用 &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;all-contributors&lt;/a&gt; 来展示我们的贡献者，并遵循 &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Emoji Key&lt;/a&gt; 来突出显示所做贡献的不同类型。&lt;/p&gt;
 &lt;div class=&#34;all-contributors-table&#34;&gt;
 &lt;!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --&gt;
 &lt;!-- prettier-ignore-start --&gt;
@@ -329,9 +329,9 @@
         &lt;p&gt;感谢您对贡献于初学者隐私的兴趣！我们欢迎每个人的贡献。您的贡献帮助我们改进网站，使其对社区更有用。&lt;/p&gt;
 &lt;h3&gt;如何帮助&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何帮助&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e5%b8%ae%e5%8a%a9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. 功能请求&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-功能请求&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-%e5%8a%9f%e8%83%bd%e8%af%b7%e6%b1%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;通过&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;打开一个GitHub问题&lt;/a&gt;分享新功能或改进的想法。&lt;/p&gt;
+    &lt;a href=&#34;#1-%e5%8a%9f%e8%83%bd%e8%af%b7%e6%b1%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;通过&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;打开一个GitHub问题&lt;/a&gt;分享新功能或改进的想法。&lt;/p&gt;
 &lt;h4&gt;2. 错误报告&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-错误报告&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-%e9%94%99%e8%af%af%e6%8a%a5%e5%91%8a&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;发现了漏洞或安全问题吗？直接在我们的&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安全中心&lt;/a&gt;报告！&lt;/p&gt;
+    &lt;a href=&#34;#2-%e9%94%99%e8%af%af%e6%8a%a5%e5%91%8a&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;发现了漏洞或安全问题吗？直接在我们的&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;安全中心&lt;/a&gt;报告！&lt;/p&gt;
 &lt;h4&gt;3. 改进代码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-改进代码&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#3-%e6%94%b9%e8%bf%9b%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;使用我们的&lt;a href=&#34;../improve-code&#34; &gt;代码贡献指南&lt;/a&gt;提交代码更改。&lt;/p&gt;
 &lt;h4&gt;4. 撰写内容&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-撰写内容&#34;&gt;&lt;/span&gt;
@@ -376,42 +376,42 @@
         
         &lt;p&gt;感谢您对加入我们社区的兴趣！初学者隐私社区在SimpleX上运营，这是我们选择的一个平台，因为它具有强大的隐私功能。好消息是，安装SimpleX非常简单。&lt;/p&gt;
 &lt;h3&gt;安装SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安装simplex&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%ae%89%e8%a3%85simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX兼容多种平台，您可以选择图形用户界面（GUI）或终端版本。对于初学者，我们建议使用GUI，因为它更易于使用。如果您更喜欢终端版本，可以在&lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt;找到说明。&lt;/p&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX兼容多种平台，您可以选择图形用户界面（GUI）或终端版本。对于初学者，我们建议使用GUI，因为它更易于使用。如果您更喜欢终端版本，可以在&lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;这里&lt;/a&gt;找到说明。&lt;/p&gt;
 &lt;h3&gt;第一步：下载SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第一步下载simplex&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bdsimplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AppImage&lt;/a&gt;，&lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatpak&lt;/a&gt;（适用于大多数Linux发行版）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 20.04&lt;/a&gt;，&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 22.04&lt;/a&gt;（基于Debian的发行版）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;AppImage&lt;/a&gt;，&lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Flatpak&lt;/a&gt;（适用于大多数Linux发行版）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Ubuntu 20.04&lt;/a&gt;，&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Ubuntu 22.04&lt;/a&gt;（基于Debian的发行版）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aarch64&lt;/a&gt;（适用于Apple Silicon）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;（适用于Intel）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;aarch64&lt;/a&gt;（适用于Apple Silicon）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;x86_64&lt;/a&gt;（适用于Intel）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -495,7 +495,7 @@
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;商品&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;商品&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%95%86%e5%93%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;通过在我们的&lt;a href=&#34;https://shop.beginnerprivacy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;在线商店&lt;/a&gt;购买商品来支持 Beginner Privacy。您购买的每一件商品都帮助我们继续我们的使命！&lt;/p&gt;
+    &lt;a href=&#34;#%e5%95%86%e5%93%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;通过在我们的&lt;a href=&#34;https://shop.beginnerprivacy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;在线商店&lt;/a&gt;购买商品来支持 Beginner Privacy。您购买的每一件商品都帮助我们继续我们的使命！&lt;/p&gt;
 &lt;h3&gt;非财务支持&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;非财务支持&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e9%9d%9e%e8%b4%a2%e5%8a%a1%e6%94%af%e6%8c%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;您也可以通过不花一分钱来支持 Beginner Privacy！以下是一些简单的帮助方式：&lt;/p&gt;
 &lt;ul&gt;
@@ -557,7 +557,7 @@
       <description>
         
         
-        &lt;p&gt;我们使用 GoatCounter 进行网络分析。流量统计数据可在 &lt;a href=&#34;https://beginnerprivacy.goatcounter.com/?filter=&amp;amp;daily=on&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt; 获取。&lt;/p&gt;
+        &lt;p&gt;我们使用 GoatCounter 进行网络分析。流量统计数据可在 &lt;a href=&#34;https://beginnerprivacy.goatcounter.com/?filter=&amp;amp;daily=on&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;这里&lt;/a&gt; 获取。&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;GoatCounter 是一个开源网络分析平台，作为一个免费的捐赠支持的托管服务或自托管应用程序提供。它旨在提供易于使用且有意义的隐私友好的网络分析，作为 Google Analytics 或 Matomo 的替代方案。&lt;br&gt;
 — &lt;cite&gt;GoatCounter 的主页&lt;/cite&gt;&lt;/p&gt;
@@ -584,10 +584,10 @@
 &lt;li&gt;本地设置（推荐）：&lt;a href=&#34;../setup-locally/&#34; &gt;学习如何在本地设置这个网站。&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;查看要写的内容：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前往我们在 GitHub 上的 &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文章状态板&lt;/a&gt; 查看哪些文章尚未编写。&lt;/p&gt;
+&lt;p&gt;前往我们在 GitHub 上的 &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;文章状态板&lt;/a&gt; 查看哪些文章尚未编写。&lt;/p&gt;
 &lt;h3&gt;创建您的文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;创建您的文章&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%88%9b%e5%bb%ba%e6%82%a8%e7%9a%84%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;导航到 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt; 文件夹。&lt;/li&gt;
+&lt;li&gt;导航到 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;content/articles/&lt;/a&gt; 文件夹。&lt;/li&gt;
 &lt;li&gt;创建一个带有URL友好名称的新文件夹（例如，“为什么隐私很重要”的URL友好名称是&lt;code&gt;why-privacy-matters&lt;/code&gt;）。&lt;/li&gt;
 &lt;li&gt;在这个文件夹内，创建三个文件：&lt;/li&gt;
 &lt;/ol&gt;
@@ -598,7 +598,7 @@
 &lt;/ul&gt;
 &lt;p&gt;🖼️ &lt;strong&gt;需要图片吗？&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;在 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static/images/articles/&lt;/a&gt; 中创建一个匹配的文件夹（例如，&lt;code&gt;why-privacy-matters&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;在 &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;static/images/articles/&lt;/a&gt; 中创建一个匹配的文件夹（例如，&lt;code&gt;why-privacy-matters&lt;/code&gt;）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;文章模板&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;文章模板&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%96%87%e7%ab%a0%e6%a8%a1%e6%9d%bf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;将此内容放在您文章的开头。&lt;/p&gt;
@@ -634,7 +634,7 @@
 &lt;h3&gt;翻译文章&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;翻译文章&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%bf%bb%e8%af%91%e6%96%87%e7%ab%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;翻译&lt;/strong&gt; 英文版本，使用像 &lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreTranslate&lt;/a&gt; 这样的工具或您喜欢的任何其他翻译器翻译成西班牙语和中文（简 体）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;翻译&lt;/strong&gt; 英文版本，使用像 &lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;LibreTranslate&lt;/a&gt; 这样的工具或您喜欢的任何其他翻译器翻译成西班牙语和中文（简 体）。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;翻译验证：&lt;/strong&gt;  将已经翻译过的文章再翻译回英语，然后将其与原始英语文章进行比较：
 &lt;ul&gt;
 &lt;li&gt;捕捉翻译错误的技术术语&lt;/li&gt;
@@ -650,7 +650,7 @@
 &lt;li&gt;&lt;strong&gt;校对：&lt;/strong&gt; 修正格式问题并确保清晰度。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Markdown 和短代码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown-和短代码&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#markdown-%e5%92%8c%e7%9f%ad%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;探索Hextra文档中的&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt;和&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;短代码&lt;/a&gt;，以增强您的文章，使其更具互动性和易读性。此外，初学者隐私提供了几个自定义短代码，详细信息如下。&lt;/p&gt;
+    &lt;a href=&#34;#markdown-%e5%92%8c%e7%9f%ad%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;探索Hextra文档中的&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Markdown&lt;/a&gt;和&lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;短代码&lt;/a&gt;，以增强您的文章，使其更具互动性和易读性。此外，初学者隐私提供了几个自定义短代码，详细信息如下。&lt;/p&gt;
 &lt;h4&gt;推荐卡&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐卡&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e5%8d%a1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;当您想推荐某个工具或软件时。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -686,7 +686,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1015,13 +1015,13 @@ const resultTexts = {
     &lt;a href=&#34;#%e6%88%91%e4%bb%ac%e6%94%b6%e9%9b%86%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;我们使用尽可能简单的工具构建此网站，以确保最大程度的隐私：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;✅ &lt;strong&gt;轻量级框架：&lt;/strong&gt; 我们的网站建立在一个经过彻底审计的最小框架上，以消除隐藏的跟踪或记录。&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;匿名使用数据：&lt;/strong&gt; 我们收集少量匿名数据，以了解用户如何与我们的网站互动。您可以在&lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GoatCounter&lt;/a&gt;上查看这些统计信息。&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;匿名使用数据：&lt;/strong&gt; 我们收集少量匿名数据，以了解用户如何与我们的网站互动。您可以在&lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;上查看这些统计信息。&lt;/li&gt;
 &lt;li&gt;✅ &lt;strong&gt;路线图进度：&lt;/strong&gt; 唯一存储在您设备上的数据是您的路线图进度，该数据保存在浏览器的本地存储中，绝不会被共享。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;如何禁用GoatCounter的跟踪&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何禁用goatcounter的跟踪&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8goatcounter%e7%9a%84%e8%b7%9f%e8%b8%aa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您不希望被包含在GoatCounter的统计数据中，可以通过在浏览器中安装&lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uBlock Origin&lt;/a&gt;扩展程序轻松阻止跟踪。&lt;/p&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8goatcounter%e7%9a%84%e8%b7%9f%e8%b8%aa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您不希望被包含在GoatCounter的统计数据中，可以通过在浏览器中安装&lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt;扩展程序轻松阻止跟踪。&lt;/p&gt;
 &lt;h3&gt;有问题吗？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;有问题吗&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%9c%89%e9%97%ae%e9%a2%98%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您对我们的隐私实践有任何疑问或需要验证我们的任何声明，我们整个网站的代码是开源的，可以在&lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;上进行审查。我们鼓励您自己检查，或请可信的技术顾问进行审查。&lt;/p&gt;
+    &lt;a href=&#34;#%e6%9c%89%e9%97%ae%e9%a2%98%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您对我们的隐私实践有任何疑问或需要验证我们的任何声明，我们整个网站的代码是开源的，可以在&lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;上进行审查。我们鼓励您自己检查，或请可信的技术顾问进行审查。&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;如果您有其他问题，请&lt;a href=&#34;../contact&#34; &gt;联系我们&lt;/a&gt;。&lt;/p&gt;
 
@@ -1040,25 +1040,25 @@ const resultTexts = {
         &lt;p&gt;初学者隐私项目不可能在没有以下资源、工具和人员的情况下实现：&lt;/p&gt;
 &lt;h3&gt;人们&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;人们&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%ba%ba%e4%bb%ac&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;初学者隐私贡献者&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;初学者隐私贡献者&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;灵感&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;灵感&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%81%b5%e6%84%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.privacytools.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.privacyguides.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Guides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.privacytools.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Privacy Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.privacyguides.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Privacy Guides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;代码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;代码&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hextra 主题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers.js/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformers.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Hextra 主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers.js/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Transformers.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;图像&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;图像&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%9b%be%e5%83%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;监控摄像头图像由 Clker-Free-Vector-Images 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=8552339&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;地球图像由 Tung Lam 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;由 Creative Stall Premium 创建的指南针图标 - Flaticon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 保镖图像由 OpenClipart-Vectors 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;监控摄像头图像由 Clker-Free-Vector-Images 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=8552339&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;地球图像由 Tung Lam 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;由 Creative Stall Premium 创建的指南针图标 - Flaticon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;404 保镖图像由 OpenClipart-Vectors 提供，来自 Pixabay&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

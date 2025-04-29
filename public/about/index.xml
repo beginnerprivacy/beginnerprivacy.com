@@ -26,9 +26,9 @@
         &lt;p&gt;Thank you for your interest in contributing to Beginner Privacy! We welcome contributions from everyone. Your contributions help us improve the website and make it more useful for the community.&lt;/p&gt;
 &lt;h3&gt;How To Help&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-help&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-help&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1. Feature Requests&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-feature-requests&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-feature-requests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Share ideas for new features or improvements by &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;opening a GitHub Issue&lt;/a&gt;.&lt;/p&gt;
+    &lt;a href=&#34;#1-feature-requests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Share ideas for new features or improvements by &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;opening a GitHub Issue&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;2. Bug Reports&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-bug-reports&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-bug-reports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Found a bug or security issue? Report it directly in our &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Security Center&lt;/a&gt;!&lt;/p&gt;
+    &lt;a href=&#34;#2-bug-reports&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Found a bug or security issue? Report it directly in our &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/security&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Security Center&lt;/a&gt;!&lt;/p&gt;
 &lt;h4&gt;3. Improve Code&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-improve-code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#3-improve-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Submit code changes using our &lt;a href=&#34;../improve-code&#34; &gt;Code Contribution Guide&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;4. Writing Content&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-writing-content&#34;&gt;&lt;/span&gt;
@@ -150,7 +150,7 @@ We recommend that you gradually implement these practices into your daily routin
         
         
         &lt;p&gt;A huge thank you from Beginner Privacy to the amazing individuals who have contributed to the project 💙&lt;/p&gt;
-&lt;p&gt;We use &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all-contributors&lt;/a&gt; to showcase our contributors, and we follow the &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Emoji Key&lt;/a&gt; to highlight the various types of contributions made.&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;https://allcontributors.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;all-contributors&lt;/a&gt; to showcase our contributors, and we follow the &lt;a href=&#34;https://allcontributors.org/docs/en/emoji-key&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Emoji Key&lt;/a&gt; to highlight the various types of contributions made.&lt;/p&gt;
 &lt;div class=&#34;all-contributors-table&#34;&gt;
 &lt;!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --&gt;
 &lt;!-- prettier-ignore-start --&gt;
@@ -182,25 +182,25 @@ We recommend that you gradually implement these practices into your daily routin
         &lt;p&gt;Beginner Privacy wouldn&amp;rsquo;t be possible without the following resources, tools and people:&lt;/p&gt;
 &lt;h3&gt;People&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;people&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#people&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Beginner Privacy contributors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Beginner Privacy contributors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Inspirations&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;inspirations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#inspirations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.privacytools.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.privacyguides.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Guides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.privacytools.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Privacy Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.privacyguides.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Privacy Guides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Code&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hextra Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers.js/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformers.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imfing/hextra/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Hextra Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers.js/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Transformers.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Images&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;images&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#images&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surveillance camera image by Clker-Free-Vector-Images from Pixabay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=8552339&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Earth image by Tung Lam from Pixabay&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compass icons created by Creative Stall Premium - Flaticon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;404 bodyguard image by OpenClipart-Vectors from Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=295146&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Surveillance camera image by Clker-Free-Vector-Images from Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=8552339&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Earth image by Tung Lam from Pixabay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.flaticon.com/free-icons/compass&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Compass icons created by Creative Stall Premium - Flaticon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixabay.com//?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=145447&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;404 bodyguard image by OpenClipart-Vectors from Pixabay&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -242,7 +242,7 @@ We recommend that you gradually implement these practices into your daily routin
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;../../images/xmr-qr.webp&#34; alt=&#34;Monero QR code&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Merchandise&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;merchandise&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#merchandise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Show your support for Beginner Privacy by purchasing merchandise from our &lt;a href=&#34;https://shop.beginnerprivacy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shop&lt;/a&gt;.&lt;/p&gt;
+    &lt;a href=&#34;#merchandise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Show your support for Beginner Privacy by purchasing merchandise from our &lt;a href=&#34;https://shop.beginnerprivacy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;shop&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Non-Financial Support&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;non-financial-support&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#non-financial-support&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can also support Beginner Privacy without spending a dime! Here are some simple ways to help:&lt;/p&gt;
 &lt;ul&gt;
@@ -265,42 +265,42 @@ We recommend that you gradually implement these practices into your daily routin
         
         &lt;p&gt;Thank you for your interest in joining our community! The Beginner Privacy community operates on SimpleX, a platform we selected for its strong privacy features. The good news is that installing SimpleX is very straightforward.&lt;/p&gt;
 &lt;h3&gt;Installing SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-simplex&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#installing-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX is compatible with various platforms, and you can choose between a Graphical User Interface (GUI) or a terminal version. For beginners, we recommend using the GUI, as it is more user-friendly. If you prefer the terminal version, you can find instructions &lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+    &lt;a href=&#34;#installing-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SimpleX is compatible with various platforms, and you can choose between a Graphical User Interface (GUI) or a terminal version. For beginners, we recommend using the GUI, as it is more user-friendly. If you prefer the terminal version, you can find instructions &lt;a href=&#34;https://simplex.chat/docs/cli.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Step 1: Download SimpleX&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-download-simplex&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-1-download-simplex&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AppImage&lt;/a&gt;, &lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flatpak&lt;/a&gt; (for most Linux distributions)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 20.04&lt;/a&gt;, &lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 22.04&lt;/a&gt; (Debian-based distros)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-x86_64.AppImage&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;AppImage&lt;/a&gt;, &lt;a href=&#34;https://flathub.org/apps/chat.simplex.simplex&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Flatpak&lt;/a&gt; (for most Linux distributions)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-20_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Ubuntu 20.04&lt;/a&gt;, &lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-ubuntu-22_04-x86_64.deb&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Ubuntu 22.04&lt;/a&gt; (Debian-based distros)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aarch64&lt;/a&gt; (for Apple Silicon)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt; (for Intel)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-aarch64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;aarch64&lt;/a&gt; (for Apple Silicon)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-macos-x86_64.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;x86_64&lt;/a&gt; (for Intel)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-desktop-windows-x86_64.msi&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;x86_64&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;iOS:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/simplex-chat/id1605771084&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chat.simplex.app&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f-droid.org/en/packages/chat.simplex.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;APK aarch64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/simplex-chat/simplex-chat/releases/latest/download/simplex-armv7a.apk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;APK armv7&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -399,13 +399,13 @@ As you progress through this roadmap, we recommend taking your time to implement
     &lt;a href=&#34;#what-we-do-collect&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We&amp;rsquo;ve built this site using the simplest possible tools to ensure maximum privacy:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;✅ &lt;strong&gt;Lightweight Framework:&lt;/strong&gt; Our website is built on a minimal framework that we have thoroughly audited to eliminate hidden tracking or logging.&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Anonymous Usage Data:&lt;/strong&gt; We collect a small amount of anonymous data to understand how users interact with our site. You can view these statistics on &lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GoatCounter&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;Anonymous Usage Data:&lt;/strong&gt; We collect a small amount of anonymous data to understand how users interact with our site. You can view these statistics on &lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;✅ &lt;strong&gt;Roadmap Progress:&lt;/strong&gt; The only data stored on your device is your roadmap progress, which is kept in your browser&amp;rsquo;s local storage and never shared.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;How To Disable Tracking By GoatCounter&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-disable-tracking-by-goatcounter&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-to-disable-tracking-by-goatcounter&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uBlock Origin&lt;/a&gt; extension in your browser.&lt;/p&gt;
+    &lt;a href=&#34;#how-to-disable-tracking-by-goatcounter&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; extension in your browser.&lt;/p&gt;
 &lt;h3&gt;Have Questions?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;have-questions&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#have-questions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you have questions about our privacy practices or need to verify any of our claims, our entire website&amp;rsquo;s code is open source and available for review on &lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;. We encourage you to inspect it yourself or have a trusted technical advisor review it.&lt;/p&gt;
+    &lt;a href=&#34;#have-questions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you have questions about our privacy practices or need to verify any of our claims, our entire website&amp;rsquo;s code is open source and available for review on &lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;. We encourage you to inspect it yourself or have a trusted technical advisor review it.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;If you have additional questions, please &lt;a href=&#34;../contact&#34; &gt;contact us&lt;/a&gt;.&lt;/p&gt;
 
@@ -499,7 +499,7 @@ As you progress through this roadmap, we recommend taking your time to implement
         
         &lt;h3&gt;Prerequisites&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;IDE&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ide&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;We recommend using &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt; (no telemetry version of VSCode) for development.&lt;/p&gt;
+    &lt;a href=&#34;#ide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;We recommend using &lt;a href=&#34;https://vscodium.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;VSCodium&lt;/a&gt; (no telemetry version of VSCode) for development.&lt;/p&gt;
 &lt;h4&gt;Git&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;git&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Install the version control system for your operating system:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
@@ -520,7 +520,7 @@ As you progress through this roadmap, we recommend taking your time to implement
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;
-Download from &lt;a href=&#34;https://git-scm.com/downloads/win&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt; and run the installer.&lt;/p&gt;
+Download from &lt;a href=&#34;https://git-scm.com/downloads/win&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;git-scm.com&lt;/a&gt; and run the installer.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MacOS:&lt;/strong&gt;
 Using Homebrew:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -535,7 +535,7 @@ Using Homebrew:&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Or download from &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git-scm.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or download from &lt;a href=&#34;https://git-scm.com/downloads/mac&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;git-scm.com&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Hugo (Extended Version)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;hugo-extended-version&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#hugo-extended-version&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Install Hugo v0.145.0 or later (extended version required):&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
@@ -579,7 +579,7 @@ Using Chocolatey (admin PowerShell):&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Or download from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or download from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub Releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MacOS:&lt;/strong&gt;
 Using Homebrew:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -684,7 +684,7 @@ Using Homebrew:&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;We use GoatCounter for web analytics. The traffic statistics are available &lt;a href=&#34;https://beginnerprivacy.goatcounter.com/?filter=&amp;amp;daily=on&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;We use GoatCounter for web analytics. The traffic statistics are available &lt;a href=&#34;https://beginnerprivacy.goatcounter.com/?filter=&amp;amp;daily=on&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.&lt;br&gt;
 — &lt;cite&gt;GoatCounter&amp;rsquo;s Homepage&lt;/cite&gt;&lt;/p&gt;
@@ -703,7 +703,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
       <description>
         
         
-        &lt;p&gt;Found an error in the translations? Then please submit an issue &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;Found an error in the translations? Then please submit an issue &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -725,10 +725,10 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;li&gt;Local Setup (Recommended): &lt;a href=&#34;../setup-locally/&#34; &gt;Learn how to setup this website locally.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Check out what to write:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Head over to our &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Article Status Board&lt;/a&gt; on GitHub to see what articles haven&amp;rsquo;t been written yet.&lt;/p&gt;
+&lt;p&gt;Head over to our &lt;a href=&#34;https://github.com/orgs/beginnerprivacy/projects/1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Article Status Board&lt;/a&gt; on GitHub to see what articles haven&amp;rsquo;t been written yet.&lt;/p&gt;
 &lt;h3&gt;Create Your Article&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;create-your-article&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-your-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Navigate to the &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;content/articles/&lt;/a&gt; folder.&lt;/li&gt;
+&lt;li&gt;Navigate to the &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/content/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;content/articles/&lt;/a&gt; folder.&lt;/li&gt;
 &lt;li&gt;Create a new folder with a URL-friendly name (e.g., &lt;code&gt;why-privacy-matters&lt;/code&gt; for &amp;ldquo;Why Privacy Matters&amp;rdquo;).&lt;/li&gt;
 &lt;li&gt;Inside this folder, create three files:
 &lt;ul&gt;
@@ -740,7 +740,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;/ol&gt;
 &lt;p&gt;🖼️ &lt;strong&gt;Need images?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Create a matching folder in &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static/images/articles/&lt;/a&gt; (e.g., &lt;code&gt;why-privacy-matters&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Create a matching folder in &lt;a href=&#34;https://github.com/beginnerprivacy/beginnerprivacy.github.io/tree/main/static/images/articles&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;static/images/articles/&lt;/a&gt; (e.g., &lt;code&gt;why-privacy-matters&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Article Template&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;article-template&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#article-template&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Include this at the top of your article.&lt;/p&gt;
@@ -776,7 +776,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;h3&gt;Translating Article&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;translating-article&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#translating-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Simplified).&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Translate&lt;/strong&gt; the English version using a tool like &lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LibreTranslate&lt;/a&gt; or any other translator you prefer into Spanish and Chinese (Simplified).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Translate&lt;/strong&gt; the English version using a tool like &lt;a href=&#34;https://libretranslate.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;LibreTranslate&lt;/a&gt; or any other translator you prefer into Spanish and Chinese (Simplified).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Translation Verification:&lt;/strong&gt; Translate the article that has already been translated back into English, and then compare it to the original English article to:
 &lt;ul&gt;
 &lt;li&gt;Catch mistranslated technical terms&lt;/li&gt;
@@ -792,7 +792,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
 &lt;li&gt;&lt;strong&gt;Proofread:&lt;/strong&gt; Fix formatting issues and ensure clarity.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Markdown &amp;amp; Shortcodes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;markdown--shortcodes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#markdown--shortcodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Explore the Hextra documentation on &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shortcodes&lt;/a&gt; to enhance your articles, making them more interactive and easier to read. Additionally, Beginner Privacy offers several custom shortcodes, which are detailed below&lt;/p&gt;
+    &lt;a href=&#34;#markdown--shortcodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Explore the Hextra documentation on &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;https://imfing.github.io/hextra/docs/guide/shortcodes/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Shortcodes&lt;/a&gt; to enhance your articles, making them more interactive and easier to read. Additionally, Beginner Privacy offers several custom shortcodes, which are detailed below&lt;/p&gt;
 &lt;h4&gt;Recommendation Card&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommendation-card&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#recommendation-card&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;When there is a certain tool or piece of software that you want to recommend.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
@@ -828,7 +828,7 @@ Please bear in mind that, while GoatCounter is a useful tool for displaying traf
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

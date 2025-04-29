@@ -25,7 +25,7 @@
         
         &lt;p&gt;使用加密DNS的重要性不容小觑。虽然许多人意识到安全浏览器和VPN的必要性，但DNS加密的作用往往被忽视。&lt;/p&gt;
 &lt;h3&gt;什么是DNS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afdns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从本质上讲，域名系统（DNS）是互联网的电话簿。它将用户友好的域名——如&lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.example.com&lt;/a&gt;——转换为计算机用于相互通信的数字IP地址。这个过程对于浏览网页至关重要，因为它允许您的浏览器定位并连接到您想要访问的网站。&lt;/p&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afdns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从本质上讲，域名系统（DNS）是互联网的电话簿。它将用户友好的域名——如&lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;www.example.com&lt;/a&gt;——转换为计算机用于相互通信的数字IP地址。这个过程对于浏览网页至关重要，因为它允许您的浏览器定位并连接到您想要访问的网站。&lt;/p&gt;
 &lt;h4&gt;DNS的类型&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dns的类型&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dns%e7%9a%84%e7%b1%bb%e5%9e%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;
@@ -69,7 +69,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/help/dns-over-https-and-dns-over-tls&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/help/dns-over-https-and-dns-over-tls&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -78,7 +78,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://controld.com/free-dns&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://controld.com/free-dns&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -87,7 +87,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://developers.cloudflare.com/1.1.1.1/setup&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://developers.cloudflare.com/1.1.1.1/setup&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -152,7 +152,7 @@
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;通过&lt;/strong&gt;
-&lt;a href=&#34;https://phishingquiz.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jigsaw钓鱼测验&lt;/a&gt;
+&lt;a href=&#34;https://phishingquiz.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Jigsaw钓鱼测验&lt;/a&gt;
 &lt;strong&gt;测试自己识别钓鱼邮件的能力&lt;/strong&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -209,7 +209,7 @@
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;如果您不确定选择哪个发行版，请访问 &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distrochooser&lt;/a&gt; 网站。&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;如果您不确定选择哪个发行版，请访问 &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Distrochooser&lt;/a&gt; 网站。&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -242,7 +242,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.virtualbox.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://www.virtualbox.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -262,7 +262,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;安装 Debian：逐步指南&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安装-debian逐步指南&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%ae%89%e8%a3%85-debian%e9%80%90%e6%ad%a5%e6%8c%87%e5%8d%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;第一步：下载正确的 Debian ISO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第一步下载正确的-debian-iso&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bd%e6%ad%a3%e7%a1%ae%e7%9a%84-debian-iso&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;访问 &lt;a href=&#34;https://www.debian.org/distrib/netinst&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian 的下载页面&lt;/a&gt;，在“小型 CD 或 USB 驱动器”标题下选择：&lt;/p&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bd%e6%ad%a3%e7%a1%ae%e7%9a%84-debian-iso&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;访问 &lt;a href=&#34;https://www.debian.org/distrib/netinst&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Debian 的下载页面&lt;/a&gt;，在“小型 CD 或 USB 驱动器”标题下选择：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;amd64&lt;/strong&gt;：适用于大多数 64 位 Intel/AMD 系统。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;arm64&lt;/strong&gt;：适用于较新的 ARM 设备（例如，Raspberry Pi 4）。&lt;/li&gt;
@@ -270,7 +270,7 @@
 &lt;/ul&gt;
 &lt;h4&gt;第二步：创建可启动 USB&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第二步创建可启动-usb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%88%9b%e5%bb%ba%e5%8f%af%e5%90%af%e5%8a%a8-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;安装 &lt;strong&gt;Balena Etcher&lt;/strong&gt;（&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;在此下载&lt;/a&gt;）。&lt;/li&gt;
+&lt;li&gt;安装 &lt;strong&gt;Balena Etcher&lt;/strong&gt;（&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;在此下载&lt;/a&gt;）。&lt;/li&gt;
 &lt;li&gt;插入你的 USB 驱动器，打开 Etcher，选择 Debian ISO。&lt;/li&gt;
 &lt;li&gt;点击 &lt;strong&gt;Flash!&lt;/strong&gt;，等待过程完成。&lt;/li&gt;
 &lt;/ol&gt;
@@ -345,7 +345,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;一个全面的开源替代品目录。&lt;/p&gt;
       
-      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -354,7 +354,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;一个免费的开源Android应用商店。&lt;/p&gt;
       
-      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -363,7 +363,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;查找专有软件的替代品。&lt;/p&gt;
       
-      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -424,7 +424,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://signal.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://signal.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -441,7 +441,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://simplex.chat/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -485,7 +485,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://tuta.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://tuta.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -503,7 +503,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://proton.me/mail&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://proton.me/mail&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -691,7 +691,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -709,7 +709,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://protonvpn.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://protonvpn.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -726,7 +726,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.ivpn.net/en/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://www.ivpn.net/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -779,7 +779,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;流行的私人搜索引擎&lt;/p&gt;
       
-      &lt;a href=&#34;https://duckduckgo.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;试试 DuckDuckGo&lt;/a&gt;
+      &lt;a href=&#34;https://duckduckgo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;试试 DuckDuckGo&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -788,7 +788,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;匿名提供谷歌搜索结果&lt;/p&gt;
       
-      &lt;a href=&#34;https://startpage.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;试试 Startpage&lt;/a&gt;
+      &lt;a href=&#34;https://startpage.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;试试 Startpage&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -797,7 +797,7 @@
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;Brave Search 运行在一个独立的索引上。&lt;/p&gt;
       
-      &lt;a href=&#34;https://search.brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;试试 Brave Search&lt;/a&gt;
+      &lt;a href=&#34;https://search.brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;试试 Brave Search&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -825,7 +825,7 @@
 &lt;li&gt;&lt;strong&gt;Cookies：&lt;/strong&gt; 这些小文件存储有关您偏好和浏览历史的信息，使网站能够在您未来访问时识别您。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;跟踪脚本：&lt;/strong&gt; 许多网站使用第三方脚本来跟踪用户在网络上的行为。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;要查看其他网站可以看到关于你的哪些信息，你可以使用像 &lt;a href=&#34;https://webkay.robinlinus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Webkay&lt;/a&gt;、&lt;a href=&#34;https://browserleaks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrowserLeaks&lt;/a&gt; 或 &lt;a href=&#34;https://printn.github.io/whoareyou&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;whoareyou&lt;/a&gt; 这样的网站。&lt;/p&gt;
+&lt;p&gt;要查看其他网站可以看到关于你的哪些信息，你可以使用像 &lt;a href=&#34;https://webkay.robinlinus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Webkay&lt;/a&gt;、&lt;a href=&#34;https://browserleaks.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;BrowserLeaks&lt;/a&gt; 或 &lt;a href=&#34;https://printn.github.io/whoareyou&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;whoareyou&lt;/a&gt; 这样的网站。&lt;/p&gt;
 &lt;h3&gt;浏览器的主要类型&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;浏览器的主要类型&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%b5%8f%e8%a7%88%e5%99%a8%e7%9a%84%e4%b8%bb%e8%a6%81%e7%b1%bb%e5%9e%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在选择浏览器时，主要有两个选项：&lt;strong&gt;Chromium&lt;/strong&gt; 和 &lt;strong&gt;Firefox&lt;/strong&gt;。两者都是开源项目，这意味着它们的源代码是公开的，任何人都可以查看和贡献。大多数现代浏览器都是基于Chromium或Firefox构建的，这意味着它们共享类似的底层技术。&lt;/p&gt;
 &lt;ul&gt;
@@ -854,7 +854,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -870,7 +870,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://mullvad.net/en/browser&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://mullvad.net/en/browser&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -885,7 +885,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://librewolf.net/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://librewolf.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -899,7 +899,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+      &lt;a href=&#34;https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -952,7 +952,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://temp-mail.org&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://temp-mail.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -965,7 +965,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://smail.pw/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://smail.pw/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -992,7 +992,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://receive-smss.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://receive-smss.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1005,7 +1005,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://smstome.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://smstome.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1051,7 +1051,7 @@
 &lt;li&gt;&lt;strong&gt;其他：&lt;/strong&gt; 通常与上述平台相同的步骤。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;推荐的身份验证器应用程序&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的身份验证器应用程序&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81%e5%99%a8%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下是我们推荐的用于存储您的双重身份验证代码的身份验证器应用程序。许多&lt;a href=&#34;https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;密码管理器&lt;/a&gt;也可以存储2FA代码。&lt;/p&gt;
+    &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81%e5%99%a8%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下是我们推荐的用于存储您的双重身份验证代码的身份验证器应用程序。许多&lt;a href=&#34;https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;密码管理器&lt;/a&gt;也可以存储2FA代码。&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -1070,7 +1070,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://ente.io/auth&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://ente.io/auth&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1083,7 +1083,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://getaegis.app/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://getaegis.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;  
 &lt;/div&gt;
@@ -1101,7 +1101,7 @@
       <description>
         
         
-        &lt;p&gt;你知道最&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;常用的密码&lt;/a&gt;是“123456”吗？ 这突显了为每个在线账户使用强大且独特的密码的重要性。 在这篇文章中，我们将讨论生成和存储强密码的最佳实践。&lt;/p&gt;
+        &lt;p&gt;你知道最&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;常用的密码&lt;/a&gt;是“123456”吗？ 这突显了为每个在线账户使用强大且独特的密码的重要性。 在这篇文章中，我们将讨论生成和存储强密码的最佳实践。&lt;/p&gt;
 &lt;h3&gt;常见的密码安全错误：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;常见的密码安全错误&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%b8%b8%e8%a7%81%e7%9a%84%e5%af%86%e7%a0%81%e5%ae%89%e5%85%a8%e9%94%99%e8%af%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;在密码中使用个人信息&lt;/li&gt;
@@ -1112,7 +1112,7 @@
     &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e5%88%9b%e5%bb%ba%e5%bc%ba%e5%af%86%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;一个强密码是一个难以猜测或破解的密码。 它应该是完全随机的，至少16个字符长（最好更长），并且包含大写字母、小写字母、数字和特殊字符的组合。&lt;/p&gt;
 &lt;p&gt;要获得一个强密码，你可以使用一个免费的在线密码生成器：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bitwarden 密码生成器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Bitwarden 密码生成器&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;安全存储密码&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安全存储密码&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%ae%89%e5%85%a8%e5%ad%98%e5%82%a8%e5%af%86%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;密码管理器非常好用，因为它们允许你存储长且复杂的密码，然后在需要时简单地复制和粘贴。 它的工作原理是设置一个主密码，用于加密你所有其他的密码。 这意味着您所有的密码都被安全地存储，并且只能通过主密码访问。&lt;/p&gt;
@@ -1132,7 +1132,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1150,7 +1150,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1163,7 +1163,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -1177,7 +1177,7 @@
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
