@@ -23,7 +23,7 @@
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
     font-variation-settings: 
     'opsz' 14, /* Optical Size */
-    'wght' 700, /* Weight */
+    'wght' 650, /* Weight */
     'GRAD' 0, /* Grade */
     'wdth' 100, /* Width */
     'slnt' 0, /* Slant */
@@ -42,7 +42,7 @@
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
     font-variation-settings: 
     'opsz' 14, /* Optical Size */
-    'wght' 600, /* Weight */
+    'wght' 650, /* Weight */
     'GRAD' 0, /* Grade */
     'wdth' 100, /* Width */
     'slnt' 0, /* Slant */
