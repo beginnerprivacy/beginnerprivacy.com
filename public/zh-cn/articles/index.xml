@@ -95,6 +95,86 @@
     </item>
     
     <item>
+      <title>为什么您需要使用加密DNS</title>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</guid>
+      <description>
+        
+        
+        &lt;p&gt;使用加密DNS的重要性不容小觑。虽然许多人意识到安全浏览器和VPN的必要性，但DNS加密的作用往往被忽视。&lt;/p&gt;
+&lt;h3&gt;什么是DNS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是dns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afdns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从本质上讲，域名系统（DNS）是互联网的电话簿。它将用户友好的域名——如&lt;a href=&#34;https://www.example.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;www.example.com&lt;/a&gt;——转换为计算机用于相互通信的数字IP地址。这个过程对于浏览网页至关重要，因为它允许您的浏览器定位并连接到您想要访问的网站。&lt;/p&gt;
+&lt;h4&gt;DNS的类型&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;dns的类型&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#dns%e7%9a%84%e7%b1%bb%e5%9e%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;标准DNS&lt;/strong&gt;：这是大多数用户依赖的传统DNS。当您输入一个网站地址时，您的请求会发送到DNS服务器，该服务器将域名解析为IP地址。然而，这个过程通常是未加密的，这意味着任何监控您网络流量的人都可以看到您正在访问哪些网站。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;加密DNS&lt;/strong&gt;：这种类型的DNS通过加密您的DNS查询增加了一层安全性。加密DNS主要有两种协议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HTTPS上的DNS（DoH）&lt;/strong&gt;：该协议通过HTTPS发送DNS查询，这意味着您的请求是加密的，安全不被窃听。它还帮助防止DNS欺骗，攻击者将您重定向到 恶意网站。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TLS上的DNS（DoT）&lt;/strong&gt;：与DoH类似，DoT加密DNS查询，但使用不同的方法（TLS）来保护连接。两个协议都旨在增强隐私和安全性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;为什么使用加密DNS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么使用加密dns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8%e5%8a%a0%e5%af%86dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;DNS查询隐私：&lt;/strong&gt; 加密DNS专门保护您的DNS查询不被监控。这意味着您的ISP或任何其他第三方无法看到您尝试访问哪些网站。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;防止DNS欺骗：&lt;/strong&gt; 加密DNS有助于防止恶意行为者将您的DNS查询重定向到欺诈性网站。这对于确保您能够顺利访问目标网站至关重要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;减少跟踪：&lt;/strong&gt; 通过使用加密DNS，您限制了广告商和数据经纪人可以收集的关于您浏览习惯的数据量，因为他们依赖DNS查询来建立用户档案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;推荐的加密DNS提供商&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的加密dns提供商&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e5%8a%a0%e5%af%86dns%e6%8f%90%e4%be%9b%e5%95%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;这些提供商都提供指南，帮助您在设备上设置他们的DNS。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;recommendations&#34;&gt;  
+  &lt;div class=&#34;grid&#34;&gt;  
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Mullvad&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
+      
+      &lt;a href=&#34;https://mullvad.net/en/help/dns-over-https-and-dns-over-tls&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Control D&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
+      
+      &lt;a href=&#34;https://controld.com/free-dns&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Cloudflare&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
+      
+      &lt;a href=&#34;https://developers.cloudflare.com/1.1.1.1/setup&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>不要上钩：如何识别和避免网络钓鱼邮件</title>
       <link>http://localhost:1313/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
