@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/es/articles/how-to-remove-yourself-from-data-brokers/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-to-remove-yourself-from-data-brokers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-to-remove-yourself-from-data-brokers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-to-remove-yourself-from-data-brokers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend/</loc>
+    <lastmod>2025-05-01T12:24:46+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/why-you-need-to-use-an-encrypted-dns/</loc>
     <lastmod>2025-04-27T15:36:32+02:00</lastmod>
     <xhtml:link
@@ -18,24 +54,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/articles/why-you-need-to-use-an-encrypted-dns/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend/</loc>
-    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</loc>
@@ -417,7 +435,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-04-27T15:36:32+02:00</lastmod>
+    <lastmod>2025-05-01T12:24:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

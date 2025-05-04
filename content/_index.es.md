@@ -77,7 +77,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Cámbiate a Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="DNS Encriptado" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend"  class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Eliminación de corredores de datos" id="removal-from-data-brokers" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Eliminación de corredores de datos" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Qué es Tor?" id="what-is-tor" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
       </ol>
