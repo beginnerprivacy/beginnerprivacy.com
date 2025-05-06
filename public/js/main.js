@@ -858,8 +858,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (savedState === 'true') {
             checkbox.checked = true;
         }
+
         checkbox.addEventListener('change', function() {
             localStorage.setItem(id, checkbox.checked);
+
+            document.querySelectorAll(`#${id}`).forEach(cb => {
+              cb.checked = checkbox.checked;
+            });
             
             const modalId = getQueryParam('m');
             const card = document.getElementById(modalId);

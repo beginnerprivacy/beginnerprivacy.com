@@ -42,10 +42,26 @@ title: Checklists
 
     {{< hextra/checklist-item text="Limit the amount of personal information shared online, including details about family, home address, and daily activities." id="be -cautious-with-personal-information" >}}Be cautious with personal information{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="With a large following, you're a target for hackers. Verify email senders and be cautious of emails asking for personal information or containing suspicious links." id="avoid-phishing-emails" >}}Avoid phishing emails{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails" text="With a large following, you're a target for hackers. Verify email senders and be cautious of emails asking for personal information or containing suspicious links." id="avoid-phishing-emails" >}}Avoid phishing emails{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Regularly back up your content and important data to prevent loss in case of account hacking or platform issues." id="backup-content" >}}Backup content{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Hacker" modalID="hacker" image="../images/checklists/hacker.webp" >}}{{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Mass Surveillance" modalID="mass-surveillance" image="../images/checklists/mass-surveillance.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Mass Surveillance" modalID="mass-surveillance" image="../images/checklists/mass-surveillance.webp" >}}
+    {{< hextra/checklist-item link="../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="Switching to Linux can enhance your privacy and security by reducing reliance on proprietary software." id="switch-to-linux" >}}Switch to Linux{{< /hextra/checklist-item >}}
+    
+    {{< hextra/checklist-item link="../articles/why-you-should-ditch-social-media-and-use-a-frontend" text="Using social media frontends can help you maintain privacy while still engaging with the same platforms." id="use-social-media-frontends" >}}Use social media frontends{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/limit-the-personal-information-you-share-online" text="Be mindful of the personal information you share online to protect your privacy." id="limit-information-shared" >}}Limit information shared{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/why-you-need-a-private-browser-to-protect-yourself" text="Using a private browser can help safeguard your online activities from prying eyes." id="private-browser" >}}Private browser{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/searching-safely-with-a-privacy-focused-search-engine" text="Opt for a privacy-focused search engine to enhance your online anonymity." id="private-search-engine" >}}Private search engine{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/what-is-a-vpn-and-should-you-use-one" text="A Virtual Private Network (VPN) can provide an extra layer of security for your internet connection." id="virtual-private-network" >}}Virtual Private Network (VPN){{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="Buying things with cash or cryptocurrency to enhance your financial privacy." id="only-buy-with-cash-or-cryptocurrency" >}}Only buy with cash or cryptocurrency{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Digital Nomad" modalID="digital-nomad" image="../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Darknet User" modalID="darknet-user" image="../images/checklists/darknet-user.webp" >}}{{< /hextra/checklist-card >}}
 </div>

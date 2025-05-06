@@ -42,10 +42,26 @@ title: 检查表
 
     {{< hextra/checklist-item text="限制在线分享的个人信息，包括家庭、住址和日常活动的细节。" id="be -cautious-with-personal-information" >}}谨慎对待个人信息{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="拥有大量粉丝，你是黑客的目标。验证电子邮件发件人，并对请求个人信息或包含可疑链接的电子邮件保持警惕。" id="avoid-phishing-emails" >}}避免网络钓鱼邮件{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails" text="拥有大量粉丝，你是黑客的目标。验证电子邮件发件人，并对请求个人信息或包含可疑链接的电子邮件保持警惕。" id="avoid-phishing-emails" >}}避免网络钓鱼邮件{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="定期备份您的内容和重要数据，以防账户被黑或平台出现问题时丢失数据。" id="backup-content" >}}备份内容{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="黑客" modalID="hacker" image="../../images/checklists/hacker.webp" >}}{{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="大规模监控" modalID="mass-surveillance" image="../../images/checklists/mass-surveillance.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="大规模监控" modalID="mass-surveillance" image="../../images/checklists/mass-surveillance.webp" >}}
+    {{< hextra/checklist-item link="../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="切换到Linux可以通过减少对专有软件的依赖来增强您的隐私和安全性。" id="switch-to-linux" >}}切换到Linux{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/why-you-should-ditch-social-media-and-use-a-frontend" text="使用社交媒体前端可以帮助您在与相同平台互动的同时保持隐私。" id="use-social-media-frontends" >}}使用社交媒体前端{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/limit-the-personal-information-you-share-online" text="注意您在线分享的个人信息，以保护您的隐私。" id="limit-information-shared" >}}限制共享信息{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/why-you-need-a-private-browser-to-protect-yourself" text="使用私人浏览器可以帮助保护您的在线活动不被窥探。" id="private-browser" >}}私人浏览器{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/searching-safely-with-a-privacy-focused-search-engine" text="选择一个注重隐私的搜索引擎，以增强您的在线匿名性。" id="private-search-engine" >}}私人搜索引擎{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item link="../articles/what-is-a-vpn-and-should-you-use-one" text="虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。" id="virtual-private-network" >}}虚拟私人网络（VPN）{{< /hextra/checklist-item >}}
+
+    {{< hextra/checklist-item text="使用现金或加密货币购买物品以增强您的财务隐私。" id="only-buy-with-cash-or-cryptocurrency" >}}仅使用现金或加密货币购买{{< /hextra/checklist-item >}}
+{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="数字游牧者" modalID="digital-nomad" image="../../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="暗网用户" modalID="darknet-user" image="../../images/checklists/darknet-user.webp" >}}{{< /hextra/checklist-card >}}
 </div>
