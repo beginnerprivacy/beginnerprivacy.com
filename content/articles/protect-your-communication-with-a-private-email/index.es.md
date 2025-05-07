@@ -7,17 +7,21 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-Los proveedores de correo electrónico populares como Gmail, Outlook y Yahoo te dejan vulnerable.
+Los proveedores de correo electrónico populares como Gmail, Outlook y Yahoo pueden dejarte vulnerable a varios riesgos de privacidad y amenazas de seguridad.
 
 ### La Importancia de la Privacidad del Correo Electrónico
-Los proveedores de correo electrónico populares como Gmail, Outlook y Yahoo participan en prácticas que pueden comprometer tu privacidad, como vender tus datos a terceros, escanear tu bandeja de entrada para publicidad dirigida y dejarte vulnerable a violaciones de datos.
+Usar servicios de correo electrónico convencionales a menudo significa comprometer tu privacidad. Proveedores como Gmail y Yahoo participan en prácticas que pueden exponer tu información personal, tales como:
+- **Monetización de Datos:** Estas empresas venden frecuentemente tus datos a anunciantes, lo que puede llevar a anuncios dirigidos basados en el contenido y comportamiento de tus correos electrónicos.
+- **Escaneo Invasivo:** Tu bandeja de entrada puede ser escaneada en busca de palabras clave para servir anuncios personalizados, lo que genera preocupaciones sobre quién tiene acceso a tus conversaciones privadas.
+- **Filtraciones de Datos:** Las filtraciones de alto perfil han demostrado que estos servicios pueden ser vulnerables, poniendo en riesgo tu información sensible.
+- **Falta de Encriptación:** La mayoría de los proveedores convencionales no ofrecen encriptación de extremo a extremo por defecto, lo que significa que tus correos electrónicos podrían ser accesibles por el proveedor o interceptados por otros.
 
 ### Lo Que Hace un Correo Electrónico Enfocado en la Privacidad
 - **Registro Anónimo:** Puedes registrarte sin revelar información personal, manteniendo tu identidad desconocida.
-- **Cifrado de Extremo a Extremo:** Tus correos electrónicos están asegurados para que solo tú y la persona a la que se los envías puedan leerlos. El proveedor de correo electrónico no puede espiar.
+- **Encriptación de Extremo a Extremo:** Tus correos electrónicos están asegurados para que solo tú y la persona a la que se los envías puedan leerlos. El proveedor de correo no puede espiar.
 - **Transparencia de Código Abierto:** Comparten su código fuente públicamente, para que cualquiera pueda verificar si realmente son seguros y privados.
 
-### Correos Electrónicos Recomendados
+### Proveedores de Correo Recomendados
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="Tuta" link="https://tuta.com/" logo="../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visitar Sitio Web" >}}
