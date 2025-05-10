@@ -15,6 +15,92 @@
     
     
     <item>
+      <title>Navigating the Web Anonymously: A Guide to Tor Basics</title>
+      <link>http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;What is Tor?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tor, short for &amp;ldquo;The Onion Router,&amp;rdquo; is a free and open-source software that enables anonymous communication over the internet. It achieves this by routing your internet traffic through a network of volunteer-operated servers, known as nodes or relays. Each relay only knows the location of the previous and next relay, which helps obscure the user&amp;rsquo;s original IP address. This layered encryption process resembles the layers of an onion, hence the name. Tor is widely used by individuals seeking to protect their privacy online, including journalists, activists, and everyday users who want to browse the web without being tracked.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp&#34; alt=&#34;Illustration of how the The Onion Router works&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Why Use Tor?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-use-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-use-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are several compelling reasons to use Tor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Anonymity&lt;/strong&gt;: Tor helps protect your identity by masking your IP address, making it difficult for websites, advertisers, and even governments to track your online activities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Circumventing Censorship&lt;/strong&gt;: In countries with strict internet censorship, Tor can help users access blocked websites and communicate freely.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Privacy Protection&lt;/strong&gt;: Tor encrypts your internet traffic, providing an additional layer of security against eavesdropping and surveillance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Access to the Dark Web&lt;/strong&gt;: Tor allows users to access .onion sites, which are not indexed by traditional search engines and can provide unique content and services.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Installing Tor Browser&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-tor-browser&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#installing-tor-browser&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Installing the Tor Browser is a straightforward process. Here’s how to do it:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Download the Tor Browser&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit the official Tor Project website at &lt;a href=&#34;https://www.torproject.org/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;torproject.org&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Scroll down and click on the download button for your operating system (Windows, macOS, Linux, or Android).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install the Tor Browser&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once the download is complete, open the installer and follow the on-screen instructions to install the Tor Browser on your device.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Launch the Tor Browser&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After installation, open the Tor Browser. You will be greeted with a welcome screen that provides information about how Tor works.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Connect to the Tor Network&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click the &amp;ldquo;Connect&amp;rdquo; button to establish a connection to the Tor network. This may take a few seconds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start Browsing&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once connected, you can start browsing the internet anonymously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Using Tor Safely&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-tor-safely&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-tor-safely&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;While Tor provides a significant level of anonymity, it’s essential to use it correct to maximize your privacy. Here are some best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Disable JavaScript&lt;/strong&gt;: You have to fully disable JavaScript because then websites can&amp;rsquo;t get your information. This may break the functionality of some websites.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Log In Into Accounts&lt;/strong&gt;: Avoid logging into accounts that can be linked to your real identity (e.g., social media) while using Tor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Use Plugins or Extensions&lt;/strong&gt;: Do not install additional plugins or extensions in the Tor Browser, as they can compromise your anonymity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Reveal Personal Information&lt;/strong&gt;: Never share personal information while using Tor, as it can be used to identify you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t Use a VPN With Tor&lt;/strong&gt;: Mixing a VPN together with Tor is not recommended, as it centralizes your connection and undermines Tor&amp;rsquo;s decentralization. It also adds a layer of trust in the VPN provider, who may log your activities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>How to Remove Yourself From Data Brokers</title>
       <link>http://localhost:1313/articles/how-to-remove-yourself-from-data-brokers/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>

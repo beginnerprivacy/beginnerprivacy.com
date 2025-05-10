@@ -78,7 +78,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="DNS Encriptado" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend"  class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Eliminación de corredores de datos" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="¿Qué es Tor?" id="what-is-tor" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="¿Qué es Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
       </ol>
     </div>
@@ -135,9 +135,6 @@ layout: hextra-home
                 </a>
                 <a href="https://youtube.com/@BeginnerPrivacy" title="YouTube" target="_blank" rel="noopener noreferrer">
                     {{< hextra/icon name="youtube" attributes="height=25" >}}
-                </a>
-                <a href="https://odysee.com/@BeginnerPrivacy" title="Odysee" target="_blank" rel="noopener noreferrer">
-                    {{< hextra/icon name="odysee" attributes="height=25" >}}
                 </a>
                 <a href="https://tiktok.com/@BeginnerPrivacy" target="_blank" title="TikTok" rel="noopener noreferrer">
                     {{< hextra/icon name="tiktok" attributes="height=25" >}}

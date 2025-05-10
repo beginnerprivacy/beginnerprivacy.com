@@ -638,6 +638,81 @@
     </item>
     
     <item>
+      <title>用FOSS摆脱专有软件的束缚</title>
+      <link>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
+      <description>
+        
+        
+        &lt;p&gt;使用FOSS是您隐私之旅中的重要一步，也是优于专有软件的选择。&lt;/p&gt;
+&lt;h3&gt;什么是FOSS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是foss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%affoss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS代表&lt;strong&gt;自由和开源软件&lt;/strong&gt;。这意味着软件的源代码对公众开放，任何人都可以查看、修改和分发。这种开放性促进了软件社区的合作与创新。&lt;/p&gt;
+&lt;h3&gt;为什么FOSS优于专有软件？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么foss优于专有软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88foss%e4%bc%98%e4%ba%8e%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS相对于专有软件有几个优势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;透明性&lt;/strong&gt;：用户可以检查源代码以了解软件的工作原理，确保没有隐藏的恶意功能或数据收集行为。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安全性&lt;/strong&gt;：通过从源代码构建软件，用户可以避免下载可能包含恶意软件（如木马）的潜在有害版本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;社区支持&lt;/strong&gt;：FOSS通常拥有一个充满活力的社区，参与其开发，提供支持和更新。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;如何找到FOSS替代品？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何找到foss替代品&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e6%89%be%e5%88%b0foss%e6%9b%bf%e4%bb%a3%e5%93%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;得益于专门列出各种选项的网站，寻找FOSS替代品比以往任何时候都容易。以下是一些推荐的资源：&lt;/p&gt;
+&lt;div class=&#34;recommendations&#34;&gt;
+  &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;OpenSourceAlternative.to&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;一个全面的开源替代品目录。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;F-Droid&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;一个免费的开源Android应用商店。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;AlternativeTo&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;查找专有软件的替代品。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;如何用FOSS替代专有软件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何用foss替代专有软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%94%a8foss%e6%9b%bf%e4%bb%a3%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从专有软件迁移到FOSS可能会面临挑战。以下是一些使过渡更顺利的建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;慢慢开始&lt;/strong&gt;：一次替换一个专有应用程序，用其FOSS替代品。这使您能够逐步适应。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;测试替代品&lt;/strong&gt;：下载FOSS替代品并使用几天，以熟悉其功能和界面。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;迁移您的数据&lt;/strong&gt;：一旦您感到舒适，将文件和数据转移到新软件中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>放弃短信，使用安全通信方法。</title>
       <link>http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
@@ -772,7 +847,7 @@
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../images/articles/protect-your-communication-with-a-private-email/tuta.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;Tuta&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
@@ -790,7 +865,7 @@
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;Proton Mail&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
