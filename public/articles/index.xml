@@ -27,8 +27,9 @@
     &lt;a href=&#34;#what-is-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tor, short for &amp;ldquo;The Onion Router,&amp;rdquo; is a free and open-source software that enables anonymous communication over the internet. It achieves this by routing your internet traffic through a network of volunteer-operated servers, known as nodes or relays. Each relay only knows the location of the previous and next relay, which helps obscure the user&amp;rsquo;s original IP address. This layered encryption process resembles the layers of an onion, hence the name. Tor is widely used by individuals seeking to protect their privacy online, including journalists, activists, and everyday users who want to browse the web without being tracked.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp&#34; alt=&#34;Illustration of how the The Onion Router works&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Why Use Tor?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-use-tor&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#why-use-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are several compelling reasons to use Tor:&lt;/p&gt;
-&lt;ul&gt;
+    &lt;a href=&#34;#why-use-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There are several compelling reasons to use Tor, as well as some drawbacks to consider:&lt;/p&gt;
+&lt;h4&gt;Benefits of Using Tor:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;benefits-of-using-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#benefits-of-using-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Anonymity&lt;/strong&gt;: Tor helps protect your identity by masking your IP address, making it difficult for websites, advertisers, and even governments to track your online activities.&lt;/p&gt;
 &lt;/li&gt;
@@ -40,6 +41,15 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Access to the Dark Web&lt;/strong&gt;: Tor allows users to access .onion sites, which are not indexed by traditional search engines and can provide unique content and services.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Drawbacks of Using Tor:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;drawbacks-of-using-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#drawbacks-of-using-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Slow Speed&lt;/strong&gt;: Because Tor routes your internet traffic through multiple relays, it can significantly slow down your browsing experience compared to standard internet connections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Not Ideal for Casual Use&lt;/strong&gt;: For everyday browsing, Tor is generally not recommended due to its slower speeds and the potential for websites to block Tor traffic.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Installing Tor Browser&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-tor-browser&#34;&gt;&lt;/span&gt;

@@ -12,15 +12,22 @@ Tor, abreviatura de "The Onion Router", es un software gratuito y de código abi
 
 ![Ilustración de cómo funciona The Onion Router](../../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp)
 
-### ¿Por qué Usar Tor?
-Hay varias razones convincentes para usar Tor:
+### ¿Por qué usar Tor?
+Hay varias razones convincentes para usar Tor, así como algunos inconvenientes a considerar:
+
+#### Beneficios de usar Tor
 - **Anonimato**: Tor ayuda a proteger tu identidad al enmascarar tu dirección IP, lo que dificulta que los sitios web, anunciantes e incluso gobiernos rastreen tus actividades en línea.
 
-- **Eludir la Censura**: En países con estricta censura de Internet, Tor puede ayudar a los usuarios a acceder a sitios web bloqueados y comunicarse libremente.
+- **Eludir la Censura**: En países con estricta censura de internet, Tor puede ayudar a los usuarios a acceder a sitios web bloqueados y comunicarse libremente.
 
-- **Protección de la Privacidad**: Tor cifra tu tráfico de Internet, proporcionando una capa adicional de seguridad contra la interceptación y la vigilancia.
+- **Protección de la Privacidad**: Tor cifra tu tráfico de internet, proporcionando una capa adicional de seguridad contra la interceptación y la vigilancia.
 
-- **Acceso a la Dark Web**: Tor permite a los usuarios acceder a sitios .onion, que no están indexados por los motores de búsqueda tradicionales y pueden proporcionar contenido y servicios únicos.
+- **Acceso a la Dark Web**: Tor permite a los usuarios acceder a sitios .onion, que no están indexados por los motores de búsqueda tradicionales y pueden ofrecer contenido y servicios únicos.
+
+#### Inconvenientes de usar Tor
+- **Velocidad lenta**: Debido a que Tor enruta tu tráfico de internet a través de múltiples relés, puede ralentizar significativamente tu experiencia de navegación en comparación con las conexiones de internet estándar.
+
+- **No es ideal para uso casual**: Para la navegación diaria, generalmente no se recomienda Tor debido a sus velocidades más lentas y la posibilidad de que los sitios web bloqueen el tráfico de Tor.
 
 ### Instalación del Navegador Tor
 Instalar el Navegador Tor es un proceso sencillo. Aquí te explico cómo hacerlo:

@@ -15,6 +15,102 @@
     
     
     <item>
+      <title>匿名浏览网络：Tor基础指南</title>
+      <link>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;什么是Tor？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%aftor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tor是“洋葱路由器”（The Onion Router）的缩写，是一款免费的开源软件，能够实现互联网的匿名通信。它通过将您的互联网流量路由到由志愿者操作的服务器网络（称为节点或中继）来实现这一点。每个中继只知道前一个和下一个中继的位置，这有助于模糊用户的原始IP地址。这种分层加密过程类似于洋葱的层，因此得名。Tor被广泛用于寻求在线保护隐私的个人，包括记者、活动家和希望在不被追踪的情况下浏览网络的普通用户。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp&#34; alt=&#34;洋葱路由器工作原理的插图&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;为什么使用 Tor？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么使用-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;使用 Tor 有几个令人信服的理由，同时也有一些需要考虑的缺点：&lt;/p&gt;
+&lt;h4&gt;使用 Tor 的好处：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使用-tor-的好处&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e5%a5%bd%e5%a4%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;匿名性&lt;/strong&gt;：Tor 通过隐藏您的 IP 地址来帮助保护您的身份，使网站、广告商甚至政府难以追踪您的在线活动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;规避审查&lt;/strong&gt;：在互联网审查严格的国家，Tor 可以帮助用户访问被封锁的网站并自由交流。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;隐私保护&lt;/strong&gt;：Tor 加密您的互联网流量，为防止窃听和监视提供额外的安全层。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;访问暗网&lt;/strong&gt;：Tor 允许用户访问 .onion 网站，这些网站不被传统搜索引擎索引，可以提供独特的内容和服务。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;使用 Tor 的缺点：&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使用-tor-的缺点&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e7%bc%ba%e7%82%b9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;速度慢&lt;/strong&gt;：由于 Tor 通过多个中继路由您的互联网流量，因此与标准互联网连接相比，它可能会显著降低您的浏览体验。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不适合随意使用&lt;/strong&gt;：对于日常浏览，通常不推荐使用 Tor，因为它的速度较慢，并且网站可能会阻止 Tor 流量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;安装Tor浏览器&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安装tor浏览器&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%89%e8%a3%85tor%e6%b5%8f%e8%a7%88%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;安装Tor浏览器是一个简单的过程。以下是操作步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;下载Tor浏览器&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问Tor项目的官方网站 &lt;a href=&#34;https://www.torproject.org/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;torproject.org&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;向下滚动并点击适合您操作系统（Windows、macOS、Linux或Android）的下载按钮。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安装Tor浏览器&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下载完成后，打开安装程序并按照屏幕上的说明安装Tor浏览器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;启动Tor浏览器&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装后，打开Tor浏览器。您将看到一个欢迎屏幕，提供有关Tor工作原理的信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;连接到Tor网络&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;点击“连接”按钮以建立与Tor网络的连接。这可能需要几秒钟。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;开始浏览&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一旦连接，您可以开始匿名浏览互联网。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;安全使用Tor&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安全使用tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%89%e5%85%a8%e4%bd%bf%e7%94%a8tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;虽然Tor提供了显著的匿名性，但正确使用它以最大化您的隐私至关重要。以下是一些最佳实践：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;禁用JavaScript&lt;/strong&gt;：您必须完全禁用JavaScript，因为这样网站无法获取您的信息。这可能会破坏某些网站的功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不要登录账户&lt;/strong&gt;：在使用Tor时，避免登录可能与您真实身份相关联的账户（例如社交媒体）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不要使用插件或扩展&lt;/strong&gt;：不要在Tor浏览器中安装额外的插件或扩展，因为它们可能会危及您的匿名性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不要透露个人信息&lt;/strong&gt;：在使用Tor时，绝不要分享个人信息，因为这可能会被用来识别您。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不要与Tor一起使用VPN&lt;/strong&gt;：不建议将VPN与Tor混合使用，因为这会集中您的连接并破坏Tor的去中心化。它还增加了对VPN提供商的信任层，后者可能会记录您的活动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>如何将自己从数据经纪人中删除</title>
       <link>http://localhost:1313/zh-cn/articles/how-to-remove-yourself-from-data-brokers/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
@@ -568,81 +664,6 @@
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/zh-cn/articles/break-free-from-proprietary-software-with-foss/</guid>
-      <description>
-        
-        
-        &lt;p&gt;使用FOSS是您隐私之旅中的重要一步，也是优于专有软件的选择。&lt;/p&gt;
-&lt;h3&gt;什么是FOSS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是foss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%affoss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS代表&lt;strong&gt;自由和开源软件&lt;/strong&gt;。这意味着软件的源代码对公众开放，任何人都可以查看、修改和分发。这种开放性促进了软件社区的合作与创新。&lt;/p&gt;
-&lt;h3&gt;为什么FOSS优于专有软件？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么foss优于专有软件&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88foss%e4%bc%98%e4%ba%8e%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS相对于专有软件有几个优势：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;透明性&lt;/strong&gt;：用户可以检查源代码以了解软件的工作原理，确保没有隐藏的恶意功能或数据收集行为。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;安全性&lt;/strong&gt;：通过从源代码构建软件，用户可以避免下载可能包含恶意软件（如木马）的潜在有害版本。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;社区支持&lt;/strong&gt;：FOSS通常拥有一个充满活力的社区，参与其开发，提供支持和更新。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;如何找到FOSS替代品？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何找到foss替代品&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e6%89%be%e5%88%b0foss%e6%9b%bf%e4%bb%a3%e5%93%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;得益于专门列出各种选项的网站，寻找FOSS替代品比以往任何时候都容易。以下是一些推荐的资源：&lt;/p&gt;
-&lt;div class=&#34;recommendations&#34;&gt;
-  &lt;div class=&#34;grid&#34;&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;OpenSourceAlternative.to&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;一个全面的开源替代品目录。&lt;/p&gt;
-      
-      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;F-Droid&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;一个免费的开源Android应用商店。&lt;/p&gt;
-      
-      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;AlternativeTo&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;查找专有软件的替代品。&lt;/p&gt;
-      
-      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;如何用FOSS替代专有软件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何用foss替代专有软件&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%94%a8foss%e6%9b%bf%e4%bb%a3%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从专有软件迁移到FOSS可能会面临挑战。以下是一些使过渡更顺利的建议：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;慢慢开始&lt;/strong&gt;：一次替换一个专有应用程序，用其FOSS替代品。这使您能够逐步适应。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;测试替代品&lt;/strong&gt;：下载FOSS替代品并使用几天，以熟悉其功能和界面。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;迁移您的数据&lt;/strong&gt;：一旦您感到舒适，将文件和数据转移到新软件中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>用FOSS摆脱专有软件的束缚</title>
-      <link>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
       <description>
         
         

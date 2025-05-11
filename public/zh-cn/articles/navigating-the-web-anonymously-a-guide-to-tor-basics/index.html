@@ -19,7 +19,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2025-05-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-05-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-05-10T18:24:43+02:00" />
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://beginnerprivacy.com/images/og_image.png">
@@ -30,8 +30,8 @@
   <meta itemprop="name" content="匿名浏览网络：Tor基础指南">
   <meta itemprop="description" content="什么是Tor？ Tor是“洋葱路由器”（The Onion Router）的缩写，是一款免费的开源软件，能够实现互联网的匿名通信。它通过将您的互联网流量路由到由志愿者操作的服务器网络（称为节点或中继）来实现这一点。每个中继只知道前一个和下一个中继的位置，这有助于模糊用户的原始IP地址。这种分层加密过程类似于洋葱的层，因此得名。Tor被广泛用于寻求在线保护隐私的个人，包括记者、活动家和希望在不被追踪的情况下浏览网络的普通用户。">
   <meta itemprop="datePublished" content="2025-05-10T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-05-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="995">
+  <meta itemprop="dateModified" content="2025-05-10T18:24:43+02:00">
+  <meta itemprop="wordCount" content="1117">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -647,7 +647,15 @@
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8tor">为什么使用Tor？
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8-tor">为什么使用 Tor？
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e5%a5%bd%e5%a4%84">使用 Tor 的好处
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e7%bc%ba%e7%82%b9">使用 Tor 的缺点
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -691,20 +699,30 @@
           <h3>什么是Tor？<span class="hx-absolute -hx-mt-20" id="什么是tor"></span>
     <a href="#%e4%bb%80%e4%b9%88%e6%98%aftor" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Tor是“洋葱路由器”（The Onion Router）的缩写，是一款免费的开源软件，能够实现互联网的匿名通信。它通过将您的互联网流量路由到由志愿者操作的服务器网络（称为节点或中继）来实现这一点。每个中继只知道前一个和下一个中继的位置，这有助于模糊用户的原始IP地址。这种分层加密过程类似于洋葱的层，因此得名。Tor被广泛用于寻求在线保护隐私的个人，包括记者、活动家和希望在不被追踪的情况下浏览网络的普通用户。</p>
 <p><img src="../../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp" alt="洋葱路由器工作原理的插图" loading="lazy" /></p>
-<h3>为什么使用Tor？<span class="hx-absolute -hx-mt-20" id="为什么使用tor"></span>
-    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8tor" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>使用Tor有几个令人信服的理由：</p>
-<ul>
+<h3>为什么使用 Tor？<span class="hx-absolute -hx-mt-20" id="为什么使用-tor"></span>
+    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%bf%e7%94%a8-tor" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>使用 Tor 有几个令人信服的理由，同时也有一些需要考虑的缺点：</p>
+<h4>使用 Tor 的好处<span class="hx-absolute -hx-mt-20" id="使用-tor-的好处"></span>
+    <a href="#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e5%a5%bd%e5%a4%84" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
 <li>
-<p><strong>匿名性</strong>：Tor通过隐藏您的IP地址来帮助保护您的身份，使网站、广告商甚至政府难以追踪您的在线活动。</p>
+<p><strong>匿名性</strong>：Tor 通过隐藏您的 IP 地址来帮助保护您的身份，使网站、广告商甚至政府难以追踪您的在线活动。</p>
 </li>
 <li>
-<p><strong>规避审查</strong>：在互联网审查严格的国家，Tor可以帮助用户访问被封锁的网站并自由交流。</p>
+<p><strong>规避审查</strong>：在互联网审查严格的国家，Tor 可以帮助用户访问被封锁的网站并自由交流。</p>
 </li>
 <li>
-<p><strong>隐私保护</strong>：Tor加密您的互联网流量，为防止窃听和监视提供额外的安全层。</p>
+<p><strong>隐私保护</strong>：Tor 加密您的互联网流量，为防止窃听和监视提供额外的安全层。</p>
 </li>
 <li>
-<p><strong>访问暗网</strong>：Tor允许用户访问.onion网站，这些网站不被传统搜索引擎索引，并可以提供独特的内容和服务。</p>
+<p><strong>访问暗网</strong>：Tor 允许用户访问 .onion 网站，这些网站不被传统搜索引擎索引，可以提供独特的内容和服务。</p>
+</li>
+</ul>
+<h4>使用 Tor 的缺点<span class="hx-absolute -hx-mt-20" id="使用-tor-的缺点"></span>
+    <a href="#%e4%bd%bf%e7%94%a8-tor-%e7%9a%84%e7%bc%ba%e7%82%b9" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>
+<p><strong>速度慢</strong>：由于 Tor 通过多个中继路由您的互联网流量，因此与标准互联网连接相比，它可能会显著降低您的浏览体验。</p>
+</li>
+<li>
+<p><strong>不适合随意使用</strong>：对于日常浏览，通常不推荐使用 Tor，因为它的速度较慢，并且网站可能会阻止 Tor 流量。</p>
 </li>
 </ul>
 <h3>安装Tor浏览器<span class="hx-absolute -hx-mt-20" id="安装tor浏览器"></span>
@@ -758,13 +776,13 @@
 <p><strong>不要透露个人信息</strong>：在使用Tor时，绝不要分享个人信息，因为这可能会被用来识别您。</p>
 </li>
 <li>
-<p><strong>不要与Tor一起使用VPN</strong>：不建议将VPN与Tor混合使用，因为这会集中您的连接并破坏Tor的去中心化。它还增加了对VPN提供商的信任层，后者可能会记录您的活动。</p>
+<p><strong>不要与Tor一起使用VPN</strong>：不建议将VPN与Tor混合使用，因为这会集中您的连接并破坏Tor的去中心化。它还增加了对VPN提供商的信任层，后者可能会记录您的活动。������</p>
 </li>
 </ul>
 
         </div>
         
-    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">最后更新于 <time datetime="2025-05-10T00:00:00.000Z">May 10, 2025</time></div>
+    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">最后更新于 <time datetime="2025-05-10T18:24:43.000Z">May 10, 2025</time></div>
         
         <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden"><a
         href="/zh-cn/articles/how-to-remove-yourself-from-data-brokers/"

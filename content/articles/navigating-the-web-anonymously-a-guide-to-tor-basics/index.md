@@ -13,7 +13,9 @@ Tor, short for "The Onion Router," is a free and open-source software that enabl
 ![Illustration of how the The Onion Router works](../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp)
 
 ### Why Use Tor?
-There are several compelling reasons to use Tor:
+There are several compelling reasons to use Tor, as well as some drawbacks to consider:
+
+#### Benefits of Using Tor
 - **Anonymity**: Tor helps protect your identity by masking your IP address, making it difficult for websites, advertisers, and even governments to track your online activities.
 
 - **Circumventing Censorship**: In countries with strict internet censorship, Tor can help users access blocked websites and communicate freely.
@@ -21,6 +23,11 @@ There are several compelling reasons to use Tor:
 - **Privacy Protection**: Tor encrypts your internet traffic, providing an additional layer of security against eavesdropping and surveillance.
 
 - **Access to the Dark Web**: Tor allows users to access .onion sites, which are not indexed by traditional search engines and can provide unique content and services.
+
+#### Drawbacks of Using Tor
+- **Slow Speed**: Because Tor routes your internet traffic through multiple relays, it can significantly slow down your browsing experience compared to standard internet connections.
+
+- **Not Ideal for Casual Use**: For everyday browsing, Tor is generally not recommended due to its slower speeds and the potential for websites to block Tor traffic.
 
 ### Installing Tor Browser
 Installing the Tor Browser is a straightforward process. Here’s how to do it:
