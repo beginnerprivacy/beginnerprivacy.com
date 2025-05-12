@@ -84,7 +84,7 @@ layout: hextra-home
       <div id="advancedContent" class="roadmap-section" style="display:none;">
         <ol>
           <li>{{< hextra/feature-card title="Advanced Introduction" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Desktop Operating System" id="desktop-operating-system" class="advanced-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Desktop Operating System" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Mobile Operating System" id="mobile-operating-system" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Self-Hosting" id="self-hosting" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" class="advanced-hf-card-color" >}}</li>
