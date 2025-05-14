@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/articles/the-best-private-mobile-operating-systems/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/the-best-private-mobile-operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/the-best-private-mobile-operating-systems/"
+                />
+  </url><url>
     <loc>http://localhost:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</loc>
-    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T21:19:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -489,7 +507,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-10T18:24:43+02:00</lastmod>
+    <lastmod>2025-05-12T21:19:23+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

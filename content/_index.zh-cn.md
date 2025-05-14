@@ -84,7 +84,7 @@ layout: hextra-home
       <ol>
         <li>{{< hextra/feature-card title="高级介绍" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="桌面操作系统" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="移动操作系统" id="mobile-operating-system" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="移动操作系统" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="自托管" id="self-hosting" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="加密货币" id="cryptocurrency" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="避免蜜罐" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
