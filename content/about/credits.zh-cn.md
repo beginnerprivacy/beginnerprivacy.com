@@ -14,7 +14,6 @@ category: About
 ### 代码
 - [Hugo](https://gohugo.io/)
 - [Hextra 主题](https://github.com/imfing/hextra/)
-- [Transformers.js](https://github.com/huggingface/transformers.js/)
 
 ### 图像
 - [监控摄像头图像由 Clker-Free-Vector-Images 提供，来自 Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)

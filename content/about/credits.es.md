@@ -14,7 +14,6 @@ La privacidad para principiantes no sería posible sin los siguientes recursos, 
 ### Código
 - [Hugo](https://gohugo.io/)
 - [Hextra Theme](https://github.com/imfing/hextra/)
-- [Transformers.js](https://github.com/huggingface/transformers.js/)
 
 ### Imágenes
 - [Imagen de cámara de vigilancia por Clker-Free-Vector-Images de Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)

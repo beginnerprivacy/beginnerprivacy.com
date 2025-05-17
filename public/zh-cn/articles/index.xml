@@ -15,58 +15,66 @@
     
     
     <item>
-      <title>高风险个人最佳桌面操作系统</title>
-      <link>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <title>最佳私人移动操作系统</title>
+      <link>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</guid>
       <description>
         
         
-        &lt;p&gt;在当今的数字环境中，高风险个人——如记者、活动家和举报人——面临着对其隐私和安全的重大威胁。传统操作系统如Windows、macOS和标准Linux发行版通常缺乏保护敏感信息免受复杂网络威胁和监视所需的强大安全功能。这些主流操作系统选项通常设计为方便和易用，这可能无意中使用户暴露于漏洞之中。&lt;/p&gt;
-&lt;h3&gt;推荐的高风险个人桌面操作系统&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的高风险个人桌面操作系统&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e9%ab%98%e9%a3%8e%e9%99%a9%e4%b8%aa%e4%ba%ba%e6%a1%8c%e9%9d%a2%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Qubes OS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qubes-os&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#qubes-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Qubes OS是一个以安全为重点的操作系统，使用虚拟化技术为不同应用程序创建隔离环境。每个应用程序在自己的虚拟机中运行，确保一个应用程序的妥协不会影响其他应用程序。&lt;strong&gt;Qubes OS旨在提供最大安全性和隐私；像爱德华·斯诺登这样的人使用它。&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;在数字隐私日益受到威胁的时代，使用主流移动操作系统如Android和iOS可能会危及用户隐私。这两个平台以广泛的数据收集实践而闻名，这可能导致显著的隐私风险。Android的开放生态系统提供了更大的灵活性，但也增加了对恶意软件的脆弱性。与此同时，尽管iOS的环境更为控制，但因其在数据收集方面缺乏透明度而受到批评。两个系统都优先考虑用户便利，往往以牺牲隐私为代价。&lt;/p&gt;
+&lt;h3&gt;推荐的私人移动操作系统&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的私人移动操作系统&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e7%a7%81%e4%ba%ba%e7%a7%bb%e5%8a%a8%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;请注意，某些应用程序，包括某些Google应用，可能不支持这些操作系统。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;GrapheneOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;grapheneos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#grapheneos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;GrapheneOS是一个以隐私和安全为重点的移动操作系统，基于Android。它通过强化技术、沙盒和安全应用权限来增强安全性，使其成为注重隐私用户的强大选择。然而，由于其对安全性的关注，它可能在应用程序可用性方面有限，并且学习曲线较陡。&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/qubesos.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;Qubes OS&lt;/h2&gt;
+          &lt;img src=&#34;../../../images/articles/the-best-private-mobile-operating-systems/grapheneos.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;GrapheneOS&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://www.qubes-os.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://grapheneos.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Tails&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tails&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#tails&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Tails是一个旨在匿名和隐私的实时操作系统。它从USB闪存驱动器或DVD运行，不会在主机计算机上留下痕迹。通过将所有互联网流量通过Tor网络路由，&lt;strong&gt;Tails非常适合逃亡中的人或那些不想携带笔记本电脑的人。&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;CalyxOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;calyxos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#calyxos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;CalyxOS是另一个以隐私为中心的移动操作系统，基于Android，旨在用户友好，同时结合了内置VPN和安全消息应用的隐私功能。虽然它在可用性和隐私之间提供了平 衡，但仍可能依赖于某些Google服务。&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/tails.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;Tails&lt;/h2&gt;
+          &lt;img src=&#34;../../../images/articles/the-best-private-mobile-operating-systems/calyxos.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;CalyxOS&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://tails.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://calyxos.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Whonix&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;whonix&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#whonix&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Whonix是一个以隐私为中心的操作系统，通过使用Tor强调匿名性。它由两个虚拟机组成：一个用于运行应用程序，另一个用于通过Tor路由流量。&lt;strong&gt;Whonix适合那些只想匿名而不需要Qubes OS中的隔离的人。&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;LineageOS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lineageos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lineageos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;LineageOS是一个流行的开源操作系统，提供可定制的Android体验，专注于用户隐私。它允许用户删除不需要的预装软件，并定期接收安全更新，但安装可能需要一些技术知识。&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/whonix.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;Whonix&lt;/h2&gt;
+          &lt;img src=&#34;../../../images/articles/the-best-private-mobile-operating-systems/lineageos.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;LineageOS&lt;/h2&gt;
       &lt;/div&gt;
       &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
       
-      &lt;a href=&#34;https://www.whonix.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+      &lt;a href=&#34;https://lineageos.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -75,10 +83,10 @@
     
     <item>
       <title>高风险个人最佳桌面操作系统</title>
-      <link>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</link>
+      <link>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
       <description>
         
         

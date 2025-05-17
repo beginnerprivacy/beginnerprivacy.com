@@ -14,7 +14,6 @@ Beginner Privacy wouldn't be possible without the following resources, tools and
 ### Code
 - [Hugo](https://gohugo.io/)
 - [Hextra Theme](https://github.com/imfing/hextra/)
-- [Transformers.js](https://github.com/huggingface/transformers.js/)
 
 ### Images
 - [Surveillance camera image by Clker-Free-Vector-Images from Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)
