@@ -1,5 +1,5 @@
 ---
-title: Acerca de
+title: Acerca De
 toc: false
 ---
 ¡Bienvenido a Beginner Privacy! 
