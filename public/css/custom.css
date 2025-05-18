@@ -222,8 +222,6 @@ input[type="radio"]:checked + label {
 }
 
 .roadmap-section ol {
-    margin: 0;
-    list-style: none;
     padding: 0;
     --unit: 0.8rem;
     content: "";

@@ -31,7 +31,7 @@
   <meta itemprop="description" content="为什么切换到 Linux？ Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作系统，优先考虑 隐私、定制 和 稳定性。与 Windows 或 macOS 不同，Linux 不会跟踪你的活动，也不会强迫你进入专有生态系统。它是免费的，可以使用、修改和分享，得到了全球开发者社区的支持。无论你是一个关注隐私的用户、一个爱折腾的人，还是一个厌倦了臃肿软件的人，Linux 都提供了一个令人耳目一新的替代方案。">
   <meta itemprop="datePublished" content="2025-03-24T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-04-19T17:29:24+02:00">
-  <meta itemprop="wordCount" content="1486">
+  <meta itemprop="wordCount" content="1609">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -802,17 +802,80 @@
 </ul>
 <h3>安装 Debian：逐步指南<span class="hx-absolute -hx-mt-20" id="安装-debian逐步指南"></span>
     <a href="#%e5%ae%89%e8%a3%85-debian%e9%80%90%e6%ad%a5%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>第一步：下载正确的 Debian ISO<span class="hx-absolute -hx-mt-20" id="第一步下载正确的-debian-iso"></span>
-    <a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bd%e6%ad%a3%e7%a1%ae%e7%9a%84-debian-iso" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>访问 <a href="https://www.debian.org/distrib/netinst" target="_blank" rel="noopener noreferrer nofollow">Debian 的下载页面</a>，在“小型 CD 或 USB 驱动器”标题下选择：</p>
+    <a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bd%e6%ad%a3%e7%a1%ae%e7%9a%84-debian-iso" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>访问 <a href="https://www.debian.org/distrib/netinst" target="_blank" rel="noopener noreferrer nofollow">Debian 下载页面</a>，在“小型 CD 或 USB 闪存驱动器”标题下选择：</p>
 <ul>
 <li><strong>amd64</strong>：适用于大多数 64 位 Intel/AMD 系统。</li>
-<li><strong>arm64</strong>：适用于较新的 ARM 设备（例如，Raspberry Pi 4）。</li>
-<li><strong>i386</strong>：适用于较旧的 32 位机器（如今很少见）。</li>
+<li><strong>arm64</strong>：适用于较新的基于 ARM 的设备（例如，Raspberry Pi 4）。</li>
+<li><strong>i386</strong>：适用于较旧的 32 位机器（今天很少见）。</li>
 </ul>
 <h4>第二步：创建可启动 USB<span class="hx-absolute -hx-mt-20" id="第二步创建可启动-usb"></span>
-    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%88%9b%e5%bb%ba%e5%8f%af%e5%90%af%e5%8a%a8-usb" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
-<li>安装 <strong>Balena Etcher</strong>（<a href="https://etcher.balena.io" target="_blank" rel="noopener noreferrer nofollow">在此下载</a>）。</li>
-<li>插入你的 USB 驱动器，打开 Etcher，选择 Debian ISO。</li>
-<li>点击 <strong>Flash!</strong>，等待过程完成。</li>
+    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%88%9b%e5%bb%ba%e5%8f%af%e5%90%af%e5%8a%a8-usb" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p><strong>对于 Windows</strong></p>
+<ol>
+<li>安装 <strong>Rufus</strong> (<a href="https://rufus.ie" target="_blank" rel="noopener noreferrer nofollow">在此下载</a>)。</li>
+<li>插入 USB 驱动器并打开 Rufus。</li>
+<li>选择你下载的 Debian ISO。</li>
+<li>确保分区方案设置为 <strong>MBR</strong>，目标系统为 <strong>BIOS 或 UEFI</strong>。</li>
+<li>点击 <strong>开始</strong>，等待过程完成。</li>
+</ol>
+<p><strong>对于 macOS</strong></p>
+<ol>
+<li>打开 <strong>终端</strong>。</li>
+<li>使用 <code>diskutil</code> 命令列出你的驱动器：
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil list</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>卸载 USB 驱动器（将 <code>diskN</code> 替换为你的 USB 驱动器编号）：
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil unmountDisk /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>使用 <code>dd</code> 命令创建可启动 USB（相应地替换 <code>path/to/debian.iso</code> 和 <code>diskN</code>）：
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span>path/to/debian.iso <span class="nv">of</span><span class="o">=</span>/dev/rdiskN <span class="nv">bs</span><span class="o">=</span>1m</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>等待过程完成，然后弹出 USB 驱动器：
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil eject /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
 </ol>
 <h4>第三步：从 USB 启动<span class="hx-absolute -hx-mt-20" id="第三步从-usb-启动"></span>
     <a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e4%bb%8e-usb-%e5%90%af%e5%8a%a8" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>

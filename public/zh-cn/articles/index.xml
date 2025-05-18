@@ -1187,7 +1187,9 @@
     &lt;a href=&#34;#vpn%e6%98%af%e5%a6%82%e4%bd%95%e5%b7%a5%e4%bd%9c%e7%9a%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;虚拟专用网络（VPN）通过将您的流量通过私人服务器进行路由，在您的设备和互联网之间创建一个安全的连接。这个过程会加密你的数据，使得你的互联网服务提供商（ISP）无法看到你的在线活动。
 &lt;img src=&#34;../../../images/articles/what-is-a-vpn-and-should-you-use-one/how-does-a-vpn-work.webp&#34; alt=&#34;VPN工作原理插图&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;VPN能保护你免受什么？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;vpn能保护你免受什么&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#vpn%e8%83%bd%e4%bf%9d%e6%8a%a4%e4%bd%a0%e5%85%8d%e5%8f%97%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;虽然VPN在隐藏你的IP地址、访问受地理限制的内容和防止ISP监控方面很有效，但它并不能保护你免受黑客、网络钓鱼邮件或其他威胁。&lt;/p&gt;
+    &lt;a href=&#34;#vpn%e8%83%bd%e4%bf%9d%e6%8a%a4%e4%bd%a0%e5%85%8d%e5%8f%97%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;虽然VPN在隐藏你的IP地址、访问地理限制内容和防止ISP监控方面有效，但它并不能保护你免受黑客、网络钓鱼邮件或其他威胁。有关部门仍然可以向VPN公司请求信息，该公司可能对你的互联网活动有不记录政策，但仍可能保留个人信息，如你的电子邮件、电话号码和真实姓名。&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;如果你考虑参与需要更高匿名性的更严肃活动，我们建议你阅读我们的&lt;a href=&#34;http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;关于Tor的文章&lt;/a&gt;，以获得更安全的选择。&lt;/p&gt;
 &lt;h3&gt;如何选择一个好的VPN&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何选择一个好的vpn&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e9%80%89%e6%8b%a9%e4%b8%80%e4%b8%aa%e5%a5%bd%e7%9a%84vpn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在寻找可靠的VPN时，可信度至关重要，因为该服务将访问您的在线活动。以下是评估VPN时需要考虑的关键因素：&lt;/p&gt;
 &lt;ul&gt;

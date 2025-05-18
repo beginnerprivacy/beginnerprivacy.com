@@ -751,10 +751,73 @@
 &lt;li&gt;&lt;strong&gt;i386&lt;/strong&gt;: For older 32-bit machines (rare today).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Step 2: Create a Bootable USB&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-create-a-bootable-usb&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#step-2-create-a-bootable-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;Install &lt;strong&gt;Balena Etcher&lt;/strong&gt; (&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;download here&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Plug in your USB drive, open Etcher, and select the Debian ISO.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Flash!&lt;/strong&gt; and wait for the process to complete.&lt;/li&gt;
+    &lt;a href=&#34;#step-2-create-a-bootable-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;For Windows&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;strong&gt;Rufus&lt;/strong&gt; (&lt;a href=&#34;https://rufus.ie&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;download here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Plug in your USB drive and open Rufus.&lt;/li&gt;
+&lt;li&gt;Select the Debian ISO you downloaded.&lt;/li&gt;
+&lt;li&gt;Make sure the partition scheme is set to &lt;strong&gt;MBR&lt;/strong&gt; and the target system is &lt;strong&gt;BIOS or UEFI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Start&lt;/strong&gt; and wait for the process to complete.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;For macOS&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;strong&gt;Terminal&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;diskutil&lt;/code&gt; command to list your drives:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil list&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Unmount the USB drive (replace &lt;code&gt;diskN&lt;/code&gt; with your USB drive number):
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil unmountDisk /dev/diskN&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;dd&lt;/code&gt; command to create the bootable USB (replace &lt;code&gt;path/to/debian.iso&lt;/code&gt; and &lt;code&gt;diskN&lt;/code&gt; accordingly):
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dd &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/debian.iso &lt;span class=&#34;nv&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/dev/rdiskN &lt;span class=&#34;nv&#34;&gt;bs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1m&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Wait for the process to complete, then eject the USB drive:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil eject /dev/diskN&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Step 3: Boot from the USB&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-3-boot-from-the-usb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-3-boot-from-the-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
@@ -1210,12 +1273,14 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
         
         
         &lt;p&gt;You&amp;rsquo;ve probably encountered countless VPN ads on platforms like YouTube. But how do they actually work, and more importantly, should you use one?&lt;/p&gt;
-&lt;h3&gt;How Does A VPN Work?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-does-a-vpn-work&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;How Does a VPN Work?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-does-a-vpn-work&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-does-a-vpn-work&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A Virtual Private Network (VPN) creates a secure connection between your device and the internet by routing your traffic through a private server. This process encrypts your data, making it impossible for your Internet Service Provider (ISP) to see your online activities.
 &lt;img src=&#34;../../images/articles/what-is-a-vpn-and-should-you-use-one/how-does-a-vpn-work.webp&#34; alt=&#34;Illustration of how a VPN works&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;What Does A VPN Protect You From?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-does-a-vpn-protect-you-from&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-does-a-vpn-protect-you-from&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;While a VPN is effective at hiding your IP address, accessing geo-restricted content, and preventing ISP surveillance, it does not protect you from hackers, phishing emails, or other threats.&lt;/p&gt;
-&lt;h3&gt;How To Choose A Good VPN&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-choose-a-good-vpn&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;What Does a VPN Protect You From?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-does-a-vpn-protect-you-from&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-does-a-vpn-protect-you-from&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;While a VPN is effective at hiding your IP address, accessing geo-restricted content, and preventing ISP surveillance, it does not protect you from hackers, phishing emails, or other threats. Authorities can still request information from the VPN company, which may have a no-logging policy regarding your internet activity but could still retain personal information like your email, phone number, and real name.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;If you&amp;rsquo;re considering engaging in more serious activities that require enhanced anonymity, we recommend reading our &lt;a href=&#34;http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;article about Tor&lt;/a&gt; for a more secure option.&lt;/p&gt;
+&lt;h3&gt;How To Choose a Good VPN&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-choose-a-good-vpn&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-choose-a-good-vpn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When searching for a reliable VPN, trustworthiness is crucial since the service will have access to your online activities. Here are key factors to consider when evaluating a VPN:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Open Source:&lt;/strong&gt; Look for VPNs with open-source code, allowing for transparency and community audits.&lt;/li&gt;

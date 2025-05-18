@@ -65,6 +65,40 @@ Visita [la página de descarga de Debian](https://www.debian.org/distrib/netinst
 2. Conecta tu unidad USB, abre Etcher y selecciona la ISO de Debian.
 3. Haz clic en **Flash!** y espera a que el proceso se complete.
 
+### Instalación de Debian: Guía Paso a Paso
+#### Paso 1: Descarga la ISO Correcta de Debian
+Visita la [página de descarga de Debian](https://www.debian.org/distrib/netinst) y selecciona bajo el encabezado "CDs pequeños o unidades USB":
+- **amd64**: Para la mayoría de los sistemas Intel/AMD de 64 bits.
+- **arm64**: Para dispositivos más nuevos basados en ARM (por ejemplo, Raspberry Pi 4).
+- **i386**: Para máquinas más antiguas de 32 bits (raras hoy en día).
+
+#### Paso 2: Crea un USB Booteable
+**Para Windows**
+1. Instala **Rufus** ([descargar aquí](https://rufus.ie)).
+2. Conecta tu unidad USB y abre Rufus.
+3. Selecciona la ISO de Debian que descargaste.
+4. Asegúrate de que el esquema de partición esté configurado en **MBR** y el sistema objetivo sea **BIOS o UEFI**.
+5. Haz clic en **Iniciar** y espera a que el proceso se complete.
+
+**Para macOS**
+1. Abre **Terminal**.
+2. Usa el comando `diskutil` para listar tus unidades:
+   ```bash
+   diskutil list
+   ```
+3. Desmonta la unidad USB (reemplaza `diskN` con el número de tu unidad USB):
+   ```bash
+   diskutil unmountDisk /dev/diskN
+   ```
+4. Usa el comando `dd` para crear el USB booteable (reemplaza `path/to/debian.iso` y `diskN` según corresponda):
+   ```bash
+   sudo dd if=path/to/debian.iso of=/dev/rdiskN bs=1m
+   ```
+5. Espera a que el proceso se complete, luego expulsa la unidad USB:
+   ```bash
+   diskutil eject /dev/diskN
+   ```
+
 #### Paso 3: Arranca desde la USB
 1. Reinicia tu computadora y presiona la **tecla BIOS/UEFI** (comúnmente F2, F12, Del o Esc).
 2. En el menú de arranque, prioriza la unidad USB.

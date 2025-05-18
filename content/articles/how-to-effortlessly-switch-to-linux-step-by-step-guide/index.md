@@ -57,7 +57,6 @@ Before installing Linux, gather these essentials:
 - An **external drive** to back up critical files.
 
 ### Installing Debian: Step-by-Step Guide
-
 #### Step 1: Download the Correct Debian ISO
 Visit [Debian’s download page](https://www.debian.org/distrib/netinst) and select under the "Small CDs or USB sticks" header:
 - **amd64**: For most 64-bit Intel/AMD systems.
@@ -65,9 +64,31 @@ Visit [Debian’s download page](https://www.debian.org/distrib/netinst) and sel
 - **i386**: For older 32-bit machines (rare today).
 
 #### Step 2: Create a Bootable USB
-1. Install **Balena Etcher** ([download here](https://etcher.balena.io)).
-2. Plug in your USB drive, open Etcher, and select the Debian ISO.
-3. Click **Flash!** and wait for the process to complete.
+**For Windows**
+1. Install **Rufus** ([download here](https://rufus.ie)).
+2. Plug in your USB drive and open Rufus.
+3. Select the Debian ISO you downloaded.
+4. Make sure the partition scheme is set to **MBR** and the target system is **BIOS or UEFI**.
+5. Click **Start** and wait for the process to complete.
+
+**For macOS**
+1. Open **Terminal**.
+2. Use the `diskutil` command to list your drives:
+   ```bash
+   diskutil list
+   ```
+3. Unmount the USB drive (replace `diskN` with your USB drive number):
+   ```bash
+   diskutil unmountDisk /dev/diskN
+   ```
+4. Use the `dd` command to create the bootable USB (replace `path/to/debian.iso` and `diskN` accordingly):
+   ```bash
+   sudo dd if=path/to/debian.iso of=/dev/rdiskN bs=1m
+   ```
+5. Wait for the process to complete, then eject the USB drive:
+   ```bash
+   diskutil eject /dev/diskN
+   ```
 
 #### Step 3: Boot from the USB
 1. Restart your computer and press the **BIOS/UEFI key** (commonly F2, F12, Del, or Esc).

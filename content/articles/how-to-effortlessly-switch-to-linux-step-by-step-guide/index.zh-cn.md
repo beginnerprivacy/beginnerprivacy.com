@@ -53,17 +53,38 @@ Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作�
 - 一个 **外部驱动器** 用于备份重要文件。
 
 ### 安装 Debian：逐步指南
-
 #### 第一步：下载正确的 Debian ISO
-访问 [Debian 的下载页面](https://www.debian.org/distrib/netinst)，在“小型 CD 或 USB 驱动器”标题下选择：
+访问 [Debian 下载页面](https://www.debian.org/distrib/netinst)，在“小型 CD 或 USB 闪存驱动器”标题下选择：
 - **amd64**：适用于大多数 64 位 Intel/AMD 系统。
-- **arm64**：适用于较新的 ARM 设备（例如，Raspberry Pi 4）。
-- **i386**：适用于较旧的 32 位机器（如今很少见）。
+- **arm64**：适用于较新的基于 ARM 的设备（例如，Raspberry Pi 4）。
+- **i386**：适用于较旧的 32 位机器（今天很少见）。
 
 #### 第二步：创建可启动 USB
-1. 安装 **Balena Etcher**（[在此下载](https://etcher.balena.io)）。
-2. 插入你的 USB 驱动器，打开 Etcher，选择 Debian ISO。
-3. 点击 **Flash!**，等待过程完成。
+**对于 Windows**
+1. 安装 **Rufus** ([在此下载](https://rufus.ie))。
+2. 插入 USB 驱动器并打开 Rufus。
+3. 选择你下载的 Debian ISO。
+4. 确保分区方案设置为 **MBR**，目标系统为 **BIOS 或 UEFI**。
+5. 点击 **开始**，等待过程完成。
+
+**对于 macOS**
+1. 打开 **终端**。
+2. 使用 `diskutil` 命令列出你的驱动器：
+   ```bash
+   diskutil list
+   ```
+3. 卸载 USB 驱动器（将 `diskN` 替换为你的 USB 驱动器编号）：
+   ```bash
+   diskutil unmountDisk /dev/diskN
+   ```
+4. 使用 `dd` 命令创建可启动 USB（相应地替换 `path/to/debian.iso` 和 `diskN`）：
+   ```bash
+   sudo dd if=path/to/debian.iso of=/dev/rdiskN bs=1m
+   ```
+5. 等待过程完成，然后弹出 USB 驱动器：
+   ```bash
+   diskutil eject /dev/diskN
+   ```
 
 #### 第三步：从 USB 启动
 1. 重启你的计算机并按下 **BIOS/UEFI 键**（通常是 F2、F12、Del 或 Esc）。

@@ -31,7 +31,7 @@
   <meta itemprop="description" content="¿Por qué cambiar a Linux? Linux no es solo para magos de la tecnología; es un poderoso sistema operativo de código abierto que prioriza la privacidad, la personalización y la estabilidad. A diferencia de Windows o macOS, Linux no rastrea tu actividad ni te obliga a entrar en ecosistemas propietarios. Es gratuito para usar, modificar y compartir, respaldado por una comunidad global de desarrolladores. Ya seas un usuario consciente de la privacidad, un entusiasta o alguien cansado del software inflado, Linux ofrece una alternativa refrescante.">
   <meta itemprop="datePublished" content="2025-03-24T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-04-19T17:29:24+02:00">
-  <meta itemprop="wordCount" content="779">
+  <meta itemprop="wordCount" content="969">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -695,6 +695,18 @@
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#instalaci%c3%b3n-de-debian-gu%c3%ada-paso-a-paso">Instalación de Debian: Guía Paso a Paso
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#paso-1-descarga-la-iso-correcta-de-debian-1">Paso 1: Descarga la ISO Correcta de Debian
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#paso-2-crea-un-usb-booteable">Paso 2: Crea un USB Booteable
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#paso-3-arranca-desde-la-usb">Paso 3: Arranca desde la USB
         </a>
       </li>
@@ -813,6 +825,83 @@
 <li>Instala <strong>Balena Etcher</strong> (<a href="https://etcher.balena.io" target="_blank" rel="noopener noreferrer nofollow">descargar aquí</a>).</li>
 <li>Conecta tu unidad USB, abre Etcher y selecciona la ISO de Debian.</li>
 <li>Haz clic en <strong>Flash!</strong> y espera a que el proceso se complete.</li>
+</ol>
+<h3>Instalación de Debian: Guía Paso a Paso<span class="hx-absolute -hx-mt-20" id="instalación-de-debian-guía-paso-a-paso"></span>
+    <a href="#instalaci%c3%b3n-de-debian-gu%c3%ada-paso-a-paso" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>Paso 1: Descarga la ISO Correcta de Debian<span class="hx-absolute -hx-mt-20" id="paso-1-descarga-la-iso-correcta-de-debian-1"></span>
+    <a href="#paso-1-descarga-la-iso-correcta-de-debian-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Visita la <a href="https://www.debian.org/distrib/netinst" target="_blank" rel="noopener noreferrer nofollow">página de descarga de Debian</a> y selecciona bajo el encabezado &ldquo;CDs pequeños o unidades USB&rdquo;:</p>
+<ul>
+<li><strong>amd64</strong>: Para la mayoría de los sistemas Intel/AMD de 64 bits.</li>
+<li><strong>arm64</strong>: Para dispositivos más nuevos basados en ARM (por ejemplo, Raspberry Pi 4).</li>
+<li><strong>i386</strong>: Para máquinas más antiguas de 32 bits (raras hoy en día).</li>
+</ul>
+<h4>Paso 2: Crea un USB Booteable<span class="hx-absolute -hx-mt-20" id="paso-2-crea-un-usb-booteable"></span>
+    <a href="#paso-2-crea-un-usb-booteable" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p><strong>Para Windows</strong></p>
+<ol>
+<li>Instala <strong>Rufus</strong> (<a href="https://rufus.ie" target="_blank" rel="noopener noreferrer nofollow">descargar aquí</a>).</li>
+<li>Conecta tu unidad USB y abre Rufus.</li>
+<li>Selecciona la ISO de Debian que descargaste.</li>
+<li>Asegúrate de que el esquema de partición esté configurado en <strong>MBR</strong> y el sistema objetivo sea <strong>BIOS o UEFI</strong>.</li>
+<li>Haz clic en <strong>Iniciar</strong> y espera a que el proceso se complete.</li>
+</ol>
+<p><strong>Para macOS</strong></p>
+<ol>
+<li>Abre <strong>Terminal</strong>.</li>
+<li>Usa el comando <code>diskutil</code> para listar tus unidades:
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil list</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Desmonta la unidad USB (reemplaza <code>diskN</code> con el número de tu unidad USB):
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil unmountDisk /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Usa el comando <code>dd</code> para crear el USB booteable (reemplaza <code>path/to/debian.iso</code> y <code>diskN</code> según corresponda):
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span>path/to/debian.iso <span class="nv">of</span><span class="o">=</span>/dev/rdiskN <span class="nv">bs</span><span class="o">=</span>1m</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Espera a que el proceso se complete, luego expulsa la unidad USB:
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil eject /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
 </ol>
 <h4>Paso 3: Arranca desde la USB<span class="hx-absolute -hx-mt-20" id="paso-3-arranca-desde-la-usb"></span>
     <a href="#paso-3-arranca-desde-la-usb" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
