@@ -9,14 +9,18 @@ excludeSearch: false
 ---
 You've probably encountered countless VPN ads on platforms like YouTube. But how do they actually work, and more importantly, should you use one?
 
-### How Does A VPN Work?
+### How Does a VPN Work?
 A Virtual Private Network (VPN) creates a secure connection between your device and the internet by routing your traffic through a private server. This process encrypts your data, making it impossible for your Internet Service Provider (ISP) to see your online activities.
 ![Illustration of how a VPN works](../../images/articles/what-is-a-vpn-and-should-you-use-one/how-does-a-vpn-work.webp)
 
-### What Does A VPN Protect You From?
-While a VPN is effective at hiding your IP address, accessing geo-restricted content, and preventing ISP surveillance, it does not protect you from hackers, phishing emails, or other threats.
+### What Does a VPN Protect You From?
+While a VPN is effective at hiding your IP address, accessing geo-restricted content, and preventing ISP surveillance, it does not protect you from hackers, phishing emails, or other threats. Authorities can still request information from the VPN company, which may have a no-logging policy regarding your internet activity but could still retain personal information like your email, phone number, and real name.
 
-### How To Choose A Good VPN
+<br>
+
+If you're considering engaging in more serious activities that require enhanced anonymity, we recommend reading our [article about Tor](/articles/navigating-the-web-anonymously-a-guide-to-tor-basics) for a more secure option.
+
+### How To Choose a Good VPN
 When searching for a reliable VPN, trustworthiness is crucial since the service will have access to your online activities. Here are key factors to consider when evaluating a VPN:
 - **Open Source:** Look for VPNs with open-source code, allowing for transparency and community audits.
 - **Minimal Personal Information Required:** Choose services that don’t require sensitive information like your name, phone number, or email.

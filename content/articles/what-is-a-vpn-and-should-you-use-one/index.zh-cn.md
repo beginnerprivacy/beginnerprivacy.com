@@ -14,7 +14,11 @@ excludeSearch: false
 ![VPN工作原理插图](../../../images/articles/what-is-a-vpn-and-should-you-use-one/how-does-a-vpn-work.webp)
 
 ### VPN能保护你免受什么？
-虽然VPN在隐藏你的IP地址、访问受地理限制的内容和防止ISP监控方面很有效，但它并不能保护你免受黑客、网络钓鱼邮件或其他威胁。
+虽然VPN在隐藏你的IP地址、访问地理限制内容和防止ISP监控方面有效，但它并不能保护你免受黑客、网络钓鱼邮件或其他威胁。有关部门仍然可以向VPN公司请求信息，该公司可能对你的互联网活动有不记录政策，但仍可能保留个人信息，如你的电子邮件、电话号码和真实姓名。
+
+<br>
+
+如果你考虑参与需要更高匿名性的更严肃活动，我们建议你阅读我们的[关于Tor的文章](/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics)，以获得更安全的选择。
 
 ### 如何选择一个好的VPN
 在寻找可靠的VPN时，可信度至关重要，因为该服务将访问您的在线活动。以下是评估VPN时需要考虑的关键因素：

@@ -13,8 +13,12 @@ Probablemente te has encontrado con innumerables anuncios de VPN en plataformas 
 Una Red Privada Virtual (VPN) crea una conexión segura entre tu dispositivo e internet al enrutar tu tráfico a través de un servidor privado. Este proceso cifra tus datos, haciendo imposible que tu Proveedor de Servicios de Internet (ISP) vea tus actividades en línea.
 ![Ilustración de cómo funciona una VPN](../../../images/articles/what-is-a-vpn-and-should-you-use-one/how-does-a-vpn-work.webp)
 
-### ¿De qué te protege una VPN?
-Aunque una VPN es efectiva para ocultar tu dirección IP, acceder a contenido restringido por geolocalización y prevenir la vigilancia de los ISP, no te protege de los hackers, correos electrónicos de phishing u otras amenazas.
+### ¿De Qué te Protege un VPN?
+Mientras que un VPN es efectivo para ocultar tu dirección IP, acceder a contenido restringido geográficamente y prevenir la vigilancia de tu proveedor de servicios de internet (ISP), no te protege de hackers, correos electrónicos de phishing u otras amenazas. Las autoridades aún pueden solicitar información a la empresa de VPN, que puede tener una política de no registro respecto a tu actividad en internet, pero que aún podría retener información personal como tu correo electrónico, número de teléfono y nombre real.
+
+<br>
+
+Si estás considerando participar en actividades más serias que requieren una mayor anonimato, te recomendamos leer nuestro [artículo sobre Tor](/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics) para una opción más segura.
 
 ### Cómo Elegir un Buen VPN
 Al buscar una VPN confiable, la confianza es crucial ya que el servicio tendrá acceso a tus actividades en línea. Aquí hay factores clave a considerar al evaluar una VPN:
@@ -23,7 +27,7 @@ Al buscar una VPN confiable, la confianza es crucial ya que el servicio tendrá 
 - **Política estricta de no registro:** Asegúrate de que la VPN tenga una política de no registro verificada, lo que significa que no almacenan tu historial de navegación.
 - **Protocolos de Cifrado Fuertes:** Opta por VPNs que utilicen estándares de cifrado modernos, como OpenVPN o WireGuard, para proteger tus datos.
 
-### VPNs recomendadas
+### VPNs Recomendadas
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Pagado, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar sitio web" >}}
