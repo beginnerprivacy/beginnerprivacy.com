@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-Los proveedores de correo electrónico populares como Gmail, Outlook y Yahoo pueden dejarte vulnerable a varios riesgos de privacidad y amenazas de seguridad.
+Los proveedores de correo electrónico populares como Gmail, Outlook y Yahoo pueden dejarte vulnerable a varios riesgos de privacidad y amenazas de seguridad, ya que sus modelos de negocio dependen en gran medida de la recopilación y monetización de datos de los usuarios.
 
 ### La Importancia de la Privacidad del Correo Electrónico
 Usar servicios de correo electrónico convencionales a menudo significa comprometer tu privacidad. Proveedores como Gmail y Yahoo participan en prácticas que pueden exponer tu información personal, tales como:

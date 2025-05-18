@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-像 Gmail、Outlook 和 Yahoo 这样的流行电子邮件服务提供商可能会让你面临各种隐私风险和安全威胁。
+像 Gmail、Outlook 和 Yahoo 这样的热门电子邮件服务提供商可能会使您面临各种隐私风险和安全威胁，因为它们的商业模式在很大程度上依赖于用户数据的收集和货币化。
 
 ### 电子邮件隐私的重要性
 使用主流电子邮件服务通常意味着妥协你的隐私。像 Gmail 和 Yahoo 这样的提供商参与的做法可能会暴露你的个人信息，例如：
