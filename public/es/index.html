@@ -27,7 +27,7 @@
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Gratuito, de código abierto Comienza Tu Viaje De Privacidad Hoy con Beginner Privacy ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando. Beginner Privacy es tu hoja de ruta para recuperar una vida privada.">
   <meta itemprop="dateModified" content="2025-05-14T21:06:19+02:00">
-  <meta itemprop="wordCount" content="9744">
+  <meta itemprop="wordCount" content="10517">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -410,6 +410,14 @@
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
         <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/es/articles/why-you-should-start-self-hosting-services/"
+    
+  >Por Qué Deberías Comenzar a Autoalojar Servicios
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/es/articles/the-best-private-mobile-operating-systems/"
@@ -2699,6 +2707,83 @@ A medida que avances por esta hoja de ruta, te recomendamos tomarte tu tiempo pa
 <li>Conecta tu unidad USB, abre Etcher y selecciona la ISO de Debian.</li>
 <li>Haz clic en <strong>Flash!</strong> y espera a que el proceso se complete.</li>
 </ol>
+<h3>Instalación de Debian: Guía Paso a Paso<span class="hx-absolute -hx-mt-20" id="instalación-de-debian-guía-paso-a-paso"></span>
+    <a href="#instalaci%c3%b3n-de-debian-gu%c3%ada-paso-a-paso" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>Paso 1: Descarga la ISO Correcta de Debian<span class="hx-absolute -hx-mt-20" id="paso-1-descarga-la-iso-correcta-de-debian-1"></span>
+    <a href="#paso-1-descarga-la-iso-correcta-de-debian-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Visita la <a href="https://www.debian.org/distrib/netinst" target="_blank" rel="noopener noreferrer nofollow">página de descarga de Debian</a> y selecciona bajo el encabezado &ldquo;CDs pequeños o unidades USB&rdquo;:</p>
+<ul>
+<li><strong>amd64</strong>: Para la mayoría de los sistemas Intel/AMD de 64 bits.</li>
+<li><strong>arm64</strong>: Para dispositivos más nuevos basados en ARM (por ejemplo, Raspberry Pi 4).</li>
+<li><strong>i386</strong>: Para máquinas más antiguas de 32 bits (raras hoy en día).</li>
+</ul>
+<h4>Paso 2: Crea un USB Booteable<span class="hx-absolute -hx-mt-20" id="paso-2-crea-un-usb-booteable"></span>
+    <a href="#paso-2-crea-un-usb-booteable" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p><strong>Para Windows</strong></p>
+<ol>
+<li>Instala <strong>Rufus</strong> (<a href="https://rufus.ie" target="_blank" rel="noopener noreferrer nofollow">descargar aquí</a>).</li>
+<li>Conecta tu unidad USB y abre Rufus.</li>
+<li>Selecciona la ISO de Debian que descargaste.</li>
+<li>Asegúrate de que el esquema de partición esté configurado en <strong>MBR</strong> y el sistema objetivo sea <strong>BIOS o UEFI</strong>.</li>
+<li>Haz clic en <strong>Iniciar</strong> y espera a que el proceso se complete.</li>
+</ol>
+<p><strong>Para macOS</strong></p>
+<ol>
+<li>Abre <strong>Terminal</strong>.</li>
+<li>Usa el comando <code>diskutil</code> para listar tus unidades:
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil list</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Desmonta la unidad USB (reemplaza <code>diskN</code> con el número de tu unidad USB):
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil unmountDisk /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Usa el comando <code>dd</code> para crear el USB booteable (reemplaza <code>path/to/debian.iso</code> y <code>diskN</code> según corresponda):
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span>path/to/debian.iso <span class="nv">of</span><span class="o">=</span>/dev/rdiskN <span class="nv">bs</span><span class="o">=</span>1m</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+<li>Espera a que el proceso se complete, luego expulsa la unidad USB:
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">diskutil eject /dev/diskN</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+</div>
+</li>
+</ol>
 <h4>Paso 3: Arranca desde la USB<span class="hx-absolute -hx-mt-20" id="paso-3-arranca-desde-la-usb"></span>
     <a href="#paso-3-arranca-desde-la-usb" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
 <li>Reinicia tu computadora y presiona la <strong>tecla BIOS/UEFI</strong> (comúnmente F2, F12, Del o Esc).</li>
@@ -3646,10 +3731,111 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
           <a class="roadmap-modal-close">&times;</a>
+          <a href="articles/why-you-should-start-self-hosting-services" target="_blank"><h2 class="hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100" style="display: inline;">Por Qué Deberías Comenzar a Autoalojar Servicios</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
-          
-            <p>Content coming soon!</p>
+          <div class="hx-mt-4 hx-mb-16 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2"><span class="hx-mr-1">mayo 20, 2025</span><span class="hx-mx-1">·</span><a
+                    href="https://github.com/PrintN" target="_blank"
+                    class="hx-group hx-inline-flex hx-items-center hx-text-current hx-gap-x-1.5 hx-mx-1"
+                    title="PrintN"
+                  ><img src="https://github.com/PrintN.png" alt="PrintN" class="hx-inline-block hx-h-4 hx-w-4 hx-rounded-full" loading="lazy" />
+                    <div class="group-hover:hx-underline">PrintN</div>
+                  </a></div>
+          <div class="content">
+              <p>En una época en la que las violaciones de datos y las preocupaciones sobre la privacidad dominan los titulares, el autoalojamiento ha surgido como una solución convincente para individuos y organizaciones que buscan un mayor control sobre sus vidas digitales.</p>
+<h3>¿Qué Es el Autoalojamiento?<span class="hx-absolute -hx-mt-20" id="qué-es-el-autoalojamiento"></span>
+    <a href="#qu%c3%a9-es-el-autoalojamiento" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>El autoalojamiento se refiere a la práctica de ejecutar aplicaciones, servicios o sitios web en tu propio hardware en lugar de depender de proveedores externos. Esto puede implicar desde alojar un blog personal en una Raspberry Pi hasta gestionar una solución de almacenamiento en la nube completa en un servidor dedicado. La idea principal es tomar posesión de tu entorno digital, permitiéndote dictar cómo se almacenan, acceden y gestionan tus datos.</p>
+<h3>¿Por Qué Deberías Comenzar a Autoalojar?<span class="hx-absolute -hx-mt-20" id="por-qué-deberías-comenzar-a-autoalojar"></span>
+    <a href="#por-qu%c3%a9-deber%c3%adas-comenzar-a-autoalojar" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Hay numerosas razones convincentes para autoalojar:</p>
+<ul>
+<li><strong>Independencia:</strong> No dependes de servicios de terceros que pueden alterar sus términos, aumentar precios o incluso descontinuar sus ofertas.</li>
+<li><strong>Control:</strong> El autoalojamiento te proporciona control total sobre los servicios que utilizas y tus datos, incluyendo quién tiene acceso a tu información.</li>
+<li><strong>Ahorro de Costos:</strong> Aunque puede haber costos iniciales de configuración, el autoalojamiento puede ser más rentable a largo plazo, especialmente si actualmente estás suscrito a múltiples servicios en la nube.</li>
+<li><strong>Privacidad:</strong> Tus datos permanecen en tu propio hardware, reduciendo significativamente el riesgo de acceso no autorizado por parte de terceros.</li>
+<li><strong>Personalización:</strong> Tienes la flexibilidad de adaptar tu sistema para satisfacer tus necesidades específicas, permitiéndote instalar y configurar el software exactamente como lo desees.</li>
+</ul>
+<h3>Tipos de Autoalojamiento<span class="hx-absolute -hx-mt-20" id="tipos-de-autoalojamiento"></span>
+    <a href="#tipos-de-autoalojamiento" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>1. Configuraciones de Servidor en Casa<span class="hx-absolute -hx-mt-20" id="1-configuraciones-de-servidor-en-casa"></span>
+    <a href="#1-configuraciones-de-servidor-en-casa" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Las configuraciones de servidor en casa son una de las formas más accesibles de autoalojamiento. Con hardware relativamente de bajo costo, como una Raspberry Pi o un viejo portátil, puedes crear un servidor personal para alojar aplicaciones como almacenamiento de archivos, transmisión de medios o incluso un sitio web personal. Los servidores en casa son ideales para individuos que desean explorar el autoalojamiento sin realizar una inversión significativa.</p>
+<h4>2. Servidores Privados Virtuales (VPS)<span class="hx-absolute -hx-mt-20" id="2-servidores-privados-virtuales-vps"></span>
+    <a href="#2-servidores-privados-virtuales-vps" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Para aquellos que buscan más potencia y flexibilidad, los Servidores Privados Virtuales (VPS) ofrecen una alternativa robusta. Un VPS es un servidor virtualizado que se ejecuta en hardware físico, proporcionando recursos dedicados y un mayor control sobre el entorno. Esta opción es especialmente popular entre desarrolladores y pequeñas empresas que requieren un rendimiento confiable y escalabilidad.</p>
+<h3>¿Qué Servicios Puedes Autoalojar?<span class="hx-absolute -hx-mt-20" id="qué-servicios-puedes-autoalojar"></span>
+    <a href="#qu%c3%a9-servicios-puedes-autoalojar" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200">
+  <div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2"><div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️</div></div>
+
+  <div class="hx-w-full hx-min-w-0 hx-leading-7">
+    <div class="hx-mt-6 hx-leading-7 first:hx-mt-0">Esta es solo una breve descripción; para una lista más extensa de servicios que puedes autoalojar, asegúrate de consultar <a href="https://awesome-selfhosted.net/" target="_blank" rel="noopener noreferrer nofollow">awesome-selfhosted</a>.</div>
+  </div>
+</div>
+
+<table>
+  <thead>
+      <tr>
+          <th><strong>Servicio</strong></th>
+          <th><strong>Beneficios</strong></th>
+          <th><strong>Soluciones</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Almacenamiento y Sincronización de Archivos</strong></td>
+          <td>Control total sobre los archivos, sin límites de almacenamiento excepto el hardware</td>
+          <td><a href="https://nextcloud.com/" target="_blank" rel="noopener noreferrer nofollow">NextCloud</a>, <a href="https://owncloud.com/" target="_blank" rel="noopener noreferrer nofollow">OwnCloud</a>, <a href="https://www.seafile.com/" target="_blank" rel="noopener noreferrer nofollow">Seafile</a>, <a href="https://syncthing.net/" target="_blank" rel="noopener noreferrer nofollow">Syncthing</a></td>
+      </tr>
+      <tr>
+          <td><strong>Servidores de Correo Electrónico</strong></td>
+          <td>Privacidad, correos electrónicos de dominio personalizado, sin anuncios</td>
+          <td><a href="https://poste.io/" target="_blank" rel="noopener noreferrer nofollow">Poste.io</a>, <a href="https://www.iredmail.org/" target="_blank" rel="noopener noreferrer nofollow">iRedMail</a>, <a href="https://mailcow.email/" target="_blank" rel="noopener noreferrer nofollow">MailCow</a></td>
+      </tr>
+      <tr>
+          <td><strong>Gestión de Fotos Personales</strong></td>
+          <td>Control total, sin límites de almacenamiento</td>
+          <td><a href="https://immich.app/" target="_blank" rel="noopener noreferrer nofollow">Immich</a>, <a href="https://photoprism.app/" target="_blank" rel="noopener noreferrer nofollow">PhotoPrism</a>, <a href="https://github.com/SwissDataScienceCenter/ente" target="_blank" rel="noopener noreferrer nofollow">Ente</a></td>
+      </tr>
+      <tr>
+          <td><strong>Servidores de Medios</strong></td>
+          <td>Acceso a medios en cualquier lugar, sin suscripciones a servicios de transmisión</td>
+          <td><a href="https://jellyfin.org/" target="_blank" rel="noopener noreferrer nofollow">Jellyfin</a>, <a href="https://emby.media/" target="_blank" rel="noopener noreferrer nofollow">Emby</a>, <a href="https://www.plex.tv/" target="_blank" rel="noopener noreferrer nofollow">Plex</a></td>
+      </tr>
+      <tr>
+          <td><strong>Gestores de Contraseñas</strong></td>
+          <td>Seguridad mejorada, sin dependencia de servicios de terceros</td>
+          <td><a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer nofollow">Bitwarden</a>, <a href="https://www.passbolt.com/" target="_blank" rel="noopener noreferrer nofollow">Passbolt</a></td>
+      </tr>
+      <tr>
+          <td><strong>Redes Privadas Virtuales (VPNs)</strong></td>
+          <td>Privacidad mejorada, sin tarifas mensuales de VPN</td>
+          <td><a href="https://openvpn.net/" target="_blank" rel="noopener noreferrer nofollow">OpenVPN</a>, <a href="https://www.wireguard.com/" target="_blank" rel="noopener noreferrer nofollow">Wireguard</a></td>
+      </tr>
+      <tr>
+          <td><strong>Sistemas de Automatización del Hogar</strong></td>
+          <td>Control local, privacidad mejorada, sin dependencia de servicios en la nube</td>
+          <td><a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer nofollow">Home Assistant</a>, <a href="https://www.openhab.org/" target="_blank" rel="noopener noreferrer nofollow">OpenHAB</a></td>
+      </tr>
+      <tr>
+          <td><strong>Lectores de RSS</strong></td>
+          <td>Sin algoritmos que decidan el contenido, archivo completo de feeds</td>
+          <td><a href="https://tt-rss.org/" target="_blank" rel="noopener noreferrer nofollow">Tiny Tiny RSS</a>, <a href="https://freshrss.org/" target="_blank" rel="noopener noreferrer nofollow">FreshRSS</a></td>
+      </tr>
+      <tr>
+          <td><strong>Aplicaciones de Toma de Notas</strong></td>
+          <td>Privacidad, control total sobre los datos</td>
+          <td><a href="https://joplinapp.org/" target="_blank" rel="noopener noreferrer nofollow">Joplin</a>, <a href="https://logseq.com/" target="_blank" rel="noopener noreferrer nofollow">LogSeq</a></td>
+      </tr>
+      <tr>
+          <td><strong>Gestión Financiera Personal</strong></td>
+          <td>Privacidad de datos financieros, categorías y reportes personalizables</td>
+          <td><a href="https://firefly-iii.org/" target="_blank" rel="noopener noreferrer nofollow">Firefly III</a>, <a href="https://www.gnucash.org/" target="_blank" rel="noopener noreferrer nofollow">GnuCash</a></td>
+      </tr>
+      <tr>
+          <td><strong>Alojamiento de Sitios Web Personales</strong></td>
+          <td>Control total sobre tu presencia en línea, personalizable</td>
+          <td><a href="https://ghost.org/" target="_blank" rel="noopener noreferrer nofollow">Ghost</a></td>
+      </tr>
+  </tbody>
+</table>
+
+            </div>
           
           <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
           <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
@@ -3673,7 +3859,7 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
     class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
-    <div class="coming-soon-label">Coming Soon</div>
+    
     <h3 class="hx-text-2xl hx-leading-6 hx-flex hx-items-center hx-text-center hx-p-1.5">
       <span>Autoalojamiento</span>
     </h3>

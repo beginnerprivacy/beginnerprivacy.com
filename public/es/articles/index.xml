@@ -142,6 +142,102 @@
     
     <item>
       <title>Navegando Por la Web de Forma Anónima: Una Guía Sobre Los Fundamentos de Tor</title>
+      <link>http://localhost:1313/es/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;¿Qué es Tor?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qué-es-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#qu%c3%a9-es-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tor, abreviatura de &amp;ldquo;The Onion Router&amp;rdquo;, es un software gratuito y de código abierto que permite la comunicación anónima a través de Internet. Logra esto enrutando tu tráfico de Internet a través de una red de servidores operados por voluntarios, conocidos como nodos o relés. Cada relé solo conoce la ubicación del relé anterior y del siguiente, lo que ayuda a oscurecer la dirección IP original del usuario. Este proceso de cifrado en capas se asemeja a las capas de una cebolla, de ahí su nombre. Tor es ampliamente utilizado por individuos que buscan proteger su privacidad en línea, incluidos periodistas, activistas y usuarios comunes que desean navegar por la web sin ser rastreados.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp&#34; alt=&#34;Ilustración de cómo funciona The Onion Router&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;¿Por qué usar Tor?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;por-qué-usar-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#por-qu%c3%a9-usar-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hay varias razones convincentes para usar Tor, así como algunos inconvenientes a considerar:&lt;/p&gt;
+&lt;h4&gt;Beneficios de usar Tor&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;beneficios-de-usar-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#beneficios-de-usar-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Anonimato&lt;/strong&gt;: Tor ayuda a proteger tu identidad al enmascarar tu dirección IP, lo que dificulta que los sitios web, anunciantes e incluso gobiernos rastreen tus actividades en línea.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Eludir la Censura&lt;/strong&gt;: En países con estricta censura de internet, Tor puede ayudar a los usuarios a acceder a sitios web bloqueados y comunicarse libremente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Protección de la Privacidad&lt;/strong&gt;: Tor cifra tu tráfico de internet, proporcionando una capa adicional de seguridad contra la interceptación y la vigilancia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Acceso a la Dark Web&lt;/strong&gt;: Tor permite a los usuarios acceder a sitios .onion, que no están indexados por los motores de búsqueda tradicionales y pueden ofrecer contenido y servicios únicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Inconvenientes de usar Tor&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;inconvenientes-de-usar-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#inconvenientes-de-usar-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Velocidad lenta&lt;/strong&gt;: Debido a que Tor enruta tu tráfico de internet a través de múltiples relés, puede ralentizar significativamente tu experiencia de navegación en comparación con las conexiones de internet estándar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No es ideal para uso casual&lt;/strong&gt;: Para la navegación diaria, generalmente no se recomienda Tor debido a sus velocidades más lentas y la posibilidad de que los sitios web bloqueen el tráfico de Tor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Instalación del Navegador Tor&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;instalación-del-navegador-tor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#instalaci%c3%b3n-del-navegador-tor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Instalar el Navegador Tor es un proceso sencillo. Aquí te explico cómo hacerlo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Descargar el Navegador Tor&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visita el sitio web oficial del Proyecto Tor en &lt;a href=&#34;https://www.torproject.org/download/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;torproject.org&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Desplázate hacia abajo y haz clic en el botón de descarga para tu sistema operativo (Windows, macOS, Linux o Android).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instalar el Navegador Tor&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una vez que la descarga esté completa, abre el instalador y sigue las instrucciones en pantalla para instalar el Navegador Tor en tu dispositivo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Iniciar el Navegador Tor&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Después de la instalación, abre el Navegador Tor. Se te recibirá con una pantalla de bienvenida que proporciona información sobre cómo funciona Tor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conectarse a la Red Tor&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Haz clic en el botón &amp;ldquo;Conectar&amp;rdquo; para establecer una conexión con la red Tor. Esto puede tardar unos segundos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Comenzar a Navegar&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Una vez conectado, puedes comenzar a navegar por Internet de forma anónima.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Usando Tor de Manera Segura&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;usando-tor-de-manera-segura&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#usando-tor-de-manera-segura&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si bien Tor proporciona un nivel significativo de anonimato, es esencial usarlo correctamente para maximizar tu privacidad. Aquí hay algunas mejores prácticas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Desactivar JavaScript&lt;/strong&gt;: Debes desactivar completamente JavaScript porque entonces los sitios web no pueden obtener tu información. Esto puede romper la funcionalidad de algunos sitios web.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No Iniciar Sesión en Cuentas&lt;/strong&gt;: Evita iniciar sesión en cuentas que puedan estar vinculadas a tu identidad real (por ejemplo, redes sociales) mientras usas Tor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No Usar Complementos o Extensiones&lt;/strong&gt;: No instales complementos o extensiones adicionales en el Navegador Tor, ya que pueden comprometer tu anonimato.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No Revelar Información Personal&lt;/strong&gt;: Nunca compartas información personal mientras usas Tor, ya que puede ser utilizada para identificarte.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No Usar una VPN con Tor&lt;/strong&gt;: Mezclar una VPN con Tor no se recomienda, ya que centraliza tu conexión y socava la descentralización de Tor. También añade una capa de confianza en el proveedor de VPN, que puede registrar tus actividades.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Navegando Por la Web de Forma Anónima: Una Guía Sobre Los Fundamentos de Tor</title>
       <link>http://localhost:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
       
@@ -747,6 +843,83 @@
 &lt;li&gt;Instala &lt;strong&gt;Balena Etcher&lt;/strong&gt; (&lt;a href=&#34;https://etcher.balena.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;descargar aquí&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Conecta tu unidad USB, abre Etcher y selecciona la ISO de Debian.&lt;/li&gt;
 &lt;li&gt;Haz clic en &lt;strong&gt;Flash!&lt;/strong&gt; y espera a que el proceso se complete.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Instalación de Debian: Guía Paso a Paso&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;instalación-de-debian-guía-paso-a-paso&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#instalaci%c3%b3n-de-debian-gu%c3%ada-paso-a-paso&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Paso 1: Descarga la ISO Correcta de Debian&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;paso-1-descarga-la-iso-correcta-de-debian-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#paso-1-descarga-la-iso-correcta-de-debian-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Visita la &lt;a href=&#34;https://www.debian.org/distrib/netinst&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;página de descarga de Debian&lt;/a&gt; y selecciona bajo el encabezado &amp;ldquo;CDs pequeños o unidades USB&amp;rdquo;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;amd64&lt;/strong&gt;: Para la mayoría de los sistemas Intel/AMD de 64 bits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;arm64&lt;/strong&gt;: Para dispositivos más nuevos basados en ARM (por ejemplo, Raspberry Pi 4).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;i386&lt;/strong&gt;: Para máquinas más antiguas de 32 bits (raras hoy en día).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Paso 2: Crea un USB Booteable&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;paso-2-crea-un-usb-booteable&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#paso-2-crea-un-usb-booteable&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Para Windows&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instala &lt;strong&gt;Rufus&lt;/strong&gt; (&lt;a href=&#34;https://rufus.ie&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;descargar aquí&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Conecta tu unidad USB y abre Rufus.&lt;/li&gt;
+&lt;li&gt;Selecciona la ISO de Debian que descargaste.&lt;/li&gt;
+&lt;li&gt;Asegúrate de que el esquema de partición esté configurado en &lt;strong&gt;MBR&lt;/strong&gt; y el sistema objetivo sea &lt;strong&gt;BIOS o UEFI&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Haz clic en &lt;strong&gt;Iniciar&lt;/strong&gt; y espera a que el proceso se complete.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Para macOS&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Abre &lt;strong&gt;Terminal&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Usa el comando &lt;code&gt;diskutil&lt;/code&gt; para listar tus unidades:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil list&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Desmonta la unidad USB (reemplaza &lt;code&gt;diskN&lt;/code&gt; con el número de tu unidad USB):
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil unmountDisk /dev/diskN&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Usa el comando &lt;code&gt;dd&lt;/code&gt; para crear el USB booteable (reemplaza &lt;code&gt;path/to/debian.iso&lt;/code&gt; y &lt;code&gt;diskN&lt;/code&gt; según corresponda):
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dd &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/debian.iso &lt;span class=&#34;nv&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/dev/rdiskN &lt;span class=&#34;nv&#34;&gt;bs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1m&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Espera a que el proceso se complete, luego expulsa la unidad USB:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;diskutil eject /dev/diskN&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;Paso 3: Arranca desde la USB&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;paso-3-arranca-desde-la-usb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#paso-3-arranca-desde-la-usb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;

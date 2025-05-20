@@ -38,6 +38,24 @@
                 href="http://localhost:1313/es/articles/the-best-desktop-operating-systems-for-high-risk-individuals/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/</loc>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</loc>
     <lastmod>2025-05-11T12:46:53+02:00</lastmod>
     <xhtml:link
@@ -129,7 +147,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</loc>
-    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
+    <lastmod>2025-05-18T21:00:26+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

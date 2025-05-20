@@ -21,39 +21,13 @@
 @font-face {
     font-family: 'Roboto-Bold';
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
-    font-variation-settings: 
-    'opsz' 14, /* Optical Size */
-    'wght' 650, /* Weight */
-    'GRAD' 0, /* Grade */
-    'wdth' 100, /* Width */
-    'slnt' 0, /* Slant */
-    'THCK' 96, /* Parametric Thick Stroke */
-    'THTN' 79, /* Parametric Thin Stroke */
-    'CWID' 468, /* Parametric Counter Width */
-    'UHGT' 712, /* Parametric Uppercase Height */
-    'LHGT' 514, /* Parametric Lowercase Height */
-    'AHGT' 750, /* Parametric Ascender Height */
-    'DDEP' -203, /* Parametric Descender Depth */
-    'FHGT' 738; /* Parametric Figure Height */
+    font-weight: 600;
 }
 
 @font-face {
     font-family: 'Roboto-SemiBold';
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
-    font-variation-settings: 
-    'opsz' 14, /* Optical Size */
-    'wght' 650, /* Weight */
-    'GRAD' 0, /* Grade */
-    'wdth' 100, /* Width */
-    'slnt' 0, /* Slant */
-    'THCK' 96, /* Parametric Thick Stroke */
-    'THTN' 79, /* Parametric Thin Stroke */
-    'CWID' 468, /* Parametric Counter Width */
-    'UHGT' 712, /* Parametric Uppercase Height */
-    'LHGT' 514, /* Parametric Lowercase Height */
-    'AHGT' 750, /* Parametric Ascender Height */
-    'DDEP' -203, /* Parametric Descender Depth */
-    'FHGT' 738; /* Parametric Figure Height */
+    font-weight: 600;
 }
 
 @font-face {
