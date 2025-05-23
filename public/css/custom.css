@@ -442,12 +442,12 @@ th, td {
     thead {
         display: none;
     }
-    tr {
+    #contributors tr {
         display: block;
         margin-bottom: 1rem;
         width: 200%;
     }
-    td {
+    #contributors td {
         display: block;
         text-align: right;
         position: relative;

@@ -88,7 +88,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Sistema Operativo de Escritorio" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Sistema Operativo Móvil" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-services"  class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Evitando trampas de miel" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Qué es I2P?" id="what-is-i2p" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="OpSec Avanzado" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>

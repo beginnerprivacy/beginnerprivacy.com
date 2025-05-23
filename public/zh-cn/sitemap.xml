@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</loc>
+    <lastmod>2025-05-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/articles/why-you-should-start-self-hosting-services/</loc>
+    <lastmod>2025-05-20T15:57:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-should-start-self-hosting-services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-start-self-hosting-services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-should-start-self-hosting-services/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</loc>
     <lastmod>2025-05-14T21:06:19+02:00</lastmod>
     <xhtml:link
@@ -36,24 +72,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/</loc>
-    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/mastering-self-hosting-tips-and-tools-for-a-successful-setup/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</loc>
@@ -470,7 +488,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-05-14T21:06:19+02:00</lastmod>
+    <lastmod>2025-05-20T15:57:35+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
