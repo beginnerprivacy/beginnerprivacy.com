@@ -89,8 +89,7 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-services" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Avoiding Honeypots" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="What is I2P?" id="what-is-i2p" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Advanced Operational Security" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Physical Security" id="physical-security" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Threat Intelligence" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
         </ol>

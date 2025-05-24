@@ -88,8 +88,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="自托管" id="self-hosting" link="articles/why-you-should-start-self-hosting-services" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="加密货币" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="避免蜜罐" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="什么是I2P？" id="what-is-i2p" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="高级操作安全" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="物理安全" id="physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="威胁情报" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>

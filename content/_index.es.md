@@ -59,13 +59,13 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Introducción Básica" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Contraseñas Fuertes" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Autenticación de Dos Factores (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Limitar la información compartida" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Limitar la Información Compartida" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Navegador Privado" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Motor de búsqueda privado" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Motor de Búsqueda Privado" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Red Privada Virtual (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Configuración de Privacidad Móvil" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Configuración de privacidad del escritorio" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Correo electrónico privado" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Configuración de Privacidad Del Escritorio" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Correo Electrónico Privado" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Mensajería Segura" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="basic-hf-card-color" >}}</li>
       </ol>
@@ -77,7 +77,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Cámbiate a Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="DNS Encriptado" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Interfaces de Redes Sociales" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend"  class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Eliminación de corredores de datos" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Eliminación de Corredores de Datos" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Qué es Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
       </ol>
@@ -89,9 +89,8 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Sistema Operativo Móvil" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-services"  class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Evitando trampas de miel" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="¿Qué es I2P?" id="what-is-i2p" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="OpSec Avanzado" id="advanced-opsec" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Evitando Trampas de Miel" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Seguridad Física" id="physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Inteligencia de Amenazas" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>
