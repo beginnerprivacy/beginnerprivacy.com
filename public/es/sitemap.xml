@@ -182,6 +182,24 @@
                 href="http://localhost:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/avoiding-honeypots-protecting-yourself-from-traps/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/avoiding-honeypots-protecting-yourself-from-traps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/avoiding-honeypots-protecting-yourself-from-traps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/avoiding-honeypots-protecting-yourself-from-traps/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/</loc>
     <lastmod>2025-03-05T14:23:49+01:00</lastmod>
     <xhtml:link
@@ -525,7 +543,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-05-23T12:55:07+02:00</lastmod>
+    <lastmod>2025-05-24T19:38:27+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

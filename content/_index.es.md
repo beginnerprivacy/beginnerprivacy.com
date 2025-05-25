@@ -50,8 +50,8 @@ layout: hextra-home
     <div id="startContent" class="roadmap-section">
       <ol>
         <li>{{< hextra/feature-card title="Sobre Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="¿Por qué preocuparse por tu privacidad?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Encontrar un modelo de amenaza" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="¿Por Qué Preocuparse Por Tu Privacidad?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Encontrar Un Modelo de Amenaza" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="basicContent" class="roadmap-section" style="display:none;">
@@ -89,8 +89,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Sistema Operativo Móvil" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-services"  class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Evitando Trampas de Miel" id="avoiding-honeypots" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Seguridad Física" id="physical-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Seguridad Física" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Inteligencia de Amenazas" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>
