@@ -90,7 +90,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-services"  class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Seguridad Física" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Inteligencia de Amenazas" id="threat-intelligence" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Inteligencia de Amenazas" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="¿Falta algo? ¡Contribuye!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>
