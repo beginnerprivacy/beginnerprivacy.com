@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-In today's digital landscape, high-risk individuals—such as journalists, activists, and whistleblowers—face significant threats to their privacy and security. Traditional operating systems like Windows, macOS, and standard Linux distributions often lack the robust security features necessary to protect sensitive information from sophisticated cyber threats and surveillance. These mainstream OS options are typically designed for convenience and usability, which can inadvertently expose users to vulnerabilities.
+Today, high-risk individuals—such as journalists, activists, and whistleblowers—face significant threats to their privacy and security. Traditional operating systems like Windows, macOS, and standard Linux distributions often lack the robust security features necessary to protect sensitive information from sophisticated cyber threats and surveillance. These mainstream OS options are typically designed for convenience and usability, which can inadvertently expose users to vulnerabilities.
 
 ### Recommended Desktop OS for High-Risk Individuals
 #### Qubes OS

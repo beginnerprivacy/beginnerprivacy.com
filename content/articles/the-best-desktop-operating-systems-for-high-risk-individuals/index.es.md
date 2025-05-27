@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-En el panorama digital actual, las personas de alto riesgo—como periodistas, activistas y denunciantes—enfrentan amenazas significativas a su privacidad y seguridad. Los sistemas operativos tradicionales como Windows, macOS y las distribuciones estándar de Linux a menudo carecen de las robustas características de seguridad necesarias para proteger información sensible de amenazas cibernéticas sofisticadas y vigilancia. Estas opciones de sistemas operativos convencionales están diseñadas típicamente para la conveniencia y la usabilidad, lo que puede exponer inadvertidamente a los usuarios a vulnerabilidades.
+Hoy en día, las personas de alto riesgo—como periodistas, activistas y denunciantes—enfrentan amenazas significativas a su privacidad y seguridad. Los sistemas operativos tradicionales como Windows, macOS y las distribuciones estándar de Linux a menudo carecen de las características de seguridad robustas necesarias para proteger la información sensible de amenazas cibernéticas sofisticadas y vigilancia. Estas opciones de sistemas operativos convencionales están diseñadas típicamente para la conveniencia y la usabilidad, lo que puede exponer inadvertidamente a los usuarios a vulnerabilidades.
 
 ### Sistemas Operativos de Escritorio Recomendados para Personas de Alto Riesgo
 #### Qubes OS

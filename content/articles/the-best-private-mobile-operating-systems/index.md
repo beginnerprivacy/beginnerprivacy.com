@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-In an era where digital privacy is increasingly under threat, using mainstream mobile operating systems like Android and iOS can compromise user privacy. Both platforms are known for extensive data collection practices, which can lead to significant privacy risks. Android's open ecosystem allows for greater flexibility but also increases vulnerability to malware. Meanwhile, iOS, despite it's more controlled environment, has faced criticism for it's lack of transparency regarding data collection. Both systems prioritize user convenience, often at the expense of privacy.
+In the world of smartphones, using popular operating systems like Android and iOS can compromise user privacy. Both platforms are known for extensive data collection practices, which can lead to significant privacy risks. Android's open ecosystem allows for greater flexibility but also increases vulnerability to malware. Meanwhile, iOS, despite it's more controlled environment, has faced criticism for it's lack of transparency regarding data collection. Both systems prioritize user convenience, often at the expense of privacy.
 
 ### Recommended Private Mobile OS
 {{< callout type="info" >}}

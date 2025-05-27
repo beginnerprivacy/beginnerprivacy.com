@@ -397,7 +397,7 @@
       <description>
         
         
-        &lt;p&gt;在数字隐私日益受到威胁的时代，使用主流移动操作系统如Android和iOS可能会危及用户隐私。这两个平台以广泛的数据收集实践而闻名，这可能导致显著的隐私风险。Android的开放生态系统提供了更大的灵活性，但也增加了对恶意软件的脆弱性。与此同时，尽管iOS的环境更为控制，但因其在数据收集方面缺乏透明度而受到批评。两个系统都优先考虑用户便利，往往以牺牲隐私为代价。&lt;/p&gt;
+        &lt;p&gt;在智能手机的世界中，使用像Android和iOS这样的流行操作系统可能会危及用户隐私。这两个平台以广泛的数据收集实践而闻名，这可能导致显著的隐私风险。Android的开放生态系统提供了更大的灵活性，但也增加了对恶意软件的脆弱性。与此同时，尽管iOS的环境更为受控，但因其在数据收集方面缺乏透明度而受到批评。这两个系统都优先考虑用户的便利，往往以牺牲隐私为代价。&lt;/p&gt;
 &lt;h3&gt;推荐的私人移动操作系统&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的私人移动操作系统&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e7%a7%81%e4%ba%ba%e7%a7%bb%e5%8a%a8%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
@@ -464,7 +464,7 @@
       <description>
         
         
-        &lt;p&gt;在当今的数字环境中，高风险个人——如记者、活动家和举报人——面临着对其隐私和安全的重大威胁。传统操作系统如Windows、macOS和标准Linux发行版通常缺乏保护敏感信息免受复杂网络威胁和监视所需的强大安全功能。这些主流操作系统选项通常设计为方便和易用，这可能无意中使用户暴露于漏洞之中。&lt;/p&gt;
+        &lt;p&gt;如今，高风险个体——如记者、活动家和举报人——面临着对其隐私和安全的重大威胁。传统操作系统如Windows、macOS和标准Linux发行版通常缺乏保护敏感信息免受复杂网络威胁和监视所需的强大安全功能。这些主流操作系统选项通常设计为方便和易用，这可能无意中使用户暴露于脆弱性之中。&lt;/p&gt;
 &lt;h3&gt;推荐的高风险个人桌面操作系统&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;推荐的高风险个人桌面操作系统&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%8e%a8%e8%8d%90%e7%9a%84%e9%ab%98%e9%a3%8e%e9%99%a9%e4%b8%aa%e4%ba%ba%e6%a1%8c%e9%9d%a2%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Qubes OS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qubes-os&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#qubes-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Qubes OS是一个以安全为重点的操作系统，使用虚拟化技术为不同应用程序创建隔离环境。每个应用程序在自己的虚拟机中运行，确保一个应用程序的妥协不会影响其他应用程序。&lt;strong&gt;Qubes OS旨在提供最大安全性和隐私；像爱德华·斯诺登这样的人使用它。&lt;/strong&gt;&lt;/p&gt;
@@ -552,6 +552,8 @@
 &lt;p&gt;&lt;strong&gt;不适合随意使用&lt;/strong&gt;：对于日常浏览，通常不推荐使用 Tor，因为它的速度较慢，并且网站可能会阻止 Tor 流量。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;I2P: Tor 的替代方案&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;i2p-tor-的替代方案&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i2p-tor-%e7%9a%84%e6%9b%bf%e4%bb%a3%e6%96%b9%e6%a1%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;值得一提的是 I2P（隐形互联网项目）；它是另一个旨在匿名通信的网络。与专注于匿名访问常规互联网的 Tor 不同，I2P 主要设计用于点对点通信和在其自身网络内托管服务。I2P 完全去中心化，增强了其抵御审查的能力，I2P 内的所有流量都是加密的，提供了高水平的隐私。有关更多信息，您可以访问 &lt;a href=&#34;https://en.wikipedia.org/wiki/I2P&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;I2P 的维基百科文章&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;安装Tor浏览器&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;安装tor浏览器&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%ae%89%e8%a3%85tor%e6%b5%8f%e8%a7%88%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;安装Tor浏览器是一个简单的过程。以下是操作步骤：&lt;/p&gt;
 &lt;ol&gt;
