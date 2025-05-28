@@ -23,6 +23,11 @@ Our mission is to simplify your journey toward online privacy and anonymity, whe
 
 We provide clear, actionable guidance on everything from basic privacy practices to advanced security tools. Our goal is to empower you to take control of your online presence with confidence.
 
+## Git Mirrors
+[![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/beginnerprivacy/beginnerprivacy.github.io)
+[![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/beginnerprivacy/beginnerprivacy.github.io)
+[![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/beginnerprivacy/beginnerprivacy.github.io)
+
 ## Contributing
 We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](https://beginnerprivacy.com/about/about-contributing) for more information on how you can get involved.
 
