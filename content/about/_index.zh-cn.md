@@ -13,13 +13,17 @@ toc: false
 受到像PrivacyTools和PrivacyGuides这样的平台的启发，我们采取了一种独特的、非工具中心的方法。我们不想用复杂的软件或系统让初学者感到不知所措，而是专注于基础知识和实用习惯，以优先建立隐私保护。工具稍后再来——一旦你掌握了基础。
 
 ### 在这里找到我们
+在各种社交媒体平台上，虽然初学者隐私有账户以接触新用户，但这并不代表对这些平台的认可，我们通常不鼓励使用它们。
+
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/link-card title="YouTube" link="https://youtube.com/@BeginnerPrivacy" logo="../../images/about/youtube.webp" >}}
-    {{< hextra/link-card title="𝕏" link="https://x.com/BeginnerPrivacy" logo="../../images/about/x.webp" >}}
-    {{< hextra/link-card title="TikTok" link="https://tiktok.com/@BeginnerPrivacy" logo="../../images/about/tiktok.webp" >}}
     {{< hextra/link-card title="SimpleX" link="about/join-simplex-group" logo="../../images/about/simplex.webp" >}}
     {{< hextra/link-card title="Mastodon" link="https://mastodon.social/@BeginnerPrivacy" logo="../../images/about/mastodon.webp" >}}
+    {{< hextra/link-card title="Codeberg" link="https://codeberg.org/BeginnerPrivacy" logo="../../images/about/codeberg.webp" >}}
     {{< hextra/link-card title="GitHub" link="https://github.com/BeginnerPrivacy" logo="../../images/about/github.webp" >}}
+    {{< hextra/link-card title="GitLab" link="https://gitlab.com/BeginnerPrivacy" logo="../../images/about/gitlab.webp" >}}
+    {{< hextra/link-card title="YouTube" link="https://youtube.com/@BeginnerPrivacy" logo="../../images/about/youtube.webp" >}}
+    {{< hextra/link-card title="𝕏 (Twitter)" link="https://x.com/BeginnerPrivacy" logo="../../images/about/x.webp" >}}
+    {{< hextra/link-card title="TikTok" link="https://tiktok.com/@BeginnerPrivacy" logo="../../images/about/tiktok.webp" >}}
   </div>
 </div>
