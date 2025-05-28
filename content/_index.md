@@ -58,7 +58,7 @@ layout: hextra-home
             <li>{{< hextra/feature-card title="Basic Introduction" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
             <li>{{< hextra/feature-card title="Strong Passwords" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
             <li>{{< hextra/feature-card title="Two-Factor Authentication (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Limit information shared" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
+            <li>{{< hextra/feature-card title="Limit Information Shared" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
             <li>{{< hextra/feature-card title="Private Browser" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
             <li>{{< hextra/feature-card title="Private Search Engine" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
             <li>{{< hextra/feature-card title="Virtual Private Network (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
