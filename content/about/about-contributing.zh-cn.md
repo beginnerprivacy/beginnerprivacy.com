@@ -13,7 +13,7 @@ category: Contributing
 发现了漏洞或安全问题吗？直接在我们的[安全中心](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security)报告！
 
 #### 3. 改进代码
-使用我们的[代码贡献指南](../improve-code)提交代码更改。
+在您的计算机上设置 Beginner Privacy，进行本地运行，并使用此[指南](../setup-locally)进行更改。
 
 #### 4. 撰写内容
 使用我们的[内容风格指南](../write-content)撰写文章或教程。

@@ -49,8 +49,8 @@ layout: hextra-home
       <div id="startContent" class="roadmap-section">
         <ol>
           <li>{{< hextra/feature-card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Why care about your privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Finding a threat model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
         </ol>
       </div>
       <div id="basicContent" class="roadmap-section" style="display:none;">

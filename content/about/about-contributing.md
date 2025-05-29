@@ -13,7 +13,7 @@ Share ideas for new features or improvements by [opening a GitHub Issue](https:/
 Found a bug or security issue? Report it directly in our [Security Center](https://github.com/beginnerprivacy/beginnerprivacy.github.io/security)!
 
 #### 3. Improve Code
-Submit code changes using our [Code Contribution Guide](../improve-code).
+Set up Beginner Privacy on your computer, run it locally, and make changes using this [Guide](../setup-locally).
 
 #### 4. Writing Content
 Write articles or tutorials with our [Content Style Guide](../write-content).
