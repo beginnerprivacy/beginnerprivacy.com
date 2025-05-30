@@ -166,6 +166,11 @@ layout: hextra-home
                   <h3>Casual Internet User</h3>
               </div>
             </a>
+            <a href="checklists/?m=internet-pirate" draggable="false">
+              <div class="carousel-item">
+                  <h3>Internet Pirate</h3>
+              </div>
+            </a>
             <a href="checklists/?m=darknet-user" draggable="false">
               <div class="carousel-item">
                   <h3>Darknet User</h3>

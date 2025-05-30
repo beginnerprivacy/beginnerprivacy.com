@@ -60,8 +60,9 @@ title: Listas de verificación
 
     {{< hextra/checklist-item link="../articles/what-is-a-vpn-and-should-you-use-one" text="Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para tu conexión a internet." id="virtual-private-network" >}}Red Privada Virtual (VPN){{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="Comprar cosas con efectivo o criptomonedas para mejorar tu privacidad financiera." id="only-buy-with-cash-or-cryptocurrency" >}}Solo compra con efectivo o criptomonedas{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" text="Comprar cosas con efectivo o criptomonedas para mejorar tu privacidad financiera." id="only-buy-with-cash-or-cryptocurrency" >}}Solo compra con efectivo o criptomonedas{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Nómada Digital" modalID="digital-nomad" image="../../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Usuario de la Darknet" modalID="darknet-user" image="../../images/checklists/darknet-user.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Pirata de Internet" modalID="internet-pirate" image="../../images/checklists/internet-pirate.webp" >}}{{< /hextra/checklist-card >}}
 </div>

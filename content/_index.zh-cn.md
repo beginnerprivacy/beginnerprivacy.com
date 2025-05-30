@@ -165,6 +165,11 @@ layout: hextra-home
                   <h3>普通互联网用户</h3>
               </div>
             </a>
+            <a href="checklists/?m=internet-pirate" draggable="false">
+              <div class="carousel-item">
+                  <h3>网络盗版</h3>
+              </div>
+            </a>
             <a href="checklists/?m=darknet-user" draggable="false">
               <div class="carousel-item">
                   <h3>暗网用户</h3>

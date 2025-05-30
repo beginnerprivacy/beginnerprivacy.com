@@ -60,8 +60,9 @@ title: 检查表
 
     {{< hextra/checklist-item link="../articles/what-is-a-vpn-and-should-you-use-one" text="虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。" id="virtual-private-network" >}}虚拟私人网络（VPN）{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="使用现金或加密货币购买物品以增强您的财务隐私。" id="only-buy-with-cash-or-cryptocurrency" >}}仅使用现金或加密货币购买{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" text="使用现金或加密货币购买物品以增强您的财务隐私。" id="only-buy-with-cash-or-cryptocurrency" >}}仅使用现金或加密货币购买{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="数字游牧者" modalID="digital-nomad" image="../../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="暗网用户" modalID="darknet-user" image="../../images/checklists/darknet-user.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="网络盗版" modalID="internet-pirate" image="../../images/checklists/internet-pirate.webp" >}}{{< /hextra/checklist-card >}}
 </div>

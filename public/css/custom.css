@@ -840,6 +840,10 @@ th, td {
     text-decoration-line: none;
 }
 
+.checklist-card:last-child {
+    grid-column: span 2;
+}
+
 .checklist-card h3 {
     margin: 0;
     font-size: 2rem;
@@ -932,8 +936,13 @@ th, td {
 
 @media (max-width: 768px) {
     .checklist-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;    
     }
+
+    .checklist-card {
+        grid-column: 1;
+    }
+
 }
 /* End checklists */
 

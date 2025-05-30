@@ -60,8 +60,9 @@ title: Checklists
 
     {{< hextra/checklist-item link="../articles/what-is-a-vpn-and-should-you-use-one" text="A Virtual Private Network (VPN) can provide an extra layer of security for your internet connection." id="virtual-private-network" >}}Virtual Private Network (VPN){{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="Buying things with cash or cryptocurrency to enhance your financial privacy." id="only-buy-with-cash-or-cryptocurrency" >}}Only buy with cash or cryptocurrency{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" text="Buying things with cash or cryptocurrency to enhance your financial privacy." id="only-buy-with-cash-or-cryptocurrency" >}}Only buy with cash or cryptocurrency{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Digital Nomad" modalID="digital-nomad" image="../images/checklists/digital-nomad.webp" >}}{{< /hextra/checklist-card >}}
 {{< hextra/checklist-card title="Darknet User" modalID="darknet-user" image="../images/checklists/darknet-user.webp" >}}{{< /hextra/checklist-card >}}
+{{< hextra/checklist-card title="Internet Pirate" modalID="internet-pirate" image="../images/checklists/internet-pirate.webp" >}}{{< /hextra/checklist-card >}}
 </div>
