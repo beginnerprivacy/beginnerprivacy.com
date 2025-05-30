@@ -133,10 +133,11 @@
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     background-color: #fff;
     box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
-    border-radius: 99px;
+    border-radius: 20px;
 }
 
 input[type="radio"] {
@@ -145,6 +146,7 @@ input[type="radio"] {
 
 .tab {
     display: flex;
+    flex: 1 1 auto;
     align-items: center;
     justify-content: center;
     height: 40px;
@@ -969,6 +971,25 @@ th, td {
     justify-content: space-between;
     width: 100%;
     margin-top: 1.5rem;
+}
+
+.chat-section-button {
+    display: inline-flex;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chat-section-button:hover {
+    background: var(--color-black);
+    border-color: var(--color-black);
+    color: var(--color-white);
+    transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 330px) {
+    .social-chat-container {
+        display: block;
+    }
 }
 
 .chat-section {

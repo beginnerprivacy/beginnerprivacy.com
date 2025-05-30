@@ -553,7 +553,8 @@ function updateRoadmap() {
 
           if (tabsRect) {
               glider.style.width = `${labelRect.width}px`;
-              glider.style.transform = `translateX(${labelRect.left - tabsRect.left}px)`;
+              const verticalOffset = labelRect.top - tabsRect.top;
+              glider.style.transform = `translate(${labelRect.left - tabsRect.left}px, ${verticalOffset}px)`;
           }
       }
   }

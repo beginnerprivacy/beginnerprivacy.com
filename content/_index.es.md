@@ -127,28 +127,19 @@ layout: hextra-home
         <div class="social-chat-container">
           <div class="chat-section">
             <h2 class="hx-text-2rem hx-font-bold">Redes Sociales</h2>
-            <div class="platform-icons">
-                <a href="https://x.com/BeginnerPrivacy" title="𝕏" target="_blank" rel="noopener noreferrer">
-                    {{< hextra/icon name="x-twitter" attributes="height=25" >}}
-                </a>
-                <a href="https://youtube.com/@BeginnerPrivacy" title="YouTube" target="_blank" rel="noopener noreferrer">
-                    {{< hextra/icon name="youtube" attributes="height=25" >}}
-                </a>
-                <a href="https://tiktok.com/@BeginnerPrivacy" target="_blank" title="TikTok" rel="noopener noreferrer">
-                    {{< hextra/icon name="tiktok" attributes="height=25" >}}
-                </a>
-                <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer">
-                    {{< hextra/icon name="mastodon" attributes="height=25" >}}
-                </a>
-            </div>
+            <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer">
+              <div class="chat-section-button">
+                <p>Síguenos en Mastodon&nbsp;&nbsp;</p>{{< hextra/icon name="mastodon" attributes="height=25" >}}
+              </div>
+            </a>
           </div>
           <div class="chat-section">
             <h2 class="hx-text-2rem hx-font-bold">Chat</h2>
-            <div class="platform-icons">
-              <a href="about/join-simplex-group" target="_blank" title="SimpleX Chat" rel="noopener noreferrer">
-                  {{< hextra/icon name="simplex" attributes="height=25" >}}
-              </a>
-            </div>
+            <a href="about/join-simplex-group" target="_blank" title="SimpleX Chat">
+              <div class="chat-section-button">
+                <p>Chatea en SimpleX&nbsp;&nbsp;</p>{{< hextra/icon name="simplex" attributes="height=25" >}}
+              </div>
+            </a>
           </div>
         </div>
     </div>
