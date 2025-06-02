@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-cn/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</loc>
     <lastmod>2025-05-27T16:17:05+02:00</lastmod>
     <xhtml:link
@@ -524,7 +542,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-05-30T14:37:36+02:00</lastmod>
+    <lastmod>2025-05-30T15:49:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -704,7 +722,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/checklists/</loc>
-    <lastmod>2025-05-06T15:19:53+02:00</lastmod>
+    <lastmod>2025-05-30T15:49:10+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

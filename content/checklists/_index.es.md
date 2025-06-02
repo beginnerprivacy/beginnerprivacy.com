@@ -24,7 +24,7 @@ title: Listas de verificación
     
     {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte con otros manifestantes." id="only-use-encrypted-communication" >}}Solo usa comunicación cifrada{{< /hextra/checklist-item >}}
 
-    {{< hextra/checklist-item text="Haz una copia de seguridad de tus datos en caso de que tu teléfono se pierda o sea confiscado por la policía." id="back-up-your-phone" >}}Haz una copia de seguridad de tu teléfono{{< /hextra/checklist-item >}}
+    {{< hextra/checklist-item link="../articles/how-and-why-backing-up-your-devices-is-crucial" text="Haz una copia de seguridad de tus datos en caso de que tu teléfono se pierda o sea confiscado por la policía." id="back-up-your-phone" >}}Haz una copia de seguridad de tu teléfono{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Usa ropa que oculte tu identidad y te proteja de la vigilancia." id="cover-yourself" >}}Cúbrete{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
