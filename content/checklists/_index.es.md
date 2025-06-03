@@ -17,7 +17,7 @@ title: Listas de verificación
 
     {{< hextra/checklist-item link="../articles/desktop-settings-to-change-for-better-privacy" text="Realice los cambios necesarios en la configuración de su escritorio para mejorar su privacidad." id="desktop-privacy-settings" >}}Configuraciones de privacidad de escritorio{{< /hextra/checklist-item >}}
 {{< /hextra/checklist-card >}}
-{{< hextra/checklist-card title="Protestor" modalID="protestor" image="../../images/checklists/protestor.webp" >}}
+{{< hextra/checklist-card title="Manifestante" modalID="protestor" image="../../images/checklists/protestor.webp" >}}
     {{< hextra/checklist-item text="Apaga completamente tu teléfono para asegurarte al 100% de que no se está filtrando nada. ¡El modo avión no es suficiente!" id="turn-your-phone-completely-off" >}}Apaga completamente tu teléfono{{< /hextra/checklist-item >}}
 
     {{< hextra/checklist-item text="Planifica cuidadosamente tu ruta hacia y desde la protesta para evitar posibles puntos críticos de actividad policial y vigilancia." id="plan-your-trip" >}}Planifica tu viaje{{< /hextra/checklist-item >}}

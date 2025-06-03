@@ -159,7 +159,7 @@ layout: hextra-home
             </a>
             <a href="checklists/?m=protestor" draggable="false">
               <div class="carousel-item">
-                  <h3>Protestor</h3>
+                  <h3>Manifestante</h3>
               </div>
             </a>
             <a href="checklists/?m=casual-internet-user" draggable="false">
