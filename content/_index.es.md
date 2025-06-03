@@ -216,28 +216,5 @@ layout: hextra-home
         <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fbeginnerprivacy.com%26title%3DStart%2BYour%2BPrivacy%2BJourney%2BToday%21" target="_blank" style="padding-inline: 5px;">LinkedIn</a>
       </div>
     </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Rol</th>
-                <th>Contribuciones</th>
-                <th>Enlaces</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Nombre">PrintN</td>
-                <td data-label="Rol">Fundador, Desarrollador</td>
-                <td data-label="Contribuciones">Código, Documentación</td>
-                <td data-label="Enlaces"><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
-            </tr>
-            <tr>
-                <td data-label="Nombre">¡Podrías estar aquí!</td>
-                <td data-label="Rol">Tu papel</td>
-                <td data-label="Contribuciones">Tu contribución</td>
-                <td data-label="Enlaces"><a href="https://github.com/" target="_blank">Tu GitHub</a></td>
-            </tr>
-        </tbody>
-    </table>
+    <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">Ver todos los contribuyentes</p></a>
 </div>

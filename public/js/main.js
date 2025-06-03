@@ -530,6 +530,28 @@ function scrollDown() {
       });
   }
 }
+
+// Footer waves color
+function updateWaveColors() {
+const isDarkMode = document.documentElement.classList.contains('dark');
+const waves = document.querySelectorAll('.wave');
+if (waves.length > 0) {
+    if (isDarkMode) {
+    waves[0].setAttribute('fill', 'rgba(50, 50, 50, 0.7)');
+    waves[1].setAttribute('fill', 'rgba(50, 50, 50, 0.5)');
+    waves[2].setAttribute('fill', 'rgba(50, 50, 50, 0.3)');
+    waves[3].setAttribute('fill', '#171717');
+    } else {
+    waves[0].setAttribute('fill', 'rgba(243,244,246, 0.7)');
+    waves[1].setAttribute('fill', 'rgba(243,244,246, 0.5)');
+    waves[2].setAttribute('fill', 'rgba(243,244,246, 0.3)');
+    waves[3].setAttribute('fill', '#e8e9eb');
+    }
+}
+}
+updateWaveColors();
+const observer = new MutationObserver(updateWaveColors);
+observer.observe(document.documentElement, { attributes: true });
 ;
 function updateRoadmap() {
   const sections = document.querySelectorAll('.roadmap-section');

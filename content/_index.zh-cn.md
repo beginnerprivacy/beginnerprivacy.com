@@ -214,28 +214,5 @@ layout: hextra-home
           <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%3A%2F%2Fbeginnerprivacy.com%26title%3DStart%2BYour%2BPrivacy%2BJourney%2BToday%21" target="_blank" style="padding-inline: 5px;">LinkedIn</a>
       </div>
     </div>
-    <table>
-        <thead>
-            <tr>
-                <th>名字</th>
-                <th>角色</th>
-                <th>贡献</th>
-                <th>链接</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="名字">PrintN</td>
-                <td data-label="角色">创始人，开发者</td>
-                <td data-label="贡献">代码，文档</td>
-                <td data-label="链接"><a href="https://github.com/PrintN" target="_blank">GitHub</a></td>
-            </tr>
-            <tr>
-                <td data-label="名字">你本可以在这里的！</td>
-                <td data-label="角色">你的角色</td>
-                <td data-label="贡献">你的贡献</td>
-                <td data-label="链接"><a href="https://github.com/" target="_blank">你的GitHub</a></td>
-            </tr>
-        </tbody>
-    </table>
+    <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">查看所有贡献者</p></a>
 </div>

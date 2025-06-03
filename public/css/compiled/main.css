@@ -1192,6 +1192,9 @@ video {
 .hx-pt-8 {
   padding-top: 2rem;
 }
+.hx-pt-12 {
+  padding-top: 3rem;
+}
 .hx-text-left {
   text-align: left;
 }
