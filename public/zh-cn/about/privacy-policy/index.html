@@ -11,16 +11,16 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>隐私政策 – Beginner Privacy</title>
-  <meta name="description" content=" ℹ️ 简要说明
-我们几乎不收集任何信息。没有IP地址，没有Cookies，没有日志。唯一存储的数据是您的路线图进度（保存在您的设备上）和基本的页面浏览统计（没有个人信息）。其他所有信 …" /><link rel="canonical" href="http://localhost:1313/zh-cn/about/privacy-policy/" itemprop="url" />
+  <meta name="description" content=" ℹ️ 摘要
+我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的 …" /><link rel="canonical" href="http://localhost:1313/zh-cn/about/privacy-policy/" itemprop="url" />
 
 <meta property="og:title" content="Beginner Privacy" />
 <meta property="og:description" content="
   ℹ️
 
   
-    简要说明
-我们几乎不收集任何信息。没有IP地址，没有Cookies，没有日志。唯一存储的数据是您的路线图进度（保存在您的设备上）和基本的页面浏览统计（没有个人信息）。其他所有信息都故意不收集，以保护您的隐私。" />
+    摘要
+我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的页面浏览统计（不包含任何个人信息）。其他所有信息都故意不收集，以保护您的隐私。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/zh-cn/about/privacy-policy/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="about" />
 
@@ -33,14 +33,14 @@
   ℹ️
 
   
-    简要说明
-我们几乎不收集任何信息。没有IP地址，没有Cookies，没有日志。唯一存储的数据是您的路线图进度（保存在您的设备上）和基本的页面浏览统计（没有个人信息）。其他所有信息都故意不收集，以保护您的隐私。">
+    摘要
+我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的页面浏览统计（不包含任何个人信息）。其他所有信息都故意不收集，以保护您的隐私。">
 
   <meta itemprop="name" content="隐私政策">
-  <meta itemprop="description" content="ℹ️ 简要说明
-我们几乎不收集任何信息。没有IP地址，没有Cookies，没有日志。唯一存储的数据是您的路线图进度（保存在您的设备上）和基本的页面浏览统计（没有个人信息）。其他所有信息都故意不收集，以保护您的隐私。">
+  <meta itemprop="description" content="ℹ️ 摘要
+我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的页面浏览统计（不包含任何个人信息）。其他所有信息都故意不收集，以保护您的隐私。">
   <meta itemprop="dateModified" content="2025-04-01T15:30:44+02:00">
-  <meta itemprop="wordCount" content="626">
+  <meta itemprop="wordCount" content="604">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -91,7 +91,276 @@
     </script>
   
 
-  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count">
+
+
+;(function() {
+	'use strict';
+	window.goatcounter = window.goatcounter || {}
+
+	
+	var s = document.querySelector('script[data-goatcounter]')
+	if (s && s.dataset.goatcounterSettings) {
+		try         { var set = JSON.parse(s.dataset.goatcounterSettings) }
+		catch (err) { console.error('invalid JSON in data-goatcounter-settings: ' + err) }
+		for (var k in set)
+			if (['no_onload', 'no_events', 'allow_local', 'allow_frame', 'path', 'title', 'referrer', 'event'].indexOf(k) > -1)
+				window.goatcounter[k] = set[k]
+	}
+
+	var enc = encodeURIComponent
+
+	
+	window.goatcounter.get_data = function(vars) {
+		vars = vars || {}
+		var data = {
+			p: (vars.path     === undefined ? goatcounter.path     : vars.path),
+			r: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),
+			t: (vars.title    === undefined ? goatcounter.title    : vars.title),
+			e: !!(vars.event || goatcounter.event),
+			s: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],
+			b: is_bot(),
+			q: location.search,
+		}
+
+		var rcb, pcb, tcb  
+		if (typeof(data.r) === 'function') rcb = data.r
+		if (typeof(data.t) === 'function') tcb = data.t
+		if (typeof(data.p) === 'function') pcb = data.p
+
+		if (is_empty(data.r)) data.r = document.referrer
+		if (is_empty(data.t)) data.t = document.title
+		if (is_empty(data.p)) data.p = get_path()
+
+		if (rcb) data.r = rcb(data.r)
+		if (tcb) data.t = tcb(data.t)
+		if (pcb) data.p = pcb(data.p)
+		return data
+	}
+
+	
+	var is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }
+
+	
+	
+	var is_bot = function() {
+		
+		var w = window, d = document
+		if (w.callPhantom || w._phantom || w.phantom)
+			return 150
+		if (w.__nightmare)
+			return 151
+		if (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)
+			return 152
+		if (navigator.webdriver)
+			return 153
+		return 0
+	}
+
+	
+	var urlencode = function(obj) {
+		var p = []
+		for (var k in obj)
+			if (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)
+				p.push(enc(k) + '=' + enc(obj[k]))
+		return '?' + p.join('&')
+	}
+
+	
+	var warn = function(msg) {
+		if (console && 'warn' in console)
+			console.warn('goatcounter: ' + msg)
+	}
+
+	
+	var get_endpoint = function() {
+		var s = document.querySelector('script[data-goatcounter]')
+		if (s && s.dataset.goatcounter)
+			return s.dataset.goatcounter
+		return (goatcounter.endpoint || window.counter)  
+	}
+
+	
+	var get_path = function() {
+		var loc = location,
+			c = document.querySelector('link[rel="canonical"][href]')
+		if (c) {  
+			var a = document.createElement('a')
+			a.href = c.href
+			if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
+				loc = a
+		}
+		return (loc.pathname + loc.search) || '/'
+	}
+
+	
+	var on_load = function(f) {
+		if (document.body === null)
+			document.addEventListener('DOMContentLoaded', function() { f() }, false)
+		else
+			f()
+	}
+
+	
+	window.goatcounter.filter = function() {
+		if ('visibilityState' in document && document.visibilityState === 'prerender')
+			return 'visibilityState'
+		if (!goatcounter.allow_frame && location !== parent.location)
+			return 'frame'
+		if (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\.|^192\.168\.|^0\.0\.0\.0$)/))
+			return 'localhost'
+		if (!goatcounter.allow_local && location.protocol === 'file:')
+			return 'localfile'
+		if (localStorage && localStorage.getItem('skipgc') === 't')
+			return 'disabled with #toggle-goatcounter'
+		return false
+	}
+
+	
+	window.goatcounter.url = function(vars) {
+		var data = window.goatcounter.get_data(vars || {})
+		if (data.p === null)  
+			return
+		data.rnd = Math.random().toString(36).substr(2, 5)  
+
+		var endpoint = get_endpoint()
+		if (!endpoint)
+			return warn('no endpoint found')
+
+		return endpoint + urlencode(data)
+	}
+
+	
+	window.goatcounter.count = function(vars) {
+		var f = goatcounter.filter()
+		if (f)
+			return warn('not counting because of: ' + f)
+		var url = goatcounter.url(vars)
+		if (!url)
+			return warn('not counting because path callback returned null')
+
+		if (!navigator.sendBeacon(url)) {
+			
+			
+			var img = document.createElement('img')
+			img.src = url
+			img.style.position = 'absolute'  
+			img.style.bottom = '0px'
+			img.style.width = '1px'
+			img.style.height = '1px'
+			img.loading = 'eager'
+			img.setAttribute('alt', '')
+			img.setAttribute('aria-hidden', 'true')
+
+			var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
+			img.addEventListener('load', rm, false)
+			document.body.appendChild(img)
+		}
+	}
+
+	
+	window.goatcounter.get_query = function(name) {
+		var s = location.search.substr(1).split('&')
+		for (var i = 0; i < s.length; i++)
+			if (s[i].toLowerCase().indexOf(name.toLowerCase() + '=') === 0)
+				return s[i].substr(name.length + 1)
+	}
+
+	
+	window.goatcounter.bind_events = function() {
+		if (!document.querySelectorAll)  
+			return
+
+		var send = function(elem) {
+			return function() {
+				goatcounter.count({
+					event:    true,
+					path:     (elem.dataset.goatcounterClick || elem.name || elem.id || ''),
+					title:    (elem.dataset.goatcounterTitle || elem.title || (elem.innerHTML || '').substr(0, 200) || ''),
+					referrer: (elem.dataset.goatcounterReferrer || elem.dataset.goatcounterReferral || ''),
+				})
+			}
+		}
+
+		Array.prototype.slice.call(document.querySelectorAll("*[data-goatcounter-click]")).forEach(function(elem) {
+			if (elem.dataset.goatcounterBound)
+				return
+			var f = send(elem)
+			elem.addEventListener('click', f, false)
+			elem.addEventListener('auxclick', f, false)  
+			elem.dataset.goatcounterBound = 'true'
+		})
+	}
+
+	
+	window.goatcounter.visit_count = function(opt) {
+		on_load(function() {
+			opt        = opt        || {}
+			opt.type   = opt.type   || 'html'
+			opt.append = opt.append || 'body'
+			opt.path   = opt.path   || get_path()
+			opt.attr   = opt.attr   || {width: '200', height: (opt.no_branding ? '60' : '80')}
+
+			opt.attr['src'] = get_endpoint() + 'er/' + enc(opt.path) + '.' + enc(opt.type) + '?'
+			if (opt.no_branding) opt.attr['src'] += '&no_branding=1'
+			if (opt.style)       opt.attr['src'] += '&style=' + enc(opt.style)
+			if (opt.start)       opt.attr['src'] += '&start=' + enc(opt.start)
+			if (opt.end)         opt.attr['src'] += '&end='   + enc(opt.end)
+
+			var tag = {png: 'img', svg: 'img', html: 'iframe'}[opt.type]
+			if (!tag)
+				return warn('visit_count: unknown type: ' + opt.type)
+
+			if (opt.type === 'html') {
+				opt.attr['frameborder'] = '0'
+				opt.attr['scrolling']   = 'no'
+			}
+
+			var d = document.createElement(tag)
+			for (var k in opt.attr)
+				d.setAttribute(k, opt.attr[k])
+
+			var p = document.querySelector(opt.append)
+			if (!p)
+				return warn('visit_count: element to append to not found: ' + opt.append)
+			p.appendChild(d)
+		})
+	}
+
+	
+	if (location.hash === '#toggle-goatcounter') {
+		if (localStorage.getItem('skipgc') === 't') {
+			localStorage.removeItem('skipgc', 't')
+			alert('GoatCounter tracking is now ENABLED in this browser.')
+		}
+		else {
+			localStorage.setItem('skipgc', 't')
+			alert('GoatCounter tracking is now DISABLED in this browser until ' + location + ' is loaded again.')
+		}
+	}
+
+	if (!goatcounter.no_onload)
+		on_load(function() {
+			
+			
+			
+			if (!('visibilityState' in document) || document.visibilityState === 'visible')
+				goatcounter.count()
+			else {
+				var f = function(e) {
+					if (document.visibilityState !== 'visible')
+						return
+					document.removeEventListener('visibilitychange', f)
+					goatcounter.count()
+				}
+				document.addEventListener('visibilitychange', f)
+			}
+
+			if (!goatcounter.no_events)
+				goatcounter.bind_events()
+		})
+})();
+</script>
 </head>
 <body dir="ltr"><div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
   <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
@@ -845,15 +1114,11 @@
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">此页上</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%88%91%e4%bb%ac%e4%b8%8d%e6%94%b6%e9%9b%86%e4%bb%80%e4%b9%88">我们不收集什么
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%88%91%e4%bb%ac%e4%b8%8d%e6%94%b6%e9%9b%86%e7%9a%84%e5%86%85%e5%ae%b9">我们不收集的内容
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%88%91%e4%bb%ac%e6%94%b6%e9%9b%86%e4%bb%80%e4%b9%88">我们收集什么
-        </a>
-      </li>
-      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8goatcounter%e7%9a%84%e8%b7%9f%e8%b8%aa">如何禁用GoatCounter的跟踪
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%88%91%e4%bb%ac%e6%94%b6%e9%9b%86%e7%9a%84%e5%86%85%e5%ae%b9">我们收集的内容
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -887,31 +1152,29 @@
   <div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2"><div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">ℹ️</div></div>
 
   <div class="hx-w-full hx-min-w-0 hx-leading-7">
-    <div class="hx-mt-6 hx-leading-7 first:hx-mt-0"><p><strong>简要说明</strong></p>
-<p>我们几乎不收集任何信息。没有IP地址，没有Cookies，没有日志。唯一存储的数据是您的路线图进度（保存在您的设备上）和基本的页面浏览统计（没有个人信息）。其他所有信息都故意不收集，以保护您的隐私。</p>
+    <div class="hx-mt-6 hx-leading-7 first:hx-mt-0"><p><strong>摘要</strong></p>
+<p>我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的页面浏览统计（不包含任何个人信息）。其他所有信息都故意不收集，以保护您的隐私。</p>
 </div>
   </div>
 </div>
 
-<h3>我们不收集什么<span class="hx-absolute -hx-mt-20" id="我们不收集什么"></span>
-    <a href="#%e6%88%91%e4%bb%ac%e4%b8%8d%e6%94%b6%e9%9b%86%e4%bb%80%e4%b9%88" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>我们的网站设计时充分考虑了您的隐私：</p>
+<h3>我们不收集的内容<span class="hx-absolute -hx-mt-20" id="我们不收集的内容"></span>
+    <a href="#%e6%88%91%e4%bb%ac%e4%b8%8d%e6%94%b6%e9%9b%86%e7%9a%84%e5%86%85%e5%ae%b9" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>我们的网站设计以您的隐私为首要任务：</p>
 <ul>
-<li>❌ <strong>没有IP地址：</strong> 我们从不记录您的IP地址。</li>
-<li>❌ <strong>没有Cookies：</strong> 我们不在您的设备上存储Cookies。</li>
-<li>❌ <strong>没有第三方服务：</strong> 我们不加载任何可能泄露您个人信息的外部服务或第三方库。</li>
-<li>❌ <strong>没有个人数据：</strong> 您的个人信息从未被收集或发送到我们的服务器或任何第三方服务器。</li>
+<li>❌ <strong>无IP地址：</strong> 我们不记录您的IP地址。</li>
+<li>❌ <strong>无Cookies：</strong> 我们不在您的设备上存储cookies。</li>
+<li>❌ <strong>无第三方服务：</strong> 我们不加载任何可能危及您个人信息的外部服务或第三方库。</li>
+<li>❌ <strong>无个人数据：</strong> 您的个人信息从未被收集或传输到我们的服务器或任何第三方服务器。</li>
+<li>❌ <strong>路线图和检查清单进度：</strong> 您的进度保存在您的设备上，存储在浏览器的本地存储中，绝不会被分享。</li>
 </ul>
-<h3>我们收集什么<span class="hx-absolute -hx-mt-20" id="我们收集什么"></span>
-    <a href="#%e6%88%91%e4%bb%ac%e6%94%b6%e9%9b%86%e4%bb%80%e4%b9%88" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>我们使用尽可能简单的工具构建此网站，以确保最大程度的隐私：</p>
+<h3>我们收集的内容<span class="hx-absolute -hx-mt-20" id="我们收集的内容"></span>
+    <a href="#%e6%88%91%e4%bb%ac%e6%94%b6%e9%9b%86%e7%9a%84%e5%86%85%e5%ae%b9" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>我们使用最简单的工具构建了这个网站，以确保最大程度的隐私：</p>
 <ul>
 <li>✅ <strong>轻量级框架：</strong> 我们的网站建立在一个经过彻底审计的最小框架上，以消除隐藏的跟踪或记录。</li>
-<li>✅ <strong>匿名使用数据：</strong> 我们收集少量匿名数据，以了解用户如何与我们的网站互动。您可以在<a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>上查看这些统计信息。</li>
-<li>✅ <strong>路线图进度：</strong> 唯一存储在您设备上的数据是您的路线图进度，该数据保存在浏览器的本地存储中，绝不会被共享。</li>
+<li>✅ <strong>匿名使用数据：</strong> 我们收集少量匿名数据，例如页面浏览量、设备类型和语言设置，以了解用户如何与我们的网站互动。这些数据是汇总的，不包括任何可能识别单个用户的个人信息。您可以在<a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>上查看这些统计信息。</li>
 </ul>
-<h3>如何禁用GoatCounter的跟踪<span class="hx-absolute -hx-mt-20" id="如何禁用goatcounter的跟踪"></span>
-    <a href="#%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8goatcounter%e7%9a%84%e8%b7%9f%e8%b8%aa" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>如果您不希望被包含在GoatCounter的统计数据中，可以通过在浏览器中安装<a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer nofollow">uBlock Origin</a>扩展程序轻松阻止跟踪。</p>
 <h3>有问题吗？<span class="hx-absolute -hx-mt-20" id="有问题吗"></span>
-    <a href="#%e6%9c%89%e9%97%ae%e9%a2%98%e5%90%97" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>如果您对我们的隐私实践有任何疑问或需要验证我们的任何声明，我们整个网站的代码是开源的，可以在<a href="https://github.com/BeginnerPrivacy" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>上进行审查。我们鼓励您自己检查，或请可信的技术顾问进行审查。</p>
+    <a href="#%e6%9c%89%e9%97%ae%e9%a2%98%e5%90%97" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>如果您对我们的隐私实践有疑问或需要验证我们的任何声明，我们整个网站的代码是开源的，可以在<a href="https://github.com/BeginnerPrivacy" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>上进行审查。我们鼓励您自己检查，或请可信的技术顾问进行审查。</p>
 <br>
 <p>如果您有其他问题，请<a href="../contact" >联系我们</a>。</p>
 
@@ -961,12 +1224,12 @@
       <div class="footer-nav-links hx-flex hx-flex-wrap hx-justify-center hx-gap-8 hx-mb-6 md:hx-mb-0">
           
             <a href="/zh-cn" class="hx-text-black dark:hx-text-black dark:hx-text-white">首页</a>
-            <a href="about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">关于</a>
-            <a href="articles" class="hx-ml-4 hx-text-black dark:hx-text-white">文章</a>
-            <a href="checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">检查表</a>
+            <a href="/zh-cn/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">关于</a>
+            <a href="/zh-cn/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">文章</a>
+            <a href="/zh-cn/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">检查表</a>
             <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">商店</a>
-            <a href="about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">联系</a>
-            <a href="about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">贡献者</a>
+            <a href="/zh-cn/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">联系</a>
+            <a href="/zh-cn/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">贡献者</a>
           
       </div>
       

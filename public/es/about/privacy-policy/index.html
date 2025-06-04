@@ -12,7 +12,7 @@
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Política de Privacidad – Beginner Privacy</title>
   <meta name="description" content=" ℹ️ Resumen
-Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos …" /><link rel="canonical" href="http://localhost:1313/es/about/privacy-policy/" itemprop="url" />
+Priorizamos su privacidad y recopilamos datos mínimos. No registramos …" /><link rel="canonical" href="http://localhost:1313/es/about/privacy-policy/" itemprop="url" />
 
 <meta property="og:title" content="Beginner Privacy" />
 <meta property="og:description" content="
@@ -20,7 +20,7 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
 
   
     Resumen
-Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos datos almacenados son tu progreso en la hoja de ruta (guardado localmente en tu dispositivo) y estadísticas básicas de vistas de página (sin información personal). Todo lo demás NO se recopila deliberadamente para proteger tu privacidad." />
+Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es su progreso en el plan y la lista de verificación (guardada localmente en su dispositivo) y estadísticas básicas de visualización de páginas (sin información personal). Todo lo demás NO se recopila intencionalmente para salvaguardar su privacidad." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/es/about/privacy-policy/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="about" />
 
@@ -34,13 +34,13 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
 
   
     Resumen
-Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos datos almacenados son tu progreso en la hoja de ruta (guardado localmente en tu dispositivo) y estadísticas básicas de vistas de página (sin información personal). Todo lo demás NO se recopila deliberadamente para proteger tu privacidad.">
+Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es su progreso en el plan y la lista de verificación (guardada localmente en su dispositivo) y estadísticas básicas de visualización de páginas (sin información personal). Todo lo demás NO se recopila intencionalmente para salvaguardar su privacidad.">
 
   <meta itemprop="name" content="Política de Privacidad">
   <meta itemprop="description" content="ℹ️ Resumen
-Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos datos almacenados son tu progreso en la hoja de ruta (guardado localmente en tu dispositivo) y estadísticas básicas de vistas de página (sin información personal). Todo lo demás NO se recopila deliberadamente para proteger tu privacidad.">
+Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es su progreso en el plan y la lista de verificación (guardada localmente en su dispositivo) y estadísticas básicas de visualización de páginas (sin información personal). Todo lo demás NO se recopila intencionalmente para salvaguardar su privacidad.">
   <meta itemprop="dateModified" content="2025-04-01T15:30:44+02:00">
-  <meta itemprop="wordCount" content="313">
+  <meta itemprop="wordCount" content="317">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -91,7 +91,276 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
     </script>
   
 
-  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count">
+
+
+;(function() {
+	'use strict';
+	window.goatcounter = window.goatcounter || {}
+
+	
+	var s = document.querySelector('script[data-goatcounter]')
+	if (s && s.dataset.goatcounterSettings) {
+		try         { var set = JSON.parse(s.dataset.goatcounterSettings) }
+		catch (err) { console.error('invalid JSON in data-goatcounter-settings: ' + err) }
+		for (var k in set)
+			if (['no_onload', 'no_events', 'allow_local', 'allow_frame', 'path', 'title', 'referrer', 'event'].indexOf(k) > -1)
+				window.goatcounter[k] = set[k]
+	}
+
+	var enc = encodeURIComponent
+
+	
+	window.goatcounter.get_data = function(vars) {
+		vars = vars || {}
+		var data = {
+			p: (vars.path     === undefined ? goatcounter.path     : vars.path),
+			r: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),
+			t: (vars.title    === undefined ? goatcounter.title    : vars.title),
+			e: !!(vars.event || goatcounter.event),
+			s: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],
+			b: is_bot(),
+			q: location.search,
+		}
+
+		var rcb, pcb, tcb  
+		if (typeof(data.r) === 'function') rcb = data.r
+		if (typeof(data.t) === 'function') tcb = data.t
+		if (typeof(data.p) === 'function') pcb = data.p
+
+		if (is_empty(data.r)) data.r = document.referrer
+		if (is_empty(data.t)) data.t = document.title
+		if (is_empty(data.p)) data.p = get_path()
+
+		if (rcb) data.r = rcb(data.r)
+		if (tcb) data.t = tcb(data.t)
+		if (pcb) data.p = pcb(data.p)
+		return data
+	}
+
+	
+	var is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }
+
+	
+	
+	var is_bot = function() {
+		
+		var w = window, d = document
+		if (w.callPhantom || w._phantom || w.phantom)
+			return 150
+		if (w.__nightmare)
+			return 151
+		if (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)
+			return 152
+		if (navigator.webdriver)
+			return 153
+		return 0
+	}
+
+	
+	var urlencode = function(obj) {
+		var p = []
+		for (var k in obj)
+			if (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)
+				p.push(enc(k) + '=' + enc(obj[k]))
+		return '?' + p.join('&')
+	}
+
+	
+	var warn = function(msg) {
+		if (console && 'warn' in console)
+			console.warn('goatcounter: ' + msg)
+	}
+
+	
+	var get_endpoint = function() {
+		var s = document.querySelector('script[data-goatcounter]')
+		if (s && s.dataset.goatcounter)
+			return s.dataset.goatcounter
+		return (goatcounter.endpoint || window.counter)  
+	}
+
+	
+	var get_path = function() {
+		var loc = location,
+			c = document.querySelector('link[rel="canonical"][href]')
+		if (c) {  
+			var a = document.createElement('a')
+			a.href = c.href
+			if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
+				loc = a
+		}
+		return (loc.pathname + loc.search) || '/'
+	}
+
+	
+	var on_load = function(f) {
+		if (document.body === null)
+			document.addEventListener('DOMContentLoaded', function() { f() }, false)
+		else
+			f()
+	}
+
+	
+	window.goatcounter.filter = function() {
+		if ('visibilityState' in document && document.visibilityState === 'prerender')
+			return 'visibilityState'
+		if (!goatcounter.allow_frame && location !== parent.location)
+			return 'frame'
+		if (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\.|^192\.168\.|^0\.0\.0\.0$)/))
+			return 'localhost'
+		if (!goatcounter.allow_local && location.protocol === 'file:')
+			return 'localfile'
+		if (localStorage && localStorage.getItem('skipgc') === 't')
+			return 'disabled with #toggle-goatcounter'
+		return false
+	}
+
+	
+	window.goatcounter.url = function(vars) {
+		var data = window.goatcounter.get_data(vars || {})
+		if (data.p === null)  
+			return
+		data.rnd = Math.random().toString(36).substr(2, 5)  
+
+		var endpoint = get_endpoint()
+		if (!endpoint)
+			return warn('no endpoint found')
+
+		return endpoint + urlencode(data)
+	}
+
+	
+	window.goatcounter.count = function(vars) {
+		var f = goatcounter.filter()
+		if (f)
+			return warn('not counting because of: ' + f)
+		var url = goatcounter.url(vars)
+		if (!url)
+			return warn('not counting because path callback returned null')
+
+		if (!navigator.sendBeacon(url)) {
+			
+			
+			var img = document.createElement('img')
+			img.src = url
+			img.style.position = 'absolute'  
+			img.style.bottom = '0px'
+			img.style.width = '1px'
+			img.style.height = '1px'
+			img.loading = 'eager'
+			img.setAttribute('alt', '')
+			img.setAttribute('aria-hidden', 'true')
+
+			var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
+			img.addEventListener('load', rm, false)
+			document.body.appendChild(img)
+		}
+	}
+
+	
+	window.goatcounter.get_query = function(name) {
+		var s = location.search.substr(1).split('&')
+		for (var i = 0; i < s.length; i++)
+			if (s[i].toLowerCase().indexOf(name.toLowerCase() + '=') === 0)
+				return s[i].substr(name.length + 1)
+	}
+
+	
+	window.goatcounter.bind_events = function() {
+		if (!document.querySelectorAll)  
+			return
+
+		var send = function(elem) {
+			return function() {
+				goatcounter.count({
+					event:    true,
+					path:     (elem.dataset.goatcounterClick || elem.name || elem.id || ''),
+					title:    (elem.dataset.goatcounterTitle || elem.title || (elem.innerHTML || '').substr(0, 200) || ''),
+					referrer: (elem.dataset.goatcounterReferrer || elem.dataset.goatcounterReferral || ''),
+				})
+			}
+		}
+
+		Array.prototype.slice.call(document.querySelectorAll("*[data-goatcounter-click]")).forEach(function(elem) {
+			if (elem.dataset.goatcounterBound)
+				return
+			var f = send(elem)
+			elem.addEventListener('click', f, false)
+			elem.addEventListener('auxclick', f, false)  
+			elem.dataset.goatcounterBound = 'true'
+		})
+	}
+
+	
+	window.goatcounter.visit_count = function(opt) {
+		on_load(function() {
+			opt        = opt        || {}
+			opt.type   = opt.type   || 'html'
+			opt.append = opt.append || 'body'
+			opt.path   = opt.path   || get_path()
+			opt.attr   = opt.attr   || {width: '200', height: (opt.no_branding ? '60' : '80')}
+
+			opt.attr['src'] = get_endpoint() + 'er/' + enc(opt.path) + '.' + enc(opt.type) + '?'
+			if (opt.no_branding) opt.attr['src'] += '&no_branding=1'
+			if (opt.style)       opt.attr['src'] += '&style=' + enc(opt.style)
+			if (opt.start)       opt.attr['src'] += '&start=' + enc(opt.start)
+			if (opt.end)         opt.attr['src'] += '&end='   + enc(opt.end)
+
+			var tag = {png: 'img', svg: 'img', html: 'iframe'}[opt.type]
+			if (!tag)
+				return warn('visit_count: unknown type: ' + opt.type)
+
+			if (opt.type === 'html') {
+				opt.attr['frameborder'] = '0'
+				opt.attr['scrolling']   = 'no'
+			}
+
+			var d = document.createElement(tag)
+			for (var k in opt.attr)
+				d.setAttribute(k, opt.attr[k])
+
+			var p = document.querySelector(opt.append)
+			if (!p)
+				return warn('visit_count: element to append to not found: ' + opt.append)
+			p.appendChild(d)
+		})
+	}
+
+	
+	if (location.hash === '#toggle-goatcounter') {
+		if (localStorage.getItem('skipgc') === 't') {
+			localStorage.removeItem('skipgc', 't')
+			alert('GoatCounter tracking is now ENABLED in this browser.')
+		}
+		else {
+			localStorage.setItem('skipgc', 't')
+			alert('GoatCounter tracking is now DISABLED in this browser until ' + location + ' is loaded again.')
+		}
+	}
+
+	if (!goatcounter.no_onload)
+		on_load(function() {
+			
+			
+			
+			if (!('visibilityState' in document) || document.visibilityState === 'visible')
+				goatcounter.count()
+			else {
+				var f = function(e) {
+					if (document.visibilityState !== 'visible')
+						return
+					document.removeEventListener('visibilitychange', f)
+					goatcounter.count()
+				}
+				document.addEventListener('visibilitychange', f)
+			}
+
+			if (!goatcounter.no_events)
+				goatcounter.bind_events()
+		})
+})();
+</script>
 </head>
 <body dir="ltr"><div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
   <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
@@ -871,19 +1140,15 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">En esta página</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#lo-que-no-recopilamos">Lo que NO recopilamos
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#lo-que-no-recopilamos">Lo que NO Recopilamos
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#lo-que-s%c3%ad-recopilamos">Lo que sí recopilamos
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#lo-que-s%c3%ad-recopilamos">Lo que Sí Recopilamos
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#c%c3%b3mo-desactivar-el-seguimiento-de-goatcounter">Cómo Desactivar el Seguimiento de GoatCounter
-        </a>
-      </li>
-      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#tienes-preguntas">¿Tienes Preguntas?
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#tiene-preguntas">¿Tiene Preguntas?
         </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/edit/main/content/about/privacy-policy.es.md" target="_blank" rel="noreferrer">Edita esta página en GitHub →</a>
@@ -914,32 +1179,30 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
 
   <div class="hx-w-full hx-min-w-0 hx-leading-7">
     <div class="hx-mt-6 hx-leading-7 first:hx-mt-0"><p><strong>Resumen</strong></p>
-<p>Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos datos almacenados son tu progreso en la hoja de ruta (guardado localmente en tu dispositivo) y estadísticas básicas de vistas de página (sin información personal). Todo lo demás NO se recopila deliberadamente para proteger tu privacidad.</p>
+<p>Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es su progreso en el plan y la lista de verificación (guardada localmente en su dispositivo) y estadísticas básicas de visualización de páginas (sin información personal). Todo lo demás NO se recopila intencionalmente para salvaguardar su privacidad.</p>
 </div>
   </div>
 </div>
 
-<h3>Lo que NO recopilamos<span class="hx-absolute -hx-mt-20" id="lo-que-no-recopilamos"></span>
-    <a href="#lo-que-no-recopilamos" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Nuestro sitio está diseñado pensando en tu privacidad:</p>
+<h3>Lo que NO Recopilamos<span class="hx-absolute -hx-mt-20" id="lo-que-no-recopilamos"></span>
+    <a href="#lo-que-no-recopilamos" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Nuestro sitio está diseñado con su privacidad como una prioridad principal:</p>
 <ul>
-<li>❌ <strong>Sin Direcciones IP:</strong> Nunca registramos tu dirección IP.</li>
-<li>❌ <strong>Sin Cookies:</strong> No almacenamos cookies en tu dispositivo.</li>
-<li>❌ <strong>Sin Servicios de Terceros:</strong> No cargamos servicios externos ni bibliotecas de terceros que puedan comprometer tu información personal.</li>
-<li>❌ <strong>Sin Datos Personales:</strong> Tu información personal nunca se recopila ni se envía a nuestros servidores o a servidores de terceros.</li>
+<li>❌ <strong>Sin Direcciones IP:</strong> No registramos su dirección IP.</li>
+<li>❌ <strong>Sin Cookies:</strong> No almacenamos cookies en su dispositivo.</li>
+<li>❌ <strong>Sin Servicios de Terceros:</strong> No cargamos servicios externos ni bibliotecas de terceros que puedan comprometer su información personal.</li>
+<li>❌ <strong>Sin Datos Personales:</strong> Su información personal nunca se recopila ni se transmite a nuestros servidores o a servidores de terceros.</li>
+<li>❌ <strong>Progreso en el Plan y Lista de Verificación:</strong> Su progreso se almacena localmente en su dispositivo en el almacenamiento local de su navegador y nunca se comparte.</li>
 </ul>
-<h3>Lo que sí recopilamos<span class="hx-absolute -hx-mt-20" id="lo-que-sí-recopilamos"></span>
-    <a href="#lo-que-s%c3%ad-recopilamos" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Hemos construido este sitio utilizando las herramientas más simples posibles para garantizar la máxima privacidad:</p>
+<h3>Lo que Sí Recopilamos<span class="hx-absolute -hx-mt-20" id="lo-que-sí-recopilamos"></span>
+    <a href="#lo-que-s%c3%ad-recopilamos" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Hemos construido este sitio utilizando las herramientas más simples para garantizar la máxima privacidad:</p>
 <ul>
-<li>✅ <strong>Marco Ligero:</strong> Nuestro sitio web está construido sobre un marco mínimo que hemos auditado exhaustivamente para eliminar el seguimiento o registro oculto.</li>
-<li>✅ <strong>Datos de Uso Anónimos:</strong> Recopilamos una pequeña cantidad de datos anónimos para entender cómo interactúan los usuarios con nuestro sitio. Puedes ver estas estadísticas en <a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>.</li>
-<li>✅ <strong>Progreso de la Hoja de Ruta:</strong> Los únicos datos almacenados en tu dispositivo son tu progreso en la hoja de ruta, que se guarda en el almacenamiento local de tu navegador y nunca se comparte.</li>
+<li>✅ <strong>Marco Ligero:</strong> Nuestro sitio web está construido sobre un marco mínimo que ha sido auditado exhaustivamente para eliminar el seguimiento o registro oculto.</li>
+<li>✅ <strong>Datos de Uso Anónimos:</strong> Recopilamos una pequeña cantidad de datos anónimos, como visualizaciones de páginas, tipo de dispositivo y configuraciones de idioma, para entender cómo los usuarios interactúan con nuestro sitio. Estos datos son agregados y no incluyen ninguna información personal que pueda identificar a usuarios individuales. Puede ver estas estadísticas en <a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>.</li>
 </ul>
-<h3>Cómo Desactivar el Seguimiento de GoatCounter<span class="hx-absolute -hx-mt-20" id="cómo-desactivar-el-seguimiento-de-goatcounter"></span>
-    <a href="#c%c3%b3mo-desactivar-el-seguimiento-de-goatcounter" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Si prefieres no ser incluido en las estadísticas de GoatCounter, puedes bloquear fácilmente el seguimiento instalando la extensión <a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer nofollow">uBlock Origin</a> en tu navegador.</p>
-<h3>¿Tienes Preguntas?<span class="hx-absolute -hx-mt-20" id="tienes-preguntas"></span>
-    <a href="#tienes-preguntas" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Si tienes preguntas sobre nuestras prácticas de privacidad o necesitas verificar alguna de nuestras afirmaciones, el código completo de nuestro sitio web es de código abierto y está disponible para revisión en <a href="https://github.com/BeginnerPrivacy" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Te animamos a que lo inspecciones tú mismo o que un asesor técnico de confianza lo revise.</p>
+<h3>¿Tiene Preguntas?<span class="hx-absolute -hx-mt-20" id="tiene-preguntas"></span>
+    <a href="#tiene-preguntas" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Si tiene preguntas sobre nuestras prácticas de privacidad o necesita verificar alguna de nuestras afirmaciones, el código de todo nuestro sitio web es de código abierto y está disponible para revisión en <a href="https://github.com/BeginnerPrivacy" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. Le animamos a que lo inspeccione usted mismo o que un asesor técnico de confianza lo revise.</p>
 <br>
-<p>Si tienes preguntas adicionales, por favor <a href="../contact" >contáctanos</a>.</p>
+<p>Si tiene preguntas adicionales, por favor <a href="../contact" >contáctenos</a>.</p>
 
         </div>
         
@@ -987,12 +1250,12 @@ Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos 
       <div class="footer-nav-links hx-flex hx-flex-wrap hx-justify-center hx-gap-8 hx-mb-6 md:hx-mb-0">
           
             <a href="/es" class="hx-text-black dark:hx-text-black dark:hx-text-white">Inicio</a>
-            <a href="about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Acerca De</a>
-            <a href="articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Artículos</a>
-            <a href="checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Listas de Verificación</a>
+            <a href="/es/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Acerca De</a>
+            <a href="/es/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Artículos</a>
+            <a href="/es/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Listas de Verificación</a>
             <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Tienda</a>
-            <a href="about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contacto</a>
-            <a href="about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contribuyentes</a>
+            <a href="/es/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contacto</a>
+            <a href="/es/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contribuyentes</a>
           
       </div>
       

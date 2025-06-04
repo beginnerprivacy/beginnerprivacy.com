@@ -12,7 +12,7 @@
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Privacy Policy – Beginner Privacy</title>
   <meta name="description" content=" ℹ️ TL;DR
-We collect almost nothing. No IP addresses, no cookies, no logs. The only data …" /><link rel="canonical" href="http://localhost:1313/about/privacy-policy/" itemprop="url" />
+We prioritize your privacy and collect minimal data. We do not log IP addresses, …" /><link rel="canonical" href="http://localhost:1313/about/privacy-policy/" itemprop="url" />
 
 <meta property="og:title" content="Beginner Privacy" />
 <meta property="og:description" content="
@@ -20,7 +20,7 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data �
 
   
     TL;DR
-We collect almost nothing. No IP addresses, no cookies, no logs. The only data stored is your roadmap progress (saved locally on your device) and basic page view stats (with no personal info). Everything else is deliberately NOT collected to protect your privacy." />
+We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/about/privacy-policy/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="about" />
 
@@ -34,13 +34,13 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data s
 
   
     TL;DR
-We collect almost nothing. No IP addresses, no cookies, no logs. The only data stored is your roadmap progress (saved locally on your device) and basic page view stats (with no personal info). Everything else is deliberately NOT collected to protect your privacy.">
+We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy.">
 
   <meta itemprop="name" content="Privacy Policy">
   <meta itemprop="description" content="ℹ️ TL;DR
-We collect almost nothing. No IP addresses, no cookies, no logs. The only data stored is your roadmap progress (saved locally on your device) and basic page view stats (with no personal info). Everything else is deliberately NOT collected to protect your privacy.">
+We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy.">
   <meta itemprop="dateModified" content="2025-04-01T15:30:44+02:00">
-  <meta itemprop="wordCount" content="294">
+  <meta itemprop="wordCount" content="300">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -91,7 +91,276 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data s
     </script>
   
 
-  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://beginnerprivacy.goatcounter.com/count">
+
+
+;(function() {
+	'use strict';
+	window.goatcounter = window.goatcounter || {}
+
+	
+	var s = document.querySelector('script[data-goatcounter]')
+	if (s && s.dataset.goatcounterSettings) {
+		try         { var set = JSON.parse(s.dataset.goatcounterSettings) }
+		catch (err) { console.error('invalid JSON in data-goatcounter-settings: ' + err) }
+		for (var k in set)
+			if (['no_onload', 'no_events', 'allow_local', 'allow_frame', 'path', 'title', 'referrer', 'event'].indexOf(k) > -1)
+				window.goatcounter[k] = set[k]
+	}
+
+	var enc = encodeURIComponent
+
+	
+	window.goatcounter.get_data = function(vars) {
+		vars = vars || {}
+		var data = {
+			p: (vars.path     === undefined ? goatcounter.path     : vars.path),
+			r: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),
+			t: (vars.title    === undefined ? goatcounter.title    : vars.title),
+			e: !!(vars.event || goatcounter.event),
+			s: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],
+			b: is_bot(),
+			q: location.search,
+		}
+
+		var rcb, pcb, tcb  
+		if (typeof(data.r) === 'function') rcb = data.r
+		if (typeof(data.t) === 'function') tcb = data.t
+		if (typeof(data.p) === 'function') pcb = data.p
+
+		if (is_empty(data.r)) data.r = document.referrer
+		if (is_empty(data.t)) data.t = document.title
+		if (is_empty(data.p)) data.p = get_path()
+
+		if (rcb) data.r = rcb(data.r)
+		if (tcb) data.t = tcb(data.t)
+		if (pcb) data.p = pcb(data.p)
+		return data
+	}
+
+	
+	var is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }
+
+	
+	
+	var is_bot = function() {
+		
+		var w = window, d = document
+		if (w.callPhantom || w._phantom || w.phantom)
+			return 150
+		if (w.__nightmare)
+			return 151
+		if (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)
+			return 152
+		if (navigator.webdriver)
+			return 153
+		return 0
+	}
+
+	
+	var urlencode = function(obj) {
+		var p = []
+		for (var k in obj)
+			if (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)
+				p.push(enc(k) + '=' + enc(obj[k]))
+		return '?' + p.join('&')
+	}
+
+	
+	var warn = function(msg) {
+		if (console && 'warn' in console)
+			console.warn('goatcounter: ' + msg)
+	}
+
+	
+	var get_endpoint = function() {
+		var s = document.querySelector('script[data-goatcounter]')
+		if (s && s.dataset.goatcounter)
+			return s.dataset.goatcounter
+		return (goatcounter.endpoint || window.counter)  
+	}
+
+	
+	var get_path = function() {
+		var loc = location,
+			c = document.querySelector('link[rel="canonical"][href]')
+		if (c) {  
+			var a = document.createElement('a')
+			a.href = c.href
+			if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
+				loc = a
+		}
+		return (loc.pathname + loc.search) || '/'
+	}
+
+	
+	var on_load = function(f) {
+		if (document.body === null)
+			document.addEventListener('DOMContentLoaded', function() { f() }, false)
+		else
+			f()
+	}
+
+	
+	window.goatcounter.filter = function() {
+		if ('visibilityState' in document && document.visibilityState === 'prerender')
+			return 'visibilityState'
+		if (!goatcounter.allow_frame && location !== parent.location)
+			return 'frame'
+		if (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\.|^192\.168\.|^0\.0\.0\.0$)/))
+			return 'localhost'
+		if (!goatcounter.allow_local && location.protocol === 'file:')
+			return 'localfile'
+		if (localStorage && localStorage.getItem('skipgc') === 't')
+			return 'disabled with #toggle-goatcounter'
+		return false
+	}
+
+	
+	window.goatcounter.url = function(vars) {
+		var data = window.goatcounter.get_data(vars || {})
+		if (data.p === null)  
+			return
+		data.rnd = Math.random().toString(36).substr(2, 5)  
+
+		var endpoint = get_endpoint()
+		if (!endpoint)
+			return warn('no endpoint found')
+
+		return endpoint + urlencode(data)
+	}
+
+	
+	window.goatcounter.count = function(vars) {
+		var f = goatcounter.filter()
+		if (f)
+			return warn('not counting because of: ' + f)
+		var url = goatcounter.url(vars)
+		if (!url)
+			return warn('not counting because path callback returned null')
+
+		if (!navigator.sendBeacon(url)) {
+			
+			
+			var img = document.createElement('img')
+			img.src = url
+			img.style.position = 'absolute'  
+			img.style.bottom = '0px'
+			img.style.width = '1px'
+			img.style.height = '1px'
+			img.loading = 'eager'
+			img.setAttribute('alt', '')
+			img.setAttribute('aria-hidden', 'true')
+
+			var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
+			img.addEventListener('load', rm, false)
+			document.body.appendChild(img)
+		}
+	}
+
+	
+	window.goatcounter.get_query = function(name) {
+		var s = location.search.substr(1).split('&')
+		for (var i = 0; i < s.length; i++)
+			if (s[i].toLowerCase().indexOf(name.toLowerCase() + '=') === 0)
+				return s[i].substr(name.length + 1)
+	}
+
+	
+	window.goatcounter.bind_events = function() {
+		if (!document.querySelectorAll)  
+			return
+
+		var send = function(elem) {
+			return function() {
+				goatcounter.count({
+					event:    true,
+					path:     (elem.dataset.goatcounterClick || elem.name || elem.id || ''),
+					title:    (elem.dataset.goatcounterTitle || elem.title || (elem.innerHTML || '').substr(0, 200) || ''),
+					referrer: (elem.dataset.goatcounterReferrer || elem.dataset.goatcounterReferral || ''),
+				})
+			}
+		}
+
+		Array.prototype.slice.call(document.querySelectorAll("*[data-goatcounter-click]")).forEach(function(elem) {
+			if (elem.dataset.goatcounterBound)
+				return
+			var f = send(elem)
+			elem.addEventListener('click', f, false)
+			elem.addEventListener('auxclick', f, false)  
+			elem.dataset.goatcounterBound = 'true'
+		})
+	}
+
+	
+	window.goatcounter.visit_count = function(opt) {
+		on_load(function() {
+			opt        = opt        || {}
+			opt.type   = opt.type   || 'html'
+			opt.append = opt.append || 'body'
+			opt.path   = opt.path   || get_path()
+			opt.attr   = opt.attr   || {width: '200', height: (opt.no_branding ? '60' : '80')}
+
+			opt.attr['src'] = get_endpoint() + 'er/' + enc(opt.path) + '.' + enc(opt.type) + '?'
+			if (opt.no_branding) opt.attr['src'] += '&no_branding=1'
+			if (opt.style)       opt.attr['src'] += '&style=' + enc(opt.style)
+			if (opt.start)       opt.attr['src'] += '&start=' + enc(opt.start)
+			if (opt.end)         opt.attr['src'] += '&end='   + enc(opt.end)
+
+			var tag = {png: 'img', svg: 'img', html: 'iframe'}[opt.type]
+			if (!tag)
+				return warn('visit_count: unknown type: ' + opt.type)
+
+			if (opt.type === 'html') {
+				opt.attr['frameborder'] = '0'
+				opt.attr['scrolling']   = 'no'
+			}
+
+			var d = document.createElement(tag)
+			for (var k in opt.attr)
+				d.setAttribute(k, opt.attr[k])
+
+			var p = document.querySelector(opt.append)
+			if (!p)
+				return warn('visit_count: element to append to not found: ' + opt.append)
+			p.appendChild(d)
+		})
+	}
+
+	
+	if (location.hash === '#toggle-goatcounter') {
+		if (localStorage.getItem('skipgc') === 't') {
+			localStorage.removeItem('skipgc', 't')
+			alert('GoatCounter tracking is now ENABLED in this browser.')
+		}
+		else {
+			localStorage.setItem('skipgc', 't')
+			alert('GoatCounter tracking is now DISABLED in this browser until ' + location + ' is loaded again.')
+		}
+	}
+
+	if (!goatcounter.no_onload)
+		on_load(function() {
+			
+			
+			
+			if (!('visibilityState' in document) || document.visibilityState === 'visible')
+				goatcounter.count()
+			else {
+				var f = function(e) {
+					if (document.visibilityState !== 'visible')
+						return
+					document.removeEventListener('visibilitychange', f)
+					goatcounter.count()
+				}
+				document.addEventListener('visibilitychange', f)
+			}
+
+			if (!goatcounter.no_events)
+				goatcounter.bind_events()
+		})
+})();
+</script>
 </head>
 <body dir="ltr"><div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
   <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
@@ -871,15 +1140,11 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data s
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#what-we-do-not-collect">What we do NOT collect
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#what-we-do-not-collect">What We Do NOT Collect
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#what-we-do-collect">What we do collect
-        </a>
-      </li>
-      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#how-to-disable-tracking-by-goatcounter">How To Disable Tracking By GoatCounter
+        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#what-we-do-collect">What We Do Collect
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
@@ -914,28 +1179,26 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data s
 
   <div class="hx-w-full hx-min-w-0 hx-leading-7">
     <div class="hx-mt-6 hx-leading-7 first:hx-mt-0"><p><strong>TL;DR</strong></p>
-<p>We collect almost nothing. No IP addresses, no cookies, no logs. The only data stored is your roadmap progress (saved locally on your device) and basic page view stats (with no personal info). Everything else is deliberately NOT collected to protect your privacy.</p>
+<p>We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy.</p>
 </div>
   </div>
 </div>
 
-<h3>What we do NOT collect<span class="hx-absolute -hx-mt-20" id="what-we-do-not-collect"></span>
-    <a href="#what-we-do-not-collect" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Our site is designed with your privacy in mind:</p>
+<h3>What We Do NOT Collect<span class="hx-absolute -hx-mt-20" id="what-we-do-not-collect"></span>
+    <a href="#what-we-do-not-collect" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Our site is designed with your privacy as a top priority:</p>
 <ul>
-<li>❌ <strong>No IP Addresses:</strong> We never log your IP address.</li>
+<li>❌ <strong>No IP Addresses:</strong> We do not log your IP address.</li>
 <li>❌ <strong>No Cookies:</strong> We do not store cookies on your device.</li>
 <li>❌ <strong>No Third-Party Services:</strong> We do not load any external services or third-party libraries that could compromise your personal information.</li>
-<li>❌ <strong>No Personal Data:</strong> Your personal information is never collected or sent to our servers or any third-party servers.</li>
+<li>❌ <strong>No Personal Data:</strong> Your personal information is never collected or transmitted to our servers or any third-party servers.</li>
+<li>❌ <strong>Roadmap and Checklist Progress:</strong> Your progress is stored locally on your device in your browser&rsquo;s local storage and is never shared.</li>
 </ul>
-<h3>What we do collect<span class="hx-absolute -hx-mt-20" id="what-we-do-collect"></span>
-    <a href="#what-we-do-collect" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>We&rsquo;ve built this site using the simplest possible tools to ensure maximum privacy:</p>
+<h3>What We Do Collect<span class="hx-absolute -hx-mt-20" id="what-we-do-collect"></span>
+    <a href="#what-we-do-collect" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>We have built this site using the simplest tools to ensure maximum privacy:</p>
 <ul>
-<li>✅ <strong>Lightweight Framework:</strong> Our website is built on a minimal framework that we have thoroughly audited to eliminate hidden tracking or logging.</li>
-<li>✅ <strong>Anonymous Usage Data:</strong> We collect a small amount of anonymous data to understand how users interact with our site. You can view these statistics on <a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>.</li>
-<li>✅ <strong>Roadmap Progress:</strong> The only data stored on your device is your roadmap progress, which is kept in your browser&rsquo;s local storage and never shared.</li>
+<li>✅ <strong>Lightweight Framework:</strong> Our website is constructed on a minimal framework that has been thoroughly audited to eliminate hidden tracking or logging.</li>
+<li>✅ <strong>Anonymous Usage Data:</strong> We collect a small amount of anonymous data, such as page views, device type, and language settings, to understand how users interact with our site. This data is aggregated and does not include any personal information that could identify individual users. You can view these statistics on <a href="https://beginnerprivacy.goatcounter.com" target="_blank" rel="noopener noreferrer nofollow">GoatCounter</a>.</li>
 </ul>
-<h3>How To Disable Tracking By GoatCounter<span class="hx-absolute -hx-mt-20" id="how-to-disable-tracking-by-goatcounter"></span>
-    <a href="#how-to-disable-tracking-by-goatcounter" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the <a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer nofollow">uBlock Origin</a> extension in your browser.</p>
 <h3>Have Questions?<span class="hx-absolute -hx-mt-20" id="have-questions"></span>
     <a href="#have-questions" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>If you have questions about our privacy practices or need to verify any of our claims, our entire website&rsquo;s code is open source and available for review on <a href="https://github.com/BeginnerPrivacy" target="_blank" rel="noopener noreferrer nofollow">GitHub</a>. We encourage you to inspect it yourself or have a trusted technical advisor review it.</p>
 <br>
@@ -987,12 +1250,12 @@ We collect almost nothing. No IP addresses, no cookies, no logs. The only data s
       <div class="footer-nav-links hx-flex hx-flex-wrap hx-justify-center hx-gap-8 hx-mb-6 md:hx-mb-0">
           
             <a href="/" class="hx-text-black dark:hx-text-black dark:hx-text-white">Home</a>
-            <a href="about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">About</a>
-            <a href="articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Articles</a>
-            <a href="checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Checklists</a>
+            <a href="/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">About</a>
+            <a href="/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Articles</a>
+            <a href="/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Checklists</a>
             <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Shop</a>
-            <a href="about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contact</a>
-            <a href="about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contributors</a>
+            <a href="/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contact</a>
+            <a href="/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contributors</a>
           
       </div>
       
