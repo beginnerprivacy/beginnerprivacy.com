@@ -22,6 +22,9 @@ Hemos construido este sitio utilizando las herramientas más simples para garant
 - ✅ **Marco Ligero:** Nuestro sitio web está construido sobre un marco mínimo que ha sido auditado exhaustivamente para eliminar el seguimiento o registro oculto.  
 - ✅ **Datos de Uso Anónimos:** Recopilamos una pequeña cantidad de datos anónimos, como visualizaciones de páginas, tipo de dispositivo y configuraciones de idioma, para entender cómo los usuarios interactúan con nuestro sitio. Estos datos son agregados y no incluyen ninguna información personal que pueda identificar a usuarios individuales. Puede ver estas estadísticas en [GoatCounter](https://beginnerprivacy.goatcounter.com).
 
+### Cómo Desactivar el Seguimiento por GoatCounter
+Si prefieres no ser incluido en las estadísticas de GoatCounter, puedes bloquear fácilmente el seguimiento instalando la extensión [uBlock Origin](https://ublockorigin.com/) en tu navegador.
+
 ### ¿Tiene Preguntas?
 Si tiene preguntas sobre nuestras prácticas de privacidad o necesita verificar alguna de nuestras afirmaciones, el código de todo nuestro sitio web es de código abierto y está disponible para revisión en [GitHub](https://github.com/BeginnerPrivacy). Le animamos a que lo inspeccione usted mismo o que un asesor técnico de confianza lo revise.
 

@@ -10,3 +10,9 @@ We use GoatCounter for web analytics. The traffic statistics are available [here
 
 <br>
 Please bear in mind that, while GoatCounter is a useful tool for displaying traffic and different forms of traffic, it may not give accurate numbers due to scripts that prevent it.
+
+{{< callout type="info" >}}
+**How to Disable Tracking by GoatCounter**
+
+If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the [uBlock Origin](https://ublockorigin.com/) extension in your browser.
+{{< /callout >}}

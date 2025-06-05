@@ -841,32 +841,30 @@ A medida que avances por esta hoja de ruta, te recomendamos tomarte tu tiempo pa
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;Resumen&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Recopilamos casi nada. No direcciones IP, no cookies, no registros. Los únicos datos almacenados son tu progreso en la hoja de ruta (guardado localmente en tu dispositivo) y estadísticas básicas de vistas de página (sin información personal). Todo lo demás NO se recopila deliberadamente para proteger tu privacidad.&lt;/p&gt;
+&lt;p&gt;Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es su progreso en el plan y la lista de verificación (guardada localmente en su dispositivo) y estadísticas básicas de visualización de páginas (sin información personal). Todo lo demás NO se recopila intencionalmente para salvaguardar su privacidad.&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3&gt;Lo que NO recopilamos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lo-que-no-recopilamos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#lo-que-no-recopilamos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nuestro sitio está diseñado pensando en tu privacidad:&lt;/p&gt;
+&lt;h3&gt;Lo que NO Recopilamos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lo-que-no-recopilamos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lo-que-no-recopilamos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nuestro sitio está diseñado con su privacidad como una prioridad principal:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;❌ &lt;strong&gt;Sin Direcciones IP:&lt;/strong&gt; Nunca registramos tu dirección IP.&lt;/li&gt;
-&lt;li&gt;❌ &lt;strong&gt;Sin Cookies:&lt;/strong&gt; No almacenamos cookies en tu dispositivo.&lt;/li&gt;
-&lt;li&gt;❌ &lt;strong&gt;Sin Servicios de Terceros:&lt;/strong&gt; No cargamos servicios externos ni bibliotecas de terceros que puedan comprometer tu información personal.&lt;/li&gt;
-&lt;li&gt;❌ &lt;strong&gt;Sin Datos Personales:&lt;/strong&gt; Tu información personal nunca se recopila ni se envía a nuestros servidores o a servidores de terceros.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Sin Direcciones IP:&lt;/strong&gt; No registramos su dirección IP.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Sin Cookies:&lt;/strong&gt; No almacenamos cookies en su dispositivo.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Sin Servicios de Terceros:&lt;/strong&gt; No cargamos servicios externos ni bibliotecas de terceros que puedan comprometer su información personal.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Sin Datos Personales:&lt;/strong&gt; Su información personal nunca se recopila ni se transmite a nuestros servidores o a servidores de terceros.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Progreso en el Plan y Lista de Verificación:&lt;/strong&gt; Su progreso se almacena localmente en su dispositivo en el almacenamiento local de su navegador y nunca se comparte.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Lo que sí recopilamos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lo-que-sí-recopilamos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#lo-que-s%c3%ad-recopilamos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hemos construido este sitio utilizando las herramientas más simples posibles para garantizar la máxima privacidad:&lt;/p&gt;
+&lt;h3&gt;Lo que Sí Recopilamos&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lo-que-sí-recopilamos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lo-que-s%c3%ad-recopilamos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hemos construido este sitio utilizando las herramientas más simples para garantizar la máxima privacidad:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;✅ &lt;strong&gt;Marco Ligero:&lt;/strong&gt; Nuestro sitio web está construido sobre un marco mínimo que hemos auditado exhaustivamente para eliminar el seguimiento o registro oculto.&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Datos de Uso Anónimos:&lt;/strong&gt; Recopilamos una pequeña cantidad de datos anónimos para entender cómo interactúan los usuarios con nuestro sitio. Puedes ver estas estadísticas en &lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Progreso de la Hoja de Ruta:&lt;/strong&gt; Los únicos datos almacenados en tu dispositivo son tu progreso en la hoja de ruta, que se guarda en el almacenamiento local de tu navegador y nunca se comparte.&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;Marco Ligero:&lt;/strong&gt; Nuestro sitio web está construido sobre un marco mínimo que ha sido auditado exhaustivamente para eliminar el seguimiento o registro oculto.&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;Datos de Uso Anónimos:&lt;/strong&gt; Recopilamos una pequeña cantidad de datos anónimos, como visualizaciones de páginas, tipo de dispositivo y configuraciones de idioma, para entender cómo los usuarios interactúan con nuestro sitio. Estos datos son agregados y no incluyen ninguna información personal que pueda identificar a usuarios individuales. Puede ver estas estadísticas en &lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Cómo Desactivar el Seguimiento de GoatCounter&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-desactivar-el-seguimiento-de-goatcounter&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-desactivar-el-seguimiento-de-goatcounter&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si prefieres no ser incluido en las estadísticas de GoatCounter, puedes bloquear fácilmente el seguimiento instalando la extensión &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; en tu navegador.&lt;/p&gt;
-&lt;h3&gt;¿Tienes Preguntas?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tienes-preguntas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#tienes-preguntas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si tienes preguntas sobre nuestras prácticas de privacidad o necesitas verificar alguna de nuestras afirmaciones, el código completo de nuestro sitio web es de código abierto y está disponible para revisión en &lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;. Te animamos a que lo inspecciones tú mismo o que un asesor técnico de confianza lo revise.&lt;/p&gt;
+&lt;h3&gt;¿Tiene Preguntas?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tiene-preguntas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tiene-preguntas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Si tiene preguntas sobre nuestras prácticas de privacidad o necesita verificar alguna de nuestras afirmaciones, el código de todo nuestro sitio web es de código abierto y está disponible para revisión en &lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;. Le animamos a que lo inspeccione usted mismo o que un asesor técnico de confianza lo revise.&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;Si tienes preguntas adicionales, por favor &lt;a href=&#34;../contact&#34; &gt;contáctanos&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si tiene preguntas adicionales, por favor &lt;a href=&#34;../contact&#34; &gt;contáctenos&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

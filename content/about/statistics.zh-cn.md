@@ -10,3 +10,9 @@ category: Community
 
 <br>
 请注意，虽然 GoatCounter 是一个有用的工具，用于显示流量和不同形式的流量，但由于某些脚本的存在，它可能无法提供准确的数字。
+
+{{< callout type="info" >}}
+**如何禁用 GoatCounter 的追踪**
+
+如果您不希望被包含在 GoatCounter 的统计数据中，可以通过在浏览器中安装 [uBlock Origin](https://ublockorigin.com/) 扩展程序轻松阻止追踪。
+{{< /callout >}}

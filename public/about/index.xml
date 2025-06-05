@@ -381,27 +381,27 @@ As you progress through this roadmap, we recommend taking your time to implement
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We collect almost nothing. No IP addresses, no cookies, no logs. The only data stored is your roadmap progress (saved locally on your device) and basic page view stats (with no personal info). Everything else is deliberately NOT collected to protect your privacy.&lt;/p&gt;
+&lt;p&gt;We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy.&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3&gt;What we do NOT collect&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-do-not-collect&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-we-do-not-collect&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Our site is designed with your privacy in mind:&lt;/p&gt;
+&lt;h3&gt;What We Do NOT Collect&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-do-not-collect&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-we-do-not-collect&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Our site is designed with your privacy as a top priority:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;❌ &lt;strong&gt;No IP Addresses:&lt;/strong&gt; We never log your IP address.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;No IP Addresses:&lt;/strong&gt; We do not log your IP address.&lt;/li&gt;
 &lt;li&gt;❌ &lt;strong&gt;No Cookies:&lt;/strong&gt; We do not store cookies on your device.&lt;/li&gt;
 &lt;li&gt;❌ &lt;strong&gt;No Third-Party Services:&lt;/strong&gt; We do not load any external services or third-party libraries that could compromise your personal information.&lt;/li&gt;
-&lt;li&gt;❌ &lt;strong&gt;No Personal Data:&lt;/strong&gt; Your personal information is never collected or sent to our servers or any third-party servers.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;No Personal Data:&lt;/strong&gt; Your personal information is never collected or transmitted to our servers or any third-party servers.&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Roadmap and Checklist Progress:&lt;/strong&gt; Your progress is stored locally on your device in your browser&amp;rsquo;s local storage and is never shared.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;What we do collect&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-do-collect&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-we-do-collect&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We&amp;rsquo;ve built this site using the simplest possible tools to ensure maximum privacy:&lt;/p&gt;
+&lt;h3&gt;What We Do Collect&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-do-collect&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-we-do-collect&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We have built this site using the simplest tools to ensure maximum privacy:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;✅ &lt;strong&gt;Lightweight Framework:&lt;/strong&gt; Our website is built on a minimal framework that we have thoroughly audited to eliminate hidden tracking or logging.&lt;/li&gt;
+&lt;li&gt;✅ &lt;strong&gt;Lightweight Framework:&lt;/strong&gt; Our website is constructed on a minimal framework that has been thoroughly audited to eliminate hidden tracking or logging.&lt;/li&gt;
 &lt;li&gt;✅ &lt;strong&gt;Anonymous Usage Data:&lt;/strong&gt; We collect a small amount of anonymous data, such as page views, device type, and language settings, to understand how users interact with our site. This data is aggregated and does not include any personal information that could identify individual users. You can view these statistics on &lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;✅ &lt;strong&gt;Roadmap and Checklists Progress:&lt;/strong&gt; The only data stored on your device is your roadmap and checklists progress, which is kept in your browser&amp;rsquo;s local storage and never shared.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;How To Disable Tracking By GoatCounter&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-disable-tracking-by-goatcounter&#34;&gt;&lt;/span&gt;
+&lt;h3&gt;How to Disable Tracking by GoatCounter&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-disable-tracking-by-goatcounter&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-disable-tracking-by-goatcounter&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; extension in your browser.&lt;/p&gt;
 &lt;h3&gt;Have Questions?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;have-questions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#have-questions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you have questions about our privacy practices or need to verify any of our claims, our entire website&amp;rsquo;s code is open source and available for review on &lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;. We encourage you to inspect it yourself or have a trusted technical advisor review it.&lt;/p&gt;
@@ -690,6 +690,17 @@ Using Homebrew:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
 Please bear in mind that, while GoatCounter is a useful tool for displaying traffic and different forms of traffic, it may not give accurate numbers due to scripts that prevent it.
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;How to Disable Tracking by GoatCounter&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; extension in your browser.&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
       </description>
     </item>
     

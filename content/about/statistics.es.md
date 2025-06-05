@@ -10,3 +10,9 @@ Usamos GoatCounter para análisis web. Las estadísticas de tráfico están disp
 
 <br>
 Por favor, tenga en cuenta que, aunque GoatCounter es una herramienta útil para mostrar el tráfico y diferentes formas de tráfico, puede no proporcionar números precisos debido a scripts que lo impiden.
+
+{{< callout type="info" >}}
+**Cómo Desactivar el Seguimiento por GoatCounter**
+
+Si prefieres no ser incluido en las estadísticas de GoatCounter, puedes bloquear fácilmente el seguimiento instalando la extensión [uBlock Origin](https://ublockorigin.com/) en tu navegador.
+{{< /callout >}}
