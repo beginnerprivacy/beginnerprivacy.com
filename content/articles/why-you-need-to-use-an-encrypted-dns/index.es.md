@@ -19,14 +19,14 @@ En su esencia, el Sistema de Nombres de Dominio (DNS) es la guía telefónica de
    - **DNS sobre HTTPS (DoH)**: Este protocolo envía consultas DNS a través de HTTPS, lo que significa que tus solicitudes están encriptadas y son seguras contra la interceptación. También ayuda a prevenir el spoofing de DNS, donde los atacantes te redirigen a sitios maliciosos.
    - **DNS sobre TLS (DoT)**: Similar a DoH, DoT encripta las consultas DNS pero utiliza un método diferente (TLS) para asegurar la conexión. Ambos protocolos tienen como objetivo mejorar la privacidad y la seguridad.
 
-### ¿Por qué usar DNS encriptado?
+### ¿Por Qué Usar DNS Encriptado?
 - **Privacidad de las consultas DNS:** El DNS encriptado protege específicamente tus consultas DNS de ser monitoreadas. Esto significa que tu ISP o cualquier otro tercero no puede ver qué sitios web estás intentando acceder.
 
 - **Prevención del spoofing de DNS:** El DNS encriptado ayuda a prevenir ataques donde actores maliciosos redirigen tus consultas DNS a sitios fraudulentos. Esto es crucial para asegurarte de que llegues al sitio deseado sin interferencias.
 
 - **Reducción del seguimiento:** Al usar DNS encriptado, limitas la cantidad de datos que los anunciantes y corredores de datos pueden recopilar sobre tus hábitos de navegación, ya que dependen de las consultas DNS para construir perfiles de usuario.
 
-### Proveedores recomendados de DNS encriptado
+### Proveedores Recomendados de DNS Encriptado
 {{< callout type="info" >}}
   Cada uno de estos proveedores ofrece guías para ayudarte a configurar su DNS en tu dispositivo.
 {{< /callout >}}

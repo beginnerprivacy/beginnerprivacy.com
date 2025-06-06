@@ -74,7 +74,7 @@ Evalúa el impacto potencial de una violación de seguridad. ¿Resultaría en un
 
 Determina tu nivel de comodidad con varias medidas de seguridad. ¿Estás dispuesto a invertir en herramientas de seguridad avanzadas, adoptar prácticas estrictas de privacidad o cambiar tu comportamiento en línea?
 
-### Tengo un modelo de amenazas. ¿Y ahora qué?
+### Tengo Un Modelo de Amenazas. ¿Y Ahora Qué?
 Ahora que tienes tu modelo de amenazas, es hora de decidir hasta dónde quieres llegar en la hoja de ruta de Privacidad para Principiantes. Aquí hay algunos perfiles para ayudarte a guiar tu elección:
 
 **El Usuario Casual:** Si tu principal preocupación es simplemente ocultar tu información personal de las grandes corporaciones y la vigilancia masiva, la hoja de ruta **Básica** es todo lo que necesitas.

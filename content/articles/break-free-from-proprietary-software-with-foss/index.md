@@ -9,7 +9,7 @@ excludeSearch: false
 ---
 Using FOSS is an important step in your privacy journey and also a superior choice to proprietary software.
 
-### What is FOSS?
+### What Is FOSS?
 FOSS stands for **Free and Open Source Software**. This means that the software's source code is accessible to the public, allowing anyone to view, modify, and distribute it. This openness fosters collaboration and innovation within the software community.
 
 ### Why Is FOSS Better Than Proprietary Software?
@@ -30,7 +30,7 @@ Finding FOSS alternatives is easier than ever, thanks to dedicated websites that
   </div>
 </div>
 
-### How To Replace Proprietary Software with FOSS
+### How to Replace Proprietary Software with FOSS
 Migrating from proprietary software to FOSS can be challenging. Here are some tips to make the transition smoother:
 - **Start Slowly**: Begin by replacing one proprietary application at a time with its FOSS alternative. This allows you to adjust gradually.
   

@@ -12,17 +12,17 @@ Las plataformas de redes sociales son grandes recolectores de datos que reúnen 
 ### ¿Qué es un Frontend?
 Un frontend es una interfaz que te permite interactuar con servicios en línea, incluidas las redes sociales, sin ser rastreado. Puede ser un sitio web o una aplicación diseñada para un uso fácil, ayudándote a acceder al contenido y conectar con otros mientras proteges tu privacidad.
 
-### ¿Por qué usar un Frontend?
+### ¿Por Qué Usar un Frontend?
 Elegir un frontend en lugar de redes sociales tiene varios beneficios:
-- **Menos recolección de datos:** Los frontends limitan la información personal que recopilan, ayudando a proteger tu privacidad.
+- **Menos Recolección de Datos:** Los frontends limitan la información personal que recopilan, ayudando a proteger tu privacidad.
 
-- **Experiencia personalizable:** A menudo puedes personalizar cómo interactúas con el contenido, eligiendo las características que más te importan.
+- **Experiencia Personalizable:** A menudo puedes personalizar cómo interactúas con el contenido, eligiendo las características que más te importan.
 
-- **Compromiso enfocado:** Los frontends te ayudan a conectar con contenido que realmente te interesa, libre de las distracciones de las redes sociales.
+- **Compromiso Enfocado:** Los frontends te ayudan a conectar con contenido que realmente te interesa, libre de las distracciones de las redes sociales.
 
-- **Mismo contenido:** En lugar de cambiar a una plataforma menos popular como Odysee, puedes usar un frontend para acceder a los mismos videos de YouTube que disfrutas, todo mientras proteges tu privacidad.
+- **Mismo Contenido:** En lugar de cambiar a una plataforma menos popular como Odysee, puedes usar un frontend para acceder a los mismos videos de YouTube que disfrutas, todo mientras proteges tu privacidad.
 
-### Frontends recomendados
+### Frontends Recomendados
 {{< callout type="info" >}}
   Puedes encontrar más frontends [aquí](https://github.com/mendel5/alternative-front-ends).
 {{< /callout >}}

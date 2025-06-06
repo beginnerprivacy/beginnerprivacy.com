@@ -9,7 +9,7 @@ excludeSearch: false
 ---
 Having a privacy-respecting browser helps protect you from websites that collect more data than they should. It reduces tracking, safeguards your personal information, and minimizes your digital footprint while you browse.
 
-### Difference Between Browser And Search Engine
+### Difference Between Browser and Search Engine
 To understand the importance of a private browser, it's essential to differentiate between a browser and a search engine. A **browser** is a software application that allows users to access and view websites on the internet, while a **search engine** is a tool that helps users find specific information by searching through indexed web content based on keywords or phrases. In essence, the browser is the interface for navigating the web, and the search engine is a resource for discovering web content.
 
 ### What Does Websites Know About You
@@ -22,7 +22,7 @@ Websites can gather a lot of information from your browser, which is why using a
  
 To see what other information websites can see about you, you can use websites like [Webkay](https://webkay.robinlinus.com), [BrowserLeaks](https://browserleaks.com), or [whoareyou](https://printn.github.io/whoareyou).
 
-### The Main Types Of Browsers
+### The Main Types of Browsers
 When it comes to choosing a browser, the two main options are **Chromium** and **Firefox**. Both are open-source projects, meaning their source code is publicly available for anyone to inspect and contribute to. Most modern browsers are built on either Chromium or Firefox, which means they share similar underlying technologies.
 
 - **Chromium:** This is the open-source project behind Google Chrome and many other browsers. While Chromium itself is privacy-friendly, many browsers built on it may include tracking features or data collection practices. However, there are privacy-focused browsers based on Chromium, such as Brave.

@@ -10,17 +10,17 @@ excludeSearch: false
 Tener un navegador privado no es suficiente, también necesitas usar un motor de búsqueda privado. Afortunadamente para ti, es muy fácil cambiar a un motor de búsqueda enfocado en la privacidad.
 
 ### ¿Cómo Funciona un Motor de Búsqueda?
-**1. Los rastreadores exploran la web**
+**1. Los Rastreadores Exploran la Web**
 Piensa en estos bots como bibliotecarios digitales, escaneando y catalogando sitios web constantemente.
 
 **2. Indexación de Internet**
 Todas las páginas rastreadas se almacenan en una base de datos masiva (el "índice"), como el catálogo de tarjetas de una biblioteca para la web.
 
-**3. Coincidencia de tu consulta**
+**3. Coincidencia de Tu Consulta**
 Cuando buscas, el motor examina su índice en busca de páginas que coincidan con tus palabras clave y luego las clasifica.
 Los motores de búsqueda como Google muestran sitios web "Patrocinados" pagados en la parte superior. Estos anuncios son comprados por las empresas para aparecer primero—no son resultados orgánicos.
 
-### ¿Por qué molestarse?
+### ¿Por Qué Molestarse?
 Motores de búsqueda tradicionales como Google o Bing:
 - Realiza un seguimiento de tus consultas para construir un perfil de tus intereses.
 - Vende tus datos a los anunciantes o úsalos para personalizar los resultados.
@@ -39,7 +39,7 @@ Haz clic en el menú de tres puntos → Configuración → Buscar → Selecciona
 **Safari:**
 Abre la configuración de Safari → Buscar → Elige tu motor.
 
-### Motores de búsqueda recomendados
+### Motores de Búsqueda Recomendados
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="Popular motor de búsqueda privado" buttonText="Prueba DuckDuckGo" >}}

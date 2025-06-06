@@ -564,6 +564,17 @@
 &lt;/blockquote&gt;
 &lt;br&gt;
 请注意，虽然 GoatCounter 是一个有用的工具，用于显示流量和不同形式的流量，但由于某些脚本的存在，它可能无法提供准确的数字。
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;如何禁用 GoatCounter 的追踪&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果您不希望被包含在 GoatCounter 的统计数据中，可以通过在浏览器中安装 &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; 扩展程序轻松阻止追踪。&lt;/p&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
       </description>
     </item>
     
@@ -1018,6 +1029,8 @@ const resultTexts = {
 &lt;li&gt;✅ &lt;strong&gt;轻量级框架：&lt;/strong&gt; 我们的网站建立在一个经过彻底审计的最小框架上，以消除隐藏的跟踪或记录。&lt;/li&gt;
 &lt;li&gt;✅ &lt;strong&gt;匿名使用数据：&lt;/strong&gt; 我们收集少量匿名数据，例如页面浏览量、设备类型和语言设置，以了解用户如何与我们的网站互动。这些数据是汇总的，不包括任何可能识别单个用户的个人信息。您可以在&lt;a href=&#34;https://beginnerprivacy.goatcounter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GoatCounter&lt;/a&gt;上查看这些统计信息。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;如何禁用 GoatCounter 的追踪&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何禁用-goatcounter-的追踪&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8-goatcounter-%e7%9a%84%e8%bf%bd%e8%b8%aa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您不希望被包含在 GoatCounter 的统计数据中，可以通过在浏览器中安装 &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; 扩展程序轻松阻止追踪。&lt;/p&gt;
 &lt;h3&gt;有问题吗？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;有问题吗&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%9c%89%e9%97%ae%e9%a2%98%e5%90%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果您对我们的隐私实践有疑问或需要验证我们的任何声明，我们整个网站的代码是开源的，可以在&lt;a href=&#34;https://github.com/BeginnerPrivacy&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;GitHub&lt;/a&gt;上进行审查。我们鼓励您自己检查，或请可信的技术顾问进行审查。&lt;/p&gt;
 &lt;br&gt;

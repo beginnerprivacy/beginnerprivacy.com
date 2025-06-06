@@ -9,4 +9,4 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
 Además, explorarás las criptomonedas, incluyendo prácticas seguras de adquisición y gestión, y la importancia crítica de cifrar tus datos para proteger tus comunicaciones y archivos. La Seguridad Operativa (OpSec) también será un enfoque clave, ya que es esencial para minimizar los riesgos en tus actividades en línea.
 <br><br>
 
-**Tiempo Esperado para Completar:** 1 mes para completar la hoja de ruta, pero debes mantener una buena OpSec y adaptar continuamente tus prácticas; no se trata simplemente de instalar herramientas y sistemas operativos y luego terminar.
+**Tiempo Esperado Para Completar:** 1 mes para completar la hoja de ruta, pero debes mantener una buena OpSec y adaptar continuamente tus prácticas; no se trata simplemente de instalar herramientas y sistemas operativos y luego terminar.

@@ -12,10 +12,10 @@ Tor, abreviatura de "The Onion Router", es un software gratuito y de código abi
 
 ![Ilustración de cómo funciona The Onion Router](../../../images/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/how-tor-works.webp)
 
-### ¿Por qué usar Tor?
+### ¿Por qué Usar Tor?
 Hay varias razones convincentes para usar Tor, así como algunos inconvenientes a considerar:
 
-#### Beneficios de usar Tor
+#### Beneficios de Usar Tor
 - **Anonimato**: Tor ayuda a proteger tu identidad al enmascarar tu dirección IP, lo que dificulta que los sitios web, anunciantes e incluso gobiernos rastreen tus actividades en línea.
 
 - **Eludir la Censura**: En países con estricta censura de internet, Tor puede ayudar a los usuarios a acceder a sitios web bloqueados y comunicarse libremente.
@@ -24,10 +24,10 @@ Hay varias razones convincentes para usar Tor, así como algunos inconvenientes 
 
 - **Acceso a la Dark Web**: Tor permite a los usuarios acceder a sitios .onion, que no están indexados por los motores de búsqueda tradicionales y pueden ofrecer contenido y servicios únicos.
 
-#### Inconvenientes de usar Tor
-- **Velocidad lenta**: Debido a que Tor enruta tu tráfico de internet a través de múltiples relés, puede ralentizar significativamente tu experiencia de navegación en comparación con las conexiones de internet estándar.
+#### Inconvenientes de Usar Tor
+- **Velocidad Lenta**: Debido a que Tor enruta tu tráfico de internet a través de múltiples relés, puede ralentizar significativamente tu experiencia de navegación en comparación con las conexiones de internet estándar.
 
-- **No es ideal para uso casual**: Para la navegación diaria, generalmente no se recomienda Tor debido a sus velocidades más lentas y la posibilidad de que los sitios web bloqueen el tráfico de Tor.
+- **No es Ideal Para Uso Casual**: Para la navegación diaria, generalmente no se recomienda Tor debido a sus velocidades más lentas y la posibilidad de que los sitios web bloqueen el tráfico de Tor.
 
 ### I2P: Una Alternativa a Tor
 Vale la pena mencionar I2P (Proyecto de Internet Invisible); es otra red diseñada para la comunicación anónima. A diferencia de Tor, que se centra en acceder a internet de manera anónima, I2P está diseñado principalmente para la comunicación de igual a igual y para alojar servicios dentro de su propia red. I2P es completamente descentralizado, lo que mejora su resistencia a la censura, y todo el tráfico dentro de I2P está cifrado, proporcionando un alto nivel de privacidad. Para más información, puedes visitar el [artículo de Wikipedia sobre I2P](https://en.wikipedia.org/wiki/I2P).
@@ -60,4 +60,4 @@ Si bien Tor proporciona un nivel significativo de anonimato, es esencial usarlo 
 
 - **No Revelar Información Personal**: Nunca compartas información personal mientras usas Tor, ya que puede ser utilizada para identificarte.
 
-- **No Usar una VPN con Tor**: Mezclar una VPN con Tor no se recomienda, ya que centraliza tu conexión y socava la descentralización de Tor. También añade una capa de confianza en el proveedor de VPN, que puede registrar tus actividades.
+- **No Usar Una VPN Con Tor**: Mezclar una VPN con Tor no se recomienda, ya que centraliza tu conexión y socava la descentralización de Tor. También añade una capa de confianza en el proveedor de VPN, que puede registrar tus actividades.

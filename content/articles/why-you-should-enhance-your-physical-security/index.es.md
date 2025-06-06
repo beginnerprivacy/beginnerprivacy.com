@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-### ¿Qué Es la Seguridad Física?  
+### ¿Qué es la Seguridad Física?  
 La seguridad física se refiere a las medidas tomadas para proteger activos físicos, incluidos pertenencias personales, dispositivos y espacios de vida, de accesos no autorizados, daños o interferencias. Mientras que muchas personas invierten tiempo y recursos en la privacidad digital y la ciberseguridad, la seguridad física a menudo se pasa por alto. Sin embargo, es igualmente importante para salvaguardar tu postura de seguridad general.
 
 ### ¿Por Qué Necesitas Una Mejor Seguridad Física?  

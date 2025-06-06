@@ -9,18 +9,14 @@ excludeSearch: false
 ---
 Having a private browser is not enough, you also need to use a private search engine. Fortunately for you it's very easy to switch to a privacy focused search engine.
 
-### How Does A Search Engine Work?
-
+### How Does a Search Engine Work?
 **1. Crawlers Scout the Web**
-
 Think of these bots as digital librarians, constantly scanning and cataloging websites.
 
 **2. Indexing the Internet**
-
 All crawled pages get stored in a massive database (the "index"), like a library’s card catalog for the web.
 
 **3. Matching Your Query**
-
 When you search, the engine scours its index for pages matching your keywords, then ranks them.
 
 Search engines like Google show paid "Sponsored" websites at the top. These ads are bought by companies to appear first—they’re not organic results.
@@ -34,7 +30,7 @@ Privacy-focused search engines, however:
 - Don’t store your searches and tie them to your identity.
 - Serve unbiased results without filtering based on your history.
 
-### How To Switch Your Search Engine
+### How to Switch Your Search Engine
 **Chrome/Edge/Brave:**
 Click the three-dot menu → Settings → Search Engine → Choose your new default.
 

@@ -20,7 +20,7 @@ While a VPN is effective at hiding your IP address, accessing geo-restricted con
 
 If you're considering engaging in more serious activities that require enhanced anonymity, we recommend reading our [article about Tor](/articles/navigating-the-web-anonymously-a-guide-to-tor-basics) for a more secure option.
 
-### How To Choose a Good VPN
+### How to Choose a Good VPN
 When searching for a reliable VPN, trustworthiness is crucial since the service will have access to your online activities. Here are key factors to consider when evaluating a VPN:
 - **Open Source:** Look for VPNs with open-source code, allowing for transparency and community audits.
 - **Minimal Personal Information Required:** Choose services that don’t require sensitive information like your name, phone number, or email.

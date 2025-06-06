@@ -9,10 +9,10 @@ excludeSearch: false
 ---
 Are you tired of endless spam emails, robocalls, or discovering your personal data was sold to shady data brokers? Every time you hand over your real name, email, or phone number to a random app or website, you’re gambling with your privacy. To avoid this you'll have to provide fake information.
 
-### When Not To Use Fake Information
+### When Not to Use Fake Information
 It's important to know when you should use fake information and when you should not, as it can quickly backfire.
 - **Long Term Use Accounts:** Don't use a temporary email when signing up for accounts that you plan to use more than 1 time.
-- **Buying things online:** You should provide a real address if you're getting your package delivered to your house. If you are picking up a package at a post office, you should consider using your real name, as they sometime require you to show ID.
+- **Buying Things Online:** You should provide a real address if you're getting your package delivered to your house. If you are picking up a package at a post office, you should consider using your real name, as they sometime require you to show ID.
 - **Other:** Please consider the following two things each time before you provide fake information:
     - Is this service or account important to my life?
     - Will I get in trouble if I provide fake information?

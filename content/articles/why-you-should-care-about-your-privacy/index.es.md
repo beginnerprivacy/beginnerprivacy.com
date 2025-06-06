@@ -22,7 +22,7 @@ Solo porque no tienes nada que ocultar, no significa que no tengas nada que prot
 ### "No tengo tiempo para preocuparme por mi privacidad."
 Proteger tu privacidad no tiene por qué ser una tarea que consuma mucho tiempo. Hay pasos simples que puedes seguir para mejorar tu privacidad, como usar una VPN y ser consciente de la información personal que compartes en línea.
 
-### La imprevisibilidad del futuro
+### La Imprevisibilidad del Futuro
 La imprevisibilidad del futuro es una razón para preocuparse por tu privacidad, ya que la información personal puede ser utilizada de maneras que nunca imaginaste. Hoy en día, tanto las corporaciones como los gobiernos ya están utilizando datos personales para diversos propósitos. A medida que la tecnología avanza, los usos impredecibles de la información personal solo aumentarán. Proteger tu información personal ahora puede ayudar a asegurar que no se use en tu contra en el futuro.
 
 

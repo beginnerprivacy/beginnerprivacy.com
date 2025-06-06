@@ -22,5 +22,5 @@ Just because you have nothing to hide, it doesn't mean you don't have anything t
 ### "I don't have time to worry about my privacy"
 Protecting your privacy doesn't have to be time-consuming. There are simple steps you can take to improve your privacy such as using a VPN and being mindful of the personal information you share online.
 
-### Unpredictability Of The Future
+### Unpredictability of The Future
 The unpredictability of the future is a reason to care about your privacy, as personal information can be used in ways that you never imagined. Today, both corporations and governments are already using personal data for various purposes. As technology advances, the unpredictable uses of personal information will only increase. Protecting your personal information now can help ensure it's not used against you in the future.

@@ -1,5 +1,5 @@
 ---
-title: Cómo crear contraseñas seguras y almacenarlas de forma segura
+title: Cómo Crear Contraseñas Seguras Y Almacenarlas de Forma Segura
 date: 2025-02-01
 authors:
   - name: PrintN
@@ -16,7 +16,7 @@ excludeSearch: false
 
 - Almacenar contraseñas en texto plano o en ubicaciones de fácil acceso
 
-### ¿Cómo hago contraseñas fuertes?
+### ¿Cómo Hago Contraseñas Fuertes?
 Una contraseña fuerte es una contraseña que es difícil de adivinar o descifrar. Debería ser completamente aleatoria y tener al menos 16 caracteres de longitud (preferiblemente más) e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.
 
 Para obtener una contraseña fuerte, puedes usar un generador de contraseñas en línea gratuito:

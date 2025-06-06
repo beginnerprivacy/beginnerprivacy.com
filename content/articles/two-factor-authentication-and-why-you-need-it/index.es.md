@@ -20,7 +20,7 @@ Las contraseñas por sí solas no son suficientes. Los hackers los roban a trav�
 
 Incluso con tu contraseña, los hackers no pueden acceder a tu cuenta sin el segundo factor.
 
-### Tipos de 2FA: ¿Cuál deberías usar?
+### Tipos de 2FA: ¿Cuál Deberías Usar?
 No todos los métodos de 2FA son igualmente seguros.
 
 **Claves de Seguridad:** Las mejores, dispositivos físicos (como YubiKey) que se conectan a tu teléfono o computadora.
@@ -31,7 +31,7 @@ No todos los métodos de 2FA son igualmente seguros.
 
 **Biometría:** Bien, las huellas dactilares o los escaneos faciales son seguros, pero solo funcionan en los dispositivos que posees.
 
-### Cómo habilitar la autenticación de dos factores en tus cuentas
+### Cómo Habilitar la Autenticación de Dos Factores en Tus Cuentas
 La mayoría de las plataformas lo hacen fácil. Aquí tienes cómo hacerlo en algunas plataformas:
 - **Google:** Seguridad → Verificación en dos pasos → Comenzar.
 - **ID de Apple:** Configuración → [Tu Nombre] → Contraseña y Seguridad.
