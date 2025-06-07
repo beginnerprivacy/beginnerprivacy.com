@@ -855,6 +855,9 @@ video {
 .hx-flex-wrap {
   flex-wrap: wrap;
 }
+.hx-flex-grow {
+  flex-grow: 1;
+}
 .hx-items-start {
   align-items: flex-start;
 }
@@ -1349,6 +1352,18 @@ video {
   color: transparent;
 }
 .hx-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.dark\:hx-text-white:is(html[class~="dark"] *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.hx-text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.dark\:hx-text-black:is(html[class~="dark"] *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

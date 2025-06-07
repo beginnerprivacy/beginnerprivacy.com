@@ -780,17 +780,18 @@ input[type="checkbox"]:checked::after {
 }
 
 .checklist-card {
+    min-height: 150px;
     margin: 10px;
     text-decoration-line: none;
 }
 
-.checklist-card:last-child {
+.checklist-card:nth-of-type(odd):last-child {
     grid-column: span 2;
 }
 
 .checklist-card h3 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .checklist-modal {

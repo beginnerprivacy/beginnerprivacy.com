@@ -237,7 +237,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/break-free-from-proprietary-software-with-foss/</loc>
-    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -327,7 +327,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one/</loc>
-    <lastmod>2025-05-18T11:54:24+02:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -345,7 +345,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</loc>
-    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -363,7 +363,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</loc>
-    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -381,7 +381,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/limit-the-personal-information-you-share-online/</loc>
-    <lastmod>2025-04-19T17:29:24+02:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -489,7 +489,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</loc>
-    <lastmod>2025-03-25T15:46:51+01:00</lastmod>
+    <lastmod>2025-06-06T15:14:17+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -504,6 +504,159 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/casual-internet-user/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/casual-internet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/casual-internet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/casual-internet-user/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/darknet-user/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/darknet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/darknet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/darknet-user/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/digital-nomad/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/digital-nomad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/digital-nomad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/digital-nomad/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/hacker/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/hacker/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/internet-pirate/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/internet-pirate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/internet-pirate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/internet-pirate/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/mass-surveillance/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/mass-surveillance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/mass-surveillance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/mass-surveillance/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/protestor/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/protestor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/protestor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/protestor/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/social-media-influencer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/social-media-influencer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/social-media-influencer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/social-media-influencer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/whistleblower/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/whistleblower/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/whistleblower/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/whistleblower/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>

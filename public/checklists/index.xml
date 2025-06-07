@@ -14,5 +14,490 @@
       
     
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/checklists/darknet-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/darknet-user/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/checklists/digital-nomad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/digital-nomad/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/checklists/hacker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/hacker/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/checklists/internet-pirate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/internet-pirate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Casual Internet User</title>
+      <link>http://localhost:1313/checklists/casual-internet-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/casual-internet-user/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strong-unique-passwords&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Strong unique passwords&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Create strong and unique passwords for each of your accounts to enhance security.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-limit-information-shared&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Limit information shared&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Be mindful of the personal information you share online to protect your privacy.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-browser&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Private browser&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Using a private browser can help safeguard your online activities from prying eyes.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-search-engine&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Private search engine&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Opt for a privacy-focused search engine to enhance your online anonymity.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-virtual-private-network&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Virtual Private Network (VPN)&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;A Virtual Private Network (VPN) can provide an extra layer of security for your internet connection.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-mobile-privacy-settings&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Mobile privacy settings&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Adjust your mobile settings to improve your privacy and security.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-desktop-privacy-settings&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Desktop privacy settings&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Make necessary changes to your desktop settings to enhance your privacy.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Mass Surveillance</title>
+      <link>http://localhost:1313/checklists/mass-surveillance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/mass-surveillance/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-switch-to-linux&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Switch to Linux&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Switching to Linux can enhance your privacy and security by reducing reliance on proprietary software.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-social-media-frontends&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Use social media frontends&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Using social media frontends can help you maintain privacy while still engaging with the same platforms.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-limit-information-shared&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Limit information shared&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Be mindful of the personal information you share online to protect your privacy.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-browser&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Private browser&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Using a private browser can help safeguard your online activities from prying eyes.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-search-engine&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Private search engine&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Opt for a privacy-focused search engine to enhance your online anonymity.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-virtual-private-network&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Virtual Private Network (VPN)&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;A Virtual Private Network (VPN) can provide an extra layer of security for your internet connection.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-buy-with-cash-or-cryptocurrency&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Only buy with cash or cryptocurrency&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Buying things with cash or cryptocurrency to enhance your financial privacy.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Protestor</title>
+      <link>http://localhost:1313/checklists/protestor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/protestor/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-turn-your-phone-completely-off&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Turn your phone completely off&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Turn your phone completely off to be 100% sure nothing is leaking from it. Airplane mode is not enough!&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-plan-your-trip&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Plan your trip&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Carefully plan your route to and from the protest to avoid potential hotspots of police activity and surveillance.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-use-encrypted-communication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Only use encrypted communication&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Use end-to-end encrypted messaging apps to communicate with other protestors.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-back-up-your-phone&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Back up your phone&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Back up your data in case your phone is lost or confiscated by the police.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-cover-yourself&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Cover yourself&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Wear clothing that conceals your identity and protects you from surveillance.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Social Media Influencer</title>
+      <link>http://localhost:1313/checklists/social-media-influencer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/social-media-influencer/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strong-unique-passwords&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Strong unique passwords&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Create strong and unique passwords for each of your accounts to enhance security.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-two-factor-authentication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Two-Factor Authentication (2FA)&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Use 2FA to secure your accounts.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-be -cautious-with-personal-information&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Be cautious with personal information&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Limit the amount of personal information shared online, including details about family, home address, and daily activities.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-avoid-phishing-emails&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Avoid phishing emails&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;With a large following, you&amp;#39;re a target for hackers. Verify email senders and be cautious of emails asking for personal information or containing suspicious links.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-backup-content&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Backup content&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Regularly back up your content and important data to prevent loss in case of account hacking or platform issues.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Whistleblower</title>
+      <link>http://localhost:1313/checklists/whistleblower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/whistleblower/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Find countries that won&#39;t extradite you&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;In case you need to flee.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-use-encrypted-communication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Only use encrypted communication&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Use end-to-end encrypted messaging apps to communicate.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-learn-about-advanced-opsec-techniques&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Learn about advanced OpSec techniques&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Ensure you maintain a high level of operational security to stay anonymous.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

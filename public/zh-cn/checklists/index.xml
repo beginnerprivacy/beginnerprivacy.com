@@ -14,5 +14,490 @@
       
     
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh-cn/checklists/darknet-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/darknet-user/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh-cn/checklists/digital-nomad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/digital-nomad/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh-cn/checklists/hacker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/hacker/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh-cn/checklists/internet-pirate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/internet-pirate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>大规模监控</title>
+      <link>http://localhost:1313/zh-cn/checklists/mass-surveillance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/mass-surveillance/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-switch-to-linux&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;切换到Linux&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;切换到Linux可以通过减少对专有软件的依赖来增强您的隐私和安全性。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-social-media-frontends&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;使用社交媒体前端&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用社交媒体前端可以帮助您在与相同平台互动的同时保持隐私。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-limit-information-shared&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;限制共享信息&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;注意您在线分享的个人信息，以保护您的隐私。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-browser&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;私人浏览器&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用私人浏览器可以帮助保护您的在线活动不被窥探。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-search-engine&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;私人搜索引擎&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;选择一个注重隐私的搜索引擎，以增强您的在线匿名性。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-virtual-private-network&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;虚拟私人网络（VPN）&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-buy-with-cash-or-cryptocurrency&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;仅使用现金或加密货币购买&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用现金或加密货币购买物品以增强您的财务隐私。&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>举报人</title>
+      <link>http://localhost:1313/zh-cn/checklists/whistleblower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/whistleblower/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;寻找不会引渡你的国家&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;如果你需要逃跑。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-use-encrypted-communication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;仅使用加密通信&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用端到端加密的消息应用程序进行沟通。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-learn-about-advanced-opsec-techniques&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;了解高级操作安全技术&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;确保保持高水平的操作安全，以保持匿名。&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>抗议者</title>
+      <link>http://localhost:1313/zh-cn/checklists/protestor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/protestor/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-turn-your-phone-completely-off&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;完全关闭你的手机&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;完全关闭你的手机，以确保100%没有信息泄露。飞行模式不够！&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-plan-your-trip&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;规划你的行程&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;仔细规划前往和离开抗议活动的路线，以避免潜在的警察活动和监视热点。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-use-encrypted-communication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;仅使用加密通信&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用端到端加密的消息应用程序与其他抗议者沟通。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-back-up-your-phone&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;备份你的手机&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;备份你的数据，以防手机丢失或被警方没收。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-cover-yourself&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;保护自己&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;穿着能够掩盖你身份并保护你免受监视的衣物。&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>普通互联网用户</title>
+      <link>http://localhost:1313/zh-cn/checklists/casual-internet-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/casual-internet-user/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strong-unique-passwords&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;强大且独特的密码&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;为每个账户创建强大且独特的密码以增强安全性。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-limit-information-shared&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;限制共享信息&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;注意您在线分享的个人信息以保护您的隐私。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-browser&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;私人浏览器&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用私人浏览器可以帮助保护您的在线活动不被窥探。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-private-search-engine&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;私人搜索引擎&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;选择一个注重隐私的搜索引擎以增强您的在线匿名性。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-virtual-private-network&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;虚拟私人网络（VPN）&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-mobile-privacy-settings&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;手机隐私设置&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;调整您的手机设置以改善隐私和安全。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-desktop-privacy-settings&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt; 桌面隐私设置&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;对桌面设置进行必要的更改以增强您的隐私。&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>社交媒体影响者</title>
+      <link>http://localhost:1313/zh-cn/checklists/social-media-influencer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/social-media-influencer/</guid>
+      <description>
+        
+        
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strong-unique-passwords&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;强大且独特的密码&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;为每个账户创建强大且独特的密码以增强安全性。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-two-factor-authentication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;双因素认证 (2FA)&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用双因素认证来保护你的账户。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-be -cautious-with-personal-information&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;谨慎对待个人信息&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;限制在线分享的个人信息，包括家庭、住址和日常活动的细节。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-avoid-phishing-emails&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;避免网络钓鱼邮件&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;拥有大量粉丝，你是黑客的目标。验证电子邮件发件人，并对请求个人信息或包含可疑链接的电子邮件保持警惕。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-backup-content&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;备份内容&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;定期备份您的内容和重要数据，以防账户被黑或平台出现问题时丢失数据。&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
