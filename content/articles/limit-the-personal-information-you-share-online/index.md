@@ -43,3 +43,14 @@ The same goes for phone numbers. You don't have to give your real phone number f
     {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
+
+### Delete Old Accounts
+You should always consider deleting accounts you don't use anymore because they leave you vulnerable to data breaches. The more accounts you have, the more vulnerable you are, especially as [data breaches happen often nowadays](https://haveibeenpwned.com/PwnedWebsites).
+
+<br>
+
+It's a good practice to regularly check your password manager for accounts you no longer use or to look through your email for messages from websites you haven't visited in a while. Before creating a new account on a platform, ask yourself: "Do I really need to make an account?"
+
+<br>
+
+Be aware that websites sometimes make it difficult to delete your account on purpose. However, you can use [Just Delete Me](https://justdeleteme.xyz/) to find instructions on how to delete your accounts. If you are living in Europe, remember that the General Data Protection Regulation (GDPR) gives you the right to request the deletion of your personal data from companies. Make sure to exercise this right when necessary.

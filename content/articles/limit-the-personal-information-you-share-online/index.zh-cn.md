@@ -43,3 +43,14 @@ excludeSearch: false
     {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
+
+### 删除旧账户
+您应该始终考虑删除不再使用的账户，因为它们使您容易受到数据泄露的威胁。账户越多，您就越脆弱，尤其是因为[数据泄露在当今社会中经常发生](https://haveibeenpwned.com/PwnedWebsites)。
+
+<br>
+
+定期检查您的密码管理器，查看您不再使用的账户，或查看您的电子邮件，寻找来自您很久没有访问的网站的消息，是一个好习惯。在平台上创建新账户之前，问问自己：“我真的需要创建一个账户吗？”
+
+<br>
+
+请注意，网站有时故意使删除账户变得困难。然而，您可以使用[Just Delete Me](https://justdeleteme.xyz/)找到有关如何删除账户的说明。如果您居住在欧洲，请记住，通用数据保护条例（GDPR）赋予您要求公司删除个人数据的权利。确保在必要时行使这一权利。

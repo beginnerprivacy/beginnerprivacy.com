@@ -43,3 +43,14 @@ Lo mismo ocurre con los números de teléfono. No tienes que dar tu número de t
   {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
  </div>
 </div>
+
+### Eliminar Cuentas Antiguas
+Siempre debes considerar eliminar cuentas que ya no usas porque te dejan vulnerable a violaciones de datos. Cuantas más cuentas tengas, más vulnerable eres, especialmente porque [las violaciones de datos ocurren a menudo hoy en día](https://haveibeenpwned.com/PwnedWebsites).
+
+<br>
+
+Es una buena práctica revisar regularmente tu gestor de contraseñas en busca de cuentas que ya no usas o mirar en tu correo electrónico mensajes de sitios web que no has visitado en un tiempo. Antes de crear una nueva cuenta en una plataforma, pregúntate: "¿Realmente necesito crear una cuenta?"
+
+<br>
+
+Ten en cuenta que a veces los sitios web dificultan intencionadamente la eliminación de tu cuenta. Sin embargo, puedes usar [Just Delete Me](https://justdeleteme.xyz/) para encontrar instrucciones sobre cómo eliminar tus cuentas. Si vives en Europa, recuerda que el Reglamento General de Protección de Datos (GDPR) te da el derecho a solicitar la eliminación de tus datos personales de las empresas. Asegúrate de ejercer este derecho cuando sea necesario.
