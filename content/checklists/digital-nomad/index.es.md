@@ -1,1 +1,4 @@
+---
+title: Nómada Digital
+---
 ¡Próximamente!

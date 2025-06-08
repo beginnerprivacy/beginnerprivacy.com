@@ -15,62 +15,6 @@
     
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/checklists/darknet-user/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/checklists/darknet-user/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Coming Soon!&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/checklists/digital-nomad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/checklists/digital-nomad/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Coming Soon!&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/checklists/hacker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/checklists/hacker/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Coming Soon!&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/checklists/internet-pirate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/checklists/internet-pirate/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Coming Soon!&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Casual Internet User</title>
       <link>http://localhost:1313/checklists/casual-internet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -177,6 +121,62 @@
   
   &lt;p class=&#34;checklist-paragraph&#34;&gt;Make necessary changes to your desktop settings to enhance your privacy.&lt;/p&gt;
 &lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Darknet User</title>
+      <link>http://localhost:1313/checklists/darknet-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/darknet-user/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Digital Nomad</title>
+      <link>http://localhost:1313/checklists/digital-nomad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/digital-nomad/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Hacker</title>
+      <link>http://localhost:1313/checklists/hacker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/hacker/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Internet Pirate</title>
+      <link>http://localhost:1313/checklists/internet-pirate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/checklists/internet-pirate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Coming Soon!&lt;/p&gt;
 
       </description>
     </item>

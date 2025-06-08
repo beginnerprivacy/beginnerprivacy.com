@@ -15,53 +15,11 @@
     
     
     <item>
-      <title></title>
+      <title>暗网用户</title>
       <link>http://localhost:1313/zh-cn/checklists/darknet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/zh-cn/checklists/darknet-user/</guid>
-      <description>
-        
-        
-        &lt;p&gt;即将推出！&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/zh-cn/checklists/digital-nomad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/checklists/digital-nomad/</guid>
-      <description>
-        
-        
-        &lt;p&gt;即将推出！&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/zh-cn/checklists/hacker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/checklists/hacker/</guid>
-      <description>
-        
-        
-        &lt;p&gt;即将推出！&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/zh-cn/checklists/internet-pirate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/zh-cn/checklists/internet-pirate/</guid>
       <description>
         
         
@@ -177,6 +135,20 @@
   
   &lt;p class=&#34;checklist-paragraph&#34;&gt;使用现金或加密货币购买物品以增强您的财务隐私。&lt;/p&gt;
 &lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>黑客</title>
+      <link>http://localhost:1313/zh-cn/checklists/hacker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/hacker/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
 
       </description>
     </item>
@@ -495,6 +467,34 @@
   
   &lt;p class=&#34;checklist-paragraph&#34;&gt;定期备份您的内容和重要数据，以防账户被黑或平台出现问题时丢失数据。&lt;/p&gt;
 &lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>数字游牧者</title>
+      <link>http://localhost:1313/zh-cn/checklists/digital-nomad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/digital-nomad/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>网络盗版</title>
+      <link>http://localhost:1313/zh-cn/checklists/internet-pirate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/checklists/internet-pirate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;即将推出！&lt;/p&gt;
 
       </description>
     </item>
