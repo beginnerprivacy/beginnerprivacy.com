@@ -68,7 +68,6 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="移动隐私设置"  id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="私人电子邮件" id="secure-messaging" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="安全消息传递" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" class="basic-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -80,7 +79,6 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="社交媒体前端" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="从数据经纪人处删除" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="什么是Tor？" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="advancedContent" class="roadmap-section" style="display:none;">
@@ -92,7 +90,6 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="加密货币" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="物理安全" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="威胁情报" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="有什么遗漏吗？贡献吧！" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>
   </div>

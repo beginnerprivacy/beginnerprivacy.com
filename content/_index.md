@@ -68,7 +68,6 @@ layout: hextra-home
           <li>{{< hextra/feature-card title="Desktop Privacy Settings" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Private Email" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
           <li>{{< hextra/feature-card title="Secure Messaging" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="basic-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -80,7 +79,6 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Social Media Frontends" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="What is Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="advancedContent" class="roadmap-section" style="display:none;">
@@ -92,7 +90,6 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Threat Intelligence" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>
   </div>
