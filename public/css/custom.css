@@ -89,27 +89,76 @@
     width: 340px;
     pointer-events: none;
 }
-@media (max-width: 980px) {
+@media (max-width: 1775px) {
     .hero-surveillance-image {
-        width: 150px !important;
+        width: 275px !important;
     }
 }
-@media (max-width: 1250px) {
+@media (max-width: 1530px) {
     .hero-surveillance-image {
-        width: 15% !important;
+        width: 240px !important;
     }
 }
-@media (max-width: 1090px) {
+@media (max-width: 1355px) {
     .hero-surveillance-image {
-        width: 110px !important;
+        width: 200px !important;
     }
 }
-@media (max-width: 325px) {
+@media (max-width: 768px) {
+    .hero-surveillance-image {
+        width: 160px !important;
+    }
+}
+@media (max-width: 450px) {
     .hero-surveillance-image {
         display: none !important;
     }
 }
 /* End hero image */
+
+/* Start hero section */
+.start-now-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+}
+
+.start-now-button .arrow {
+  position: relative;
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.start-now-button:hover .arrow {
+  transform: translateX(0.25rem);
+}
+
+.not-sure-button {
+    scale: 0.97;
+    border: 1px solid transparent;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    border-color: #ccc;
+}
+
+.not-sure-button:hover {
+    border-color: #006be6;
+    background-color: #006be6;
+    color: #ffff;
+}
+.dark .not-sure-button:hover {
+    border-color: #008ae6;
+    background-color: #008ae6;
+}
+
+@media (max-width: 768px) {
+    .not-sure-button {
+        margin-left: -1px !important;
+    }
+}
+/* End hero section */
 
 /* Start contributors table */
 #contributors {
@@ -158,7 +207,6 @@
     flex-direction: column;
     gap: 2rem;
     max-width: 1280px;
-    margin: 8rem 0 auto;
 }
 
 .community-content {
@@ -252,9 +300,7 @@
 
 /* Start common misconceptions section on homepage */ 
 #common-misconceptions {
-    margin-bottom: 10rem;
     width: 100%; 
-    padding-top: 10rem;
 }
 
 .misconception-container {

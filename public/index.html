@@ -27,7 +27,7 @@
   <meta itemprop="name" content="Beginner Privacy">
   <meta itemprop="description" content="Free, open source Start Your Privacy Journey Today with Beginner Privacy Your privacy is important! But big organizations are taking it away. Beginner Privacy is your roadmap for reclaiming a private life.">
   <meta itemprop="dateModified" content="2025-06-03T18:30:37+02:00">
-  <meta itemprop="wordCount" content="10877">
+  <meta itemprop="wordCount" content="10878">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -1031,7 +1031,7 @@
 </aside>
     <div class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pb-8 hx-pt-8 md:hx-pt-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]">
       <div class="hx-flex hx-flex-col hx-items-start">
-        <div class="hero">
+        <section class="hero hx-py-30-40">
   <a
   href="https://github.com/BeginnerPrivacy"
   class=" not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-px-3 hx-py-1 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200"
@@ -1064,14 +1064,14 @@
 
   <div class="hx-mt-6 hx-mb-4">
   <h1
-  class="not-prose hx-text-4xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-5xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400"
+  class="md:hx-text-6xl not-prose hx-text-4xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-5xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400"
   
 >
   Start Your Privacy Journey Today <br class="sm:hx-block hx-hidden" />with Beginner Privacy
 </h1>
 
   </div>
-  <div class="hero-take-quiz hx-mb-6">
+  <div class="hx-mb-6">
   <p
   class="not-prose hx-text-xl hx-text-gray-600 dark:hx-text-gray-400 sm:hx-text-xl"
   
@@ -1080,45 +1080,33 @@
 </p>
 
   </div>
-<p><a
-    
-    class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-    style="margin: 2px;"
-    onclick="scrollDown();"
-    
-  >Start Now</a>
-
-<a
-    
-    class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-    style="margin: 2px;"
-    onclick="scrollMisconceptions();"
-    
-  >Not sure? Here&#39;s why</a>
-</p>
-</div>
-<div id="roadmap">
-  <div class="roadmap">
-    <div>
-      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-        <div class="tabs">
-            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-            <label class="tab" for="radio-start">Start</label>
-            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-basic">Basic</label>
-            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-medium">Medium</label>
-            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-advanced">Advanced</label>
-            <span class="glider"></span>
-        </div>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+    Start Now
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</a>
+</section>
+<section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
+  <div>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+      <div class="tabs">
+          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+          <label class="tab" for="radio-start">Start</label>
+          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-basic">Basic</label>
+          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-medium">Medium</label>
+          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-advanced">Advanced</label>
+          <span class="glider"></span>
       </div>
     </div>
-    <div id="roadmapContent" class="hx-mt-4">
-      <div id="startContent" class="roadmap-section">
-        <ol>
-          <li>
+  </div>
+  <div id="roadmapContent" class="hx-mt-4">
+    <div id="startContent" class="roadmap-section">
+      <ol>
+        <li>
   <div id="about-beginner-privacy" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1224,7 +1212,7 @@
 <a
   href="?m=about-beginner-privacy"
   
-    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1239,7 +1227,7 @@
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="why-care-about-your-privacy" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1297,7 +1285,7 @@
 <a
   href="?m=why-care-about-your-privacy"
   
-    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1312,7 +1300,7 @@
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="finding-a-threat-model" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1482,7 +1470,7 @@ const resultTexts = {
 <a
   href="?m=finding-a-threat-model"
   
-    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="start-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1497,11 +1485,11 @@ const resultTexts = {
     </div>
   
 </a></li>
-        </ol>
-      </div>
-      <div id="basicContent" class="roadmap-section" style="display:none;">
-        <ol>
-            <li>
+      </ol>
+    </div>
+    <div id="basicContent" class="roadmap-section" style="display:none;">
+      <ol>
+          <li>
   <div id="basic-introduction" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1538,7 +1526,7 @@ We recommend that you gradually implement these practices into your daily routin
 <a
   href="?m=basic-introduction"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1553,7 +1541,7 @@ We recommend that you gradually implement these practices into your daily routin
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="strong-passwords" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1671,7 +1659,7 @@ We recommend that you gradually implement these practices into your daily routin
 <a
   href="?m=strong-passwords"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1686,7 +1674,7 @@ We recommend that you gradually implement these practices into your daily routin
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="two-factor-authentication" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1791,7 +1779,7 @@ We recommend that you gradually implement these practices into your daily routin
 <a
   href="?m=two-factor-authentication"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1806,7 +1794,7 @@ We recommend that you gradually implement these practices into your daily routin
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="limit-information-shared" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -1945,7 +1933,7 @@ We recommend that you gradually implement these practices into your daily routin
 <a
   href="?m=limit-information-shared"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -1960,7 +1948,7 @@ We recommend that you gradually implement these practices into your daily routin
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="private-browser" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2088,7 +2076,7 @@ We recommend that you gradually implement these practices into your daily routin
 <a
   href="?m=private-browser"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2103,7 +2091,7 @@ We recommend that you gradually implement these practices into your daily routin
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="private-search-engine" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2201,7 +2189,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=private-search-engine"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2216,7 +2204,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="virtual-private-network" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2327,7 +2315,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=virtual-private-network"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2342,7 +2330,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="mobile-privacy-settings" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2447,7 +2435,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=mobile-privacy-settings"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2462,7 +2450,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="desktop-privacy-settings" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2567,7 +2555,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=desktop-privacy-settings"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2582,7 +2570,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="private-email" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2676,7 +2664,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=private-email"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2691,7 +2679,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
   <div id="secure-messaging" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2825,7 +2813,7 @@ Open Safari Settings → Search → Pick your engine.</p>
 <a
   href="?m=secure-messaging"
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2840,12 +2828,12 @@ Open Safari Settings → Search → Pick your engine.</p>
     </div>
   
 </a></li>
-            <li>
+          <li>
 
 <a
   href="about/about-contributing" target="_blank" 
   
-    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="basic-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2856,11 +2844,11 @@ Open Safari Settings → Search → Pick your engine.</p>
 
   
 </a></li>
-        </ol>
-      </div>
-      <div id="mediumContent" class="roadmap-section" style="display:none;">
-        <ol>
-          <li>
+      </ol>
+    </div>
+    <div id="mediumContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>
   <div id="medium-introduction" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -2898,7 +2886,7 @@ As you progress through this roadmap, we recommend taking your time to implement
 <a
   href="?m=medium-introduction"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -2913,7 +2901,7 @@ As you progress through this roadmap, we recommend taking your time to implement
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="free-and-open-source-software" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3014,7 +3002,7 @@ As you progress through this roadmap, we recommend taking your time to implement
 <a
   href="?m=free-and-open-source-software"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3029,7 +3017,7 @@ As you progress through this roadmap, we recommend taking your time to implement
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="switch-to-linux" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3248,7 +3236,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 <a
   href="?m=switch-to-linux"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3263,7 +3251,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="encrypted-dns" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3369,7 +3357,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 <a
   href="?m=encrypted-dns"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3384,7 +3372,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="social-media-frontends" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3586,7 +3574,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 <a
   href="?m=social-media-frontends"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3601,7 +3589,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="removal-from-data-brokers" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3704,7 +3692,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 <a
   href="?m=removal-from-data-brokers"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3719,7 +3707,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="what-is-tor" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3843,7 +3831,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 <a
   href="?m=what-is-tor"
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3858,12 +3846,12 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     </div>
   
 </a></li>
-          <li>
+        <li>
 
 <a
   href="about/about-contributing" target="_blank" 
   
-    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="medium-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3874,11 +3862,11 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 
   
 </a></li>
-        </ol>
-      </div>
-      <div id="advancedContent" class="roadmap-section" style="display:none;">
-        <ol>
-          <li>
+      </ol>
+    </div>
+    <div id="advancedContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>
   <div id="advanced-introduction" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -3915,7 +3903,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=advanced-introduction"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -3930,7 +3918,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="desktop-operating-system" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4015,7 +4003,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=desktop-operating-system"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4030,7 +4018,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="mobile-operating-system" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4123,7 +4111,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=mobile-operating-system"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4138,7 +4126,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="self-hosting" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4269,7 +4257,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=self-hosting"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4284,7 +4272,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="cryptocurrency" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4406,7 +4394,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=cryptocurrency"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4421,7 +4409,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="physical-security" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4508,7 +4496,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=physical-security"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4523,7 +4511,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
   <div id="threat-intelligence" class="roadmap-modal">
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -4661,7 +4649,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 <a
   href="?m=threat-intelligence"
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4676,12 +4664,12 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     </div>
   
 </a></li>
-          <li>
+        <li>
 
 <a
   href="about/about-contributing" target="_blank" 
   
-    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-3xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+    class="advanced-hf-card-color hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
   <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
     
@@ -4692,12 +4680,11 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
 
   
 </a></li>
-        </ol>
-      </div>
+      </ol>
     </div>
   </div>
-</div>
-<div id="common-misconceptions" class="hx-text-center">
+</section>
+<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Common Misconceptions</h2>
     <div class="misconception-container">
       <div class="misconception-card">
@@ -4722,7 +4709,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
       </div>
     </div>
 </div>
-<div class="community-section">
+<section class="community-section hx-py-60-40">
     <div class="community-content">
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
@@ -4747,64 +4734,50 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
             </a>
           </div>
         </div>
-     </div>
-</div>
-<div class="checklists-section">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Checklists</h2>
-    <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
-    <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
-    <p class="hx-text-base hx-mb-10px">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
-    <div class="carousel">
-        <div class="carousel-track">
-            <a href="checklists/?m=whistleblower" draggable="false">
-              <div class="carousel-item">
-                  <h3>Whistleblower</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=protestor" draggable="false">
-              <div class="carousel-item">
-                  <h3>Protestor</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=casual-internet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Casual Internet User</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=internet-pirate" draggable="false">
-              <div class="carousel-item">
-                  <h3>Internet Pirate</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=darknet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Darknet User</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=social-media-influencer" draggable="false">
-              <div class="carousel-item">
-                  <h3>Social Media Influencers</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=hacker" draggable="false">
-              <div class="carousel-item">
-                  <h3>Hacker</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=digital-nomad" draggable="false">
-              <div class="carousel-item">
-                  <h3>Digital Nomad</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=mass-surveillance" draggable="false">
-              <div class="carousel-item">
-                  <h3>Mass Surveillance</h3>
-              </div>
-            </a>
-        </div>
     </div>
-</div>
-<div id="contributors" class="hx-mt-16">
+</section>
+<section class="checklists-section hx-py-60-60">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Checklists</h2>
+  <p class="hx-text-base hx-mb-10px">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
+  <div class="carousel-container" aria-label="Checklists carousel">
+    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
+      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
+        <div class="carousel-track">
+          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Whistleblower</div>
+          </a>
+          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Protestor</div>
+          </a>
+          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Casual Internet User</div>
+          </a>
+          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Internet Pirate</div>
+          </a>
+          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Darknet User</div>
+          </a>
+          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Social Media Influencers</div>
+          </a>
+          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Hacker</div>
+          </a>
+          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Digital Nomad</div>
+          </a>
+          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Mass Surveillance</div>
+          </a>
+        </div>
+      </div>
+    <div class="carousel-button next" aria-label="Next">&#10095;</div>
+    <div class="carousel-fade left"></div>
+    <div class="carousel-fade right"></div>
+  </div>
+</section>
+<section id="contributors" class="hx-mb-16 hx-mt-18">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">We Need Your Help!</h2>
     <p class="hx-text-base">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
@@ -4848,8 +4821,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
         </div>
     </div>
     <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">View all contributors</p></a>
-</div>
-
+</section>
       </div>
     </div>
   </div>

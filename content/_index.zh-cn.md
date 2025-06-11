@@ -2,7 +2,7 @@
 title: 初学者的隐私
 layout: hextra-home
 ---
-<div class="hero">
+<section class="hero hx-py-30-40">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>免费，开源</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -14,20 +14,23 @@ layout: hextra-home
     imageTitle="Surveillance Camera" >}}
   {{< /hextra/hero-container >}}
 
-  <div class="hx-mt-6 hx-mb-4">{{< hextra/hero-headline >}}今天就开始你的隐私之旅&nbsp;<br class="sm:hx-block hx-hidden" />与 Beginner Privacy{{< /hextra/hero-headline >}}
+  <div class="hx-mt-6 hx-mb-4">
+  {{< hextra/hero-headline class="md:hx-text-6xl" >}}今天就开始你的隐私之旅&nbsp;<br class="sm:hx-block hx-hidden" />与 Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
-  <div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">{{< hextra/hero-subtitle >}}你的隐私很重要！但大组织正在夺走它。&nbsp;<br class="sm:hx-block hx-hidden" />初学者隐私是你重获私人生活的路线图。
+  <div class="hx-mb-6" style="display: inline-flex; width: 100%;">{{< hextra/hero-subtitle >}}你的隐私很重要！但大组织正在夺走它。&nbsp;<br class="sm:hx-block hx-hidden" />初学者隐私是你重获私人生活的路线图。
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="现在开始" onclick="scrollDown();" style="margin: 2px;" >}}
-  {{< hextra/hero-button text="不确定？这就是原因" onclick="scrollMisconceptions();" style="margin: 2px;" >}}
-</div>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+    现在开始
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">不确定？这就是原因</a>
+</section>
 
-<div id="roadmap">
-  <div class="roadmap hx-mt-6">
-    <div>
+<section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
+  <div>
       <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">路线图</h2>
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <div class="tabs">
@@ -93,10 +96,9 @@ layout: hextra-home
       </ol>
     </div>
   </div>
-  </div>
-</div>
+</section>
 
-<div id="common-misconceptions" class="hx-text-center">
+<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">常见误解</h2>
     <div class="misconception-container">
         <div class="misconception-card">
@@ -113,9 +115,9 @@ layout: hextra-home
             {{< hextra/hero-button text="开始改善你的隐私" onclick="scrollDown();" style="margin-top: 15px;" >}}
         </div>
     </div>
-</div>
+</section>
 
-<div class="community-section">
+<section class="community-section hx-py-60-40">
     <div class="community-content">
         <img src="../images/earth.webp" alt="社区图片" class="community-image">
     </div>
@@ -141,65 +143,51 @@ layout: hextra-home
           </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="checklists-section">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">检查清单</h2>
-    <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
-    <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
-    <p class="hx-text-base hx-mb-10px">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
-    <div class="carousel">
+<section class="checklists-section hx-py-60-60">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">检查清单</h2>
+  <p class="hx-text-base hx-mb-10px">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
+  <div class="carousel-container" aria-label="Checklists carousel">
+    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
+      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
         <div class="carousel-track">
-            <a href="checklists/?m=whistleblower" draggable="false">
-              <div class="carousel-item">
-                  <h3>举报人</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=protestor" draggable="false">
-              <div class="carousel-item">
-                  <h3>抗议者</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=casual-internet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>普通互联网用户</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=internet-pirate" draggable="false">
-              <div class="carousel-item">
-                  <h3>网络盗版</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=darknet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>暗网用户</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=social-media-influencer" draggable="false">
-              <div class="carousel-item">
-                  <h3>社交媒体影响者</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=hacker" draggable="false">
-              <div class="carousel-item">
-                  <h3>黑客</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=digital-nomad" draggable="false">
-              <div class="carousel-item">
-                  <h3>数字游牧者</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=mass-surveillance" draggable="false">
-              <div class="carousel-item">
-                  <h3>大规模监控</h3>
-              </div>
-            </a>
+          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">举报人</div>
+          </a>
+          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">抗议者</div>
+          </a>
+          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">普通互联网用户</div>
+          </a>
+          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">网络盗版</div>
+          </a>
+          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">暗网用户</div>
+          </a>
+          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">社交媒体影响者</div>
+          </a>
+          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">黑客</div>
+          </a>
+          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">数字游牧者</div>
+          </a>
+          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">大规模监控</div>
+          </a>
         </div>
-    </div>
-</div>
+      </div>
+    <div class="carousel-button next" aria-label="Next">&#10095;</div>
+    <div class="carousel-fade left"></div>
+    <div class="carousel-fade right"></div>
+  </div>
+</section>
 
-<div id="contributors" class="hx-mt-16">
+<section id="contributors" class="hx-mb-16 hx-mt-18">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">我们需要你的帮助！</h2>
     <p class="hx-text-base">初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
@@ -215,4 +203,4 @@ layout: hextra-home
       </div>
     </div>
     <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">查看所有贡献者</p></a>
-</div>
+</section>

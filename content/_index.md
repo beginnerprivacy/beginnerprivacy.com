@@ -2,7 +2,7 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<div class="hero">
+<section class="hero hx-py-30-40">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Free, open source</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
@@ -14,90 +14,91 @@ layout: hextra-home
   {{< /hextra/hero-container >}}
 
   <div class="hx-mt-6 hx-mb-4">
-  {{< hextra/hero-headline >}}Start Your Privacy Journey Today&nbsp;<br class="sm:hx-block hx-hidden" />with Beginner Privacy{{< /hextra/hero-headline >}}
+  {{< hextra/hero-headline class="md:hx-text-6xl" >}}Start Your Privacy Journey Today&nbsp;<br class="sm:hx-block hx-hidden" />with Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
-  <div class="hero-take-quiz hx-mb-6">
+  <div class="hx-mb-6">
   {{< hextra/hero-subtitle >}}
   Your privacy is important! But big organizations are taking it away.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy is your roadmap for reclaiming a private life.
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="Start Now" onclick="scrollDown();" style="margin: 2px;" >}}
-  {{< hextra/hero-button text="Not sure? Here's why" onclick="scrollMisconceptions();" style="margin: 2px;" >}}
-</div>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+    Start Now
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</a>
+</section>
 
-<div id="roadmap">
-  <div class="roadmap">
-    <div>
-      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-        <div class="tabs">
-            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-            <label class="tab" for="radio-start">Start</label>
-            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-basic">Basic</label>
-            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-medium">Medium</label>
-            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-advanced">Advanced</label>
-            <span class="glider"></span>
-        </div>
-      </div>
-    </div>
-    <div id="roadmapContent" class="hx-mt-4">
-      <div id="startContent" class="roadmap-section">
-        <ol>
-          <li>{{< hextra/feature-card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
-        </ol>
-      </div>
-      <div id="basicContent" class="roadmap-section" style="display:none;">
-        <ol>
-            <li>{{< hextra/feature-card title="Basic Introduction" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Strong Passwords" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Two-Factor Authentication (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Limit Information Shared" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Private Browser" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Private Search Engine" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Virtual Private Network (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Mobile Privacy Settings" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Desktop Privacy Settings" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Private Email" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Secure Messaging" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
-            <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="basic-hf-card-color" >}}</li>
-        </ol>
-      </div>
-      <div id="mediumContent" class="roadmap-section" style="display:none;">
-        <ol>
-          <li>{{< hextra/feature-card title="Medium Introduction" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Free and Open Source Software" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Switch to Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Encrypted DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Social Media Frontends" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="What is Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
-        </ol>
-      </div>
-      <div id="advancedContent" class="roadmap-section" style="display:none;">
-        <ol>
-          <li>{{< hextra/feature-card title="Advanced Introduction" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Desktop Operating System" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Mobile Operating System" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-services" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Threat Intelligence" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
-          <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
-        </ol>
+<section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
+  <div>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+      <div class="tabs">
+          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+          <label class="tab" for="radio-start">Start</label>
+          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-basic">Basic</label>
+          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-medium">Medium</label>
+          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+          <label class="tab" for="radio-advanced">Advanced</label>
+          <span class="glider"></span>
       </div>
     </div>
   </div>
-</div>
+  <div id="roadmapContent" class="hx-mt-4">
+    <div id="startContent" class="roadmap-section">
+      <ol>
+        <li>{{< hextra/feature-card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
+      </ol>
+    </div>
+    <div id="basicContent" class="roadmap-section" style="display:none;">
+      <ol>
+          <li>{{< hextra/feature-card title="Basic Introduction" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Strong Passwords" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Two-Factor Authentication (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Limit Information Shared" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Private Browser" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Private Search Engine" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Virtual Private Network (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Mobile Privacy Settings" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Desktop Privacy Settings" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Private Email" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Secure Messaging" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
+          <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="basic-hf-card-color" >}}</li>
+      </ol>
+    </div>
+    <div id="mediumContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>{{< hextra/feature-card title="Medium Introduction" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Free and Open Source Software" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Switch to Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Encrypted DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Social Media Frontends" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="What is Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="medium-hf-card-color" >}}</li>
+      </ol>
+    </div>
+    <div id="advancedContent" class="roadmap-section" style="display:none;">
+      <ol>
+        <li>{{< hextra/feature-card title="Advanced Introduction" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Desktop Operating System" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Mobile Operating System" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-services" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Threat Intelligence" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Something missing? Contribute!" link="about/about-contributing" contributeCard="true" class="advanced-hf-card-color" >}}</li>
+      </ol>
+    </div>
+  </div>
+</section>
 
-<div id="common-misconceptions" class="hx-text-center">
+<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Common Misconceptions</h2>
     <div class="misconception-container">
       <div class="misconception-card">
@@ -116,7 +117,7 @@ layout: hextra-home
     </div>
 </div>
 
-<div class="community-section">
+<section class="community-section hx-py-60-40">
     <div class="community-content">
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
@@ -141,66 +142,52 @@ layout: hextra-home
             </a>
           </div>
         </div>
-     </div>
-</div>
-
-<div class="checklists-section">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Checklists</h2>
-    <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
-    <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
-    <p class="hx-text-base hx-mb-10px">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
-    <div class="carousel">
-        <div class="carousel-track">
-            <a href="checklists/?m=whistleblower" draggable="false">
-              <div class="carousel-item">
-                  <h3>Whistleblower</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=protestor" draggable="false">
-              <div class="carousel-item">
-                  <h3>Protestor</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=casual-internet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Casual Internet User</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=internet-pirate" draggable="false">
-              <div class="carousel-item">
-                  <h3>Internet Pirate</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=darknet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Darknet User</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=social-media-influencer" draggable="false">
-              <div class="carousel-item">
-                  <h3>Social Media Influencers</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=hacker" draggable="false">
-              <div class="carousel-item">
-                  <h3>Hacker</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=digital-nomad" draggable="false">
-              <div class="carousel-item">
-                  <h3>Digital Nomad</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=mass-surveillance" draggable="false">
-              <div class="carousel-item">
-                  <h3>Mass Surveillance</h3>
-              </div>
-            </a>
-        </div>
     </div>
-</div>
+</section>
 
-<div id="contributors" class="hx-mt-16">
+<section class="checklists-section hx-py-60-60">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Checklists</h2>
+  <p class="hx-text-base hx-mb-10px">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
+  <div class="carousel-container" aria-label="Checklists carousel">
+    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
+      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
+        <div class="carousel-track">
+          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Whistleblower</div>
+          </a>
+          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Protestor</div>
+          </a>
+          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Casual Internet User</div>
+          </a>
+          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Internet Pirate</div>
+          </a>
+          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Darknet User</div>
+          </a>
+          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Social Media Influencers</div>
+          </a>
+          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Hacker</div>
+          </a>
+          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Digital Nomad</div>
+          </a>
+          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Mass Surveillance</div>
+          </a>
+        </div>
+      </div>
+    <div class="carousel-button next" aria-label="Next">&#10095;</div>
+    <div class="carousel-fade left"></div>
+    <div class="carousel-fade right"></div>
+  </div>
+</section>
+
+<section id="contributors" class="hx-mb-16 hx-mt-18">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">We Need Your Help!</h2>
     <p class="hx-text-base">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
@@ -216,4 +203,4 @@ layout: hextra-home
         </div>
     </div>
     <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">View all contributors</p></a>
-</div>
+</section>

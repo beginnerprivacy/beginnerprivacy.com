@@ -506,78 +506,6 @@
                 href="http://localhost:1313/articles/why-you-should-care-about-your-privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/checklists/darknet-user/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/checklists/darknet-user/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/checklists/darknet-user/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/checklists/darknet-user/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/checklists/digital-nomad/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/checklists/digital-nomad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/checklists/digital-nomad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/checklists/digital-nomad/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/checklists/hacker/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/checklists/hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/checklists/hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/checklists/hacker/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/checklists/internet-pirate/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/checklists/internet-pirate/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/checklists/internet-pirate/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/checklists/internet-pirate/"
-                />
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-05-28T15:47:55+02:00</lastmod>
     <xhtml:link
@@ -811,6 +739,42 @@
                 href="http://localhost:1313/about/credits/"
                 />
   </url><url>
+    <loc>http://localhost:1313/checklists/darknet-user/</loc>
+    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/darknet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/darknet-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/darknet-user/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/digital-nomad/</loc>
+    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/digital-nomad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/digital-nomad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/digital-nomad/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/donate/</loc>
     <lastmod>2025-04-11T10:31:38+02:00</lastmod>
     <xhtml:link
@@ -827,6 +791,42 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/about/donate/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/hacker/</loc>
+    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/hacker/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/checklists/internet-pirate/</loc>
+    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/internet-pirate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/internet-pirate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/internet-pirate/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/join-simplex-group/</loc>

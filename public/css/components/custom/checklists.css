@@ -1,8 +1,6 @@
 /* Start checklists */
 .checklists-section {
-    margin-bottom: 16rem; 
     width: 100%; 
-    margin-top: 16rem;
 }
 
 .checklist-grid {
@@ -123,63 +121,116 @@
 /* End checklists */
 
 /* Start checklists section on homepage */
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.carousel-fade.left {
+    left: 0;
+    background: linear-gradient(to right, #ffffff 0%, transparent 100%);
+}
+
+.carousel-fade.right {
+    right: 0;
+    background: linear-gradient(to left, #ffffff 0%, transparent 100%);
+}
+.carousel-fade.left:is(html[class~="dark"] *) {
+    left: 0;
+    background: linear-gradient(to right, rgb(17, 17, 17) 0%, transparent 100%);
+}
+
+.carousel-fade.right:is(html[class~="dark"] *) {
+    right: 0;
+    background: linear-gradient(to left, rgb(17, 17, 17) 0%, transparent 100%);
+}
+
+.carousel-button {
+    padding: 0;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-flex;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.carousel-button.prev {
+    left: 8px;
+}
+
+.carousel-button.next {
+    right: 0px;
+}
+
+.carousel-button:hover {
+    opacity: 1;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
     width: 100%;
-    overflow-x: auto;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
+    scroll-behavior: smooth;
 }
 
 .carousel-track {
     display: flex;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+    user-select: none;
+    gap: 1rem;
 }
 
 .carousel-item {
+    flex: 0 0 auto;
     width: 250px;
     max-height: 70px;
     box-sizing: border-box;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     background: #f9f9f9;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 0 0.5rem;
+    border-radius: 0.75rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    user-select: none;
-}
-
-.carousel-item:hover {
-    transform: scale(1.05);
-}
-
-.carousel-item h3 {
-    color: black;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.checklist-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background 0.3s;
-}
-
-.checklist-link:hover {
-    background: #0056b3;
-}
-
-.carousel-button {
-    padding: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    font-size: 1.5rem;
-    display: inline-flex;
+    color: #111827;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item:hover, .carousel-item:focus {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 /* End checklists section on homepage */

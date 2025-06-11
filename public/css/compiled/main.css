@@ -677,6 +677,9 @@ video {
 .hx-mt-8 {
   margin-top: 2rem;
 }
+.hx-mt-18 {
+  margin-top: 8rem;
+}
 .hx-mb-10px {
   margin-bottom: 10px;
 }
@@ -752,6 +755,9 @@ video {
 .hx-min-h-\[calc\(100vh-var\(--navbar-height\)\)\] {
   min-height: calc(100vh - var(--navbar-height));
 }
+.hx-min-h-60 {
+  min-height: 60rem;
+} 
 .hx-w-2 {
   width: 0.5rem;
 }
@@ -1131,6 +1137,10 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.hx-px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .hx-py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1158,6 +1168,26 @@ video {
 .hx-py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.hx-py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.hx-py-30-40 {
+  padding-top: 6rem;
+  padding-bottom: 14rem;
+}
+.hx-py-50-40 {
+  padding-top: 14rem;
+  padding-bottom: 10rem;
+}
+.hx-py-60-40 {
+  padding-top: 18rem;
+  padding-bottom: 12rem;
+}
+.hx-py-60-60 {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
 }
 .hx-pb-8 {
   padding-bottom: 2rem;
@@ -3494,6 +3524,10 @@ body:is(html[class~="dark"] *) {
 
   .md\:hx-text-5xl {
     font-size: 3rem;
+  }
+
+  .md\:hx-text-6xl {
+    font-size: 3.75rem;
   }
 
   .md\:hx-text-lg {

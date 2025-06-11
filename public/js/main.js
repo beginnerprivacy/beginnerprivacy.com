@@ -438,76 +438,6 @@ navOverlay.className = 'nav-overlay';
 const navContainer = document.querySelector('.nav-container');
 navContainer.appendChild(navOverlay);
 
-// Carousel for checklists on homepage
-let currentIndex = 0;
-
-function moveCarousel(direction) {
-    const items = document.querySelectorAll('.carousel-item');
-    const totalItems = items.length - 3;
-    const itemWidth = items[0].offsetWidth + 15;
-
-    currentIndex += direction;
-
-    if (currentIndex < 0) {
-        currentIndex = totalItems - 1;
-    } else if (currentIndex >= totalItems) {
-        currentIndex = 0;
-    }
-
-    const newPosition = -currentIndex * itemWidth;
-    document.querySelector('.carousel-track').style.transform = `translateX(${newPosition}px)`;
-}
-
-let isDragging = false;
-let startX;
-let scrollLeft;
-
-const carousel = document.querySelector('.carousel');
-const carouselTrack = document.querySelector('.carouselTrack');
-
-if (carousel) {
-    carousel.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        startX = e.pageX - carousel.offsetLeft;
-        scrollLeft = carousel.scrollLeft;
-    });
-
-    carousel.addEventListener('mouseleave', () => {
-        isDragging = false;
-    });
-
-    carousel.addEventListener('mouseup', () => {
-        isDragging = false;
-    });
-
-    carousel.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
-        e.preventDefault();
-        const x = e.pageX - carousel.offsetLeft;
-        const walk = (x - startX) * 2;
-        carousel.scrollLeft = scrollLeft - walk;
-    });
-
-    // Touch events for mobile
-    carousel.addEventListener('touchstart', (e) => {
-        isDragging = true;
-        startX = e.touches[0].pageX - carousel.offsetLeft;
-        scrollLeft = carousel.scrollLeft;
-    });
-
-    carousel.addEventListener('touchend', () => {
-        isDragging = false;
-    });
-
-    carousel.addEventListener('touchmove', (e) => {
-        if (!isDragging) return;
-        e.preventDefault();
-        const x = e.touches[0].pageX - carousel.offsetLeft;
-        const walk = (x - startX) * 2;
-        carousel.scrollLeft = scrollLeft - walk;
-    });
-}
-
 // Scroll down to common misconceptions section on homepage
 function scrollMisconceptions() {
     const commonMisconceptionsId = document.getElementById('common-misconceptions');
@@ -520,7 +450,6 @@ function scrollMisconceptions() {
     }
 }
 
-
 const roadmapId = document.getElementById('roadmap');
 function scrollDown() {    
   if (roadmapId) {
@@ -530,6 +459,44 @@ function scrollDown() {
       });
   }
 }
+
+// Homepage scrolling
+let observerScroll;
+let currentSectionIndex = 0;
+const sections = document.querySelectorAll('section');
+
+observerScroll = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            currentSectionIndex = Array.from(sections).indexOf(entry.target);
+        }
+    });
+}, {
+    threshold: 0.5
+});
+
+sections.forEach(section => {
+    observerScroll.observe(section);
+});
+
+window.addEventListener('wheel', function(event) {
+    if ((window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') && window.innerWidth >= 1000 && window.innerHeight >= 825) {
+        event.preventDefault();
+        if (event.deltaY > 0) {
+            // Scrolling down
+            if (currentSectionIndex < sections.length - 1) {
+                sections[currentSectionIndex + 1].scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // Scrolling up
+            if (currentSectionIndex > 1) {
+                sections[currentSectionIndex - 1].scrollIntoView({ behavior: 'smooth' });
+            } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+    }
+});
 
 // Footer waves color
 function updateWaveColors() {
@@ -901,3 +868,157 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Carousel for checklists on homepage
+(() => {
+    const carousel = document.querySelector('.carousel');
+    const track = carousel.querySelector('.carousel-track');
+    const items = Array.from(track.children);
+    const prevBtn = document.querySelector('.carousel-button.prev');
+    const nextBtn = document.querySelector('.carousel-button.next');
+
+    let currentIndex = 0;
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragCurrentX = 0;
+
+    const extraWidth = 185;
+
+    function getItemWidth() {
+        const style = getComputedStyle(items[0]);
+        const marginRight = Math.round(parseFloat(style.marginRight) || 0);
+        const marginLeft = Math.round(parseFloat(style.marginLeft) || 0);
+        return Math.round(items[0].offsetWidth + marginLeft + marginRight);
+    }
+
+    function visibleCount() {
+        return Math.floor(carousel.offsetWidth / getItemWidth());
+    }
+
+    function totalItemsWidth() {
+        return items.reduce((acc, item) => {
+            const style = getComputedStyle(item);
+            const marginRight = parseFloat(style.marginRight) || 0;
+            const marginLeft = parseFloat(style.marginLeft) || 0;
+            return acc + item.offsetWidth + marginLeft + marginRight;
+        }, 0);
+    }
+
+    function updateTrackWidth() {
+        const width = totalItemsWidth() + extraWidth;
+        track.style.width = `${width}px`;
+    }
+
+    function maxTranslateX() {
+        const trackWidth = parseFloat(track.style.width) || totalItemsWidth();
+        const containerWidth = carousel.offsetWidth;
+        const maxTx = trackWidth - containerWidth;
+        return maxTx > 0 ? maxTx : 0;
+    }
+
+    function updateCarousel() {
+        const itemWidth = getItemWidth();
+        const maxIndex = Math.max(items.length - visibleCount(), 0);
+
+        if (currentIndex < 0) currentIndex = 0;
+        if (currentIndex > maxIndex) currentIndex = maxIndex;
+
+        let translateX = currentIndex * itemWidth;
+
+        if (translateX > maxTranslateX()) {
+            translateX = maxTranslateX();
+            currentIndex = Math.round(translateX / itemWidth);
+        }
+
+        track.style.transition = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+        track.style.transform = `translateX(${-translateX + 35}px)`;
+    }
+
+    function moveNext() {
+        currentIndex++;
+        updateCarousel();
+    }
+
+    function movePrev() {
+        currentIndex--;
+        updateCarousel();
+    }
+
+    function onDragStart(pageX) {
+        isDragging = true;
+        dragStartX = pageX;
+        dragCurrentX = pageX;
+        track.style.transition = 'none';
+    }
+
+    function onDragMove(pageX) {
+        if (!isDragging) return;
+
+        dragCurrentX = pageX;
+        const dragDistance = dragCurrentX - dragStartX;
+        const itemWidth = getItemWidth();
+        const maxTx = maxTranslateX();
+
+        let translateX = currentIndex * itemWidth - dragDistance;
+
+        if (translateX < 0) {
+            translateX = translateX / 3;
+        } else if (translateX > maxTx) {
+            translateX = maxTx + (translateX - maxTx) / 3;
+        }
+
+        track.style.transform = `translateX(${-translateX}px)`;
+    }
+
+    function onDragEnd() {
+        if (!isDragging) return;
+        isDragging = false;
+
+        const dragDistance = dragCurrentX - dragStartX;
+        const itemWidth = getItemWidth();
+        let newIndex = currentIndex - Math.round(dragDistance / itemWidth);
+        const maxIndex = Math.max(items.length - visibleCount(), 0);
+
+        newIndex = Math.min(Math.max(newIndex, 0), maxIndex);
+        currentIndex = newIndex;
+
+        updateCarousel();
+    }
+
+    carousel.addEventListener('mousedown', e => {
+        e.preventDefault();
+        onDragStart(e.pageX);
+    });
+    window.addEventListener('mouseup', e => {
+        onDragEnd();
+    });
+    window.addEventListener('mousemove', e => {
+        if (!isDragging) return;
+        e.preventDefault();
+        onDragMove(e.pageX);
+    });
+
+    carousel.addEventListener('touchstart', e => {
+        onDragStart(e.touches[0].pageX);
+    });
+    window.addEventListener('touchend', e => {
+        onDragEnd();
+    });
+    window.addEventListener('touchmove', e => {
+        if (!isDragging) return;
+        onDragMove(e.touches[0].pageX);
+    }, { passive: false });
+
+    prevBtn.addEventListener('click', movePrev);
+    nextBtn.addEventListener('click', moveNext);
+
+    window.addEventListener('resize', () => {
+        const maxIndex = Math.max(items.length - visibleCount(), 0);
+        if (currentIndex > maxIndex) currentIndex = maxIndex;
+        updateCarousel();
+        updateTrackWidth();
+    });
+
+    updateTrackWidth();
+    updateCarousel();
+})();

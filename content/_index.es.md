@@ -2,11 +2,10 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<div class="hero">
+<section class="hero hx-py-30-40">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Gratuito, de código abierto</span>
-    {{< icon name="arrow-circle-right" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
+    {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
 
   {{< hextra/hero-container
     image="../images/surveillance.webp"
@@ -15,22 +14,25 @@ layout: hextra-home
   {{< /hextra/hero-container >}}
 
   <div class="hx-mt-6 hx-mb-4">
-  {{< hextra/hero-headline >}}Comienza Tu Viaje De Privacidad Hoy&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
+  {{< hextra/hero-headline class="md:hx-text-6xl" >}}Comienza Tu Viaje De Privacidad Hoy&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
   </div>
 
-  <div class=" hero-take-quiz hx-mb-6" style="display: inline-flex; width: 100%;">
-  {{< hextra/hero-subtitle >}}¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy es tu hoja de ruta para recuperar una vida privada.
+  <div class="hx-mb-6">
+  {{< hextra/hero-subtitle >}}
+  ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy es tu hoja de ruta para recuperar una vida privada.
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  {{< hextra/hero-button text="Empieza ahora" onclick="scrollDown();" style="margin: 2px;" >}}
-  {{< hextra/hero-button text="¿No estás seguro? Aquí está la razón" onclick="scrollMisconceptions();" style="margin: 2px;" >}}
-</div>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+    Empieza Ahora
+    <span class="arrow">&rarr;</span>
+  </a>
+  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</a>
+</section>
 
-<div id="roadmap">
-  <div class="roadmap hx-mt-6">
-    <div>
-      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de ruta</h2>
+<section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
+  <div>
+      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de Ruta</h2>
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
         <div class="tabs">
             <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
@@ -95,10 +97,9 @@ layout: hextra-home
       </ol>
     </div>
   </div>
-  </div>
-</div>
+</section>
 
-<div id="common-misconceptions" class="hx-text-center">
+<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Conceptos Erróneos Comunes</h2>
     <div class="misconception-container">
         <div class="misconception-card">
@@ -115,9 +116,9 @@ layout: hextra-home
             {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollDown();" style="margin-top: 15px;" >}}
         </div>
     </div>
-</div>
+</section>
 
-<div class="community-section">
+<section class="community-section hx-py-60-40">
     <div class="community-content">
         <img src="../images/earth.webp" alt="Imagen de la Comunidad" class="community-image">
     </div>
@@ -143,66 +144,52 @@ layout: hextra-home
           </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="checklists-section">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Listas de Verificación</h2>
-    <div class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</div>
-    <div class="carousel-button next" onclick="moveCarousel(1)">&#10095;</div>
-    <p class="hx-text-base hx-mb-10px">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
-    <div class="carousel">
+<section class="checklists-section hx-py-60-60">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Listas de Verificación</h2>
+  <p class="hx-text-base hx-mb-10px">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
+  <div class="carousel-container" aria-label="Checklists carousel">
+    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
+      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
         <div class="carousel-track">
-            <a href="checklists/?m=whistleblower" draggable="false">
-              <div class="carousel-item">
-                  <h3>Denunciante</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=protestor" draggable="false">
-              <div class="carousel-item">
-                  <h3>Manifestante</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=casual-internet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Usuario de Internet Casual</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=internet-pirate" draggable="false">
-              <div class="carousel-item">
-                  <h3>Pirata de Internet</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=darknet-user" draggable="false">
-              <div class="carousel-item">
-                  <h3>Usuario de la Darknet</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=social-media-influencer" draggable="false">
-              <div class="carousel-item">
-                  <h3>Influencer de Redes Sociales</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=hacker" draggable="false">
-              <div class="carousel-item">
-                  <h3>Hacker</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=digital-nomad" draggable="false">
-              <div class="carousel-item">
-                  <h3>Nómada Digital</h3>
-              </div>
-            </a>
-            <a href="checklists/?m=mass-surveillance" draggable="false">
-              <div class="carousel-item">
-                  <h3>Vigilancia Masiva</h3>
-              </div>
-            </a>
+          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Denunciante</div>
+          </a>
+          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Manifestante</div>
+          </a>
+          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Usuario de Internet Casual</div>
+          </a>
+          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Pirata de Internet</div>
+          </a>
+          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Usuario de la Darknet</div>
+          </a>
+          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Influencer de Redes Sociales</div>
+          </a>
+          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Hacker</div>
+          </a>
+          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Nómada Digital</div>
+          </a>
+          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">Vigilancia Masiva</div>
+          </a>
         </div>
-    </div>
-</div>
+      </div>
+    <div class="carousel-button next" aria-label="Next">&#10095;</div>
+    <div class="carousel-fade left"></div>
+    <div class="carousel-fade right"></div>
+  </div>
+</section>
 
-<div id="contributors" class="hx-mt-16">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">¡Necesitamos tu ayuda!</h2>
+<section id="contributors" class="hx-mb-16 hx-mt-18">
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">¡Necesitamos Tu Ayuda!</h2>
     <p class="hx-text-base">¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
       {{< hextra/hero-button text="Escribe contenido" link="about/write-content" icon="pencil" class="contributors-button" >}}
@@ -217,4 +204,4 @@ layout: hextra-home
       </div>
     </div>
     <a href="about/contributors"><p class="hx-text-base hx-underline hx-mt-4">Ver todos los contribuyentes</p></a>
-</div>
+</section>
