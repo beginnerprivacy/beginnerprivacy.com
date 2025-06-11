@@ -597,7 +597,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-11T14:48:13+02:00</lastmod>
+    <lastmod>2025-06-11T14:55:38+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -773,6 +773,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/checklists/digital-nomad/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/disclaimer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/disclaimer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/disclaimer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/disclaimer/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/donate/</loc>
