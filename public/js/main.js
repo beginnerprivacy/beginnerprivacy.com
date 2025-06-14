@@ -479,24 +479,28 @@ sections.forEach(section => {
     observerScroll.observe(section);
 });
 
-window.addEventListener('wheel', function(event) {
-    if ((window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') && window.innerWidth >= 1000 && window.innerHeight >= 825) {
-        event.preventDefault();
-        if (event.deltaY > 0) {
-            // Scrolling down
-            if (currentSectionIndex < sections.length - 1) {
-                sections[currentSectionIndex + 1].scrollIntoView({ behavior: 'smooth' });
-            }
-        } else {
-            // Scrolling up
-            if (currentSectionIndex > 1) {
-                sections[currentSectionIndex - 1].scrollIntoView({ behavior: 'smooth' });
+if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
+    document.querySelector('html').style.overflow = "hidden";
+    window.addEventListener('wheel', function(event) {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (!urlParams.has('m') && window.innerHeight >= 825) {
+            event.preventDefault();
+            if (event.deltaY > 0) {
+                // Scrolling down
+                if (currentSectionIndex < sections.length - 1) {
+                    sections[currentSectionIndex + 1].scrollIntoView({ behavior: 'smooth' });
+                }
             } else {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // Scrolling up
+                if (currentSectionIndex > 1) {
+                    sections[currentSectionIndex - 1].scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
             }
         }
-    }
-});
+    });
+}
 
 // Footer waves color
 function updateWaveColors() {

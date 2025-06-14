@@ -775,23 +775,6 @@
                 href="http://localhost:1313/checklists/digital-nomad/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/disclaimer/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/about/disclaimer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/disclaimer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/about/disclaimer/"
-                />
-  </url><url>
     <loc>http://localhost:1313/about/donate/</loc>
     <lastmod>2025-04-11T10:31:38+02:00</lastmod>
     <xhtml:link
@@ -862,6 +845,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/about/join-simplex-group/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/about/legal-disclaimer/</loc>
+    <lastmod>2025-06-11T15:31:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/legal-disclaimer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/legal-disclaimer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/legal-disclaimer/"
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/mass-surveillance/</loc>

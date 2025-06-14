@@ -238,7 +238,7 @@
 
 .chat-section-button {
     display: inline-flex;
-    border: 2px solid;
+    border: 1px solid;
     padding: 10px;
     border-radius: 10px;
 }
