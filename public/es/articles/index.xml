@@ -15,6 +15,32 @@
     
     
     <item>
+      <title>Juega: Una Guía Para Principiantes Sobre Juegos en Linux</title>
+      <link>http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Los juegos en Linux han visto avances significativos en los últimos años. Si has considerado cambiarte a Linux pero te preocupaba la disponibilidad de tus juegos favoritos, no estás solo. Esta preocupación ha sido común, pero la realidad es que muchos juegos populares ahora son accesibles en Linux.&lt;/p&gt;
+&lt;h3&gt;El Cambio en el Panorama de Los Juegos en Linux&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;el-cambio-en-el-panorama-de-los-juegos-en-linux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#el-cambio-en-el-panorama-de-los-juegos-en-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Históricamente, Linux no era una opción popular para los jugadores debido a la limitada selección de juegos y problemas de compatibilidad. Sin embargo, la situación ha mejorado considerablemente. Con el auge del desarrollo de juegos independientes y el aumento del apoyo de plataformas importantes, Linux se está convirtiendo en una opción más viable para los jugadores.&lt;/p&gt;
+&lt;h3&gt;Proton de Steam: Un Desarrollo Clave&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;proton-de-steam-un-desarrollo-clave&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#proton-de-steam-un-desarrollo-clave&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una de las herramientas más importantes para los juegos en Linux es &lt;a href=&#34;https://github.com/ValveSoftware/Proton&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Proton&lt;/a&gt;, una capa de compatibilidad desarrollada por Valve. Proton permite que muchos juegos exclusivos de Windows se ejecuten en Linux a través del cliente de Steam. Al utilizar Wine y otras tecnologías, Proton simplifica el proceso de jugar juegos de Windows en Linux.&lt;/p&gt;
+&lt;p&gt;Con Proton, los usuarios pueden instalar y jugar una amplia gama de juegos sin necesidad de configurar configuraciones complejas o sistemas de arranque dual. Esto ha abierto la puerta a muchos jugadores que anteriormente se sentían limitados por su sistema operativo.&lt;/p&gt;
+&lt;h3&gt;Usando ProtonDB Para Comprobaciones de Compatibilidad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;usando-protondb-para-comprobaciones-de-compatibilidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#usando-protondb-para-comprobaciones-de-compatibilidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Antes de sumergirte en un nuevo juego, es útil consultar &lt;a href=&#34;https://www.protondb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ProtonDB&lt;/a&gt;, una base de datos impulsada por la comunidad que proporciona información sobre qué tan bien funcionan varios juegos bajo Proton. Los usuarios comparten sus experiencias, informes de rendimiento y cualquier ajuste necesario, lo que facilita determinar qué juegos valen la pena probar en Linux.&lt;/p&gt;
+&lt;h3&gt;Lutris: Un Gestor de Juegos Integral&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lutris-un-gestor-de-juegos-integral&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lutris-un-gestor-de-juegos-integral&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Además de Proton, existe &lt;a href=&#34;https://lutris.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Lutris&lt;/a&gt;, un gestor de juegos de código abierto que admite una variedad de fuentes de juegos. Lutris permite a los usuarios gestionar juegos nativos de Linux, juegos de Windows a través de Wine e incluso emuladores para consolas clásicas. Simplifica el proceso de instalación con scripts que automatizan la configuración, haciéndolo accesible para usuarios de todos los niveles de habilidad.&lt;/p&gt;
+&lt;h3&gt;Reflexiones Finales&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;reflexiones-finales&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reflexiones-finales&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Los juegos en Linux han avanzado mucho, y las barreras que antes dificultaban el cambio para los jugadores están disminuyendo. Con herramientas como Proton y Lutris, jugar en Linux es más factible que nunca. Si has dudado en hacer el cambio debido a preocupaciones sobre la disponibilidad de juegos, ahora es un buen momento para explorar las opciones disponibles.&lt;/p&gt;
+&lt;p&gt;Los juegos en Linux están evolucionando, y puede valer la pena considerarlo como una plataforma para tus necesidades de juego.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Cómo y Por Qué Hacer Copias de Seguridad de Tus Dispositivos es Crucial</title>
       <link>http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
@@ -1445,81 +1471,6 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Usar FOSS es un paso importante en tu viaje hacia la privacidad y también es una opción superior al software propietario.&lt;/p&gt;
-&lt;h3&gt;¿Qué es FOSS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;qué-es-foss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#qu%c3%a9-es-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS significa &lt;strong&gt;Software Libre y de Código Abierto&lt;/strong&gt;. Esto significa que el código fuente del software es accesible al público, lo que permite a cualquiera verlo, modificarlo y distribuirlo. Esta apertura fomenta la colaboración y la innovación dentro de la comunidad de software.&lt;/p&gt;
-&lt;h3&gt;¿Por Qué es Mejor FOSS Que el Software Propietario?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;por-qué-es-mejor-foss-que-el-software-propietario&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#por-qu%c3%a9-es-mejor-foss-que-el-software-propietario&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS ofrece varias ventajas sobre el software propietario:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Transparencia&lt;/strong&gt;: Los usuarios pueden inspeccionar el código fuente para entender cómo funciona el software, asegurando que no haya características maliciosas ocultas o recolección de datos en curso.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Seguridad&lt;/strong&gt;: Con la capacidad de construir software desde el código fuente, los usuarios pueden evitar descargar versiones potencialmente dañinas que pueden contener malware, como caballos de Troya.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Soporte de la Comunidad&lt;/strong&gt;: FOSS a menudo tiene una comunidad vibrante que contribuye a su desarrollo, proporcionando soporte y actualizaciones.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;¿Cómo Encuentro Alternativas a FOSS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-encuentro-alternativas-a-foss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-encuentro-alternativas-a-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Encontrar alternativas a FOSS es más fácil que nunca, gracias a sitios web dedicados que enumeran varias opciones. Aquí hay algunos recursos recomendados:&lt;/p&gt;
-&lt;div class=&#34;recommendations&#34;&gt;
-  &lt;div class=&#34;grid&#34;&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;OpenSourceAlternative.to&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;Un directorio completo de alternativas de código abierto.&lt;/p&gt;
-      
-      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;F-Droid&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;Una tienda de aplicaciones para aplicaciones Android libres y de código abierto.&lt;/p&gt;
-      
-      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;recommendation-card&#34;&gt;
-      &lt;div class=&#34;recommendation-header&#34;&gt;
-          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
-          &lt;h2 class=&#34;recommended-title&#34;&gt;AlternativeTo&lt;/h2&gt;
-      &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;Encuentra alternativas al software propietario.&lt;/p&gt;
-      
-      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;Cómo Reemplazar el Software Propietario con FOSS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-reemplazar-el-software-propietario-con-foss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-reemplazar-el-software-propietario-con-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Migrar del software propietario a FOSS puede ser un desafío. Aquí hay algunos consejos para hacer la transición más suave:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Comienza Despacio&lt;/strong&gt;: Comienza reemplazando una aplicación propietaria a la vez con su alternativa FOSS. Esto te permite ajustarte gradualmente.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Prueba las Alternativas&lt;/strong&gt;: Descarga la alternativa FOSS y úsala durante unos días para familiarizarte con sus características e interfaz.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Migra tus Datos&lt;/strong&gt;: Una vez que te sientas cómodo, transfiere tus archivos y datos al nuevo software.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Libérate del Software Propietario con FOSS</title>
-      <link>http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
       <description>
         
         

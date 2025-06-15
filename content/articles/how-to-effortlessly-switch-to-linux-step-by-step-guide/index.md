@@ -10,6 +10,10 @@ excludeSearch: false
 ### Why Switch to Linux? 
 Linux isn’t just for tech wizards—it’s a powerful, open-source operating system that prioritizes **privacy**, **customization**, and **stability**. Unlike Windows or macOS, Linux doesn’t track your activity or force you into proprietary ecosystems. It’s free to use, modify, and share, backed by a global community of developers. Whether you’re a privacy-conscious user, a tinkerer, or someone tired of bloated software, Linux offers a refreshing alternative.
 
+<br>
+
+You might say that you still want to play your favorite games. The good news is that you can! Many popular games are now available on Linux, and with tools like Proton, you can enjoy a wide range of games that were once exclusive to Windows. If you want to learn more about playing your favorite games on Linux, read our article [here](../game-on-a-beginners-guide-to-linux-gaming).
+
 ### Choosing Your Linux Distribution
 With hundreds of distributions (or “distros”) available, picking the right one can feel overwhelming. Here’s a quick breakdown:
 - **Debian-based distros** (e.g., Ubuntu, Linux Mint) are ideal for beginners due to their stability and extensive software libraries.

@@ -10,6 +10,10 @@ excludeSearch: false
 ### ¿Por Qué Cambiar a Linux?
 Linux no es solo para magos de la tecnología; es un poderoso sistema operativo de código abierto que prioriza la **privacidad**, la **personalización** y la **estabilidad**. A diferencia de Windows o macOS, Linux no rastrea tu actividad ni te obliga a entrar en ecosistemas propietarios. Es gratuito para usar, modificar y compartir, respaldado por una comunidad global de desarrolladores. Ya seas un usuario consciente de la privacidad, un entusiasta o alguien cansado del software inflado, Linux ofrece una alternativa refrescante.
 
+<br>
+
+Puedes decir que aún quieres jugar tus juegos favoritos. ¡La buena noticia es que puedes! Muchos juegos populares ahora están disponibles en Linux, y con herramientas como Proton, puedes disfrutar de una amplia gama de juegos que antes eran exclusivos de Windows. Si deseas aprender más sobre cómo jugar tus juegos favoritos en Linux, lee nuestro artículo [aquí](../game-on-a-beginners-guide-to-linux-gaming).
+
 ### Elegir tu Distribución de Linux
 Con cientos de distribuciones (o "distros") disponibles, elegir la correcta puede parecer abrumador. Aquí hay un desglose rápido:
 - Las **distros basadas en Debian** (por ejemplo, Ubuntu, Linux Mint) son ideales para principiantes debido a su estabilidad y amplias bibliotecas de software.
