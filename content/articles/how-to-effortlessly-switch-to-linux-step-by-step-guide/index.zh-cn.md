@@ -12,7 +12,7 @@ Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作�
 
 <br>
 
-你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 [这里](../game-on-a-beginners-guide-to-linux-gaming)。
+你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 [这里](/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming)。
 
 ### 选择你的 Linux 发行版
 有数百种发行版（或称“distros”）可供选择，选择合适的一个可能会让人感到不知所措。以下是快速概述：
