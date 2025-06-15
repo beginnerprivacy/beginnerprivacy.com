@@ -15,6 +15,32 @@
     
     
     <item>
+      <title>Game On: A Beginner&#39;s Guide to Linux Gaming</title>
+      <link>http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Linux gaming has seen significant advancements in recent years. If you’ve considered switching to Linux but were concerned about the availability of your favorite games, you’re not alone. This concern has been common, but the reality is that many popular games are now accessible on Linux.&lt;/p&gt;
+&lt;h3&gt;The Changing Landscape of Linux Gaming&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-changing-landscape-of-linux-gaming&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-changing-landscape-of-linux-gaming&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Historically, Linux was not a popular choice for gamers due to a limited selection of games and compatibility issues. However, the situation has improved considerably. With the rise of indie game development and increased support from major platforms, Linux is becoming a more viable option for gamers.&lt;/p&gt;
+&lt;h3&gt;Steam&amp;rsquo;s Proton: A Key Development&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;steams-proton-a-key-development&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#steams-proton-a-key-development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;One of the most important tools for Linux gaming is &lt;a href=&#34;https://github.com/ValveSoftware/Proton&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Proton&lt;/a&gt;, a compatibility layer developed by Valve. Proton allows many Windows-exclusive games to run on Linux through the Steam client. By utilizing Wine and other technologies, Proton simplifies the process of playing Windows games on Linux.&lt;/p&gt;
+&lt;p&gt;With Proton, users can install and play a wide range of games without needing to set up complex configurations or dual-boot systems. This has opened the door for many gamers who previously felt limited by their operating system.&lt;/p&gt;
+&lt;h3&gt;Using ProtonDB for Compatibility Checks&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-protondb-for-compatibility-checks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-protondb-for-compatibility-checks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Before diving into a new game, it’s helpful to check &lt;a href=&#34;https://www.protondb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ProtonDB&lt;/a&gt;, a community-driven database that provides information on how well various games run under Proton. Users share their experiences, performance reports, and any necessary tweaks, making it easier to determine which games are worth trying on Linux.&lt;/p&gt;
+&lt;h3&gt;Lutris: A Comprehensive Game Manager&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lutris-a-comprehensive-game-manager&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lutris-a-comprehensive-game-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In addition to Proton, there’s &lt;a href=&#34;https://lutris.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Lutris&lt;/a&gt;, an open-source game manager that supports a variety of game sources. Lutris allows users to manage native Linux games, Windows games through Wine, and even emulators for classic consoles. It simplifies the installation process with scripts that automate setup, making it accessible for users of all skill levels.&lt;/p&gt;
+&lt;h3&gt;Final Thoughts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;final-thoughts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#final-thoughts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux gaming has come a long way, and the barriers that once made it difficult for gamers to switch are diminishing. With tools like Proton and Lutris, playing games on Linux is more feasible than ever. If you’ve been hesitant to make the switch due to concerns about game availability, now is a good time to explore the options available.&lt;/p&gt;
+&lt;p&gt;Linux gaming is evolving, and it may be worth considering as a platform for your gaming needs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>How and Why Backing Up Your Devices Is Crucial</title>
       <link>http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>

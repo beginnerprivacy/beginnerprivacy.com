@@ -254,6 +254,24 @@
                 href="http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods/</loc>
     <lastmod>2025-05-07T16:22:16+02:00</lastmod>
     <xhtml:link
