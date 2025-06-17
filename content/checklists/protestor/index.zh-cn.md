@@ -9,4 +9,4 @@ title: 抗议者
 
 {{< hextra/checklist-item link="../articles/how-and-why-backing-up-your-devices-is-crucial" text="备份你的数据，以防手机丢失或被警方没收。" id="back-up-your-phone" >}}备份你的手机{{< /hextra/checklist-item >}}
 
-{{< hextra/checklist-item text="穿着能够掩盖你身份并保护你免受监视的衣物。" id="cover-yourself" >}}保护自己{{< /hextra/checklist-item >}}
+{{< hextra/checklist-item link="../articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity" text="穿着能够掩盖你身份并保护你免受监视的衣物。" id="cover-yourself" >}}保护自己{{< /hextra/checklist-item >}}

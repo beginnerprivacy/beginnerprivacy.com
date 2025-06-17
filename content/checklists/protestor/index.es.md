@@ -9,4 +9,4 @@ title: Manifestante
 
 {{< hextra/checklist-item link="../articles/how-and-why-backing-up-your-devices-is-crucial" text="Haz una copia de seguridad de tus datos en caso de que tu teléfono se pierda o sea confiscado por la policía." id="back-up-your-phone" >}}Haz una copia de seguridad de tu teléfono{{< /hextra/checklist-item >}}
 
-{{< hextra/checklist-item text="Usa ropa que oculte tu identidad y te proteja de la vigilancia." id="cover-yourself" >}}Cúbrete{{< /hextra/checklist-item >}}
+{{< hextra/checklist-item link="../articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity" text="Usa ropa que oculte tu identidad y te proteja de la vigilancia." id="cover-yourself" >}}Cúbrete{{< /hextra/checklist-item >}}

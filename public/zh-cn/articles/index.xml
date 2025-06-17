@@ -41,6 +41,32 @@
     </item>
     
     <item>
+      <title>游戏开始：Linux游戏初学者指南</title>
+      <link>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
+      <description>
+        
+        
+        &lt;p&gt;近年来，Linux游戏取得了显著进展。如果你考虑过切换到Linux，但担心自己最喜欢的游戏的可用性，你并不孤单。这种担忧很常见，但现实是许多热门游戏现在可以在Linux上访问。&lt;/p&gt;
+&lt;h3&gt;Linux游戏的变化&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux游戏的变化&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux%e6%b8%b8%e6%88%8f%e7%9a%84%e5%8f%98%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;历史上，由于游戏选择有限和兼容性问题，Linux并不是玩家的热门选择。然而，情况已经有了显著改善。随着独立游戏开发的兴起和主要平台的支持增加，Linux正成为玩家更可行的选择。&lt;/p&gt;
+&lt;h3&gt;Steam的Proton：关键发展&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;steam的proton关键发展&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#steam%e7%9a%84proton%e5%85%b3%e9%94%ae%e5%8f%91%e5%b1%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux游戏最重要的工具之一是&lt;a href=&#34;https://github.com/ValveSoftware/Proton&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Proton&lt;/a&gt;，这是Valve开发的兼容性层。Proton允许许多仅限Windows的游戏通过Steam客户端在Linux上运行。通过利用Wine和其他技术，Proton简化了在Linux上玩Windows游戏的过程。&lt;/p&gt;
+&lt;p&gt;有了Proton，用户可以安装和玩各种游戏，而无需设置复杂的配置或双重启动系统。这为许多之前感到受限于操作系统的玩家打开了大门。&lt;/p&gt;
+&lt;h3&gt;使用ProtonDB进行兼容性检查&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使用protondb进行兼容性检查&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8protondb%e8%bf%9b%e8%a1%8c%e5%85%bc%e5%ae%b9%e6%80%a7%e6%a3%80%e6%9f%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在开始新游戏之前，查看&lt;a href=&#34;https://www.protondb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ProtonDB&lt;/a&gt;是很有帮助的，这是一个由社区驱动的数据库，提供有关各种游戏在Proton下运行情况的信息。用户分享他们的经验、性能报告和任何必要的调整，使确定哪些游戏值得在Linux上尝试变得更加容易。&lt;/p&gt;
+&lt;h3&gt;Lutris：全面的游戏管理器&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lutris全面的游戏管理器&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lutris%e5%85%a8%e9%9d%a2%e7%9a%84%e6%b8%b8%e6%88%8f%e7%ae%a1%e7%90%86%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;除了Proton，还有&lt;a href=&#34;https://lutris.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Lutris&lt;/a&gt;，这是一个支持多种游戏来源的开源游戏管理器。Lutris允许用户管理本地Linux游戏、通过Wine运行的Windows游戏，甚至经典游戏机的模拟器。它通过自动化设置的脚本简化了安装过程，使所有技能水平的用户都能轻松使用。&lt;/p&gt;
+&lt;h3&gt;最后思考&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;最后思考&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%80%e5%90%8e%e6%80%9d%e8%80%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux游戏已经走过了很长的路，曾经使玩家难以切换的障碍正在减少。借助Proton和Lutris等工具，在Linux上玩游戏比以往任何时候都更可行。如果你因为对游戏可用性的担忧而犹豫不决，现在是探索可用选项的好时机。&lt;/p&gt;
+&lt;p&gt;Linux游戏正在不断发展，值得考虑作为你的游戏需求的平台。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>如何以及为什么备份您的设备至关重要</title>
       <link>http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
@@ -1216,7 +1242,7 @@
         &lt;h3&gt;为什么切换到 Linux？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么切换到-linux&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%88%87%e6%8d%a2%e5%88%b0-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作系统，优先考虑 &lt;strong&gt;隐私&lt;/strong&gt;、&lt;strong&gt;定制&lt;/strong&gt; 和 &lt;strong&gt;稳定性&lt;/strong&gt;。与 Windows 或 macOS 不同，Linux 不会跟踪你的活动，也不会强迫你进入专有生态系统。它是免费的，可以使用、修改和分享，得到了全球开发者社区的支持。无论你是一个关注隐私的用户、一个爱折腾的人，还是一个厌倦了臃肿软件的人，Linux 都提供了一个令人耳目一新的替代方案。&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 &lt;a href=&#34;../game-on-a-beginners-guide-to-linux-gaming&#34; &gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 &lt;a href=&#34;http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming&#34; &gt;这里&lt;/a&gt;。&lt;/p&gt;
 &lt;h3&gt;选择你的 Linux 发行版&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;选择你的-linux-发行版&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e9%80%89%e6%8b%a9%e4%bd%a0%e7%9a%84-linux-%e5%8f%91%e8%a1%8c%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;有数百种发行版（或称“distros”）可供选择，选择合适的一个可能会让人感到不知所措。以下是快速概述：&lt;/p&gt;
 &lt;ul&gt;

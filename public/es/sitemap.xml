@@ -20,6 +20,24 @@
                 href="http://localhost:1313/es/articles/game-on-a-beginners-guide-to-linux-gaming/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial/</loc>
     <lastmod>2025-06-02T13:30:24+02:00</lastmod>
     <xhtml:link
@@ -237,7 +255,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</loc>
-    <lastmod>2025-06-15T16:57:04+02:00</lastmod>
+    <lastmod>2025-06-15T17:02:15+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
