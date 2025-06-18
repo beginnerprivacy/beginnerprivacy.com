@@ -184,10 +184,12 @@
 
 &lt;li&gt;
   
-    &lt;div&gt;
-      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-plan-your-trip&#34;&gt;
-      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Planifica tu viaje&lt;/span&gt;&lt;/strong&gt;
-    &lt;/div&gt;
+    &lt;a href=&#34;../articles/planning-your-trip-to-and-from-a-protest&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-plan-your-trip&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Planifica tu viaje&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
   
   &lt;p class=&#34;checklist-paragraph&#34;&gt;Planifica cuidadosamente tu ruta hacia y desde la protesta para evitar posibles puntos críticos de actividad policial y vigilancia.&lt;/p&gt;
 &lt;/li&gt;

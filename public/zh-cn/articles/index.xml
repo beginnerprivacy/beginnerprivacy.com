@@ -15,37 +15,161 @@
     
     
     <item>
-      <title>游戏开始：Linux游戏初学者指南</title>
-      <link>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <title>保持低调：隐蔽身份的穿衣技巧</title>
+      <link>http://localhost:1313/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</guid>
       <description>
         
         
-        &lt;p&gt;近年来，Linux游戏取得了显著进展。如果你考虑过切换到Linux，但担心自己最喜欢的游戏的可用性，你并不孤单。这种担忧很常见，但现实是许多热门游戏现在可以在Linux上访问。&lt;/p&gt;
-&lt;h3&gt;Linux游戏的变化&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;linux游戏的变化&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#linux%e6%b8%b8%e6%88%8f%e7%9a%84%e5%8f%98%e5%8c%96&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;历史上，由于游戏选择有限和兼容性问题，Linux并不是玩家的热门选择。然而，情况已经有了显著改善。随着独立游戏开发的兴起和主要平台的支持增加，Linux正成为玩家更可行的选择。&lt;/p&gt;
-&lt;h3&gt;Steam的Proton：关键发展&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;steam的proton关键发展&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#steam%e7%9a%84proton%e5%85%b3%e9%94%ae%e5%8f%91%e5%b1%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux游戏最重要的工具之一是&lt;a href=&#34;https://github.com/ValveSoftware/Proton&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Proton&lt;/a&gt;，这是Valve开发的兼容性层。Proton允许许多仅限Windows的游戏通过Steam客户端在Linux上运行。通过利用Wine和其他技术，Proton简化了在Linux上玩Windows游戏的过程。&lt;/p&gt;
-&lt;p&gt;有了Proton，用户可以安装和玩各种游戏，而无需设置复杂的配置或双重启动系统。这为许多之前感到受限于操作系统的玩家打开了大门。&lt;/p&gt;
-&lt;h3&gt;使用ProtonDB进行兼容性检查&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使用protondb进行兼容性检查&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8protondb%e8%bf%9b%e8%a1%8c%e5%85%bc%e5%ae%b9%e6%80%a7%e6%a3%80%e6%9f%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在开始新游戏之前，查看&lt;a href=&#34;https://www.protondb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ProtonDB&lt;/a&gt;是很有帮助的，这是一个由社区驱动的数据库，提供有关各种游戏在Proton下运行情况的信息。用户分享他们的经验、性能报告和任何必要的调整，使确定哪些游戏值得在Linux上尝试变得更加容易。&lt;/p&gt;
-&lt;h3&gt;Lutris：全面的游戏管理器&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lutris全面的游戏管理器&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#lutris%e5%85%a8%e9%9d%a2%e7%9a%84%e6%b8%b8%e6%88%8f%e7%ae%a1%e7%90%86%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;除了Proton，还有&lt;a href=&#34;https://lutris.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Lutris&lt;/a&gt;，这是一个支持多种游戏来源的开源游戏管理器。Lutris允许用户管理本地Linux游戏、通过Wine运行的Windows游戏，甚至经典游戏机的模拟器。它通过自动化设置的脚本简化了安装过程，使所有技能水平的用户都能轻松使用。&lt;/p&gt;
-&lt;h3&gt;最后思考&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;最后思考&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%9c%80%e5%90%8e%e6%80%9d%e8%80%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux游戏已经走过了很长的路，曾经使玩家难以切换的障碍正在减少。借助Proton和Lutris等工具，在Linux上玩游戏比以往任何时候都更可行。如果你因为对游戏可用性的担忧而犹豫不决，现在是探索可用选项的好时机。&lt;/p&gt;
-&lt;p&gt;Linux游戏正在不断发展，值得考虑作为你的游戏需求的平台。&lt;/p&gt;
+        &lt;p&gt;对于抗议者来说，保持匿名不仅仅是一种策略——它是确保个人安全的重要部分。随着面部识别摄像头和无人机等监控技术的日益普及，融入人群变得比以往任何时候都更加重要。&lt;/p&gt;
+&lt;h3&gt;理解针对抗议者的监控&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;理解针对抗议者的监控&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%90%86%e8%a7%a3%e9%92%88%e5%af%b9%e6%8a%97%e8%ae%ae%e8%80%85%e7%9a%84%e7%9b%91%e6%8e%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;面部识别技术&lt;/strong&gt;：执法部门使用此技术实时或从录制的画面中识别个人。遮掩你的面部特征以避免被识别至关重要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;闭路电视摄像头&lt;/strong&gt;：这些摄像头在公共场所随处可见，捕捉人们的详细图像。选择有助于你不被注意的服装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;无人机&lt;/strong&gt;：配备高分辨率摄像头的无人机可以从空中监控抗议活动。从各个角度减少你的可见性是至关重要的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;融入人群的穿衣选择&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;融入人群的穿衣选择&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%9e%8d%e5%85%a5%e4%ba%ba%e7%be%a4%e7%9a%84%e7%a9%bf%e8%a1%a3%e9%80%89%e6%8b%a9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;中性色&lt;/strong&gt;：选择黑色、灰色、橄榄色或棕色等柔和的颜色。这些色调有助于你与人群融为一体。避免鲜艳的颜色和独特的图案，这些会让你显得突出。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;宽松的款式&lt;/strong&gt;：穿宽松的衣服以遮掩你的身体形状。叠穿是一个聪明的选择；如果需要，它可以让你迅速改变外观。帽子、头巾和面具非常适合遮住你的脸。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;鞋子&lt;/strong&gt;：选择舒适、简单且没有标志的鞋子。这样，你可以快速移动，不会引起对你脚的注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;匿名的配件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;匿名的配件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8c%bf%e5%90%8d%e7%9a%84%e9%85%8d%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;面部伪装&lt;/strong&gt;：使用中性的太阳镜、面具和宽边帽来帮助遮掩你的脸部，以免被摄像头捕捉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实用的包&lt;/strong&gt;：选择简单、中性的背包或腰包，以便在不引起注意的情况下携带你的必需品。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;手套&lt;/strong&gt;：戴手套可以帮助避免留下指纹，也可以遮盖你手上的任何纹身。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;购买装备&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;购买装备&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b4%ad%e4%b9%b0%e8%a3%85%e5%a4%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在准备抗议活动时，明智的做法是以低调的方式获取你的服装和配件。以下是一些建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;现金购买&lt;/strong&gt;：尽可能在实体店用现金购买你的装备。这可以最小化你的购买被追踪到的可能性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;使用加密货币&lt;/strong&gt;：如果你更喜欢在线购物，可以考虑使用加密货币进行交易。这增加了一层额外的匿名性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提前计划&lt;/strong&gt;：理想情况下，在抗议活动前几个月购买你的服装。这样，你可以避免任何可能与身份相关的临时购买。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;保持警惕&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;保持警惕&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bf%9d%e6%8c%81%e8%ad%a6%e6%83%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;观察人群&lt;/strong&gt;：注意你的周围环境。寻找安保人员和监控设备。定期扫描区域可以帮助你避免被发现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;遵循常规&lt;/strong&gt;：在移动时，尽量靠近人群的中心，但不要完全处于中心。这样，你可以与人流融为一体，而不会引起注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;改变你的日常&lt;/strong&gt;：经常改变你的路线、衣物层次和配件。不可预测性使得任何人更难追踪你。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>保持低调：隐蔽身份的穿衣技巧</title>
+      <link>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
+      <description>
+        
+        
+        &lt;p&gt;对于抗议者来说，保持匿名不仅仅是一种策略——它是确保个人安全的重要部分。随着面部识别摄像头和无人机等监控技术的日益普及，融入人群变得比以往任何时候都更加重要。&lt;/p&gt;
+&lt;h3&gt;理解针对抗议者的监控&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;理解针对抗议者的监控&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%90%86%e8%a7%a3%e9%92%88%e5%af%b9%e6%8a%97%e8%ae%ae%e8%80%85%e7%9a%84%e7%9b%91%e6%8e%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;面部识别技术&lt;/strong&gt;：执法部门使用此技术实时或从录制的画面中识别个人。遮掩你的面部特征以避免被识别至关重要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;闭路电视摄像头&lt;/strong&gt;：这些摄像头在公共场所随处可见，捕捉人们的详细图像。选择有助于你不被注意的服装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;无人机&lt;/strong&gt;：配备高分辨率摄像头的无人机可以从空中监控抗议活动。从各个角度减少你的可见性是至关重要的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;融入人群的穿衣选择&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;融入人群的穿衣选择&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%9e%8d%e5%85%a5%e4%ba%ba%e7%be%a4%e7%9a%84%e7%a9%bf%e8%a1%a3%e9%80%89%e6%8b%a9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;中性色&lt;/strong&gt;：选择黑色、灰色、橄榄色或棕色等柔和的颜色。这些色调有助于你与人群融为一体。避免鲜艳的颜色和独特的图案，这些会让你显得突出。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;宽松的款式&lt;/strong&gt;：穿宽松的衣服以遮掩你的身体形状。叠穿是一个聪明的选择；如果需要，它可以让你迅速改变外观。帽子、头巾和面具非常适合遮住你的脸。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;鞋子&lt;/strong&gt;：选择舒适、简单且没有标志的鞋子。这样，你可以快速移动，不会引起对你脚的注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;匿名的配件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;匿名的配件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8c%bf%e5%90%8d%e7%9a%84%e9%85%8d%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;面部伪装&lt;/strong&gt;：使用中性的太阳镜、面具和宽边帽来帮助遮掩你的脸部，以免被摄像头捕捉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实用的包&lt;/strong&gt;：选择简单、中性的背包或腰包，以便在不引起注意的情况下携带你的必需品。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;手套&lt;/strong&gt;：戴手套可以帮助避免留下指纹，也可以遮盖你手上的任何纹身。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;购买装备&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;购买装备&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b4%ad%e4%b9%b0%e8%a3%85%e5%a4%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在准备抗议活动时，明智的做法是以低调的方式获取你的服装和配件。以下是一些建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;现金购买&lt;/strong&gt;：尽可能在实体店用现金购买你的装备。这可以最小化你的购买被追踪到的可能性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;使用加密货币&lt;/strong&gt;：如果你更喜欢在线购物，可以考虑使用加密货币进行交易。这增加了一层额外的匿名性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;提前计划&lt;/strong&gt;：理想情况下，在抗议活动前几个月购买你的服装。这样，你可以避免任何可能与身份相关的临时购买。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;保持警惕&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;保持警惕&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bf%9d%e6%8c%81%e8%ad%a6%e6%83%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;观察人群&lt;/strong&gt;：注意你的周围环境。寻找安保人员和监控设备。定期扫描区域可以帮助你避免被发现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;遵循常规&lt;/strong&gt;：在移动时，尽量靠近人群的中心，但不要完全处于中心。这样，你可以与人流融为一体，而不会引起注意。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;改变你的日常&lt;/strong&gt;：经常改变你的路线、衣物层次和配件。不可预测性使得任何人更难追踪你。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
     
     <item>
       <title>游戏开始：Linux游戏初学者指南</title>
-      <link>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
+      <link>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
       <description>
         
         
