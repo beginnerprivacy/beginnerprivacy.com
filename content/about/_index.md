@@ -7,13 +7,13 @@ Welcome to Beginner Privacy!
 In today’s digital world, protecting personal data can feel overwhelming. Our mission is to simplify online privacy for everyone—beginners to experts.
 
 ### What We Offer
-Clear guides on privacy basics, advanced tools, and actionable steps to secure your online presence. Learn to safeguard social media, choose private software, or master encryption.
+We provide clear, easy-to-follow guides on privacy fundamentals, advanced tools, and practical steps to enhance your online security. Whether you want to protect your social media accounts, select private software, or understand encryption, we have the resources you need to take control of your digital life.
 
 ### Our Inspiration
-Inspired by platforms like PrivacyTools and PrivacyGuides, we take a distinct, non-tool-centric approach. Instead of overwhelming beginners with complex software or systems, we focus on foundational knowledge and practical habits to build privacy first. Tools come later—once you’ve mastered the basics.
+At Beginner Privacy, we believe that everyone deserves to feel secure online. Instead of overwhelming beginners with complex software or systems, we focus on foundational knowledge and practical habits to build privacy first. Tools come later—once you’ve mastered the basics first.
 
 ### Find Us Here
-While Beginner Privacy has accounts on various social media platforms to reach new users. This is not an endorsement of these platforms, and we generally discourage their use.
+While Beginner Privacy has accounts on various social media platforms to reach new people. This is not an endorsement of these platforms, and we generally discourage their use.
 
 <div class="recommendations">
   <div class="grid">

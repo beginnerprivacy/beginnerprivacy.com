@@ -2,18 +2,18 @@
 title: Acerca De
 toc: false
 ---
-¡Bienvenido a Beginner Privacy! 
+¡Bienvenido a Beginner Privacy!
 
-En el mundo digital de hoy, proteger los datos personales puede sentirse abrumador.  Nuestra misión es simplificar la privacidad en línea para todos—desde principiantes hasta expertos.
+En el mundo digital de hoy, proteger los datos personales puede parecer abrumador. Nuestra misión es simplificar la privacidad en línea para todos, desde principiantes hasta expertos.
 
 ### Lo Que Ofrecemos
-Guías claras sobre los conceptos básicos de privacidad, herramientas avanzadas y pasos prácticos para asegurar tu presencia en línea.  Aprende a proteger las redes sociales, elegir software privado o dominar la encriptación.
+Proporcionamos guías claras y fáciles de seguir sobre los fundamentos de la privacidad, herramientas avanzadas y pasos prácticos para mejorar tu seguridad en línea. Ya sea que desees proteger tus cuentas de redes sociales, seleccionar software privado o entender la encriptación, tenemos los recursos que necesitas para tomar el control de tu vida digital.
 
 ### Nuestra Inspiración
-Inspirados por plataformas como PrivacyTools y PrivacyGuides, adoptamos un enfoque distinto, no centrado en herramientas.  En lugar de abrumar a los principiantes con software o sistemas complejos, nos enfocamos en el conocimiento fundamental y los hábitos prácticos para construir la privacidad primero.  Las herramientas vienen después, una vez que hayas dominado lo básico.
+En Beginner Privacy, creemos que todos merecen sentirse seguros en línea. En lugar de abrumar a los principiantes con software o sistemas complejos, nos enfocamos en el conocimiento fundamental y en hábitos prácticos para construir una privacidad sólida desde el principio. Las herramientas vienen después, una vez que hayas dominado lo básico.
 
 ### Encuéntranos Aquí
-Si bien Beginner Privacy tiene cuentas en varias plataformas de redes sociales para llegar a nuevos usuarios. Esto no es un respaldo de estas plataformas, y generalmente desaconsejamos su uso.
+Beginner Privacy tiene cuentas en varias plataformas de redes sociales para llegar a nuevas personas. Esto no es un respaldo de estas plataformas, y generalmente desaconsejamos su uso.
 
 <div class="recommendations">
   <div class="grid">
