@@ -1,63 +1,81 @@
 ---
-title: Cómo Eliminarte de Los Corredores de Datos
-date: 2025-05-04
+title: "Dónde Esconderse: Una Guía de Países que No te Extraditarán"
+date: 2025-06-18
 authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-Los corredores de datos recopilan y compilan grandes cantidades de información personal sobre ti de una variedad de fuentes para crear perfiles detallados. Estos perfiles pueden ser utilizados para marketing dirigido, publicidad, e incluso pueden [afectar tus tasas de crédito o de seguro](https://www.npr.org/sections/health-shots/2018/07/17/629441555/health-insurers-are-vacuuming-up-details-about-you-and-it-could-raise-your-rates)—a menudo sin tu conocimiento o consentimiento directo.
+Huir a otro país es una decisión importante que a menudo se toma bajo presión. Ya sea por persecución política, problemas legales o seguridad personal, las personas pueden buscar refugio en naciones que les ofrezcan protección contra la extradición.
 
-### Eliminarte de Los Corredores de Datos
-Recuperar el control sobre tus datos personales implica algunos pasos clave, desde identificar dónde se encuentran tus datos hasta enviar solicitudes de eliminación. Aquí te mostramos cómo abordarlo:
+### Quiénes Pueden Huir y Por Qué
+- **Refugiados Políticos**
+  - Personas que escapan de la persecución o regímenes opresivos.
 
-#### 1. Identificar Dónde Se Almacena Tu Información
-Comienza por descubrir qué corredores de datos tienen tu información personal. Puedes explorar dos métodos para encontrar tus datos a través de estos corredores:
+- **Denunciantes**
+  - Aquellos que exponen irregularidades gubernamentales o corporativas.
 
-##### Búsqueda Manual
-Visita el sitio web de cada corredor de datos para localizar su página de exclusión o privacidad. Muchos de estos sitios ofrecen bases de datos buscables que te permiten verificar si tu información está listada.
+- **Delincuentes**
+  - Personas que evitan la persecución por delitos.
 
-<br>
+- **Activistas**
+  - Personas que enfrentan acciones legales por su activismo.
 
-Te recomendamos priorizar tu búsqueda con los corredores de datos marcados con una 💐 (crucial) o ☠ (alta prioridad) en la [Lista de exclusión de corredores de datos](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List).
+### Países que No Extraditan a EE. UU.
+Entender la extradición es crucial para cualquiera que esté considerando huir. Los tratados de extradición varían según el país y pueden verse influenciados por relaciones políticas. A continuación, se presenta una tabla que enumera los países que no tienen tratados de extradición con EE. UU.:
 
-##### Herramientas Automatizadas
-Existen servicios y herramientas enfocadas en la privacidad que escanean múltiples corredores de datos simultáneamente en busca de tu información personal. Estos pueden agilizar el proceso de descubrimiento, ayudándote a identificar rápidamente dónde está listada tu información.
+{{< callout type="info" >}}  
+  Ninguno de los países enumerados tiene acuerdos oficiales para extraditar a EE. UU., pero pueden ocurrir excepciones en situaciones especiales.  
+{{< /callout >}}
 
-<div class="recommendations">  
-  <div class="grid">
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
-  </div>
-</div>
+| País              | Estado de Extradición | Notas                                      |
+|------------------|-----------------------|--------------------------------------------|
+| Afganistán       | No Extradición        | Conflicto y inestabilidad en curso.       |
+| Baréin           | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Bielorrusia      | No Extradición        | Lazos cercanos con Rusia y postura anti-EE. UU. |
+| Brunéi           | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Camboya          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| China            | Extradición Limitada  | La extradición es compleja y políticamente cargada. |
+| Cuba             | No Extradición        | Tensiones políticas con EE. UU.           |
+| Ecuador          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Etiopía          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Irán             | No Extradición        | Relaciones hostiles con EE. UU.           |
+| Kuwait           | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Mongolia         | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Montenegro       | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Nicaragua        | No Extradición        | Asilo político para disidentes.           |
+| Corea del Norte  | No Extradición        | Régimen aislado sin tratado de extradición. |
+| Catar            | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Rusia            | Extradición Limitada  | La extradición es rara y motivada políticamente. |
+| Arabia Saudita   | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Sudáfrica        | Extradición Limitada  | La extradición está sujeta a consideraciones políticas. |
+| Siria            | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Túnez            | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Uganda           | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| EAU              | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Vanuatu          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Venezuela        | No Extradición        | Asilo político para disidentes.           |
+| Vietnam          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Ucrania          | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
+| Moldavia         | No Extradición        | Las relaciones diplomáticas pueden influir en las decisiones. |
 
-Usar una combinación de verificaciones manuales y servicios automatizados asegura una búsqueda exhaustiva.
+### Consideraciones al Huir a Otro País
+Al contemplar huir a otro país, se deben considerar varios factores:
+- **Estado Legal**
+  - Comprender los requisitos de visa y las leyes de residencia.
 
-#### 2. Enviar Solicitudes de Eliminación
-Una vez que sepas qué corredores tienen tus datos, envía solicitudes de exclusión para que tu información sea eliminada. Hay varias formas de hacerlo:
+- **Seguridad y Estabilidad**
+  - Evaluar el clima político y social del país.
 
-##### Envío Manual (Recomendado)
-Sigue las instrucciones de cada corredor en su sitio web para solicitar la eliminación. Esto a menudo incluye llenar formularios de exclusión y verificar tu identidad para prevenir solicitudes fraudulentas.
+- **Adaptación Cultural**
+  - Barreras lingüísticas y diferencias culturales.
 
-<br>
+- **Acceso a Recursos**
+  - Disponibilidad de vivienda, empleo y atención médica.
 
-Sugerimos comenzar con los corredores de datos que tienen tu información y están marcados con una 💐 (crucial) o ☠ (alta prioridad) en la [Lista de exclusión de corredores de datos](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List).
+- **Redes de Apoyo**
+  - Encontrar comunidades u organizaciones que puedan brindar asistencia.
 
-##### Servicios Automatizados
-Algunas empresas de privacidad ofrecen herramientas que pueden enviar automáticamente solicitudes de eliminación a múltiples corredores de datos, ahorrándote tiempo y asegurando exhaustividad. Sin embargo, ten cuidado: estos servicios a veces pueden hacer más daño que bien. Pueden compartir toda la información que proporcionas con muchos corredores, incluidos detalles sensibles que antes eran desconocidos. Para aprender más sobre los riesgos de usar servicios de eliminación de datos, lee [aquí](https://inteltechniques.com/blog/2023/09/19/the-dangers-of-data-removal-service-doxxing/).
-
-##### Servicios Recomendados de Eliminación de Datos
-<div class="recommendations">  
-  <div class="grid">
-    {{< hextra/recommendation-card title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/año" buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
-  </div>
-</div>
-
-La paciencia es clave, ya que los tiempos de procesamiento pueden variar de días a varias semanas.
-
-#### 3. Monitorea Y Elimínate Regularmente
-Los corredores de datos actualizan frecuentemente sus bases de datos, por lo que tu información puede reaparecer con el tiempo. Hazlo un hábito:
-- Busca periódicamente tu nombre y detalles relacionados en línea.
-- Revisa las páginas de exclusión de los corredores de datos.
-- Reenvía solicitudes de eliminación cuando sea necesario.
+- **Planes a Largo Plazo**
+  - Considerar la posibilidad de regresar a casa o buscar residencia permanente.
