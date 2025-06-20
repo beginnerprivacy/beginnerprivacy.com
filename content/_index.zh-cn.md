@@ -176,6 +176,9 @@ layout: hextra-home
           <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
             <div class="carousel-item" tabindex="0">大规模监控</div>
           </a>
+          <a href="checklists/?m=journalist" draggable="false" tabindex="-1">
+            <div class="carousel-item" tabindex="0">记者</div>
+          </a>
         </div>
       </div>
     <div class="carousel-button next" aria-label="Next">&#10095;</div>

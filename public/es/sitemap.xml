@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</loc>
+    <lastmod>2025-06-18T17:11:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/planning-your-trip-to-and-from-a-protest/</loc>
     <lastmod>2025-06-18T10:50:36+02:00</lastmod>
     <xhtml:link
@@ -216,24 +234,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/articles/how-to-remove-yourself-from-data-brokers/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</loc>
-    <lastmod>2025-06-18T17:02:45+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend/</loc>
@@ -794,7 +794,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/checklists/whistleblower/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
+    <lastmod>2025-06-18T17:11:34+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1007,6 +1007,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/checklists/digital-nomad/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/checklists/journalist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/journalist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/journalist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/journalist/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/checklists/internet-pirate/</loc>

@@ -250,6 +250,73 @@
       <description>
         
         
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strong-unique-passwords&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Contraseñas fuertes y únicas&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-virtual-private-network&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Red Privada Virtual (VPN)&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para tu conexión a Internet.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-privacy-screen&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Pantalla de privacidad para dispositivos&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Considera usar una pantalla de privacidad para tu laptop y teléfono para evitar miradas indiscretas.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-back-up-your-phone&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Copia de seguridad de tus dispositivos&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Haz copias de seguridad de tus datos en caso de que tu dispositivo se pierda o sea robado.&lt;/p&gt;
+&lt;/li&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Periodista</title>
+      <link>http://localhost:1313/es/checklists/journalist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/es/checklists/journalist/</guid>
+      <description>
+        
+        
         &lt;p&gt;¡Próximamente!&lt;/p&gt;
 
       </description>
@@ -389,7 +456,32 @@
       <description>
         
         
-        &lt;p&gt;¡Próximamente!&lt;/p&gt;
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-learn-the-basics-of-tor&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Aprender los fundamentos de Tor&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Aprende los fundamentos antes de acceder a cualquier servicio de la darknet.&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strict-compartmentalization&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;Compartmentalización estricta&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;Nunca uses cuentas/dispositivos personales para actividades en la darknet.&lt;/p&gt;
+&lt;/li&gt;
 
       </description>
     </item>

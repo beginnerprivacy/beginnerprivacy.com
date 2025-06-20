@@ -919,6 +919,23 @@
                 href="http://localhost:1313/about/join-simplex-group/"
                 />
   </url><url>
+    <loc>http://localhost:1313/checklists/journalist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/checklists/journalist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/checklists/journalist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/checklists/journalist/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/legal-disclaimer/</loc>
     <lastmod>2025-06-11T15:31:24+02:00</lastmod>
     <xhtml:link
@@ -1172,7 +1189,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/whistleblower/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
+    <lastmod>2025-06-18T17:11:34+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
