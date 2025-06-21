@@ -90,11 +90,12 @@ Follow these conventions for commit messages:
 - Use present tense (e.g., "Add" not "Added")
 - Keep subject line under 72 characters
 
-**Common types:**
+**Types:**
 - **chore:** General changes
 - **feat:** New feature
 - **fix:** Bug fix
 - **docs:** Documentation changes
 - **article:** Article changes
+- **checklist:** Checklist changes
 - **style:** Formatting changes
 - **refactor:** Code restructuring

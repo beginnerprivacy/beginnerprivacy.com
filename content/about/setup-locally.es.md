@@ -89,11 +89,12 @@ Siga estas convenciones para los mensajes de confirmación:
 - Usa tiempo presente (ej. "Agrega" en lugar de "Agregado")
 - Mantén el asunto debajo de 72 caracteres
 
-**Tipos comunes:**
+**Tipos:**
 - **chore:** Cambios generales
-- **feat:** Nueva funcionalidad
+- **feat:** Nueva característica
 - **fix:** Corrección de errores
-- **docs:** Cambios en documentación
+- **docs:** Cambios en la documentación
 - **article:** Cambios en el artículo
+- **checklist:** Cambios en la lista de verificación
 - **style:** Cambios de formato
-- **refactor:** Reestructuración de código
+- **refactor:** Reestructuración del código
