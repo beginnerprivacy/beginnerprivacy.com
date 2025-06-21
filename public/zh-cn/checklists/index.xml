@@ -173,7 +173,46 @@
       <description>
         
         
-        &lt;p&gt;即将推出！&lt;/p&gt;
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-a-secure-operating-system&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;使用安全的操作系统&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用安全的操作系统对于保护你的身份在进行高风险活动（如黑客攻击）时至关重要。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-learn-the-basics-of-tor&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;始终使用Tor&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;连接互联网时只使用Tor以保护你的身份。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-strict-compartmentalization&#34;&gt;
+      &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;严格隔离&lt;/span&gt;&lt;/strong&gt;
+    &lt;/div&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;绝不要使用任何可能将你与黑客活动联系起来的个人账户/设备。&lt;/p&gt;
+&lt;/li&gt;
 
       </description>
     </item>
@@ -187,7 +226,34 @@
       <description>
         
         
-        &lt;p&gt;即将推出！&lt;/p&gt;
+        
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-only-use-encrypted-communication&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;仅使用加密通信&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;使用端到端加密的消息应用程序与您的消息来源进行沟通。&lt;/p&gt;
+&lt;/li&gt;
+
+
+
+&lt;li&gt;
+  
+    &lt;a href=&#34;../articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34;&gt;
+      &lt;div&gt;
+          &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-back-up-your-phone&#34;&gt;
+          &lt;strong class=&#34;checklist-text&#34;&gt;&lt;span&gt;备份您的工作&lt;/span&gt;&lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;&lt;/svg&gt;&lt;/strong&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  
+  &lt;p class=&#34;checklist-paragraph&#34;&gt;备份您的工作，以防被盗或丢失。&lt;/p&gt;
+&lt;/li&gt;
 
       </description>
     </item>

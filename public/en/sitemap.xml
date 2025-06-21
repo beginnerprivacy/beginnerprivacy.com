@@ -669,7 +669,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-11T14:55:38+02:00</lastmod>
+    <lastmod>2025-06-20T16:11:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -722,7 +722,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/</loc>
-    <lastmod>2025-06-07T20:28:58+02:00</lastmod>
+    <lastmod>2025-06-20T16:11:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -812,7 +812,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/darknet-user/</loc>
-    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <lastmod>2025-06-20T16:11:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -830,7 +830,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/digital-nomad/</loc>
-    <lastmod>2025-06-08T11:37:54+02:00</lastmod>
+    <lastmod>2025-06-20T16:11:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -920,6 +920,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/checklists/journalist/</loc>
+    <lastmod>2025-06-20T16:11:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
