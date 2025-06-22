@@ -1,5 +1,6 @@
 ---
 title: Denunciante
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you" text="En caso de que necesites huir." id="find-countries-that-won't-extradite-you" >}}Encuentra países que no te extraditen{{< /hextra/checklist-item >}}
 

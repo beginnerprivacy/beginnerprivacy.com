@@ -1,5 +1,6 @@
 ---
 title: Hacker
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/the-best-desktop-operating-systems-for-high-risk-individuals" text="Using a secure operating system is essential for protecting your identity while engaging in high-risk activities like hacking." id="use-a-secure-operating-system" >}}Use a secure operating system{{< /hextra/checklist-item >}}
 

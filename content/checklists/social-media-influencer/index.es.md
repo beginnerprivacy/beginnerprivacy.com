@@ -1,5 +1,6 @@
 ---
 title: Influencer de Redes Sociales
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad." id="strong-unique-passwords" >}}Contraseñas fuertes y únicas{{< /hextra/checklist-item >}}
 

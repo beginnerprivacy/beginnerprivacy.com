@@ -1,5 +1,6 @@
 ---
 title: Whistleblower
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you" text="In case you need to flee." id="find-countries-that-won't-extradite-you" >}}Find countries that won't extradite you{{< /hextra/checklist-item >}}
 

@@ -1,5 +1,6 @@
 ---
 title: Checklists
+excludeSearch: true
 ---
 <div class="checklist-grid">
     {{< hextra/checklist-card icon="user" title="Casual Internet User" modalID="casual-internet-user" description="Security essentials everyone should practice for safer web browsing." >}}

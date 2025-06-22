@@ -1,5 +1,6 @@
 ---
 title: 检查表
+excludeSearch: true
 ---
 <div class="checklist-grid">
     {{< hextra/checklist-card icon="user" title="普通互联网用户" modalID="casual-internet-user" description="每个人都应该实践的安全要点，以便更安全地浏览网络。" >}}

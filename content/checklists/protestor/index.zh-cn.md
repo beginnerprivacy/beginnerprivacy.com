@@ -1,5 +1,6 @@
 ---
 title: 抗议者
+excludeSearch: true
 ---
 {{< hextra/checklist-item text="完全关闭你的手机，以确保100%没有信息泄露。飞行模式不够！" id="turn-your-phone-completely-off" >}}完全关闭你的手机{{< /hextra/checklist-item >}}
 

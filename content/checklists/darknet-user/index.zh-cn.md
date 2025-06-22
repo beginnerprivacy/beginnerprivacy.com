@@ -1,5 +1,6 @@
 ---
 title: 暗网用户
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/navigating-the-web-anonymously-a-guide-to-tor-basics" text="在访问任何暗网服务之前，先学习基础知识。" id="learn-the-basics-of-tor" >}}学习Tor的基础知识{{< /hextra/checklist-item >}}
 

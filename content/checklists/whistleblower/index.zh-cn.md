@@ -1,5 +1,6 @@
 ---
 title: 举报人
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you" text="如果你需要逃跑。" id="find-countries-that-won't-extradite-you" >}}寻找不会引渡你的国家{{< /hextra/checklist-item >}}
 

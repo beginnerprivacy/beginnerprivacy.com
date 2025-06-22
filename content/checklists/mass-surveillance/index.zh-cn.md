@@ -1,5 +1,6 @@
 ---
 title: 大规模监控
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="切换到Linux可以通过减少对专有软件的依赖来增强您的隐私和安全性。" id="switch-to-linux" >}}切换到Linux{{< /hextra/checklist-item >}}
 

@@ -1,5 +1,6 @@
 ---
 title: Manifestante
+excludeSearch: true
 ---
 {{< hextra/checklist-item text="Apaga completamente tu teléfono para asegurarte al 100% de que no se está filtrando nada. ¡El modo avión no es suficiente!" id="turn-your-phone-completely-off" >}}Apaga completamente tu teléfono{{< /hextra/checklist-item >}}
 

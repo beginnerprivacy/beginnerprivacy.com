@@ -1,5 +1,6 @@
 ---
 title: Listas de Verificación
+excludeSearch: true
 ---
 <div class="checklist-grid">
     {{< hextra/checklist-card icon="user" title="Usuario de Internet Casual" modalID="casual-internet-user" description="Esenciales de seguridad que todos deben practicar para una navegación web más segura." >}}

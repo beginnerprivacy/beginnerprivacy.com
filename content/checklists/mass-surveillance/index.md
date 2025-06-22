@@ -1,5 +1,6 @@
 ---
 title: Mass Surveillance
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="Switching to Linux can enhance your privacy and security by reducing reliance on proprietary software." id="switch-to-linux" >}}Switch to Linux{{< /hextra/checklist-item >}}
 

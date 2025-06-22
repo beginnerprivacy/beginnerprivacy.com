@@ -1,5 +1,6 @@
 ---
 title: Periodista
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería con cifrado de extremo a extremo para comunicarte con tus fuentes." id="only-use-encrypted-communication" >}}Solo usa comunicación encriptada{{< /hextra/checklist-item >}}
 

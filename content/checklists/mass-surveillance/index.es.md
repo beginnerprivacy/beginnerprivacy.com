@@ -1,5 +1,6 @@
 ---
 title: Vigilancia Masiva
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="Cambiar a Linux puede mejorar tu privacidad y seguridad al reducir la dependencia del software propietario." id="switch-to-linux" >}}Cambiar a Linux{{< /hextra/checklist-item >}}
 

@@ -165,15 +165,16 @@
 &lt;li&gt;使用现在时态（例如用&amp;quot;添加&amp;quot;而非&amp;quot;已添加&amp;quot;）&lt;/li&gt;
 &lt;li&gt;主题行不超过72个字符&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;常用类型：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;类型：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; 一般更改&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; 新功能&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; 错误修复&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; 文档变更&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;article:&lt;/strong&gt; 文章更改&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;style:&lt;/strong&gt; 格式调整&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;refactor:&lt;/strong&gt; 代码重构&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;chore：&lt;/strong&gt; 一般更改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;feat：&lt;/strong&gt; 新功能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fix：&lt;/strong&gt; 错误修复&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docs：&lt;/strong&gt; 文档更改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;article：&lt;/strong&gt; 文章更改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;checklist：&lt;/strong&gt; 检查清单更改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;style：&lt;/strong&gt; 格式更改&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;refactor：&lt;/strong&gt; 代码重构&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

@@ -1,5 +1,6 @@
 ---
 title: Usuario de Internet Casual
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="Cree contraseñas fuertes y únicas para cada una de sus cuentas para mejorar la seguridad." id="strong-unique-passwords" >}}Contraseñas únicas y fuertes{{< /hextra/checklist-item >}}
 

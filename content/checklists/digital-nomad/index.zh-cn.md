@@ -1,5 +1,6 @@
 ---
 title: 数字游牧者
+excludeSearch: true
 ---
 {{< hextra/checklist-item link="../articles/how-to-create-strong-passwords-and-store-them-securely" text="为每个账户创建强大且独特的密码，以增强安全性。" id="strong-unique-passwords" >}}强大且独特的密码{{< /hextra/checklist-item >}}
 

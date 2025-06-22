@@ -1,5 +1,6 @@
 ---
 title: Protestor
+excludeSearch: true
 ---
 {{< hextra/checklist-item text="Turn your phone completely off to be 100% sure nothing is leaking from it. Airplane mode is not enough!" id="turn-your-phone-completely-off" >}}Turn your phone completely off{{< /hextra/checklist-item >}}
 

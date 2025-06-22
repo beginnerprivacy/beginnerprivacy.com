@@ -243,15 +243,16 @@ Usando Homebrew:&lt;/p&gt;
 &lt;li&gt;Usa tiempo presente (ej. &amp;ldquo;Agrega&amp;rdquo; en lugar de &amp;ldquo;Agregado&amp;rdquo;)&lt;/li&gt;
 &lt;li&gt;Mantén el asunto debajo de 72 caracteres&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tipos comunes:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tipos:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;chore:&lt;/strong&gt; Cambios generales&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; Nueva funcionalidad&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;feat:&lt;/strong&gt; Nueva característica&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;fix:&lt;/strong&gt; Corrección de errores&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Cambios en documentación&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docs:&lt;/strong&gt; Cambios en la documentación&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;article:&lt;/strong&gt; Cambios en el artículo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;checklist:&lt;/strong&gt; Cambios en la lista de verificación&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;style:&lt;/strong&gt; Cambios de formato&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;refactor:&lt;/strong&gt; Reestructuración de código&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;refactor:&lt;/strong&gt; Reestructuración del código&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
