@@ -482,7 +482,16 @@ sections.forEach(section => {
 let isSearchInputFocused = false;
 
 if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
-    document.querySelector('html').style.overflow = "hidden";
+    if (window.innerHeight >= 825) {
+        document.querySelector('html').style.overflow = "hidden";
+    }
+    window.addEventListener('resize', () => {
+        if (window.innerHeight >= 825) {
+            document.querySelector('html').style.overflow = "hidden";
+        } else {
+            document.querySelector('html').style.overflow = "";
+        }
+    });
 
     const searchInput = document.querySelector('.search-input')
     const searchResults = document.querySelector('.search-results')
