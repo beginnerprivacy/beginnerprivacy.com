@@ -2,21 +2,21 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    <loc>http://localhost:42873/en/sitemap.xml</loc>
     
       <lastmod>2025-06-23T11:09:16+02:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/es/sitemap.xml</loc>
+    <loc>http://localhost:42873/es/sitemap.xml</loc>
     
       <lastmod>2025-06-23T11:09:16+02:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/zh-cn/sitemap.xml</loc>
+    <loc>http://localhost:42873/zh-cn/sitemap.xml</loc>
     
       <lastmod>2025-06-23T11:09:16+02:00</lastmod>
     

@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – Checklists</title>
-    <link>http://localhost:1313/checklists/</link>
+    <link>http://localhost:42873/checklists/</link>
     <description>Recent content in Checklists on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="http://localhost:1313/checklists/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:42873/checklists/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Casual Internet User</title>
-      <link>http://localhost:1313/checklists/casual-internet-user/</link>
+      <link>http://localhost:42873/checklists/casual-internet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/casual-internet-user/</guid>
+      <guid>http://localhost:42873/checklists/casual-internet-user/</guid>
       <description>
         
         
@@ -127,10 +127,10 @@
     
     <item>
       <title>Darknet User</title>
-      <link>http://localhost:1313/checklists/darknet-user/</link>
+      <link>http://localhost:42873/checklists/darknet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/darknet-user/</guid>
+      <guid>http://localhost:42873/checklists/darknet-user/</guid>
       <description>
         
         
@@ -166,10 +166,10 @@
     
     <item>
       <title>Digital Nomad</title>
-      <link>http://localhost:1313/checklists/digital-nomad/</link>
+      <link>http://localhost:42873/checklists/digital-nomad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/digital-nomad/</guid>
+      <guid>http://localhost:42873/checklists/digital-nomad/</guid>
       <description>
         
         
@@ -233,10 +233,10 @@
     
     <item>
       <title>Hacker</title>
-      <link>http://localhost:1313/checklists/hacker/</link>
+      <link>http://localhost:42873/checklists/hacker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/hacker/</guid>
+      <guid>http://localhost:42873/checklists/hacker/</guid>
       <description>
         
         
@@ -286,10 +286,10 @@
     
     <item>
       <title>Internet Pirate</title>
-      <link>http://localhost:1313/checklists/internet-pirate/</link>
+      <link>http://localhost:42873/checklists/internet-pirate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/internet-pirate/</guid>
+      <guid>http://localhost:42873/checklists/internet-pirate/</guid>
       <description>
         
         
@@ -300,10 +300,10 @@
     
     <item>
       <title>Journalist</title>
-      <link>http://localhost:1313/checklists/journalist/</link>
+      <link>http://localhost:42873/checklists/journalist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/journalist/</guid>
+      <guid>http://localhost:42873/checklists/journalist/</guid>
       <description>
         
         
@@ -341,10 +341,10 @@
     
     <item>
       <title>Mass Surveillance</title>
-      <link>http://localhost:1313/checklists/mass-surveillance/</link>
+      <link>http://localhost:42873/checklists/mass-surveillance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/mass-surveillance/</guid>
+      <guid>http://localhost:42873/checklists/mass-surveillance/</guid>
       <description>
         
         
@@ -452,10 +452,10 @@
     
     <item>
       <title>Protestor</title>
-      <link>http://localhost:1313/checklists/protestor/</link>
+      <link>http://localhost:42873/checklists/protestor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/protestor/</guid>
+      <guid>http://localhost:42873/checklists/protestor/</guid>
       <description>
         
         
@@ -533,10 +533,10 @@
     
     <item>
       <title>Social Media Influencer</title>
-      <link>http://localhost:1313/checklists/social-media-influencer/</link>
+      <link>http://localhost:42873/checklists/social-media-influencer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/social-media-influencer/</guid>
+      <guid>http://localhost:42873/checklists/social-media-influencer/</guid>
       <description>
         
         
@@ -612,10 +612,10 @@
     
     <item>
       <title>Whistleblower</title>
-      <link>http://localhost:1313/checklists/whistleblower/</link>
+      <link>http://localhost:42873/checklists/whistleblower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/checklists/whistleblower/</guid>
+      <guid>http://localhost:42873/checklists/whistleblower/</guid>
       <description>
         
         
