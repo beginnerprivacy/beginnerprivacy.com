@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – 文章</title>
-    <link>http://localhost:42873/zh-cn/articles/</link>
+    <link>http://localhost:1313/zh-cn/articles/</link>
     <description>Recent content in 文章 on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	  <atom:link href="http://localhost:42873/zh-cn/articles/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/zh-cn/articles/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>藏身之处：不引渡你的国家指南</title>
-      <link>http://localhost:42873/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</link>
+      <link>http://localhost:1313/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</guid>
       <description>
         
         
@@ -258,10 +258,10 @@
     
     <item>
       <title>保持低调：隐蔽身份的穿衣技巧</title>
-      <link>http://localhost:42873/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</link>
+      <link>http://localhost:1313/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/planning-your-trip-to-and-from-a-protest/</guid>
       <description>
         
         
@@ -333,10 +333,10 @@
     
     <item>
       <title>保持低调：隐蔽身份的穿衣技巧</title>
-      <link>http://localhost:42873/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
+      <link>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
       <description>
         
         
@@ -408,10 +408,10 @@
     
     <item>
       <title>游戏开始：Linux游戏初学者指南</title>
-      <link>http://localhost:42873/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
+      <link>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
       <description>
         
         
@@ -434,10 +434,10 @@
     
     <item>
       <title>如何以及为什么备份您的设备至关重要</title>
-      <link>http://localhost:42873/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial/</guid>
       <description>
         
         
@@ -529,7 +529,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;安全存放 USB 驱动器&lt;/strong&gt;: 在不使用时将 USB 驱动器放在安全的地方，并且&lt;a href=&#34;http://localhost:42873/articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;记住您的密码&lt;/a&gt;，以便在需要时访问您的文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安全存放 USB 驱动器&lt;/strong&gt;: 在不使用时将 USB 驱动器放在安全的地方，并且&lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;记住您的密码&lt;/a&gt;，以便在需要时访问您的文件。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;如何进行云备份&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何进行云备份&#34;&gt;&lt;/span&gt;
@@ -574,10 +574,10 @@
     
     <item>
       <title>威胁情报解析：如何利用它增强安全性</title>
-      <link>http://localhost:42873/zh-cn/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</link>
+      <link>http://localhost:1313/zh-cn/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</link>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</guid>
       <description>
         
         
@@ -686,10 +686,10 @@
     
     <item>
       <title>为什么你应该增强你的物理安全</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-should-enhance-your-physical-security/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-enhance-your-physical-security/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-should-enhance-your-physical-security/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-enhance-your-physical-security/</guid>
       <description>
         
         
@@ -735,7 +735,7 @@
 &lt;h4&gt;公共场所&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;公共场所&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%85%ac%e5%85%b1%e5%9c%ba%e6%89%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;注意周围环境&lt;/strong&gt;：通过关注周围的人来练习情境意识。在公共场所分享个人信息时要小心，并考虑你的&lt;a href=&#34;http://localhost:42873/zh-cn/articles/how-to-find-a-threat-model-that-suits-you&#34; &gt;威胁模型&lt;/a&gt;—了解你面临的具体风险可以帮助你做出明智的安全实践决策。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意周围环境&lt;/strong&gt;：通过关注周围的人来练习情境意识。在公共场所分享个人信息时要小心，并考虑你的&lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you&#34; &gt;威胁模型&lt;/a&gt;—了解你面临的具体风险可以帮助你做出明智的安全实践决策。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;自卫准备&lt;/strong&gt;：考虑携带自卫工具，如胡椒喷雾或枪支，以在威胁情况下保护自己。然而，记得始终检查这些工具在你所在国家或州的合法性。此外，接受徒手搏斗训练是必不可少的，以便在必要时有效使用这些工具。&lt;/p&gt;
@@ -747,10 +747,10 @@
     
     <item>
       <title>加密货币与匿名性：无痕购物指南</title>
-      <link>http://localhost:42873/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</link>
+      <link>http://localhost:1313/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</guid>
       <description>
         
         
@@ -843,10 +843,10 @@
     
     <item>
       <title>为什么你应该开始自我托管服务</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-should-start-self-hosting-services/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-start-self-hosting-services/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-should-start-self-hosting-services/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-start-self-hosting-services/</guid>
       <description>
         
         
@@ -948,10 +948,10 @@
     
     <item>
       <title>最佳私人移动操作系统</title>
-      <link>http://localhost:42873/zh-cn/articles/the-best-private-mobile-operating-systems/</link>
+      <link>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/the-best-private-mobile-operating-systems/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/the-best-private-mobile-operating-systems/</guid>
       <description>
         
         
@@ -1015,10 +1015,10 @@
     
     <item>
       <title>高风险个人最佳桌面操作系统</title>
-      <link>http://localhost:42873/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
+      <link>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
       <description>
         
         
@@ -1074,10 +1074,10 @@
     
     <item>
       <title>匿名浏览网络：Tor基础指南</title>
-      <link>http://localhost:42873/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
+      <link>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
       <description>
         
         
@@ -1172,10 +1172,10 @@
     
     <item>
       <title>如何将自己从数据经纪人中删除</title>
-      <link>http://localhost:42873/zh-cn/articles/how-to-remove-yourself-from-data-brokers/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-to-remove-yourself-from-data-brokers/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/how-to-remove-yourself-from-data-brokers/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-to-remove-yourself-from-data-brokers/</guid>
       <description>
         
         
@@ -1249,10 +1249,10 @@
     
     <item>
       <title>为什么你应该放弃社交媒体并使用前端</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend/</guid>
       <description>
         
         
@@ -1425,10 +1425,10 @@
     
     <item>
       <title>为什么您需要使用加密DNS</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-need-to-use-an-encrypted-dns/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-need-to-use-an-encrypted-dns/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-need-to-use-an-encrypted-dns/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-need-to-use-an-encrypted-dns/</guid>
       <description>
         
         
@@ -1505,10 +1505,10 @@
     
     <item>
       <title>不要上钩：如何识别和避免网络钓鱼邮件</title>
-      <link>http://localhost:42873/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</link>
+      <link>http://localhost:1313/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</guid>
       <description>
         
         
@@ -1598,17 +1598,17 @@
     
     <item>
       <title>如何轻松切换到 Linux：逐步指南</title>
-      <link>http://localhost:42873/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</guid>
       <description>
         
         
         &lt;h3&gt;为什么切换到 Linux？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么切换到-linux&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e5%88%87%e6%8d%a2%e5%88%b0-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作系统，优先考虑 &lt;strong&gt;隐私&lt;/strong&gt;、&lt;strong&gt;定制&lt;/strong&gt; 和 &lt;strong&gt;稳定性&lt;/strong&gt;。与 Windows 或 macOS 不同，Linux 不会跟踪你的活动，也不会强迫你进入专有生态系统。它是免费的，可以使用、修改和分享，得到了全球开发者社区的支持。无论你是一个关注隐私的用户、一个爱折腾的人，还是一个厌倦了臃肿软件的人，Linux 都提供了一个令人耳目一新的替代方案。&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 &lt;a href=&#34;http://localhost:42873/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming&#34; &gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你可能会说你仍然想玩你最喜欢的游戏。好消息是你可以！许多热门游戏现在可以在Linux上使用，借助Proton等工具，你可以享受曾经仅限于Windows的广泛游戏。如果你想了解更多关于在Linux上玩你最喜欢的游戏的信息，请阅读我们的文章 &lt;a href=&#34;http://localhost:1313/zh-cn/articles/game-on-a-beginners-guide-to-linux-gaming&#34; &gt;这里&lt;/a&gt;。&lt;/p&gt;
 &lt;h3&gt;选择你的 Linux 发行版&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;选择你的-linux-发行版&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e9%80%89%e6%8b%a9%e4%bd%a0%e7%9a%84-linux-%e5%8f%91%e8%a1%8c%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;有数百种发行版（或称“distros”）可供选择，选择合适的一个可能会让人感到不知所措。以下是快速概述：&lt;/p&gt;
 &lt;ul&gt;
@@ -1785,10 +1785,10 @@
     
     <item>
       <title>用FOSS摆脱专有软件的束缚</title>
-      <link>http://localhost:42873/zh-cn/articles/break-free-from-proprietary-software-with-foss/</link>
+      <link>http://localhost:1313/zh-cn/articles/break-free-from-proprietary-software-with-foss/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/break-free-from-proprietary-software-with-foss/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/break-free-from-proprietary-software-with-foss/</guid>
       <description>
         
         
@@ -1860,10 +1860,10 @@
     
     <item>
       <title>放弃短信，使用安全通信方法。</title>
-      <link>http://localhost:42873/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</link>
+      <link>http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</guid>
       <description>
         
         
@@ -1966,10 +1966,10 @@
     
     <item>
       <title>通过私人电子邮件保护您的通信。</title>
-      <link>http://localhost:42873/zh-cn/articles/protect-your-communication-with-a-private-email/</link>
+      <link>http://localhost:1313/zh-cn/articles/protect-your-communication-with-a-private-email/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/protect-your-communication-with-a-private-email/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/protect-your-communication-with-a-private-email/</guid>
       <description>
         
         
@@ -2034,10 +2034,10 @@
     
     <item>
       <title>改善隐私的桌面设置</title>
-      <link>http://localhost:42873/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</link>
+      <link>http://localhost:1313/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/desktop-settings-to-change-for-better-privacy/</guid>
       <description>
         
         
@@ -2113,10 +2113,10 @@
     
     <item>
       <title>更改这些手机设置以提高隐私保护</title>
-      <link>http://localhost:42873/zh-cn/articles/change-these-mobile-settings-for-better-privacy/</link>
+      <link>http://localhost:1313/zh-cn/articles/change-these-mobile-settings-for-better-privacy/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/change-these-mobile-settings-for-better-privacy/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/change-these-mobile-settings-for-better-privacy/</guid>
       <description>
         
         
@@ -2174,10 +2174,10 @@
     
     <item>
       <title>什么是VPN？ 你应该使用一个吗？</title>
-      <link>http://localhost:42873/zh-cn/articles/what-is-a-vpn-and-should-you-use-one/</link>
+      <link>http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/what-is-a-vpn-and-should-you-use-one/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one/</guid>
       <description>
         
         
@@ -2188,7 +2188,7 @@
 &lt;h3&gt;VPN能保护你免受什么？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;vpn能保护你免受什么&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#vpn%e8%83%bd%e4%bf%9d%e6%8a%a4%e4%bd%a0%e5%85%8d%e5%8f%97%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;虽然VPN在隐藏你的IP地址、访问地理限制内容和防止ISP监控方面有效，但它并不能保护你免受黑客、网络钓鱼邮件或其他威胁。有关部门仍然可以向VPN公司请求信息，该公司可能对你的互联网活动有不记录政策，但仍可能保留个人信息，如你的电子邮件、电话号码和真实姓名。&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;如果你考虑参与需要更高匿名性的更严肃活动，我们建议你阅读我们的&lt;a href=&#34;http://localhost:42873/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;关于Tor的文章&lt;/a&gt;，以获得更安全的选择。&lt;/p&gt;
+&lt;p&gt;如果你考虑参与需要更高匿名性的更严肃活动，我们建议你阅读我们的&lt;a href=&#34;http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;关于Tor的文章&lt;/a&gt;，以获得更安全的选择。&lt;/p&gt;
 &lt;h3&gt;如何选择一个好的VPN&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何选择一个好的vpn&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e9%80%89%e6%8b%a9%e4%b8%80%e4%b8%aa%e5%a5%bd%e7%9a%84vpn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在寻找可靠的VPN时，可信度至关重要，因为该服务将访问您的在线活动。以下是评估VPN时需要考虑的关键因素：&lt;/p&gt;
 &lt;ul&gt;
@@ -2259,10 +2259,10 @@
     
     <item>
       <title>使用注重隐私的搜索引擎安全搜索</title>
-      <link>http://localhost:42873/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/</link>
+      <link>http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine/</guid>
       <description>
         
         
@@ -2330,10 +2330,10 @@
     
     <item>
       <title>为什么你需要一个私人浏览器来保护自己</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself/</guid>
       <description>
         
         
@@ -2432,10 +2432,10 @@
     
     <item>
       <title>限制在线共享的个人信息</title>
-      <link>http://localhost:42873/zh-cn/articles/limit-the-personal-information-you-share-online/</link>
+      <link>http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/limit-the-personal-information-you-share-online/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online/</guid>
       <description>
         
         
@@ -2545,10 +2545,10 @@
     
     <item>
       <title>双重身份验证（2FA）及其必要性</title>
-      <link>http://localhost:42873/zh-cn/articles/two-factor-authentication-and-why-you-need-it/</link>
+      <link>http://localhost:1313/zh-cn/articles/two-factor-authentication-and-why-you-need-it/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/two-factor-authentication-and-why-you-need-it/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/two-factor-authentication-and-why-you-need-it/</guid>
       <description>
         
         
@@ -2624,10 +2624,10 @@
     
     <item>
       <title>如何创建强密码并安全存储</title>
-      <link>http://localhost:42873/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/</guid>
       <description>
         
         
@@ -2717,10 +2717,10 @@
     
     <item>
       <title>如何找到适合你的威胁模型</title>
-      <link>http://localhost:42873/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</link>
+      <link>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/how-to-find-a-threat-model-that-suits-you/</guid>
       <description>
         
         
@@ -2861,10 +2861,10 @@ const resultTexts = {
     
     <item>
       <title>为什么您应该关注自己的隐私</title>
-      <link>http://localhost:42873/zh-cn/articles/why-you-should-care-about-your-privacy/</link>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-care-about-your-privacy/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42873/zh-cn/articles/why-you-should-care-about-your-privacy/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-care-about-your-privacy/</guid>
       <description>
         
         
