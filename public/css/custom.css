@@ -1,14 +1,14 @@
 :root {
     --bg-roadmap-modal: white;
     --roadmap-step-pointer: black;
-    --color-black: black;
-    --color-white: white;
+    --color-black: 0, 0, 0;
+    --color-white: 255, 255, 255;
 }
 .dark {
     --bg-roadmap-modal: #181818;
     --roadmap-step-pointer: white;
-    --color-black: white;
-    --color-white: black;
+    --color-black: 255, 255, 255;
+    --color-white: 0, 0, 0;
 }
 
 @font-face {

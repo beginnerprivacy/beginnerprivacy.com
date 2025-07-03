@@ -489,19 +489,8 @@
         
         
         &lt;p&gt;Beginner Privacy 完全依赖捐款，而不是通过联盟链接或推荐特定产品。如果您觉得我们的工作有价值，请考虑捐赠。&lt;/p&gt;
-&lt;h3&gt;目标&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;目标&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e7%9b%ae%e6%a0%87&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;没有JavaScript的Tor网站（1年）&lt;/p&gt;
-&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $192 collected&#34;&gt;
-    &lt;span class=&#34;progress-text&#34;&gt;$0 / $192&lt;/span&gt;
-    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;贡献者奖励系统&lt;/p&gt;
-&lt;div class=&#34;progress-container&#34; title=&#34;$0 of $150 collected&#34;&gt;
-    &lt;span class=&#34;progress-text&#34;&gt;$0 / $150&lt;/span&gt;
-    &lt;div class=&#34;progress-bar&#34; style=&#34;width: 0%;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3&gt;捐赠 Monero (XMR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;捐赠-monero-xmr&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%8d%90%e8%b5%a0-monero-xmr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+&lt;h3&gt;Monero (XMR)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;monero-xmr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#monero-xmr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;836HHAyiLmAEXtiFVktMvhJGSzCxSxi4FjYhMhmx1H3wNuhhkESmiRQRz7n4dcdMSDDtaw23ty9qdYzHf6ycfzpzLdx6Lxq&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button

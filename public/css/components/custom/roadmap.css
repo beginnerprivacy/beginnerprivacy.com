@@ -240,7 +240,7 @@ input[type="radio"]:checked + label {
     border-bottom-right-radius: 20px;
 }
 
-input[type="checkbox"] {
+.roadmap-checkbox input[type="checkbox"] {
     width: 13px;
     height: 13px;
     appearance: none;
@@ -251,11 +251,11 @@ input[type="checkbox"] {
     position: relative;
 }
 
-input[type="checkbox"]:checked {
+.roadmap-checkbox input[type="checkbox"]:checked {
     background-color: #006be6;
 }
 
-input[type="checkbox"]:checked::after {
+.roadmap-checkbox input[type="checkbox"]:checked::after {
     content: "";
     position: absolute;
     left: 4px;

@@ -1,4 +1,4 @@
-/* Start checklists */
+/* Start checklist cards */
 .checklists-section {
     width: 100%; 
 }
@@ -38,52 +38,6 @@
     display: block;
 }
 
-.checklist-items ul {
-    color: var(--color-black);
-    list-style-type: none;
-    margin: 0;
-}
-
-.checklist-modal-content article main .checklist-items ul li {
-    border: var(--color-black) 1px solid;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.checklist-items li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.checklist-items ul li a {
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--color-black);
-}
-
-.checklist-checkbox {
-    width: 20px !important;
-    height: 20px !important;
-    cursor: pointer;
-}
-
-.checklist-text {
-    transition: text-decoration 0.2s;
-    vertical-align: top;
-}
-  
-.checklist-checkbox:checked + .checklist-text {
-    text-decoration: line-through;
-    opacity: 0.7;
-}
-
-.checklist-checkbox:checked::after {
-    left: 6.5px !important;
-    top: 3px !important;
-    height: 13px !important;
-}
-
 .checklist-modal-content {
     position: absolute;
     width: 100%;
@@ -119,6 +73,107 @@
 
 }
 /* End checklists */
+
+/* Start checklist items */
+.checklist-item {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(var(--color-black), 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.checklist-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px -3px rgba(var(--color-black), 0.1);
+}
+
+.checklist-items ul {
+    color: var(--color-black);
+    list-style-type: none;
+    margin: 0;
+}
+
+.checklist-items li {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-black);
+    flex-grow: 1;
+    margin-top: -5px;
+}
+
+.item-description {
+    color: var(--dark-gray);
+}
+
+.checkbox-container {
+    position: relative;
+    margin-right: 10px;
+}
+
+.checklist-checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(var(--color-black));
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    position: relative;
+}
+
+.checklist-checkbox:checked + .checkmark {
+    background-color: black;
+    border-color: rgb(var(--color-black));
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white; /* Change to white for better visibility */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    transition: display 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Start hidden */
+}
+
+.checklist-checkbox:checked + .checkmark:after {
+    display: block;
+    opacity: 1; /* Fade in effect */
+}
+
+.article-link {
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+    text-decoration: underline;
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.article-link:hover {
+    color: #006be6;
+}
+/* End checklist items */
 
 /* Start checklists section on homepage */
 .carousel-container {
