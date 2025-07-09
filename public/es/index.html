@@ -361,12 +361,12 @@
         <img class="hx-hidden dark:hx-block" src="/images/logo-dark.svg" alt="Logo" height="25" width="25" />
         <span class="hx-ml-2 hx-font-bold hx-inline hx-select-none" title="Beginner Privacy">Beginner Privacy</span>
     </a><a
-          title="Listas de Verificación"
-          href="/es/checklists"
+          title="News"
+          href="/es/news"
           
           class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
         >
-          <span class="hx-text-center">Listas de Verificación</span>
+          <span class="hx-text-center">News</span>
         </a><a
           title="Artículos"
           href="/es/articles"
@@ -374,6 +374,13 @@
           class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
         >
           <span class="hx-text-center">Artículos</span>
+        </a><a
+          title="Listas de Verificación"
+          href="/es/checklists"
+          
+          class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
+        >
+          <span class="hx-text-center">Listas de Verificación</span>
         </a><a
           title="Tienda"
           href="https://shop.beginnerprivacy.com"
@@ -1020,7 +1027,14 @@
     </a>
               
             </li></ul>
-      </div></li><a class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      </div></li>
+          <li class=""><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/es/news/"
+    
+  >Noticia
+    </a></li><a class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
         hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50" href="https://shop.beginnerprivacy.com">Tienda</a>
       
     </ul>
@@ -1269,8 +1283,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for Sobre Beginner Privacy" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for Sobre Beginner Privacy" />  
     </div>
   
 </a></li>
@@ -1342,8 +1356,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for ¿Por Qué Preocuparse Por Tu Privacidad?" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for ¿Por Qué Preocuparse Por Tu Privacidad?" />  
     </div>
   
 </a></li>
@@ -1527,8 +1541,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for Encontrar Un Modelo de Amenaza" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for Encontrar Un Modelo de Amenaza" />  
     </div>
   
 </a></li>
@@ -1583,8 +1597,8 @@ Recomendamos que implementes gradualmente estas prácticas en tu rutina diaria, 
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for Introducción Básica" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for Introducción Básica" />  
     </div>
   
 </a></li>
@@ -1722,8 +1736,8 @@ Recomendamos que implementes gradualmente estas prácticas en tu rutina diaria, 
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for Contraseñas Fuertes" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for Contraseñas Fuertes" />  
     </div>
   
 </a></li>
@@ -1842,8 +1856,8 @@ Recomendamos que implementes gradualmente estas prácticas en tu rutina diaria, 
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for Autenticación de Dos Factores (2FA)" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for Autenticación de Dos Factores (2FA)" />  
     </div>
   
 </a></li>
@@ -1996,8 +2010,8 @@ Recomendamos que implementes gradualmente estas prácticas en tu rutina diaria, 
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for Limitar la Información Compartida" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for Limitar la Información Compartida" />  
     </div>
   
 </a></li>
@@ -2139,8 +2153,8 @@ Recomendamos que implementes gradualmente estas prácticas en tu rutina diaria, 
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for Navegador Privado" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for Navegador Privado" />  
     </div>
   
 </a></li>
@@ -2251,8 +2265,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for Motor de Búsqueda Privado" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for Motor de Búsqueda Privado" />  
     </div>
   
 </a></li>
@@ -2377,8 +2391,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for Red Privada Virtual (VPN)" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for Red Privada Virtual (VPN)" />  
     </div>
   
 </a></li>
@@ -2479,8 +2493,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for Configuración de Privacidad Móvil" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for Configuración de Privacidad Móvil" />  
     </div>
   
 </a></li>
@@ -2599,8 +2613,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for Configuración de Privacidad Del Escritorio" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for Configuración de Privacidad Del Escritorio" />  
     </div>
   
 </a></li>
@@ -2708,8 +2722,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-email" aria-label="Checkbox for Correo Electrónico Privado" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-email" aria-label="Checkbox for Correo Electrónico Privado" />  
     </div>
   
 </a></li>
@@ -2855,8 +2869,8 @@ Abre la configuración de Safari → Buscar → Elige tu motor.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for Mensajería Segura" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for Mensajería Segura" />  
     </div>
   
 </a></li>
@@ -2912,8 +2926,8 @@ A medida que avances por esta hoja de ruta, te recomendamos tomarte tu tiempo pa
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for Introducción Media" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for Introducción Media" />  
     </div>
   
 </a></li>
@@ -3028,8 +3042,8 @@ A medida que avances por esta hoja de ruta, te recomendamos tomarte tu tiempo pa
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for Software Libre y de Código Abierto" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for Software Libre y de Código Abierto" />  
     </div>
   
 </a></li>
@@ -3333,8 +3347,8 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for Cámbiate a Linux" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for Cámbiate a Linux" />  
     </div>
   
 </a></li>
@@ -3454,8 +3468,8 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for DNS Encriptado" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for DNS Encriptado" />  
     </div>
   
 </a></li>
@@ -3671,8 +3685,8 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for Interfaces de Redes Sociales" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for Interfaces de Redes Sociales" />  
     </div>
   
 </a></li>
@@ -3789,8 +3803,8 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for Eliminación de Corredores de Datos" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for Eliminación de Corredores de Datos" />  
     </div>
   
 </a></li>
@@ -3928,8 +3942,8 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for ¿Qué es Tor?" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for ¿Qué es Tor?" />  
     </div>
   
 </a></li>
@@ -3984,8 +3998,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for Introducción Avanzada" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for Introducción Avanzada" />  
     </div>
   
 </a></li>
@@ -4084,8 +4098,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for Sistema Operativo de Escritorio" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for Sistema Operativo de Escritorio" />  
     </div>
   
 </a></li>
@@ -4192,8 +4206,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for Sistema Operativo Móvil" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for Sistema Operativo Móvil" />  
     </div>
   
 </a></li>
@@ -4338,8 +4352,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for Autoalojamiento" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for Autoalojamiento" />  
     </div>
   
 </a></li>
@@ -4475,8 +4489,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for Criptomoneda" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for Criptomoneda" />  
     </div>
   
 </a></li>
@@ -4577,8 +4591,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-physical-security" aria-label="Checkbox for Seguridad Física" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-physical-security" aria-label="Checkbox for Seguridad Física" />  
     </div>
   
 </a></li>
@@ -4730,8 +4744,8 @@ Aprenderás sobre sistemas operativos seguros como Qubes OS y también sobre Tor
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-threat-intelligence" aria-label="Checkbox for Inteligencia de Amenazas" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-threat-intelligence" aria-label="Checkbox for Inteligencia de Amenazas" />  
     </div>
   
 </a></li>

@@ -605,6 +605,10 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+.hx-my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .-hx-mb-0\.5 {
   margin-bottom: -0.125rem;
 }

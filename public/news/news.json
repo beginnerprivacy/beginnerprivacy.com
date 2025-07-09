@@ -1,0 +1,964 @@
+{
+    "articles": [
+        {
+            "title": "Chinese Hacker Xu Zewei Arrested for Ties to Silk Typhoon Group and U.S. Cyber Attacks",
+            "url": "https://thehackernews.com/2025/07/chinese-hacker-xu-zewei-arrested-for.html",
+            "date": "09 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "North America"
+        },
+        {
+            "title": "Microsoft Patches 130 Vulnerabilities, Including Critical Flaws in SPNEGO and SQL Server",
+            "url": "https://thehackernews.com/2025/07/microsoft-patches-130-vulnerabilities.html",
+            "date": "09 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Hackers Use Leaked Shellter Tool License to Spread Lumma Stealer and SectopRAT Malware",
+            "url": "https://thehackernews.com/2025/07/hackers-use-leaked-shellter-tool.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Anatsa Android Banking Trojan Hits 90,000 Users with Fake PDF App on Google Play",
+            "url": "https://thehackernews.com/2025/07/anatsa-android-banking-trojan-hits.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "North America"
+        },
+        {
+            "title": "Malicious Pull Request Targets 6,000+ Developers via Vulnerable Ethcode VS Code Extension",
+            "url": "https://thehackernews.com/2025/07/malicious-pull-request-infects-6000.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "5 Ways Identity-based Attacks Are Breaching Retail",
+            "url": "https://thehackernews.com/2025/07/5-ways-identity-based-attacks-are.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "RondoDox Botnet Exploits Flaws in TBK DVRs and Four-Faith Routers to Launch DDoS Attacks",
+            "url": "https://thehackernews.com/2025/07/rondodox-botnet-exploits-flaws-in-tbk.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "BaitTrap: Over 17,000 Fake News Websites Caught Fueling Investment Fraud Globally",
+            "url": "https://thehackernews.com/2025/07/baittrap-over-17000-fake-news-websites.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Researchers Uncover Batavia Windows Spyware Stealing Documents from Russian Firms",
+            "url": "https://thehackernews.com/2025/07/researchers-uncover-batavia-windows.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Europe"
+        },
+        {
+            "title": "CISA Adds Four Critical Vulnerabilities to KEV Catalog Due to Active Exploitation",
+            "url": "https://thehackernews.com/2025/07/cisa-adds-four-critical-vulnerabilities.html",
+            "date": "08 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "SEO Poisoning Campaign Targets 8,500+ SMB Users with Malware Disguised as AI Tools",
+            "url": "https://thehackernews.com/2025/07/seo-poisoning-campaign-targets-8500.html",
+            "date": "07 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "\u26a1 Weekly Recap: Chrome 0-Day, Ivanti Exploits, MacOS Stealers, Crypto Heists and More",
+            "url": "https://thehackernews.com/2025/07/weekly-recap-chrome-0-day-ivanti.html",
+            "date": "07 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Manufacturing Security: Why Default Passwords Must Go",
+            "url": "https://thehackernews.com/2025/07/manufacturing-security-why-default.html",
+            "date": "07 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "North America"
+        },
+        {
+            "title": "TAG-140 Deploys DRAT V2 RAT, Targeting Indian Government, Defense, and Rail Sectors",
+            "url": "https://thehackernews.com/2025/07/tag-140-deploys-drat-v2-rat-targeting.html",
+            "date": "07 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Taiwan NSB Alerts Public on Data Risks from TikTok, Weibo, and RedNote Over China Ties",
+            "url": "https://thehackernews.com/2025/07/taiwan-nsb-alerts-public-on-data-risks.html",
+            "date": "05 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Alert: Exposed JDWP Interfaces Lead to Crypto Mining, Hpingbot Targets SSH for DDoS",
+            "url": "https://thehackernews.com/2025/07/alert-exposed-jdwp-interfaces-lead-to.html",
+            "date": "05 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Android May Soon Warn You About Fake Cell Towers",
+            "url": "https://www.wired.com/story/android-may-soon-warn-you-about-fake-cell-towers/",
+            "date": "05 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "NightEagle APT Exploits Microsoft Exchange Flaw to Target China's Military and Tech Sectors",
+            "url": "https://thehackernews.com/2025/07/nighteagle-apt-exploits-microsoft.html",
+            "date": "04 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Your AI Agents Might Be Leaking Data \u2014 Watch this Webinar to Learn How to Stop It",
+            "url": "https://thehackernews.com/2025/07/your-ai-agents-might-be-leaking-data.html",
+            "date": "04 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Critical Sudo Vulnerabilities Let Local Users Gain Root Access on Linux, Impacting Major Distros",
+            "url": "https://thehackernews.com/2025/07/critical-sudo-vulnerabilities-let-local.html",
+            "date": "04 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Google Ordered to Pay $314M for Misusing Android Users' Cellular Data Without Permission",
+            "url": "https://thehackernews.com/2025/07/google-ordered-to-pay-314m-for-misusing.html",
+            "date": "04 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Catwatchful - 61,641 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/Catwatchful",
+            "date": "03 July 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "Massive Android Fraud Operations Uncovered: IconAds, Kaleidoscope, SMS Malware, NFC Scams",
+            "url": "https://thehackernews.com/2025/07/mobile-security-alert-352-iconads-fraud.html",
+            "date": "03 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "The Person in Charge of Testing Tech for US Spies Has Resigned",
+            "url": "https://www.wired.com/story/iarpa-director-resigns-odni/",
+            "date": "03 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Trump Officials Want to Prosecute Over the ICEBlock App. Lawyers Say That\u2019s Unconstitutional",
+            "url": "https://www.wired.com/story/trump-officials-want-to-prosecute-over-the-iceblock-app-lawyers-say-thats-unconstitutional/",
+            "date": "03 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "World"
+        },
+        {
+            "title": "CBP Wants New Tech to Search for Hidden Data on Seized Phones",
+            "url": "https://www.wired.com/story/cbp-wants-new-tech-to-search-for-hidden-data-on-seized-phones/",
+            "date": "03 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Over 40 Malicious Firefox Extensions Target Cryptocurrency Wallets, Stealing User Assets",
+            "url": "https://thehackernews.com/2025/07/over-40-malicious-firefox-extensions.html",
+            "date": "03 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "The Hidden Weaknesses in AI SOC Tools that No One Talks About",
+            "url": "https://thehackernews.com/2025/07/the-hidden-weaknesses-in-ai-soc-tools.html",
+            "date": "03 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Chinese Hackers Exploit Ivanti CSA Zero-Days in Attacks on French Government, Telecoms",
+            "url": "https://thehackernews.com/2025/07/chinese-hackers-exploit-ivanti-csa-zero.html",
+            "date": "03 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Critical Cisco Vulnerability in Unified CM Grants Root Access via Static Credentials",
+            "url": "https://thehackernews.com/2025/07/critical-cisco-vulnerability-in-unified.html",
+            "date": "03 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "The Promise and Peril of Digital Security in the Age of Dictatorship",
+            "url": "https://www.wired.com/story/the-promise-and-peril-of-digital-security-in-the-age-of-dictatorship/",
+            "date": "03 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "World"
+        },
+        {
+            "title": "North Korean Hackers Target Web3 with Nim Malware and Use ClickFix in BabyShark Campaign",
+            "url": "https://thehackernews.com/2025/07/north-korean-hackers-target-web3-with.html",
+            "date": "02 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "A Group of Young Cybercriminals Poses the \u2018Most Imminent Threat\u2019 of Cyberattacks Right Now",
+            "url": "https://www.wired.com/story/scattered-spider-most-imminent-threat/",
+            "date": "02 July 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "World"
+        },
+        {
+            "title": "That Network Traffic Looks Legit, But it Could be Hiding a Serious Threat",
+            "url": "https://thehackernews.com/2025/07/that-network-traffic-looks-legit-but-it.html",
+            "date": "02 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Hackers Using PDFs to Impersonate Microsoft, DocuSign, and More in Callback Phishing Campaigns",
+            "url": "https://thehackernews.com/2025/07/hackers-using-pdfs-to-impersonate.html",
+            "date": "02 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "U.S. Sanctions Russian Bulletproof Hosting Provider for Supporting Cybercriminals Behind Ransomware",
+            "url": "https://thehackernews.com/2025/07/us-sanctions-russian-bulletproof.html",
+            "date": "02 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Europe"
+        },
+        {
+            "title": "Vercel's v0 AI Tool Weaponized by Cybercriminals to Rapidly Create Fake Login Pages at Scale",
+            "url": "https://thehackernews.com/2025/07/vercels-v0-ai-tool-weaponized-by.html",
+            "date": "02 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Critical Vulnerability in Anthropic's MCP Exposes Developer Machines to Remote Exploits",
+            "url": "https://thehackernews.com/2025/07/critical-vulnerability-in-anthropics.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "TA829 and UNK_GreenSec Share Tactics and Infrastructure in Ongoing Malware Campaigns",
+            "url": "https://thehackernews.com/2025/07/ta829-and-unkgreensec-share-tactics-and.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "New Flaw in IDEs Like Visual Studio Code Lets Malicious Extensions Bypass Verified Status",
+            "url": "https://thehackernews.com/2025/07/new-flaw-in-ides-like-visual-studio.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "A New Maturity Model for Browser Security: Closing the Last-Mile Risk",
+            "url": "https://thehackernews.com/2025/07/a-new-maturity-model-for-browser.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Chrome Zero-Day CVE-2025-6554 Under Active Attack \u2014 Google Issues Security Update",
+            "url": "https://thehackernews.com/2025/07/google-patches-critical-zero-day-flaw.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "U.S. Arrests Facilitator in North Korean IT Worker Scheme; Seizes 29 Domains and Raids 21 Laptop Farms",
+            "url": "https://thehackernews.com/2025/07/us-arrests-key-facilitator-in-north.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Microsoft Removes Password Management from Authenticator App Starting August 2025",
+            "url": "https://thehackernews.com/2025/07/microsoft-removes-password-management.html",
+            "date": "01 July 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "U.S. Agencies Warn of Rising Iranian Cyber Attacks on Defense, OT Networks, and Critical Infrastructure",
+            "url": "https://thehackernews.com/2025/06/us-agencies-warn-of-rising-iranian.html",
+            "date": "30 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Middle East"
+        },
+        {
+            "title": "Europol Dismantles $540 Million Cryptocurrency Fraud Network, Arrests Five Suspects",
+            "url": "https://thehackernews.com/2025/06/europol-dismantles-540-million.html",
+            "date": "30 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "North America"
+        },
+        {
+            "title": "Identities of More Than 80 Americans Stolen for North Korean IT Worker Scams",
+            "url": "https://www.wired.com/story/identities-of-80-plus-americans-stolen-for-north-korean-it-worker-scams/",
+            "date": "30 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Blind Eagle Uses Proton66 Hosting for Phishing, RAT Deployment on Colombian Banks",
+            "url": "https://thehackernews.com/2025/06/blind-eagle-uses-proton66-hosting-for.html",
+            "date": "30 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "South America"
+        },
+        {
+            "title": "Leveraging Credentials As Unique Identifiers: A Pragmatic Approach To NHI Inventories",
+            "url": "https://thehackernews.com/2025/06/leveraging-credentials-as-unique.html",
+            "date": "30 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "\u26a1 Weekly Recap: Airline Hacks, Citrix 0-Day, Outlook Malware, Banking Trojans and more",
+            "url": "https://thehackernews.com/2025/06/weekly-recap-airline-hacks-citrix-0-day.html",
+            "date": "30 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Is surveillance by private operators legal in the UK?",
+            "url": "https://www.theguardian.com/world/2025/jun/29/is-surveillance-by-private-operators-legal-uk",
+            "date": "29 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "United Kingdom"
+        },
+        {
+            "title": "Revealed: spies for hire used \u2018Big Brother\u2019 tactics on salmon farm activists",
+            "url": "https://www.theguardian.com/world/2025/jun/29/revealed-spies-for-hire-salmon-farm-activists",
+            "date": "29 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "United Kingdom"
+        },
+        {
+            "title": "FBI Warns of Scattered Spider's Expanding Attacks on Airlines Using Social Engineering",
+            "url": "https://thehackernews.com/2025/06/fbi-warns-of-scattered-spiders.html",
+            "date": "28 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "GIFTEDCROOK Malware Evolves: From Browser Stealer to Intelligence-Gathering Tool",
+            "url": "https://thehackernews.com/2025/06/giftedcrook-malware-evolves-from.html",
+            "date": "28 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Facebook\u2019s New AI Tool Asks to Upload Your Photos for Story Ideas, Sparking Privacy Concerns",
+            "url": "https://thehackernews.com/2025/06/facebooks-new-ai-tool-requests-photo.html",
+            "date": "28 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "ICE Rolls Facial Recognition Tools Out to Officers' Phones",
+            "url": "https://www.wired.com/story/ice-rolls-facial-recognition-tools-out-to-officers-phones/",
+            "date": "28 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Over 1,000 SOHO Devices Hacked in China-linked LapDogs Cyber Espionage Campaign",
+            "url": "https://thehackernews.com/2025/06/over-1000-soho-devices-hacked-in-china.html",
+            "date": "27 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "PUBLOAD and Pubshell Malware Used in Mustang Panda's Tibet-Specific Attack",
+            "url": "https://thehackernews.com/2025/06/pubload-and-pubshell-malware-used-in.html",
+            "date": "27 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "Business Case for Agentic AI SOC Analysts",
+            "url": "https://thehackernews.com/2025/06/business-case-for-agentic-ai-soc.html",
+            "date": "27 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "Chinese Group Silver Fox Uses Fake Websites to Deliver Sainbox RAT and Hidden Rootkit",
+            "url": "https://thehackernews.com/2025/06/chinese-group-silver-fox-uses-fake.html",
+            "date": "27 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "Asia"
+        },
+        {
+            "title": "US Supreme Court Upholds Texas Porn ID Law",
+            "url": "https://www.wired.com/story/us-supreme-court-porn-age-verification-decision-2025/",
+            "date": "27 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "MOVEit Transfer Faces Increased Threats as Scanning Surges and CVE Flaws Are Targeted",
+            "url": "https://thehackernews.com/2025/06/moveit-transfer-faces-increased-threats.html",
+            "date": "27 June 2025",
+            "source": "The Hacker News",
+            "category": "Cyber Security",
+            "region": "World"
+        },
+        {
+            "title": "What the app? What will WhatsApp's pursuit of revenue mean for no-strings encryption",
+            "url": "http://privacyinternational.org/news-analysis/5617/what-app-what-will-whatsapps-pursuit-revenue-mean-no-strings-encryption",
+            "date": "27 June 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "\u2018They're Not Breathing\u2019: Inside the Chaos of ICE Detention Center 911 Calls",
+            "url": "https://www.wired.com/story/ice-detention-center-911-emergencies/",
+            "date": "25 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "World"
+        },
+        {
+            "title": "Robinsons Malls - 195,597 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/RobinsonsMalls",
+            "date": "25 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Asia"
+        },
+        {
+            "title": "Have Fun Teaching - 27,126 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/HaveFunTeaching",
+            "date": "25 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "Telegram Purged Chinese Crypto Scam Markets\u2014Then Watched as They Rebuilt",
+            "url": "https://www.wired.com/story/telegram-purged-chinese-crypto-scam-markets-then-let-them-rebuild/",
+            "date": "23 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "Asia"
+        },
+        {
+            "title": "Taiwan Is Rushing to Make Its Own Drones Before It's Too Late",
+            "url": "https://www.wired.com/story/taiwans-rush-to-make-its-own-drones-before-its-too-late/",
+            "date": "23 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "Asia"
+        },
+        {
+            "title": "What Satellite Images Reveal About the US Bombing of Iran's Nuclear Sites",
+            "url": "https://www.wired.com/story/iran-fordow-nuclear-site-satellite-images-damage/",
+            "date": "22 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Truth Social Crashes as Trump Live-Posts Iran Bombing",
+            "url": "https://www.wired.com/story/truth-social-crashes-as-trump-live-posts-bombing-iran/",
+            "date": "22 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Israel Says Iran Is Hacking Security Cameras for Spying",
+            "url": "https://www.wired.com/story/israel-says-iran-is-hack-security-cameras-for-spying/",
+            "date": "21 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "Middle East"
+        },
+        {
+            "title": "Iran\u2019s Internet Blackout Adds New Dangers for Civilians Amid Israeli Bombings",
+            "url": "https://www.wired.com/story/iran-internet-shutdown-israel/",
+            "date": "18 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "Middle East"
+        },
+        {
+            "title": "Israel-Tied Predatory Sparrow Hackers Are Waging Cyberwar on Iran\u2019s Financial System",
+            "url": "https://www.wired.com/story/israels-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/",
+            "date": "18 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "Middle East"
+        },
+        {
+            "title": "DNA testing firm 23andMe fined \u00a32.3m by UK regulator for 2023 data hack",
+            "url": "https://www.theguardian.com/technology/2025/jun/17/dna-testing-firm-23andme-fined-23m-by-uk-regulator-for-2023-data-hack",
+            "date": "17 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "NHS staff unsettled by patients filming care and posting videos on social media",
+            "url": "https://www.theguardian.com/society/2025/jun/17/nhs-concerns-patients-filming-tiktok-instagram",
+            "date": "17 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "Minnesota Shooting Suspect Allegedly Used Data Broker Sites to Find Targets\u2019 Addresses",
+            "url": "https://www.wired.com/story/minnesota-lawmaker-shootings-people-search-data-brokers/",
+            "date": "17 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "World"
+        },
+        {
+            "title": "Makers of air fryers and smart speakers told to respect users\u2019 right to privacy",
+            "url": "https://www.theguardian.com/technology/2025/jun/16/air-fryers-smart-tv-speakers-user-data-privacy-ico",
+            "date": "16 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "United Kingdom"
+        },
+        {
+            "title": "How to Protect Yourself From Phone Searches at the US Border",
+            "url": "https://www.wired.com/story/how-to-protect-yourself-from-phone-searches-at-the-us-border/",
+            "date": "16 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "The WIRED Guide to Protecting Yourself From Government Surveillance",
+            "url": "https://www.wired.com/story/the-wired-guide-to-protecting-yourself-from-government-surveillance/",
+            "date": "16 June 2025",
+            "source": "Wired",
+            "category": "News",
+            "region": "North America"
+        },
+        {
+            "title": "Ualabee - 472,296 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/Ualabee",
+            "date": "13 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "North America"
+        },
+        {
+            "title": "Public health bodies urged to launch period tracking apps to protect data",
+            "url": "https://www.theguardian.com/society/2025/jun/11/public-health-bodies-urged-launch-period-tracking-apps-protect-data",
+            "date": "10 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "WiredBucks - 918,529 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/WiredBucks",
+            "date": "10 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "How did you get my number? Inside the shadowy world of data brokers",
+            "url": "https://www.theguardian.com/world/2025/jun/09/how-did-you-get-my-number-inside-the-shadowy-world-of-data-brokers-ntwnfb",
+            "date": "08 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "Disk Union - 690,667 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/DiskUnion",
+            "date": "07 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Asia"
+        },
+        {
+            "title": "US supreme court rules Doge can access social security data during legal challenge",
+            "url": "https://www.theguardian.com/us-news/2025/jun/06/supreme-court-doge-data",
+            "date": "06 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "Shopper put on facial ID watchlist after dispute over 39p of paracetamol\u200b at Home Bargains",
+            "url": "https://www.theguardian.com/uk-news/2025/jun/06/shopper-facewatch-watchlist-39p-paracetamol-london",
+            "date": "06 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "United Kingdom"
+        },
+        {
+            "title": "Producing real change: key highlights of our 2025 results by season",
+            "url": "http://privacyinternational.org/long-read/5597/producing-real-change-key-highlights-our-2025-results-season",
+            "date": "06 June 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "New Zealand PM mulls privacy laws after aide \u2018secretly recorded sex workers\u2019",
+            "url": "https://www.theguardian.com/world/2025/jun/05/new-zealand-pm-mulls-privacy-laws-aide-secretly-recorded-sex-workers",
+            "date": "05 June 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "Oceania"
+        },
+        {
+            "title": "Summary of an Experts Consultation on Human Rights, Digital Technologies, and Elections",
+            "url": "http://privacyinternational.org/advocacy/5596/summary-experts-consultation-human-rights-digital-technologies-and-elections",
+            "date": "04 June 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "Joint Civil Society Declaration at the International Labour Conference 2025",
+            "url": "http://privacyinternational.org/advocacy/5595/joint-civil-society-declaration-international-labour-conference-2025",
+            "date": "03 June 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "ColoCrossing - 7,183 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/ColoCrossing",
+            "date": "03 June 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "US immigration authorities collecting DNA information of children in criminal database",
+            "url": "https://www.theguardian.com/us-news/2025/may/31/cbp-dna-collection-children-immigrants",
+            "date": "31 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "All Eyes on my Period? Period tracking apps and the future of privacy in a post-Roe world",
+            "url": "http://privacyinternational.org/long-read/5593/all-eyes-my-period-period-tracking-apps-and-future-privacy-post-roe-world",
+            "date": "28 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "Free - 13,926,173 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/FreeMobile",
+            "date": "27 May 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "Operation Endgame 2.0 - 15,436,844 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/OperationEndgame2",
+            "date": "23 May 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "Are AI Assistants built for us or to exploit us? and other questions for the AI industry",
+            "url": "http://privacyinternational.org/news-analysis/5591/are-ai-assistants-built-us-or-exploit-us-and-other-questions-ai-industry",
+            "date": "23 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "F\u00e9d\u00e9ration Francaise de Rugby - 281,977 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/FFR",
+            "date": "22 May 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "Free to Protest (T\u00fcrkiye Edition)",
+            "url": "http://privacyinternational.org/explainer/5590/free-protest-turkiye-edition",
+            "date": "22 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "PI statement during informal consultations on autonomous weapons systems in New York",
+            "url": "http://privacyinternational.org/advocacy/5589/pi-statement-during-informal-consultations-autonomous-weapons-systems-new-york",
+            "date": "22 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "NSW education department caught unaware after Microsoft Teams began collecting students\u2019 biometric data",
+            "url": "https://www.theguardian.com/australia-news/2025/may/19/nsw-education-department-caught-unaware-after-microsoft-teams-began-collecting-students-biometric-data",
+            "date": "20 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "Oceania"
+        },
+        {
+            "title": "Enter the Fediverse",
+            "url": "http://privacyinternational.org/long-read/5578/enter-fediverse",
+            "date": "13 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "Google agrees to pay Texas $1.375bn over data-privacy claims",
+            "url": "https://www.theguardian.com/us-news/2025/may/10/google-texas-data-privacy-settlement",
+            "date": "10 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "Wikipedia challenging UK law it says exposes it to \u2018manipulation and vandalism\u2019",
+            "url": "https://www.theguardian.com/technology/2025/may/08/wikipedia-challenging-uk-law-it-says-exposes-it-to-manipulation-and-vandalism",
+            "date": "08 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "United Kingdom"
+        },
+        {
+            "title": "OnRPG - 1,047,640 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/OnRPG",
+            "date": "08 May 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "Our Research Methodology",
+            "url": "http://privacyinternational.org/long-read/5560/our-research-methodology",
+            "date": "05 May 2025",
+            "source": "Privacy International",
+            "category": "Privacy",
+            "region": "World"
+        },
+        {
+            "title": "\u2018A slippery slope to eugenics\u2019: advocates reject RFK Jr\u2019s national autism database",
+            "url": "https://www.theguardian.com/us-news/2025/may/05/autism-national-database-rfk-jr",
+            "date": "05 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "TikTok fined \u20ac530m by Irish regulator for failing to guarantee China would not access user data",
+            "url": "https://www.theguardian.com/technology/2025/may/02/tiktok-fined-530m-for-failing-to-protect-user-data-from-chinese-state",
+            "date": "02 May 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "Asia"
+        },
+        {
+            "title": "Tehets\u00e9gKapu - 54,357 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/TehetsegKapu",
+            "date": "01 May 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "UK Biobank is safely sharing health data to drive medical research | Letter",
+            "url": "https://www.theguardian.com/science/2025/apr/18/uk-biobank-is-safely-sharing-health-data-to-drive-medical-research",
+            "date": "18 April 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "Asia"
+        },
+        {
+            "title": "Opt out: how to protect your data and privacy if you own a Tesla",
+            "url": "https://www.theguardian.com/technology/2025/apr/17/tesla-elon-musk-privacy",
+            "date": "17 April 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "Revealed: Chinese researchers can access half a million UK GP records",
+            "url": "https://www.theguardian.com/technology/2025/apr/15/revealed-chinese-researchers-access-half-a-million-uk-gp-records",
+            "date": "15 April 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "Asia"
+        },
+        {
+            "title": "Samsung Germany Customer Tickets - 216,333 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/SamsungGermany",
+            "date": "13 April 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "Pro-Palestinian protester\u2019s lawyer stopped and searched at US border: \u2018They were going to take my device\u2019",
+            "url": "https://www.theguardian.com/us-news/2025/apr/12/amir-makled-phone-search-border-immigration",
+            "date": "12 April 2025",
+            "source": "The Guardian",
+            "category": "Privacy",
+            "region": "North America"
+        },
+        {
+            "title": "Qraved - 984,519 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/Qraved",
+            "date": "09 April 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Asia"
+        },
+        {
+            "title": "Boulanger - 2,077,078 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/Boulanger",
+            "date": "08 April 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "German Doner Kebab - 162,373 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/GermanDonerKebab",
+            "date": "30 March 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "Europe"
+        },
+        {
+            "title": "Troy Hunt's Mailchimp List - 16,627 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/TroyHuntMailchimpList",
+            "date": "25 March 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "SpyX - 1,977,011 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/SpyX",
+            "date": "19 March 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        },
+        {
+            "title": "Lexipol - 672,546 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/Lexipol",
+            "date": "19 March 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "North America"
+        },
+        {
+            "title": "Color Dating - 220,503 breached accounts",
+            "url": "https://haveibeenpwned.com/Breach/ColorDating",
+            "date": "03 March 2025",
+            "source": "Have I Been Pwned",
+            "category": "Data Breaches",
+            "region": "World"
+        }
+    ]
+}

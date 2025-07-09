@@ -361,12 +361,12 @@
         <img class="hx-hidden dark:hx-block" src="/images/logo-dark.svg" alt="Logo" height="25" width="25" />
         <span class="hx-ml-2 hx-font-bold hx-inline hx-select-none" title="Beginner Privacy">Beginner Privacy</span>
     </a><a
-          title="检查表"
-          href="/zh-cn/checklists"
+          title="News"
+          href="/zh-cn/news"
           
           class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
         >
-          <span class="hx-text-center">检查表</span>
+          <span class="hx-text-center">News</span>
         </a><a
           title="文章"
           href="/zh-cn/articles"
@@ -374,6 +374,13 @@
           class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
         >
           <span class="hx-text-center">文章</span>
+        </a><a
+          title="检查表"
+          href="/zh-cn/checklists"
+          
+          class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
+        >
+          <span class="hx-text-center">检查表</span>
         </a><a
           title="商店"
           href="https://shop.beginnerprivacy.com"
@@ -1020,7 +1027,14 @@
     </a>
               
             </li></ul>
-      </div></li><a class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      </div></li>
+          <li class=""><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/zh-cn/news/"
+    
+  >新闻
+    </a></li><a class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
         hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50" href="https://shop.beginnerprivacy.com">商店</a>
       
     </ul>
@@ -1268,8 +1282,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for 关于 Beginner Privacy" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for 关于 Beginner Privacy" />  
     </div>
   
 </a></li>
@@ -1341,8 +1355,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for 为什么要关心你的隐私？" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for 为什么要关心你的隐私？" />  
     </div>
   
 </a></li>
@@ -1526,8 +1540,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for 找到威胁模型" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for 找到威胁模型" />  
     </div>
   
 </a></li>
@@ -1582,8 +1596,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for 基本介绍" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for 基本介绍" />  
     </div>
   
 </a></li>
@@ -1716,8 +1730,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for 强密码" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for 强密码" />  
     </div>
   
 </a></li>
@@ -1836,8 +1850,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for 双重身份验证 (2FA)" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for 双重身份验证 (2FA)" />  
     </div>
   
 </a></li>
@@ -1990,8 +2004,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for 限制共享的信息" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for 限制共享的信息" />  
     </div>
   
 </a></li>
@@ -2133,8 +2147,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for 私人浏览器" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for 私人浏览器" />  
     </div>
   
 </a></li>
@@ -2245,8 +2259,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for 私人搜索引擎" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for 私人搜索引擎" />  
     </div>
   
 </a></li>
@@ -2371,8 +2385,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for 虚拟专用网络（VPN）" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for 虚拟专用网络（VPN）" />  
     </div>
   
 </a></li>
@@ -2473,8 +2487,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for 桌面隐私设置" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for 桌面隐私设置" />  
     </div>
   
 </a></li>
@@ -2593,8 +2607,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for 移动隐私设置" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for 移动隐私设置" />  
     </div>
   
 </a></li>
@@ -2702,8 +2716,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-private-email" aria-label="Checkbox for 私人电子邮件" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-private-email" aria-label="Checkbox for 私人电子邮件" />  
     </div>
   
 </a></li>
@@ -2849,8 +2863,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for 安全消息传递" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for 安全消息传递" />  
     </div>
   
 </a></li>
@@ -2906,8 +2920,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for 中级介绍" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for 中级介绍" />  
     </div>
   
 </a></li>
@@ -3022,8 +3036,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for 自由和开源软件" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for 自由和开源软件" />  
     </div>
   
 </a></li>
@@ -3250,8 +3264,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for 切换到Linux" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for 切换到Linux" />  
     </div>
   
 </a></li>
@@ -3371,8 +3385,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for 加密DNS" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for 加密DNS" />  
     </div>
   
 </a></li>
@@ -3588,8 +3602,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for 社交媒体前端" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for 社交媒体前端" />  
     </div>
   
 </a></li>
@@ -3706,8 +3720,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for 从数据经纪人处删除" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for 从数据经纪人处删除" />  
     </div>
   
 </a></li>
@@ -3845,8 +3859,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for 什么是Tor？" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for 什么是Tor？" />  
     </div>
   
 </a></li>
@@ -3901,8 +3915,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for 高级介绍" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for 高级介绍" />  
     </div>
   
 </a></li>
@@ -4001,8 +4015,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for 桌面操作系统" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for 桌面操作系统" />  
     </div>
   
 </a></li>
@@ -4109,8 +4123,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for 移动操作系统" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for 移动操作系统" />  
     </div>
   
 </a></li>
@@ -4255,8 +4269,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for 自托管" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for 自托管" />  
     </div>
   
 </a></li>
@@ -4392,8 +4406,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for 加密货币" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for 加密货币" />  
     </div>
   
 </a></li>
@@ -4494,8 +4508,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-physical-security" aria-label="Checkbox for 物理安全" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-physical-security" aria-label="Checkbox for 物理安全" />  
     </div>
   
 </a></li>
@@ -4647,8 +4661,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;">
-      <input class="hx-checkbox" type="checkbox" id="roadmap-threat-intelligence" aria-label="Checkbox for 威胁情报" />  
+    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
+      <input type="checkbox" id="roadmap-threat-intelligence" aria-label="Checkbox for 威胁情报" />  
     </div>
   
 </a></li>
