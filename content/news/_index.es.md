@@ -2,15 +2,17 @@
 title: Noticia (Beta)
 excludeSearch: true
 ---
+{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
+  <div>Los sitios de noticias a continuación pueden rastrearte. ¡Por favor completa nuestra <a href="../checklists/?m=casual-internet-user">Lista de Verificación para Usuarios de Internet Casuales</a> antes de hacer clic en cualquier enlace!</div> 
+  <div class="news-warning-close">&times;</div>
+{{< /callout >}}
+
 <div class="news-top-bar">
     <input type="text" id="search" placeholder="Buscar noticias..." oninput="filterNews()" />
     <select id="category" onchange="filterNews()">
         <option value="">Categoría</option>
         <option value="Data Breaches">Filtraciones de Datos</option>
         <option value="Privacy">Privacidad</option>
-        <option value="Artificial Intelligence">Inteligencia Artificial</option>
-        <option value="Government">Gobierno</option>
-        <option value="War">Guerra</option>
         <option value="Cyber Security">Ciberseguridad</option>
     </select>
     <select id="region" onchange="filterNews()">

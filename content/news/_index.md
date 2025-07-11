@@ -2,15 +2,17 @@
 title: News (Beta)
 excludeSearch: true
 ---
+{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
+  <div>The news sites below may track you. Please complete our <a href="../checklists/?m=casual-internet-user">Casual Internet User Checklist</a> before clicking any links!</div> 
+  <div class="news-warning-close">&times;</div>
+{{< /callout >}}
+
 <div class="news-top-bar">
     <input type="text" id="search" placeholder="Search news..." oninput="filterNews()" />
     <select id="category" onchange="filterNews()">
         <option value="">Category</option>
         <option value="Data Breaches">Data Breaches</option>
         <option value="Privacy">Privacy</option>
-        <option value="Artificial Intelligence">Artificial Intelligence</option>
-        <option value="Government">Government</option>
-        <option value="War">War</option>
         <option value="Cyber Security">Cyber Security</option>
     </select>
     <select id="region" onchange="filterNews()">

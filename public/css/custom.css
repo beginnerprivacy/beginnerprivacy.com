@@ -243,9 +243,9 @@
     border-radius: 10px;
 }
 .chat-section-button:hover {
-    background: var(--color-black);
-    border-color: var(--color-black);
-    color: var(--color-white);
+    background: rgb(var(--color-black));
+    border-color: rgb(var(--color-black));
+    color: rgb(var(--color-white));
     transition: all 0.2s ease-in-out;
 }
 
@@ -392,6 +392,11 @@
 
 #news-page-info {
     margin-top: 0.5rem;
+}
+
+.news-warning-close {
+    font-size: xx-large;
+    cursor: pointer;
 }
 
 .news-pagination button {

@@ -2,15 +2,17 @@
 title: 新闻 (测试版)
 excludeSearch: true
 ---
+{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
+  <div>以下新闻网站可能会追踪您。在点击任何链接之前，请完成我们的<a href="../checklists/?m=casual-internet-user">普通互联网用户检查清单</a>!</div> 
+  <div class="news-warning-close">&times;</div>
+{{< /callout >}}
+
 <div class="news-top-bar">
     <input type="text" id="search" placeholder="搜索新闻..." oninput="filterNews()" />
     <select id="category" onchange="filterNews()">
         <option value="">类别</option>
         <option value="Data Breaches">数据泄露</option>
         <option value="Privacy">隐私</option>
-        <option value="Artificial Intelligence">人工智能</option>
-        <option value="Government">政府</option>
-        <option value="War">战争</option>
         <option value="Cyber Security">网络安全</option>
     </select>
     <select id="region" onchange="filterNews()">
