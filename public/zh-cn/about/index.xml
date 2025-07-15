@@ -510,7 +510,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;关注我们&lt;/strong&gt;：通过关注我们的社交媒体保持更新。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;传播信息&lt;/strong&gt;：与家人和朋友分享我们的网站，帮助我们接触更广泛的受众。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;贡献&lt;/strong&gt;：想要贡献吗？了解您可以如何参与 &lt;a href=&#34;../about-contributing&#34; &gt;这里&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;贡献&lt;/strong&gt;：有兴趣参与吗？了解如何&lt;a href=&#34;../about-contributing&#34; &gt;参与&lt;/a&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -573,11 +573,11 @@
 &lt;/blockquote&gt;
 &lt;br&gt;
 请注意，虽然 GoatCounter 是一个有用的工具，用于显示流量和不同形式的流量，但由于某些脚本的存在，它可能无法提供准确的数字。
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;如何禁用 GoatCounter 的追踪&lt;/strong&gt;&lt;/p&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;p&gt;&lt;strong&gt;如何禁用 GoatCounter 的追踪&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果您不希望被包含在 GoatCounter 的统计数据中，可以通过在浏览器中安装 &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; 扩展程序轻松阻止追踪。&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;
@@ -1013,11 +1013,11 @@ const resultTexts = {
       <description>
         
         
-        &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+        &lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;&lt;/p&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我们优先考虑您的隐私，并收集最少的数据。我们不记录IP地址，不存储cookies，也不维护日志。我们保留的唯一信息是您的路线图和检查清单进度（保存在您的设备上）以及基本的页面浏览统计（不包含任何个人信息）。其他所有信息都故意不收集，以保护您的隐私。&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;

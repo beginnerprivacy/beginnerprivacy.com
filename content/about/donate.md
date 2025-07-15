@@ -18,4 +18,4 @@ Show your support for Beginner Privacy by purchasing merchandise from our [shop]
 You can also support Beginner Privacy without spending a dime! Here are some simple ways to help:
 - **Follow Us**: Stay updated by following us on social media.
 - **Spread the Word**: Share our website with your family and friends to help us reach a wider audience.
-- **Contribute**: Interested in contributing? Learn how you can get involved [here](../about-contributing).
+- **Contribute**: Interested in contributing? Learn how to [get involved](../about-contributing).

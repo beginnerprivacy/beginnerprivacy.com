@@ -598,180 +598,184 @@ function updateRoadmap() {
       }
   }
 }
-  window.onload = updateRoadmap;
-  
-  function markAsDone(id) {
-    const checkbox = document.getElementById(`roadmap-${id}`);
-    if (!checkbox) return;
-    checkbox.checked = !checkbox.checked;
-    updateStatus(checkbox);
-    
-    localStorage.setItem(`roadmap-${id}`, checkbox.checked);
-  }
-  
-  function updateStatus(checkbox) {
-    const id = checkbox.id.replace('roadmap-', '');
-    const button = document.getElementById(`mark-done-${id}`);
-    const icon = document.getElementById(`status-icon-${id}`);
-    const todoIcon = document.getElementById(`todo-icon-${id}`);
-    const doneIcon = document.getElementById(`done-icon-${id}`);
-  
-    if (!button || !icon || !todoIcon || !doneIcon) return;
-  
-    const isChecked = checkbox.checked;
-    const isSpanish = window.location.href.includes('/es/');
-    const isChinese = window.location.href.includes('/zh-cn/');
-    if (isSpanish) {
-      button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
-    }
-    else if (isChinese) {
-      button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
-    }
-    else {
-      button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
-    }
+window.onload = updateRoadmap;
 
-    icon.style.color = isChecked ? '#008d0c' : '#9CA3AF';
-    todoIcon.classList.toggle('hx-hidden', isChecked);
-    doneIcon.classList.toggle('hx-hidden', !isChecked);
-  }
-    
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.hx-checkbox').forEach(checkbox => {
-      const id = checkbox.id;
-      const savedState = localStorage.getItem(id);
-      if (savedState === 'true') {
-        checkbox.checked = true;
-        updateStatus(checkbox);
-      }
-    });
-    handleModalParam();
+// Roadmap modals
+function handleModalParam() {
+  const params = new URLSearchParams(window.location.search);
+  const modalID = params.get('m');
+  
+  document.querySelectorAll('.roadmap-modal').forEach(modal => {
+    modal.style.display = 'none';
   });
   
-  function handleModalParam() {
-    const params = new URLSearchParams(window.location.search);
-    const modalID = params.get('m');
-    
-    document.querySelectorAll('.roadmap-modal').forEach(modal => {
-      modal.style.display = 'none';
-    });
-    
-    if (modalID) {
-      const modal = document.getElementById(modalID);
-      if (modal) {
-        const parentSection = modal.closest('.roadmap-section');
-  
-        if (parentSection) {
-          const tabName = parentSection.id.replace('Content', '');
-          const tabInput = document.querySelector(`input[name="tabs"][value="${tabName}"]`);
-  
-          if (tabInput) {
-            tabInput.checked = true;
-            updateRoadmap();
-            modal.style.display = 'block';
-            const overlay = document.querySelector('.overlay')
-            const navoverlay = document.querySelector('.nav-overlay')
-            overlay.style.display = 'block';
-            navoverlay.style.display = 'block';
-          }
+  if (modalID) {
+    const modal = document.getElementById(modalID);
+    if (modal) {
+      const parentSection = modal.closest('.roadmap-section');
+
+      if (parentSection) {
+        const tabName = parentSection.id.replace('Content', '');
+        const tabInput = document.querySelector(`input[name="tabs"][value="${tabName}"]`);
+
+        if (tabInput) {
+          tabInput.checked = true;
+          updateRoadmap();
+          modal.style.display = 'block';
+          const overlay = document.querySelector('.overlay')
+          const navoverlay = document.querySelector('.nav-overlay')
+          overlay.style.display = 'block';
+          navoverlay.style.display = 'block';
         }
       }
     }
   }
-  
-  function closeRoadmapModal() {
-    const params = new URLSearchParams(window.location.search);
-    const modalID = params.get('m');
+}
+
+function closeRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const modalID = params.get('m');
+  const url = new URL(window.location);
+  url.searchParams.delete('m');
+  window.history.replaceState({}, '', url);
+  document.getElementById(modalID).style.display = 'none';
+  const overlay = document.querySelector('.overlay')
+  const navoverlay = document.querySelector('.nav-overlay')
+  overlay.style.display = 'none';
+  navoverlay.style.display = 'none';
+  return false;
+}
+
+document.querySelectorAll('a[href^="?m="]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const modalID = new URL(this.href).searchParams.get('m');
     const url = new URL(window.location);
-    url.searchParams.delete('m');
-    window.history.replaceState({}, '', url);
-    document.getElementById(modalID).style.display = 'none';
-    const overlay = document.querySelector('.overlay')
-    const navoverlay = document.querySelector('.nav-overlay')
-    overlay.style.display = 'none';
-    navoverlay.style.display = 'none';
-    return false;
+    url.searchParams.set('m', modalID);
+    window.history.pushState({}, '', url);
+    handleModalParam();
+  });
+});
+
+document.querySelectorAll('.roadmap-modal-close').forEach(btn => {
+  btn.onclick = () => {
+    closeRoadmapModal();
+  };
+});
+
+document.querySelectorAll('.overlay, .nav-overlay').forEach(overlay => {
+  overlay.onclick = () => {
+    closeRoadmapModal();
   }
-  
-  document.querySelectorAll('a[href^="?m="]').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const modalID = new URL(this.href).searchParams.get('m');
+});
+
+window.addEventListener('popstate', handleModalParam);
+document.addEventListener('DOMContentLoaded', handleModalParam);
+
+function previousRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const currentModalID = params.get('m');
+  const modals = document.querySelectorAll('.roadmap-modal');
+  let currentIndex = -1;
+
+  modals.forEach((modal, index) => {
+    if (modal.id === currentModalID) {
+      currentIndex = index;
+    }
+  });
+
+  while (currentIndex > 0) {
+    const previousModal = modals[currentIndex - 1];
+    const previousModalID = previousModal.id;
+
+    if (previousModalID !== 'something-missing-contribute') {
       const url = new URL(window.location);
-      url.searchParams.set('m', modalID);
+      url.searchParams.set('m', previousModalID);
       window.history.pushState({}, '', url);
       handleModalParam();
-    });
-  });
-  
-  document.querySelectorAll('.roadmap-modal-close').forEach(btn => {
-    btn.onclick = () => {
-      closeRoadmapModal();
-    };
-  });
-  
-  document.querySelectorAll('.overlay, .nav-overlay').forEach(overlay => {
-    overlay.onclick = () => {
-      closeRoadmapModal();
+      break;
     }
-  });
-  
-  window.addEventListener('popstate', handleModalParam);
-  document.addEventListener('DOMContentLoaded', handleModalParam);
-  
-  function previousRoadmapModal() {
-    const params = new URLSearchParams(window.location.search);
-    const currentModalID = params.get('m');
-    const modals = document.querySelectorAll('.roadmap-modal');
-    let currentIndex = -1;
-  
-    modals.forEach((modal, index) => {
-      if (modal.id === currentModalID) {
-        currentIndex = index;
-      }
-    });
-  
-    while (currentIndex > 0) {
-      const previousModal = modals[currentIndex - 1];
-      const previousModalID = previousModal.id;
-  
-      if (previousModalID !== 'something-missing-contribute') {
-        const url = new URL(window.location);
-        url.searchParams.set('m', previousModalID);
-        window.history.pushState({}, '', url);
-        handleModalParam();
-        break;
-      }
-      currentIndex--;
-    }
+    currentIndex--;
   }
-  
-  function nextRoadmapModal() {
-    const params = new URLSearchParams(window.location.search);
-    const currentModalID = params.get('m');
-    const modals = document.querySelectorAll('.roadmap-modal');
-    let currentIndex = -1;
-  
-    modals.forEach((modal, index) => {
-      if (modal.id === currentModalID) {
-        currentIndex = index;
-      }
-    });
-  
-    while (currentIndex < modals.length - 1) {
-      const nextModal = modals[currentIndex + 1];
-      const nextModalID = nextModal.id;
-  
-      if (nextModalID !== 'something-missing-contribute') {
-        const url = new URL(window.location);
-        url.searchParams.set('m', nextModalID);
-        window.history.pushState({}, '', url);
-        handleModalParam();
-        break;
-      }
-      currentIndex++;
+}
+
+function nextRoadmapModal() {
+  const params = new URLSearchParams(window.location.search);
+  const currentModalID = params.get('m');
+  const modals = document.querySelectorAll('.roadmap-modal');
+  let currentIndex = -1;
+
+  modals.forEach((modal, index) => {
+    if (modal.id === currentModalID) {
+      currentIndex = index;
     }
+  });
+
+  while (currentIndex < modals.length - 1) {
+    const nextModal = modals[currentIndex + 1];
+    const nextModalID = nextModal.id;
+
+    if (nextModalID !== 'something-missing-contribute') {
+      const url = new URL(window.location);
+      url.searchParams.set('m', nextModalID);
+      window.history.pushState({}, '', url);
+      handleModalParam();
+      break;
+    }
+    currentIndex++;
   }
+}
+
+// Checkbox
+function markAsDone(id) {
+  const checkbox = document.getElementById(`roadmap-${id}`);
+  if (!checkbox) return;
+
+  const isChecked = checkbox.getAttribute('aria-checked') === 'true';
+  checkbox.setAttribute('aria-checked', !isChecked);
+
+  updateStatus(checkbox);
+  localStorage.setItem(`roadmap-${id}`, checkbox.getAttribute('aria-checked'));
+}
+
+function updateStatus(checkbox) {
+  const id = checkbox.id.replace('roadmap-', '');
+  const button = document.getElementById(`mark-done-${id}`);
+  const icon = document.getElementById(`status-icon-${id}`);
+  const todoIcon = document.getElementById(`todo-icon-${id}`);
+  const doneIcon = document.getElementById(`done-icon-${id}`);
+
+  if (!button || !icon || !todoIcon || !doneIcon) return;
+
+  const isChecked = checkbox.getAttribute('aria-checked') === 'true';
+  const isSpanish = window.location.href.includes('/es/');
+  const isChinese = window.location.href.includes('/zh-cn/');
+  if (isSpanish) {
+    button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
+  }
+  else if (isChinese) {
+    button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
+  }
+  else {
+    button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
+  }
+
+  icon.style.color = isChecked ? '#008d0c' : '#9CA3AF';
+  todoIcon.classList.toggle('hx-hidden', isChecked);
+  doneIcon.classList.toggle('hx-hidden', !isChecked);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.roadmap-checkbox div').forEach(checkbox => {
+    const id = checkbox.id;
+    const savedState = localStorage.getItem(id);
+    if (savedState === 'true') {
+      checkbox.setAttribute('aria-checked', 'true');
+      updateStatus(checkbox);
+    }
+  });
+  handleModalParam();
+});
 ;
 document.addEventListener("DOMContentLoaded", function() {
     function showModal(modalId) {
@@ -1081,7 +1085,10 @@ let currentPage = 1;
 const itemsPerPage = 12;
 
 async function fetchNews() {
-    document.getElementById('news-loading-message').style.display = 'block';
+    const newsLoadingMessage =  document.getElementById('news-loading-message')
+    if (newsLoadingMessage) {
+        newsLoadingMessage.style.display = 'block';
+    }
 
     try {
         const response = await fetch('https://raw.githubusercontent.com/beginnerprivacy/news/refs/heads/main/news.json');
@@ -1089,10 +1096,10 @@ async function fetchNews() {
         allNewsItems = data.articles || [];
         filteredNewsItems = [...allNewsItems].sort((a, b) => new Date(b.date) - new Date(a.date));
         renderNews();
-    } catch (error) {
-        console.error("Error fetching news:", error);
     } finally {
-        document.getElementById('news-loading-message').style.display = 'none';
+        if (newsLoadingMessage) {
+            document.getElementById('news-loading-message').style.display = 'none';
+        }
     }
 }
 
@@ -1131,42 +1138,45 @@ function changePage(direction) {
 
 function renderNews() {
     const container = document.getElementById('news-container');
-    container.innerHTML = '';
+    if (container) {
+        container.innerHTML = '';
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const paginatedItems = filteredNewsItems.slice(startIndex, endIndex);
 
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const paginatedItems = filteredNewsItems.slice(startIndex, endIndex);
+        paginatedItems.forEach(item => {
+            const card = document.createElement('a');
+            card.className = 'news-card';
+            card.href = item.url;
+            card.rel = 'noreferrer nofollow';
+            card.target = '_blank';
 
-    paginatedItems.forEach(item => {
-        const card = document.createElement('a');
-        card.className = 'news-card';
-        card.href = item.url;
-        card.rel = 'noreferrer nofollow';
-        card.target = '_blank';
+            card.innerHTML = `
+                <div class="news-card-content">
+                    <h3>${item.title}</h3>
+                </div>
+                <div class="news-card-footer">
+                    <small>${item.source}</small>
+                    <small>${item.date}</small>
+                </div>
+            `;
 
-        card.innerHTML = `
-            <div class="news-card-content">
-                <h3>${item.title}</h3>
-            </div>
-            <div class="news-card-footer">
-                <small>${item.source}</small>
-                <small>${item.date}</small>
-            </div>
-        `;
+            container.appendChild(card);
+        });
 
-        container.appendChild(card);
-    });
-
-    const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
-    document.getElementById('prev').disabled = currentPage <= 1;
-    document.getElementById('next').disabled = currentPage >= totalPages;
-    document.getElementById('news-page-info').textContent = `${currentPage}/${totalPages}`;
+        const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
+        document.getElementById('prev').disabled = currentPage <= 1;
+        document.getElementById('next').disabled = currentPage >= totalPages;
+        document.getElementById('news-page-info').textContent = `${currentPage}/${totalPages}`;
+    }
 }
 
 window.addEventListener('DOMContentLoaded', fetchNews);
 
 // News warning callout
 const newsWarningClose = document.querySelector('.news-warning-close')
-newsWarningClose.addEventListener('click', () => {
-  document.querySelector('.news-warning-container').style.display = 'none';  
-})
+if (newsWarningClose) {
+    newsWarningClose.addEventListener('click', () => {
+        document.querySelector('.news-warning-container').style.display = 'none';  
+    })
+}

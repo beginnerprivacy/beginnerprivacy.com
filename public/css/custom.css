@@ -13,6 +13,7 @@
 
 @font-face {
     font-family: 'Roboto';
+    font-display: swap;
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -20,18 +21,21 @@
 
 @font-face {
     font-family: 'Roboto-Bold';
+    font-display: swap;
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Roboto-SemiBold';
+    font-display: swap;
     src: url('/fonts/Roboto/RobotoFlex.ttf') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Menlo';
+    font-display: optional;
     src: url('/fonts/Menlo/Menlo-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;

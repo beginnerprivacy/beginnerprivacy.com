@@ -18,4 +18,4 @@ Beginner Privacy se basa únicamente en donaciones, no en enlaces de afiliados n
 ¡También puedes apoyar a Beginner Privacy sin gastar un centavo! Aquí hay algunas formas sencillas de ayudar:
 - **Síguenos**: Mantente actualizado siguiéndonos en las redes sociales.
 - **Comparte la Palabra**: Comparte nuestro sitio web con tu familia y amigos para ayudarnos a llegar a una audiencia más amplia.
-- **Contribuye**: ¿Interesado en contribuir? Aprende cómo puedes involucrarte [aquí](../about-contributing).
+- **Contribuye**: ¿Interesado en contribuir? Aprende cómo [involucrarte](../about-contributing).

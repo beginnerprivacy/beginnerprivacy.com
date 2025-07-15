@@ -236,7 +236,7 @@ We recommend that you gradually implement these practices into your daily routin
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Follow Us&lt;/strong&gt;: Stay updated by following us on social media.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Spread the Word&lt;/strong&gt;: Share our website with your family and friends to help us reach a wider audience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contribute&lt;/strong&gt;: Interested in contributing? Learn how you can get involved &lt;a href=&#34;../about-contributing&#34; &gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contribute&lt;/strong&gt;: Interested in contributing? Learn how to &lt;a href=&#34;../about-contributing&#34; &gt;get involved&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -393,11 +393,11 @@ As you progress through this roadmap, we recommend taking your time to implement
       <description>
         
         
-        &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+        &lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We prioritize your privacy and collect minimal data. We do not log IP addresses, store cookies, or maintain logs. The only information we keep is your roadmap and checklist progress (saved locally on your device) and basic page view statistics (without any personal information). Everything else is intentionally NOT collected to safeguard your privacy.&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;
@@ -699,11 +699,11 @@ Using Homebrew:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
 Please bear in mind that, while GoatCounter is a useful tool for displaying traffic and different forms of traffic, it may not give accurate numbers due to scripts that prevent it.
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;&lt;strong&gt;How to Disable Tracking by GoatCounter&lt;/strong&gt;&lt;/p&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;p&gt;&lt;strong&gt;How to Disable Tracking by GoatCounter&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you prefer not to be included in GoatCounter statistics, you can easily block tracking by installing the &lt;a href=&#34;https://ublockorigin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;uBlock Origin&lt;/a&gt; extension in your browser.&lt;/p&gt;
 &lt;/div&gt;
   &lt;/div&gt;

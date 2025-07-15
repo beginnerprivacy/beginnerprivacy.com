@@ -33,11 +33,12 @@
 
 
 
-  <link href="/css/custom.css" rel="stylesheet" />
-  <link href="/css/components/custom/roadmap.css" rel="stylesheet" />
-  <link href="/css/components/custom/checklists.css" rel="stylesheet" />
-  <link href="/css/components/custom/about.css" rel="stylesheet" />
-  <link href="/css/components/custom/footer.css" rel="stylesheet" />
+  <link href="/css/custom/custom.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="/css/custom/roadmap.css" rel="stylesheet" />
+  <link href="/css/custom/checklists.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="/css/custom/about.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="/css/custom/news.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="/css/custom/footer.css" rel="stylesheet" media="print" onload="this.media='all'" />
 
   <script>
      
@@ -1119,7 +1120,7 @@
       
       class="hero-surveillance-image hx-block "
     >
-      <img src="images/surveillance.webp" width="350" height="350" alt="Surveillance Camera"/>
+      <img src="images/surveillance.webp" alt="Surveillance Camera"/>
     </a>
   </div>
   </div>
@@ -1142,11 +1143,11 @@
 </p>
 
   </div>
-  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
     Start Now
     <span class="arrow">&rarr;</span>
-  </a>
-  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</a>
+  </div>
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</div>
 </section>
 <section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
   <div>
@@ -1173,7 +1174,7 @@
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="about" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">About</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           <div class="content">
@@ -1283,8 +1284,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-about-beginner-privacy" aria-label="Checkbox for About Beginner Privacy" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-about-beginner-privacy" aria-label="Checkbox for About Beginner Privacy"></div>
     </div>
   
 </a></li>
@@ -1293,7 +1294,7 @@
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-should-care-about-your-privacy" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Should Care About Your Privacy</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -1356,8 +1357,8 @@
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for Why Care About Your Privacy?" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-why-care-about-your-privacy" aria-label="Checkbox for Why Care About Your Privacy?"></div>
     </div>
   
 </a></li>
@@ -1366,7 +1367,7 @@
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/how-to-find-a-threat-model-that-suits-you" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">How to Find a Threat Model That Suits You</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -1541,8 +1542,8 @@ const resultTexts = {
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-finding-a-threat-model" aria-label="Checkbox for Finding a Threat Model" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-finding-a-threat-model" aria-label="Checkbox for Finding a Threat Model"></div>
     </div>
   
 </a></li>
@@ -1555,7 +1556,7 @@ const resultTexts = {
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="about/roadmap-introductions/basic" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Basic</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           <div class="content">
@@ -1597,8 +1598,8 @@ We recommend that you gradually implement these practices into your daily routin
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-basic-introduction" aria-label="Checkbox for Basic Introduction" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-basic-introduction" aria-label="Checkbox for Basic Introduction"></div>
     </div>
   
 </a></li>
@@ -1607,7 +1608,7 @@ We recommend that you gradually implement these practices into your daily routin
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/how-to-create-strong-passwords-and-store-them-securely" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">How to Create Strong Passwords and Store Them Securely</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -1730,8 +1731,8 @@ We recommend that you gradually implement these practices into your daily routin
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-strong-passwords" aria-label="Checkbox for Strong Passwords" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-strong-passwords" aria-label="Checkbox for Strong Passwords"></div>
     </div>
   
 </a></li>
@@ -1740,7 +1741,7 @@ We recommend that you gradually implement these practices into your daily routin
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/two-factor-authentication-and-why-you-need-it" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Two-Factor Authentication (2FA) and Why You Need It</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -1850,8 +1851,8 @@ We recommend that you gradually implement these practices into your daily routin
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-two-factor-authentication" aria-label="Checkbox for Two-Factor Authentication (2FA)" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-two-factor-authentication" aria-label="Checkbox for Two-Factor Authentication (2FA)"></div>
     </div>
   
 </a></li>
@@ -1860,7 +1861,7 @@ We recommend that you gradually implement these practices into your daily routin
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/limit-the-personal-information-you-share-online" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Limit the Personal Information You Share Online</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2004,8 +2005,8 @@ We recommend that you gradually implement these practices into your daily routin
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-limit-information-shared" aria-label="Checkbox for Limit Information Shared" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-limit-information-shared" aria-label="Checkbox for Limit Information Shared"></div>
     </div>
   
 </a></li>
@@ -2014,7 +2015,7 @@ We recommend that you gradually implement these practices into your daily routin
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-need-a-private-browser-to-protect-yourself" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Need a Private Browser to Protect Yourself</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2147,8 +2148,8 @@ We recommend that you gradually implement these practices into your daily routin
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-private-browser" aria-label="Checkbox for Private Browser" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-private-browser" aria-label="Checkbox for Private Browser"></div>
     </div>
   
 </a></li>
@@ -2157,7 +2158,7 @@ We recommend that you gradually implement these practices into your daily routin
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/searching-safely-with-a-privacy-focused-search-engine" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Searching Safely with a Privacy Focused Search Engine</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2260,8 +2261,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-private-search-engine" aria-label="Checkbox for Private Search Engine" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-private-search-engine" aria-label="Checkbox for Private Search Engine"></div>
     </div>
   
 </a></li>
@@ -2270,7 +2271,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/what-is-a-vpn-and-should-you-use-one" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">What Is a VPN? And Should You Use One?</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2386,8 +2387,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-virtual-private-network" aria-label="Checkbox for Virtual Private Network (VPN)" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-virtual-private-network" aria-label="Checkbox for Virtual Private Network (VPN)"></div>
     </div>
   
 </a></li>
@@ -2396,7 +2397,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/change-these-mobile-settings-for-better-privacy" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Change These Mobile Settings for Better Privacy</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2506,8 +2507,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for Mobile Privacy Settings" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-mobile-privacy-settings" aria-label="Checkbox for Mobile Privacy Settings"></div>
     </div>
   
 </a></li>
@@ -2516,7 +2517,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/desktop-settings-to-change-for-better-privacy" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Desktop Settings to Change for Better Privacy</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2626,8 +2627,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for Desktop Privacy Settings" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-desktop-privacy-settings" aria-label="Checkbox for Desktop Privacy Settings"></div>
     </div>
   
 </a></li>
@@ -2636,7 +2637,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/protect-your-communication-with-a-private-email" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Protect Your Communication with a Private Email</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2735,8 +2736,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-private-email" aria-label="Checkbox for Private Email" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-private-email" aria-label="Checkbox for Private Email"></div>
     </div>
   
 </a></li>
@@ -2745,7 +2746,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/ditch-sms-and-use-secure-communication-methods" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Ditch SMS and Use Secure Communication Methods</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -2884,8 +2885,8 @@ Open Safari Settings → Search → Pick your engine.</p>
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-secure-messaging" aria-label="Checkbox for Secure Messaging" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-secure-messaging" aria-label="Checkbox for Secure Messaging"></div>
     </div>
   
 </a></li>
@@ -2898,7 +2899,7 @@ Open Safari Settings → Search → Pick your engine.</p>
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="about/roadmap-introductions/medium" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Medium</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           <div class="content">
@@ -2941,8 +2942,8 @@ As you progress through this roadmap, we recommend taking your time to implement
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-medium-introduction" aria-label="Checkbox for Medium Introduction" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-medium-introduction" aria-label="Checkbox for Medium Introduction"></div>
     </div>
   
 </a></li>
@@ -2951,7 +2952,7 @@ As you progress through this roadmap, we recommend taking your time to implement
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/break-free-from-proprietary-software-with-foss" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Break Free from Proprietary Software with FOSS</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3057,8 +3058,8 @@ As you progress through this roadmap, we recommend taking your time to implement
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-free-and-open-source-software" aria-label="Checkbox for Free and Open Source Software" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-free-and-open-source-software" aria-label="Checkbox for Free and Open Source Software"></div>
     </div>
   
 </a></li>
@@ -3067,7 +3068,7 @@ As you progress through this roadmap, we recommend taking your time to implement
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">How to Effortlessly Switch to Linux: Step-by-Step Guide</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3293,8 +3294,8 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-switch-to-linux" aria-label="Checkbox for Switch to Linux" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-switch-to-linux" aria-label="Checkbox for Switch to Linux"></div>
     </div>
   
 </a></li>
@@ -3303,7 +3304,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-need-to-use-an-encrypted-dns" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Need to Use an Encrypted DNS</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3414,8 +3415,8 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-encrypted-dns" aria-label="Checkbox for Encrypted DNS" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-encrypted-dns" aria-label="Checkbox for Encrypted DNS"></div>
     </div>
   
 </a></li>
@@ -3424,7 +3425,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-should-ditch-social-media-and-use-a-frontend" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Should Ditch Social Media and Use a Frontend</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3631,8 +3632,8 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-social-media-frontends" aria-label="Checkbox for Social Media Frontends" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-social-media-frontends" aria-label="Checkbox for Social Media Frontends"></div>
     </div>
   
 </a></li>
@@ -3641,7 +3642,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/how-to-remove-yourself-from-data-brokers" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">How to Remove Yourself From Data Brokers</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3749,8 +3750,8 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for Removal from Data Brokers" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-removal-from-data-brokers" aria-label="Checkbox for Removal from Data Brokers"></div>
     </div>
   
 </a></li>
@@ -3759,7 +3760,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Navigating the Web Anonymously: A Guide to Tor Basics</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -3888,8 +3889,8 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-what-is-tor" aria-label="Checkbox for What is Tor?" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-what-is-tor" aria-label="Checkbox for What is Tor?"></div>
     </div>
   
 </a></li>
@@ -3902,7 +3903,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="about/roadmap-introductions/advanced" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Advanced</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           <div class="content">
@@ -3944,8 +3945,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-advanced-introduction" aria-label="Checkbox for Advanced Introduction" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-advanced-introduction" aria-label="Checkbox for Advanced Introduction"></div>
     </div>
   
 </a></li>
@@ -3954,7 +3955,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/the-best-desktop-operating-systems-for-high-risk-individuals" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">The Best Desktop Operating Systems for High-Risk Individuals</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4044,8 +4045,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-desktop-operating-system" aria-label="Checkbox for Desktop Operating System" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-desktop-operating-system" aria-label="Checkbox for Desktop Operating System"></div>
     </div>
   
 </a></li>
@@ -4054,7 +4055,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/the-best-private-mobile-operating-systems" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">The Best Private Mobile Operating Systems</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4152,8 +4153,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-mobile-operating-system" aria-label="Checkbox for Mobile Operating System" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-mobile-operating-system" aria-label="Checkbox for Mobile Operating System"></div>
     </div>
   
 </a></li>
@@ -4162,7 +4163,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-should-start-self-hosting-services" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Should Start Self-Hosting Services</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4298,8 +4299,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-self-hosting" aria-label="Checkbox for Self-Hosting" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-self-hosting" aria-label="Checkbox for Self-Hosting"></div>
     </div>
   
 </a></li>
@@ -4308,7 +4309,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Cryptocurrency and Anonymity: A Guide to Buying Things Without a Trace</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4435,8 +4436,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-cryptocurrency" aria-label="Checkbox for Cryptocurrency" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-cryptocurrency" aria-label="Checkbox for Cryptocurrency"></div>
     </div>
   
 </a></li>
@@ -4445,7 +4446,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/why-you-should-enhance-your-physical-security" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Why You Should Enhance Your Physical Security</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4537,8 +4538,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-physical-security" aria-label="Checkbox for Physical Security" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-physical-security" aria-label="Checkbox for Physical Security"></div>
     </div>
   
 </a></li>
@@ -4547,7 +4548,7 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <div class="roadmap-modal-content">
       <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
         <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          <a class="roadmap-modal-close">&times;</a>
+          <div class="roadmap-modal-close">&times;</div>
           <a href="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">Threat Intelligence Explained: How to Leverage It for Enhanced Security</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
           
           
@@ -4690,8 +4691,8 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
   </div>
 
   
-    <div style="position: absolute;top: 4px;right: 8px;" class="roadmap-checkbox">
-      <input type="checkbox" id="roadmap-threat-intelligence" aria-label="Checkbox for Threat Intelligence" />  
+    <div class="roadmap-checkbox">
+      <div role="checkbox" aria-checked="false" id="roadmap-threat-intelligence" aria-label="Checkbox for Threat Intelligence"></div>
     </div>
   
 </a></li>
@@ -4713,14 +4714,12 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
       <div class="misconception-card">
           <h2 class="hx-text-2xl hx-font-bold">"What should I do?"</h2>
           <p class="hx-text-base">Trying to improve your privacy can feel overwhelming; that's why we created Beginner Privacy, to make it as easy as possible.</p>
-          <a
-            
-            class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-            style="margin-top: 15px; border-radius: 30px;"
-            onclick="scrollDown();"
-            
-          >Start Improving Your Privacy</a>
-
+          <div
+              class="  not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
+              style="margin-top: 15px; border-radius: 30px;"
+              onclick="scrollDown();"
+              
+            >Start Improving Your Privacy</div>
       </div>
     </div>
 </div>
@@ -4800,37 +4799,32 @@ You will learn about secure operating systems like Qubes OS and also about Tor a
     <p class="hx-text-base">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
         <a
-          href="about/write-content"
-          class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-          
-          onclick="toggleShareDropdown();"
-        ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
-          Write content</a>
-
+            href="about/write-content"
+            class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
+            
+            onclick="toggleShareDropdown();"
+          ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
+            Write content</a>
         <a
-          href="about/translate"
-          class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-          
-          onclick="toggleShareDropdown();"
-        ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
-          Translate</a>
-
+            href="about/translate"
+            class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
+            
+            onclick="toggleShareDropdown();"
+          ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
+            Translate</a>
         <a
-          href="about/donate"
-          class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-          
-          onclick="toggleShareDropdown();"
-        ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-          Donate</a>
-
-        <a
-          
-          class="contributors-button shareDropdownButton not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
-          
-          onclick="toggleShareDropdown();"
-        ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
-          Spread the word</a>
-
+            href="about/donate"
+            class="contributors-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
+            
+            onclick="toggleShareDropdown();"
+          ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            Donate</a>
+        <div
+            class="contributors-button shareDropdownButton not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"
+            
+            onclick="toggleShareDropdown();"
+          ><svg height=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+            Spread the word</div>
         <div id="shareDropdown" class="dropdown-content">
           <a href="https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fbeginnerprivacy.com%26title%3DStart%2BYour%2BPrivacy%2BJourney%2BToday%2521" target="_blank" style="padding-inline: 5px;">Reddit</a>
           <a href="https://www.facebook.com/sharer/sharer.php?u=https://beginnerprivacy.com" target="_blank" style="padding-inline: 5px;">Facebook</a>

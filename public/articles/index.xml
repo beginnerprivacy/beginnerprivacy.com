@@ -97,11 +97,11 @@
 &lt;/ul&gt;
 &lt;h3&gt;Countries That Won&amp;rsquo;t Extradite to the US&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;countries-that-wont-extradite-to-the-us&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#countries-that-wont-extradite-to-the-us&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Understanding extradition is crucial for anyone considering fleeing. Extradition treaties vary by country and can be influenced by political relations. Below is a table listing countries that do not have extradition treaties with the US:&lt;/p&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;None of the countries listed have official agreements to extradite to the US, but exceptions can occur in special situations.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;None of the countries listed have official agreements to extradite to the US, but exceptions can occur in special situations.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -681,11 +681,11 @@
 &lt;/ul&gt;
 &lt;h3&gt;Getting Better Physical Security&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;getting-better-physical-security&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#getting-better-physical-security&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To enhance your physical security, consider implementing the following things:
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Remember to regularly review your physical security measures to identify any weaknesses.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;Remember to regularly review your physical security measures to identify any weaknesses.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -837,11 +837,11 @@
 &lt;h4&gt;2. Virtual Private Servers (VPS)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-virtual-private-servers-vps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-virtual-private-servers-vps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;For those seeking more power and flexibility, Virtual Private Servers (VPS) offer a robust alternative. A VPS is a virtualized server that runs on physical hardware, providing dedicated resources and greater control over the environment. This option is particularly popular among developers and small businesses that require reliable performance and scalability.&lt;/p&gt;
 &lt;h3&gt;What Services Can You Self-Host?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-services-can-you-self-host&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-services-can-you-self-host&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+    &lt;a href=&#34;#what-services-can-you-self-host&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;This is just a brief overview; for a more extensive list of services you can self-host, be sure to check out &lt;a href=&#34;https://awesome-selfhosted.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;awesome-selfhosted&lt;/a&gt;.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;This is just a brief overview; for a more extensive list of services you can self-host, be sure to check out &lt;a href=&#34;https://awesome-selfhosted.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;awesome-selfhosted&lt;/a&gt;.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -926,11 +926,11 @@
         
         &lt;p&gt;In the world of smartphones, using popular operating systems like Android and iOS can compromise user privacy. Both platforms are known for extensive data collection practices, which can lead to significant privacy risks. Android&amp;rsquo;s open ecosystem allows for greater flexibility but also increases vulnerability to malware. Meanwhile, iOS, despite it&amp;rsquo;s more controlled environment, has faced criticism for it&amp;rsquo;s lack of transparency regarding data collection. Both systems prioritize user convenience, often at the expense of privacy.&lt;/p&gt;
 &lt;h3&gt;Recommended Private Mobile OS&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-private-mobile-os&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-private-mobile-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+    &lt;a href=&#34;#recommended-private-mobile-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Please note that some applications, including certain Google apps, may not be supported on these operating systems.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;Please note that some applications, including certain Google apps, may not be supported on these operating systems.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1245,11 +1245,11 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recommended Frontends&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-frontends&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-frontends&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+    &lt;a href=&#34;#recommended-frontends&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;You can find more frontends &lt;a href=&#34;https://github.com/mendel5/alternative-front-ends&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;You can find more frontends &lt;a href=&#34;https://github.com/mendel5/alternative-front-ends&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1430,11 +1430,11 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recommended Encrypted DNS Providers&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-encrypted-dns-providers&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-encrypted-dns-providers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+    &lt;a href=&#34;#recommended-encrypted-dns-providers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Each of these providers offers guides to help you set up their DNS on your device.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;Each of these providers offers guides to help you set up their DNS on your device.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1525,11 +1525,11 @@
 &lt;p&gt;&lt;strong&gt;Requests for Personal Information&lt;/strong&gt;: Legitimate companies will never ask for sensitive information via email. If you receive such a request, it’s likely a phishing attempt.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;Test yourself in spotting phishing emails with the&lt;/strong&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;strong&gt;Test yourself in spotting phishing emails with the&lt;/strong&gt;
 &lt;a href=&#34;https://phishingquiz.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Jigsaw Phishing Quiz&lt;/a&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1584,11 +1584,11 @@
 &lt;li&gt;&lt;strong&gt;Arch-based distros&lt;/strong&gt; (e.g., Manjaro) cater to users who want bleeding-edge software and deeper customization.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fedora&lt;/strong&gt; or &lt;strong&gt;openSUSE&lt;/strong&gt; strike a balance between innovation and reliability.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;If you&amp;rsquo;re unsure which distro to choose, visit the &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Distrochooser&lt;/a&gt; website.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;If you&amp;rsquo;re unsure which distro to choose, visit the &lt;a href=&#34;https://distrochooser.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Distrochooser&lt;/a&gt; website.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1633,11 +1633,11 @@
 &lt;li&gt;&lt;strong&gt;Single-drive setup&lt;/strong&gt;: Partition your drive to allocate space for Linux.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Multi-drive setup&lt;/strong&gt;: Install Linux on a separate drive for easier management.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;⚠️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;strong&gt;Back up your data first!&lt;/strong&gt; Partitioning carries risks, and mistakes can lead to data loss.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;&lt;strong&gt;Back up your data first!&lt;/strong&gt; Partitioning carries risks, and mistakes can lead to data loss.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2492,11 +2492,11 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h3&gt;Temporary Phone Number&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;temporary-phone-number&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#temporary-phone-number&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The same goes for phone numbers. You don&amp;rsquo;t have to give your real phone number for temporary accounts.
-&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
+&lt;div class=&#34; hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;ℹ️&lt;/div&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
-    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Remember that all the messages are visible to the public.&lt;/div&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0 &#34;&gt;Remember that all the messages are visible to the public.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;

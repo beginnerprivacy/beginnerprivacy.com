@@ -23,11 +23,11 @@ layout: hextra-home
   {{< /hextra/hero-subtitle >}}
   </div>
 
-  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
     Empieza Ahora
     <span class="arrow">&rarr;</span>
-  </a>
-  <a class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</a>
+  </div>
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</div>
 </section>
 
 <section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
@@ -110,7 +110,7 @@ layout: hextra-home
         <div class="misconception-card">
             <h2 class="hx-text-2xl hx-font-bold">"¿Qué debo hacer?"</h2>
             <p class="hx-text-base">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
-            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollDown();" style="margin-top: 15px;" >}}
+            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollDown();" style="margin-top: 15px;" noLink="true" >}}
         </div>
     </div>
 </section>
@@ -195,7 +195,7 @@ layout: hextra-home
       {{< hextra/hero-button text="Escribe contenido" link="about/write-content" icon="pencil" class="contributors-button" >}}
       {{< hextra/hero-button text="Traducir" link="about/translate" icon="translate" class="contributors-button" >}}
       {{< hextra/hero-button text="Donar" link="about/donate" icon="heart" class="contributors-button" >}}
-      {{< hextra/hero-button text="Corre la voz" onClick="toggleShareDropdown();" icon="share" class="contributors-button shareDropdownButton" >}}
+      {{< hextra/hero-button text="Corre la voz" onClick="toggleShareDropdown();" icon="share" class="contributors-button shareDropdownButton" noLink="true" >}}
       <div id="shareDropdown" class="dropdown-content">
         <a href="https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttps%253A%252F%252Fbeginnerprivacy.com%26title%3DStart%2BYour%2BPrivacy%2BJourney%2BToday%2521" target="_blank" style="padding-inline: 5px;">Reddit</a>
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://beginnerprivacy.com" target="_blank" style="padding-inline: 5px;">Facebook</a>
