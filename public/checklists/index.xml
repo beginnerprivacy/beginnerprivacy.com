@@ -27,6 +27,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -47,6 +53,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -71,6 +83,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -91,6 +109,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -115,6 +139,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -137,6 +167,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -157,6 +193,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -194,6 +236,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -214,6 +262,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -244,6 +298,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -264,6 +324,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -288,19 +354,31 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
-      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-privacy-screen&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-privacy-screens&#34;&gt;
       &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
     &lt;/label&gt;
-    &lt;strong class=&#34;item-title&#34;&gt;Privacy screen for devices&lt;/strong&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;Use privacy screens&lt;/strong&gt;
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Consider using a privacy screen for your laptop and phone to prevent shoulder surfing.&lt;/p&gt;
   
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -338,6 +416,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -360,6 +444,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -380,6 +470,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -424,6 +520,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -444,6 +546,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -481,6 +589,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -501,6 +615,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -525,6 +645,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -545,6 +671,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -569,6 +701,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -591,6 +729,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -611,6 +755,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -648,6 +798,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -661,6 +817,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -685,6 +847,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -707,6 +875,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -727,6 +901,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -764,6 +944,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -784,6 +970,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -808,6 +1000,12 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -821,6 +1019,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -843,6 +1047,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -873,18 +1083,24 @@
 
 
 
+
+
+
+   
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
-      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-a-secure-operating-system&#34;&gt;
       &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
     &lt;/label&gt;
-    &lt;strong class=&#34;item-title&#34;&gt;Find countries that won&#39;t extradite you&lt;/strong&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;Use a secure operating system&lt;/strong&gt;
   &lt;/div&gt;
-  &lt;p class=&#34;item-description&#34;&gt;In case you need to flee.&lt;/p&gt;
+  &lt;p class=&#34;item-description&#34;&gt;Using a secure operating system is essential for protecting your identity while engaging in high-risk activities like whistleblowing.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
-      Where to Hide: A Guide to Countries That Won&amp;#39;t Extradite You
+    &lt;a href=&#34;http://localhost:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+      The Best Desktop Operating Systems for High-Risk Individuals
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
       &lt;/svg&gt;
@@ -893,6 +1109,12 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -915,6 +1137,40 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+   
+
+
+&lt;li class=&#34;checklist-item&#34;&gt;
+  &lt;div class=&#34;item-header&#34;&gt;
+    &lt;label class=&#34;checkbox-container&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;Find countries that won&#39;t extradite you&lt;/strong&gt;
+  &lt;/div&gt;
+  &lt;p class=&#34;item-description&#34;&gt;In case you need to flee.&lt;/p&gt;
+  
+    &lt;a href=&#34;http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+      Where to Hide: A Guide to Countries That Won&amp;#39;t Extradite You
+      &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
+        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  
+&lt;/li&gt;
+
+
+
+
+
+
+
+   
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;

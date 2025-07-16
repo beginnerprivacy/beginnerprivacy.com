@@ -27,6 +27,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -37,7 +45,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;在访问任何暗网服务之前，先学习基础知识。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       匿名浏览网络：Tor基础指南
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -47,6 +55,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -77,6 +93,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -87,7 +111,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;切换到Linux可以通过减少对专有软件的依赖来增强您的隐私和安全性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何轻松切换到 Linux：逐步指南
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -97,6 +121,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -109,7 +141,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用社交媒体前端可以帮助您在与相同平台互动的同时保持隐私。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       为什么你应该放弃社交媒体并使用前端
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -119,6 +151,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -131,7 +171,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;注意您在线分享的个人信息，以保护您的隐私。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       限制在线共享的个人信息
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -141,6 +181,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -153,7 +201,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用私人浏览器可以帮助保护您的在线活动不被窥探。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       为什么你需要一个私人浏览器来保护自己
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -163,6 +211,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -175,7 +231,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;选择一个注重隐私的搜索引擎，以增强您的在线匿名性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       使用注重隐私的搜索引擎安全搜索
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -185,6 +241,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -197,7 +261,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       什么是VPN？ 你应该使用一个吗？
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -207,6 +271,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -219,7 +291,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用现金或加密货币购买物品以增强您的财务隐私。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       加密货币与匿名性：无痕购物指南
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -244,6 +316,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -254,7 +334,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用安全的操作系统对于保护你的身份在进行高风险活动（如黑客攻击）时至关重要。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       高风险个人最佳桌面操作系统
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -264,6 +344,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -276,7 +364,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;连接互联网时只使用Tor以保护你的身份。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       匿名浏览网络：Tor基础指南
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -286,6 +374,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -316,6 +412,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -326,7 +430,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用端到端加密的消息应用程序与您的消息来源进行沟通。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       放弃短信，使用安全通信方法。
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -336,6 +440,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -348,7 +460,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;备份您的工作，以防被盗或丢失。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何以及为什么备份您的设备至关重要
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -373,18 +485,26 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
-      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-a-secure-operating-system&#34;&gt;
       &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
     &lt;/label&gt;
-    &lt;strong class=&#34;item-title&#34;&gt;寻找不会引渡你的国家&lt;/strong&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;使用安全的操作系统&lt;/strong&gt;
   &lt;/div&gt;
-  &lt;p class=&#34;item-description&#34;&gt;如果你需要逃跑。&lt;/p&gt;
+  &lt;p class=&#34;item-description&#34;&gt;使用安全的操作系统对于在进行高风险活动（如举报）时保护您的身份至关重要。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
-      藏身之处：不引渡你的国家指南
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+      高风险个人最佳桌面操作系统
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
       &lt;/svg&gt;
@@ -393,6 +513,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -405,7 +533,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用端到端加密的消息应用程序进行沟通。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       放弃短信，使用安全通信方法。
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -415,6 +543,44 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
+
+
+&lt;li class=&#34;checklist-item&#34;&gt;
+  &lt;div class=&#34;item-header&#34;&gt;
+    &lt;label class=&#34;checkbox-container&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-find-countries-that-won&amp;#39;t-extradite-you&#34;&gt;
+      &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;寻找不会引渡你的国家&lt;/strong&gt;
+  &lt;/div&gt;
+  &lt;p class=&#34;item-description&#34;&gt;如果你需要逃跑。&lt;/p&gt;
+  
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+      藏身之处：不引渡你的国家指南
+      &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
+        &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  
+&lt;/li&gt;
+
+
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -445,6 +611,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -460,6 +634,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -470,7 +652,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;仔细规划前往和离开抗议活动的路线，以避免潜在的警察活动和监视热点。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/planning-your-trip-to-and-from-a-protest&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/planning-your-trip-to-and-from-a-protest&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       保持低调：隐蔽身份的穿衣技巧
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -480,6 +662,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -492,7 +682,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用端到端加密的消息应用程序与其他抗议者沟通。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       放弃短信，使用安全通信方法。
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -502,6 +692,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -514,7 +712,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;备份你的数据，以防手机丢失或被警方没收。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何以及为什么备份您的设备至关重要
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -524,6 +722,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -536,7 +742,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;穿着能够掩盖你身份并保护你免受监视的衣物。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       保持低调：隐蔽身份的穿衣技巧
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -561,6 +767,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -571,7 +785,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;为每个账户创建强大且独特的密码以增强安全性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何创建强密码并安全存储
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -581,6 +795,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -593,7 +815,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;注意您在线分享的个人信息以保护您的隐私。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       限制在线共享的个人信息
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -603,6 +825,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -615,7 +845,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用私人浏览器可以帮助保护您的在线活动不被窥探。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       为什么你需要一个私人浏览器来保护自己
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -625,6 +855,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -637,7 +875,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;选择一个注重隐私的搜索引擎以增强您的在线匿名性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       使用注重隐私的搜索引擎安全搜索
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -647,6 +885,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -659,7 +905,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;虚拟私人网络（VPN）可以为您的互联网连接提供额外的安全层。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       什么是VPN？ 你应该使用一个吗？
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -669,6 +915,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -681,7 +935,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;调整您的手机设置以改善隐私和安全。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       更改这些手机设置以提高隐私保护
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -691,6 +945,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -703,7 +965,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;对桌面设置进行必要的更改以增强您的隐私。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       改善隐私的桌面设置
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -728,6 +990,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -738,7 +1008,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;为每个账户创建强大且独特的密码以增强安全性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何创建强密码并安全存储
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -748,6 +1018,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -760,7 +1038,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;使用双因素认证来保护你的账户。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       双重身份验证（2FA）及其必要性
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -770,6 +1048,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -787,6 +1073,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -797,7 +1091,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;拥有大量粉丝，你是黑客的目标。验证电子邮件发件人，并对请求个人信息或包含可疑链接的电子邮件保持警惕。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       不要上钩：如何识别和避免网络钓鱼邮件
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -807,6 +1101,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -837,6 +1139,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -847,7 +1157,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;为每个账户创建强大且独特的密码，以增强安全性。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何创建强密码并安全存储
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -857,6 +1167,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -869,7 +1187,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;虚拟私人网络（VPN）可以为你的互联网连接提供额外的安全层。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       什么是VPN？ 你应该使用一个吗？
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -879,6 +1197,14 @@
 &lt;/li&gt;
 
 
+
+
+
+
+
+  
+    
+  
 
 
 &lt;li class=&#34;checklist-item&#34;&gt;
@@ -896,6 +1222,14 @@
 
 
 
+
+
+
+  
+    
+  
+
+
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
@@ -906,7 +1240,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;备份你的数据，以防设备丢失或被盗。&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/zh-cn/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       如何以及为什么备份您的设备至关重要
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
