@@ -1210,10 +1210,10 @@
 &lt;li class=&#34;checklist-item&#34;&gt;
   &lt;div class=&#34;item-header&#34;&gt;
     &lt;label class=&#34;checkbox-container&#34;&gt;
-      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-privacy-screen&#34;&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;checklist-checkbox&#34; id=&#34;checklist-use-privacy-screens&#34;&gt;
       &lt;span class=&#34;checkmark&#34;&gt;&lt;/span&gt;
     &lt;/label&gt;
-    &lt;strong class=&#34;item-title&#34;&gt;设备隐私屏幕&lt;/strong&gt;
+    &lt;strong class=&#34;item-title&#34;&gt;使用隐私屏幕&lt;/strong&gt;
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;考虑为你的笔记本电脑和手机使用隐私屏幕，以防止旁观者偷窥。&lt;/p&gt;
   

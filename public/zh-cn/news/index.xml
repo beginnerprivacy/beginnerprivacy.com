@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beginner Privacy – 新闻 (测试版)</title>
+    <title>Beginner Privacy – 新闻</title>
     <link>http://localhost:1313/zh-cn/news/</link>
-    <description>Recent content in 新闻 (测试版) on Beginner Privacy</description>
+    <description>Recent content in 新闻 on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     

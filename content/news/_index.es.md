@@ -1,5 +1,5 @@
 ---
-title: Noticia (Beta)
+title: Noticia
 excludeSearch: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}

@@ -1,5 +1,5 @@
 ---
-title: 新闻 (测试版)
+title: 新闻
 excludeSearch: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}

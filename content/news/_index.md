@@ -1,5 +1,5 @@
 ---
-title: News (Beta)
+title: News
 excludeSearch: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}

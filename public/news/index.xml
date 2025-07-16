@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beginner Privacy – News (Beta)</title>
+    <title>Beginner Privacy – News</title>
     <link>http://localhost:1313/news/</link>
-    <description>Recent content in News (Beta) on Beginner Privacy</description>
+    <description>Recent content in News on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
