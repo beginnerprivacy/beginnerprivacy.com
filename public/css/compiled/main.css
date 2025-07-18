@@ -621,6 +621,9 @@ video {
 .-hx-mt-20 {
   margin-top: -5rem;
 }
+.-hx-mt-1px {
+  margin-top: -1px;
+}
 .hx-mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -3532,6 +3535,10 @@ body:is(html[class~="dark"] *) {
 
   .md\:hx-text-6xl {
     font-size: 3.75rem;
+  }
+
+  .md\:hx-text-9xl {
+    font-size: 6rem;
   }
 
   .md\:hx-text-lg {

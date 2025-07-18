@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/es/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</loc>
+    <lastmod>2025-07-17T10:25:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</loc>
     <lastmod>2025-06-18T17:11:34+02:00</lastmod>
     <xhtml:link
@@ -90,24 +108,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</loc>
-    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</loc>

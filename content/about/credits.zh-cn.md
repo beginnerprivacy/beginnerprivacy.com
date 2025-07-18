@@ -16,7 +16,6 @@ category: About
 - [Hextra 主题](https://github.com/imfing/hextra/)
 
 ### 图像
-- [监控摄像头图像由 Clker-Free-Vector-Images 提供，来自 Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=295146)
 - [地球图像由 Tung Lam 提供，来自 Pixabay](https://pixabay.com/users/tungart7-38741244/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8552339)
 - [由 Creative Stall Premium 创建的指南针图标 - Flaticon](https://www.flaticon.com/free-icons/compass)
 - [404 保镖图像由 OpenClipart-Vectors 提供，来自 Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=145447)

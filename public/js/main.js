@@ -549,9 +549,9 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 }
 
 // Footer waves color
-function updateWaveColors() {
+function updateWaveColors(selector) {
 const isDarkMode = document.documentElement.classList.contains('dark');
-const waves = document.querySelectorAll('.wave');
+const waves = document.querySelectorAll(`${selector} .wave`);
 if (waves.length > 0) {
     if (isDarkMode) {
     waves[0].setAttribute('fill', 'rgba(50, 50, 50, 0.7)');
@@ -566,8 +566,13 @@ if (waves.length > 0) {
     }
 }
 }
-updateWaveColors();
-const observer = new MutationObserver(updateWaveColors);
+updateWaveColors('.hero-waves');
+updateWaveColors('.footer-waves');
+
+const observer = new MutationObserver(() => {
+    updateWaveColors('.hero-waves');
+    updateWaveColors('.footer-waves');
+});
 observer.observe(document.documentElement, { attributes: true });
 ;
 function updateRoadmap() {

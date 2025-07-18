@@ -2,38 +2,44 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<section class="hero hx-py-30-40">
+<section class="hero hx-py-30-40 hx-text-center" id="hero">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Free, open source</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
 
-  {{< hextra/hero-container
-    image="images/surveillance.webp"
-    imageClass="hero-surveillance-image hx-block"
-    imageTitle="Surveillance Camera" >}}
-  {{< /hextra/hero-container >}}
-
   <div class="hx-mt-6 hx-mb-4">
-  {{< hextra/hero-headline class="md:hx-text-6xl" >}}Start Your Privacy Journey Today&nbsp;<br class="sm:hx-block hx-hidden" />with Beginner Privacy{{< /hextra/hero-headline >}}
+    <h1 class="not-prose hx-text-4xl md:hx-text-9xl hx-font-bold hx-leading-none hx-tracking-tighter hx-py-2 hx-bg-clip-text">Privacy Made Simple.</h1>
   </div>
 
   <div class="hx-mb-6">
-  {{< hextra/hero-subtitle >}}
-  Your privacy is important! But big organizations are taking it away.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy is your roadmap for reclaiming a private life.
-  {{< /hextra/hero-subtitle >}}
+    <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away. <br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
   </div>
 
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
-    Start Now
+    Start Your Journey
     <span class="arrow">&rarr;</span>
   </div>
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</div>
+
+  <div class="hero-waves">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(243,244,246,0.7)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="3" fill="rgba(243,244,246,0.5)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="5" fill="rgba(243,244,246,0.3)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="7" fill="#f3f4f6" />
+      </g>
+    </svg>
+  </div>
 </section>
 
 <section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
   <div>
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Roadmap</h2>
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+    <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-6xl">Roadmap</h2>
+    <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
       <div class="tabs">
           <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
           <label class="tab" for="radio-start">Start</label>
@@ -96,7 +102,7 @@ layout: hextra-home
 </section>
 
 <section id="common-misconceptions" class="hx-text-center hx-py-50-40">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Common Misconceptions</h2>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Common Misconceptions</h2>
     <div class="misconception-container">
       <div class="misconception-card">
           <h2 class="hx-text-2xl hx-font-bold">"Why should I care?"</h2>
@@ -119,7 +125,7 @@ layout: hextra-home
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
     <div class="community-cta">
-        <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Join Our Community</h2>
+        <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">Join Our Community</h2>
         <p class="hx-text-base">Connect with like-minded individuals who are passionate about privacy. Join our forums, follow us on social media, and participate in discussions.</p>
         <div class="social-chat-container">
           <div class="chat-section">
@@ -143,8 +149,8 @@ layout: hextra-home
 </section>
 
 <section class="checklists-section hx-py-60-60">
-  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Checklists</h2>
-  <p class="hx-text-base hx-mb-10px">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Checklists</h2>
+  <p class="hx-text-base hx-mb-10px hx-text-center">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
   <div class="carousel-container" aria-label="Checklists carousel">
     <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
       <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
@@ -188,7 +194,7 @@ layout: hextra-home
 </section>
 
 <section id="contributors" class="hx-mb-16 hx-mt-18">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">We Need Your Help!</h2>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">We Need Your Help!</h2>
     <p class="hx-text-base">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
         {{< hextra/hero-button text="Write content" link="about/write-content" icon="pencil" class="contributors-button" >}}

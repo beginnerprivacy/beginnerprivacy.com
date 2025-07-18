@@ -2,38 +2,44 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<section class="hero hx-py-30-40">
+<section class="hero hx-py-30-40 hx-text-center" id="hero">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Gratuito, de código abierto</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
 
-  {{< hextra/hero-container
-    image="../images/surveillance.webp"
-    imageClass="hero-surveillance-image hx-block"
-    imageTitle="Surveillance Camera" >}}
-  {{< /hextra/hero-container >}}
-
   <div class="hx-mt-6 hx-mb-4">
-  {{< hextra/hero-headline class="md:hx-text-6xl" >}}Comienza Tu Viaje De Privacidad Hoy&nbsp;<br class="sm:hx-block hx-hidden" />con Beginner Privacy{{< /hextra/hero-headline >}}
+    <h1 class="not-prose hx-text-4xl md:hx-text-9xl hx-font-bold hx-leading-none hx-tracking-tighter hx-py-2 hx-bg-clip-text">Privacy Made Simple.</h1>
   </div>
 
   <div class="hx-mb-6">
-  {{< hextra/hero-subtitle >}}
-  ¡Tu privacidad es importante! Pero las grandes organizaciones lo están quitando.&nbsp;<br class="sm:hx-block hx-hidden" />Beginner Privacy es tu hoja de ruta para recuperar una vida privada.
-  {{< /hextra/hero-subtitle >}}
+    <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away. <br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
   </div>
 
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
-    Empieza Ahora
+    Start Your Journey
     <span class="arrow">&rarr;</span>
   </div>
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</div>
+
+  <div class="hero-waves">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(243,244,246,0.7)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="3" fill="rgba(243,244,246,0.5)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="5" fill="rgba(243,244,246,0.3)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="7" fill="#f3f4f6" />
+      </g>
+    </svg>
+  </div>
 </section>
 
 <section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
   <div>
-      <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">Hoja de Ruta</h2>
-      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+      <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-5xl">Hoja de Ruta</h2>
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
         <div class="tabs">
             <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
             <label class="tab" for="radio-start">Inicio</label>
@@ -97,7 +103,7 @@ layout: hextra-home
 </section>
 
 <section id="common-misconceptions" class="hx-text-center hx-py-50-40">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Conceptos Erróneos Comunes</h2>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Conceptos Erróneos Comunes</h2>
     <div class="misconception-container">
         <div class="misconception-card">
             <h2 class="hx-text-2xl hx-font-bold">"¿Por qué debería preocuparme?"</h2>
@@ -144,8 +150,8 @@ layout: hextra-home
 </section>
 
 <section class="checklists-section hx-py-60-60">
-  <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl hx-inline">Listas de Verificación</h2>
-  <p class="hx-text-base hx-mb-10px">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Listas de Verificación</h2>
+  <p class="hx-text-base hx-mb-10px hx-text-center">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
   <div class="carousel-container" aria-label="Checklists carousel">
     <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
       <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
@@ -189,7 +195,7 @@ layout: hextra-home
 </section>
 
 <section id="contributors" class="hx-mb-16 hx-mt-18">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-5xl">¡Necesitamos Tu Ayuda!</h2>
+    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">¡Necesitamos Tu Ayuda!</h2>
     <p class="hx-text-base">¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
       {{< hextra/hero-button text="Escribe contenido" link="about/write-content" icon="pencil" class="contributors-button" >}}
