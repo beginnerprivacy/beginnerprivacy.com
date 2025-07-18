@@ -12,7 +12,7 @@ layout: hextra-home
   </div>
 
   <div class="hx-mb-6">
-    <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away. <br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
+    <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away.<br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
   </div>
 
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">

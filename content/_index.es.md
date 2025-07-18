@@ -8,15 +8,15 @@ layout: hextra-home
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
 
   <div class="hx-mt-6 hx-mb-4">
-    <h1 class="not-prose hx-text-4xl md:hx-text-9xl hx-font-bold hx-leading-none hx-tracking-tighter hx-py-2 hx-bg-clip-text">Privacy Made Simple.</h1>
+    <h1 class="not-prose hx-text-4xl md:hx-text-9xl hx-font-bold hx-leading-none hx-tracking-tighter hx-py-2 hx-bg-clip-text">Privacidad Hecha Simple.</h1>
   </div>
 
   <div class="hx-mb-6">
-    <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away. <br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
+    <p class="hx-text-lg">¡Tu privacidad es importante! Pero las grandes organizaciones la están eliminando.<br> Beginner Privacy te ayuda a navegar el vasto océano de la privacidad y seguridad en línea.</p>
   </div>
 
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
-    Start Your Journey
+    Comienza Tu Viaje
     <span class="arrow">&rarr;</span>
   </div>
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</div>
