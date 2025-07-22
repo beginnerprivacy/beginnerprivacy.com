@@ -53,19 +53,19 @@ input[type="radio"]:checked + label {
 }
 
 .start-hf-card-color {
-    background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.15),hsla(0,0%,100%,0));
+    background: radial-gradient(ellipse at 50% 80%,rgba(38, 125, 255, 0.25),hsla(0,0%,100%,0));
     height: 100px;
 }
 .basic-hf-card-color {
-    background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.15),hsla(0,0%,100%,0));
+    background: radial-gradient(ellipse at 50% 80%,rgba(97, 254, 176, 0.25),hsla(0,0%,100%,0));
     height: 100px;
 }
 .medium-hf-card-color {
-    background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.15),hsla(0,0%,100%,0));
+    background: radial-gradient(ellipse at 50% 80%,rgba(254, 225, 97, 0.25),hsla(0,0%,100%,0));
     height: 100px;
 }
 .advanced-hf-card-color {
-    background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.15),hsla(0,0%,100%,0));
+    background: radial-gradient(ellipse at 50% 80%,rgba(254, 128, 97, 0.25),hsla(0,0%,100%,0));
     height: 100px;
 }
 
@@ -592,12 +592,15 @@ input[type="radio"]:checked + label {
     border: 1px solid;
     padding: 10px;
     border-radius: 10px;
+    background: transparent;
+    color: rgb(var(--color-black));
+    transition: all 0.2s ease-in-out;
 }
+
 .chat-section-button:hover {
     background: rgb(var(--color-black));
     border-color: rgb(var(--color-black));
     color: rgb(var(--color-white));
-    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 330px) {

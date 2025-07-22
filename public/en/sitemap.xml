@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/articles/how-to-torrent-safely-and-anonymously/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/how-to-torrent-safely-and-anonymously/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/how-to-torrent-safely-and-anonymously/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/how-to-torrent-safely-and-anonymously/"
+                />
+  </url><url>
     <loc>http://localhost:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</loc>
     <lastmod>2025-07-17T10:25:45+02:00</lastmod>
     <xhtml:link
@@ -687,7 +705,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-18T21:17:08+02:00</lastmod>
+    <lastmod>2025-07-18T21:32:27+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
