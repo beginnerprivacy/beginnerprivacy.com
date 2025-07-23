@@ -109,6 +109,12 @@
     }
 }
 
+@media (min-height: 1210px) {
+    .hero-waves svg.waves {
+        display: none;
+    }
+}
+
 .start-now-button {
   position: relative;
   overflow: hidden;

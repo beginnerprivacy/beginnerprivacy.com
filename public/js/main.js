@@ -482,11 +482,11 @@ sections.forEach(section => {
 let isSearchInputFocused = false;
 
 if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
-    if (window.innerHeight >= 825) {
+    if (window.innerHeight >= 825 && window.innerHeight <= 1250) {
         document.querySelector('html').style.overflow = "hidden";
     }
     window.addEventListener('resize', () => {
-        if (window.innerHeight >= 825) {
+        if (window.innerHeight >= 825 && window.innerHeight <= 1250) {
             document.querySelector('html').style.overflow = "hidden";
         } else {
             document.querySelector('html').style.overflow = "";
@@ -508,7 +508,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('wheel', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1250 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.deltaY > 0) {
                 // Scrolling down
@@ -528,7 +528,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('keydown', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1200 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.key === "ArrowDown") {
                 // Scrolling down
@@ -546,6 +546,31 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
             }
         }
     });
+
+    const heroWaves = document.querySelector('.hero-waves');
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (entry.target.id === 'roadmap') {
+                    heroWaves.style.display = 'none';
+                } else if (entry.target.id === 'hero') {
+                    heroWaves.style.display = 'block';
+                }
+            }
+        });
+    }, {
+        threshold: 0.5
+    });
+
+    const roadmapSection = document.getElementById('roadmap');
+    const heroSection = document.getElementById('hero');
+
+    if (roadmapSection) {
+        sectionObserver.observe(roadmapSection);
+    }
+    if (heroSection) {
+        sectionObserver.observe(heroSection);
+    }
 }
 
 // Footer waves color
