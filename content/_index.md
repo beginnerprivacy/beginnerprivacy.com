@@ -36,7 +36,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap hx-py-40 hx-min-h-60" id="roadmap">
+<section class="roadmap hx-py-40 hx-min-h-60 hx-mt-20" id="roadmap">
   <div>
     <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-6xl">Roadmap</h2>
     <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -55,7 +55,7 @@ layout: hextra-home
   </div>
   <div id="roadmapContent" class="hx-mt-4">
     <div id="startContent" class="roadmap-section">
-      <ol>
+      <ol class="startContentOL">
         <li>{{< hextra/feature-card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
