@@ -228,6 +228,17 @@ input[type="radio"]:checked + label {
     }
 }
 
+.startContentOL {
+    display: flex !important;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .startContentOL {
+        display: table !important;
+    }
+}
+
 .coming-soon-label {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);

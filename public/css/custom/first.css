@@ -109,9 +109,11 @@
     }
 }
 
-@media (min-height: 1210px) {
-    .hero-waves svg.waves {
-        display: none;
+@media (min-height: 1200px) {
+    .hero-waves {
+        display: block;
+        bottom: inherit;
+        margin-top: 10rem;
     }
 }
 

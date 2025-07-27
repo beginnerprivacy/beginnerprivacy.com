@@ -482,11 +482,11 @@ sections.forEach(section => {
 let isSearchInputFocused = false;
 
 if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
-    if (window.innerHeight >= 825 && window.innerHeight <= 1250) {
+    if (window.innerHeight >= 825 && window.innerHeight <= 1100) {
         document.querySelector('html').style.overflow = "hidden";
     }
     window.addEventListener('resize', () => {
-        if (window.innerHeight >= 825 && window.innerHeight <= 1250) {
+        if (window.innerHeight >= 825 && window.innerHeight <= 1100) {
             document.querySelector('html').style.overflow = "hidden";
         } else {
             document.querySelector('html').style.overflow = "";
@@ -508,7 +508,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('wheel', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1250 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1100 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.deltaY > 0) {
                 // Scrolling down
@@ -528,7 +528,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('keydown', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1200 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1100 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.key === "ArrowDown") {
                 // Scrolling down
@@ -546,31 +546,6 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
             }
         }
     });
-
-    const heroWaves = document.querySelector('.hero-waves');
-    const sectionObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                if (entry.target.id === 'roadmap') {
-                    heroWaves.style.display = 'none';
-                } else if (entry.target.id === 'hero') {
-                    heroWaves.style.display = 'block';
-                }
-            }
-        });
-    }, {
-        threshold: 0.5
-    });
-
-    const roadmapSection = document.getElementById('roadmap');
-    const heroSection = document.getElementById('hero');
-
-    if (roadmapSection) {
-        sectionObserver.observe(roadmapSection);
-    }
-    if (heroSection) {
-        sectionObserver.observe(heroSection);
-    }
 }
 
 // Footer waves color
@@ -1181,9 +1156,15 @@ function renderNews() {
             card.rel = 'noreferrer nofollow';
             card.target = '_blank';
 
+            if (item.title.length > 115) {
+                truncatedTitle = item.title.substring(0, 115) + "...";
+            } else {
+                truncatedTitle = item.title
+            }
+
             card.innerHTML = `
                 <div class="news-card-content">
-                    <h3>${item.title}</h3>
+                    <h3>${truncatedTitle}</h3>
                 </div>
                 <div class="news-card-footer">
                     <small>${item.source}</small>
