@@ -30,6 +30,7 @@ Choosing a frontend over social media has several benefits:
 #### YouTube
 <div class="recommendations">  
   <div class="grid">
+    {{< hextra/recommendation-card title="Invidious" link="https://invidious.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
     {{< hextra/recommendation-card title="FreeTube" link="https://freetubeapp.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp" platformIcon="linux macos windows" buttonText="Visit Website" >}}
     {{< hextra/recommendation-card title="LibreTube" link="https://libretube.dev/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/libretube.webp" platformIcon="android" buttonText="Visit Website" >}}
     {{< hextra/recommendation-card title="NewPipe" link="https://newpipe.net/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/newpipe.webp" platformIcon="android" buttonText="Visit Website" >}}
