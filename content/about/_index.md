@@ -2,14 +2,18 @@
 linkTitle: "About"
 title: About
 ---
-In today’s digital world, protecting personal data can feel overwhelming. Our mission is to simplify online privacy for everyone, from beginners to experts. We prioritize foundational knowledge and practical habits over complex tools, ensuring you build a strong privacy base before diving into advanced software.
+Protecting your personal data can feel overwhelming. Our mission is to simplify online privacy for everyone, from beginners to experts. We prioritize foundational knowledge and practical habits over complex tools, ensuring you build a strong privacy base before diving into advanced software.
 
 <br>
 
 Beginner Privacy is completely free and open source, thanks to our [contributors and supporters](/about/contributors). Learn how you can support us [here](/about/donate).
 
 ### What We Offer
-We provide clear, easy-to-follow guides on privacy fundamentals, advanced tools, and practical steps to enhance your online security. Our roadmap takes you from zero knowledge to a high level of understanding about privacy and security. Additionally, our checklists help you quickly prepare for specific situations, such as our checklist for protestors.
+Here’s what we offer at Beginner Privacy to help you protect your online privacy:
+- **Roadmap**: Learn privacy and security step-by-step, from zero to expert.  
+- **Checklists**: Quick, practical steps for specific needs, like our protester safety checklist.  
+- **News**: Stay updated with the latest privacy and security updates.
+- **Community**: Join our active [community](/about/join-simplex-group) to share tips, ask questions, and connect with others.
 
 ### Find Us Here
 Beginner Privacy has accounts on various social media platforms to reach new people. However, it is not an endorsement of these platforms, and we generally discourage their use.
