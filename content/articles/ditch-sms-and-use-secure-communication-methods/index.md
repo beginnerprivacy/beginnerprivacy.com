@@ -48,7 +48,7 @@ Transitioning to a secure communication method is only effective if your contact
 - **Educate Your Contacts:** Share information about the risks associated with SMS and the benefits of secure messaging apps.
 
 - **Lead by Example:** Start using secure communication methods yourself and invite others to join you. Demonstrating the ease and advantages of these apps can motivate your contacts to make the switch.
-
-- - **Offer Assistance:** Help your contacts download and set up secure messaging apps. Sometimes, the technical barrier can deter people from making the change.
+  
+- **Offer Assistance:** Help your contacts download and set up secure messaging apps. Sometimes, the technical barrier can deter people from making the change.
 
 - **Create Group Chats:** Initiate group conversations on secure platforms to showcase their functionality. This can help others see the benefits firsthand and encourage them to participate.
