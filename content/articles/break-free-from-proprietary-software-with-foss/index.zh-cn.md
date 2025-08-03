@@ -7,33 +7,36 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-使用FOSS是您隐私之旅中的重要一步，也是优于专有软件的选择。
+切换到 FOSS 是您隐私之旅中的关键一步，同时也是专有软件的优越替代品。
 
-### 什么是FOSS？
-FOSS代表**自由和开源软件**。这意味着软件的源代码对公众开放，任何人都可以查看、修改和分发。这种开放性促进了软件社区的合作与创新。
+### 什么是 FOSS？
+FOSS 代表 **自由与开源软件**。与专有软件不同，其源代码是公开可用的，任何人都可以查看、修改和分发。这种开放性促进了协作，确保了透明度，并允许用户根据自己的需求定制软件。
 
-### 为什么FOSS优于专有软件？
-FOSS相对于专有软件有几个优势：
-- **透明性**：用户可以检查源代码以了解软件的工作原理，确保没有隐藏的恶意功能或数据收集行为。
-  
-- **安全性**：通过从源代码构建软件，用户可以避免下载可能包含恶意软件（如木马）的潜在有害版本。
-  
-- **社区支持**：FOSS通常拥有一个充满活力的社区，参与其开发，提供支持和更新。
+### 为什么 FOSS 优于专有软件？
+FOSS 在几个关键方面超越了专有软件：
+- **透明度**：您可以检查源代码，以确认没有隐藏的跟踪器、后门或恶意功能——这在专有软件的封闭系统中是不可能的。
+- **安全性**：开放代码由全球社区审计，通常比专有供应商更快修复漏洞。此外，从源代码构建可以验证软件的完整性，避免像木马这样的恶意软件。
+- **社区支持**：FOSS 依靠热情的贡献者提供更新、修复和支持，通常比企业驱动的专有软件的严格时间表更快。
+- **道德自由**：选择 FOSS 符合用户赋权的哲学，拒绝限制性许可证和企业对您技术的控制。
 
-### 如何找到FOSS替代品？
-得益于专门列出各种选项的网站，寻找FOSS替代品比以往任何时候都容易。以下是一些推荐的资源：
+#### 现实世界的例子
+以 LibreOffice 为例，它是 Microsoft Office 的 FOSS 替代品。它为文档、电子表格和演示文稿提供了强大的功能，无需订阅费用或隐私风险，同时由全球社区不断完善。
+
+#### “FOSS 不够用户友好。”
+FOSS 的新手有时会因其界面相较于专有软件不够精致而犹豫。虽然 FOSS 项目通常预算较小，大多数贡献者是程序员而非设计师，导致用户界面相较于资金雄厚的专有软件不够精致，但 FOSS 社区仍成功地将 Blender（3D 创建套件）和 Krita（数字绘画工具）等项目打造为专业级工具。
+
+### 如何找到 FOSS 替代品？
+使用以下优秀资源可以轻松找到 FOSS 替代品：
 <div class="recommendations">
   <div class="grid">
     {{< hextra/recommendation-card title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="一个全面的开源替代品目录。" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="一个免费的开源Android应用商店。" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="查找专有软件的替代品。" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="一个为自由和开源 Android 应用程序提供的应用商店。" buttonText="访问网站" >}}
+    {{< hextra/recommendation-card title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="寻找专有软件的替代品。" buttonText="访问网站" >}}
   </div>
 </div>
 
-### 如何用FOSS替代专有软件
-从专有软件迁移到FOSS可能会面临挑战。以下是一些使过渡更顺利的建议：
-- **慢慢开始**：一次替换一个专有应用程序，用其FOSS替代品。这使您能够逐步适应。
-  
-- **测试替代品**：下载FOSS替代品并使用几天，以熟悉其功能和界面。
-  
-- **迁移您的数据**：一旦您感到舒适，将文件和数据转移到新软件中。
+### 如何用 FOSS 替换专有软件
+从专有软件迁移到 FOSS 可能具有挑战性。以下是一些让过渡更顺畅的建议：
+- **慢慢开始**：一次替换一个专有应用程序，逐步适应 FOSS 替代品。
+- **测试替代品**：下载 FOSS 替代品并使用几天，以熟悉其功能和界面。
+- **迁移数据**：在感到舒适后，将您的文件和数据转移到新软件中。
