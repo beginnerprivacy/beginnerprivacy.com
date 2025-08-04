@@ -1773,7 +1773,6 @@ video {
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
 }
 .content :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)) {
-  margin-top: 1.5rem;
   list-style-type: decimal;
 }
 .content :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)):first-child {
