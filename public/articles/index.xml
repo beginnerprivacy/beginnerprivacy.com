@@ -2912,7 +2912,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Did you know that the most &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;commonly used password&lt;/a&gt; is &amp;ldquo;123456&amp;rdquo;? This highlights the importance of using strong, unique passwords for each of your online accounts. In this post, we&amp;rsquo;ll go over the best practices for generating and storing strong passwords.&lt;/p&gt;
+        &lt;p&gt;Did you know that the most &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;commonly used password&lt;/a&gt; is &amp;ldquo;123456&amp;rdquo;? This highlights the importance of using strong, unique passwords for each of your online accounts. Password breaches happen all the time, with millions of accounts compromised every year.&lt;/p&gt;
 &lt;h3&gt;Common Password Security Mistakes:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;common-password-security-mistakes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#common-password-security-mistakes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Using personal information in your passwords&lt;/li&gt;
@@ -2920,13 +2920,13 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;li&gt;Storing passwords in plaintext or in easily accessible locations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;How Do I Make Strong Passwords?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-do-i-make-strong-passwords&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-do-i-make-strong-passwords&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A strong password is a password that is difficult to guess or crack. It should be completely random and at least 16 characters long (preferably longer) and include a combination of uppercase and lowercase letters, numbers, and special characters.&lt;/p&gt;
-&lt;p&gt;To get a strong password you can use a free online password generator:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Bitwarden Password Generator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;a href=&#34;#how-do-i-make-strong-passwords&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A strong password is one that’s tough to guess or crack. It should be completely random, at least 16 characters long (preferably longer), and include a mix of uppercase and lowercase letters, numbers, and special characters.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Brute-force attacks are a big risk—these are when hackers try every possible combination to crack your password. The longer and more complex your password is, the harder it is for them to break it. You can check how long it would take to crack your password with a &lt;a href=&#34;https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;password strength tester&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;To create a strong, random password, use a &lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;password generator&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Storing Passwords Securely&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;storing-passwords-securely&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storing-passwords-securely&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Password managers are great to use because they allow you to store long and complex passwords, and then simply copy and paste them when needed. It works by setting a master password, which is used to encrypt all of your other passwords. This means that all of your passwords are stored securely and can only be accessed with the master password.&lt;/p&gt;
+    &lt;a href=&#34;#storing-passwords-securely&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Password managers are great because they let you store long, complex passwords and just copy-paste them when you need to log in. You set a master password that encrypts all your other passwords, keeping them safe and accessible only with that one key.&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -2992,6 +2992,14 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;Backing Up Your Password Manager&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;backing-up-your-password-manager&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#backing-up-your-password-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It’s very important to back up your password manager so you don’t lose access to all your accounts. Here’s how to do it safely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Regularly save a copy of your password database to a secure spot.&lt;/li&gt;
+&lt;li&gt;Use encrypted storage for your backups.&lt;/li&gt;
+&lt;li&gt;Keep extra copies in different places for extra peace of mind.&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     

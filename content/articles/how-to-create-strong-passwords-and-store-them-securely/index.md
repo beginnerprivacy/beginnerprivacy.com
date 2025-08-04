@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-Did you know that the most [commonly used password](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords) is "123456"? This highlights the importance of using strong, unique passwords for each of your online accounts. In this post, we'll go over the best practices for generating and storing strong passwords.
+Did you know that the most [commonly used password](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords) is "123456"? This highlights the importance of using strong, unique passwords for each of your online accounts. Password breaches happen all the time, with millions of accounts compromised every year.
 
 ### Common Password Security Mistakes:
 - Using personal information in your passwords
@@ -15,13 +15,18 @@ Did you know that the most [commonly used password](https://en.wikipedia.org/wik
 - Storing passwords in plaintext or in easily accessible locations
 
 ### How Do I Make Strong Passwords?
-A strong password is a password that is difficult to guess or crack. It should be completely random and at least 16 characters long (preferably longer) and include a combination of uppercase and lowercase letters, numbers, and special characters.
+A strong password is one that’s tough to guess or crack. It should be completely random, at least 16 characters long (preferably longer), and include a mix of uppercase and lowercase letters, numbers, and special characters.  
 
-To get a strong password you can use a free online password generator:
-- [Bitwarden Password Generator](https://bitwarden.com/password-generator/#password-generator)
+<br>
+
+Brute-force attacks are a big risk—these are when hackers try every possible combination to crack your password. The longer and more complex your password is, the harder it is for them to break it. You can check how long it would take to crack your password with a [password strength tester](https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool). 
+
+<br>
+
+To create a strong, random password, use a [password generator](https://bitwarden.com/password-generator/#password-generator).
 
 ### Storing Passwords Securely
-Password managers are great to use because they allow you to store long and complex passwords, and then simply copy and paste them when needed. It works by setting a master password, which is used to encrypt all of your other passwords. This means that all of your passwords are stored securely and can only be accessed with the master password.
+Password managers are great because they let you store long, complex passwords and just copy-paste them when you need to log in. You set a master password that encrypts all your other passwords, keeping them safe and accessible only with that one key.
 
 <div class="recommendations">
   <div class="grid">
@@ -31,3 +36,9 @@ Password managers are great to use because they allow you to store long and comp
     {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Local, open-source password manager" platformIcon="ios macos" buttonText="Visit Website" >}}
   </div>
 </div>
+
+### Backing Up Your Password Manager
+It’s very important to back up your password manager so you don’t lose access to all your accounts. Here’s how to do it safely:  
+- Regularly save a copy of your password database to a secure spot.  
+- Use encrypted storage for your backups.  
+- Keep extra copies in different places for extra peace of mind.

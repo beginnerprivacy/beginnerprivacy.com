@@ -7,21 +7,26 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-你知道最[常用的密码](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)是“123456”吗？ 这突显了为每个在线账户使用强大且独特的密码的重要性。 在这篇文章中，我们将讨论生成和存储强密码的最佳实践。
+你知道最[常用的密码](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)是“123456”吗？这突显了为每个在线账户使用强大、独特密码的重要性。密码泄露事件时有发生，每年有数百万账户被攻破。
 
 ### 常见的密码安全错误：
 - 在密码中使用个人信息
 - 在多个账户中使用相同的密码
-- 以明文形式或在易于访问的位置存储密码
+- 将密码以明文形式存储或存储在容易访问的地方
 
 ### 如何创建强密码？
-一个强密码是一个难以猜测或破解的密码。 它应该是完全随机的，至少16个字符长（最好更长），并且包含大写字母、小写字母、数字和特殊字符的组合。
+一个强密码是难以猜测或破解的密码。它应该完全随机，至少16个字符（最好更长），并包含大写和小写字母、数字和特殊字符的组合。
 
-要获得一个强密码，你可以使用一个免费的在线密码生成器：
-- [Bitwarden 密码生成器](https://bitwarden.com/password-generator/#password-generator)
+<br>
+
+暴力破解攻击是一个重大风险——这是黑客尝试所有可能组合来破解你的密码。你的密码越长、越复杂，破解它就越困难。你可以通过[密码强度测试工具](https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool)检查破解你的密码需要多长时间。
+
+<br>
+
+要创建强大、随机的密码，请使用[密码生成器](https://bitwarden.com/password-generator/#password-generator)。
 
 ### 安全存储密码
-密码管理器非常好用，因为它们允许你存储长且复杂的密码，然后在需要时简单地复制和粘贴。 它的工作原理是设置一个主密码，用于加密你所有其他的密码。 这意味着您所有的密码都被安全地存储，并且只能通过主密码访问。
+密码管理器非常好用，因为它们允许你存储长而复杂的密码，并在需要时轻松复制粘贴。你可以设置一个主密码，用于加密所有其他密码，确保它们安全且只能通过该主密码访问。
 
 <div class="recommendations">
   <div class="grid">
@@ -31,3 +36,9 @@ excludeSearch: false
     {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="本地开源密码管理器" platformIcon="ios macos" buttonText="访问网站" >}}
   </div>
 </div>
+
+### 备份你的密码管理器
+备份你的密码管理器非常重要，以免失去对所有账户的访问权限。以下是如何安全备份的方法：  
+- 定期将你的密码数据库副本保存到安全位置。  
+- 使用加密存储来保护你的备份。  
+- 在不同地方保存额外的副本，以确保万无一失。
