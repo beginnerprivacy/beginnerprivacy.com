@@ -93,7 +93,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="Introducción Avanzada" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Sistema Operativo de Escritorio" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Sistema Operativo Móvil" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-services"  class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services"  class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Seguridad Física" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="Inteligencia de Amenazas" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>

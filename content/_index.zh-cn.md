@@ -94,7 +94,7 @@ layout: hextra-home
         <li>{{< hextra/feature-card title="高级介绍" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="桌面操作系统" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="移动操作系统" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="自托管" id="self-hosting" link="articles/why-you-should-start-self-hosting-services" class="advanced-hf-card-color" >}}</li>
+        <li>{{< hextra/feature-card title="自托管" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="加密货币" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="物理安全" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
         <li>{{< hextra/feature-card title="威胁情报" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>

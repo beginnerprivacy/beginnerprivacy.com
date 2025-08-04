@@ -1060,11 +1060,11 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     </item>
     
     <item>
-      <title>Why You Should Start Self-Hosting Services</title>
-      <link>http://localhost:1313/articles/why-you-should-start-self-hosting-services/</link>
+      <title>Why You Should Start Self-Hosting Your Own Services</title>
+      <link>http://localhost:1313/articles/why-you-should-start-self-hosting-your-own-services/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/articles/why-you-should-start-self-hosting-services/</guid>
+      <guid>http://localhost:1313/articles/why-you-should-start-self-hosting-your-own-services/</guid>
       <description>
         
         
@@ -1505,6 +1505,19 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
 &lt;h4&gt;YouTube&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;youtube&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#youtube&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;recommendations&#34;&gt;  
   &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Invidious&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;&lt;/p&gt;
+      
+      &lt;div class=&#34;platform-icons&#34;&gt;&lt;svg height=25 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9&#34;/&gt;&lt;/svg&gt;
+        
+      &lt;/div&gt;
+      
+      &lt;a href=&#34;https://invidious.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visit Website&lt;/a&gt;
+    &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
           &lt;img src=&#34;../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
@@ -2017,24 +2030,31 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
       <description>
         
         
-        &lt;p&gt;Using FOSS is an important step in your privacy journey and also a superior choice to proprietary software.&lt;/p&gt;
+        &lt;p&gt;Switching to FOSS is a crucial step in your privacy journey but also a superior alternative to proprietary software.&lt;/p&gt;
 &lt;h3&gt;What Is FOSS?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-foss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-is-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS stands for &lt;strong&gt;Free and Open Source Software&lt;/strong&gt;. This means that the software&amp;rsquo;s source code is accessible to the public, allowing anyone to view, modify, and distribute it. This openness fosters collaboration and innovation within the software community.&lt;/p&gt;
+    &lt;a href=&#34;#what-is-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS stands for &lt;strong&gt;Free and Open Source Software&lt;/strong&gt;. Unlike proprietary software, its source code is publicly available, meaning anyone can view, modify, and distribute it. This openness drives collaboration, ensures transparency, and allows users to tailor software to their needs.&lt;/p&gt;
 &lt;h3&gt;Why Is FOSS Better Than Proprietary Software?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-is-foss-better-than-proprietary-software&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#why-is-foss-better-than-proprietary-software&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS offers several advantages over proprietary software:&lt;/p&gt;
+    &lt;a href=&#34;#why-is-foss-better-than-proprietary-software&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS outshines proprietary software in several key ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Transparency&lt;/strong&gt;: Users can inspect the source code to understand how the software works, ensuring there are no hidden malicious features or data collecting going on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Transparency&lt;/strong&gt;: You can examine the source code to confirm there are no hidden trackers, backdoors, or malicious features—something impossible with proprietary software’s closed systems.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;: With the ability to build software from source, users can avoid downloading potentially harmful versions that may contain malware, such as Trojan Horses.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;: Open code is audited by a global community, often fixing vulnerabilities faster than proprietary vendors. Plus, building from source lets you verify the software’s integrity, avoiding malware like Trojan Horses.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Community Support&lt;/strong&gt;: FOSS often has a vibrant community that contributes to its development, providing support and updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Community Support&lt;/strong&gt;: FOSS thrives on passionate contributors who provide updates, fixes, and support, often outpacing the rigid schedules of corporate-driven proprietary software.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ethical Freedom&lt;/strong&gt;: Choosing FOSS aligns with a philosophy of user empowerment, rejecting restrictive licenses and corporate control over your technology.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;Real-World Example&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;real-world-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#real-world-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Take LibreOffice, a FOSS alternative to Microsoft Office. It delivers robust features for documents, spreadsheets, and presentations—without subscription fees or privacy risks—all while being refined by a global community.&lt;/p&gt;
+&lt;h4&gt;“FOSS isn’t user-friendly.”&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;foss-isnt-user-friendly&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#foss-isnt-user-friendly&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Newcomers to FOSS sometimes hesitate due to the lack of a polished interface compared to its proprietary counterparts. While it&amp;rsquo;s true that FOSS projects often have smaller budgets and most contributors are programmers rather than designers, leading to less polished user interfaces compared to well-funded proprietary software, the FOSS community has still managed to turn projects like Blender (a 3D creation suite) and Krita (a digital painting tool) into professional-grade tools.&lt;/p&gt;
 &lt;h3&gt;How Do I Find FOSS Alternatives?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-do-i-find-foss-alternatives&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-do-i-find-foss-alternatives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Finding FOSS alternatives is easier than ever, thanks to dedicated websites that list various options. Here are some recommended resources:&lt;/p&gt;
+    &lt;a href=&#34;#how-do-i-find-foss-alternatives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Finding FOSS replacements is simple with these excellent resources:&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -2179,9 +2199,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 &lt;p&gt;&lt;strong&gt;Lead by Example:&lt;/strong&gt; Start using secure communication methods yourself and invite others to join you. Demonstrating the ease and advantages of these apps can motivate your contacts to make the switch.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Offer Assistance:&lt;/strong&gt; Help your contacts download and set up secure messaging apps. Sometimes, the technical barrier can deter people from making the change.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Offer Assistance:&lt;/strong&gt; Help your contacts download and set up secure messaging apps. Sometimes, the technical barrier can deter people from making the change.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Create Group Chats:&lt;/strong&gt; Initiate group conversations on secure platforms to showcase their functionality. This can help others see the benefits firsthand and encourage them to participate.&lt;/p&gt;
@@ -2799,25 +2817,42 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
         
         
         &lt;p&gt;&lt;strong&gt;Imagine this:&lt;/strong&gt; You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.&lt;/p&gt;
-&lt;p&gt;Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute forcing attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.&lt;/p&gt;
+&lt;p&gt;Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute force attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.&lt;/p&gt;
 &lt;h3&gt;How Does 2FA Work?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-does-2fa-work&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#how-does-2fa-work&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;Enter your password.&lt;/li&gt;
-&lt;li&gt;Verify with a second factor
+    &lt;a href=&#34;#how-does-2fa-work&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Two-Factor Authentication (2FA) secures your account by requiring two distinct forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works step-by-step:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;You Enter Your Password&lt;/strong&gt;: When you log in, you type your usual password. This is the first factor, proving you know the account credentials. The system checks if it matches the stored, encrypted password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The System Requests a Second Factor&lt;/strong&gt;: If the password is correct, the service prompts for a second piece of proof to confirm it’s really you. This second factor is independent of your password and uses a different method to verify your identity. Common types include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A one-time code (app / SMS / email).&lt;/li&gt;
-&lt;li&gt;Biometrics (fingerprint / face scan).&lt;/li&gt;
-&lt;li&gt;A physical security key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Time Code&lt;/strong&gt;: A temporary, unique code (usually 6-8 digits) generated by an authenticator app, sent via SMS, or emailed. For apps, the code is created using a shared secret key (set up during 2FA enrollment, often via a QR code) and a time-based algorithm (TOTP, or Time-Based One-Time Password). The code refreshes every 30 seconds, making it useless to hackers after a short window.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biometrics&lt;/strong&gt;: A fingerprint, face scan, or other unique physical trait. The device scans your biometric data, encrypts it, and compares it to a stored template. This only works on devices you’ve registered, ensuring the data stays local and secure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physical Security Key&lt;/strong&gt;: A device like a YubiKey that you plug into your computer or tap on your phone. When prompted, the key uses cryptographic protocols (like FIDO2 or U2F) to confirm your identity with a unique digital signature, proving you possess the physical device.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verification and Access&lt;/strong&gt;: The service checks the second factor against its records. For example, it confirms the one-time code matches the expected TOTP for that moment or validates the security key’s signature. If both the password and second factor are correct, you’re granted access. If either fails, the login is blocked, keeping hackers out even if they have your password.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Even with your password, hackers can’t access your account without the second factor.&lt;/p&gt;
+&lt;p&gt;This dual-check process makes 2FA highly effective because stealing your password isn’t enough—hackers also need access to your second factor, which is much harder to obtain.&lt;/p&gt;
 &lt;h3&gt;Types of 2FA: Which Should You Use?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;types-of-2fa-which-should-you-use&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#types-of-2fa-which-should-you-use&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Not all 2FA methods are equally secure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Security Keys:&lt;/strong&gt; Best, physical devices (like YubiKey) that plug into your phone or computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Authenticator Apps:&lt;/strong&gt; Great, these apps allow you to scan a QR code and then generate time-sensitive codes completely offline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;SMS / Email Codes:&lt;/strong&gt; Convenient, but hackers can intercept these via SIM-swapping or phishing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Biometrics:&lt;/strong&gt; Good, fingerprint or face scans are secure but only work on devices you own.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;How to Enable 2FA on Your Accounts&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-enable-2fa-on-your-accounts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-enable-2fa-on-your-accounts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Most platforms make it easy. Here’s how to do it on some platforms:&lt;/p&gt;
 &lt;ul&gt;
@@ -2827,7 +2862,7 @@ Open Safari Settings → Search → Pick your engine.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Usually the same steps as the platforms above.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recommended Authenticator Apps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-authenticator-apps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;https://beginnerprivacy.com/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
+    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; &gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;

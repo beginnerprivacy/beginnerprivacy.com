@@ -1,5 +1,5 @@
 ---
-title: 为什么你应该开始自我托管服务
+title: 为什么你应该开始自托管你自己的服务
 date: 2025-05-20
 authors:
   - name: PrintN
