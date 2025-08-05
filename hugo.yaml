@@ -70,16 +70,12 @@ menu:
       name: Checklists
       pageRef: /checklists
       weight: 3
-    - identifier: shop
-      name: Shop
-      pageRef: /https://shop.beginnerprivacy.com
-      weight: 4
     - identifier: about
       name: About
       pageRef: /about
-      weight: 5
+      weight: 4
     - name: Search
-      weight: 6
+      weight: 5
       params:
         type: search
   footer:

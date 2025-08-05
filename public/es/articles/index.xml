@@ -1091,11 +1091,11 @@ Una VPN es una opción popular y efectiva para mantener el anonimato mientras to
     </item>
     
     <item>
-      <title>Por Qué Deberías Comenzar a Autoalojar Servicios</title>
-      <link>http://localhost:1313/es/articles/why-you-should-start-self-hosting-services/</link>
+      <title>Por Qué Deberías Empezar a Autoalojar Tus Propios Servicios</title>
+      <link>http://localhost:1313/es/articles/why-you-should-start-self-hosting-your-own-services/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/articles/why-you-should-start-self-hosting-services/</guid>
+      <guid>http://localhost:1313/es/articles/why-you-should-start-self-hosting-your-own-services/</guid>
       <description>
         
         
@@ -2597,33 +2597,18 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
       <description>
         
         
-        &lt;p&gt;Tener un navegador privado no es suficiente, también necesitas usar un motor de búsqueda privado. Afortunadamente para ti, es muy fácil cambiar a un motor de búsqueda enfocado en la privacidad.&lt;/p&gt;
+        &lt;p&gt;¿Sabías que cada vez que buscas en línea, estás revelando pistas sobre tu vida? Tus búsquedas pueden mostrar tus intereses, hábitos e incluso tu ubicación. Un navegador privado por sí solo no es suficiente para protegerte: también necesitas un motor de búsqueda enfocado en la privacidad. ¿La buena noticia? Cambiar es rápido y sencillo, y es un pequeño paso que puede marcar una gran diferencia.&lt;/p&gt;
 &lt;h3&gt;¿Cómo Funciona un Motor de Búsqueda?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-funciona-un-motor-de-búsqueda&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-funciona-un-motor-de-b%c3%basqueda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. Los Rastreadores Exploran la Web&lt;/strong&gt;
-Piensa en estos bots como bibliotecarios digitales, escaneando y catalogando sitios web constantemente.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Indexación de Internet&lt;/strong&gt;
-Todas las páginas rastreadas se almacenan en una base de datos masiva (el &amp;ldquo;índice&amp;rdquo;), como el catálogo de tarjetas de una biblioteca para la web.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. Coincidencia de Tu Consulta&lt;/strong&gt;
-Cuando buscas, el motor examina su índice en busca de páginas que coincidan con tus palabras clave y luego las clasifica.
-Los motores de búsqueda como Google muestran sitios web &amp;ldquo;Patrocinados&amp;rdquo; pagados en la parte superior. Estos anuncios son comprados por las empresas para aparecer primero—no son resultados orgánicos.&lt;/p&gt;
-&lt;h3&gt;¿Por Qué Molestarse?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;por-qué-molestarse&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#por-qu%c3%a9-molestarse&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Motores de búsqueda tradicionales como Google o Bing:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Realiza un seguimiento de tus consultas para construir un perfil de tus intereses.&lt;/li&gt;
-&lt;li&gt;Vende tus datos a los anunciantes o úsalos para personalizar los resultados.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sin embargo, los motores de búsqueda centrados en la privacidad:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;No almacenes tus búsquedas ni las vincules a tu identidad.&lt;/li&gt;
-&lt;li&gt;Ofrecer resultados imparciales sin filtrar según tu historial.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Cómo Cambiar Tu Motor de Búsqueda&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-cambiar-tu-motor-de-búsqueda&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-cambiar-tu-motor-de-b%c3%basqueda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Chrome/Edge/Brave:&lt;/strong&gt;
-Haz clic en el menú de tres puntos → Configuración → Motor de búsqueda → Elige tu nuevo predeterminado.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Firefox:&lt;/strong&gt;
-Haz clic en el menú de tres puntos → Configuración → Buscar → Selecciona del menú desplegable.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Safari:&lt;/strong&gt;
-Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
+    &lt;a href=&#34;#c%c3%b3mo-funciona-un-motor-de-b%c3%basqueda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Los motores de búsqueda impulsan internet, pero hay más detrás de ellos de lo que parece.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;1. Rastreadores Exploran la Web&lt;/strong&gt;&lt;br&gt;
+Los bots, a menudo llamados &amp;ldquo;rastreadores&amp;rdquo; o &amp;ldquo;arañas&amp;rdquo;, actúan como bibliotecarios digitales. Recorren internet, escaneando y catalogando sitios web para mantener un registro de lo que existe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Indexando Internet&lt;/strong&gt;&lt;br&gt;
+Una vez rastreadas, las páginas se almacenan en una enorme base de datos conocida como el &amp;ldquo;índice&amp;rdquo;, como un catálogo gigante de tarjetas para la web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Emparejando Tu Consulta&lt;/strong&gt;&lt;br&gt;
+Cuando escribes una búsqueda, el motor explora su índice para encontrar páginas que coincidan con tus palabras clave. Luego las clasifica según relevancia, popularidad y otros factores.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Pero aquí está el problema: los motores de búsqueda tradicionales como Google no se detienen ahí. Registran tus consultas, dirección IP y detalles del dispositivo para crear un perfil sobre ti. Busca &amp;ldquo;mejores cafeterías cerca de mí&amp;rdquo; y podrían mostrarte anuncios locales, para luego usar esos datos para ofrecerte cafeteras o ofertas de viaje. Este seguimiento puede sentirse invasivo y pone en riesgo tu privacidad. Los motores de búsqueda enfocados en la privacidad omiten este paso, manteniendo tus búsquedas anónimas.&lt;/p&gt;
 &lt;h3&gt;Motores de Búsqueda Recomendados&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;motores-de-búsqueda-recomendados&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#motores-de-b%c3%basqueda-recomendados&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
@@ -2650,12 +2635,22 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
           &lt;img src=&#34;../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
           &lt;h2 class=&#34;recommended-title&#34;&gt;Brave Search&lt;/h2&gt;
       &lt;/div&gt;
-      &lt;p class=&#34;recommendation-text&#34;&gt;Brave Search funciona con un índice independiente.&lt;/p&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;Funciona con su propio índice independiente&lt;/p&gt;
       
       &lt;a href=&#34;https://search.brave.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Prueba Brave Search&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;Cómo Cambiar Tu Motor de Búsqueda&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-cambiar-tu-motor-de-búsqueda&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%c3%b3mo-cambiar-tu-motor-de-b%c3%basqueda&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;¿Listo para hacer el cambio? Solo toma unos clics. Aquí te explicamos cómo actualizar tu motor de búsqueda predeterminado en tu navegador:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome:&lt;/strong&gt; Menú de tres puntos → Configuración → Motor de búsqueda → Selecciona del menú desplegable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mozilla Firefox:&lt;/strong&gt; Menú de tres puntos → Configuración → Búsqueda → Elige del menú desplegable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge:&lt;/strong&gt; Menú de tres puntos → Configuración → Privacidad, búsqueda y servicios → Barra de direcciones y búsqueda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apple Safari:&lt;/strong&gt; Safari → Preferencias → Búsqueda → Escoge el motor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Otros Navegadores:&lt;/strong&gt; Pasos similares: Menú → Configuración → Búsqueda → Selecciona el motor&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
@@ -2971,27 +2966,21 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;¿Sabías que la contraseña más &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;comúnmente utilizada&lt;/a&gt; es &amp;ldquo;123456&amp;rdquo;? Esto resalta la importancia de usar contraseñas fuertes y únicas para cada una de tus cuentas en línea. En esta publicación, revisaremos las mejores prácticas para generar y almacenar contraseñas seguras.&lt;/p&gt;
-&lt;h3&gt;Errores Comunes de Seguridad de Contraseñas:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;errores-comunes-de-seguridad-de-contraseñas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#errores-comunes-de-seguridad-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Usar información personal en tus contraseñas&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Usar la misma contraseña para múltiples cuentas&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Almacenar contraseñas en texto plano o en ubicaciones de fácil acceso&lt;/p&gt;
-&lt;/li&gt;
+        &lt;p&gt;¿Sabías que la contraseña más &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_the_most_common_passwords&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;comúnmente utilizada&lt;/a&gt; es &amp;ldquo;123456&amp;rdquo;? Esto resalta la importancia de usar contraseñas fuertes y únicas para cada una de tus cuentas en línea. Las violaciones de contraseñas ocurren todo el tiempo, con millones de cuentas comprometidas cada año.&lt;/p&gt;
+&lt;h3&gt;Errores Comunes en la Seguridad de Contraseñas:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;errores-comunes-en-la-seguridad-de-contraseñas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#errores-comunes-en-la-seguridad-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Usar información personal en tus contraseñas&lt;/li&gt;
+&lt;li&gt;Usar la misma contraseña para múltiples cuentas&lt;/li&gt;
+&lt;li&gt;Almacenar contraseñas en texto plano o en lugares fácilmente accesibles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;¿Cómo Hago Contraseñas Fuertes?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-hago-contraseñas-fuertes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-hago-contrase%c3%b1as-fuertes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una contraseña fuerte es una contraseña que es difícil de adivinar o descifrar. Debería ser completamente aleatoria y tener al menos 16 caracteres de longitud (preferiblemente más) e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.&lt;/p&gt;
-&lt;p&gt;Para obtener una contraseña fuerte, puedes usar un generador de contraseñas en línea gratuito:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Generador de Contraseñas Bitwarden&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Almacenamiento Seguro de Contraseñas&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;almacenamiento-seguro-de-contraseñas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#almacenamiento-seguro-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Los gestores de contraseñas son geniales porque te permiten almacenar contraseñas largas y complejas, y luego simplemente copiarlas y pegarlas cuando las necesites. Funciona estableciendo una contraseña maestra, que se utiliza para cifrar todas tus otras contraseñas. Esto significa que todas tus contraseñas se almacenan de manera segura y solo se pueden acceder con la contraseña maestra.&lt;/p&gt;
+&lt;h3&gt;¿Cómo Creo Contraseñas Fuertes?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-creo-contraseñas-fuertes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#c%c3%b3mo-creo-contrase%c3%b1as-fuertes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Una contraseña fuerte es aquella que es difícil de adivinar o descifrar. Debe ser completamente aleatoria, tener al menos 16 caracteres (preferiblemente más) e incluir una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Los ataques de fuerza bruta son un gran riesgo: estos ocurren cuando los hackers prueban todas las combinaciones posibles para descifrar tu contraseña. Cuanto más larga y compleja sea tu contraseña, más difícil será descifrarla. Puedes verificar cuánto tiempo tomaría descifrar tu contraseña con un &lt;a href=&#34;https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;probador de fortaleza de contraseñas&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Para crear una contraseña fuerte y aleatoria, usa un &lt;a href=&#34;https://bitwarden.com/password-generator/#password-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;generador de contraseñas&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Almacenar Contraseñas de Forma Segura&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;almacenar-contraseñas-de-forma-segura&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#almacenar-contrase%c3%b1as-de-forma-segura&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Los administradores de contraseñas son excelentes porque te permiten almacenar contraseñas largas y complejas, y simplemente copiarlas y pegarlas cuando las necesites. Funcionan configurando una contraseña maestra que cifra todas tus otras contraseñas, manteniéndolas seguras y accesibles solo con esa clave.&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -3008,7 +2997,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar sitio web&lt;/a&gt;
+      &lt;a href=&#34;https://keepassxc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -3026,7 +3015,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar sitio web&lt;/a&gt;
+      &lt;a href=&#34;https://bitwarden.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -3039,7 +3028,7 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar sitio web&lt;/a&gt;
+      &lt;a href=&#34;https://keepassdx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
       &lt;div class=&#34;recommendation-header&#34;&gt;
@@ -3053,10 +3042,18 @@ Abre la configuración de Safari → Buscar → Elige tu motor.&lt;/p&gt;
         
       &lt;/div&gt;
       
-      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar sitio web&lt;/a&gt;
+      &lt;a href=&#34;https://strongboxsafe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;Visitar Sitio Web&lt;/a&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;Respaldar Tu Administrador de Contraseñas&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;respaldar-tu-administrador-de-contraseñas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#respaldar-tu-administrador-de-contrase%c3%b1as&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Es muy importante respaldar tu administrador de contraseñas para no perder el acceso a todas tus cuentas. Aquí te explicamos cómo hacerlo de forma segura:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Guarda regularmente una copia de tu base de datos de contraseñas en un lugar seguro.&lt;/li&gt;
+&lt;li&gt;Usa almacenamiento cifrado para tus copias de seguridad.&lt;/li&gt;
+&lt;li&gt;Mantén copias adicionales en diferentes lugares para mayor tranquilidad.&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
