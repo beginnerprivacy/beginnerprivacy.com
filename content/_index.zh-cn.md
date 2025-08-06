@@ -127,11 +127,11 @@ layout: hextra-home
         <img src="../images/earth.webp" alt="社区图片" class="community-image">
     </div>
     <div class="community-cta">
-        <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">加入我们的社区</h2>
+        <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-leading-none">加入我们的社区</h2>
         <p class="hx-text-base">与热衷于隐私的志同道合者联系。加入我们的论坛，关注我们的社交媒体，参与讨论。</p>
         <div class="social-chat-container">
           <div class="chat-section">
-            <h2 class="hx-text-2rem hx-font-bold">社交媒体</h2>
+            <h2 class="hx-text-2rem hx-font-bold hx-leading-none">社交媒体</h2>
             <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer">
               <div class="chat-section-button">
                 <p>在Mastodon上关注我们&nbsp;&nbsp;</p>{{< hextra/icon name="mastodon" attributes="height=25" >}}
@@ -139,7 +139,7 @@ layout: hextra-home
             </a>
           </div>
           <div class="chat-section">
-            <h2 class="hx-text-2rem hx-font-bold">聊天</h2>
+            <h2 class="hx-text-2rem hx-font-bold hx-leading-none">聊天</h2>
             <a href="about/join-simplex-group" target="_blank" title="SimpleX Chat">
               <div class="chat-section-button">
                 <p>在SimpleX上与我们聊天&nbsp;&nbsp;</p>{{< hextra/icon name="simplex" attributes="height=25" >}}
