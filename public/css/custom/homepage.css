@@ -3,6 +3,26 @@
     width: 100%; 
 }
 
+@media (max-width: 520px) {
+    .roadmap {
+        padding-top: 0rem;
+        margin-top: 2rem;
+        min-height: 50rem;
+    }
+    #common-misconceptions {
+        padding-top: 0rem;
+    }
+    .community-section {
+        padding-top: 2rem;
+    }
+    .checklists-section {
+        padding-top: 4rem;
+    }
+    #contributors {
+        margin-top: 3rem;
+    }
+}
+
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -107,124 +127,127 @@ input[type="radio"]:checked + label {
 
 @media (max-width: 550px) {
     .roadmap-section ol li:not(.content ul li):not(.content ol li) {
-    padding: 1rem;
-    margin: 2rem 0;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    .roadmap-section ol {
+        margin: auto;
     }
 }
 
 @media (min-width: 550px) and (max-width: 899px){
     .roadmap-section ol li:not(.content ul li):not(.content ol li) {
-    margin: 1rem;
-    width: calc(50% - 2rem);
-    float: left;
-    min-height: var(--height);
+        margin: 1rem;
+        width: calc(50% - 2rem);
+        float: left;
+        min-height: var(--height);
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+3),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+4) {
-    float: right;
+        float: right;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+1)::before {
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: 100%;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: 100%;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+1)::after {
-    top: calc(var(--height)/3);
-    left: calc(100% + 0.6rem);
-    border: var(--unit) solid transparent;
-    border-left-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: calc(100% + 0.6rem);
+        border: var(--unit) solid transparent;
+        border-left-color: var(--roadmap-step-pointer);
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+3)::before {
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: -1rem;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: -1rem;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(4n+3)::after {
-    top: calc(var(--height)/3);
-    left: -2.2rem;
-    border: var(--unit) solid transparent;
-    border-right-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: -2.2rem;
+        border: var(--unit) solid transparent;
+        border-right-color: var(--roadmap-step-pointer);
     }
 }
 @media (min-width: 900px) and (max-width: 1199px){
     .roadmap-section ol li:not(.content ul li):not(.content ol li) {
-    margin: 1rem;
-    width: calc(33.33% - 2rem);
-    float: left;
-    min-height: 7rem;
+        margin: 1rem;
+        width: calc(33.33% - 2rem);
+        float: left;
+        min-height: 7rem;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+4),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+5),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+6) {
-    float: right;
+        float: right;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+1)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+2)::before {
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: 100%;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: 100%;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+1)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+2)::after {
-    top: calc(var(--height)/3);
-    left: calc(100% + 0.6rem);
-    border: var(--unit) solid transparent;
-    border-left-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: calc(100% + 0.6rem);
+        border: var(--unit) solid transparent;
+        border-left-color: var(--roadmap-step-pointer);
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+4)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+5)::before{
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: -1rem;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: -1rem;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+4)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(6n+5)::after{
-    top: calc(var(--height)/3);
-    left: -2.2rem;
-    border: var(--unit) solid transparent;
-    border-right-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: -2.2rem;
+        border: var(--unit) solid transparent;
+        border-right-color: var(--roadmap-step-pointer);
     }
 }
 @media (min-width: 1200px){
     ol {
-    width: 100%;
-    margin: 0 auto;
+        width: 100%;
+        margin: 0 auto;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li) {
-    margin: 1rem;
-    width: calc(25% - 2rem);
-    float: left;
-    min-height: 7rem;
+        margin: 1rem;
+        width: calc(25% - 2rem);
+        float: left;
+        min-height: 7rem;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+5),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+6),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+7),
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+8){
-    float: right;
+        float: right;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+1)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+2)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+3)::before{
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: 100%;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: 100%;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+1)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+2)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+3)::after{
-    top: calc(var(--height)/3);
-    left: calc(100% + 0.6rem);
-    border: var(--unit) solid transparent;
-    border-left-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: calc(100% + 0.6rem);
+        border: var(--unit) solid transparent;
+        border-left-color: var(--roadmap-step-pointer);
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+5)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+6)::before,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+7)::before {
-    top: calc(var(--height)/2 + var(--unit)/2);
-    left: -1rem;
+        top: calc(var(--height)/2 + var(--unit)/2);
+        left: -1rem;
     }
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+5)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+6)::after,
     .roadmap-section ol li:not(.content ul li):not(.content ol li):nth-child(8n+7)::after {
-    top: calc(var(--height)/3);
-    left: -2.2rem;
-    border: var(--unit) solid transparent;
-    border-right-color: var(--roadmap-step-pointer);
+        top: calc(var(--height)/3);
+        left: -2.2rem;
+        border: var(--unit) solid transparent;
+        border-right-color: var(--roadmap-step-pointer);
     }
 }
 
@@ -614,17 +637,10 @@ input[type="radio"]:checked + label {
     color: rgb(var(--color-white));
 }
 
-@media (max-width: 330px) {
-    .social-chat-container {
-        display: block;
-    }
-}
-
 .chat-section {
     flex: 1;
     margin-right: 2rem;
 }
-
 .chat-section:last-child {
     margin-right: 0;
 }
@@ -633,7 +649,16 @@ input[type="radio"]:checked + label {
     justify-content: center;
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 330px) {
+    .social-chat-container {
+        display: block;
+    }
+    .chat-section {
+        margin-right: 0rem;
+    }
+}
+
+@media (min-width: 1090px) {
     .community-section {
         flex-direction: row;
         align-items: flex-start;

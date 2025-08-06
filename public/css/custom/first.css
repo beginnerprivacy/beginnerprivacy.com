@@ -117,6 +117,17 @@
     }
 }
 
+@media (max-height: 780px) {
+    .hero {
+        padding-top: 5rem;
+    }
+}
+@media (max-height: 710px) {
+    .hero {
+        padding-top: 0rem;
+    }
+}
+
 .start-now-button {
   position: relative;
   overflow: hidden;

@@ -482,11 +482,11 @@ sections.forEach(section => {
 let isSearchInputFocused = false;
 
 if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
-    if (window.innerHeight >= 825 && window.innerHeight <= 1100) {
+    if (window.innerWidth >= 903 && window.innerHeight <= 1090) {
         document.querySelector('html').style.overflow = "hidden";
     }
     window.addEventListener('resize', () => {
-        if (window.innerHeight >= 825 && window.innerHeight <= 1100) {
+        if (window.innerWidth >= 903 && window.innerHeight <= 1090) {
             document.querySelector('html').style.overflow = "hidden";
         } else {
             document.querySelector('html').style.overflow = "";
@@ -508,7 +508,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('wheel', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1100 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.deltaY > 0) {
                 // Scrolling down
@@ -528,7 +528,7 @@ if (window.location.pathname === '/' || window.location.pathname === '/es/' || w
 
     window.addEventListener('keydown', function(event) {
         const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerHeight >= 825 && window.innerHeight <= 1100 && !isSearchInputFocused) {
+        if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
             event.preventDefault();
             if (event.key === "ArrowDown") {
                 // Scrolling down
