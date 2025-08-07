@@ -1,0 +1,53 @@
+{{- $id := .Get "id" -}}
+{{- $data := .Inner | transform.Unmarshal -}}
+
+{{ $url := .Page.RelPermalink }}
+{{ $isSpanish := (index (split $url "/") 1) | eq "es" }}
+{{ $isChinese := (index (split $url "/") 1) | eq "zh-cn" }}
+
+<script>
+const resultTexts = {
+  casual: "{{ $data.resultText.casual }}",
+  privacyConscious: "{{ $data.resultText.privacyConscious }}",
+  advanced: "{{ $data.resultText.advanced }}"
+};
+</script>
+
+<div class="threat-model-assessment" id="{{ $id }}" data-type="assessment">
+  <button class="tm-start-button" onclick="startQuizAssessment('{{ $id }}')">
+  {{ if $isSpanish }}
+    Iniciar Evaluación del Modelo de Amenazas
+  {{ else if $isChinese }}
+    开始威胁模型评估
+  {{ else }}
+    Start Threat Model Assessment
+  {{ end }}
+  </button>
+  
+  <div class="tm-questions-container">
+    {{ range $index, $q := $data.questions }}
+    <div class="tm-question" data-index="{{ $index }}">
+      <h4>{{ $q.question }}</h4>
+      <div class="tm-options">
+        {{ range $q.answers }}
+        <button class="tm-option" data-score="{{ .score }}">
+          {{ .text }}
+        </button>
+        {{ end }}
+      </div>
+      {{ if gt $index 0 }}
+      <button class="tm-nav-button" onclick="previousQuestion('{{ $id }}')">
+        {{ if $isSpanish }}← Anterior{{ else if $isChinese }}← 之前{{ else }}← Previous{{ end }}
+      </button>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="tm-result">
+      <h4 style="margin: 0;">{{ if $isSpanish }}Tu Modelo de Amenaza:{{ else if $isChinese }}你的威胁模型:{{ else }}Your Threat Model:{{ end }}</h4>
+      <div class="tm-result-content"></div>
+      <button class="tm-restart" onclick="restartQuizAssessment('{{ $id }}')">
+        {{ if $isSpanish }}Repetir Evaluación{{ else if $isChinese }}重新评估{{ else }}Retake Assessment{{ end }}
+      </button>
+    </div>
+  </div>
+</div>

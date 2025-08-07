@@ -1,0 +1,24 @@
+{{- $link := .Get "link" -}}
+{{- $text := .Get "text" -}}
+{{- $style := .Get "style" -}}
+{{- $class := .Get "class" | default " " -}}
+{{- $platformIcons := cond (ne (.Get "platformIcon") "") (split (.Get "platformIcon") " ") (slice) -}}
+{{- $title := .Get "title" -}}
+{{- $logo := .Get "logo" -}}
+{{- $buttonText := .Get "buttonText" -}}
+
+<div class="recommendation-card">
+  <div class="recommendation-header">
+      {{ if $logo }}<img src="{{ $logo }}" class="recommendation-logo" alt="logo">{{ end }}
+      <h2 class="recommended-title">{{ $title }}</h2>
+  </div>
+  <p class="recommendation-text">{{- $text -}}</p>
+  {{ if gt (len $platformIcons) 0 }}
+  <div class="platform-icons">
+    {{- range $platformIcons -}}
+      {{ partial "utils/icon.html" (dict "name" . "attributes" "height=25") }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ if $link }}<a href="{{ $link }}" target="_blank" rel="noopener noreferrer nofollow" class="recommendation-link">{{ $buttonText }}</a>{{ end }}
+</div>

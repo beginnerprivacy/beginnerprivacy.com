@@ -1,0 +1,45 @@
+{{- if and (not hugo.IsProduction) (eq hugo.Environment "theme") }}
+  {{- $styles := resources.Get "css/styles.css" }}
+  {{- $styles = $styles | postCSS (dict "inlineImports" true) }}
+  <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+{{- else }}
+  {{- $styles := resources.Get "css/compiled/main.css" -}}
+
+  {{- if hugo.IsProduction }}
+    {{- $styles = $styles | minify | fingerprint }}
+    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+  {{- else }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+  {{- end }}
+{{- end }}
+
+
+<!-- Custom CSS -->
+{{- $first := resources.Get "css/custom/first.css" }}
+{{- $homepage := resources.Get "css/custom/homepage.css" }}
+{{- $checklists := resources.Get "css/custom/checklists.css" }}
+{{- $about := resources.Get "css/custom/about.css" }}
+{{- $news := resources.Get "css/custom/news.css" }}
+{{- $footer := resources.Get "css/custom/footer.css" }}
+{{- if hugo.IsProduction -}}
+  {{- $first = $first | minify | fingerprint }}
+  {{- $homepage = $homepage | minify | fingerprint }}
+  {{- $checklists = $checklists | minify | fingerprint }}
+  {{- $about = $about | minify | fingerprint }}
+  {{- $news = $news | minify | fingerprint }}
+  {{- $footer = $footer | minify | fingerprint }}
+  <link href="{{ $first.RelPermalink }}" rel="stylesheet" integrity="{{ $first.Data.Integrity }}" />
+  <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" integrity="{{ $homepage.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $checklists.RelPermalink }}" rel="stylesheet" integrity="{{ $checklists.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $about.RelPermalink }}" rel="stylesheet" integrity="{{ $about.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $news.RelPermalink }}" rel="stylesheet" integrity="{{ $news.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $footer.RelPermalink }}" rel="stylesheet" integrity="{{ $footer.Data.Integrity }}" media="print" onload="this.media='all'" />
+{{- else }}
+  <link href="{{ $first.RelPermalink }}" rel="stylesheet" />
+  <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $checklists.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $about.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $news.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $footer.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+{{- end }}

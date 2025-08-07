@@ -1,0 +1,14 @@
+{{- $link := .Get "link" -}}
+{{- $style := .Get "style" -}}
+{{- $class := .Get "class" | default " " -}}
+{{- $title := .Get "title" -}}
+{{- $logo := .Get "logo" -}}
+
+{{ if $link }}<a href="{{ $link }}" target="_blank" style="text-decoration: none;">
+  <div class="recommendation-card" style="padding: 0; padding-inline: 10px;">
+    <div class="recommendation-header">
+        <img src="{{ $logo }}" class="recommendation-logo" alt="logo">
+        <h2 class="recommended-title" style="border-bottom-width: 0;">{{ $title }}</h2>
+    </div>
+  </div>
+</a>{{ end }}

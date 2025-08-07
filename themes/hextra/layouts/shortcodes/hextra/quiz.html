@@ -1,0 +1,41 @@
+{{- $id := .Get "id" -}}
+{{- $data := .Inner | transform.Unmarshal -}}
+
+{{ $url := .Page.RelPermalink }}
+{{ $isSpanish := (index (split $url "/") 1) | eq "es" }}
+{{ $isChinese := (index (split $url "/") 1) | eq "zh-cn" }}
+
+<div class="threat-model-assessment" id="{{ $id }}" data-type="quiz">
+  <button class="tm-start-button" onclick="startQuizAssessment('{{ $id }}')">
+  {{ if $isSpanish }}
+    Iniciar Cuestionario
+  {{ else if $isChinese }}
+    开始测验
+  {{ else }}
+    Start Quiz
+  {{ end }}
+  </button>
+  
+  <div class="tm-questions-container">
+    {{ range $index, $q := $data.questions }}
+    <div class="tm-question" data-index="{{ $index }}">
+      <h4>{{ $q.question }}</h4>
+      <div class="tm-options">
+        {{ range $q.answers }}
+        <button class="tm-option" data-iscorrect="{{ .isCorrect }}">
+          {{ .text }}
+          {{ if .image }}<img src="{{ .image }}">{{ end }}
+        </button>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    <div class="tm-result">
+      <h4 style="margin: 0;">{{ if $isSpanish }}Tu Puntuación:{{ else if $isChinese }}你的分数：{{ else }}Your Score:{{ end }}</h4>
+      <div class="tm-result-content"></div>
+      <button class="tm-restart" onclick="restartQuizAssessment('{{ $id }}')">
+        {{ if $isSpanish }}Repetir Cuestionario{{ else if $isChinese }}重新测验{{ else }}Retake Quiz{{ end }}
+      </button>
+    </div>
+  </div>
+</div>

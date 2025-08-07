@@ -1,0 +1,26 @@
+{{- $name := .Get "name" -}}  {{/* Get the icon name from the shortcode parameter */}}
+{{- $icon := index .Site.Data.icons $name -}}  {{/* Retrieve the icon from the data file */}}
+
+{{- if not $icon -}}
+  {{ errorf "icon %q not found" $name }}
+{{- end -}}
+
+{{- $icon = $icon | safeHTML -}}
+
+{{- if .Get "attributes" -}}  {{/* Check if attributes are provided */}}
+  {{- /* Split the attributes string into key-value pairs */ -}}
+  {{- $attributes := split ( .Get "attributes") "," -}}
+  {{- $attrString := "" -}}
+  
+  {{- range $attributes -}}
+    {{- $attr := split . "=" -}}
+    {{- if eq (len $attr) 2 -}}
+      {{- $attrString = printf "%s %s=\"%s\"" $attrString (index $attr 0) (index $attr 1) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $icon = replaceRE "<svg" (printf "<svg %s" $attrString) $icon -}}
+  
+{{- end -}}
+
+{{- $icon | safeHTML -}}

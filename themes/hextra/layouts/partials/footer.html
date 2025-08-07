@@ -1,0 +1,106 @@
+{{- $enableFooterSwitches := .Scratch.Get "enableFooterSwitches" | default false -}}
+{{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
+{{- $footerSwitchesVisible := and $enableFooterSwitches (or hugo.IsMultilingual $displayThemeToggle) -}}
+{{- $copyrightSectionVisible := or (.Site.Params.footer.displayPoweredBy | default true) .Site.Params.footer.displayCopyright -}}
+
+{{- $logoPath := .Site.Params.navbar.logo.path | default "images/logo.svg" -}}
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+{{- $logoWidth := .Site.Params.navbar.logo.width | default "30" -}}
+{{- $logoHeight := .Site.Params.navbar.logo.height | default "30" -}}
+{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+
+<footer class="hextra-footer hx-pt-8">
+  <!-- Wave SVG -->
+  <div class="footer-waves">
+    <svg class="footer-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="0" fill="rgba(243,244,246,0.7)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="3" fill="rgba(243,244,246,0.5)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="5" fill="rgba(243,244,246,0.3)" />
+        <use class="wave" xlink:href="#gentle-wave" x="48" y="7" fill="#f3f4f6" />
+      </g>
+    </svg>
+  </div>
+
+  <div class="footer-container mx-auto">
+    <div class="footer-content hx-flex hx-flex-col md:hx-flex-row hx-justify-between hx-items-center hx-py-4 hx-pt-12">
+      <!-- Logo Section -->
+      <div class="logo-section hx-flex hx-justify-center hx-items-center hx-mb-6 md:hx-mb-0">
+        <a href="{{ .Site.Home.RelPermalink }}">
+          <img class="hx-block dark:hx-hidden" src="{{ $logoPath | relURL }}" alt="Logo" height="50" width="50" />
+          <img class="hx-hidden dark:hx-block" src="{{ $logoDarkPath | relURL }}" alt="Logo" height="50" width="50" />
+        </a>
+      </div>
+      <!-- Navigation Links Section -->
+      <div class="footer-nav-links hx-flex hx-flex-wrap hx-justify-center hx-gap-8 hx-mb-6 md:hx-mb-0">
+          {{ if (strings.Contains .Page.Permalink "/es/") }}
+            <a href="/es" class="hx-text-black dark:hx-text-black dark:hx-text-white">Inicio</a>
+            <a href="/es/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Acerca De</a>
+            <a href="/es/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Noticia</a>
+            <a href="/es/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Artículos</a>
+            <a href="/es/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Listas de Verificación</a>
+            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Tienda</a>
+            <a href="/es/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contacto</a>
+            <a href="/es/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contribuyentes</a>
+            <a href="/es/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">Renuncia</a>
+          {{ else if (strings.Contains .Page.Permalink "/zh-cn/") }}
+            <a href="/zh-cn" class="hx-text-black dark:hx-text-black dark:hx-text-white">首页</a>
+            <a href="/zh-cn/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">关于</a>
+            <a href="/zh-cn/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">新闻</a>
+            <a href="/zh-cn/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">文章</a>
+            <a href="/zh-cn/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">检查表</a>
+            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">商店</a>
+            <a href="/zh-cn/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">联系</a>
+            <a href="/zh-cn/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">贡献者</a>
+            <a href="/zh-cn/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">免責聲明</a>
+          {{ else }}
+            <a href="/" class="hx-text-black dark:hx-text-black dark:hx-text-white">Home</a>
+            <a href="/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">About</a>
+            <a href="/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">News</a>
+            <a href="/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Articles</a>
+            <a href="/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Checklists</a>
+            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Shop</a>
+            <a href="/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contact</a>
+            <a href="/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contributors</a>
+            <a href="/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">Disclaimer</a>
+          {{ end }}
+      </div>
+      <!-- Social Media Section -->
+      <div class="social-media hx-flex hx-flex-wrap hx-justify-center hx-gap-4">
+        <a href="https://x.com/BeginnerPrivacy" title="𝕏" target="_blank" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
+          {{ partial "utils/icon.html" (dict "name" "x-twitter" "attributes" "height=24") }}
+        </a>
+        <a href="https://youtube.com/@BeginnerPrivacy" title="YouTube" target="_blank" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
+          {{ partial "utils/icon.html" (dict "name" "youtube" "attributes" "height=24") }}
+        </a>
+        <a href="https://tiktok.com/@BeginnerPrivacy" target="_blank" title="TikTok" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
+          {{ partial "utils/icon.html" (dict "name" "tiktok" "attributes" "height=24") }}
+        </a>
+        <a href="https://github.com/BeginnerPrivacy" title="GitHub" target="_blank" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
+          {{ partial "utils/icon.html" (dict "name" "github" "attributes" "height=24") }}
+        </a>
+        <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
+          {{ partial "utils/icon.html" (dict "name" "mastodon" "attributes" "height=24") }}
+        </a>
+        <a {{ if (strings.Contains .Page.Permalink "/es/") }}href="/es/about/join-simplex-group"{{ else if (strings.Contains .Page.Permalink "/zh-cn/") }}href="/zh-cn/about/join-simplex-group"{{ else }}href="/about/join-simplex-group"{{ end }} target="_blank" title="SimpleX Chat" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white ">
+          {{ partial "utils/icon.html" (dict "name" "simplex" "attributes" "height=24") }}
+        </a>
+      </div>
+    </div>
+    <!-- Divider Line -->
+    <hr class="hx-border-black/5 dark:hx-border-white/10 hx-my-2" />
+    <!-- Copyright Section -->
+    <div class="copyright-section hx-text-center hx-text-black dark:hx-text-white hx-py-4">
+            {{- if or (strings.Contains .Page.Permalink "/es/") -}}
+          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy y colaboradores. <strong><a href="/es/about/privacy-policy">Aviso de privacidad.</a></strong></p>
+        {{- else if or (strings.Contains .Page.Permalink "/zh-cn/") -}}
+          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy 和贡献者。 <strong><a href="/zh-cn/about/privacy-policy">隐私声明。</a></strong></p>
+        {{- else -}}
+          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy & contributors. <strong><a href="/about/privacy-policy">Privacy notice.</a></strong></p>
+        {{- end -}}
+    </div>
+  </div>
+</footer>

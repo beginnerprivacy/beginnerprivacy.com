@@ -1,0 +1,58 @@
+{{/* FlexSearch Index Data */}}
+{{- $indexType := site.Params.search.flexsearch.index | default "content" -}}
+
+{{- if not (in (slice "content" "summary" "heading" "title") $indexType) -}}
+  {{- errorf "unknown flexsearch index type: %s" $indexType -}}
+{{- end -}}
+
+{{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+{{- $pages = where $pages "Params.excludeSearch" "!=" true -}}
+{{- $pages = where $pages "Content" "!=" "" -}}
+
+{{- $output := dict -}}
+
+{{- range $index, $page := $pages -}}
+  {{- $pageTitle := $page.LinkTitle | default $page.File.BaseFileName -}}
+  {{- $pageLink := $page.RelPermalink -}}
+  {{- $data := partial "utils/fragments" (dict "context" $page "type" $indexType) -}}
+  {{- $output = $output | merge (dict $pageLink (dict "title" $pageTitle "data" $data)) -}}
+{{- end -}}
+
+{{/* Checklist Items */}}
+{{- with $.Site.GetPage "/checklists" -}}
+  {{- $checklistPage := . -}}
+  {{- $rawContent := .RawContent -}}
+  {{- $checklistItems := slice -}}
+  
+  {{- $gridStart := index (findRE `<div class="checklist-grid">` $rawContent) 0 -}}
+  {{- $gridEnd := index (findRE `</div>` $rawContent) (sub (len (findRE `</div>` $rawContent)) 1) -}}
+  {{- $gridContent := replace (replace $rawContent $gridStart "") $gridEnd "" -}}
+  
+  {{- $cardEntries := split $gridContent "{{< hextra/checklist-card" -}}
+  {{- range $card := after 1 $cardEntries -}}
+    {{- $card = replace $card ">" "" -}}
+    {{- $card = trim $card " \n" -}}
+    
+    {{- $title := (index (split $card "title=\"") 1) -}}
+    {{- $title := (index (split $title "\"") 0) -}}
+    
+    {{- $modalID := (index (split $card "modalID=\"") 1) -}}
+    {{- $modalID := (index (split $modalID "\"") 0) -}}
+    
+    {{- $description := (index (split $card "description=\"") 1) -}}
+    {{- $description := (index (split $description "\"") 0) -}}
+
+    {{- $item := dict "title" $title "modalID" $modalID "description" $description -}}
+    {{- $checklistItems = $checklistItems | append $item -}}
+  {{- end -}}
+
+  {{- range $item := $checklistItems -}}
+    {{- $itemTitle := $item.title -}}
+
+    {{- $itemLink := printf "%s?m=%s" $checklistPage.RelPermalink $item.modalID -}}
+    {{- $data := dict "" "" "#" $item.description -}}
+    {{- $output = $output | merge (dict $itemLink (dict "title" $itemTitle "data" $data)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $output | jsonify -}}
