@@ -3,14 +3,14 @@
   <h1>Beginner Privacy</h1>
 
   <p>
-    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/beginnerprivacy/beginnerprivacy.github.io"></a>
-    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/pulls?q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/beginnerprivacy/beginnerprivacy.github.io"></a>
-    <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/graphs/contributors">
-    <img src="https://img.shields.io/github/commit-activity/m/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.com/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/beginnerprivacy/beginnerprivacy.com"></a>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.com/pulls?q=is%3Apr+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/beginnerprivacy/beginnerprivacy.com"></a>
+    <a href="https://github.com/beginnerprivacy/beginnerprivacy.com/graphs/contributors">
+    <img src="https://img.shields.io/github/commit-activity/m/beginnerprivacy/beginnerprivacy.com"></a>
     <a href="#contributors">
-    <img src="https://img.shields.io/github/all-contributors/beginnerprivacy/beginnerprivacy.github.io"></a>
+    <img src="https://img.shields.io/github/all-contributors/beginnerprivacy/beginnerprivacy.com"></a>
     <a href="https://github.com/sponsors/beginnerprivacy#sponsors">
     <img src="https://img.shields.io/github/sponsors/beginnerprivacy"></a>
   </p>
@@ -24,9 +24,9 @@ Our mission is to simplify your journey toward online privacy and anonymity, whe
 We provide clear, actionable guidance on everything from basic privacy practices to advanced security tools. Our goal is to empower you to take control of your online presence with confidence.
 
 ## Git Mirrors
-[![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/beginnerprivacy/beginnerprivacy.github.io)
-[![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/beginnerprivacy/beginnerprivacy.github.io)
-[![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/beginnerprivacy/beginnerprivacy.github.io)
+[![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/beginnerprivacy/beginnerprivacy.com)
+[![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/beginnerprivacy/beginnerprivacy.com)
+[![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/beginnerprivacy/beginnerprivacy.com)
 
 ## Contributing
 We welcome contributions to Beginner Privacy! If you're interested in helping out, please check out our [Contributing Guide](https://beginnerprivacy.com/about/about-contributing) for more information on how you can get involved.
@@ -34,7 +34,7 @@ We welcome contributions to Beginner Privacy! If you're interested in helping ou
 ## License
 Copyright &copy; 2025 Beginner Privacy.
 
-Beginner Privacy content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](LICENSE.md), and the underlying source code used to format and display that content on [beginnerprivacy.github.io](https://beginnerprivacy.github.io) is licensed under the [MIT License](CODE-LICENSE.md).
+Beginner Privacy content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](LICENSE.md), and the underlying source code used to format and display that content on [beginnerprivacy.com](https://beginnerprivacy.com) is licensed under the [MIT License](CODE-LICENSE.md).
 
 Generally speaking, **content** can be found in the [`content/`](content/), [`assets/`](assets/) and [`static/`](static/) directories; and **source code** and configuration files can be found in the [`layouts/`](layouts/) and [`themes/`](themes/) directories, and in the root of this repository. Any source code snippets contained within documentation files are [MIT Licensed](CODE-LICENSE.md). Please contact us if you require clarification on any of these terms.
 
@@ -51,7 +51,7 @@ When you contribute to this repository you are doing so under the above licenses
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="http://printn.github.io"><img src="https://avatars.githubusercontent.com/u/127101769?v=4" width="100px;" loading=lazy /><br /><sub><b>PrintN</b></sub></a><br /><a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Code">💻</a> <a href="#content-PrintN" title="Content">🖋</a> <a href="https://github.com/beginnerprivacy/beginnerprivacy.github.io/commits?author=PrintN" title="Documentation">📖</a> <a href="#design-PrintN" title="Design">🎨</a> <a href="#financial-PrintN" title="Financial">💵</a> <a href="#ideas-PrintN" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PrintN" title="Maintenance">🚧</a> <a href="#promotion-PrintN" title="Promotion">📣</a> <a href="#translation-PrintN" title="Translation">🌍</a> <a href="#infra-PrintN" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="20%"><a rel="nofollow noopener noreferrer" href="http://printn.github.io"><img src="https://avatars.githubusercontent.com/u/127101769?v=4" width="100px;" loading=lazy /><br /><sub><b>PrintN</b></sub></a><br /><a href="https://github.com/beginnerprivacy/beginnerprivacy.com/commits?author=PrintN" title="Code">💻</a> <a href="#content-PrintN" title="Content">🖋</a> <a href="https://github.com/beginnerprivacy/beginnerprivacy.com/commits?author=PrintN" title="Documentation">📖</a> <a href="#design-PrintN" title="Design">🎨</a> <a href="#financial-PrintN" title="Financial">💵</a> <a href="#ideas-PrintN" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-PrintN" title="Maintenance">🚧</a> <a href="#promotion-PrintN" title="Promotion">📣</a> <a href="#translation-PrintN" title="Translation">🌍</a> <a href="#infra-PrintN" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     </tr>
   </tbody>
 </table>
