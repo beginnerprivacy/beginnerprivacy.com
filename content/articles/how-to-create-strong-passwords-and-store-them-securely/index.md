@@ -30,10 +30,10 @@ Password managers are great because they let you store long, complex passwords a
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="KeePassXC" link="https://keepassxc.org/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="Local, open-source password manager" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Bitwarden" link="https://bitwarden.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="Cloud-based, open-source password manager" platformIcon="linux android ios macos windows extension" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="KeePassDX" link="https://keepassdx.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="Local, open-source password manager" platformIcon="android" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Local, open-source password manager" platformIcon="ios macos" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="KeePassXC" link="https://keepassxc.org/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="Local, open-source password manager" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Bitwarden" link="https://bitwarden.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="Cloud-based, open-source password manager" platformIcon="linux android ios macos windows extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="KeePassDX" link="https://keepassdx.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="Local, open-source password manager" platformIcon="android" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Strongbox" link="https://strongboxsafe.com/" logo="../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Local, open-source password manager" platformIcon="ios macos" buttonText="Visit Website" >}}
   </div>
 </div>
 

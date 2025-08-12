@@ -30,9 +30,9 @@ excludeSearch: false
 ### 推荐的搜索引擎
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="流行的私人搜索引擎" buttonText="试试 DuckDuckGo" >}}
-    {{< hextra/recommendation-card title="Startpage" link="https://startpage.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="匿名提供谷歌搜索结果" buttonText="试试 Startpage" >}}
-    {{< hextra/recommendation-card title="Brave Search" link="https://search.brave.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="在其独立的索引上运行" buttonText="试试 Brave Search" >}}
+    {{< articles/recommendation title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="流行的私人搜索引擎" buttonText="试试 DuckDuckGo" >}}
+    {{< articles/recommendation title="Startpage" link="https://startpage.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="匿名提供谷歌搜索结果" buttonText="试试 Startpage" >}}
+    {{< articles/recommendation title="Brave Search" link="https://search.brave.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="在其独立的索引上运行" buttonText="试试 Brave Search" >}}
   </div>
 </div>
 

@@ -17,10 +17,10 @@ excludeSearch: false
 为了简化信息收集，考虑设置RSS订阅。这使您能够在一个地方接收来自多个来源的更新，而无需手动访问每个网站。以下是一些推荐的开源阅读器：
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="访问仓库" >}}
-    {{< hextra/recommendation-card title="NetNewsWire" link="https://netnewswire.com/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Akregator" link="https://apps.kde.org/akregator/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Newsboat" link="https://newsboat.org/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="访问仓库" >}}
+    {{< articles/recommendation title="NetNewsWire" link="https://netnewswire.com/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Akregator" link="https://apps.kde.org/akregator/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Newsboat" link="https://newsboat.org/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="访问网站" >}}
   </div>
 </div>
 
@@ -28,9 +28,9 @@ excludeSearch: false
 通过积极关注这些资源，您可以随时了解网络安全威胁的不断变化的格局。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="RSS订阅" >}}
-    {{< hextra/recommendation-card title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="RSS订阅" >}}
-    {{< hextra/recommendation-card title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="RSS订阅" >}}
+    {{< articles/recommendation title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="RSS订阅" >}}
+    {{< articles/recommendation title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="RSS订阅" >}}
+    {{< articles/recommendation title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="RSS订阅" >}}
   </div>
 </div>
 

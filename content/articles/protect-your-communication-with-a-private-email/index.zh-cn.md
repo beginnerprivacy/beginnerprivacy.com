@@ -24,7 +24,7 @@ excludeSearch: false
 ### 推荐的电子邮件提供商
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Tuta" link="https://tuta.com/" logo="../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Proton Mail" link="https://proton.me/mail" logo="../../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Tuta" link="https://tuta.com/" logo="../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Proton Mail" link="https://proton.me/mail" logo="../../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="访问网站" >}}
   </div>
 </div>

@@ -677,7 +677,7 @@
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;#34;recommendations&amp;#34;&amp;gt;
   &amp;lt;div class=&amp;#34;grid&amp;#34;&amp;gt;
-    {{&amp;lt; hextra/recommendation-card title=&amp;#34;MullvadVPN&amp;#34; link=&amp;#34;https://mullvad.net/en/vpn&amp;#34; logo=&amp;#34;../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp&amp;#34; text=&amp;#34;付费，开源&amp;#34; platformIcon=&amp;#34;linux android ios macos windows&amp;#34; buttonText=&amp;#34;访问网站&amp;#34; &amp;gt;}}
+    {{&amp;lt; articles/recommendation title=&amp;#34;MullvadVPN&amp;#34; link=&amp;#34;https://mullvad.net/en/vpn&amp;#34; logo=&amp;#34;../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp&amp;#34; text=&amp;#34;付费，开源&amp;#34; platformIcon=&amp;#34;linux android ios macos windows&amp;#34; buttonText=&amp;#34;访问网站&amp;#34; &amp;gt;}}
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
@@ -714,7 +714,7 @@
     &lt;a href=&#34;#%e8%af%84%e4%bc%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;帮助读者发现更多关于他们的隐私需求的信息。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/assessment id=&amp;#34;threat-model-assesment&amp;#34; &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; articles/assessment id=&amp;#34;threat-model-assesment&amp;#34; &amp;gt;}}
 {
   &amp;#34;questions&amp;#34;: [
     {
@@ -751,7 +751,7 @@
     &amp;#34;advanced&amp;#34;: &amp;#34;高级用户：需要全面的安全框架&amp;#34;
   }
 }
-{{&amp;lt; /hextra/assessment &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+{{&amp;lt; /articles/assessment &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -875,7 +875,7 @@ const resultTexts = {
     &lt;a href=&#34;#%e6%b5%8b%e9%aa%8c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;测试读者的知识或评估他们对文章的理解。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
 
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; hextra/quiz id=&amp;#34;math-quiz&amp;#34; &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; articles/quiz id=&amp;#34;math-quiz&amp;#34; &amp;gt;}}
 {
   &amp;#34;questions&amp;#34;: [
     {
@@ -894,7 +894,7 @@ const resultTexts = {
     }
   ]
 }
-{{&amp;lt; /hextra/quiz &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+{{&amp;lt; /articles/quiz &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;

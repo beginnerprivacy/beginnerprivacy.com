@@ -30,8 +30,8 @@ excludeSearch: false
 ### 推荐的VPN
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="ProtonVPN" link="https://protonvpn.com/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="免费，开源" platformIcon="linux android ios macos windows extension" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="付费，开源" platformIcon="linux android ios windows macos" buttonText="访问网站" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="ProtonVPN" link="https://protonvpn.com/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="免费，开源" platformIcon="linux android ios macos windows extension" buttonText="访问网站" >}}
+    {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="付费，开源" platformIcon="linux android ios windows macos" buttonText="访问网站" >}}
   </div>
 </div>

@@ -18,7 +18,7 @@ En el mundo de los teléfonos inteligentes, el uso de sistemas operativos popula
 GrapheneOS es un sistema operativo móvil enfocado en la privacidad y la seguridad, basado en Android. Mejora la seguridad a través de técnicas de endurecimiento, sandboxing y permisos de aplicaciones seguros, lo que lo convierte en una opción robusta para los usuarios conscientes de la privacidad. Sin embargo, puede tener disponibilidad limitada de aplicaciones y una curva de aprendizaje más pronunciada debido a su enfoque en la seguridad.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="GrapheneOS" link="https://grapheneos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/grapheneos.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="GrapheneOS" link="https://grapheneos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/grapheneos.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
@@ -26,7 +26,7 @@ GrapheneOS es un sistema operativo móvil enfocado en la privacidad y la segurid
 CalyxOS es otro sistema operativo móvil centrado en la privacidad, basado en Android, diseñado para ser fácil de usar mientras incorpora características de privacidad como una VPN integrada y soporte para aplicaciones de mensajería seguras. Aunque ofrece un equilibrio entre usabilidad y privacidad, aún puede depender de algunos servicios de Google.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="CalyxOS" link="https://calyxos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/calyxos.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="CalyxOS" link="https://calyxos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/calyxos.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
@@ -34,6 +34,6 @@ CalyxOS es otro sistema operativo móvil centrado en la privacidad, basado en An
 LineageOS es un sistema operativo de código abierto popular que proporciona una experiencia Android personalizable con un enfoque en la privacidad del usuario. Permite a los usuarios eliminar aplicaciones no deseadas y recibir actualizaciones de seguridad regulares, pero la instalación puede requerir algunos conocimientos técnicos.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="LineageOS" link="https://lineageos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/lineageos.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="LineageOS" link="https://lineageos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/lineageos.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>

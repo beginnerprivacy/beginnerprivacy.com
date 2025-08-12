@@ -70,20 +70,20 @@ Cuando hay una herramienta o software que deseas recomendar.
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
 #### Evaluación
 Ayuda al lector a descubrir más sobre, por ejemplo, sus necesidades de privacidad.
 ```
-{{</* hextra/assessment id="threat-model-assesment" */>}}
+{{</* articles/assessment id="threat-model-assesment" */>}}
 {
   "questions": [
     {
@@ -120,10 +120,10 @@ Ayuda al lector a descubrir más sobre, por ejemplo, sus necesidades de privacid
     "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
   }
 }
-{{</* /hextra/assessment */>}}
+{{</* /articles/assessment */>}}
 ```
 
-{{< hextra/assessment id="threat-model-assesment" >}}
+{{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
@@ -160,12 +160,12 @@ Ayuda al lector a descubrir más sobre, por ejemplo, sus necesidades de privacid
     "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 #### Cuestionario
 Pon a prueba el conocimiento del lector o evalúa su comprensión del artículo.
 ```
-{{</* hextra/quiz id="math-quiz" */>}}
+{{</* articles/quiz id="math-quiz" */>}}
 {
   "questions": [
     {
@@ -184,10 +184,10 @@ Pon a prueba el conocimiento del lector o evalúa su comprensión del artículo.
     }
   ]
 }
-{{</* /hextra/quiz */>}}
+{{</* /articles/quiz */>}}
 ```
 
-{{< hextra/quiz id="math-quiz" >}}
+{{< articles/quiz id="math-quiz" >}}
 {
   "questions": [
     {
@@ -206,4 +206,4 @@ Pon a prueba el conocimiento del lector o evalúa su comprensión del artículo.
     }
   ]
 }
-{{< /hextra/quiz >}}
+{{< /articles/quiz >}}

@@ -44,8 +44,8 @@ La mayoría de las plataformas lo hacen fácil. Aquí te mostramos cómo hacerlo
 Aquí están las aplicaciones autenticadoras que recomendamos para almacenar tus códigos 2FA. Muchos [administradores de contraseñas](/es/articles/how-to-create-strong-passwords-and-store-them-securely/#almacenamiento-seguro-de-contraseñas) también pueden almacenar códigos 2FA.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="Local (los códigos pueden almacenarse opcionalmente en la nube), de código abierto" platformIcon="linux android ios macos windows globe-alt" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, de código abierto" platformIcon="android" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="Local (los códigos pueden almacenarse opcionalmente en la nube), de código abierto" platformIcon="linux android ios macos windows globe-alt" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, de código abierto" platformIcon="android" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

@@ -27,8 +27,8 @@ No todos los sitios web o formularios merecen tu honestidad. Para cuentas no cr�
 ¿Por qué arriesgarte a recibir spam en tu correo electrónico principal? Usa un **correo electrónico temporal** para registros únicos o descargas sospechosas.
 <div class="recommendations">
  <div class="grid">
-  {{< hextra/recommendation-card title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="Proveedor de correo temporal popular" platformIcon="android ios globe-alt" buttonText="Visitar Sitio Web" >}}
-  {{< hextra/recommendation-card title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="Código abierto y se puede alojar de forma independiente" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
+  {{< articles/recommendation title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="Proveedor de correo temporal popular" platformIcon="android ios globe-alt" buttonText="Visitar Sitio Web" >}}
+  {{< articles/recommendation title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="Código abierto y se puede alojar de forma independiente" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
  </div>
 </div>
 
@@ -39,8 +39,8 @@ Lo mismo ocurre con los números de teléfono. No tienes que dar tu número de t
 {{< /callout >}}
 <div class="recommendations">
  <div class="grid">
-  {{< hextra/recommendation-card title="Recibir SMS" link="https://receive-smss.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
-  {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
+  {{< articles/recommendation title="Recibir SMS" link="https://receive-smss.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
+  {{< articles/recommendation title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
  </div>
 </div>
 

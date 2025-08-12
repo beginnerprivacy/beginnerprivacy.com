@@ -38,8 +38,8 @@ En contraste, las billeteras de custodia son gestionadas por proveedores de terc
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Cliente de Monero" link="https://www.getmonero.org/downloads/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="El cliente oficial para Monero" platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Cake Wallet" link="https://cakewallet.com/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="Soporta múltiples criptomonedas" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Cliente de Monero" link="https://www.getmonero.org/downloads/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="El cliente oficial para Monero" platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Cake Wallet" link="https://cakewallet.com/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="Soporta múltiples criptomonedas" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

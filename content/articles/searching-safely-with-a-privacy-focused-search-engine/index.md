@@ -30,9 +30,9 @@ But here’s the catch: traditional search engines like Google don’t stop ther
 ### Recommended Search Engines
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="Popular private search engine" buttonText="Try DuckDuckGo" >}}
-    {{< hextra/recommendation-card title="Startpage" link="https://startpage.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="Delivers Google results anonymously" buttonText="Try Startpage" >}}
-    {{< hextra/recommendation-card title="Brave Search" link="https://search.brave.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="Runs on its own independent index" buttonText="Try Brave Search" >}}
+    {{< articles/recommendation title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="Popular private search engine" buttonText="Try DuckDuckGo" >}}
+    {{< articles/recommendation title="Startpage" link="https://startpage.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="Delivers Google results anonymously" buttonText="Try Startpage" >}}
+    {{< articles/recommendation title="Brave Search" link="https://search.brave.com/" logo="../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="Runs on its own independent index" buttonText="Try Brave Search" >}}
   </div>
 </div>
 

@@ -27,8 +27,8 @@ excludeSearch: false
 为什么要冒着在你的主要邮箱上收到垃圾邮件的风险呢？使用**临时邮箱**进行一次性注册或可疑下载。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="流行的临时邮件提供商" platformIcon="android ios globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="开源且可以自托管" platformIcon="globe-alt" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="流行的临时邮件提供商" platformIcon="android ios globe-alt" buttonText="访问网站" >}}
+    {{< articles/recommendation title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="开源且可以自托管" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
 
@@ -39,8 +39,8 @@ excludeSearch: false
 {{< /callout >}}
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Receive SMS" link="https://receive-smss.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Receive SMS" link="https://receive-smss.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/receive-sms.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
+    {{< articles/recommendation title="SMSTOME" link="https://smstome.com/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smstome.webp" text="" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
 

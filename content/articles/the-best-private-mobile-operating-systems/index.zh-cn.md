@@ -18,7 +18,7 @@ excludeSearch: false
 GrapheneOS是一个以隐私和安全为重点的移动操作系统，基于Android。它通过强化技术、沙盒和安全应用权限来增强安全性，使其成为注重隐私用户的强大选择。然而，由于其对安全性的关注，它可能在应用程序可用性方面有限，并且学习曲线较陡。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="GrapheneOS" link="https://grapheneos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/grapheneos.webp" buttonText="访问网站" >}}
+    {{< articles/recommendation title="GrapheneOS" link="https://grapheneos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/grapheneos.webp" buttonText="访问网站" >}}
   </div>
 </div>
 
@@ -26,7 +26,7 @@ GrapheneOS是一个以隐私和安全为重点的移动操作系统，基于Andr
 CalyxOS是另一个以隐私为中心的移动操作系统，基于Android，旨在用户友好，同时结合了内置VPN和安全消息应用的隐私功能。虽然它在可用性和隐私之间提供了平 衡，但仍可能依赖于某些Google服务。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="CalyxOS" link="https://calyxos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/calyxos.webp" buttonText="访问网站" >}}
+    {{< articles/recommendation title="CalyxOS" link="https://calyxos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/calyxos.webp" buttonText="访问网站" >}}
   </div>
 </div>
 
@@ -34,6 +34,6 @@ CalyxOS是另一个以隐私为中心的移动操作系统，基于Android，旨
 LineageOS是一个流行的开源操作系统，提供可定制的Android体验，专注于用户隐私。它允许用户删除不需要的预装软件，并定期接收安全更新，但安装可能需要一些技术知识。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="LineageOS" link="https://lineageos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/lineageos.webp" buttonText="访问网站" >}}
+    {{< articles/recommendation title="LineageOS" link="https://lineageos.org/" logo="../../../images/articles/the-best-private-mobile-operating-systems/lineageos.webp" buttonText="访问网站" >}}
   </div>
 </div>

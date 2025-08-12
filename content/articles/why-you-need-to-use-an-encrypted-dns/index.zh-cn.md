@@ -32,8 +32,8 @@ excludeSearch: false
 {{< /callout >}}
 <div class="recommendations">  
   <div class="grid">  
-    {{< hextra/recommendation-card title="Mullvad" link="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Control D" link="https://controld.com/free-dns" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Cloudflare" link="https://developers.cloudflare.com/1.1.1.1/setup" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Mullvad" link="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Control D" link="https://controld.com/free-dns" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Cloudflare" link="https://developers.cloudflare.com/1.1.1.1/setup" buttonText="访问网站" >}}
   </div>
 </div>

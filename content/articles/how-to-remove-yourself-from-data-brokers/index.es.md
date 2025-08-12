@@ -27,7 +27,7 @@ Existen servicios y herramientas enfocadas en la privacidad que escanean múltip
 
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
   </div>
 </div>
 
@@ -49,8 +49,8 @@ Algunas empresas de privacidad ofrecen herramientas que pueden enviar automátic
 ##### Servicios Recomendados de Eliminación de Datos
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/año" buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/año" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Nivel gratuito, exclusión autogestionada" buttonText="Visitar sitio web" >}}
   </div>
 </div>
 

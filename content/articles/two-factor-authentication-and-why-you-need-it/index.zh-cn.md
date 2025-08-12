@@ -44,8 +44,8 @@ excludeSearch: false
 以下是我们推荐用于存储2FA代码的认证应用。许多[密码管理器](/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely/#安全存储密码)也可以存储2FA代码。
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="本地存储（代码可选择存储在云端），开源" platformIcon="linux android ios macos windows globe-alt" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="本地存储，开源" platformIcon="android" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="本地存储（代码可选择存储在云端），开源" platformIcon="linux android ios macos windows globe-alt" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="本地存储，开源" platformIcon="android" buttonText="访问网站" >}}
   </div>
 </div>
 

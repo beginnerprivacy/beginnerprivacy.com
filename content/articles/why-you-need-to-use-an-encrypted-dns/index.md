@@ -32,8 +32,8 @@ At its core, the Domain Name System (DNS) is the internet's phone book. It trans
 {{< /callout >}}
 <div class="recommendations">  
   <div class="grid">  
-    {{< hextra/recommendation-card title="Mullvad" link="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Control D" link="https://controld.com/free-dns" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Cloudflare" link="https://developers.cloudflare.com/1.1.1.1/setup" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Mullvad" link="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Control D" link="https://controld.com/free-dns" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Cloudflare" link="https://developers.cloudflare.com/1.1.1.1/setup" buttonText="Visit Website" >}}
   </div>
 </div>

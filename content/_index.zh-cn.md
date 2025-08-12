@@ -58,46 +58,46 @@ layout: hextra-home
   <div id="roadmapContent" class="hx-mt-4">
     <div id="startContent" class="roadmap-section">
       <ol class="startContentOL">
-        <li>{{< hextra/feature-card title="关于 Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="为什么要关心你的隐私？" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="找到威胁模型" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="关于 Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="为什么要关心你的隐私？" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="找到威胁模型" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="basicContent" class="roadmap-section" style="display:none;">
       <ol>
-        <li>{{< hextra/feature-card title="基本介绍" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="强密码" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="双重身份验证 (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="限制共享的信息" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="私人浏览器" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="私人搜索引擎" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="虚拟专用网络（VPN）" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="桌面隐私设置" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="移动隐私设置"  id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="私人电子邮件" id="secure-messaging" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="安全消息传递" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="基本介绍" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="强密码" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="双重身份验证 (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="限制共享的信息" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="私人浏览器" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="私人搜索引擎" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="虚拟专用网络（VPN）" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="桌面隐私设置" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="移动隐私设置"  id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="私人电子邮件" id="secure-messaging" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="安全消息传递" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
       <ol>
-        <li>{{< hextra/feature-card title="中级介绍" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="自由和开源软件" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="切换到Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="加密DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="社交媒体前端" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="从数据经纪人处删除" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="什么是Tor？" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="中级介绍" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="自由和开源软件" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="切换到Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="加密DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="社交媒体前端" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="从数据经纪人处删除" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="什么是Tor？" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="advancedContent" class="roadmap-section" style="display:none;">
       <ol>
-        <li>{{< hextra/feature-card title="高级介绍" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="桌面操作系统" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="移动操作系统" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="自托管" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="加密货币" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="物理安全" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
-        <li>{{< hextra/feature-card title="威胁情报" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="高级介绍" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="桌面操作系统" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="移动操作系统" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="自托管" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="加密货币" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="物理安全" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="威胁情报" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>
   </div>

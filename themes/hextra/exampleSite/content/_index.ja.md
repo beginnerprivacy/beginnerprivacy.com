@@ -27,8 +27,8 @@ layout: hextra-home
 
 <div class="hx-mt-6"></div>
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
+{{< articles/grid >}}
+  {{< roadmap/card
     title="高速かつ多機能"
     subtitle="シンプルで使いやすく、それでいて強力で豊富な機能を備えています。"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
@@ -36,7 +36,7 @@ layout: hextra-home
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="MarkdownだけでOK"
     subtitle="Markdownだけで作成可能。ショートコードコンポーネントで充実させることもできます。"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
@@ -44,7 +44,7 @@ layout: hextra-home
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="全文検索"
     subtitle="FlexSearchによる全文検索が内蔵されており、追加の設定は不要です。"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
@@ -52,25 +52,25 @@ layout: hextra-home
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="羽のように軽量"
     subtitle="Hextraを使用するために依存関係やNode.jsは必要ありません。Hugoによって動力を得ており、単一のバイナリで数秒でサイトを構築できます。"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="レスポンシブ対応とダークモード"
     subtitle="さまざまな画面サイズで美しく見えます。内蔵のダークモードサポートにより、ユーザーのシステム設定に基づいて自動切り替えが可能です。"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="無料で構築とホスティング"
     subtitle="GitHub Actionsを使って構築し、GitHub Pagesで無料でホスティングできます。また、他の静的ホスティングサービスでもホスティング可能です。"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="簡単な多言語対応"
     subtitle="Markdownファイルにロケールサフィックスを追加するだけで多言語ページを作成できます。i18nサポートの追加も直感的です。"
   >}}
-  {{< hextra/feature-card
+  {{< roadmap/card
     title="さらに多くの機能"
     icon="sparkles"
     subtitle="構文ハイライト / 目次 / SEO / RSS / LaTeX / Mermaid / カスタマイズ可能 / など多数..."
   >}}
-{{< /hextra/feature-grid >}}
+{{< /articles/grid >}}

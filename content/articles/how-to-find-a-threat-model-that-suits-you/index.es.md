@@ -13,7 +13,7 @@ Crear un modelo de amenazas es un paso importante en tu camino hacia una mejor p
 
 ### Desarrollando tu Modelo de Amenazas
 Para crear un modelo de amenazas, puedes realizar nuestra evaluación de modelo de amenazas. 
-{{< hextra/assessment >}}
+{{< articles/assessment >}}
 {
   "questions": [
     {
@@ -50,7 +50,7 @@ Para crear un modelo de amenazas, puedes realizar nuestra evaluación de modelo 
     "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 También puedes hacerlo manualmente haciéndote las siguientes preguntas:
 

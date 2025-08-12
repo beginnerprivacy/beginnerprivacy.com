@@ -36,8 +36,8 @@ excludeSearch: false
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Signal" link="https://signal.org/" logo="../../../images/articles/ditch-sms-and-use-secure-communication-methods/signal.webp" text="短信替代方案" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="SimpleX" link="https://simplex.chat/" logo="../../../images/articles/ditch-sms-and-use-secure-communication-methods/simplex.webp" text="Telegram替代方案" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Signal" link="https://signal.org/" logo="../../../images/articles/ditch-sms-and-use-secure-communication-methods/signal.webp" text="短信替代方案" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="SimpleX" link="https://simplex.chat/" logo="../../../images/articles/ditch-sms-and-use-secure-communication-methods/simplex.webp" text="Telegram替代方案" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
   </div>
 </div>
 

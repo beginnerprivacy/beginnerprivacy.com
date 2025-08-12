@@ -39,7 +39,7 @@ Before wiping your hard drive, **test Linux risk-free in a virtual machine (VM)*
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="VirtualBox" link="https://www.virtualbox.org/" logo="../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="A free, open-source tool for running OSes in a VM." platformIcon="linux macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="VirtualBox" link="https://www.virtualbox.org/" logo="../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="A free, open-source tool for running OSes in a VM." platformIcon="linux macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
 

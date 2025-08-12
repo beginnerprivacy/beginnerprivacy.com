@@ -14,7 +14,7 @@ Hoy en día, las personas de alto riesgo—como periodistas, activistas y denunc
 Qubes OS es un sistema operativo enfocado en la seguridad que utiliza virtualización para crear entornos aislados para diferentes aplicaciones. Cada aplicación se ejecuta en su propia máquina virtual, asegurando que un compromiso en una no afecte a las demás. **Qubes OS es para máxima seguridad y privacidad; personas como Edward Snowden lo utilizan.**
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Qubes OS" link="https://www.qubes-os.org/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/qubesos.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Qubes OS" link="https://www.qubes-os.org/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/qubesos.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
@@ -22,7 +22,7 @@ Qubes OS es un sistema operativo enfocado en la seguridad que utiliza virtualiza
 Tails es un sistema operativo en vivo diseñado para la anonimidad y la privacidad. Se ejecuta desde una memoria USB o DVD, sin dejar rastro en la computadora anfitriona. Al enrutar todo el tráfico de internet a través de la red Tor, **Tails es perfecto para alguien en fuga o para aquellos que no quieren llevar una laptop.**
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Tails" link="https://tails.net/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/tails.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Tails" link="https://tails.net/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/tails.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
@@ -30,6 +30,6 @@ Tails es un sistema operativo en vivo diseñado para la anonimidad y la privacid
 Whonix es un sistema operativo centrado en la privacidad que enfatiza la anonimidad a través del uso de Tor. Consiste en dos máquinas virtuales: una para ejecutar aplicaciones y otra para enrutar el tráfico a través de Tor. **Whonix es para personas que solo quieren ser anónimas sin el aislamiento en Qubes OS.**
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Whonix" link="https://www.whonix.org/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/whonix.webp" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Whonix" link="https://www.whonix.org/" logo="../../../images/articles/the-best-desktop-operating-systems-for-high-risk-individuals/whonix.webp" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>

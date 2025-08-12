@@ -29,9 +29,9 @@ FOSS 的新手有时会因其界面相较于专有软件不够精致而犹豫。
 使用以下优秀资源可以轻松找到 FOSS 替代品：
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="一个全面的开源替代品目录。" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="一个为自由和开源 Android 应用程序提供的应用商店。" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="寻找专有软件的替代品。" buttonText="访问网站" >}}
+    {{< articles/recommendation title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="一个全面的开源替代品目录。" buttonText="访问网站" >}}
+    {{< articles/recommendation title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="一个为自由和开源 Android 应用程序提供的应用商店。" buttonText="访问网站" >}}
+    {{< articles/recommendation title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="寻找专有软件的替代品。" buttonText="访问网站" >}}
   </div>
 </div>
 

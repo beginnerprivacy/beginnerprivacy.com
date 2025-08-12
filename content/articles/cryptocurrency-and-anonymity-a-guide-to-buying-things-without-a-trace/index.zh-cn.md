@@ -38,8 +38,8 @@ excludeSearch: false
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Monero Client" link="https://www.getmonero.org/downloads/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="门罗币的官方客户端" platformIcon="linux macos windows" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Cake Wallet" link="https://cakewallet.com/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="支持多种加密货币" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Monero Client" link="https://www.getmonero.org/downloads/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="门罗币的官方客户端" platformIcon="linux macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Cake Wallet" link="https://cakewallet.com/" logo="../../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="支持多种加密货币" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
   </div>
 </div>
 

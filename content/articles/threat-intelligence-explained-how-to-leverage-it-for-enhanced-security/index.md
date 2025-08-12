@@ -17,10 +17,10 @@ To effectively leverage threat intelligence, consider the following steps:
 To streamline your information gathering, consider setting up an RSS feed. This allows you to receive updates from multiple sources in one place without having to visit each website manually. Here are some recommended open-source readers:
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="Visit Repository" >}}
-    {{< hextra/recommendation-card title="NetNewsWire" link="https://netnewswire.com/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Akregator" link="https://apps.kde.org/akregator/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Newsboat" link="https://newsboat.org/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="Visit Repository" >}}
+    {{< articles/recommendation title="NetNewsWire" link="https://netnewswire.com/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Akregator" link="https://apps.kde.org/akregator/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Newsboat" link="https://newsboat.org/" logo="../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="Visit Website" >}}
   </div>
 </div>
 
@@ -28,9 +28,9 @@ To streamline your information gathering, consider setting up an RSS feed. This 
 By actively watching these resources, you can stay informed about the evolving landscape of cybersecurity threats.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="RSS Feed" >}}
-    {{< hextra/recommendation-card title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="RSS Feed" >}}
-    {{< hextra/recommendation-card title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="RSS Feed" >}}
+    {{< articles/recommendation title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="RSS Feed" >}}
+    {{< articles/recommendation title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="RSS Feed" >}}
+    {{< articles/recommendation title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="RSS Feed" >}}
   </div>
 </div>
 

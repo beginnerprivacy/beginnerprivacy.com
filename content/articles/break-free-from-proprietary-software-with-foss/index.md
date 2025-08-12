@@ -32,9 +32,9 @@ Newcomers to FOSS sometimes hesitate due to the lack of a polished interface com
 Finding FOSS replacements is simple with these excellent resources:
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="A comprehensive directory of open source alternatives." buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="F-Droid" link="https://f-droid.org/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="An app store for free and open source Android apps." buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="AlternativeTo" link="https://alternativeto.net/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="Find alternatives to proprietary software." buttonText="Visit Website" >}}
+    {{< articles/recommendation title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="A comprehensive directory of open source alternatives." buttonText="Visit Website" >}}
+    {{< articles/recommendation title="F-Droid" link="https://f-droid.org/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="An app store for free and open source Android apps." buttonText="Visit Website" >}}
+    {{< articles/recommendation title="AlternativeTo" link="https://alternativeto.net/" logo="../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="Find alternatives to proprietary software." buttonText="Visit Website" >}}
   </div>
 </div>
 

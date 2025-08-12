@@ -68,20 +68,20 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
   </div>
 </div>
 
 #### 评估
 帮助读者发现更多关于他们的隐私需求的信息。
 ```
-{{</* hextra/assessment id="threat-model-assesment" */>}}
+{{</* articles/assessment id="threat-model-assesment" */>}}
 {
   "questions": [
     {
@@ -118,10 +118,10 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
     "advanced": "高级用户：需要全面的安全框架"
   }
 }
-{{</* /hextra/assessment */>}}
+{{</* /articles/assessment */>}}
 ```
 
-{{< hextra/assessment id="threat-model-assesment" >}}
+{{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
@@ -158,12 +158,12 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
     "advanced": "高级用户：需要全面的安全框架"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 #### 测验
 测试读者的知识或评估他们对文章的理解。
 ```
-{{</* hextra/quiz id="math-quiz" */>}}
+{{</* articles/quiz id="math-quiz" */>}}
 {
   "questions": [
     {
@@ -182,10 +182,10 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
     }
   ]
 }
-{{</* /hextra/quiz */>}}
+{{</* /articles/quiz */>}}
 ```
 
-{{< hextra/quiz id="math-quiz" >}}
+{{< articles/quiz id="math-quiz" >}}
 {
   "questions": [
     {
@@ -204,4 +204,4 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
     }
   ]
 }
-{{< /hextra/quiz >}}
+{{< /articles/quiz >}}

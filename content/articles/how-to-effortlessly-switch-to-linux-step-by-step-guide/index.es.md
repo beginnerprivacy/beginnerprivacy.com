@@ -39,7 +39,7 @@ Antes de borrar tu disco duro, **prueba Linux sin riesgos en una máquina virtua
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="VirtualBox" link="https://www.virtualbox.org/" logo="../../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="Una herramienta gratuita de código abierto para ejecutar sistemas operativos en una máquina virtual." platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="VirtualBox" link="https://www.virtualbox.org/" logo="../../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="Una herramienta gratuita de código abierto para ejecutar sistemas operativos en una máquina virtual." platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

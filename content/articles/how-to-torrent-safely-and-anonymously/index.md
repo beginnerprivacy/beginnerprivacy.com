@@ -34,8 +34,8 @@ Torrenting is a method of file sharing that utilizes a peer-to-peer (P2P) networ
 To torrent safely, it’s essential to start with a reliable and open source torrent application. Here is what we recommend:
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="qBittorrent" link="https://www.qbittorrent.org/" logo="../../images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="../../images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="Visit GitHub" >}}
+    {{< articles/recommendation title="qBittorrent" link="https://www.qbittorrent.org/" logo="../../images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="../../images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="Visit GitHub" >}}
   </div>
 </div>
 

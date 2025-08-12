@@ -47,8 +47,8 @@ Most platforms make it easy. Here’s how to do it on some platforms:
 Here are the authenticator apps we recommend for storing your 2FA codes. Many [password managers](/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely) can also store 2FA codes.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="Local (Codes can optionally be stored in the cloud), open-source" platformIcon="linux android ios macos windows globe-alt" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, open-source" platformIcon="android" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Ente Auth" link="https://ente.io/auth" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/ente-auth.webp" text="Local (Codes can optionally be stored in the cloud), open-source" platformIcon="linux android ios macos windows globe-alt" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, open-source" platformIcon="android" buttonText="Visit Website" >}}
   </div>
 </div>
 

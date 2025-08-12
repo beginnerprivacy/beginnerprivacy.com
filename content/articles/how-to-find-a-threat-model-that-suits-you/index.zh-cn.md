@@ -13,7 +13,7 @@ excludeSearch: false
 
 ### 制定你的威胁模型
 要创建威胁模型，您可以参加我们的威胁模型评估。 
-{{< hextra/assessment >}}
+{{< articles/assessment >}}
 {
   "questions": [
     {
@@ -50,7 +50,7 @@ excludeSearch: false
     "advanced": "高级用户：需要全面的安全框架"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 您还可以通过问自己以下问题来手动进行：
 

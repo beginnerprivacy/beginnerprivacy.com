@@ -28,7 +28,7 @@
   {{- $gridEnd := index (findRE `</div>` $rawContent) (sub (len (findRE `</div>` $rawContent)) 1) -}}
   {{- $gridContent := replace (replace $rawContent $gridStart "") $gridEnd "" -}}
   
-  {{- $cardEntries := split $gridContent "{{< hextra/checklist-card" -}}
+  {{- $cardEntries := split $gridContent "{{< checklists/card" -}}
   {{- range $card := after 1 $cardEntries -}}
     {{- $card = replace $card ">" "" -}}
     {{- $card = trim $card " \n" -}}

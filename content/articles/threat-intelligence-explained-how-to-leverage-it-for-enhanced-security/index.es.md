@@ -17,10 +17,10 @@ Para aprovechar eficazmente la inteligencia de amenazas, considere los siguiente
 Para agilizar su recopilación de información, considere configurar un feed RSS. Esto le permite recibir actualizaciones de múltiples fuentes en un solo lugar sin tener que visitar cada sitio web manualmente. Aquí hay algunos lectores de código abierto recomendados:
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="Visitar Repositorio" >}}
-    {{< hextra/recommendation-card title="NetNewsWire" link="https://netnewswire.com/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Akregator" link="https://apps.kde.org/akregator/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Newsboat" link="https://newsboat.org/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Feeder" link="https://github.com/spacecowboy/Feeder" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/feeder.webp" platformIcon="android" buttonText="Visitar Repositorio" >}}
+    {{< articles/recommendation title="NetNewsWire" link="https://netnewswire.com/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/netnewswire.webp" platformIcon="ios macos" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Akregator" link="https://apps.kde.org/akregator/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/akregator.webp" platformIcon="linux windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Newsboat" link="https://newsboat.org/" logo="../../../images/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/newsboat.webp" platformIcon="terminal" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 
@@ -28,9 +28,9 @@ Para agilizar su recopilación de información, considere configurar un feed RSS
 Al observar activamente estos recursos, puede mantenerse informado sobre el panorama en evolución de las amenazas cibernéticas.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="Feed RSS" >}}
-    {{< hextra/recommendation-card title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="Feed RSS" >}}
-    {{< hextra/recommendation-card title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="Feed RSS" >}}
+    {{< articles/recommendation title="BleepingComputer" link="https://www.bleepingcomputer.com/feed/" buttonText="Feed RSS" >}}
+    {{< articles/recommendation title="Have I Been Pwned" link="https://haveibeenpwned.com/feed/breaches/" buttonText="Feed RSS" >}}
+    {{< articles/recommendation title="The Hacker News" link="https://feeds.feedburner.com/TheHackersNews" buttonText="Feed RSS" >}}
   </div>
 </div>
 

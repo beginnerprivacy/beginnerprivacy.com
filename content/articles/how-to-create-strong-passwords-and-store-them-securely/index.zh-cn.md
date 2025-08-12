@@ -30,10 +30,10 @@ excludeSearch: false
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="KeePassXC" link="https://keepassxc.org/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="本地开源密码管理器" platformIcon="linux macos windows extension" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Bitwarden" link="https://bitwarden.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="基于云的开源密码管理器" platformIcon="linux android ios macos windows extension" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="KeePassDX" link="https://keepassdx.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="本地开源密码管理器" platformIcon="android" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="本地开源密码管理器" platformIcon="ios macos" buttonText="访问网站" >}}
+    {{< articles/recommendation title="KeePassXC" link="https://keepassxc.org/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="本地开源密码管理器" platformIcon="linux macos windows extension" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Bitwarden" link="https://bitwarden.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="基于云的开源密码管理器" platformIcon="linux android ios macos windows extension" buttonText="访问网站" >}}
+    {{< articles/recommendation title="KeePassDX" link="https://keepassdx.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="本地开源密码管理器" platformIcon="android" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="本地开源密码管理器" platformIcon="ios macos" buttonText="访问网站" >}}
   </div>
 </div>
 

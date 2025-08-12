@@ -30,10 +30,10 @@ Los administradores de contraseñas son excelentes porque te permiten almacenar 
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="KeePassXC" link="https://keepassxc.org/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="linux macos windows extension" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Bitwarden" link="https://bitwarden.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="Gestor de contraseñas basado en la nube y de código abierto" platformIcon="linux android ios macos windows extension" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="KeePassDX" link="https://keepassdx.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="android" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="ios macos" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="KeePassXC" link="https://keepassxc.org/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassxc.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="linux macos windows extension" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Bitwarden" link="https://bitwarden.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/bitwarden.webp" text="Gestor de contraseñas basado en la nube y de código abierto" platformIcon="linux android ios macos windows extension" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="KeePassDX" link="https://keepassdx.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/keepassdx.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="android" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Strongbox" link="https://strongboxsafe.com/" logo="../../../images/articles/how-to-create-strong-passwords-and-store-them-securely/strongbox.webp" text="Gestor de contraseñas local y de código abierto" platformIcon="ios macos" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

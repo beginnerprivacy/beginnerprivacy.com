@@ -65,7 +65,7 @@ To keep your important files secure, we recommend using an encrypted USB drive. 
 For a convenient and accessible backup solution, consider using cloud storage. This method allows you to store your files on remote servers, making them accessible from anywhere with an internet connection. To enhance security, we recommend you use Cryptomator to protect your sensitive data before uploading it to the cloud.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Cryptomator" link="https://cryptomator.org/" logo="../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Cryptomator" link="https://cryptomator.org/" logo="../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="Visit Website" >}}
   </div>
 </div>
 

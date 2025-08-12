@@ -38,8 +38,8 @@ In contrast, custodial wallets are managed by third-party providers, which means
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Monero Client" link="https://www.getmonero.org/downloads/" logo="../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="The official client for Monero" platformIcon="linux macos windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Cake Wallet" link="https://cakewallet.com/" logo="../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="Supports multiple cryptocurrencies" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Monero Client" link="https://www.getmonero.org/downloads/" logo="../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/monero.webp" text="The official client for Monero" platformIcon="linux macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Cake Wallet" link="https://cakewallet.com/" logo="../../images/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/cakewallet.webp" text="Supports multiple cryptocurrencies" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
 

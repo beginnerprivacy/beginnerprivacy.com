@@ -66,7 +66,7 @@ Para mantener tus archivos importantes seguros, recomendamos usar una unidad USB
 Para una solución de copia de seguridad conveniente y accesible, considera usar almacenamiento en la nube. Este método te permite almacenar tus archivos en servidores remotos, haciéndolos accesibles desde cualquier lugar con conexión a internet. Para mejorar la seguridad, te recomendamos usar Cryptomator para proteger tus datos sensibles antes de subirlos a la nube.
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Cryptomator" link="https://cryptomator.org/" logo="../../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Cryptomator" link="https://cryptomator.org/" logo="../../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

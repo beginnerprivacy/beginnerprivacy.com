@@ -30,8 +30,8 @@ Al buscar una VPN confiable, la confianza es crucial ya que el servicio tendrá 
 ### VPNs Recomendadas
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Pagado, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="ProtonVPN" link="https://protonvpn.com/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="Gratis, código abierto" platformIcon="linux android ios macos windows extension" buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Pagado, código abierto" platformIcon="linux android ios windows macos" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Pagado, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="ProtonVPN" link="https://protonvpn.com/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="Gratis, código abierto" platformIcon="linux android ios macos windows extension" buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Pagado, código abierto" platformIcon="linux android ios windows macos" buttonText="Visitar sitio web" >}}
   </div>
 </div>

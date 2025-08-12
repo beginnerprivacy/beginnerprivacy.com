@@ -24,7 +24,7 @@ Usar servicios de correo electrónico convencionales a menudo significa comprome
 ### Proveedores de Correo Recomendados
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Tuta" link="https://tuta.com/" logo="../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visitar Sitio Web" >}}
-    {{< hextra/recommendation-card title="Proton Mail" link="https://proton.me/mail" logo="../../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Tuta" link="https://tuta.com/" logo="../../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Proton Mail" link="https://proton.me/mail" logo="../../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>

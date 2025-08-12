@@ -30,9 +30,9 @@ Pero aquí está el problema: los motores de búsqueda tradicionales como Google
 ### Motores de Búsqueda Recomendados
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="Popular motor de búsqueda privado" buttonText="Prueba DuckDuckGo" >}}
-    {{< hextra/recommendation-card title="Startpage" link="https://startpage.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="Entrega resultados de Google de forma anónima" buttonText="Prueba Startpage" >}}
-    {{< hextra/recommendation-card title="Brave Search" link="https://search.brave.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="Funciona con su propio índice independiente" buttonText="Prueba Brave Search" >}}
+    {{< articles/recommendation title="DuckDuckGo" link="https://duckduckgo.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/duckduckgo.webp" text="Popular motor de búsqueda privado" buttonText="Prueba DuckDuckGo" >}}
+    {{< articles/recommendation title="Startpage" link="https://startpage.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/startpage.webp" text="Entrega resultados de Google de forma anónima" buttonText="Prueba Startpage" >}}
+    {{< articles/recommendation title="Brave Search" link="https://search.brave.com/" logo="../../../images/articles/searching-safely-with-a-privacy-focused-search-engine/brave.webp" text="Funciona con su propio índice independiente" buttonText="Prueba Brave Search" >}}
   </div>
 </div>
 

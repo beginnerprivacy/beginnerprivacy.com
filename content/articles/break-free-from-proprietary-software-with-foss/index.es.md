@@ -29,9 +29,9 @@ Los recién llegados a FOSS a veces dudan debido a la falta de una interfaz puli
 Encontrar reemplazos FOSS es sencillo con estos excelentes recursos:
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="Un directorio completo de alternativas de código abierto." buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="Una tienda de aplicaciones para aplicaciones Android libres y de código abierto." buttonText="Visitar sitio web" >}}
-    {{< hextra/recommendation-card title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="Encuentra alternativas al software propietario." buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="OpenSourceAlternative.to" link="https://www.opensourcealternative.to/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp" text="Un directorio completo de alternativas de código abierto." buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="F-Droid" link="https://f-droid.org/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp" text="Una tienda de aplicaciones para aplicaciones Android libres y de código abierto." buttonText="Visitar sitio web" >}}
+    {{< articles/recommendation title="AlternativeTo" link="https://alternativeto.net/" logo="../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp" text="Encuentra alternativas al software propietario." buttonText="Visitar sitio web" >}}
   </div>
 </div>
 

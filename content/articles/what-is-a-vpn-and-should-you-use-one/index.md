@@ -30,8 +30,8 @@ When searching for a reliable VPN, trustworthiness is crucial since the service 
 ### Recommended VPNs
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="ProtonVPN" link="https://protonvpn.com/" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="Free, open source" platformIcon="linux android ios macos windows extension" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="IVPN" link="https://www.ivpn.net/en/" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Paid, open source" platformIcon="linux android ios windows macos" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="ProtonVPN" link="https://protonvpn.com/" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/protonvpn.webp" text="Free, open source" platformIcon="linux android ios macos windows extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Paid, open source" platformIcon="linux android ios windows macos" buttonText="Visit Website" >}}
   </div>
 </div>

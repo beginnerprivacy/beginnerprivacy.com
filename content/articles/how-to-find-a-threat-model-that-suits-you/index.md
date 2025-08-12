@@ -13,7 +13,7 @@ Creating a threat model is an important step in your journey toward better priva
 
 ### Developing Your Threat Model
 To create a threat model, you can take our threat model assessment. 
-{{< hextra/assessment id="threat-model-assesment" >}}
+{{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
@@ -50,7 +50,7 @@ To create a threat model, you can take our threat model assessment.
     "advanced": "Advanced User: Comprehensive security framework needed"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 You can also do it manually by asking yourself the following questions:
 

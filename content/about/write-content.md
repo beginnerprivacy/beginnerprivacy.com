@@ -68,20 +68,20 @@ When there is a certain tool or piece of software that you want to recommend.
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
 
 #### Assessment
 Help the reader discover more about e.g. their privacy needs.
 ```
-{{</* hextra/assessment id="threat-model-assesment" */>}}
+{{</* articles/assessment id="threat-model-assesment" */>}}
 {
   "questions": [
     {
@@ -118,10 +118,10 @@ Help the reader discover more about e.g. their privacy needs.
     "advanced": "Advanced User: Comprehensive security framework needed"
   }
 }
-{{</* /hextra/assessment */>}}
+{{</* /articles/assessment */>}}
 ```
 
-{{< hextra/assessment id="threat-model-assesment" >}}
+{{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
@@ -158,12 +158,12 @@ Help the reader discover more about e.g. their privacy needs.
     "advanced": "Advanced User: Comprehensive security framework needed"
   }
 }
-{{< /hextra/assessment >}}
+{{< /articles/assessment >}}
 
 #### Quiz
 Test the reader's knowledge or assess their understanding of the article.
 ```
-{{</* hextra/quiz id="math-quiz" */>}}
+{{</* articles/quiz id="math-quiz" */>}}
 {
   "questions": [
     {
@@ -182,10 +182,10 @@ Test the reader's knowledge or assess their understanding of the article.
     }
   ]
 }
-{{</* /hextra/quiz */>}}
+{{</* /articles/quiz */>}}
 ```
 
-{{< hextra/quiz id="math-quiz" >}}
+{{< articles/quiz id="math-quiz" >}}
 {
   "questions": [
     {
@@ -204,4 +204,4 @@ Test the reader's knowledge or assess their understanding of the article.
     }
   ]
 }
-{{< /hextra/quiz >}}
+{{< /articles/quiz >}}

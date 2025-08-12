@@ -38,8 +38,8 @@ When considering alternatives to SMS, here are some highly recommended secure co
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Signal" link="https://signal.org/" logo="../../images/articles/ditch-sms-and-use-secure-communication-methods/signal.webp" text="Alternative for SMS" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="SimpleX" link="https://simplex.chat/" logo="../../images/articles/ditch-sms-and-use-secure-communication-methods/simplex.webp" text="Alternative for Telegram" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Signal" link="https://signal.org/" logo="../../images/articles/ditch-sms-and-use-secure-communication-methods/signal.webp" text="Alternative for SMS" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="SimpleX" link="https://simplex.chat/" logo="../../images/articles/ditch-sms-and-use-secure-communication-methods/simplex.webp" text="Alternative for Telegram" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
 

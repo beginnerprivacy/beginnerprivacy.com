@@ -24,7 +24,7 @@ Using mainstream email services often means compromising your privacy. Providers
 ### Recommended Email Providers
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Tuta" link="https://tuta.com/" logo="../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Proton Mail" link="https://proton.me/mail" logo="../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Tuta" link="https://tuta.com/" logo="../../images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Proton Mail" link="https://proton.me/mail" logo="../../images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
   </div>
 </div>

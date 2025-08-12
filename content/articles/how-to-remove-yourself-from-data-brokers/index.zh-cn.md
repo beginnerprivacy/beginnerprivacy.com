@@ -27,7 +27,7 @@ excludeSearch: false
 
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="免费层，自助选择退出" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="免费层，自助选择退出" buttonText="访问网站" >}}
   </div>
 </div>
 
@@ -49,8 +49,8 @@ excludeSearch: false
 ##### 推荐的数据删除服务
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/年" buttonText="访问网站" >}}
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="免费层，自助选择退出" buttonText="访问网站" >}}
+    {{< articles/recommendation title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/年" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="免费层，自助选择退出" buttonText="访问网站" >}}
   </div>
 </div>
 

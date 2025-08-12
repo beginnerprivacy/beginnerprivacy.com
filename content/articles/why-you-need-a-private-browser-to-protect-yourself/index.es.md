@@ -31,9 +31,9 @@ Cuando se trata de elegir un navegador, las dos opciones principales son **Chrom
 ### Navegadores Privados Recomendados
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Brave" link="https://brave.com/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/brave.webp" text="Basado en Chromium" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Mullvad" link="https://mullvad.net/en/browser" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/mullvad.webp" text="Basado en Firefox" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="LibreWolf" link="https://librewolf.net/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/librewolf.webp" text="Basado en Firefox" platformIcon="linux windows macos" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Firefox Focus" link="https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/firefox-focus.webp" text="Basado en Firefox" platformIcon="android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Brave" link="https://brave.com/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/brave.webp" text="Basado en Chromium" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Mullvad" link="https://mullvad.net/en/browser" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/mullvad.webp" text="Basado en Firefox" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="LibreWolf" link="https://librewolf.net/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/librewolf.webp" text="Basado en Firefox" platformIcon="linux windows macos" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Firefox Focus" link="https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/" logo="../../../images/articles/why-you-need-a-private-browser-to-protect-yourself/firefox-focus.webp" text="Basado en Firefox" platformIcon="android ios" buttonText="Visit Website" >}}
   </div>
 </div>

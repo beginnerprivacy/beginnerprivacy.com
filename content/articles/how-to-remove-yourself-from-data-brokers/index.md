@@ -27,7 +27,7 @@ There are privacy-focused services and tools that scan multiple data brokers sim
 
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Free tier, self-service opt out" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Free tier, self-service opt out" buttonText="Visit Website" >}}
   </div>
 </div>
 
@@ -49,8 +49,8 @@ Some privacy companies offer tools that can automatically submit removal request
 ##### Recommended Data Removal Services
 <div class="recommendations">  
   <div class="grid">
-    {{< hextra/recommendation-card title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/year" buttonText="Visit Website" >}}
-    {{< hextra/recommendation-card title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Free tier, self-service opt out" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="EasyOptOuts" link="https://easyoptouts.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/easyoptouts.png" text="$20/year" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Optery" link="https://www.optery.com/" logo="../../../images/articles/how-to-remove-yourself-from-data-brokers/optery.png" text="Free tier, self-service opt out" buttonText="Visit Website" >}}
   </div>
 </div>
 

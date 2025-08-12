@@ -39,7 +39,7 @@ Linux 不仅仅是技术高手的专属，它是一个强大、开源的操作�
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="VirtualBox" link="https://www.virtualbox.org/" logo="../../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="一个免费的开源工具，用于在虚拟机中运行操作系统。" platformIcon="linux macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="VirtualBox" link="https://www.virtualbox.org/" logo="../../../images/articles/how-to-easily-switch-to-linux/virtualbox.webp" text="一个免费的开源工具，用于在虚拟机中运行操作系统。" platformIcon="linux macos windows" buttonText="访问网站" >}}
   </div>
 </div>
 

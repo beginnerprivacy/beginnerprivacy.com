@@ -66,7 +66,7 @@ excludeSearch: false
 
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/recommendation-card title="Cryptomator" link="https://cryptomator.org/" logo="../../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Cryptomator" link="https://cryptomator.org/" logo="../../../images/articles/how-and-why-backing-up-your-devices-is-crucial/cryptomator.webp" platformIcon="linux macos windows android ios" buttonText="访问网站" >}}
   </div>
 </div>
 
