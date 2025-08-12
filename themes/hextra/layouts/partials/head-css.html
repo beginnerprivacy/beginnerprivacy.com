@@ -22,6 +22,7 @@
 {{- $about := resources.Get "css/custom/about.css" }}
 {{- $news := resources.Get "css/custom/news.css" }}
 {{- $footer := resources.Get "css/custom/footer.css" }}
+{{- $404 := resources.Get "css/custom/404.css" }}
 {{- if hugo.IsProduction -}}
   {{- $first = $first | minify | fingerprint }}
   {{- $homepage = $homepage | minify | fingerprint }}
@@ -35,6 +36,7 @@
   <link href="{{ $about.RelPermalink }}" rel="stylesheet" integrity="{{ $about.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $news.RelPermalink }}" rel="stylesheet" integrity="{{ $news.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" integrity="{{ $footer.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $404.RelPermalink }}" rel="stylesheet" integrity="{{ $404.Data.Integrity }}" media="print" onload="this.media='all'" />
 {{- else }}
   <link href="{{ $first.RelPermalink }}" rel="stylesheet" />
   <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
@@ -42,4 +44,5 @@
   <link href="{{ $about.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $news.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $404.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
 {{- end }}
