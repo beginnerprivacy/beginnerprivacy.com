@@ -1,0 +1,161 @@
+/* Threat Model Asessment */
+.threat-model-assessment {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.tm-start-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.tm-questions-container {
+  display: none;
+  position: relative;
+}
+
+.tm-question {
+  display: none;
+  padding: 1rem;
+}
+
+.tm-question.active {
+  display: block;
+}
+
+.tm-options {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tm-option {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tm-option:hover {
+  background: var(--color-white);
+}
+
+.tm-nav-button {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.tm-result {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+.tm-result-content {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.tm-restart {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Recommendation Cards */
+.recommendations {
+  margin-top: 10px;
+}
+
+.recommendation-card {
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+.recommendation-header {
+  display: flex;
+  align-items: center;
+}
+
+.recommendation-logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.recommendation-text {
+  margin-top: 0;
+}
+
+.platform-icons {
+  display: flex;
+  gap: 10px;
+  margin: 0.5rem 0;
+}
+
+.platform-icon {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.recommendation-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 8px 16px;
+  background: hsl(212.1, 100%, 45.1%);
+  color: white !important;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.recommendation-link:hover {
+  background: hsl(212, 100%, 33%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.recommended-title {
+  margin-top: 0rem;
+  border-bottom-width: 1px;
+  border-color: rgb(229 229 229 / 0.7);
+  padding-bottom: 0.25rem;
+  font-size: 1.875rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+  max-width: 85%;
+}

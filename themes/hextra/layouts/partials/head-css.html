@@ -19,30 +19,31 @@
 {{- $first := resources.Get "css/custom/first.css" }}
 {{- $homepage := resources.Get "css/custom/homepage.css" }}
 {{- $checklists := resources.Get "css/custom/checklists.css" }}
-{{- $about := resources.Get "css/custom/about.css" }}
 {{- $news := resources.Get "css/custom/news.css" }}
 {{- $footer := resources.Get "css/custom/footer.css" }}
 {{- $404 := resources.Get "css/custom/404.css" }}
+{{- $articles := resources.Get "css/custom/articles.css" }}
 {{- if hugo.IsProduction -}}
   {{- $first = $first | minify | fingerprint }}
   {{- $homepage = $homepage | minify | fingerprint }}
   {{- $checklists = $checklists | minify | fingerprint }}
-  {{- $about = $about | minify | fingerprint }}
   {{- $news = $news | minify | fingerprint }}
   {{- $footer = $footer | minify | fingerprint }}
+  {{- $404 = $404 | minify | fingerprint }}
+  {{- $articles = $articles | minify | fingerprint }}
   <link href="{{ $first.RelPermalink }}" rel="stylesheet" integrity="{{ $first.Data.Integrity }}" />
   <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" integrity="{{ $homepage.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $checklists.RelPermalink }}" rel="stylesheet" integrity="{{ $checklists.Data.Integrity }}" media="print" onload="this.media='all'" />
-  <link href="{{ $about.RelPermalink }}" rel="stylesheet" integrity="{{ $about.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $news.RelPermalink }}" rel="stylesheet" integrity="{{ $news.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" integrity="{{ $footer.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $404.RelPermalink }}" rel="stylesheet" integrity="{{ $404.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $articles.RelPermalink }}" rel="stylesheet" integrity="{{ $articles.Data.Integrity }}" media="print" onload="this.media='all'" />
 {{- else }}
   <link href="{{ $first.RelPermalink }}" rel="stylesheet" />
   <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $checklists.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
-  <link href="{{ $about.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $news.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $404.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $articles.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
 {{- end }}

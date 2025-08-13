@@ -94,7 +94,7 @@
     <hr class="hx-border-black/5 dark:hx-border-white/10 hx-my-2" />
     <!-- Copyright Section -->
     <div class="copyright-section hx-text-center hx-text-black dark:hx-text-white hx-py-4">
-            {{- if or (strings.Contains .Page.Permalink "/es/") -}}
+        {{- if or (strings.Contains .Page.Permalink "/es/") -}}
           <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy y colaboradores. <strong><a href="/es/about/privacy-policy">Aviso de privacidad.</a></strong></p>
         {{- else if or (strings.Contains .Page.Permalink "/zh-cn/") -}}
           <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy 和贡献者。 <strong><a href="/zh-cn/about/privacy-policy">隐私声明。</a></strong></p>

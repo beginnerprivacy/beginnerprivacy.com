@@ -50,6 +50,34 @@
   });
 })();
 
+// Footer waves color
+function updateWaveColors(selector) {
+  const isDarkMode = document.documentElement.classList.contains('dark');
+  const waves = document.querySelectorAll(`${selector} .wave`);
+  if (waves.length > 0) {
+    if (isDarkMode) {
+      waves[0].setAttribute('fill', 'rgba(50, 50, 50, 0.7)');
+      waves[1].setAttribute('fill', 'rgba(50, 50, 50, 0.5)');
+      waves[2].setAttribute('fill', 'rgba(50, 50, 50, 0.3)');
+      waves[3].setAttribute('fill', '#171717');
+    } else {
+      waves[0].setAttribute('fill', 'rgba(243,244,246, 0.7)');
+      waves[1].setAttribute('fill', 'rgba(243,244,246, 0.5)');
+      waves[2].setAttribute('fill', 'rgba(243,244,246, 0.3)');
+      waves[3].setAttribute('fill', '#e8e9eb');
+    }
+  }
+}
+updateWaveColors('.hero-waves');
+updateWaveColors('.footer-waves');
+
+const observer = new MutationObserver(() => {
+  updateWaveColors('.hero-waves');
+  updateWaveColors('.footer-waves');
+});
+observer.observe(document.documentElement, {
+  attributes: true
+});
 ;
 // Hamburger menu for mobile navigation
 
@@ -302,133 +330,114 @@ let currentAssessmentScores = {};
 let currentQuizScores = {};
 
 function startQuizAssessment(id) {
-    const container = document.querySelector(`#${id}`);
-    container.querySelector('.tm-start-button').style.display = 'none';
-    container.querySelector('.tm-questions-container').style.display = 'block';
-    showQuestion(id, 0);
+  const container = document.querySelector(`#${id}`);
+  container.querySelector('.tm-start-button').style.display = 'none';
+  container.querySelector('.tm-questions-container').style.display = 'block';
+  showQuestion(id, 0);
 
-    if (container.dataset.type === "assessment") {
-        setupAssessmentButtons(id);
-    } else {
-        setupQuizButtons(id);
-    }
+  if (container.dataset.type === "assessment") {
+    setupAssessmentButtons(id);
+  } else {
+    setupQuizButtons(id);
+  }
 }
 
 function setupAssessmentButtons(assessmentId) {
-    document.querySelectorAll('.tm-option').forEach(button => {
-        button.addEventListener('click', function() {
-            const currentIndex = parseInt(this.closest('.tm-question').dataset.index);
-            const totalQuestions = document.querySelectorAll(`#${assessmentId} .tm-question`).length;
+  document.querySelectorAll('.tm-option').forEach(button => {
+    button.addEventListener('click', function() {
+      const currentIndex = parseInt(this.closest('.tm-question').dataset.index);
+      const totalQuestions = document.querySelectorAll(`#${assessmentId} .tm-question`).length;
 
-            currentAssessmentScores[assessmentId] = (currentAssessmentScores[assessmentId] || 0) + parseInt(this.dataset.score);
+      currentAssessmentScores[assessmentId] = (currentAssessmentScores[assessmentId] || 0) + parseInt(this.dataset.score);
 
-            if (currentIndex < totalQuestions - 1) {
-                showQuestion(assessmentId, currentIndex + 1);
-            } else {
-                showAssessmentResult(assessmentId);
-            }
-        });
+      if (currentIndex < totalQuestions - 1) {
+        showQuestion(assessmentId, currentIndex + 1);
+      } else {
+        showAssessmentResult(assessmentId);
+      }
     });
+  });
 }
 
 function setupQuizButtons(quizId) {
-    document.querySelectorAll('.tm-option').forEach(button => {
-        button.addEventListener('click', function() {
-            const currentIndex = parseInt(this.closest('.tm-question').dataset.index);
-            const totalQuestions = document.querySelectorAll(`#${quizId} .tm-question`).length;
+  document.querySelectorAll('.tm-option').forEach(button => {
+    button.addEventListener('click', function() {
+      const currentIndex = parseInt(this.closest('.tm-question').dataset.index);
+      const totalQuestions = document.querySelectorAll(`#${quizId} .tm-question`).length;
 
-            const isCorrect = this.dataset.iscorrect === "true";
-            if (isCorrect) {
-              currentQuizScores[quizId] = (currentQuizScores[quizId] || 0) + 1;
-            }
+      const isCorrect = this.dataset.iscorrect === "true";
+      if (isCorrect) {
+        currentQuizScores[quizId] = (currentQuizScores[quizId] || 0) + 1;
+      }
 
-            if (currentIndex < totalQuestions - 1) {
-                showQuestion(quizId, currentIndex + 1);
-            } else {
-                showQuizResult(quizId);
-            }
-        });
+      if (currentIndex < totalQuestions - 1) {
+        showQuestion(quizId, currentIndex + 1);
+      } else {
+        showQuizResult(quizId);
+      }
     });
+  });
 }
 
 function showQuestion(id, index) {
-    const container = document.querySelector(`#${id}`);
-    container.querySelectorAll('.tm-question').forEach(q => {
-        q.classList.remove('active');
-    });
-    container.querySelector(`.tm-question[data-index="${index}"]`).classList.add('active');
+  const container = document.querySelector(`#${id}`);
+  container.querySelectorAll('.tm-question').forEach(q => {
+    q.classList.remove('active');
+  });
+  container.querySelector(`.tm-question[data-index="${index}"]`).classList.add('active');
 }
 
 function previousQuestion(id) {
-    const currentIndex = parseInt(document.querySelector(`#${id} .tm-question.active`).dataset.index);
-    showQuestion(id, Math.max(0, currentIndex - 1));
+  const currentIndex = parseInt(document.querySelector(`#${id} .tm-question.active`).dataset.index);
+  showQuestion(id, Math.max(0, currentIndex - 1));
 }
 
 function showAssessmentResult(id) {
-    const container = document.querySelector(`#${id}`);
-    const totalScore = currentAssessmentScores[id] || 0;
-    let resultText = '';
+  const container = document.querySelector(`#${id}`);
+  const totalScore = currentAssessmentScores[id] || 0;
+  let resultText = '';
 
-    if (totalScore <= 5) {
-        resultText = resultTexts.casual;
-    } else if (totalScore <= 10) {
-        resultText = resultTexts.privacyConscious;
-    } else {
-        resultText = resultTexts.advanced;
-    }
+  if (totalScore <= 5) {
+    resultText = resultTexts.casual;
+  } else if (totalScore <= 10) {
+    resultText = resultTexts.privacyConscious;
+  } else {
+    resultText = resultTexts.advanced;
+  }
 
-    container.querySelector('.tm-result-content').textContent = resultText;
-    container.querySelector('.tm-result').style.display = 'block';
-    container.querySelectorAll('.tm-question').forEach(q => {
-        q.style.display = 'none';
-    });
+  container.querySelector('.tm-result-content').textContent = resultText;
+  container.querySelector('.tm-result').style.display = 'block';
+  container.querySelectorAll('.tm-question').forEach(q => {
+    q.style.display = 'none';
+  });
 }
 
 function showQuizResult(id) {
-    const container = document.querySelector(`#${id}`);
-    const totalScore = currentQuizScores[id] || 0;
-    const totalQuestions = document.querySelectorAll(`#${id} .tm-question`).length;
+  const container = document.querySelector(`#${id}`);
+  const totalScore = currentQuizScores[id] || 0;
+  const totalQuestions = document.querySelectorAll(`#${id} .tm-question`).length;
 
-    let resultText = totalScore + " / " + totalQuestions;
+  let resultText = totalScore + " / " + totalQuestions;
 
-    container.querySelector('.tm-result-content').textContent = resultText;
-    container.querySelector('.tm-result').style.display = 'block';
-    container.querySelectorAll('.tm-question').forEach(q => {
-        q.style.display = 'none';
-    });
+  container.querySelector('.tm-result-content').textContent = resultText;
+  container.querySelector('.tm-result').style.display = 'block';
+  container.querySelectorAll('.tm-question').forEach(q => {
+    q.style.display = 'none';
+  });
 }
 
 function restartQuizAssessment(id) {
-    const container = document.querySelector(`#${id}`);
-    currentAssessmentScores[id] = 0;
-    currentQuizScores[id] = 0;
-    container.querySelector('.tm-result').style.display = 'none';
-    container.querySelectorAll('.tm-question').forEach(q => {
-        q.style.cssText = '';
-    });
-    container.querySelector('.tm-questions-container').style.display = 'block';
-    showQuestion(id, 0);
+  const container = document.querySelector(`#${id}`);
+  currentAssessmentScores[id] = 0;
+  currentQuizScores[id] = 0;
+  container.querySelector('.tm-result').style.display = 'none';
+  container.querySelectorAll('.tm-question').forEach(q => {
+    q.style.cssText = '';
+  });
+  container.querySelector('.tm-questions-container').style.display = 'block';
+  showQuestion(id, 0);
 }
 ;
-function toggleShareDropdown() {
-    const dropdown = document.getElementById("shareDropdown");
-    if (dropdown.style.display === "block") {
-        dropdown.style.display = "none";
-    } else {
-        dropdown.style.display = "block";
-    }
-}
-
-document.addEventListener('click', function (e) {
-    const dropdown = document.getElementById("shareDropdown");
-    const dropdownButton = document.querySelector(".shareDropdownButton");
-    if (dropdown) {
-        if (dropdown.style.display === "block" && !dropdown.contains(e.target) && !dropdownButton.contains(e.target)) {
-            dropdown.style.display = "none";
-        }
-    }
-});
-
 const overlay = document.createElement('div');
 overlay.className = 'overlay';
 document.body.appendChild(overlay);
@@ -438,25 +447,26 @@ navOverlay.className = 'nav-overlay';
 const navContainer = document.querySelector('.nav-container');
 navContainer.appendChild(navOverlay);
 
-// Scroll down to common misconceptions section on homepage
+// Scroll down to common misconceptions section
 function scrollMisconceptions() {
-    const commonMisconceptionsId = document.getElementById('common-misconceptions');
-    
-    if (commonMisconceptionsId) {
-        commonMisconceptionsId.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }
+  const commonMisconceptionsId = document.getElementById('common-misconceptions');
+
+  if (commonMisconceptionsId) {
+    commonMisconceptionsId.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
 }
 
 const roadmapId = document.getElementById('roadmap');
-function scrollDown() {    
+
+function scrollDown() {
   if (roadmapId) {
     roadmapId.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-      });
+      behavior: 'smooth',
+      block: 'start'
+    });
   }
 }
 
@@ -466,114 +476,120 @@ let currentSectionIndex = 0;
 const sections = document.querySelectorAll('section');
 
 observerScroll = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            currentSectionIndex = Array.from(sections).indexOf(entry.target);
-        }
-    });
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      currentSectionIndex = Array.from(sections).indexOf(entry.target);
+    }
+  });
 }, {
-    threshold: 0.5
+  threshold: 0.5
 });
 
 sections.forEach(section => {
-    observerScroll.observe(section);
+  observerScroll.observe(section);
 });
 
 let isSearchInputFocused = false;
 
 if (window.location.pathname === '/' || window.location.pathname === '/es/' || window.location.pathname === '/zh-cn/') {
+  if (window.innerWidth >= 903 && window.innerHeight <= 1090) {
+    document.querySelector('html').style.overflow = "hidden";
+  }
+  window.addEventListener('resize', () => {
     if (window.innerWidth >= 903 && window.innerHeight <= 1090) {
-        document.querySelector('html').style.overflow = "hidden";
-    }
-    window.addEventListener('resize', () => {
-        if (window.innerWidth >= 903 && window.innerHeight <= 1090) {
-            document.querySelector('html').style.overflow = "hidden";
-        } else {
-            document.querySelector('html').style.overflow = "";
-        }
-    });
-
-    const searchInput = document.querySelector('.search-input')
-    const searchResults = document.querySelector('.search-results')
-    if (searchInput) {
-        searchInput.addEventListener('focus', function() {
-            isSearchInputFocused = true;
-        });
-        document.addEventListener('click', function(event) {
-            if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
-                isSearchInputFocused = false;
-            }
-        });
-    }
-
-    window.addEventListener('wheel', function(event) {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
-            event.preventDefault();
-            if (event.deltaY > 0) {
-                // Scrolling down
-                if (currentSectionIndex < sections.length - 1) {
-                    sections[currentSectionIndex + 1].scrollIntoView({ behavior: 'smooth' });
-                }
-            } else {
-                // Scrolling up
-                if (currentSectionIndex > 1) {
-                    sections[currentSectionIndex - 1].scrollIntoView({ behavior: 'smooth' });
-                } else {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-            }
-        }
-    });
-
-    window.addEventListener('keydown', function(event) {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
-            event.preventDefault();
-            if (event.key === "ArrowDown") {
-                // Scrolling down
-                if (currentSectionIndex < sections.length - 1) {
-                    sections[currentSectionIndex + 1].scrollIntoView({ behavior: 'smooth' });
-                }
-            } 
-            else if (event.key === "ArrowUp") {
-                // Scrolling up
-                if (currentSectionIndex > 1) {
-                    sections[currentSectionIndex - 1].scrollIntoView({ behavior: 'smooth' });
-                } else {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-            }
-        }
-    });
-}
-
-// Footer waves color
-function updateWaveColors(selector) {
-const isDarkMode = document.documentElement.classList.contains('dark');
-const waves = document.querySelectorAll(`${selector} .wave`);
-if (waves.length > 0) {
-    if (isDarkMode) {
-    waves[0].setAttribute('fill', 'rgba(50, 50, 50, 0.7)');
-    waves[1].setAttribute('fill', 'rgba(50, 50, 50, 0.5)');
-    waves[2].setAttribute('fill', 'rgba(50, 50, 50, 0.3)');
-    waves[3].setAttribute('fill', '#171717');
+      document.querySelector('html').style.overflow = "hidden";
     } else {
-    waves[0].setAttribute('fill', 'rgba(243,244,246, 0.7)');
-    waves[1].setAttribute('fill', 'rgba(243,244,246, 0.5)');
-    waves[2].setAttribute('fill', 'rgba(243,244,246, 0.3)');
-    waves[3].setAttribute('fill', '#e8e9eb');
+      document.querySelector('html').style.overflow = "";
     }
-}
-}
-updateWaveColors('.hero-waves');
-updateWaveColors('.footer-waves');
+  });
 
-const observer = new MutationObserver(() => {
-    updateWaveColors('.hero-waves');
-    updateWaveColors('.footer-waves');
+  const searchInput = document.querySelector('.search-input')
+  const searchResults = document.querySelector('.search-results')
+  if (searchInput) {
+    searchInput.addEventListener('focus', function() {
+      isSearchInputFocused = true;
+    });
+    document.addEventListener('click', function(event) {
+      if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
+        isSearchInputFocused = false;
+      }
+    });
+  }
+
+  window.addEventListener('wheel', function(event) {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
+      event.preventDefault();
+      if (event.deltaY > 0) {
+        // Scrolling down
+        if (currentSectionIndex < sections.length - 1) {
+          sections[currentSectionIndex + 1].scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      } else {
+        // Scrolling up
+        if (currentSectionIndex > 1) {
+          sections[currentSectionIndex - 1].scrollIntoView({
+            behavior: 'smooth'
+          });
+        } else {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+      }
+    }
+  });
+
+  window.addEventListener('keydown', function(event) {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!urlParams.has('m') && window.innerWidth >= 903 && window.innerHeight <= 1090 && !isSearchInputFocused) {
+      event.preventDefault();
+      if (event.key === "ArrowDown") {
+        // Scrolling down
+        if (currentSectionIndex < sections.length - 1) {
+          sections[currentSectionIndex + 1].scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      } else if (event.key === "ArrowUp") {
+        // Scrolling up
+        if (currentSectionIndex > 1) {
+          sections[currentSectionIndex - 1].scrollIntoView({
+            behavior: 'smooth'
+          });
+        } else {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+      }
+    }
+  });
+}
+
+// Spread the word button
+function toggleShareDropdown() {
+  const dropdown = document.getElementById("shareDropdown");
+  if (dropdown.style.display === "block") {
+    dropdown.style.display = "none";
+  } else {
+    dropdown.style.display = "block";
+  }
+}
+
+document.addEventListener('click', function(e) {
+  const dropdown = document.getElementById("shareDropdown");
+  const dropdownButton = document.querySelector(".shareDropdownButton");
+  if (dropdown) {
+    if (dropdown.style.display === "block" && !dropdown.contains(e.target) && !dropdownButton.contains(e.target)) {
+      dropdown.style.display = "none";
+    }
+  }
 });
-observer.observe(document.documentElement, { attributes: true });
 ;
 function updateRoadmap() {
   const sections = document.querySelectorAll('.roadmap-section');
@@ -581,26 +597,26 @@ function updateRoadmap() {
 
   const selectedTabInput = document.querySelector('input[name="tabs"]:checked');
   if (selectedTabInput) {
-      const selectedTab = selectedTabInput.value;
-      const contentElement = document.getElementById(selectedTab + 'Content');
-      
-      if (contentElement) {
-          contentElement.style.display = 'block';
-      }
+    const selectedTab = selectedTabInput.value;
+    const contentElement = document.getElementById(selectedTab + 'Content');
 
-      const selectedLabel = document.querySelector(`label[for="radio-${selectedTab}"]`);
-      const glider = document.querySelector('.glider');
-      
-      if (selectedLabel && glider) {
-          const labelRect = selectedLabel.getBoundingClientRect();
-          const tabsRect = document.querySelector('.tabs')?.getBoundingClientRect();
+    if (contentElement) {
+      contentElement.style.display = 'block';
+    }
 
-          if (tabsRect) {
-              glider.style.width = `${labelRect.width}px`;
-              const verticalOffset = labelRect.top - tabsRect.top;
-              glider.style.transform = `translate(${labelRect.left - tabsRect.left}px, ${verticalOffset}px)`;
-          }
+    const selectedLabel = document.querySelector(`label[for="radio-${selectedTab}"]`);
+    const glider = document.querySelector('.glider');
+
+    if (selectedLabel && glider) {
+      const labelRect = selectedLabel.getBoundingClientRect();
+      const tabsRect = document.querySelector('.tabs')?.getBoundingClientRect();
+
+      if (tabsRect) {
+        glider.style.width = `${labelRect.width}px`;
+        const verticalOffset = labelRect.top - tabsRect.top;
+        glider.style.transform = `translate(${labelRect.left - tabsRect.left}px, ${verticalOffset}px)`;
       }
+    }
   }
 }
 window.onload = updateRoadmap;
@@ -609,11 +625,11 @@ window.onload = updateRoadmap;
 function handleModalParam() {
   const params = new URLSearchParams(window.location.search);
   const modalID = params.get('m');
-  
+
   document.querySelectorAll('.roadmap-modal').forEach(modal => {
     modal.style.display = 'none';
   });
-  
+
   if (modalID) {
     const modal = document.getElementById(modalID);
     if (modal) {
@@ -757,11 +773,9 @@ function updateStatus(checkbox) {
   const isChinese = window.location.href.includes('/zh-cn/');
   if (isSpanish) {
     button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
-  }
-  else if (isChinese) {
+  } else if (isChinese) {
     button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
-  }
-  else {
+  } else {
     button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
   }
 
@@ -783,305 +797,307 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ;
 document.addEventListener("DOMContentLoaded", function() {
-    function showModal(modalId) {
-        const modal = document.getElementById(modalId);
-        if (modal) {
-            modal.style.display = 'block';
-            const overlay = document.querySelector('.overlay');
-            const navoverlay = document.querySelector('.nav-overlay');
-            overlay.style.display = 'block';
-            navoverlay.style.display = 'block';
-        }
+  function showModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+      modal.style.display = 'block';
+      const overlay = document.querySelector('.overlay');
+      const navoverlay = document.querySelector('.nav-overlay');
+      overlay.style.display = 'block';
+      navoverlay.style.display = 'block';
     }
+  }
 
-    const modalId = getQueryParam('m');
-    if (modalId) {
-        showModal(modalId);
-    }
+  const modalId = getQueryParam('m');
+  if (modalId) {
+    showModal(modalId);
+  }
 
-    const checklistCards = document.querySelectorAll('.checklist-card');
-    checklistCards.forEach(card => {
-        card.addEventListener('click', function(event) {
-            event.preventDefault();
-            const href = card.getAttribute('href');
-            const modalIdFromHref = new URLSearchParams(href.split('?')[1]).get('m');
-            if (modalIdFromHref) {
-                showModal(modalIdFromHref);
-            }
-        });
+  const checklistCards = document.querySelectorAll('.checklist-card');
+  checklistCards.forEach(card => {
+    card.addEventListener('click', function(event) {
+      event.preventDefault();
+      const href = card.getAttribute('href');
+      const modalIdFromHref = new URLSearchParams(href.split('?')[1]).get('m');
+      if (modalIdFromHref) {
+        showModal(modalIdFromHref);
+      }
     });
+  });
 });
 
 function fireConfetti() {
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    let width = window.innerWidth;
-    let height = window.innerHeight;
-    let particles = [];
-    const particleCount = 300;
-  
-    canvas.style.position = 'fixed';
-    canvas.style.top = '0';
-    canvas.style.left = '0';
-    canvas.style.pointerEvents = 'none';
-    canvas.style.zIndex = '9999';
-    canvas.width = width;
-    canvas.height = height;
-    document.body.appendChild(canvas);
-  
-    class Confetti {
-      constructor() {
-        this.x = Math.random() * width;
-        this.y = height;
-        this.angle = Math.random() * Math.PI * 2;
-        this.tilt = Math.random() * Math.PI * 2;
-        this.tiltAngle = (Math.random() - 0.5) * 0.2;
-        this.vx = (Math.random() - 0.5) * 8;
-        this.vy = Math.random() * -25 - 15;
-        this.friction = 0.92;
-        this.gravity = 0.7;
-        this.color = `hsl(${Math.random() * 360}, 70%, 50%)`;
-        this.width = Math.random() * 8 + 4;
-        this.height = Math.random() * 3 + 1;
-        this.life = 0;
-        this.maxLife = Math.random() * 150 + 100;
-      }
-      
-      update() {
-        this.vy += this.gravity;
-        this.vx *= this.friction;
-        this.vy *= this.friction;
-        this.x += this.vx;
-        this.y += this.vy;
-        this.tilt += this.tiltAngle;
-        this.life++;
-      }
-      
-      draw() {
-        ctx.save();
-        ctx.translate(this.x, this.y);
-        ctx.rotate(this.tilt);
-        ctx.fillStyle = this.color;
-        ctx.fillRect(-this.width/2, -this.height/2, this.width, this.height);
-        ctx.restore();
-      }
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d');
+  let width = window.innerWidth;
+  let height = window.innerHeight;
+  let particles = [];
+  const particleCount = 300;
+
+  canvas.style.position = 'fixed';
+  canvas.style.top = '0';
+  canvas.style.left = '0';
+  canvas.style.pointerEvents = 'none';
+  canvas.style.zIndex = '9999';
+  canvas.width = width;
+  canvas.height = height;
+  document.body.appendChild(canvas);
+
+  class Confetti {
+    constructor() {
+      this.x = Math.random() * width;
+      this.y = height;
+      this.angle = Math.random() * Math.PI * 2;
+      this.tilt = Math.random() * Math.PI * 2;
+      this.tiltAngle = (Math.random() - 0.5) * 0.2;
+      this.vx = (Math.random() - 0.5) * 8;
+      this.vy = Math.random() * -25 - 15;
+      this.friction = 0.92;
+      this.gravity = 0.7;
+      this.color = `hsl(${Math.random() * 360}, 70%, 50%)`;
+      this.width = Math.random() * 8 + 4;
+      this.height = Math.random() * 3 + 1;
+      this.life = 0;
+      this.maxLife = Math.random() * 150 + 100;
     }
-  
-    for(let i = 0; i < particleCount; i++) {
-      particles.push(new Confetti());
+
+    update() {
+      this.vy += this.gravity;
+      this.vx *= this.friction;
+      this.vy *= this.friction;
+      this.x += this.vx;
+      this.y += this.vy;
+      this.tilt += this.tiltAngle;
+      this.life++;
     }
-  
-    function animate() {
-      ctx.clearRect(0, 0, width, height);
-      
-      particles.forEach((particle, index) => {
-        particle.update();
-        particle.draw();
-        
-        if(particle.life >= particle.maxLife || 
-           particle.x < -50 || 
-           particle.x > width + 50 || 
-           particle.y > height + 100) {
-          particles.splice(index, 1);
-        }
-      });
-      
-      if(particles.length > 0) {
-        requestAnimationFrame(animate);
-      } else {
-        canvas.remove();
-      }
+
+    draw() {
+      ctx.save();
+      ctx.translate(this.x, this.y);
+      ctx.rotate(this.tilt);
+      ctx.fillStyle = this.color;
+      ctx.fillRect(-this.width / 2, -this.height / 2, this.width, this.height);
+      ctx.restore();
     }
-    animate();
   }
 
+  for (let i = 0; i < particleCount; i++) {
+    particles.push(new Confetti());
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, width, height);
+
+    particles.forEach((particle, index) => {
+      particle.update();
+      particle.draw();
+
+      if (particle.life >= particle.maxLife ||
+        particle.x < -50 ||
+        particle.x > width + 50 ||
+        particle.y > height + 100) {
+        particles.splice(index, 1);
+      }
+    });
+
+    if (particles.length > 0) {
+      requestAnimationFrame(animate);
+    } else {
+      canvas.remove();
+    }
+  }
+  animate();
+}
+
 function getQueryParam(param) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(param);
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
-        const id = checkbox.id;
-        const savedState = localStorage.getItem(id);
-        if (savedState === 'true') {
-            checkbox.checked = true;
+  document.querySelectorAll('.checklist-checkbox').forEach(checkbox => {
+    const id = checkbox.id;
+    const savedState = localStorage.getItem(id);
+    if (savedState === 'true') {
+      checkbox.checked = true;
+    }
+
+    checkbox.addEventListener('change', function() {
+      localStorage.setItem(id, checkbox.checked);
+
+      document.querySelectorAll(`#${id}`).forEach(cb => {
+        cb.checked = checkbox.checked;
+      });
+
+      const modalId = getQueryParam('m');
+      const card = document.getElementById(modalId);
+      if (card) {
+        const checkboxesInCard = card.querySelectorAll('.checklist-checkbox');
+        const allChecked = Array.from(checkboxesInCard).every(cb => cb.checked);
+        if (allChecked) {
+          fireConfetti();
         }
-
-        checkbox.addEventListener('change', function() {
-            localStorage.setItem(id, checkbox.checked);
-
-            document.querySelectorAll(`#${id}`).forEach(cb => {
-              cb.checked = checkbox.checked;
-            });
-            
-            const modalId = getQueryParam('m');
-            const card = document.getElementById(modalId);
-            if (card) {
-                const checkboxesInCard = card.querySelectorAll('.checklist-checkbox');
-                const allChecked = Array.from(checkboxesInCard).every(cb => cb.checked);
-                if (allChecked) {
-                    fireConfetti();
-                }
-            }
-        });
+      }
     });
+  });
 });
 
 // Carousel for checklists on homepage
 (() => {
-    const carousel = document.querySelector('.carousel');
-    if (carousel) {
-        const track = carousel.querySelector('.carousel-track');
-        const items = Array.from(track.children);
-        const prevBtn = document.querySelector('.carousel-button.prev');
-        const nextBtn = document.querySelector('.carousel-button.next');
+  const carousel = document.querySelector('.carousel');
+  if (carousel) {
+    const track = carousel.querySelector('.carousel-track');
+    const items = Array.from(track.children);
+    const prevBtn = document.querySelector('.carousel-button.prev');
+    const nextBtn = document.querySelector('.carousel-button.next');
 
-        let currentIndex = 0;
-        let isDragging = false;
-        let dragStartX = 0;
-        let dragCurrentX = 0;
+    let currentIndex = 0;
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragCurrentX = 0;
 
-        const extraWidth = 185;
+    const extraWidth = 185;
 
-        function getItemWidth() {
-            const style = getComputedStyle(items[0]);
-            const marginRight = Math.round(parseFloat(style.marginRight) || 0);
-            const marginLeft = Math.round(parseFloat(style.marginLeft) || 0);
-            return Math.round(items[0].offsetWidth + marginLeft + marginRight);
-        }
-
-        function visibleCount() {
-            return Math.floor(carousel.offsetWidth / getItemWidth());
-        }
-
-        function totalItemsWidth() {
-            return items.reduce((acc, item) => {
-                const style = getComputedStyle(item);
-                const marginRight = parseFloat(style.marginRight) || 0;
-                const marginLeft = parseFloat(style.marginLeft) || 0;
-                return acc + item.offsetWidth + marginLeft + marginRight;
-            }, 0);
-        }
-
-        function updateTrackWidth() {
-            const width = totalItemsWidth() + extraWidth;
-            track.style.width = `${width}px`;
-        }
-
-        function maxTranslateX() {
-            const trackWidth = parseFloat(track.style.width) || totalItemsWidth();
-            const containerWidth = carousel.offsetWidth;
-            const maxTx = trackWidth - containerWidth;
-            return maxTx > 0 ? maxTx : 0;
-        }
-
-        function updateCarousel() {
-            const itemWidth = getItemWidth();
-            const maxIndex = Math.max(items.length - visibleCount(), 0);
-
-            if (currentIndex < 0) currentIndex = 0;
-            if (currentIndex > maxIndex) currentIndex = maxIndex;
-
-            let translateX = currentIndex * itemWidth;
-
-            if (translateX > maxTranslateX()) {
-                translateX = maxTranslateX();
-                currentIndex = Math.round(translateX / itemWidth);
-            }
-
-            track.style.transition = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
-            track.style.transform = `translateX(${-translateX + 35}px)`;
-        }
-
-        function moveNext() {
-            currentIndex++;
-            updateCarousel();
-        }
-
-        function movePrev() {
-            currentIndex--;
-            updateCarousel();
-        }
-
-        function onDragStart(pageX) {
-            isDragging = true;
-            dragStartX = pageX;
-            dragCurrentX = pageX;
-            track.style.transition = 'none';
-        }
-
-        function onDragMove(pageX) {
-            if (!isDragging) return;
-
-            dragCurrentX = pageX;
-            const dragDistance = dragCurrentX - dragStartX;
-            const itemWidth = getItemWidth();
-            const maxTx = maxTranslateX();
-
-            let translateX = currentIndex * itemWidth - dragDistance;
-
-            if (translateX < 0) {
-                translateX = translateX / 3;
-            } else if (translateX > maxTx) {
-                translateX = maxTx + (translateX - maxTx) / 3;
-            }
-
-            track.style.transform = `translateX(${-translateX}px)`;
-        }
-
-        function onDragEnd() {
-            if (!isDragging) return;
-            isDragging = false;
-
-            const dragDistance = dragCurrentX - dragStartX;
-            const itemWidth = getItemWidth();
-            let newIndex = currentIndex - Math.round(dragDistance / itemWidth);
-            const maxIndex = Math.max(items.length - visibleCount(), 0);
-
-            newIndex = Math.min(Math.max(newIndex, 0), maxIndex);
-            currentIndex = newIndex;
-
-            updateCarousel();
-        }
-
-        carousel.addEventListener('mousedown', e => {
-            e.preventDefault();
-            onDragStart(e.pageX);
-        });
-        window.addEventListener('mouseup', e => {
-            onDragEnd();
-        });
-        window.addEventListener('mousemove', e => {
-            if (!isDragging) return;
-            e.preventDefault();
-            onDragMove(e.pageX);
-        });
-
-        carousel.addEventListener('touchstart', e => {
-            onDragStart(e.touches[0].pageX);
-        });
-        window.addEventListener('touchend', e => {
-            onDragEnd();
-        });
-        window.addEventListener('touchmove', e => {
-            if (!isDragging) return;
-            onDragMove(e.touches[0].pageX);
-        }, { passive: false });
-
-        prevBtn.addEventListener('click', movePrev);
-        nextBtn.addEventListener('click', moveNext);
-
-        window.addEventListener('resize', () => {
-            const maxIndex = Math.max(items.length - visibleCount(), 0);
-            if (currentIndex > maxIndex) currentIndex = maxIndex;
-            updateCarousel();
-            updateTrackWidth();
-        });
-
-        updateTrackWidth();
-        updateCarousel();
+    function getItemWidth() {
+      const style = getComputedStyle(items[0]);
+      const marginRight = Math.round(parseFloat(style.marginRight) || 0);
+      const marginLeft = Math.round(parseFloat(style.marginLeft) || 0);
+      return Math.round(items[0].offsetWidth + marginLeft + marginRight);
     }
+
+    function visibleCount() {
+      return Math.floor(carousel.offsetWidth / getItemWidth());
+    }
+
+    function totalItemsWidth() {
+      return items.reduce((acc, item) => {
+        const style = getComputedStyle(item);
+        const marginRight = parseFloat(style.marginRight) || 0;
+        const marginLeft = parseFloat(style.marginLeft) || 0;
+        return acc + item.offsetWidth + marginLeft + marginRight;
+      }, 0);
+    }
+
+    function updateTrackWidth() {
+      const width = totalItemsWidth() + extraWidth;
+      track.style.width = `${width}px`;
+    }
+
+    function maxTranslateX() {
+      const trackWidth = parseFloat(track.style.width) || totalItemsWidth();
+      const containerWidth = carousel.offsetWidth;
+      const maxTx = trackWidth - containerWidth;
+      return maxTx > 0 ? maxTx : 0;
+    }
+
+    function updateCarousel() {
+      const itemWidth = getItemWidth();
+      const maxIndex = Math.max(items.length - visibleCount(), 0);
+
+      if (currentIndex < 0) currentIndex = 0;
+      if (currentIndex > maxIndex) currentIndex = maxIndex;
+
+      let translateX = currentIndex * itemWidth;
+
+      if (translateX > maxTranslateX()) {
+        translateX = maxTranslateX();
+        currentIndex = Math.round(translateX / itemWidth);
+      }
+
+      track.style.transition = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+      track.style.transform = `translateX(${-translateX + 35}px)`;
+    }
+
+    function moveNext() {
+      currentIndex++;
+      updateCarousel();
+    }
+
+    function movePrev() {
+      currentIndex--;
+      updateCarousel();
+    }
+
+    function onDragStart(pageX) {
+      isDragging = true;
+      dragStartX = pageX;
+      dragCurrentX = pageX;
+      track.style.transition = 'none';
+    }
+
+    function onDragMove(pageX) {
+      if (!isDragging) return;
+
+      dragCurrentX = pageX;
+      const dragDistance = dragCurrentX - dragStartX;
+      const itemWidth = getItemWidth();
+      const maxTx = maxTranslateX();
+
+      let translateX = currentIndex * itemWidth - dragDistance;
+
+      if (translateX < 0) {
+        translateX = translateX / 3;
+      } else if (translateX > maxTx) {
+        translateX = maxTx + (translateX - maxTx) / 3;
+      }
+
+      track.style.transform = `translateX(${-translateX}px)`;
+    }
+
+    function onDragEnd() {
+      if (!isDragging) return;
+      isDragging = false;
+
+      const dragDistance = dragCurrentX - dragStartX;
+      const itemWidth = getItemWidth();
+      let newIndex = currentIndex - Math.round(dragDistance / itemWidth);
+      const maxIndex = Math.max(items.length - visibleCount(), 0);
+
+      newIndex = Math.min(Math.max(newIndex, 0), maxIndex);
+      currentIndex = newIndex;
+
+      updateCarousel();
+    }
+
+    carousel.addEventListener('mousedown', e => {
+      e.preventDefault();
+      onDragStart(e.pageX);
+    });
+    window.addEventListener('mouseup', e => {
+      onDragEnd();
+    });
+    window.addEventListener('mousemove', e => {
+      if (!isDragging) return;
+      e.preventDefault();
+      onDragMove(e.pageX);
+    });
+
+    carousel.addEventListener('touchstart', e => {
+      onDragStart(e.touches[0].pageX);
+    });
+    window.addEventListener('touchend', e => {
+      onDragEnd();
+    });
+    window.addEventListener('touchmove', e => {
+      if (!isDragging) return;
+      onDragMove(e.touches[0].pageX);
+    }, {
+      passive: false
+    });
+
+    prevBtn.addEventListener('click', movePrev);
+    nextBtn.addEventListener('click', moveNext);
+
+    window.addEventListener('resize', () => {
+      const maxIndex = Math.max(items.length - visibleCount(), 0);
+      if (currentIndex > maxIndex) currentIndex = maxIndex;
+      updateCarousel();
+      updateTrackWidth();
+    });
+
+    updateTrackWidth();
+    updateCarousel();
+  }
 })();
 ;
 let allNewsItems = [];
@@ -1090,79 +1106,79 @@ let currentPage = 1;
 const itemsPerPage = 12;
 
 async function fetchNews() {
-    const newsLoadingMessage =  document.getElementById('news-loading-message')
-    if (newsLoadingMessage) {
-        newsLoadingMessage.style.display = 'block';
-    }
+  const newsLoadingMessage = document.getElementById('news-loading-message')
+  if (newsLoadingMessage) {
+    newsLoadingMessage.style.display = 'block';
+  }
 
-    try {
-        const response = await fetch('https://raw.githubusercontent.com/beginnerprivacy/news/refs/heads/main/news.json');
-        const data = await response.json();
-        allNewsItems = data.articles || [];
-        filteredNewsItems = [...allNewsItems].sort((a, b) => new Date(b.date) - new Date(a.date));
-        renderNews();
-    } finally {
-        if (newsLoadingMessage) {
-            document.getElementById('news-loading-message').style.display = 'none';
-        }
+  try {
+    const response = await fetch('https://raw.githubusercontent.com/beginnerprivacy/news/refs/heads/main/news.json');
+    const data = await response.json();
+    allNewsItems = data.articles || [];
+    filteredNewsItems = [...allNewsItems].sort((a, b) => new Date(b.date) - new Date(a.date));
+    renderNews();
+  } finally {
+    if (newsLoadingMessage) {
+      document.getElementById('news-loading-message').style.display = 'none';
     }
+  }
 }
 
 function filterNews() {
-    const searchTerm = document.getElementById('search').value.toLowerCase();
-    const category = document.getElementById('category').value;
-    const region = document.getElementById('region').value;
-    const sortOrder = document.getElementById('sort').value;
+  const searchTerm = document.getElementById('search').value.toLowerCase();
+  const category = document.getElementById('category').value;
+  const region = document.getElementById('region').value;
+  const sortOrder = document.getElementById('sort').value;
 
-    filteredNewsItems = allNewsItems.filter(item => {
-        const matchesSearch = item.title.toLowerCase().includes(searchTerm);
-        const matchesCategory = category ? item.category === category : true;
-        const matchesRegion = region ? item.region === region : true;
-        return matchesSearch && matchesCategory && matchesRegion;
-    });
+  filteredNewsItems = allNewsItems.filter(item => {
+    const matchesSearch = item.title.toLowerCase().includes(searchTerm);
+    const matchesCategory = category ? item.category === category : true;
+    const matchesRegion = region ? item.region === region : true;
+    return matchesSearch && matchesCategory && matchesRegion;
+  });
 
-    filteredNewsItems.sort((a, b) => {
-        return sortOrder === 'recent' 
-            ? new Date(b.date) - new Date(a.date)
-            : new Date(a.date) - new Date(b.date);
-    });
+  filteredNewsItems.sort((a, b) => {
+    return sortOrder === 'recent' ?
+      new Date(b.date) - new Date(a.date) :
+      new Date(a.date) - new Date(b.date);
+  });
 
-    currentPage = 1;
-    renderNews();
+  currentPage = 1;
+  renderNews();
 }
 
 function changePage(direction) {
-    const newPage = currentPage + direction;
-    const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
-    
-    if (newPage > 0 && newPage <= totalPages) {
-        currentPage = newPage;
-        renderNews();
-    }
+  const newPage = currentPage + direction;
+  const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
+
+  if (newPage > 0 && newPage <= totalPages) {
+    currentPage = newPage;
+    renderNews();
+  }
 }
 
 function renderNews() {
-    const container = document.getElementById('news-container');
-    if (container) {
-        container.innerHTML = '';
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = startIndex + itemsPerPage;
-        const paginatedItems = filteredNewsItems.slice(startIndex, endIndex);
+  const container = document.getElementById('news-container');
+  if (container) {
+    container.innerHTML = '';
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedItems = filteredNewsItems.slice(startIndex, endIndex);
 
-        paginatedItems.forEach(item => {
-            const card = document.createElement('a');
-            card.className = 'news-card';
-            card.href = item.url;
-            card.rel = 'noreferrer nofollow';
-            card.target = '_blank';
+    paginatedItems.forEach(item => {
+      const card = document.createElement('a');
+      card.className = 'news-card';
+      card.href = item.url;
+      card.rel = 'noreferrer nofollow';
+      card.target = '_blank';
 
-            if (item.title.length > 115) {
-                truncatedTitle = item.title.substring(0, 115) + "...";
-            } else {
-                truncatedTitle = item.title
-            }
+      if (item.title.length > 115) {
+        truncatedTitle = item.title.substring(0, 115) + "...";
+      } else {
+        truncatedTitle = item.title
+      }
 
-            card.innerHTML = `
+      card.innerHTML = `
                 <div class="news-card-content">
                     <h3>${truncatedTitle}</h3>
                 </div>
@@ -1172,14 +1188,14 @@ function renderNews() {
                 </div>
             `;
 
-            container.appendChild(card);
-        });
+      container.appendChild(card);
+    });
 
-        const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
-        document.getElementById('prev').disabled = currentPage <= 1;
-        document.getElementById('next').disabled = currentPage >= totalPages;
-        document.getElementById('news-page-info').textContent = `${currentPage}/${totalPages}`;
-    }
+    const totalPages = Math.ceil(filteredNewsItems.length / itemsPerPage);
+    document.getElementById('prev').disabled = currentPage <= 1;
+    document.getElementById('next').disabled = currentPage >= totalPages;
+    document.getElementById('news-page-info').textContent = `${currentPage}/${totalPages}`;
+  }
 }
 
 window.addEventListener('DOMContentLoaded', fetchNews);
@@ -1187,7 +1203,7 @@ window.addEventListener('DOMContentLoaded', fetchNews);
 // News warning callout
 const newsWarningClose = document.querySelector('.news-warning-close')
 if (newsWarningClose) {
-    newsWarningClose.addEventListener('click', () => {
-        document.querySelector('.news-warning-container').style.display = 'none';  
-    })
+  newsWarningClose.addEventListener('click', () => {
+    document.querySelector('.news-warning-container').style.display = 'none';
+  })
 }

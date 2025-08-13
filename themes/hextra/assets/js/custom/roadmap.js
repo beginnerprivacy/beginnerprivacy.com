@@ -4,26 +4,26 @@ function updateRoadmap() {
 
   const selectedTabInput = document.querySelector('input[name="tabs"]:checked');
   if (selectedTabInput) {
-      const selectedTab = selectedTabInput.value;
-      const contentElement = document.getElementById(selectedTab + 'Content');
-      
-      if (contentElement) {
-          contentElement.style.display = 'block';
-      }
+    const selectedTab = selectedTabInput.value;
+    const contentElement = document.getElementById(selectedTab + 'Content');
 
-      const selectedLabel = document.querySelector(`label[for="radio-${selectedTab}"]`);
-      const glider = document.querySelector('.glider');
-      
-      if (selectedLabel && glider) {
-          const labelRect = selectedLabel.getBoundingClientRect();
-          const tabsRect = document.querySelector('.tabs')?.getBoundingClientRect();
+    if (contentElement) {
+      contentElement.style.display = 'block';
+    }
 
-          if (tabsRect) {
-              glider.style.width = `${labelRect.width}px`;
-              const verticalOffset = labelRect.top - tabsRect.top;
-              glider.style.transform = `translate(${labelRect.left - tabsRect.left}px, ${verticalOffset}px)`;
-          }
+    const selectedLabel = document.querySelector(`label[for="radio-${selectedTab}"]`);
+    const glider = document.querySelector('.glider');
+
+    if (selectedLabel && glider) {
+      const labelRect = selectedLabel.getBoundingClientRect();
+      const tabsRect = document.querySelector('.tabs')?.getBoundingClientRect();
+
+      if (tabsRect) {
+        glider.style.width = `${labelRect.width}px`;
+        const verticalOffset = labelRect.top - tabsRect.top;
+        glider.style.transform = `translate(${labelRect.left - tabsRect.left}px, ${verticalOffset}px)`;
       }
+    }
   }
 }
 window.onload = updateRoadmap;
@@ -32,11 +32,11 @@ window.onload = updateRoadmap;
 function handleModalParam() {
   const params = new URLSearchParams(window.location.search);
   const modalID = params.get('m');
-  
+
   document.querySelectorAll('.roadmap-modal').forEach(modal => {
     modal.style.display = 'none';
   });
-  
+
   if (modalID) {
     const modal = document.getElementById(modalID);
     if (modal) {
@@ -180,11 +180,9 @@ function updateStatus(checkbox) {
   const isChinese = window.location.href.includes('/zh-cn/');
   if (isSpanish) {
     button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
-  }
-  else if (isChinese) {
+  } else if (isChinese) {
     button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
-  }
-  else {
+  } else {
     button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
   }
 

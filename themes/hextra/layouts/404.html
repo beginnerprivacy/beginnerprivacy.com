@@ -4,7 +4,13 @@
     <div class="container">
       <div>
         <img class="bodyguard" src="/images/bodyguard.webp" alt="Bodyguard">
-        <h2 class="hx-text-2rem hx-text-center">404<span class="separator"></span>Whoa there, buddy! This page is VIP access only!</h2>
+        {{- if or (strings.Contains .Page.Permalink "/es/") -}}
+          <h2 class="hx-text-2rem hx-text-center">404<span class="separator"></span>¡Espera, amigo! ¡Esta página es solo para acceso VIP!</h2>
+        {{- else if or (strings.Contains .Page.Permalink "/zh-cn/") -}}
+          <h2 class="hx-text-2rem hx-text-center">404<span class="separator"></span>等等，朋友！这个页面仅限VIP访问！</h2>
+        {{- else -}}
+          <h2 class="hx-text-2rem hx-text-center">404<span class="separator"></span>Whoa there, buddy! This page is VIP access only!</h2>
+        {{- end -}}
       </div>
     </div>
   </div>
