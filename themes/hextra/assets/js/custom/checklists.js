@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const navoverlay = document.querySelector('.nav-overlay');
       overlay.style.display = 'block';
       navoverlay.style.display = 'block';
+      document.querySelector('html').style.overflow = 'hidden';
     }
   }
 

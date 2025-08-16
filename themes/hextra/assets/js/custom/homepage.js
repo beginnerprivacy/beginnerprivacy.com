@@ -10,7 +10,6 @@ navContainer.appendChild(navOverlay);
 // Scroll down to common misconceptions section
 function scrollMisconceptions() {
   const commonMisconceptionsId = document.getElementById('common-misconceptions');
-
   if (commonMisconceptionsId) {
     commonMisconceptionsId.scrollIntoView({
       behavior: 'smooth',
@@ -20,7 +19,6 @@ function scrollMisconceptions() {
 }
 
 const roadmapId = document.getElementById('roadmap');
-
 function scrollDown() {
   if (roadmapId) {
     roadmapId.scrollIntoView({

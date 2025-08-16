@@ -54,6 +54,7 @@ function handleModalParam() {
           const navoverlay = document.querySelector('.nav-overlay')
           overlay.style.display = 'block';
           navoverlay.style.display = 'block';
+          document.querySelector('html').style.overflow = 'hidden';
         }
       }
     }
@@ -71,6 +72,7 @@ function closeRoadmapModal() {
   const navoverlay = document.querySelector('.nav-overlay')
   overlay.style.display = 'none';
   navoverlay.style.display = 'none';
+  document.querySelector('html').style.overflow = '';
   return false;
 }
 

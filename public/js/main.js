@@ -450,7 +450,6 @@ navContainer.appendChild(navOverlay);
 // Scroll down to common misconceptions section
 function scrollMisconceptions() {
   const commonMisconceptionsId = document.getElementById('common-misconceptions');
-
   if (commonMisconceptionsId) {
     commonMisconceptionsId.scrollIntoView({
       behavior: 'smooth',
@@ -460,7 +459,6 @@ function scrollMisconceptions() {
 }
 
 const roadmapId = document.getElementById('roadmap');
-
 function scrollDown() {
   if (roadmapId) {
     roadmapId.scrollIntoView({
@@ -546,6 +544,7 @@ function handleModalParam() {
           const navoverlay = document.querySelector('.nav-overlay')
           overlay.style.display = 'block';
           navoverlay.style.display = 'block';
+          document.querySelector('html').style.overflow = 'hidden';
         }
       }
     }
@@ -563,6 +562,7 @@ function closeRoadmapModal() {
   const navoverlay = document.querySelector('.nav-overlay')
   overlay.style.display = 'none';
   navoverlay.style.display = 'none';
+  document.querySelector('html').style.overflow = '';
   return false;
 }
 
@@ -704,6 +704,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const navoverlay = document.querySelector('.nav-overlay');
       overlay.style.display = 'block';
       navoverlay.style.display = 'block';
+      document.querySelector('html').style.overflow = 'hidden';
     }
   }
 
