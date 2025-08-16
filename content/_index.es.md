@@ -2,7 +2,7 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<section class="hero hx-py-30-40 hx-text-center" id="hero">
+<section class="hero hx-py-40 hx-text-center" id="hero">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Gratuito, de código abierto</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
@@ -36,7 +36,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap hx-py-40 hx-mt-20" id="roadmap">
+<section class="roadmap" id="roadmap">
   <div>
       <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-5xl">Hoja de Ruta</h2>
       <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -102,7 +102,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
+<section id="common-misconceptions" class="hx-text-center">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Conceptos Erróneos Comunes</h2>
     <div class="misconception-container">
         <div class="misconception-card">
@@ -121,7 +121,7 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="community-section hx-py-60-40">
+<section class="community-section">
     <div class="community-content">
         <img src="../images/earth.webp" alt="Imagen de la Comunidad" class="community-image">
     </div>
@@ -149,7 +149,7 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section hx-py-60-60">
+<section class="checklists-section">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Listas de Verificación</h2>
   <p class="hx-text-base hx-mb-10px hx-text-center">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
   <div class="carousel-container" aria-label="Checklists carousel">
@@ -194,7 +194,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="contributors" class="hx-mb-16 hx-mt-18">
+<section id="contributors" class="hx-mb-16">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">¡Necesitamos Tu Ayuda!</h2>
     <p class="hx-text-base">¡Beginner Privacy es 100% gratuito y siempre lo será! Sin embargo, depende de los colaboradores y la comunidad para prosperar.<br>Aquí hay algunas maneras en las que puedes ayudar:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">

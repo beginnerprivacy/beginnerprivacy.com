@@ -2,7 +2,7 @@
 title: 初学者的隐私
 layout: hextra-home
 ---
-<section class="hero hx-py-30-40 hx-text-center" id="hero">
+<section class="hero hx-py-40 hx-text-center" id="hero">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>免费，开源</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -37,7 +37,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap hx-py-40 hx-mt-20" id="roadmap">
+<section class="roadmap" id="roadmap">
   <div>
       <h2 class="text-4xl hx-text-center hx-font-bold md:hx-text-6xl">路线图</h2>
       <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -103,7 +103,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
+<section id="common-misconceptions" class="hx-text-center">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">常见误解</h2>
     <div class="misconception-container">
         <div class="misconception-card">
@@ -122,7 +122,7 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="community-section hx-py-60-40">
+<section class="community-section">
     <div class="community-content">
         <img src="../images/earth.webp" alt="社区图片" class="community-image">
     </div>
@@ -150,7 +150,7 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section hx-py-60-60">
+<section class="checklists-section">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">检查清单</h2>
   <p class="hx-text-base hx-mb-10px hx-text-center">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
   <div class="carousel-container" aria-label="Checklists carousel">
@@ -195,7 +195,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="contributors" class="hx-mb-16 hx-mt-18">
+<section id="contributors" class="hx-mb-16">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">我们需要你的帮助！</h2>
     <p class="hx-text-base">初学者隐私是100%免费的，并且将永远保持免费！ 然而，它依赖于贡献者和社区的支持才能茁壮成长。<br>以下是您可以帮助的几种方式：</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
