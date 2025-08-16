@@ -2,7 +2,7 @@
 title: Beginner Privacy
 layout: hextra-home
 ---
-<section class="hero hx-py-30-40 hx-text-center" id="hero">
+<section class="hero hx-py-40 hx-text-center" id="hero">
   {{< hextra/hero-badge link="https://github.com/BeginnerPrivacy" >}}<div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
     <span>Free, open source</span>
     {{< icon name="arrow-circle-right" attributes="height=14" >}}{{< /hextra/hero-badge >}}
@@ -36,7 +36,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap hx-py-40 hx-min-h-60 hx-mt-20" id="roadmap">
+<section class="roadmap" id="roadmap">
   <div>
     <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-6xl">Roadmap</h2>
     <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
@@ -101,7 +101,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="common-misconceptions" class="hx-text-center hx-py-50-40">
+<section id="common-misconceptions" class="hx-text-center">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Common Misconceptions</h2>
     <div class="misconception-container">
       <div class="misconception-card">
@@ -120,7 +120,7 @@ layout: hextra-home
     </div>
 </div>
 
-<section class="community-section hx-py-60-40">
+<section class="community-section">
     <div class="community-content">
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
@@ -148,7 +148,7 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section hx-py-60-60">
+<section class="checklists-section">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Checklists</h2>
   <p class="hx-text-base hx-mb-10px hx-text-center">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
   <div class="carousel-container" aria-label="Checklists carousel">
@@ -193,7 +193,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="contributors" class="hx-mb-16 hx-mt-18">
+<section id="contributors" class="hx-mb-16">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl">We Need Your Help!</h2>
     <p class="hx-text-base">Beginner Privacy is 100% free and will always remain so! However, it relies on contributors and the community to thrive.<br>Here are some ways you can help:</p>
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">

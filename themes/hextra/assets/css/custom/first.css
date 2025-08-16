@@ -12,6 +12,21 @@
   --color-white: 0, 0, 0;
 }
 
+section#roadmap,
+section#common-misconceptions,
+section.community-section,
+section.checklists-section {
+  padding: 10rem 0 10rem 0;
+}
+
+section#roadmap {
+  min-height: 720px;
+}
+
+section#contributors {
+  padding-top: 12rem;
+}
+
 /* Font Faces */
 @font-face {
   font-family: "Roboto";

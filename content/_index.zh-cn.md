@@ -37,7 +37,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap hx-py-40 hx-min-h-60 hx-mt-20" id="roadmap">
+<section class="roadmap hx-py-40 hx-mt-20" id="roadmap">
   <div>
       <h2 class="text-4xl hx-text-center hx-font-bold md:hx-text-6xl">路线图</h2>
       <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">

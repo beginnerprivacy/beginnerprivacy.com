@@ -688,7 +688,7 @@ video {
   margin-top: 8rem;
 }
 .hx-mt-20 {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .hx-mb-10px {
   margin-bottom: 10px;
@@ -1182,22 +1182,6 @@ video {
 .hx-py-40 {
   padding-top: 10rem;
   padding-bottom: 10rem;
-}
-.hx-py-30-40 {
-  padding-top: 8rem;
-  padding-bottom: 14rem;
-}
-.hx-py-50-40 {
-  padding-top: 14rem;
-  padding-bottom: 10rem;
-}
-.hx-py-60-40 {
-  padding-top: 18rem;
-  padding-bottom: 12rem;
-}
-.hx-py-60-60 {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
 }
 .hx-pb-8 {
   padding-bottom: 2rem;
