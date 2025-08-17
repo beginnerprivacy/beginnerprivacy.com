@@ -478,7 +478,7 @@ input[type="radio"]:checked + label {
 }
 
 .mark-done-button {
-  width: 90%;
+  width: 100%;
 }
 
 /* 3. Common Misconceptions Section */
