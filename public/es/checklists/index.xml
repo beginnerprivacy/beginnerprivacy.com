@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – Listas de Verificación</title>
-    <link>http://localhost:1313/es/checklists/</link>
+    <link>http://192.168.0.135:1313/es/checklists/</link>
     <description>Recent content in Listas de Verificación on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     
-	  <atom:link href="http://localhost:1313/es/checklists/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://192.168.0.135:1313/es/checklists/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Denunciante</title>
-      <link>http://localhost:1313/es/checklists/whistleblower/</link>
+      <link>http://192.168.0.135:1313/es/checklists/whistleblower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/whistleblower/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/whistleblower/</guid>
       <description>
         
         
@@ -45,7 +45,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usar un sistema operativo seguro es esencial para proteger tu identidad mientras participas en actividades de alto riesgo como la denuncia de irregularidades.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Los Mejores Sistemas Operativos de Escritorio Para Personas de Alto Riesgo
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -75,7 +75,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Abandona El SMS Y Utiliza Métodos De Comunicación Seguros
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -105,7 +105,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;En caso de que necesites huir.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Dónde Esconderse: Una Guía de Países que No te Extraditarán
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -142,10 +142,10 @@
     
     <item>
       <title>Hacker</title>
-      <link>http://localhost:1313/es/checklists/hacker/</link>
+      <link>http://192.168.0.135:1313/es/checklists/hacker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/hacker/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/hacker/</guid>
       <description>
         
         
@@ -171,7 +171,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usar un sistema operativo seguro es esencial para proteger tu identidad mientras participas en actividades de alto riesgo como el hacking.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/the-best-desktop-operating-systems-for-high-risk-individuals&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Los Mejores Sistemas Operativos de Escritorio Para Personas de Alto Riesgo
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -201,7 +201,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Solo usa Tor al conectarte a Internet para proteger tu identidad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Navegando Por la Web de Forma Anónima: Una Guía Sobre Los Fundamentos de Tor
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -238,10 +238,10 @@
     
     <item>
       <title>Influencer de Redes Sociales</title>
-      <link>http://localhost:1313/es/checklists/social-media-influencer/</link>
+      <link>http://192.168.0.135:1313/es/checklists/social-media-influencer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/social-media-influencer/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/social-media-influencer/</guid>
       <description>
         
         
@@ -267,7 +267,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo Crear Contraseñas Seguras Y Almacenarlas de Forma Segura
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -297,7 +297,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usa 2FA para asegurar tus cuentas.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/two-factor-authentication-and-why-you-need-it&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Autenticación de Dos Factores (2FA) y Por Qué la Necesitas
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -350,7 +350,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Con un gran número de seguidores, eres un objetivo para los hackers. Verifica los remitentes de los correos electrónicos y ten cuidado con los correos que piden información personal o contienen enlaces sospechosos.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       No te Dejes Engañar: Cómo Reconocer y Evitar Correos Electrónicos de Phishing
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -387,10 +387,10 @@
     
     <item>
       <title>Manifestante</title>
-      <link>http://localhost:1313/es/checklists/protestor/</link>
+      <link>http://192.168.0.135:1313/es/checklists/protestor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/protestor/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/protestor/</guid>
       <description>
         
         
@@ -439,7 +439,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Planifica cuidadosamente tu ruta hacia y desde la protesta para evitar posibles puntos críticos de actividad policial y vigilancia.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/planning-your-trip-to-and-from-a-protest&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/planning-your-trip-to-and-from-a-protest&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Mantente Bajo el Radar: Consejos de Vestimenta Para Conceal tu Identidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -469,7 +469,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte con otros manifestantes.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Abandona El SMS Y Utiliza Métodos De Comunicación Seguros
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -499,7 +499,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Haz una copia de seguridad de tus datos en caso de que tu teléfono se pierda o sea confiscado por la policía.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo y Por Qué Hacer Copias de Seguridad de Tus Dispositivos es Crucial
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -529,7 +529,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usa ropa que oculte tu identidad y te proteja de la vigilancia.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Mantente Bajo el Radar: Consejos de Vestimenta Para Conceal tu Identidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -543,10 +543,10 @@
     
     <item>
       <title>Nómada Digital</title>
-      <link>http://localhost:1313/es/checklists/digital-nomad/</link>
+      <link>http://192.168.0.135:1313/es/checklists/digital-nomad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/digital-nomad/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/digital-nomad/</guid>
       <description>
         
         
@@ -572,7 +572,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo Crear Contraseñas Seguras Y Almacenarlas de Forma Segura
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -602,7 +602,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para tu conexión a Internet.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       ¿Qué Es Una VPN? ¿Y Deberías Usar Una?
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -655,7 +655,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Haz copias de seguridad de tus datos en caso de que tu dispositivo se pierda o sea robado.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo y Por Qué Hacer Copias de Seguridad de Tus Dispositivos es Crucial
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -669,10 +669,10 @@
     
     <item>
       <title>Periodista</title>
-      <link>http://localhost:1313/es/checklists/journalist/</link>
+      <link>http://192.168.0.135:1313/es/checklists/journalist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/journalist/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/journalist/</guid>
       <description>
         
         
@@ -698,7 +698,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Utiliza aplicaciones de mensajería con cifrado de extremo a extremo para comunicarte con tus fuentes.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/ditch-sms-and-use-secure-communication-methods&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Abandona El SMS Y Utiliza Métodos De Comunicación Seguros
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -728,7 +728,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Haz una copia de seguridad de tu trabajo en caso de que sea robado o perdido.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-and-why-backing-up-your-devices-is-crucial&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo y Por Qué Hacer Copias de Seguridad de Tus Dispositivos es Crucial
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -742,10 +742,10 @@
     
     <item>
       <title>Pirata de Internet</title>
-      <link>http://localhost:1313/es/checklists/internet-pirate/</link>
+      <link>http://192.168.0.135:1313/es/checklists/internet-pirate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/internet-pirate/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/internet-pirate/</guid>
       <description>
         
         
@@ -771,7 +771,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Aprende los fundamentos antes de torrentear cualquier archivo.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-to-torrent-safely-and-anonymously&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-to-torrent-safely-and-anonymously&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo Torrentear de Manera Segura y Anónima
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -785,10 +785,10 @@
     
     <item>
       <title>Usuario de Internet Casual</title>
-      <link>http://localhost:1313/es/checklists/casual-internet-user/</link>
+      <link>http://192.168.0.135:1313/es/checklists/casual-internet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/casual-internet-user/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/casual-internet-user/</guid>
       <description>
         
         
@@ -814,7 +814,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Cree contraseñas fuertes y únicas para cada una de sus cuentas para mejorar la seguridad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-to-create-strong-passwords-and-store-them-securely&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo Crear Contraseñas Seguras Y Almacenarlas de Forma Segura
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -844,7 +844,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Sea consciente de la información personal que comparte en línea para proteger su privacidad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Limite la Información Personal Que Comparte en Línea
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -874,7 +874,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usar un navegador privado puede ayudar a salvaguardar sus actividades en línea de miradas indiscretas.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Por Qué Necesitas Un Navegador Privado Para Protegerte
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -904,7 +904,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Opte por un motor de búsqueda enfocado en la privacidad para mejorar su anonimato en línea.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Buscar de Manera Segura Con Un Motor de Búsqueda Centrado en la Privacidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -934,7 +934,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para su conexión a Internet.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       ¿Qué Es Una VPN? ¿Y Deberías Usar Una?
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -964,7 +964,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Ajuste la configuración de su móvil para mejorar su privacidad y seguridad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/change-these-mobile-settings-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cambia Estos Ajustes Móviles Para Mejorar la Privacidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -994,7 +994,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Realice los cambios necesarios en la configuración de su escritorio para mejorar su privacidad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/desktop-settings-to-change-for-better-privacy&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Configuraciones De Escritorio Para Cambiar Por Mejor Privacidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1008,10 +1008,10 @@
     
     <item>
       <title>Usuario de la Darknet</title>
-      <link>http://localhost:1313/es/checklists/darknet-user/</link>
+      <link>http://192.168.0.135:1313/es/checklists/darknet-user/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/darknet-user/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/darknet-user/</guid>
       <description>
         
         
@@ -1037,7 +1037,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Aprende los fundamentos antes de acceder a cualquier servicio de la darknet.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Navegando Por la Web de Forma Anónima: Una Guía Sobre Los Fundamentos de Tor
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1074,10 +1074,10 @@
     
     <item>
       <title>Vigilancia Masiva</title>
-      <link>http://localhost:1313/es/checklists/mass-surveillance/</link>
+      <link>http://192.168.0.135:1313/es/checklists/mass-surveillance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/es/checklists/mass-surveillance/</guid>
+      <guid>http://192.168.0.135:1313/es/checklists/mass-surveillance/</guid>
       <description>
         
         
@@ -1103,7 +1103,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Cambiar a Linux puede mejorar tu privacidad y seguridad al reducir la dependencia del software propietario.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Cómo Cambiar a Linux Sin Esfuerzo: Guía Paso a Paso
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1133,7 +1133,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usar frontends de redes sociales puede ayudarte a mantener la privacidad mientras sigues interactuando con las mismas plataformas.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/why-you-should-ditch-social-media-and-use-a-frontend&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Por Qué Deberías Dejar Las Redes Sociales Y Usar Un Frontend
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1163,7 +1163,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Ten cuidado con la información personal que compartes en línea para proteger tu privacidad.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/limit-the-personal-information-you-share-online&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Limite la Información Personal Que Comparte en Línea
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1193,7 +1193,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Usar un navegador privado puede ayudar a proteger tus actividades en línea de miradas indiscretas.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/why-you-need-a-private-browser-to-protect-yourself&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Por Qué Necesitas Un Navegador Privado Para Protegerte
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1223,7 +1223,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Opta por un motor de búsqueda enfocado en la privacidad para mejorar tu anonimato en línea.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/searching-safely-with-a-privacy-focused-search-engine&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Buscar de Manera Segura Con Un Motor de Búsqueda Centrado en la Privacidad
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1253,7 +1253,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para tu conexión a internet.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       ¿Qué Es Una VPN? ¿Y Deberías Usar Una?
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;
@@ -1283,7 +1283,7 @@
   &lt;/div&gt;
   &lt;p class=&#34;item-description&#34;&gt;Comprar cosas con efectivo o criptomonedas para mejorar tu privacidad financiera.&lt;/p&gt;
   
-    &lt;a href=&#34;http://localhost:1313/es/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
+    &lt;a href=&#34;http://192.168.0.135:1313/es/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace&#34; target=&#34;_blank&#34; class=&#34;article-link&#34;&gt;
       Criptomonedas y Anonimato: Una Guía para Comprar Sin Dejar Rastro
       &lt;svg class=&#34;hx-w-5 hx-h-5&#34; style=&#34;display: inline; margin: 0 0 0.35rem 0.4rem;&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; aria-hidden=&#34;true&#34;&gt;
         &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34; /&gt;

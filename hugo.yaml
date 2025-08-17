@@ -19,16 +19,16 @@ outputs:
 defaultContentLanguage: en
 languages:
   en:
-    languageName: 🇺🇸 English
+    languageName: English
     weight: 1
     title: Beginner Privacy
   es:
-    languageName: 🇪🇸 Español
+    languageName: Español
     languageCode: es
     weight: 2
     title: Beginner Privacy
   zh-cn:
-    languageName: 🇨🇳 简体中文
+    languageName: 简体中文
     languageCode: zh-CN
     weight: 4
     title: Beginner Privacy

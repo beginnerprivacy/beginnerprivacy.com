@@ -77,24 +77,40 @@ section#contributors {
 
 .language-switcher-label {
   display: none;
+  font-size: 1rem;
+  color: var(--color-black);
 }
 
-.language-switcher-flag-icon {
-  font-size: 25px;
-  margin-top: -4px;
+.language-switcher-label svg {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3px;
+}
+
+.language-flag-icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3px;
 }
 
 @media (max-width: 768px) {
   .language-theme-container {
     display: none;
   }
+
   .language-theme-sidebar-container {
     display: block;
   }
-  .language-switcher-label {
-    display: block;
+
+  .language-theme-sidebar-container .language-options {
+    inset: auto auto 0 0;
   }
-  .language-switcher-flag-icon {
+
+  .language-switcher-label {
+    display: inline-flex;
+  }
+
+  .language-switcher-flag-current {
     display: none;
   }
 }

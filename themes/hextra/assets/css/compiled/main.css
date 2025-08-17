@@ -578,6 +578,9 @@ video {
 .hx-order-last {
   order: 9999;
 }
+.hx-m-auto {
+  margin: auto;
+}
 .hx-m-\[11px\] {
   margin: 11px;
 }
