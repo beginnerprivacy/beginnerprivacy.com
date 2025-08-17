@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://beginnerprivacy.com"><img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/hextra/refs/heads/main/static/android-chrome-192x192.png" width="150"></a>
+  <a href="https://beginnerprivacy.com"><img alt="Beginner Privacy Logo" src="https://raw.githubusercontent.com/beginnerprivacy/beginnerprivacy.com/refs/heads/main/themes/hextra/static/android-chrome-192x192.png" width="150"></a>
   <h1>Beginner Privacy</h1>
 
   <p>
