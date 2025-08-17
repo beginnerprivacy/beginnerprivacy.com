@@ -119,7 +119,7 @@ section#contributors {
 
 @media (max-width: 500px) {
   .hero-waves svg.waves {
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -138,8 +138,14 @@ section#contributors {
 }
 
 @media (max-height: 710px) {
+  .hero-waves svg.waves {
+    height: 150px;
+  }
+}
+
+@media (max-height: 640px) {
   .hero {
-    padding-top: 0;
+    padding-top: 0rem;
   }
 }
 
