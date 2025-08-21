@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – Articles</title>
-    <link>http://192.168.0.135:1313/articles/</link>
+    <link>http://localhost:1313/articles/</link>
     <description>Recent content in Articles on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="http://192.168.0.135:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Understanding Privacy Laws Around the World and How They Affect You</title>
-      <link>http://192.168.0.135:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</link>
+      <link>http://localhost:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</guid>
+      <guid>http://localhost:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</guid>
       <description>
         
         
@@ -121,10 +121,10 @@
     
     <item>
       <title>How to Torrent Safely and Anonymously</title>
-      <link>http://192.168.0.135:1313/articles/how-to-torrent-safely-and-anonymously/</link>
+      <link>http://localhost:1313/articles/how-to-torrent-safely-and-anonymously/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-to-torrent-safely-and-anonymously/</guid>
+      <guid>http://localhost:1313/articles/how-to-torrent-safely-and-anonymously/</guid>
       <description>
         
         
@@ -242,10 +242,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>What Is a Privacy Screen Protector and Should You Use One?</title>
-      <link>http://192.168.0.135:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</link>
+      <link>http://localhost:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</link>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</guid>
+      <guid>http://localhost:1313/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/</guid>
       <description>
         
         
@@ -258,17 +258,17 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
 &lt;h3&gt;Should You Use a Privacy Screen Protector?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;should-you-use-a-privacy-screen-protector&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#should-you-use-a-privacy-screen-protector&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The short answer is yes, especially for devices you frequently use in public spaces. In these environments, the risk of &amp;ldquo;visual hacking,&amp;rdquo; also known as shoulder surfing, is significantly higher. A privacy screen protector can provide an added layer of security, helping to keep your sensitive information safe from curious onlookers.&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;You can usually find privacy screen protectors at your local electronics store or purchase them online. If you&amp;rsquo;re interested in learning more about how to shop anonymously online, check out &lt;a href=&#34;http://192.168.0.135:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/&#34; &gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can usually find privacy screen protectors at your local electronics store or purchase them online. If you&amp;rsquo;re interested in learning more about how to shop anonymously online, check out &lt;a href=&#34;http://localhost:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/&#34; &gt;this article&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Planning Your Trip to and From a Protest</title>
-      <link>http://192.168.0.135:1313/articles/planning-your-trip-to-and-from-a-protest/</link>
+      <link>http://localhost:1313/articles/planning-your-trip-to-and-from-a-protest/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/planning-your-trip-to-and-from-a-protest/</guid>
+      <guid>http://localhost:1313/articles/planning-your-trip-to-and-from-a-protest/</guid>
       <description>
         
         
@@ -309,10 +309,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Where to Hide: A Guide to Countries That Won&#39;t Extradite You</title>
-      <link>http://192.168.0.135:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</link>
+      <link>http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</guid>
+      <guid>http://localhost:1313/articles/where-to-hide-a-guide-to-countries-that-wont-extradite-you/</guid>
       <description>
         
         
@@ -551,10 +551,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Stay Under the Radar: Clothing Tips to Conceal Your Identity</title>
-      <link>http://192.168.0.135:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
+      <link>http://localhost:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
+      <guid>http://localhost:1313/articles/stay-under-the-radar-clothing-tips-to-conceal-your-identity/</guid>
       <description>
         
         
@@ -626,10 +626,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Game On: A Beginner&#39;s Guide to Linux Gaming</title>
-      <link>http://192.168.0.135:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
+      <link>http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
+      <guid>http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming/</guid>
       <description>
         
         
@@ -652,10 +652,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>How and Why Backing Up Your Devices Is Crucial</title>
-      <link>http://192.168.0.135:1313/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
+      <link>http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-and-why-backing-up-your-devices-is-crucial/</guid>
+      <guid>http://localhost:1313/articles/how-and-why-backing-up-your-devices-is-crucial/</guid>
       <description>
         
         
@@ -747,7 +747,7 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Store the USB Drive Securely&lt;/strong&gt;: Keep the USB drive in a safe place when not in use, and &lt;a href=&#34;http://192.168.0.135:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;remember your password&lt;/a&gt; to access your files when needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Store the USB Drive Securely&lt;/strong&gt;: Keep the USB drive in a safe place when not in use, and &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely&#34; &gt;remember your password&lt;/a&gt; to access your files when needed.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Making a Backup in the Cloud&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;making-a-backup-in-the-cloud&#34;&gt;&lt;/span&gt;
@@ -792,10 +792,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Threat Intelligence Explained: How to Leverage It for Enhanced Security</title>
-      <link>http://192.168.0.135:1313/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</link>
+      <link>http://localhost:1313/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</link>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</guid>
+      <guid>http://localhost:1313/articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security/</guid>
       <description>
         
         
@@ -904,10 +904,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Why You Should Enhance Your Physical Security</title>
-      <link>http://192.168.0.135:1313/articles/why-you-should-enhance-your-physical-security/</link>
+      <link>http://localhost:1313/articles/why-you-should-enhance-your-physical-security/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-should-enhance-your-physical-security/</guid>
+      <guid>http://localhost:1313/articles/why-you-should-enhance-your-physical-security/</guid>
       <description>
         
         
@@ -953,7 +953,7 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
 &lt;h4&gt;Public Spaces&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;public-spaces&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#public-spaces&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Be Mindful of Your Surroundings&lt;/strong&gt;: Practice situational awareness by paying attention to who is around you. Be cautious about sharing personal information in public spaces and consider your &lt;a href=&#34;http://192.168.0.135:1313/articles/how-to-find-a-threat-model-that-suits-you&#34; &gt;threat model&lt;/a&gt;—understanding the specific risks you face can help you make informed decisions about your security practices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be Mindful of Your Surroundings&lt;/strong&gt;: Practice situational awareness by paying attention to who is around you. Be cautious about sharing personal information in public spaces and consider your &lt;a href=&#34;http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you&#34; &gt;threat model&lt;/a&gt;—understanding the specific risks you face can help you make informed decisions about your security practices.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Self-Defense Preparedness&lt;/strong&gt;: Consider carrying self-defense tools, such as pepper spray or a gun, to protect yourself in threatening situations. However, remember to always check the legality of these tools in your country or state. Additionally, it&amp;rsquo;s essential to be trained in hand-to-hand combat, to effectively use these tools if necessary.&lt;/p&gt;
@@ -965,10 +965,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Cryptocurrency and Anonymity: A Guide to Buying Things Without a Trace</title>
-      <link>http://192.168.0.135:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</link>
+      <link>http://localhost:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</guid>
+      <guid>http://localhost:1313/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace/</guid>
       <description>
         
         
@@ -1061,10 +1061,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Why You Should Start Self-Hosting Your Own Services</title>
-      <link>http://192.168.0.135:1313/articles/why-you-should-start-self-hosting-your-own-services/</link>
+      <link>http://localhost:1313/articles/why-you-should-start-self-hosting-your-own-services/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-should-start-self-hosting-your-own-services/</guid>
+      <guid>http://localhost:1313/articles/why-you-should-start-self-hosting-your-own-services/</guid>
       <description>
         
         
@@ -1166,10 +1166,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>The Best Private Mobile Operating Systems</title>
-      <link>http://192.168.0.135:1313/articles/the-best-private-mobile-operating-systems/</link>
+      <link>http://localhost:1313/articles/the-best-private-mobile-operating-systems/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/the-best-private-mobile-operating-systems/</guid>
+      <guid>http://localhost:1313/articles/the-best-private-mobile-operating-systems/</guid>
       <description>
         
         
@@ -1233,10 +1233,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>The Best Desktop Operating Systems for High-Risk Individuals</title>
-      <link>http://192.168.0.135:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
+      <link>http://localhost:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
+      <guid>http://localhost:1313/articles/the-best-desktop-operating-systems-for-high-risk-individuals/</guid>
       <description>
         
         
@@ -1292,10 +1292,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Navigating the Web Anonymously: A Guide to Tor Basics</title>
-      <link>http://192.168.0.135:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
+      <link>http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
+      <guid>http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics/</guid>
       <description>
         
         
@@ -1390,10 +1390,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>How to Remove Yourself From Data Brokers</title>
-      <link>http://192.168.0.135:1313/articles/how-to-remove-yourself-from-data-brokers/</link>
+      <link>http://localhost:1313/articles/how-to-remove-yourself-from-data-brokers/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-to-remove-yourself-from-data-brokers/</guid>
+      <guid>http://localhost:1313/articles/how-to-remove-yourself-from-data-brokers/</guid>
       <description>
         
         
@@ -1467,10 +1467,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Why You Should Ditch Social Media and Use a Frontend</title>
-      <link>http://192.168.0.135:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/</link>
+      <link>http://localhost:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/</guid>
+      <guid>http://localhost:1313/articles/why-you-should-ditch-social-media-and-use-a-frontend/</guid>
       <description>
         
         
@@ -1656,10 +1656,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Why You Need to Use an Encrypted DNS</title>
-      <link>http://192.168.0.135:1313/articles/why-you-need-to-use-an-encrypted-dns/</link>
+      <link>http://localhost:1313/articles/why-you-need-to-use-an-encrypted-dns/</link>
       <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-need-to-use-an-encrypted-dns/</guid>
+      <guid>http://localhost:1313/articles/why-you-need-to-use-an-encrypted-dns/</guid>
       <description>
         
         
@@ -1736,10 +1736,10 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>Don&#39;t Get Hooked: How to Recognize and Avoid Phishing Emails</title>
-      <link>http://192.168.0.135:1313/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</link>
+      <link>http://localhost:1313/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</guid>
+      <guid>http://localhost:1313/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/</guid>
       <description>
         
         
@@ -1828,17 +1828,17 @@ A VPN is a popular and effective option for maintaining anonymity while torrenti
     
     <item>
       <title>How to Effortlessly Switch to Linux: Step-by-Step Guide</title>
-      <link>http://192.168.0.135:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</link>
+      <link>http://localhost:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</guid>
+      <guid>http://localhost:1313/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/</guid>
       <description>
         
         
         &lt;h3&gt;Why Switch to Linux?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-switch-to-linux&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#why-switch-to-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux isn’t just for tech wizards—it’s a powerful, open-source operating system that prioritizes &lt;strong&gt;privacy&lt;/strong&gt;, &lt;strong&gt;customization&lt;/strong&gt;, and &lt;strong&gt;stability&lt;/strong&gt;. Unlike Windows or macOS, Linux doesn’t track your activity or force you into proprietary ecosystems. It’s free to use, modify, and share, backed by a global community of developers. Whether you’re a privacy-conscious user, a tinkerer, or someone tired of bloated software, Linux offers a refreshing alternative.&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;You might say that you still want to play your favorite games. The good news is that you can! Many popular games are now available on Linux, and with tools like Proton, you can enjoy a wide range of games that were once exclusive to Windows. If you want to learn more about playing your favorite games on Linux, read our article &lt;a href=&#34;http://192.168.0.135:1313/articles/game-on-a-beginners-guide-to-linux-gaming&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You might say that you still want to play your favorite games. The good news is that you can! Many popular games are now available on Linux, and with tools like Proton, you can enjoy a wide range of games that were once exclusive to Windows. If you want to learn more about playing your favorite games on Linux, read our article &lt;a href=&#34;http://localhost:1313/articles/game-on-a-beginners-guide-to-linux-gaming&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Choosing Your Linux Distribution&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;choosing-your-linux-distribution&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#choosing-your-linux-distribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;With hundreds of distributions (or “distros”) available, picking the right one can feel overwhelming. Here’s a quick breakdown:&lt;/p&gt;
 &lt;ul&gt;
@@ -2023,10 +2023,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Break Free from Proprietary Software with FOSS</title>
-      <link>http://192.168.0.135:1313/articles/break-free-from-proprietary-software-with-foss/</link>
+      <link>http://localhost:1313/articles/break-free-from-proprietary-software-with-foss/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/break-free-from-proprietary-software-with-foss/</guid>
+      <guid>http://localhost:1313/articles/break-free-from-proprietary-software-with-foss/</guid>
       <description>
         
         
@@ -2105,10 +2105,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Ditch SMS and Use Secure Communication Methods</title>
-      <link>http://192.168.0.135:1313/articles/ditch-sms-and-use-secure-communication-methods/</link>
+      <link>http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/ditch-sms-and-use-secure-communication-methods/</guid>
+      <guid>http://localhost:1313/articles/ditch-sms-and-use-secure-communication-methods/</guid>
       <description>
         
         
@@ -2211,10 +2211,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Protect Your Communication with a Private Email</title>
-      <link>http://192.168.0.135:1313/articles/protect-your-communication-with-a-private-email/</link>
+      <link>http://localhost:1313/articles/protect-your-communication-with-a-private-email/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/protect-your-communication-with-a-private-email/</guid>
+      <guid>http://localhost:1313/articles/protect-your-communication-with-a-private-email/</guid>
       <description>
         
         
@@ -2279,10 +2279,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Desktop Settings to Change for Better Privacy</title>
-      <link>http://192.168.0.135:1313/articles/desktop-settings-to-change-for-better-privacy/</link>
+      <link>http://localhost:1313/articles/desktop-settings-to-change-for-better-privacy/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/desktop-settings-to-change-for-better-privacy/</guid>
+      <guid>http://localhost:1313/articles/desktop-settings-to-change-for-better-privacy/</guid>
       <description>
         
         
@@ -2358,10 +2358,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Change These Mobile Settings for Better Privacy</title>
-      <link>http://192.168.0.135:1313/articles/change-these-mobile-settings-for-better-privacy/</link>
+      <link>http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/change-these-mobile-settings-for-better-privacy/</guid>
+      <guid>http://localhost:1313/articles/change-these-mobile-settings-for-better-privacy/</guid>
       <description>
         
         
@@ -2437,10 +2437,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>What Is a VPN? And Should You Use One?</title>
-      <link>http://192.168.0.135:1313/articles/what-is-a-vpn-and-should-you-use-one/</link>
+      <link>http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/what-is-a-vpn-and-should-you-use-one/</guid>
+      <guid>http://localhost:1313/articles/what-is-a-vpn-and-should-you-use-one/</guid>
       <description>
         
         
@@ -2451,7 +2451,7 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
 &lt;h3&gt;What Does a VPN Protect You From?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-does-a-vpn-protect-you-from&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-does-a-vpn-protect-you-from&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;While a VPN is effective at hiding your IP address, accessing geo-restricted content, and preventing ISP surveillance, it does not protect you from hackers, phishing emails, or other threats. Authorities can still request information from the VPN company, which may have a no-logging policy regarding your internet activity but could still retain personal information like your email, phone number, and real name.&lt;/p&gt;
 &lt;br&gt;
-&lt;p&gt;If you&amp;rsquo;re considering engaging in more serious activities that require enhanced anonymity, we recommend reading our &lt;a href=&#34;http://192.168.0.135:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;article about Tor&lt;/a&gt; for a more secure option.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re considering engaging in more serious activities that require enhanced anonymity, we recommend reading our &lt;a href=&#34;http://localhost:1313/articles/navigating-the-web-anonymously-a-guide-to-tor-basics&#34; &gt;article about Tor&lt;/a&gt; for a more secure option.&lt;/p&gt;
 &lt;h3&gt;How to Choose a Good VPN&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-to-choose-a-good-vpn&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-to-choose-a-good-vpn&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When searching for a reliable VPN, trustworthiness is crucial since the service will have access to your online activities. Here are key factors to consider when evaluating a VPN:&lt;/p&gt;
 &lt;ul&gt;
@@ -2522,10 +2522,10 @@ For advanced users: Create, resize, or retain partitions (e.g., dual-boot with W
     
     <item>
       <title>Searching Safely with a Privacy Focused Search Engine</title>
-      <link>http://192.168.0.135:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</link>
+      <link>http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</guid>
+      <guid>http://localhost:1313/articles/searching-safely-with-a-privacy-focused-search-engine/</guid>
       <description>
         
         
@@ -2588,10 +2588,10 @@ When you type a search, the engine digs through its index to find pages matching
     
     <item>
       <title>Why You Need a Private Browser to Protect Yourself</title>
-      <link>http://192.168.0.135:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</link>
+      <link>http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</guid>
+      <guid>http://localhost:1313/articles/why-you-need-a-private-browser-to-protect-yourself/</guid>
       <description>
         
         
@@ -2690,10 +2690,10 @@ When you type a search, the engine digs through its index to find pages matching
     
     <item>
       <title>Limit the Personal Information You Share Online</title>
-      <link>http://192.168.0.135:1313/articles/limit-the-personal-information-you-share-online/</link>
+      <link>http://localhost:1313/articles/limit-the-personal-information-you-share-online/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/limit-the-personal-information-you-share-online/</guid>
+      <guid>http://localhost:1313/articles/limit-the-personal-information-you-share-online/</guid>
       <description>
         
         
@@ -2803,10 +2803,10 @@ When you type a search, the engine digs through its index to find pages matching
     
     <item>
       <title>Two-Factor Authentication (2FA) and Why You Need It</title>
-      <link>http://192.168.0.135:1313/articles/two-factor-authentication-and-why-you-need-it/</link>
+      <link>http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/two-factor-authentication-and-why-you-need-it/</guid>
+      <guid>http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it/</guid>
       <description>
         
         
@@ -2856,7 +2856,7 @@ When you type a search, the engine digs through its index to find pages matching
 &lt;li&gt;&lt;strong&gt;Other:&lt;/strong&gt; Usually the same steps as the platforms above.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recommended Authenticator Apps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;recommended-authenticator-apps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;http://192.168.0.135:1313/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; &gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
+    &lt;a href=&#34;#recommended-authenticator-apps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Here are the authenticator apps we recommend for storing your 2FA codes. Many &lt;a href=&#34;http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/#storing-passwords-securely&#34; &gt;password managers&lt;/a&gt; can also store 2FA codes.&lt;/p&gt;
 &lt;div class=&#34;recommendations&#34;&gt;
   &lt;div class=&#34;grid&#34;&gt;
     &lt;div class=&#34;recommendation-card&#34;&gt;
@@ -2899,10 +2899,10 @@ When you type a search, the engine digs through its index to find pages matching
     
     <item>
       <title>How to Create Strong Passwords and Store Them Securely</title>
-      <link>http://192.168.0.135:1313/articles/how-to-create-strong-passwords-and-store-them-securely/</link>
+      <link>http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-to-create-strong-passwords-and-store-them-securely/</guid>
+      <guid>http://localhost:1313/articles/how-to-create-strong-passwords-and-store-them-securely/</guid>
       <description>
         
         
@@ -2999,10 +2999,10 @@ When you type a search, the engine digs through its index to find pages matching
     
     <item>
       <title>How to Find a Threat Model That Suits You</title>
-      <link>http://192.168.0.135:1313/articles/how-to-find-a-threat-model-that-suits-you/</link>
+      <link>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/how-to-find-a-threat-model-that-suits-you/</guid>
+      <guid>http://localhost:1313/articles/how-to-find-a-threat-model-that-suits-you/</guid>
       <description>
         
         
@@ -3143,10 +3143,10 @@ const resultTexts = {
     
     <item>
       <title>Why You Should Care About Your Privacy</title>
-      <link>http://192.168.0.135:1313/articles/why-you-should-care-about-your-privacy/</link>
+      <link>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/articles/why-you-should-care-about-your-privacy/</guid>
+      <guid>http://localhost:1313/articles/why-you-should-care-about-your-privacy/</guid>
       <description>
         
         

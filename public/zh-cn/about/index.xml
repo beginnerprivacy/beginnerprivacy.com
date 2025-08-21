@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beginner Privacy – 关于</title>
-    <link>http://192.168.0.135:1313/zh-cn/about/</link>
+    <link>http://localhost:1313/zh-cn/about/</link>
     <description>Recent content in 关于 on Beginner Privacy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	  <atom:link href="http://192.168.0.135:1313/zh-cn/about/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/zh-cn/about/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>本地设置</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/setup-locally/</link>
+      <link>http://localhost:1313/zh-cn/about/setup-locally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/setup-locally/</guid>
+      <guid>http://localhost:1313/zh-cn/about/setup-locally/</guid>
       <description>
         
         
@@ -182,10 +182,10 @@
     
     <item>
       <title>年第二季度透明度报告</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/transparency/2025/q2/</link>
+      <link>http://localhost:1313/zh-cn/about/transparency/2025/q2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/transparency/2025/q2/</guid>
+      <guid>http://localhost:1313/zh-cn/about/transparency/2025/q2/</guid>
       <description>
         
         
@@ -225,10 +225,10 @@
     
     <item>
       <title>2025 年第一季度透明度报告</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/transparency/2025/q1/</link>
+      <link>http://localhost:1313/zh-cn/about/transparency/2025/q1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/transparency/2025/q1/</guid>
+      <guid>http://localhost:1313/zh-cn/about/transparency/2025/q1/</guid>
       <description>
         
         
@@ -249,10 +249,10 @@
     
     <item>
       <title>法律免责声明</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/legal-disclaimer/</link>
+      <link>http://localhost:1313/zh-cn/about/legal-disclaimer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/legal-disclaimer/</guid>
+      <guid>http://localhost:1313/zh-cn/about/legal-disclaimer/</guid>
       <description>
         
         
@@ -277,10 +277,10 @@
     
     <item>
       <title>翻译</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/translate/</link>
+      <link>http://localhost:1313/zh-cn/about/translate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/translate/</guid>
+      <guid>http://localhost:1313/zh-cn/about/translate/</guid>
       <description>
         
         
@@ -291,10 +291,10 @@
     
     <item>
       <title>高级</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/advanced/</link>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/advanced/</guid>
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/advanced/</guid>
       <description>
         
         
@@ -310,10 +310,10 @@
     
     <item>
       <title>贡献者</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/contributors/</link>
+      <link>http://localhost:1313/zh-cn/about/contributors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/contributors/</guid>
+      <guid>http://localhost:1313/zh-cn/about/contributors/</guid>
       <description>
         
         
@@ -339,10 +339,10 @@
     
     <item>
       <title>关于贡献</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/about-contributing/</link>
+      <link>http://localhost:1313/zh-cn/about/about-contributing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/about-contributing/</guid>
+      <guid>http://localhost:1313/zh-cn/about/about-contributing/</guid>
       <description>
         
         
@@ -368,10 +368,10 @@
     
     <item>
       <title>基础</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/basic/</link>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/basic/</guid>
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/basic/</guid>
       <description>
         
         
@@ -387,10 +387,10 @@
     
     <item>
       <title>加入SimpleX群组</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/join-simplex-group/</link>
+      <link>http://localhost:1313/zh-cn/about/join-simplex-group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/join-simplex-group/</guid>
+      <guid>http://localhost:1313/zh-cn/about/join-simplex-group/</guid>
       <description>
         
         
@@ -481,10 +481,10 @@
     
     <item>
       <title>捐赠</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/donate/</link>
+      <link>http://localhost:1313/zh-cn/about/donate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/donate/</guid>
+      <guid>http://localhost:1313/zh-cn/about/donate/</guid>
       <description>
         
         
@@ -518,10 +518,10 @@
     
     <item>
       <title>联系我们</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/contact/</link>
+      <link>http://localhost:1313/zh-cn/about/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/contact/</guid>
+      <guid>http://localhost:1313/zh-cn/about/contact/</guid>
       <description>
         
         
@@ -537,10 +537,10 @@
     
     <item>
       <title>软件标准</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/software-criteria/</link>
+      <link>http://localhost:1313/zh-cn/about/software-criteria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/software-criteria/</guid>
+      <guid>http://localhost:1313/zh-cn/about/software-criteria/</guid>
       <description>
         
         
@@ -559,10 +559,10 @@
     
     <item>
       <title>统计</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/statistics/</link>
+      <link>http://localhost:1313/zh-cn/about/statistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/statistics/</guid>
+      <guid>http://localhost:1313/zh-cn/about/statistics/</guid>
       <description>
         
         
@@ -589,10 +589,10 @@
     
     <item>
       <title>写内容</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/write-content/</link>
+      <link>http://localhost:1313/zh-cn/about/write-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/write-content/</guid>
+      <guid>http://localhost:1313/zh-cn/about/write-content/</guid>
       <description>
         
         
@@ -966,10 +966,10 @@ const resultTexts = {
     
     <item>
       <title>行为准则</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/code-of-conduct/</link>
+      <link>http://localhost:1313/zh-cn/about/code-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/code-of-conduct/</guid>
+      <guid>http://localhost:1313/zh-cn/about/code-of-conduct/</guid>
       <description>
         
         
@@ -1006,10 +1006,10 @@ const resultTexts = {
     
     <item>
       <title>隐私政策</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/privacy-policy/</link>
+      <link>http://localhost:1313/zh-cn/about/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/privacy-policy/</guid>
+      <guid>http://localhost:1313/zh-cn/about/privacy-policy/</guid>
       <description>
         
         
@@ -1050,10 +1050,10 @@ const resultTexts = {
     
     <item>
       <title>致谢</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/credits/</link>
+      <link>http://localhost:1313/zh-cn/about/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/credits/</guid>
+      <guid>http://localhost:1313/zh-cn/about/credits/</guid>
       <description>
         
         
@@ -1084,10 +1084,10 @@ const resultTexts = {
     
     <item>
       <title>中等</title>
-      <link>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/medium/</link>
+      <link>http://localhost:1313/zh-cn/about/roadmap-introductions/medium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://192.168.0.135:1313/zh-cn/about/roadmap-introductions/medium/</guid>
+      <guid>http://localhost:1313/zh-cn/about/roadmap-introductions/medium/</guid>
       <description>
         
         
