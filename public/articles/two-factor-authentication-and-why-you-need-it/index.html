@@ -17,7 +17,7 @@
 <meta property="og:description" content="Imagine this: You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.
 Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute force attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.
 How Does 2FA Work?
-    Two-Factor Authentication (2FA) secures your account by requiring two distinct forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works step-by-step:" />
+    Two-Factor Authentication (2FA) strengthens account security by requiring two forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/articles/two-factor-authentication-and-why-you-need-it/" /><meta property="og:image" content="http://localhost:1313/images/og_image.png"/><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2025-02-03T00:00:00+00:00" />
@@ -29,15 +29,15 @@ How Does 2FA Work?
 <meta name="twitter:description" content="Imagine this: You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.
 Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute force attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.
 How Does 2FA Work?
-    Two-Factor Authentication (2FA) secures your account by requiring two distinct forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works step-by-step:">
+    Two-Factor Authentication (2FA) strengthens account security by requiring two forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works:">
 
   <meta itemprop="name" content="Two-Factor Authentication (2FA) and Why You Need It">
   <meta itemprop="description" content="Imagine this: You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.
 Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute force attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.
-How Does 2FA Work? Two-Factor Authentication (2FA) secures your account by requiring two distinct forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works step-by-step:">
+How Does 2FA Work? Two-Factor Authentication (2FA) strengthens account security by requiring two forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works:">
   <meta itemprop="datePublished" content="2025-02-03T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-08-12T18:45:04+02:00">
-  <meta itemprop="wordCount" content="581">
+  <meta itemprop="wordCount" content="377">
   <meta itemprop="image" content="http://localhost:1313/images/og_image.png">
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -1191,24 +1191,19 @@ How Does 2FA Work? Two-Factor Authentication (2FA) secures your account by requi
           <p><strong>Imagine this:</strong> You’ve used the same password for years. Then, an email says someone logged into your bank account from another country.</p>
 <p>Passwords alone aren’t enough. Hackers steal them via phishing, leaks, or brute force attacks. Two-Factor Authentication (2FA) adds a second layer to stop them.</p>
 <h3>How Does 2FA Work?<span class="hx-absolute -hx-mt-20" id="how-does-2fa-work"></span>
-    <a href="#how-does-2fa-work" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Two-Factor Authentication (2FA) secures your account by requiring two distinct forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works step-by-step:</p>
+    <a href="#how-does-2fa-work" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Two-Factor Authentication (2FA) strengthens account security by requiring two forms of verification: something you know (your password) and something you have or are (a second factor). Here’s how it works:</p>
 <ol>
-<li>
-<p><strong>You Enter Your Password</strong>: When you log in, you type your usual password. This is the first factor, proving you know the account credentials. The system checks if it matches the stored, encrypted password.</p>
-</li>
-<li>
-<p><strong>The System Requests a Second Factor</strong>: If the password is correct, the service prompts for a second piece of proof to confirm it’s really you. This second factor is independent of your password and uses a different method to verify your identity. Common types include:</p>
+<li><strong>Enter Your Password</strong>: You input your password, which the system verifies against its encrypted records.</li>
+<li><strong>Provide a Second Factor</strong>: If the password is correct, you’re prompted for a second proof of identity, such as:
 <ul>
-<li><strong>One-Time Code</strong>: A temporary, unique code (usually 6-8 digits) generated by an authenticator app, sent via SMS, or emailed. For apps, the code is created using a shared secret key (set up during 2FA enrollment, often via a QR code) and a time-based algorithm (TOTP, or Time-Based One-Time Password). The code refreshes every 30 seconds, making it useless to hackers after a short window.</li>
-<li><strong>Biometrics</strong>: A fingerprint, face scan, or other unique physical trait. The device scans your biometric data, encrypts it, and compares it to a stored template. This only works on devices you’ve registered, ensuring the data stays local and secure.</li>
-<li><strong>Physical Security Key</strong>: A device like a YubiKey that you plug into your computer or tap on your phone. When prompted, the key uses cryptographic protocols (like FIDO2 or U2F) to confirm your identity with a unique digital signature, proving you possess the physical device.</li>
+<li><strong>One-Time Code</strong>: A temporary code from an authenticator app, SMS, or email, refreshed every 30 seconds.</li>
+<li><strong>Biometrics</strong>: A fingerprint or face scan, checked against a secure, device-stored template.</li>
+<li><strong>Security Key</strong>: A physical device (e.g., YubiKey) that confirms your identity with a unique digital signature.</li>
 </ul>
 </li>
-<li>
-<p><strong>Verification and Access</strong>: The service checks the second factor against its records. For example, it confirms the one-time code matches the expected TOTP for that moment or validates the security key’s signature. If both the password and second factor are correct, you’re granted access. If either fails, the login is blocked, keeping hackers out even if they have your password.</p>
-</li>
+<li><strong>Access Granted</strong>: If both factors match, you’re logged in. If either fails, access is denied.</li>
 </ol>
-<p>This dual-check process makes 2FA highly effective because stealing your password isn’t enough—hackers also need access to your second factor, which is much harder to obtain.</p>
+<p>2FA is effective because hackers need both your password and second factor, which is much harder to steal.</p>
 <h3>Types of 2FA: Which Should You Use?<span class="hx-absolute -hx-mt-20" id="types-of-2fa-which-should-you-use"></span>
     <a href="#types-of-2fa-which-should-you-use" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Not all 2FA methods are equally secure.</p>
 <ul>
