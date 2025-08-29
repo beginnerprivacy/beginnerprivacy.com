@@ -23,6 +23,16 @@ Linux游戏最重要的工具之一是[Proton](https://github.com/ValveSoftware/
 ### Lutris：全面的游戏管理器
 除了Proton，还有[Lutris](https://lutris.net/)，这是一个支持多种游戏来源的开源游戏管理器。Lutris允许用户管理本地Linux游戏、通过Wine运行的Windows游戏，甚至经典游戏机的模拟器。它通过自动化设置的脚本简化了安装过程，使所有技能水平的用户都能轻松使用。
 
+### 最佳 Linux 游戏发行版
+选择合适的 Linux 发行版可以提升你的游戏体验。以下是三个适合初学者的游戏发行版：
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="由 System76 开发，Pop!_OS 针对游戏进行了优化" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="一款广受欢迎、用户友好的发行版，拥有庞大的社区" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="基于 Ubuntu，Linux Mint 轻量且适合老旧硬件" buttonText="访问网站" >}}
+  </div>
+</div>
+
 ### 最后思考
 Linux游戏已经走过了很长的路，曾经使玩家难以切换的障碍正在减少。借助Proton和Lutris等工具，在Linux上玩游戏比以往任何时候都更可行。如果你因为对游戏可用性的担忧而犹豫不决，现在是探索可用选项的好时机。
 

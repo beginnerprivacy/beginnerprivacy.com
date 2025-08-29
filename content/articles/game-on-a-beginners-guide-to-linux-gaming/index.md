@@ -23,6 +23,16 @@ Before diving into a new game, it’s helpful to check [ProtonDB](https://www.pr
 ### Lutris: A Comprehensive Game Manager
 In addition to Proton, there’s [Lutris](https://lutris.net/), an open-source game manager that supports a variety of game sources. Lutris allows users to manage native Linux games, Windows games through Wine, and even emulators for classic consoles. It simplifies the installation process with scripts that automate setup, making it accessible for users of all skill levels.
 
+### Best Linux Distros for Gaming
+Choosing the right Linux distribution can enhance your gaming experience. Here are three beginner-friendly distros ideal for gaming:
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="Developed by System76, Pop!_OS is optimized for gaming" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="A popular, user-friendly distro with a large community" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="Built on Ubuntu, Linux Mint is lightweight and ideal for older hardware" buttonText="Visit Website" >}}
+  </div>
+</div>
+
 ### Final Thoughts
 Linux gaming has come a long way, and the barriers that once made it difficult for gamers to switch are diminishing. With tools like Proton and Lutris, playing games on Linux is more feasible than ever. If you’ve been hesitant to make the switch due to concerns about game availability, now is a good time to explore the options available. 
 

@@ -2881,24 +2881,19 @@ Cuando escribes una búsqueda, el motor explora su índice para encontrar págin
         &lt;p&gt;&lt;strong&gt;Imagina esto:&lt;/strong&gt; Has usado la misma contraseña durante años. Luego, un correo electrónico te dice que alguien accedió a tu cuenta bancaria desde otro país.&lt;/p&gt;
 &lt;p&gt;Las contraseñas solas no son suficientes. Los hackers las roban mediante phishing, filtraciones o ataques de fuerza bruta. La Autenticación de Dos Factores (2FA) agrega una segunda capa para detenerlos.&lt;/p&gt;
 &lt;h3&gt;¿Cómo Funciona la 2FA?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cómo-funciona-la-2fa&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c%c3%b3mo-funciona-la-2fa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;La Autenticación de Dos Factores (2FA) protege tu cuenta al requerir dos formas distintas de verificación: algo que sabes (tu contraseña) y algo que tienes o eres (un segundo factor). Aquí te explicamos cómo funciona paso a paso:&lt;/p&gt;
+    &lt;a href=&#34;#c%c3%b3mo-funciona-la-2fa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;La autenticación de dos factores (2FA) refuerza la seguridad de tu cuenta al requerir dos formas de verificación: algo que sabes (tu contraseña) y algo que tienes o eres (un segundo factor). Así funciona:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Tú Ingresas tu Contraseña&lt;/strong&gt;: Cuando inicias sesión, escribes tu contraseña habitual. Este es el primer factor, que demuestra que conoces las credenciales de la cuenta. El sistema verifica si coincide con la contraseña almacenada y cifrada.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;El Sistema Solicita un Segundo Factor&lt;/strong&gt;: Si la contraseña es correcta, el servicio te pide una segunda prueba para confirmar que realmente eres tú. Este segundo factor es independiente de tu contraseña y utiliza un método diferente para verificar tu identidad. Los tipos más comunes incluyen:&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Ingresa tu contraseña&lt;/strong&gt;: Introduces tu contraseña, que el sistema verifica contra sus registros encriptados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proporciona un segundo factor&lt;/strong&gt;: Si la contraseña es correcta, se te pide una segunda prueba de identidad, como:
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Código de un Solo Uso&lt;/strong&gt;: Un código temporal y único (generalmente de 6 a 8 dígitos) generado por una aplicación autenticadora, enviado por SMS o correo electrónico. En las aplicaciones, el código se genera usando una clave secreta compartida (configurada durante la activación de 2FA, a menudo mediante un código QR) y un algoritmo basado en el tiempo (TOTP, o Contraseña de un Solo Uso Basada en el Tiempo). El código se actualiza cada 30 segundos, lo que lo hace inútil para los hackers después de un corto período.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Biometría&lt;/strong&gt;: Una huella dactilar, un escaneo facial u otra característica física única. El dispositivo escanea tus datos biométricos, los cifra y los compara con una plantilla almacenada. Esto solo funciona en dispositivos que hayas registrado, asegurando que los datos permanezcan locales y seguros.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Clave de Seguridad Física&lt;/strong&gt;: Un dispositivo como un YubiKey que conectas a tu computadora o tocas en tu teléfono. Cuando se te solicita, la clave usa protocolos criptográficos (como FIDO2 o U2F) para confirmar tu identidad con una firma digital única, demostrando que posees el dispositivo físico.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código de un solo uso&lt;/strong&gt;: Un código temporal de una aplicación autenticadora, SMS o correo electrónico, que se actualiza cada 30 segundos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biometría&lt;/strong&gt;: Un escaneo de huella dactilar o facial, comparado con una plantilla segura almacenada en el dispositivo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clave de seguridad&lt;/strong&gt;: Un dispositivo físico (por ejemplo, YubiKey) que confirma tu identidad con una firma digital única.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Verificación y Acceso&lt;/strong&gt;: El servicio verifica el segundo factor contra sus registros. Por ejemplo, confirma que el código de un solo uso coincide con el TOTP esperado en ese momento o valida la firma de la clave de seguridad. Si tanto la contraseña como el segundo factor son correctos, se te otorga acceso. Si alguno falla, el inicio de sesión se bloquea, manteniendo a los hackers fuera aunque tengan tu contraseña.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acceso concedido&lt;/strong&gt;: Si ambos factores coinciden, inicias sesión. Si uno falla, se deniega el acceso.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Este proceso de doble verificación hace que la 2FA sea muy efectiva porque robar tu contraseña no es suficiente: los hackers también necesitan acceso a tu segundo factor, lo cual es mucho más difícil de obtener.&lt;/p&gt;
+&lt;p&gt;La 2FA es efectiva porque los hackers necesitan tanto tu contraseña como el segundo factor, que es mucho más difícil de robar.&lt;/p&gt;
 &lt;h3&gt;Tipos de 2FA: ¿Cuál Deberías Usar?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tipos-de-2fa-cuál-deberías-usar&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#tipos-de-2fa-cu%c3%a1l-deber%c3%adas-usar&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;No todos los métodos de 2FA son igual de seguros.&lt;/p&gt;
 &lt;ul&gt;
@@ -3210,25 +3205,20 @@ const resultTexts = {
       <description>
         
         
-        &lt;p&gt;En la era digital, se está recopilando una cantidad cada vez mayor de datos personales sobre nosotros. Estos datos son recopilados por diversas entidades con diferentes propósitos, pero las posibles consecuencias de tener tanta información personal expuesta pueden ser significativas. Desde el robo de identidad hasta la vigilancia gubernamental, es crucial que todos tomen medidas para proteger su información personal y mantener su privacidad.&lt;/p&gt;
-&lt;h3&gt;Privacidad vs Anonimato vs Seguridad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;privacidad-vs-anonimato-vs-seguridad&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#privacidad-vs-anonimato-vs-seguridad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Privacidad&lt;/strong&gt; es controlar quién tiene acceso a tu información personal.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Anonimato&lt;/strong&gt; significa ser no identificable, permitiendo acciones sin revelar tu identidad.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Seguridad&lt;/strong&gt; implica proteger tus datos de accesos no autorizados.&lt;/p&gt;
-&lt;/li&gt;
+        &lt;p&gt;En la era digital, cada vez se recopila más información personal sobre nosotros. Estos datos son recolectados por diversas entidades con distintos propósitos, pero las consecuencias de tener tanta información personal expuesta pueden ser significativas. Desde el robo de identidad hasta la vigilancia gubernamental, es crucial que todos tomen medidas para proteger su información personal y mantener su privacidad.&lt;/p&gt;
+&lt;h3&gt;Privacidad vs. Anonimato vs. Seguridad&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;privacidad-vs-anonimato-vs-seguridad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#privacidad-vs-anonimato-vs-seguridad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Estos términos a menudo se confunden, pero entender sus diferencias es clave para protegerte en línea.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Privacidad&lt;/strong&gt;: Controlar quién tiene acceso a tu información personal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anonimato&lt;/strong&gt;: Ser no identificable, permitiendo acciones sin revelar tu identidad.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seguridad&lt;/strong&gt;: Proteger tus datos contra accesos no autorizados.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&amp;ldquo;No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?&amp;rdquo;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;no-tengo-nada-que-ocultar-por-qué-debería-preocuparme-por-mi-privacidad&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#no-tengo-nada-que-ocultar-por-qu%c3%a9-deber%c3%ada-preocuparme-por-mi-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Solo porque no tienes nada que ocultar, no significa que no tengas nada que proteger. La privacidad no se trata solo de ocultar algo, se trata de tener control sobre tu información personal y quién tiene acceso a ella. Incluso si piensas que no tienes nada que ocultar, tu información personal puede ser utilizada con fines maliciosos como el robo de identidad, estafas de phishing y publicidad dirigida.&lt;/p&gt;
-&lt;h3&gt;&amp;ldquo;No tengo tiempo para preocuparme por mi privacidad.&amp;rdquo;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;no-tengo-tiempo-para-preocuparme-por-mi-privacidad&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#no-tengo-tiempo-para-preocuparme-por-mi-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Proteger tu privacidad no tiene por qué ser una tarea que consuma mucho tiempo. Hay pasos simples que puedes seguir para mejorar tu privacidad, como usar una VPN y ser consciente de la información personal que compartes en línea.&lt;/p&gt;
+&lt;h3&gt;“No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?”&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;no-tengo-nada-que-ocultar-por-qué-debería-preocuparme-por-mi-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#no-tengo-nada-que-ocultar-por-qu%c3%a9-deber%c3%ada-preocuparme-por-mi-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Que no tengas nada que ocultar no significa que no tengas nada que proteger. La privacidad no se trata solo de ocultar algo, sino de tener control sobre tu información personal y quién tiene acceso a ella. Incluso si crees que no tienes nada que ocultar, tu información puede ser utilizada con fines maliciosos, como el robo de identidad, estafas de phishing y publicidad dirigida.&lt;/p&gt;
+&lt;h3&gt;“No tengo tiempo para preocuparme por mi privacidad”&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;no-tengo-tiempo-para-preocuparme-por-mi-privacidad&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#no-tengo-tiempo-para-preocuparme-por-mi-privacidad&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Proteger tu privacidad no tiene que consumir mucho tiempo. Con solo unos pocos cambios simples y rápidos, puedes mejorar significativamente tu privacidad y seguridad en línea.&lt;/p&gt;
 &lt;h3&gt;La Imprevisibilidad del Futuro&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;la-imprevisibilidad-del-futuro&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#la-imprevisibilidad-del-futuro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;La imprevisibilidad del futuro es una razón para preocuparse por tu privacidad, ya que la información personal puede ser utilizada de maneras que nunca imaginaste. Hoy en día, tanto las corporaciones como los gobiernos ya están utilizando datos personales para diversos propósitos. A medida que la tecnología avanza, los usos impredecibles de la información personal solo aumentarán. Proteger tu información personal ahora puede ayudar a asegurar que no se use en tu contra en el futuro.&lt;/p&gt;
+    &lt;a href=&#34;#la-imprevisibilidad-del-futuro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;La imprevisibilidad del futuro es una razón para preocuparte por tu privacidad, ya que tus datos podrían ser utilizados de formas que no puedes prever. Las empresas y los gobiernos ya los usan para anuncios dirigidos y vigilancia. A medida que la inteligencia artificial avanza, riesgos como el perfilado automático —donde tus datos influyen en decisiones injustas sobre empleos, préstamos o asuntos legales— aumentarán. Proteger tu información personal ahora puede evitar que se use en tu contra en el futuro.&lt;/p&gt;
 
       </description>
     </item>
