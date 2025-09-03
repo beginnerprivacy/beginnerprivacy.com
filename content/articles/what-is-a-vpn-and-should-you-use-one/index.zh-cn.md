@@ -35,3 +35,10 @@ excludeSearch: false
     {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="付费，开源" platformIcon="linux android ios windows macos" buttonText="访问网站" >}}
   </div>
 </div>
+
+### 终止开关 (Kill Switch)
+终止开关是一项关键且强烈推荐的VPN功能，当VPN连接断开时，它会立即切断你的互联网连接，防止你的真实IP地址暴露。这可确保你的在线活动保持私密和安全，尤其是在意外断开连接时。
+
+- **MullvadVPN**: 终止开关默认[启用](https://mullvad.net/en/help/search?q=kill+switch#67)。
+- **ProtonVPN**: 使用此[指南](https://protonvpn.com/support/what-is-kill-switch)配置终止开关。
+- **IVPN**: 在[这里](https://www.ivpn.net/knowledgebase/general/do-you-offer-a-kill-switch-or-vpn-firewall/)了解如何启用终止开关。

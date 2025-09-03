@@ -674,6 +674,39 @@ VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的�
     &lt;a href=&#34;#%e4%bd%bf%e7%94%a8protondb%e8%bf%9b%e8%a1%8c%e5%85%bc%e5%ae%b9%e6%80%a7%e6%a3%80%e6%9f%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;在开始新游戏之前，查看&lt;a href=&#34;https://www.protondb.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ProtonDB&lt;/a&gt;是很有帮助的，这是一个由社区驱动的数据库，提供有关各种游戏在Proton下运行情况的信息。用户分享他们的经验、性能报告和任何必要的调整，使确定哪些游戏值得在Linux上尝试变得更加容易。&lt;/p&gt;
 &lt;h3&gt;Lutris：全面的游戏管理器&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;lutris全面的游戏管理器&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#lutris%e5%85%a8%e9%9d%a2%e7%9a%84%e6%b8%b8%e6%88%8f%e7%ae%a1%e7%90%86%e5%99%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;除了Proton，还有&lt;a href=&#34;https://lutris.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Lutris&lt;/a&gt;，这是一个支持多种游戏来源的开源游戏管理器。Lutris允许用户管理本地Linux游戏、通过Wine运行的Windows游戏，甚至经典游戏机的模拟器。它通过自动化设置的脚本简化了安装过程，使所有技能水平的用户都能轻松使用。&lt;/p&gt;
+&lt;h3&gt;最佳 Linux 游戏发行版&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;最佳-linux-游戏发行版&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%80%e4%bd%b3-linux-%e6%b8%b8%e6%88%8f%e5%8f%91%e8%a1%8c%e7%89%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;选择合适的 Linux 发行版可以提升你的游戏体验。以下是三个适合初学者的游戏发行版：&lt;/p&gt;
+&lt;div class=&#34;recommendations&#34;&gt;
+  &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Pop!_OS&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;由 System76 开发，Pop!_OS 针对游戏进行了优化&lt;/p&gt;
+      
+      &lt;a href=&#34;https://system76.com/pop/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Ubuntu&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;一款广受欢迎、用户友好的发行版，拥有庞大的社区&lt;/p&gt;
+      
+      &lt;a href=&#34;https://ubuntu.com/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;Linux Mint&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;基于 Ubuntu，Linux Mint 轻量且适合老旧硬件&lt;/p&gt;
+      
+      &lt;a href=&#34;https://www.linuxmint.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3&gt;最后思考&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;最后思考&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%9c%80%e5%90%8e%e6%80%9d%e8%80%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Linux游戏已经走过了很长的路，曾经使玩家难以切换的障碍正在减少。借助Proton和Lutris等工具，在Linux上玩游戏比以往任何时候都更可行。如果你因为对游戏可用性的担忧而犹豫不决，现在是探索可用选项的好时机。&lt;/p&gt;
 &lt;p&gt;Linux游戏正在不断发展，值得考虑作为你的游戏需求的平台。&lt;/p&gt;

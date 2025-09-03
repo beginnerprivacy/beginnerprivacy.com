@@ -35,3 +35,10 @@ When searching for a reliable VPN, trustworthiness is crucial since the service 
     {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Paid, open source" platformIcon="linux android ios windows macos" buttonText="Visit Website" >}}
   </div>
 </div>
+
+### Kill Switch
+A kill switch is a critical and is highly recommended VPN feature that instantly cuts your internet connection if the VPN drops, preventing your real IP address from being exposed. This ensures your online activities remain private and secure, especially during unexpected disconnections.
+
+- **MullvadVPN**: Kill switch enabled by [default](https://mullvad.net/en/help/search?q=kill+switch#67).
+- **ProtonVPN**: Configure the kill switch using this [guide](https://protonvpn.com/support/what-is-kill-switch).
+- **IVPN**: Learn how to enable the kill switch [here](https://www.ivpn.net/knowledgebase/general/do-you-offer-a-kill-switch-or-vpn-firewall/).

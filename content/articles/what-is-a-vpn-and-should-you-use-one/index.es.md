@@ -35,3 +35,10 @@ Al buscar una VPN confiable, la confianza es crucial ya que el servicio tendrá 
     {{< articles/recommendation title="IVPN" link="https://www.ivpn.net/en/" logo="../../../images/articles/what-is-a-vpn-and-should-you-use-one/ivpn.webp" text="Pagado, código abierto" platformIcon="linux android ios windows macos" buttonText="Visitar sitio web" >}}
   </div>
 </div>
+
+### Interruptor de Desconexión (Kill Switch)
+Un interruptor de desconexión es una característica crítica y altamente recomendada de una VPN que corta instantáneamente tu conexión a internet si la VPN falla, evitando que se exponga tu dirección IP real. Esto asegura que tus actividades en línea permanezcan privadas y seguras, especialmente durante desconexiones inesperadas.
+
+- **MullvadVPN**: Interruptor de desconexión activado por [defecto](https://mullvad.net/en/help/search?q=kill+switch#67).
+- **ProtonVPN**: Configura el interruptor de desconexión con esta [guía](https://protonvpn.com/support/what-is-kill-switch).
+- **IVPN**: Aprende cómo activar el interruptor de desconexión [aquí](https://www.ivpn.net/knowledgebase/general/do-you-offer-a-kill-switch-or-vpn-firewall/).
