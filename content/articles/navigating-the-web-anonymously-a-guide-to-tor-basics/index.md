@@ -51,7 +51,7 @@ Installing the Tor Browser is a straightforward process. Here’s how to do it:
    - Once connected, you can start browsing the internet anonymously.
 
 ### Using Tor Safely
-While Tor provides a significant level of anonymity, it’s essential to use it correct to maximize your privacy. Here are some best practices:
+While Tor provides a significant level of anonymity, it’s essential to use it correct to maximize your privacy. Here are some good practices:
 - **Disable JavaScript**: You have to fully disable JavaScript because then websites can't get your information. This may break the functionality of some websites.
 
 - **Don't Log In Into Accounts**: Avoid logging into accounts that can be linked to your real identity (e.g., social media) while using Tor.
@@ -60,4 +60,5 @@ While Tor provides a significant level of anonymity, it’s essential to use it 
 
 - **Don't Reveal Personal Information**: Never share personal information while using Tor, as it can be used to identify you.
 
-- **Don't Use a VPN With Tor**: Mixing a VPN together with Tor is not recommended, as it centralizes your connection and undermines Tor's decentralization. It also adds a layer of trust in the VPN provider, who may log your activities.
+- **Use a VPN With Tor**: Connecting to a [VPN](/articles/what-is-a-vpn-and-should-you-use-one) before Tor will hide Tor usage from your ISP. This doesn’t enhance Tor's security but only masks the connection as VPN traffic.
+

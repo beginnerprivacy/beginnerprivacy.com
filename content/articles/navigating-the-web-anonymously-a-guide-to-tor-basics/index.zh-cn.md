@@ -60,4 +60,4 @@ Tor是“洋葱路由器”（The Onion Router）的缩写，是一款免费的�
 
 - **不要透露个人信息**：在使用Tor时，绝不要分享个人信息，因为这可能会被用来识别您。
 
-- **不要与Tor一起使用VPN**：不建议将VPN与Tor混合使用，因为这会集中您的连接并破坏Tor的去中心化。它还增加了对VPN提供商的信任层，后者可能会记录您的活动。
+- **结合VPN与Tor使用**: 在使用Tor之前连接到[VPN](/zh-cn/articles/what-is-a-vpn-and-should-you-use-one)，可以隐藏Tor使用情况不被你的互联网服务提供商（ISP）发现。这不会增强Tor的安全性，仅将连接伪装为VPN流量。

@@ -60,4 +60,4 @@ Si bien Tor proporciona un nivel significativo de anonimato, es esencial usarlo 
 
 - **No Revelar Información Personal**: Nunca compartas información personal mientras usas Tor, ya que puede ser utilizada para identificarte.
 
-- **No Usar Una VPN Con Tor**: Mezclar una VPN con Tor no se recomienda, ya que centraliza tu conexión y socava la descentralización de Tor. También añade una capa de confianza en el proveedor de VPN, que puede registrar tus actividades.
+- **Usar una VPN con Tor**: Conectar a una [VPN](/es/articles/what-is-a-vpn-and-should-you-use-one) antes de Tor oculta el uso de Tor a tu proveedor de internet (ISP). Esto no mejora la seguridad de Tor, solo disfraza la conexión como tráfico de VPN.
