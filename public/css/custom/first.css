@@ -133,19 +133,45 @@ section#contributors {
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 260px) {
+  .hero-waves {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding-top: 0rem !important;
+  }
+
   .hero-waves svg.waves {
-    height: 100px;
+    height: 100px !important;
+  }
+}
+
+@media (max-height: 580px) {
+  .hero-waves {
+    display: none;
   }
 }
 
 @media (max-height: 640px) {
   .hero {
-    padding-top: 0rem;
+    padding-top: 0rem !important;
   }
 }
 
-@media (max-height: 710px) {
+@media (max-height: 750px) {
+  .hero-waves svg.waves {
+    height: 150px;
+  }
+}
+
+@media (max-height: 800px) and (max-width: 900px) {
+  .hero {
+    padding-top: 0rem !important;
+  }
+
   .hero-waves svg.waves {
     height: 150px;
   }
