@@ -63,10 +63,10 @@ I2P是一个旨在匿名通信的去中心化网络。它是Torrenting最安全�
 **3. VPN（虚拟私人网络）**：  
 VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的互联网流量并隐藏你的IP地址，提供一层隐私保护。请阅读我们关于[如何选择一个好的VPN](../what-is-a-vpn-and-should-you-use-one)的文章。
 
-#### Killswitch
-在使用VPN进行Torrenting时，killswitch是必不可少的，因为它会在VPN连接中断时停止你的Torrent客户端下载或上传。这一功能对于保持匿名至关重要，因为断开连接可能会暴露你的真实IP地址给对等方。通过使用killswitch，你可以确保你的Torrenting活动立即停止，从而保护你的身份。
+#### Kill Switch
+在使用VPN进行Torrenting时，kill switch是必不可少的，因为它会在VPN连接中断时停止你的Torrent客户端下载或上传。这一功能对于保持匿名至关重要，因为断开连接可能会暴露你的真实IP地址给对等方。通过使用kill switch，你可以确保你的Torrenting活动立即停止，从而保护你的身份。
 
-要在qBittorrent中设置killswitch，请按照以下步骤操作：
+要在qBittorrent中设置kill switch，请按照以下步骤操作：
 1. 打开qBittorrent，转到工具 > 选项 > 高级。
 2. 在网络接口下，选择与你的VPN相关的接口。
 3. 点击“应用”按钮。

@@ -62,10 +62,10 @@ While Tor can provide anonymity, it is not recommended for torrenting due to sig
 **3. VPN (Virtual Private Network)**:  
 A VPN is a popular and effective option for maintaining anonymity while torrenting. It encrypts your internet traffic and masks your IP address, providing a layer of privacy. Please read our article on [choosing a good VPN](../what-is-a-vpn-and-should-you-use-one).
 
-#### Killswitch
-A killswitch is essential for torrenting with a VPN, as it stops your torrent client from downloading or uploading if the VPN connection drops. This feature is crucial for maintaining anonymity, as a disconnection could expose your real IP address to peers. By using a killswitch, you ensure that your torrenting activities are halted immediately, protecting your identity.
+#### Kill Switch
+A kill switch is essential for torrenting with a VPN, as it stops your torrent client from downloading or uploading if the VPN connection drops. This feature is crucial for maintaining anonymity, as a disconnection could expose your real IP address to peers. By using a kill switch, you ensure that your torrenting activities are halted immediately, protecting your identity.
 
-To set up a killswitch in qBittorrent, follow these steps:
+To set up a kill switch in qBittorrent, follow these steps:
 1. Open qBittorrent and go to Tools > Options > Advanced
 2. Under Network Interface, select the interface related to your VPN.
 3. Click the "Apply" button.
