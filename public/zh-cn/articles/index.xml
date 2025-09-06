@@ -226,9 +226,9 @@ I2P是一个旨在匿名通信的去中心化网络。它是Torrenting最安全�
 虽然Tor可以提供匿名性，但由于显著的缺点，不推荐用于Torrenting。使用Tor进行Torrenting可能导致速度非常慢，如果许多用户在Tor网络上进行Torrenting，可能会导致网络拥堵和无效。此外，如果未正确配置，使用Torrent客户端通过Tor可能会&lt;a href=&#34;https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;暴露你的IP地址&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. VPN（虚拟私人网络）&lt;/strong&gt;：&lt;br&gt;
 VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的互联网流量并隐藏你的IP地址，提供一层隐私保护。请阅读我们关于&lt;a href=&#34;../what-is-a-vpn-and-should-you-use-one&#34; &gt;如何选择一个好的VPN&lt;/a&gt;的文章。&lt;/p&gt;
-&lt;h4&gt;Killswitch&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;killswitch&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#killswitch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;在使用VPN进行Torrenting时，killswitch是必不可少的，因为它会在VPN连接中断时停止你的Torrent客户端下载或上传。这一功能对于保持匿名至关重要，因为断开连接可能会暴露你的真实IP地址给对等方。通过使用killswitch，你可以确保你的Torrenting活动立即停止，从而保护你的身份。&lt;/p&gt;
-&lt;p&gt;要在qBittorrent中设置killswitch，请按照以下步骤操作：&lt;/p&gt;
+&lt;h4&gt;Kill Switch&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kill-switch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kill-switch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;在使用VPN进行Torrenting时，kill switch是必不可少的，因为它会在VPN连接中断时停止你的Torrent客户端下载或上传。这一功能对于保持匿名至关重要，因为断开连接可能会暴露你的真实IP地址给对等方。通过使用kill switch，你可以确保你的Torrenting活动立即停止，从而保护你的身份。&lt;/p&gt;
+&lt;p&gt;要在qBittorrent中设置kill switch，请按照以下步骤操作：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开qBittorrent，转到工具 &amp;gt; 选项 &amp;gt; 高级。&lt;/li&gt;
 &lt;li&gt;在网络接口下，选择与你的VPN相关的接口。&lt;/li&gt;
@@ -1445,7 +1445,7 @@ VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的�
 &lt;p&gt;&lt;strong&gt;不要透露个人信息&lt;/strong&gt;：在使用Tor时，绝不要分享个人信息，因为这可能会被用来识别您。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;不要与Tor一起使用VPN&lt;/strong&gt;：不建议将VPN与Tor混合使用，因为这会集中您的连接并破坏Tor的去中心化。它还增加了对VPN提供商的信任层，后者可能会记录您的活动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结合VPN与Tor使用&lt;/strong&gt;: 在使用Tor之前连接到&lt;a href=&#34;http://localhost:1313/zh-cn/articles/what-is-a-vpn-and-should-you-use-one&#34; &gt;VPN&lt;/a&gt;，可以隐藏Tor使用情况不被你的互联网服务提供商（ISP）发现。这不会增强Tor的安全性，仅将连接伪装为VPN流量。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2542,6 +2542,14 @@ VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的�
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;终止开关 (Kill Switch)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;终止开关-kill-switch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%bb%88%e6%ad%a2%e5%bc%80%e5%85%b3-kill-switch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;终止开关是一项关键且强烈推荐的VPN功能，当VPN连接断开时，它会立即切断你的互联网连接，防止你的真实IP地址暴露。这可确保你的在线活动保持私密和安全，尤其是在意外断开连接时。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MullvadVPN&lt;/strong&gt;: 终止开关默认&lt;a href=&#34;https://mullvad.net/en/help/search?q=kill&amp;#43;switch#67&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;启用&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ProtonVPN&lt;/strong&gt;: 使用此&lt;a href=&#34;https://protonvpn.com/support/what-is-kill-switch&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;指南&lt;/a&gt;配置终止开关。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IVPN&lt;/strong&gt;: 在&lt;a href=&#34;https://www.ivpn.net/knowledgebase/general/do-you-offer-a-kill-switch-or-vpn-firewall/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;这里&lt;/a&gt;了解如何启用终止开关。&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     

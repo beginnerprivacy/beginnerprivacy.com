@@ -226,9 +226,9 @@ I2P es una red descentralizada diseñada para la comunicación anónima. Es uno 
 Aunque Tor puede proporcionar anonimato, no se recomienda para torrenting debido a desventajas significativas. Usar Tor para torrenting puede resultar en velocidades muy lentas, y si muchos usuarios torrentan a través de la red Tor, puede congestionarse y volverse ineficaz. Además, usar un cliente torrent sobre Tor puede &lt;a href=&#34;https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;exponer tu dirección IP&lt;/a&gt; si no está configurado correctamente.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. VPN (Red Privada Virtual)&lt;/strong&gt;:&lt;br&gt;
 Una VPN es una opción popular y efectiva para mantener el anonimato mientras torrentas. Cifra tu tráfico de Internet y oculta tu dirección IP, proporcionando una capa de privacidad. Por favor, lee nuestro artículo sobre &lt;a href=&#34;../what-is-a-vpn-and-should-you-use-one&#34; &gt;cómo elegir una buena VPN&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;Killswitch&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;killswitch&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#killswitch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Un killswitch es esencial para torrentear con una VPN, ya que detiene tu cliente torrent de descargar o subir si la conexión VPN se interrumpe. Esta función es crucial para mantener el anonimato, ya que una desconexión podría exponer tu verdadera dirección IP a los pares. Al usar un killswitch, aseguras que tus actividades de torrenting se detengan de inmediato, protegiendo tu identidad.&lt;/p&gt;
-&lt;p&gt;Para configurar un killswitch en qBittorrent, sigue estos pasos:&lt;/p&gt;
+&lt;h4&gt;Kill Switch&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kill-switch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kill-switch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Un kill switch es esencial para torrentear con una VPN, ya que detiene tu cliente torrent de descargar o subir si la conexión VPN se interrumpe. Esta función es crucial para mantener el anonimato, ya que una desconexión podría exponer tu verdadera dirección IP a los pares. Al usar un kill switch, aseguras que tus actividades de torrenting se detengan de inmediato, protegiendo tu identidad.&lt;/p&gt;
+&lt;p&gt;Para configurar un kill switch en qBittorrent, sigue estos pasos:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Abre qBittorrent y ve a Herramientas &amp;gt; Opciones &amp;gt; Avanzado.&lt;/li&gt;
 &lt;li&gt;En la interfaz de red, selecciona la interfaz relacionada con tu VPN.&lt;/li&gt;
@@ -1445,7 +1445,7 @@ Una VPN es una opción popular y efectiva para mantener el anonimato mientras to
 &lt;p&gt;&lt;strong&gt;No Revelar Información Personal&lt;/strong&gt;: Nunca compartas información personal mientras usas Tor, ya que puede ser utilizada para identificarte.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;No Usar Una VPN Con Tor&lt;/strong&gt;: Mezclar una VPN con Tor no se recomienda, ya que centraliza tu conexión y socava la descentralización de Tor. También añade una capa de confianza en el proveedor de VPN, que puede registrar tus actividades.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Usar una VPN con Tor&lt;/strong&gt;: Conectar a una &lt;a href=&#34;http://localhost:1313/es/articles/what-is-a-vpn-and-should-you-use-one&#34; &gt;VPN&lt;/a&gt; antes de Tor oculta el uso de Tor a tu proveedor de internet (ISP). Esto no mejora la seguridad de Tor, solo disfraza la conexión como tráfico de VPN.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2618,6 +2618,14 @@ Para usuarios avanzados: Crea, redimensiona o conserva particiones (por ejemplo,
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3&gt;Interruptor de Desconexión (Kill Switch)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;interruptor-de-desconexión-kill-switch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#interruptor-de-desconexi%c3%b3n-kill-switch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Un interruptor de desconexión es una característica crítica y altamente recomendada de una VPN que corta instantáneamente tu conexión a internet si la VPN falla, evitando que se exponga tu dirección IP real. Esto asegura que tus actividades en línea permanezcan privadas y seguras, especialmente durante desconexiones inesperadas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MullvadVPN&lt;/strong&gt;: Interruptor de desconexión activado por &lt;a href=&#34;https://mullvad.net/en/help/search?q=kill&amp;#43;switch#67&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;defecto&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ProtonVPN&lt;/strong&gt;: Configura el interruptor de desconexión con esta &lt;a href=&#34;https://protonvpn.com/support/what-is-kill-switch&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;guía&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IVPN&lt;/strong&gt;: Aprende cómo activar el interruptor de desconexión &lt;a href=&#34;https://www.ivpn.net/knowledgebase/general/do-you-offer-a-kill-switch-or-vpn-firewall/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;aquí&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
