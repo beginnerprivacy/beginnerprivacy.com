@@ -380,6 +380,24 @@
                 href="http://localhost:1313/es/articles/break-free-from-proprietary-software-with-foss/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/articles/why-you-should-set-up-your-own-local-ai-chatbot/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/articles/ditch-sms-and-use-secure-communication-methods/</loc>
     <lastmod>2025-08-12T18:45:04+02:00</lastmod>
     <xhtml:link

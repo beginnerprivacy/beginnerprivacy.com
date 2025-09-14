@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/"
+                />
+  </url><url>
     <loc>http://localhost:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</loc>
     <lastmod>2025-07-27T19:58:31+02:00</lastmod>
     <xhtml:link

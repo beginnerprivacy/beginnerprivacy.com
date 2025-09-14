@@ -15,6 +15,105 @@
     
     
     <item>
+      <title>Why You Should Set Up Your Own Local AI Chatbot</title>
+      <link>http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/</guid>
+      <description>
+        
+        
+        &lt;p&gt;AI chatbots have become increasingly popular, enabling human-like conversations to answer questions, offer advice, or assist with tasks. However, sharing sensitive information like personal details, health concerns, or financial data with cloud-based services can pose privacy risks.&lt;/p&gt;
+&lt;h3&gt;Why You Should Run Your Own Local AI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-you-should-run-your-own-local-ai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-you-should-run-your-own-local-ai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Cloud-based AI chatbots like ChatGPT or Google Gemini are convenient but store your conversations on their servers and using them to train models and create user profiles for advertising. They can also face downtime, disrupting access. A local AI keeps your data private on your device, offering full control without relying on internet connections or external servers.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Pros&lt;/th&gt;
+          &lt;th&gt;Cons&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Enhanced privacy—no data leaves your device&lt;/td&gt;
+          &lt;td&gt;Requires decent hardware (e.g., a GPU) for faster performance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Works offline after initial setup&lt;/td&gt;
+          &lt;td&gt;Large model downloads (several GBs)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Free to use (open-source models)&lt;/td&gt;
+          &lt;td&gt;Setup can be technical for beginners&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Full control over models and data&lt;/td&gt;
+          &lt;td&gt;Models may not be as advanced as proprietary models like GPT-5&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Setting Up Your Own Local AI With Ollama&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;setting-up-your-own-local-ai-with-ollama&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#setting-up-your-own-local-ai-with-ollama&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ollama is a user-friendly tool that allows you to run large language models (LLMs) locally on your computer. It&amp;rsquo;s available for macOS, Linux, and Windows, making it accessible for most users. Here&amp;rsquo;s a step-by-step guide to get started.&lt;/p&gt;
+&lt;h4&gt;Step 1: Download and Install Ollama&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-1-download-and-install-ollama&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-download-and-install-ollama&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;macOS&lt;/strong&gt;: Visit &lt;a href=&#34;https://ollama.com/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/download&lt;/a&gt; and download the macOS installer. It requires macOS 12 (Monterey) or later.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux&lt;/strong&gt;: Open your terminal and run: &lt;code&gt;curl -fsSL https://ollama.com/install.sh | sh&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: Visit &lt;a href=&#34;https://ollama.com/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/download&lt;/a&gt; and download the Windows installer. It requires Windows 10 or later.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After installation, open a terminal and type &lt;code&gt;ollama&lt;/code&gt; to verify it&amp;rsquo;s working.&lt;/p&gt;
+&lt;h4&gt;Step 2: Launch Your First Model&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-2-launch-your-first-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-launch-your-first-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ollama makes it easy to download and run models from its library. Start with a lightweight model like DeepSeek R1 for testing.&lt;/p&gt;
+&lt;p&gt;In your terminal, run:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;ollama run deepseek-r1:8b&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This command downloads the 8 billion parameter variant model (about 5 GB) and starts an interactive chat session. You can now type questions and get responses directly in the terminal.&lt;/p&gt;
+&lt;p&gt;You can find other models at &lt;a href=&#34;https://ollama.com/models&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/models&lt;/a&gt;, such as GPT-OSS or Gemma.&lt;/p&gt;
+&lt;h4&gt;Step 3: Set Up a GUI for Ollama&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;step-3-set-up-a-gui-for-ollama&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3-set-up-a-gui-for-ollama&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While the terminal interface is functional, a graphical user interface (GUI) makes the experience more like ChatGPT. One of the best options is &lt;a href=&#34;https://docs.openwebui.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Open WebUI&lt;/a&gt;, a web-based interface that supports Ollama.&lt;/p&gt;
+&lt;p&gt;To install Open WebUI (Docker Method):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Docker&lt;/a&gt; if you don&amp;rsquo;t have it.&lt;/li&gt;
+&lt;li&gt;Run this command in your terminal:
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;Ensure Ollama is running in the background, if it isn&amp;rsquo;t run &lt;code&gt;ollama serve&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open your browser and go to &lt;code&gt;http://localhost:3000&lt;/code&gt; and you&amp;rsquo;ll have a nice chat interface.&lt;/li&gt;
+&lt;li&gt;In Open WebUI, you can pull models from Ollama&amp;rsquo;s library and switch between them easily.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you prefer a non-Docker install, look &lt;a href=&#34;https://docs.openwebui.com/#manual-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Using Privacy-Focused AI on Low-Power Devices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-privacy-focused-ai-on-low-power-devices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-privacy-focused-ai-on-low-power-devices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your computer lacks the storage or GPU power for running AI models locally, or you&amp;rsquo;re on a mobile device, we recommend using an online privacy-focused AI chatbot like &lt;a href=&#34;https://duck.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Duck.ai&lt;/a&gt;, which offers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anonymous access to models like Claude 3.5, GPT-5 mini, or Mistral.&lt;/li&gt;
+&lt;li&gt;No chat storage by DuckDuckGo or model providers.&lt;/li&gt;
+&lt;li&gt;No data used for AI training.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Understanding Privacy Laws Around the World and How They Affect You</title>
       <link>http://localhost:1313/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>

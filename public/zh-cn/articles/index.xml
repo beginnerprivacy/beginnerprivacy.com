@@ -2147,6 +2147,74 @@ VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的�
     </item>
     
     <item>
+      <title>用FOSS摆脱专有软件的束缚</title>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</guid>
+      <description>
+        
+        
+        &lt;p&gt;切换到 FOSS 是您隐私之旅中的关键一步，同时也是专有软件的优越替代品。&lt;/p&gt;
+&lt;h3&gt;什么是 FOSS？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是-foss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af-foss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS 代表 &lt;strong&gt;自由与开源软件&lt;/strong&gt;。与专有软件不同，其源代码是公开可用的，任何人都可以查看、修改和分发。这种开放性促进了协作，确保了透明度，并允许用户根据自己的需求定制软件。&lt;/p&gt;
+&lt;h3&gt;为什么 FOSS 优于专有软件？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么-foss-优于专有软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88-foss-%e4%bc%98%e4%ba%8e%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;FOSS 在几个关键方面超越了专有软件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;透明度&lt;/strong&gt;：您可以检查源代码，以确认没有隐藏的跟踪器、后门或恶意功能——这在专有软件的封闭系统中是不可能的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安全性&lt;/strong&gt;：开放代码由全球社区审计，通常比专有供应商更快修复漏洞。此外，从源代码构建可以验证软件的完整性，避免像木马这样的恶意软件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;社区支持&lt;/strong&gt;：FOSS 依靠热情的贡献者提供更新、修复和支持，通常比企业驱动的专有软件的严格时间表更快。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;道德自由&lt;/strong&gt;：选择 FOSS 符合用户赋权的哲学，拒绝限制性许可证和企业对您技术的控制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;现实世界的例子&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;现实世界的例子&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%8e%b0%e5%ae%9e%e4%b8%96%e7%95%8c%e7%9a%84%e4%be%8b%e5%ad%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;以 LibreOffice 为例，它是 Microsoft Office 的 FOSS 替代品。它为文档、电子表格和演示文稿提供了强大的功能，无需订阅费用或隐私风险，同时由全球社区不断完善。&lt;/p&gt;
+&lt;h4&gt;“FOSS 不够用户友好。”&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;foss-不够用户友好&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#foss-%e4%b8%8d%e5%a4%9f%e7%94%a8%e6%88%b7%e5%8f%8b%e5%a5%bd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;FOSS 的新手有时会因其界面相较于专有软件不够精致而犹豫。虽然 FOSS 项目通常预算较小，大多数贡献者是程序员而非设计师，导致用户界面相较于资金雄厚的专有软件不够精致，但 FOSS 社区仍成功地将 Blender（3D 创建套件）和 Krita（数字绘画工具）等项目打造为专业级工具。&lt;/p&gt;
+&lt;h3&gt;如何找到 FOSS 替代品？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何找到-foss-替代品&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e6%89%be%e5%88%b0-foss-%e6%9b%bf%e4%bb%a3%e5%93%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;使用以下优秀资源可以轻松找到 FOSS 替代品：&lt;/p&gt;
+&lt;div class=&#34;recommendations&#34;&gt;
+  &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/opensourcealternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;OpenSourceAlternative.to&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;一个全面的开源替代品目录。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://www.opensourcealternative.to/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/f-droid.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;F-Droid&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;一个为自由和开源 Android 应用程序提供的应用商店。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://f-droid.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;recommendation-card&#34;&gt;
+      &lt;div class=&#34;recommendation-header&#34;&gt;
+          &lt;img src=&#34;../../../images/articles/break-free-from-proprietary-software-with-foss/alternativeto.webp&#34; class=&#34;recommendation-logo&#34; alt=&#34;logo&#34;&gt;
+          &lt;h2 class=&#34;recommended-title&#34;&gt;AlternativeTo&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;p class=&#34;recommendation-text&#34;&gt;寻找专有软件的替代品。&lt;/p&gt;
+      
+      &lt;a href=&#34;https://alternativeto.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; class=&#34;recommendation-link&#34;&gt;访问网站&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;如何用 FOSS 替换专有软件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;如何用-foss-替换专有软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a6%82%e4%bd%95%e7%94%a8-foss-%e6%9b%bf%e6%8d%a2%e4%b8%93%e6%9c%89%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;从专有软件迁移到 FOSS 可能具有挑战性。以下是一些让过渡更顺畅的建议：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;慢慢开始&lt;/strong&gt;：一次替换一个专有应用程序，逐步适应 FOSS 替代品。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试替代品&lt;/strong&gt;：下载 FOSS 替代品并使用几天，以熟悉其功能和界面。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;迁移数据&lt;/strong&gt;：在感到舒适后，将您的文件和数据转移到新软件中。&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>放弃短信，使用安全通信方法。</title>
       <link>http://localhost:1313/zh-cn/articles/ditch-sms-and-use-secure-communication-methods/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
