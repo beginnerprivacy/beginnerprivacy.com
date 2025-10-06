@@ -11,6 +11,7 @@ category: 关于
     {{< cards >}}
       {{< card link="./2025/q1" title="第一季度" >}}
       {{< card link="./2025/q2" title="第二季度" >}}
+      {{< card link="./2025/q3" title="第三季度" >}}
     {{< /cards >}}
   {{< /tab >}}
 
