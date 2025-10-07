@@ -15,6 +15,114 @@
     
     
     <item>
+      <title>为什么你应该设置自己的本地AI聊天机器人</title>
+      <link>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</guid>
+      <description>
+        
+        
+        &lt;p&gt;AI聊天机器人变得越来越流行，能够进行类人对话来回答问题、提供建议或协助完成任务。然而，将个人信息、健康问题或财务数据与基于云的服务共享可能会带来隐私风险。&lt;/p&gt;
+&lt;h3&gt;为什么你应该运行自己的本地AI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;为什么你应该运行自己的本地ai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e4%bd%a0%e5%ba%94%e8%af%a5%e8%bf%90%e8%a1%8c%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%ac%e5%9c%b0ai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;像ChatGPT或Google Gemini这样的基于云的AI聊天机器人虽然方便，但它们会将你的对话存储在服务器上，并用于训练模型和创建用户广告档案。它们还可能会面临停机问题，导致无法访问。本地AI将数据保存在你的设备上，提供完全控制权，而无需依赖互联网连接或外部服务器。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;优点&lt;/th&gt;
+          &lt;th&gt;缺点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;增强隐私—没有数据离开你的设备&lt;/td&gt;
+          &lt;td&gt;需要不错的硬件（例如GPU）来提高性能&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;初始设置后可离线工作&lt;/td&gt;
+          &lt;td&gt;模型下载较大（几个GB）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;免费使用（开源模型）&lt;/td&gt;
+          &lt;td&gt;对于初学者，设置可能有些技术性&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;完全控制模型和数据&lt;/td&gt;
+          &lt;td&gt;模型可能不如GPT-5等专有模型先进&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;使用Ollama设置你自己的本地AI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;使用ollama设置你自己的本地ai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%bf%e7%94%a8ollama%e8%ae%be%e7%bd%ae%e4%bd%a0%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%ac%e5%9c%b0ai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ollama是一个用户友好的工具，允许你在电脑上本地运行大型语言模型（LLM）。它适用于macOS、Linux和Windows，适合大多数用户。以下是开始的步骤指南。&lt;/p&gt;
+&lt;h4&gt;第一步：下载并安装Ollama&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第一步下载并安装ollama&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e4%b8%8b%e8%bd%bd%e5%b9%b6%e5%ae%89%e8%a3%85ollama&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;macOS&lt;/strong&gt;：访问&lt;a href=&#34;https://ollama.com/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/download&lt;/a&gt;并下载macOS安装程序。需要macOS 12（Monterey）或更高版本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux&lt;/strong&gt;：打开终端并运行：&lt;code&gt;curl -fsSL https://ollama.com/install.sh | sh&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;：访问&lt;a href=&#34;https://ollama.com/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/download&lt;/a&gt;并下载Windows安装程序。需要Windows 10或更高版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安装后，打开终端并输入&lt;code&gt;ollama&lt;/code&gt;以验证是否正常工作。&lt;/p&gt;
+&lt;h4&gt;第二步：启动你的第一个模型&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第二步启动你的第一个模型&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%90%af%e5%8a%a8%e4%bd%a0%e7%9a%84%e7%ac%ac%e4%b8%80%e4%b8%aa%e6%a8%a1%e5%9e%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ollama使下载和运行其库中的模型变得简单。开始时可以使用一个轻量级的模型，如DeepSeek R1进行测试。&lt;/p&gt;
+&lt;p&gt;在终端中运行：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;ollama run deepseek-r1:8b&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;此命令会下载8亿参数的模型（约5GB）并启动一个交互式聊天会话。现在你可以直接在终端中输入问题并得到回复。&lt;/p&gt;
+&lt;p&gt;你可以在&lt;a href=&#34;https://ollama.com/models&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;ollama.com/models&lt;/a&gt;找到其他模型，如GPT-OSS或Gemma。&lt;/p&gt;
+&lt;h4&gt;第三步：为Ollama设置GUI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;第三步为ollama设置gui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%89%e6%ad%a5%e4%b8%baollama%e8%ae%be%e7%bd%aegui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;尽管终端界面功能齐全，但图形用户界面（GUI）能提供更像ChatGPT的体验。最好的选择之一是&lt;a href=&#34;https://docs.openwebui.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Open WebUI&lt;/a&gt;，这是一个支持Ollama的基于Web的界面。&lt;/p&gt;
+&lt;p&gt;安装Open WebUI（Docker方法）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果没有安装&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Docker&lt;/a&gt;，请先安装。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在终端中运行以下命令：&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;确保Ollama在后台运行，如果没有，运行&lt;code&gt;ollama serve&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开浏览器，访问&lt;code&gt;http://localhost:3000&lt;/code&gt;，即可看到一个漂亮的聊天界面。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在Open WebUI中，你可以从Ollama的库中拉取模型，并轻松切换它们。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果你更喜欢非Docker安装，请参考&lt;a href=&#34;https://docs.openwebui.com/#manual-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h3&gt;在低功耗设备上使用隐私专注的AI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;在低功耗设备上使用隐私专注的ai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%9c%a8%e4%bd%8e%e5%8a%9f%e8%80%97%e8%ae%be%e5%a4%87%e4%b8%8a%e4%bd%bf%e7%94%a8%e9%9a%90%e7%a7%81%e4%b8%93%e6%b3%a8%e7%9a%84ai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你的计算机缺乏存储或GPU性能来本地运行AI模型，或者你使用的是移动设备，我们推荐使用一个在线隐私专注的AI聊天机器人，如&lt;a href=&#34;https://duck.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Duck.ai&lt;/a&gt;，它提供：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;匿名访问Claude 3.5、GPT-5 mini或Mistral等模型。&lt;/li&gt;
+&lt;li&gt;DuckDuckGo或模型提供商不会存储聊天记录。&lt;/li&gt;
+&lt;li&gt;不会将数据用于AI训练。&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>了解全球隐私法律及其对你的影响</title>
       <link>http://localhost:1313/zh-cn/articles/understanding-privacy-laws-around-the-world-and-how-they-affect-you/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
@@ -2148,10 +2256,10 @@ VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的�
     
     <item>
       <title>用FOSS摆脱专有软件的束缚</title>
-      <link>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</link>
+      <link>http://localhost:1313/zh-cn/articles/what-is-i2p-and-should-you-use-it/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh-cn/articles/why-you-should-set-up-your-own-local-ai-chatbot/</guid>
+      <guid>http://localhost:1313/zh-cn/articles/what-is-i2p-and-should-you-use-it/</guid>
       <description>
         
         

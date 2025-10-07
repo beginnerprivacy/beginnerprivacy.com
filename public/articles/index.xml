@@ -15,6 +15,56 @@
     
     
     <item>
+      <title>What Is I2P? And Should You Use It?</title>
+      <link>http://localhost:1313/articles/what-is-i2p-and-should-you-use-it/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/articles/what-is-i2p-and-should-you-use-it/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;What Is I2P?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-i2p&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-i2p&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Launched in 2003 by privacy advocates, the Invisible Internet Project (I2P) is an open-source network for anonymous, censorship-resistant communication. It&amp;rsquo;s not for public web browsing like Tor; instead, it builds a hidden overlay for P2P services like eepsites, file sharing, chats, and email—all encrypted and internal.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;I2P uses garlic routing: messages are bundled into &amp;ldquo;garlics&amp;rdquo; with multiple &amp;ldquo;cloves&amp;rdquo; (your data mixed with others&amp;rsquo;), making traffic analysis tough. This tops Tor&amp;rsquo;s onion layers by adding misdirection. Data travels via unidirectional tunnels with end-to-end encryption, keys changing per hop. Fully decentralized, it runs on volunteer routers with no central control, resisting shutdowns and spying.&lt;/p&gt;
+&lt;h3&gt;Should You Use I2P?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;should-you-use-i2p&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#should-you-use-i2p&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;I2P excels for private P2P but isn&amp;rsquo;t beginner-friendly. Consider this:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;Pros&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Excellent anonymity for internal activities like torrenting (via I2PSnark) without exit nodes.&lt;/td&gt;
+          &lt;td&gt;Slower speeds from heavy encryption and routing.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Resists surveillance through data mixing and no single failure point.&lt;/td&gt;
+          &lt;td&gt;Smaller user base (30k-60k routers) means less content and reliability.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Active community with integrations for IRC and email within the network.&lt;/td&gt;
+          &lt;td&gt;Steeper setup: learn concepts like destinations; no easy browser bundle.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Go for I2P if you need anonymous internal networking and can handle the setup. For clearnet access, use Tor or VPNs.&lt;/p&gt;
+&lt;h3&gt;Installing I2P&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;installing-i2p&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#installing-i2p&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Download I2P from the &lt;a href=&#34;https://geti2p.net/en/download&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;official website&lt;/a&gt; remember to verify signatures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt; &lt;a href=&#34;https://www.oracle.com/java/technologies/downloads/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34;&gt;Java JRE&lt;/a&gt; (except Windows Easy Bundle).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt; Easy Bundle (Java-free) from geti2p.net/nsis, or standard installer post-Java.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;macOS:&lt;/strong&gt; Run .jar installer via double-click or terminal: &lt;code&gt;java -jar i2pinstall_2.10.0.jar&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt; Run .jar installer via the terminal: &lt;code&gt;java -jar i2pinstall_2.10.0.jar&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android:&lt;/strong&gt; APK from site or F-Droid (Android 4.0+, 512MB RAM); uninstall old versions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Post-Install:&lt;/strong&gt; Access console at &lt;code&gt;http://127.0.0.1:7657/&lt;/code&gt; for config. Start low-bandwidth. Integrate apps like I2PSnark.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Why You Should Set Up Your Own Local AI Chatbot</title>
       <link>http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>

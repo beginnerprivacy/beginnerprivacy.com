@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/articles/what-is-i2p-and-should-you-use-it/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/articles/what-is-i2p-and-should-you-use-it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/articles/what-is-i2p-and-should-you-use-it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/articles/what-is-i2p-and-should-you-use-it/"
+                />
+  </url><url>
     <loc>http://localhost:1313/articles/why-you-should-set-up-your-own-local-ai-chatbot/</loc>
-    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-14T09:52:43+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -1153,6 +1171,24 @@
                 href="http://localhost:1313/about/transparency/2025/q2/"
                 />
   </url><url>
+    <loc>http://localhost:1313/about/transparency/2025/q3/</loc>
+    <lastmod>2025-10-06T07:17:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/about/transparency/2025/q3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/transparency/2025/q3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/about/transparency/2025/q3/"
+                />
+  </url><url>
     <loc>http://localhost:1313/about/roadmap-introductions/</loc>
     <lastmod>2025-04-12T19:37:29+02:00</lastmod>
     <xhtml:link
@@ -1262,7 +1298,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/about/transparency/</loc>
-    <lastmod>2025-04-12T19:37:29+02:00</lastmod>
+    <lastmod>2025-10-06T07:17:15+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
