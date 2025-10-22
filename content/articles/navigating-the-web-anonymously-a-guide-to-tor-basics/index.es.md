@@ -30,7 +30,7 @@ Hay varias razones convincentes para usar Tor, así como algunos inconvenientes 
 - **No es Ideal Para Uso Casual**: Para la navegación diaria, generalmente no se recomienda Tor debido a sus velocidades más lentas y la posibilidad de que los sitios web bloqueen el tráfico de Tor.
 
 ### I2P: Una Alternativa a Tor
-Vale la pena mencionar I2P (Proyecto de Internet Invisible); es otra red diseñada para la comunicación anónima. A diferencia de Tor, que se centra en acceder a internet de manera anónima, I2P está diseñado principalmente para la comunicación de igual a igual y para alojar servicios dentro de su propia red. I2P es completamente descentralizado, lo que mejora su resistencia a la censura, y todo el tráfico dentro de I2P está cifrado, proporcionando un alto nivel de privacidad. Para más información, puedes visitar el [artículo de Wikipedia sobre I2P](https://en.wikipedia.org/wiki/I2P).
+Vale la pena mencionar I2P (Proyecto de Internet Invisible); es otra red diseñada para la comunicación anónima. A diferencia de Tor, que se centra en acceder a internet de manera anónima, I2P está diseñado principalmente para la comunicación de igual a igual y para alojar servicios dentro de su propia red. I2P es completamente descentralizado, lo que mejora su resistencia a la censura, y todo el tráfico dentro de I2P está cifrado, proporcionando un alto nivel de privacidad. Para más información, puedes leer nuestro [artículo sobre I2P](/es/articles/what-is-i2p-and-should-you-use-it).
 
 ### Instalación del Navegador Tor
 Instalar el Navegador Tor es un proceso sencillo. Aquí te explico cómo hacerlo:
