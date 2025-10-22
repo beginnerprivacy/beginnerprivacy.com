@@ -32,6 +32,16 @@ Why risk getting spammed on your primary email? Use a **burner email** for one-t
   </div>
 </div>
 
+<br>
+
+For a more permanent solution, we recommend using an email aliasing service. This allows you to provide an alias instead of your actual email address, ensuring your real email remains a secret. Any messages sent to the alias will be automatically forwarded to your real email.
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="SimpleLogin" link="https://simplelogin.io/" logo="../../images/articles/limit-the-personal-information-you-share-online/simplelogin.webp" platformIcon="android ios globe-alt extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="addy.io" link="https://addy.io/" logo="../../images/articles/limit-the-personal-information-you-share-online/addy-io.webp" platformIcon="globe-alt extension" buttonText="Visit Website" >}}
+  </div>
+</div>
+
 ### Temporary Phone Number
 The same goes for phone numbers. You don't have to give your real phone number for temporary accounts.
 {{< callout type="info" >}}

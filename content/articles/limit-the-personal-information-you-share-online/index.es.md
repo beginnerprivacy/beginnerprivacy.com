@@ -26,10 +26,20 @@ No todos los sitios web o formularios merecen tu honestidad. Para cuentas no cr�
 ### Correo Electrónico Temporal
 ¿Por qué arriesgarte a recibir spam en tu correo electrónico principal? Usa un **correo electrónico temporal** para registros únicos o descargas sospechosas.
 <div class="recommendations">
- <div class="grid">
-  {{< articles/recommendation title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="Proveedor de correo temporal popular" platformIcon="android ios globe-alt" buttonText="Visitar Sitio Web" >}}
-  {{< articles/recommendation title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="Código abierto y se puede alojar de forma independiente" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
- </div>
+  <div class="grid">
+    {{< articles/recommendation title="Temp Mail" link="https://temp-mail.org" logo="../../../images/articles/limit-the-personal-information-you-share-online/temp-mail.webp" text="Proveedor de correo temporal popular" platformIcon="android ios globe-alt" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="smail" link="https://smail.pw/" logo="../../../images/articles/limit-the-personal-information-you-share-online/smail.webp" text="Código abierto y se puede alojar de forma independiente" platformIcon="globe-alt" buttonText="Visitar Sitio Web" >}}
+  </div>
+</div>
+
+<br>
+
+Para una solución más permanente, recomendamos utilizar un servicio de alias de correo electrónico. Esto te permite proporcionar un alias en lugar de tu dirección de correo electrónico real, asegurando que tu correo real permanezca en secreto. Cualquier mensaje enviado al alias será redirigido automáticamente a tu correo real.
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="SimpleLogin" link="https://simplelogin.io/" logo="../../../images/articles/limit-the-personal-information-you-share-online/simplelogin.webp" platformIcon="android ios globe-alt extension" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="addy.io" link="https://addy.io/" logo="../../../images/articles/limit-the-personal-information-you-share-online/addy-io.webp" platformIcon="globe-alt extension" buttonText="Visitar Sitio Web" >}}
+  </div>
 </div>
 
 ### Número de Teléfono Temporal

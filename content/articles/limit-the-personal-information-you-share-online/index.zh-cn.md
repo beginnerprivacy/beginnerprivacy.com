@@ -32,6 +32,16 @@ excludeSearch: false
   </div>
 </div>
 
+<br>
+
+为了更持久的解决方案，我们建议使用电子邮件别名服务。这允许您提供一个别名，而不是您实际的电子邮件地址，从而确保您的真实电子邮件保持秘密。发送到别名的任何消息将自动转发到您的真实电子邮件。
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="SimpleLogin" link="https://simplelogin.io/" logo="../../../images/articles/limit-the-personal-information-you-share-online/simplelogin.webp" platformIcon="android ios globe-alt extension" buttonText="访问网站" >}}
+    {{< articles/recommendation title="addy.io" link="https://addy.io/" logo="../../../images/articles/limit-the-personal-information-you-share-online/addy-io.webp" platformIcon="globe-alt extension" buttonText="访问网站" >}}
+  </div>
+</div>
+
 ### 临时电话号码
 电话号码也是如此。你不必为临时账户提供你的真实电话号码。
 {{< callout type="info" >}}
