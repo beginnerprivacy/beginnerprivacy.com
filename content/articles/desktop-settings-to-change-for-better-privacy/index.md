@@ -9,8 +9,8 @@ excludeSearch: false
 ---
 The desktop collects all kinds of information about us. That’s why it’s important to take control and limit what it knows about us.
 
-### Which Operating System Is More Private? Windows, Linux, or MacOS
-Linux is the most privacy-respecting option. While Windows and MacOS dominate the market, they don’t prioritize user privacy as much as Linux (which is also open source).
+### Which Operating System Is More Private? Windows, Linux, or macOS
+Linux stands out as the clear winner for privacy. While Windows and macOS dominate the market thanks to user familiarity—Windows comes pre-installed on most new computers—limited awareness of alternatives, and tight ecosystem integration, they ultimately prioritize corporate interests over user privacy. In contrast, Linux distributions are open-source and community-driven, empowering users with full control over their data and the entire system.
 
 ### Privacy Settings
 #### Linux
@@ -37,7 +37,7 @@ Linux is the most privacy-respecting option. While Windows and MacOS dominate th
 - Access **Settings > Privacy & security > General**.
 - Turn off "Let apps show me personalized ads by using my advertising ID".
 
-#### MacOS
+#### macOS
 **Restrict App Permissions** 
 - Navigate to **System Preferences > Security & Privacy > Privacy Tab**. In the following categories, turn off access if you don’t want any apps to use it, or allow it only for specific apps:
     - Location Services
