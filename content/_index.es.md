@@ -96,7 +96,7 @@ layout: hextra-home
         <li>{{< roadmap/card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services"  class="advanced-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Seguridad Física" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Inteligencia de Amenazas" id="threat-intelligence" link="articles/threat-intelligence-explained-how-to-leverage-it-for-enhanced-security" class="advanced-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="Más Allá de Beginner Privacy" id="moving-beyond-beginner-privacy" link="articles/moving-beyond-beginner-privacy" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>
   </div>
