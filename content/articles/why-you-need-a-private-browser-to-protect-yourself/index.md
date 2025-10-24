@@ -33,8 +33,7 @@ When it comes to choosing a browser, the two main options are **Chromium** and *
 <div class="recommendations">
   <div class="grid">
     {{< articles/recommendation title="Brave" link="https://brave.com/" logo="../../images/articles/why-you-need-a-private-browser-to-protect-yourself/brave.webp" text="Chromium based" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="Mullvad" link="https://mullvad.net/en/browser" logo="../../images/articles/why-you-need-a-private-browser-to-protect-yourself/mullvad.webp" text="Firefox based" platformIcon="linux macos windows extension" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Mullvad" link="https://mullvad.net/en/browser" logo="../../images/articles/why-you-need-a-private-browser-to-protect-yourself/mullvad.webp" text="Firefox based" platformIcon="linux macos windows" buttonText="Visit Website" >}}
     {{< articles/recommendation title="LibreWolf" link="https://librewolf.net/" logo="../../images/articles/why-you-need-a-private-browser-to-protect-yourself/librewolf.webp" text="Firefox based" platformIcon="linux windows macos" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="Firefox Focus" link="https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/" logo="../../images/articles/why-you-need-a-private-browser-to-protect-yourself/firefox-focus.webp" text="Firefox based" platformIcon="android ios" buttonText="Visit Website" >}}
   </div>
 </div>
