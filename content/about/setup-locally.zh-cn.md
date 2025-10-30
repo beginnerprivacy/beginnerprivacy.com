@@ -55,17 +55,41 @@ choco install hugo-extended -y
 brew install hugo
 ```
 
-**验证安装：**
+#### Go
+安装 Go 1.20：
+
+**Linux：**
 ```bash
-hugo version
-# 应显示： hugo v0.145.0+extended linux/amd64 BuildDate=...
+# 下载并解压
+wget https://go.dev/dl/go1.20.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.20.linux-amd64.tar.gz
+# 添加到 PATH（添加到 ~/.bashrc 或 ~/.zshrc）
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
 ```
+
+**Windows：**
+从 [go.dev/dl](https://go.dev/dl/go1.20.windows-amd64.msi) 下载安装程序并运行。  
+或者使用 Chocolatey：
+```powershell
+choco install golang --version=1.20 -y
+```
+
+**MacOS：**
+使用 Homebrew：
+```bash
+brew install go@1.20
+# 链接到 PATH
+echo 'export PATH=$(brew --prefix go@1.20)/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+```
+或从 [go.dev/dl](https://go.dev/dl/go1.20.darwin-amd64.pkg) 下载安装包。
 
 ### 下载并运行 Beginner Privacy
 克隆仓库：
 ```bash
-git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
-cd beginnerprivacy
+git clone https://github.com/beginnerprivacy/beginnerprivacy.com
+cd beginnerprivacy.com
 ```
 
 启动开发服务器：

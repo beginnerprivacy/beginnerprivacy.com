@@ -56,17 +56,42 @@ Using Homebrew:
 brew install hugo
 ```
 
-**Verify installation:**
+#### Go
+Install Go 1.20:
+
+**Linux:**
 ```bash
-hugo version
-# Should show: hugo v0.145.0+extended linux/amd64 BuildDate=...
+# Download and extract
+wget https://go.dev/dl/go1.20.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.20.linux-amd64.tar.gz
+
+# Add to PATH (add to ~/.bashrc or ~/.zshrc)
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
 ```
+
+**Windows:**
+Download the installer from [go.dev/dl](https://go.dev/dl/go1.20.windows-amd64.msi) and run it.  
+Alternatively, using Chocolatey:
+```powershell
+choco install golang --version=1.20 -y
+```
+
+**MacOS:**
+Using Homebrew:
+```bash
+brew install go@1.20
+# Link it into PATH
+echo 'export PATH=$(brew --prefix go@1.20)/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+```
+Or download from [go.dev/dl](https://go.dev/dl/go1.20.darwin-amd64.pkg).
 
 ### Download & Run Beginner Privacy
 Clone the repository:
 ```bash
-git clone https://github.com/beginnerprivacy/beginnerprivacy.github.io
-cd beginnerprivacy
+git clone https://github.com/beginnerprivacy/beginnerprivacy.com
+cd beginnerprivacy.com
 ```
 
 Start development server:
