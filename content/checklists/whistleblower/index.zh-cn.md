@@ -2,7 +2,7 @@
 title: 举报人
 excludeSearch: true
 ---
-{{< checklists/item link="/articles/the-best-desktop-operating-systems-for-high-risk-individuals" text="使用安全的操作系统对于在进行高风险活动（如举报）时保护您的身份至关重要。" id="use-a-secure-operating-system" >}}使用安全的操作系统{{< /checklists/item >}}
+{{< checklists/item text="使用安全的操作系统对于在进行高风险活动（如举报）时保护您的身份至关重要。" id="use-a-secure-operating-system" >}}使用安全的操作系统{{< /checklists/item >}}
 
 {{< checklists/item link="/articles/ditch-sms-and-use-secure-communication-methods" text="使用端到端加密的消息应用程序进行沟通。" id="only-use-encrypted-communication" >}}仅使用加密通信{{< /checklists/item >}}
 

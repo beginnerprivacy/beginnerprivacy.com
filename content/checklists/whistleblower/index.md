@@ -2,7 +2,7 @@
 title: Whistleblower
 excludeSearch: true
 ---
-{{< checklists/item link="/articles/the-best-desktop-operating-systems-for-high-risk-individuals" text="Using a secure operating system is essential for protecting your identity while engaging in high-risk activities like whistleblowing." id="use-a-secure-operating-system" >}}Use a secure operating system{{< /checklists/item >}}
+{{< checklists/item text="Using a secure operating system is essential for protecting your identity while engaging in high-risk activities like whistleblowing." id="use-a-secure-operating-system" >}}Use a secure operating system{{< /checklists/item >}}
 
 {{< checklists/item link="/articles/ditch-sms-and-use-secure-communication-methods" text="Use end-to-end encrypted messaging apps to communicate." id="only-use-encrypted-communication" >}}Only use encrypted communication{{< /checklists/item >}}
 

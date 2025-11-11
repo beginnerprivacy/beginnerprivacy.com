@@ -2,7 +2,7 @@
 title: Denunciante
 excludeSearch: true
 ---
-{{< checklists/item link="/articles/the-best-desktop-operating-systems-for-high-risk-individuals" text="Usar un sistema operativo seguro es esencial para proteger tu identidad mientras participas en actividades de alto riesgo como la denuncia de irregularidades." id="use-a-secure-operating-system" >}}Usa un sistema operativo seguro{{< /checklists/item >}}
+{{< checklists/item text="Usar un sistema operativo seguro es esencial para proteger tu identidad mientras participas en actividades de alto riesgo como la denuncia de irregularidades." id="use-a-secure-operating-system" >}}Usa un sistema operativo seguro{{< /checklists/item >}}
 
 {{< checklists/item link="/articles/ditch-sms-and-use-secure-communication-methods" text="Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte." id="only-use-encrypted-communication" >}}Solo usa comunicación cifrada{{< /checklists/item >}}
 
