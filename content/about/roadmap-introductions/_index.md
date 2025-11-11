@@ -7,6 +7,3 @@ category: About
     {{< card link="./basic" title="Basic" icon="book-open" >}} 
     {{< card link="./medium" title="Medium" icon="adjustments" >}} 
 {{< /cards >}}
-{{< cards cols="1" >}} 
-    {{< card link="./advanced" title="Advanced" icon="star" >}} 
-{{< /cards >}}

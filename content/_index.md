@@ -55,7 +55,7 @@ layout: hextra-home
   </div>
   <div id="roadmapContent" class="hx-mt-4">
     <div id="startContent" class="roadmap-section">
-      <ol class="startContentOL">
+      <ol class="centerRoadmapOL">
         <li>{{< roadmap/card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
@@ -74,6 +74,7 @@ layout: hextra-home
           <li>{{< roadmap/card title="Desktop Privacy Settings" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
           <li>{{< roadmap/card title="Private Email" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
           <li>{{< roadmap/card title="Secure Messaging" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
+          <li>{{< roadmap/card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="basic-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="mediumContent" class="roadmap-section" style="display:none;">
@@ -83,18 +84,14 @@ layout: hextra-home
         <li>{{< roadmap/card title="Free and Open Source Software" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Encrypted DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="Social Media Frontends" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="medium-hf-card-color" >}}</li>
         <li>{{< roadmap/card title="What is Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="medium-hf-card-color" >}}</li>
+        <li>{{< roadmap/card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="medium-hf-card-color" >}}</li>
       </ol>
     </div>
     <div id="advancedContent" class="roadmap-section" style="display:none;">
-      <ol>
-        <li>{{< roadmap/card title="Advanced Introduction" id="advanced-introduction" link="about/roadmap-introductions/advanced" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Desktop Operating System" id="desktop-operating-system" link="articles/the-best-desktop-operating-systems-for-high-risk-individuals" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Mobile Operating System" id="mobile-operating-system" link="articles/the-best-private-mobile-operating-systems" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="advanced-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="advanced-hf-card-color" >}}</li>
+      <ol class="centerRoadmapOL">
         <li>{{< roadmap/card title="Beyond Beginner Privacy" id="moving-beyond-beginner-privacy" link="articles/moving-beyond-beginner-privacy" class="advanced-hf-card-color" >}}</li>
       </ol>
     </div>

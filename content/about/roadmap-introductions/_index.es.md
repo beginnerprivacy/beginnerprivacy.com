@@ -1,12 +1,9 @@
 ---
-linkTitle: "Introducciones de la hoja de ruta"
-title: Introducciones de la hoja de ruta
+linkTitle: "Introducciones de la Hoja de Ruta"
+title: Introducciones de la Hoja de Ruta
 category: About
 ---
 {{< cards cols="2" >}} 
     {{< card link="./basic" title="Básico" icon="book-open" >}} 
     {{< card link="./medium" title="Medio" icon="adjustments" >}} 
-{{< /cards >}}
-{{< cards cols="1" >}} 
-    {{< card link="./advanced" title="Avanzado" icon="star" >}} 
 {{< /cards >}}

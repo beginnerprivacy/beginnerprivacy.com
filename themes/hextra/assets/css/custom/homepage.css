@@ -349,13 +349,13 @@ input[type="radio"]:checked + label {
   }
 }
 
-.startContentOL {
+.centerRoadmapOL {
   display: flex !important;
   justify-content: center;
 }
 
 @media (max-width: 1000px) {
-  .startContentOL {
+  .centerRoadmapOL {
     display: table !important;
   }
 }
