@@ -13,47 +13,34 @@ El escritorio recopila todo tipo de información sobre nosotros. Por eso es impo
 Linux destaca como el claro ganador en términos de privacidad. Aunque Windows y macOS dominan el mercado gracias a la familiaridad de los usuarios —Windows viene preinstalado en la mayoría de los nuevos ordenadores—, la limitada conciencia de alternativas y la estrecha integración con sus ecosistemas, en última instancia priorizan los intereses corporativos sobre la privacidad del usuario. En contraste, las distribuciones de Linux son de código abierto y impulsadas por la comunidad, empoderando a los usuarios con control total sobre sus datos y todo el sistema.
 
 ### Configuración de Privacidad
-#### Linux
-**Desactivar Telemetría** 
-- Algunas distribuciones pueden enviar datos de diagnóstico, generalmente desactivados por defecto. Puedes buscar cómo desactivarlo para tu distribución específica.
+#### Restringir Permisos de Aplicaciones
+Bloquea las aplicaciones de acceder a funciones sensibles como la cámara o archivos a menos que lo apruebes.
 
-#### Windows
-**Restringir permisos de aplicaciones** 
-- Navega a **Configuración > Privacidad y seguridad**.
-- Desplázate hacia abajo hasta la sección de permisos de aplicaciones y ajusta la siguiente configuración:
-    - Ubicación: Desactiva "Servicios de ubicación".
-    - Cámara: Desactiva "Acceso a la cámara".
-    - Micrófono: Desactiva "Acceso al micrófono".
+| SO | Pasos |
+|----------|-------|
+| **Windows** | 1. Abre **Configuración > Privacidad y seguridad > Permisos de aplicaciones**.<br>2. Selecciona una categoría (por ejemplo, Ubicación, Cámara, Micrófono).<br>3. Desactiva el acceso global o deniega por aplicación. |
+| **macOS** | 1. Abre **Configuración del Sistema > Privacidad y Seguridad > Privacidad**.<br>2. Haz clic en una categoría (por ejemplo, Servicios de Ubicación, Micrófono, Archivos y Carpetas).<br>3. Desmarca las aplicaciones o desactiva completamente. |
 
-**Desactivar Telemetría** 
-- Ve a **Configuración > Privacidad y seguridad > Diagnósticos y comentarios**.
-- Desactiva "Enviar datos de diagnóstico opcionales".
-- Además, desactiva:
-    - "Mejorar la escritura a mano y la escritura"
-    - "Experiencias personalizadas"
-    - "Ver datos de diagnóstico"
+#### Desactivar Telemetría y Diagnósticos
+Evita el envío de datos a los proveedores para "mejoras" y personalización, que puede incluir patrones de uso y registros de fallos.
 
-**Desactivar seguimiento de anuncios**
-- Accede a **Configuración > Privacidad y seguridad > General**.
-- Desactiva "Permitir que las aplicaciones me muestren anuncios personalizados utilizando mi ID de publicidad".
+| SO | Pasos |
+|----------|-------|
+| **Linux** | La mayoría de las distribuciones (por ejemplo, Ubuntu) lo tienen desactivado por defecto. Abre **Configuración > Privacidad** y desactiva cualquier compartición de diagnósticos. |
+| **Windows** | 1. Abre **Configuración > Privacidad y seguridad > Diagnósticos y comentarios**.<br>2. Desactiva **Enviar datos de diagnóstico opcionales**.<br>3. Desactiva **Mejorar la escritura y el dibujo a mano**, **Experiencias personalizadas** y **Ver datos de diagnóstico**. |
+| **macOS** | 1. Abre **Configuración del Sistema > Privacidad y Seguridad > Análisis y Mejoras**.<br>2. Desactiva **Compartir Análisis de Mac** y **Compartir con Desarrolladores de Aplicaciones**. |
 
-#### macOS
-**Restringir permisos de aplicaciones** 
-- Navega a **Preferencias del sistema > Seguridad y privacidad > Pestaña de privacidad**. En las siguientes categorías, desactiva el acceso si no deseas que ninguna aplicación lo use, o permite solo a aplicaciones específicas:
-    - Servicios de ubicación
-    - Contactos
-    - Calendarios
-    - Fotos
-    - Micrófono
-    - Cámara
-    - Archivos 
-    - Carpetas
+#### Desactivar Seguimiento de Anuncios
+Evita los anuncios personalizados basados en tu ID.
 
-**Desactivar Telemetría** 
-- Ve a **Preferencias del sistema > Seguridad y privacidad > Pestaña de privacidad > Analíticas** y desactiva "Compartir analíticas de Mac" y "Compartir con desarrolladores de aplicaciones".
+| SO | Pasos |
+|----------|-------|
+| **Windows** | 1. Abre **Configuración > Privacidad y seguridad > General**.<br>2. Desactiva **Permitir que las aplicaciones usen el ID de publicidad para personalizar anuncios**. |
+| **macOS** | 1. Abre **Configuración del Sistema > Privacidad y Seguridad > Publicidad**.<br>2. Activa **Limitar Seguimiento de Anuncios**. |
 
-**Desactivar seguimiento de anuncios**
-- Accede a **Preferencias del sistema > Seguridad y privacidad > Pestaña de privacidad > Publicidad** y marca la casilla "Limitar el seguimiento de anuncios".
+#### Desactivar Siri (Solo macOS)
+Detiene la recopilación y procesamiento de datos de voz.
 
-**Desactivar Siri**
-- Siri recopila y envía una gran cantidad de información a Apple sobre ti. Desactívalo yendo a **Preferencias del sistema > Siri** y desactiva "Activar Preguntar a Siri".
+| SO | Pasos |
+|----------|-------|
+| **macOS** | 1. Abre **Configuración del Sistema > Siri y Spotlight**.<br>2. Desactiva **Ask Siri**.<br>3. Haz clic en **Historial de Siri y Dictado > Eliminar Historial de Siri**. |

@@ -13,47 +13,34 @@ The desktop collects all kinds of information about us. That’s why it’s impo
 Linux stands out as the clear winner for privacy. While Windows and macOS dominate the market thanks to user familiarity—Windows comes pre-installed on most new computers—limited awareness of alternatives, and tight ecosystem integration, they ultimately prioritize corporate interests over user privacy. In contrast, Linux distributions are open-source and community-driven, empowering users with full control over their data and the entire system.
 
 ### Privacy Settings
-#### Linux
-**Disable Telemetry** 
-- Some distributions may send diagnostic data, usually off by default. You can search for how to disable it for your specific distribution.
+#### Restrict App Permissions
+Blocks apps from accessing sensitive features like camera or files unless you approve.
 
-#### Windows
-**Restrict App Permissions** 
-- Navigate to **Settings > Privacy & security**.
-- Scroll down to the App permissions section and adjust the following settings:
-    - Location: Turn off "Location services".
-    - Camera: Turn off "Camera access".
-    - Microphone: Turn off "Microphone access".
+| OS       | Steps |
+|----------|-------|
+| **Windows** | 1. Open **Settings > Privacy & security > App permissions**.<br>2. Select a category (e.g., Location, Camera, Microphone).<br>3. Toggle off global access or deny per-app. |
+| **macOS** | 1. Open **System Settings > Privacy & Security > Privacy**.<br>2. Click a category (e.g., Location Services, Microphone, Files and Folders).<br>3. Uncheck apps or toggle off entirely. |
 
-**Disable Telemetry** 
-- Go to **Settings > Privacy & security > Diagnostics & feedback**.
-- Disable "Send optional diagnostic data".
-- Additionally, turn off:
-    - "Improve inking and typing"
-    - "Tailored experiences"
-    -  "View diagnostic data"
+#### Disable Telemetry and Diagnostics
+Prevent data sent to vendors for "improvements" and personalization, which can include usage patterns and crash logs.
 
-**Disable Ad Tracking**
-- Access **Settings > Privacy & security > General**.
-- Turn off "Let apps show me personalized ads by using my advertising ID".
+| OS       | Steps |
+|----------|-------|
+| **Linux** | Most distros (e.g., Ubuntu) have it disabled by default. Open **Settings > Privacy** and toggle off any diagnostic sharing. |
+| **Windows** | 1. Open **Settings > Privacy & security > Diagnostics & feedback**.<br>2. Disable **Send optional diagnostic data**.<br>3. Toggle off **Improve inking and typing**, **Tailored experiences**, and **View diagnostic data**. |
+| **macOS** | 1. Open **System Settings > Privacy & Security > Analytics & Improvements**.<br>2. Toggle off **Share Mac Analytics** and **Share with App Developers**. |
 
-#### macOS
-**Restrict App Permissions** 
-- Navigate to **System Preferences > Security & Privacy > Privacy Tab**. In the following categories, turn off access if you don’t want any apps to use it, or allow it only for specific apps:
-    - Location Services
-    - Contacts
-    - Calendars
-    - Photos
-    - Microphone
-    - Camera
-    - Files 
-    - Folders
+#### Disable Ad Tracking
+Prevents personalized ads based on your ID.
 
-**Disable Telemetry** 
-- Go to **System Preferences > Security & Privacy > Privacy Tab > Analytics** and turn off "Share Mac Analytics" and "Share with App Developers".
+| OS       | Steps |
+|----------|-------|
+| **Windows** | 1. Open **Settings > Privacy & security > General**.<br>2. Toggle off **Let apps use advertising ID to personalize ads**. |
+| **macOS** | 1. Open **System Settings > Privacy & Security > Advertising**.<br>2. Toggle on **Limit Ad Tracking**. |
 
-**Disable Ad Tracking**
-- Access **System Preferences > Security & Privacy > Privacy Tab > Advertising** and check the box "Limit Ad Tracking".
+#### Disable Siri (macOS Only)
+Stops voice data collection and processing.
 
-**Disable Siri**
-- Siri collects and sends a ton of information to Apple about you. Disable it by going to **System Preferences > Siri** and turn off "Enable Ask Siri".
+| OS       | Steps |
+|----------|-------|
+| **macOS** | 1. Open **System Settings > Siri & Spotlight**.<br>2. Toggle off **Ask Siri**. <br>3. Click **Siri & Dictation History > Delete Siri History**. |

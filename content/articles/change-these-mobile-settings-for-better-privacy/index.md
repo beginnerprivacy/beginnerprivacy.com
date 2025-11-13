@@ -13,43 +13,38 @@ Our smartphones are the biggest data collectors, soaking up all kinds of informa
 Both Android and iOS collect similar data, such as location, app usage, and personal preferences. However, keep in mind that neither iOS nor Android offers true privacy, even if you disable every privacy setting. Both operating systems are closed-source (Android's foundational kernel (AOSP) is open-source, but off-the-shelf devices from retailers comes with proprietary components), and they continue to track you in ways you can't fully control.
 
 ### Privacy Settings
-*Note: The steps to access these settings may vary depending on your device's version and manufacturer.*
+{{< callout type="info" >}}
+  The steps to access these settings may vary depending on your device's version and manufacturer.
+{{< /callout >}}
+
 #### Restrict App Permissions
-**Android:** 
-- Navigate to **Settings > Security and privacy > Permission manager**.
+Limits what apps can access (e.g., camera, contacts) to prevent unnecessary spying.
 
-- Choose a specific permission (e.g., location, camera) and select an app that shouldn't have access to the permission.
+| Platform | Steps |
+|----------|-------|
+| **Android** | 1. Open **Settings > Privacy > Permission manager**.<br>2. Tap a permission type (e.g., Location, Camera).<br>3. Select an app and tap **Don't allow** (or **Ask every time** for flexibility). |
+| **iOS** | 1. Open **Settings > Privacy & Security**.<br>2. Tap a permission type (e.g., Location Services, Contacts).<br>3. Find the app and toggle it off. |
 
-- Tap "Don't allow" to revoke access.
+#### Disable Location Services
+Stops global tracking of your whereabouts, reducing geofence data sent to the OS or apps.
 
-**iOS:** 
-- Go to **Settings > Privacy & Security**.
+| Platform | Steps |
+|----------|-------|
+| **Android** | 1. Open **Settings > Location**.<br>2. Toggle the switch **Off**. <br>*Tip: Review app-specific location in Permission manager for exceptions.* |
+| **iOS** | 1. Open **Settings > Privacy & Security > Location Services**.<br>2. Toggle the switch **Off**. |
 
-- Select the permission type (e.g., Location Services, Contacts) and choose the app you want to limit.
+#### Hide Notification Previews
+Prevents sensitive info (e.g., message snippets) from showing on your lock screen.
 
-- Toggle the switch to disable access.
+| Platform | Steps |
+|----------|-------|
+| **Android** | 1. Open **Settings > Notifications > Notifications on lock screen**.<br>2. Select **Hide sensitive content** (or **Don't show notifications** for full privacy). |
+| **iOS** | 1. Open **Settings > Notifications > Show Previews**.<br>2. Select **Never**. |
 
-#### Disable Location
-**Android:** 
-- Open **Settings > Location** and toggle the switch to off.
+#### Disable Telemetry and Diagnostics
+Cuts back on data sent to Google/Apple for "improvements," including crash reports and ad personalization.
 
-**iOS:** 
-- Go to **Settings > Privacy & Security > Location Services** and toggle the switch to off.
-
-#### Disable Notifications Preview
-**Android:** 
-- Head to **Settings > Notifications > Lock screen notifications** and select "Hide content".
-
-**iOS:** 
-- Navigate to **Settings > Notifications > Show Previews** and select "Never".
-
-#### Disable Telemetry
-**Android:** 
-- Go to **Settings > Security and privacy > More privacy settings**. Turn off "Send diagnostic data" and "Android personalization service."
-
-- Then, navigate to **Ads > Ads privacy** and disable all options.
-
-- Finally, return to **Ads** and select "Delete advertising ID," and go back to **More privacy settings > Usage and diagnostics** and disable it.
-
-**iOS:** 
-- Open **Settings > Privacy & Security > Analytics & Improvements** and toggle off options like "Share iPhone Analytics" and "Share with App Developers."
+| Platform | Steps |
+|----------|-------|
+| **Android** | 1. Open **Settings > Privacy > Manage your data > Send diagnostic data** and toggle **Off**.<br>2. Go to **Settings > Privacy > Ads** and toggle **Opt out of Ads Personalization**.<br>3. In **Ads**, tap **Reset advertising ID**. |
+| **iOS** | 1. Open **Settings > Privacy & Security > Analytics & Improvements**.<br>2. Toggle off **Share iPhone Analytics**, **Improve Siri & Dictation**, and **Share with App Developers**. |
