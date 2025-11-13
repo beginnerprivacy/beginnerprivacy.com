@@ -21,6 +21,10 @@ Using mainstream email services often means compromising your privacy. Providers
 - **End-to-End Encryption:** Your emails are secured so only you and the person you're sending to can read them. The email provider can't peek.
 - **Open Source Transparency:** They share their source code publicly, so anyone can check if they're really secure and private.
 
+{{< callout type="info" >}}
+  Even with a privacy focused email, phishing attacks can still target you. Learn how to spot and avoid them [here](/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/).
+{{< /callout >}}
+
 ### Recommended Email Providers
 <div class="recommendations">
   <div class="grid">

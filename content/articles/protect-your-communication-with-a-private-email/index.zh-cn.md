@@ -21,6 +21,10 @@ excludeSearch: false
 - **端到端加密：** 你的电子邮件是安全的，只有你和收件人可以阅读。电子邮件提供商无法窥视。
 - **开源透明性：** 他们公开分享源代码，以便任何人都可以检查他们是否真的安全和私密。
 
+{{< callout type="info" >}}
+  即使使用注重隐私的电子邮件，钓鱼攻击仍然可能针对你。了解如何识别和避免它们[这里](/zh-cn/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/)。
+{{< /callout >}}
+
 ### 推荐的电子邮件提供商
 <div class="recommendations">
   <div class="grid">

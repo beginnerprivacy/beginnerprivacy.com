@@ -21,6 +21,10 @@ Usar servicios de correo electrónico convencionales a menudo significa comprome
 - **Encriptación de Extremo a Extremo:** Tus correos electrónicos están asegurados para que solo tú y la persona a la que se los envías puedan leerlos. El proveedor de correo no puede espiar.
 - **Transparencia de Código Abierto:** Comparten su código fuente públicamente, para que cualquiera pueda verificar si realmente son seguros y privados.
 
+{{< callout type="info" >}}
+  Incluso con un correo electrónico centrado en la privacidad, los ataques de phishing aún pueden dirigirse a ti. Aprende cómo detectarlos y evitarlos [aquí](/es/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/).
+{{< /callout >}}
+
 ### Proveedores de Correo Recomendados
 <div class="recommendations">
   <div class="grid">
