@@ -20,13 +20,6 @@ Hay numerosas razones convincentes para autoalojar:
 - **Privacidad:** Tus datos permanecen en tu propio hardware, reduciendo significativamente el riesgo de acceso no autorizado por parte de terceros.
 - **Personalización:** Tienes la flexibilidad de adaptar tu sistema para satisfacer tus necesidades específicas, permitiéndote instalar y configurar el software exactamente como lo desees.
 
-### Tipos de Autoalojamiento
-#### 1. Configuraciones de Servidor en Casa
-Las configuraciones de servidor en casa son una de las formas más accesibles de autoalojamiento. Con hardware relativamente de bajo costo, como una Raspberry Pi o un viejo portátil, puedes crear un servidor personal para alojar aplicaciones como almacenamiento de archivos, transmisión de medios o incluso un sitio web personal. Los servidores en casa son ideales para individuos que desean explorar el autoalojamiento sin realizar una inversión significativa.
-
-#### 2. Servidores Privados Virtuales (VPS)
-Para aquellos que buscan más potencia y flexibilidad, los Servidores Privados Virtuales (VPS) ofrecen una alternativa robusta. Un VPS es un servidor virtualizado que se ejecuta en hardware físico, proporcionando recursos dedicados y un mayor control sobre el entorno. Esta opción es especialmente popular entre desarrolladores y pequeñas empresas que requieren un rendimiento confiable y escalabilidad.
-
 ### ¿Qué Servicios Puedes Autoalojar?
 {{< callout type="info" >}}
   Esta es solo una breve descripción; para una lista más extensa de servicios que puedes autoalojar, asegúrate de consultar [awesome-selfhosted](https://awesome-selfhosted.net/).
@@ -45,3 +38,38 @@ Para aquellos que buscan más potencia y flexibilidad, los Servidores Privados V
 | **Aplicaciones de Toma de Notas**    | Privacidad, control total sobre los datos                        | [Joplin](https://joplinapp.org/), [LogSeq](https://logseq.com/)                      |
 | **Gestión Financiera Personal** | Privacidad de datos financieros, categorías y reportes personalizables | [Firefly III](https://firefly-iii.org/), [GnuCash](https://www.gnucash.org/)                 |
 | **Alojamiento de Sitios Web Personales**    | Control total sobre tu presencia en línea, personalizable | [Ghost](https://ghost.org/)                    |
+
+### Cómo Empezar Ahora Mismo
+¿Listo para sumergirte? El autoalojamiento tiene dos enfoques principales: servidores domésticos (usando tu propio hardware físico, desde una Raspberry Pi hasta configuraciones personalizadas de alta gama para almacenamiento de archivos, streaming de medios o sitios web; son flexibles e ideales para un control manos a la obra) o alquileres de VPS (servidores virtualizados con recursos dedicados para una escalabilidad fácil, populares entre empresas que necesitan un tiempo de actividad gestionado 24/7). Recomendamos comenzar con un servidor doméstico en una laptop vieja: es gratis, usa su batería como UPS (Fuente de Alimentación Ininterrumpida) para cortes de energía, y es perfecto para experimentos rápidos; luego escala a hardware mejor si es necesario. Si no quieres molestarte configurando algo en tu propio hardware, busca un VPS sin KYC en [kycnot.me](https://kycnot.me/).
+
+#### Paso 1: Instalar Debian (Sin Entorno de Escritorio)
+- Descarga el ISO desde [debian.org/distrib](https://www.debian.org/distrib/).
+- Graba en USB usando [Rufus](https://rufus.ie) o `dd` (consulta nuestra [guía de instalación de Linux](/es/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/) para detalles).
+- Arranca desde USB (entra en BIOS con F2/Del, prioriza USB en el orden de arranque), procede con la instalación predeterminada, pero en la selección de software, desmarca **Entorno de escritorio Debian** y **GNOME** para un servidor sin cabeza.
+
+#### Paso 2: Instalar Docker
+En la terminal, ejecuta los siguientes comandos:
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release -y
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sudo usermod -aG docker $USER
+```
+Prueba: `docker run hello-world`.
+
+#### Paso 3: Ejecutar un Servicio
+Explora [awesome-selfhosted](https://awesome-selfhosted.net/) para apps listas para Docker (por ejemplo, Jellyfin). Usa su `docker run` o `docker-compose.yml`.
+- Ejemplo de Jellyfin:
+```
+docker run -d \
+  --name=jellyfin \
+  -p 8096:8096 \
+  -v /srv/jellyfin/config:/config \
+  -v /srv/jellyfin/cache:/cache \
+  -v /media:/media \
+  jellyfin/jellyfin:latest
+```
+- Ahora puedes acceder a Jellyfin vía `http://tu-ip-del-servidor:8096` en tu red.

@@ -20,13 +20,6 @@ excludeSearch: false
 - **隐私：** 你的数据保留在自己的硬件上，显著降低了第三方未经授权访问的风险。
 - **定制化：** 你可以灵活地调整系统以满足特定需求，允许你按照自己的意愿安装和配置软件。
 
-### 自我托管的类型
-#### 1. 家庭服务器设置
-家庭服务器设置是自我托管最容易接触的形式之一。通过使用相对低成本的硬件，如 Raspberry Pi 或旧笔记本电脑，你可以创建一个个人服务器来托管文件存储、媒体流或甚至个人网站等应用程序。家庭服务器非常适合希望在不进行重大投资的情况下探索自我托管的个人。
-
-#### 2. 虚拟专用服务器 (VPS)
-对于那些寻求更大能力和灵活性的人，虚拟专用服务器 (VPS) 提供了一个强大的替代方案。VPS 是在物理硬件上运行的虚拟化服务器，提供专用资源和更大的环境控制。这种选择在需要可靠性能和可扩展性的开发人员和小型企业中尤其受欢迎。
-
 ### 你可以自我托管哪些服务？
 {{< callout type="info" >}}
   这只是一个简要概述；要获取更全面的自我托管服务列表，请务必查看 [awesome-selfhosted](https://awesome-selfhosted.net/)。
@@ -45,3 +38,38 @@ excludeSearch: false
 | **笔记应用**    | 隐私，完全控制数据                        | [Joplin](https://joplinapp.org/), [LogSeq](https://logseq.com/)                      |
 | **个人财务管理** | 财务数据隐私，可定制的类别和报告 | [Firefly III](https://firefly-iii.org/), [GnuCash](https://www.gnucash.org/)                 |
 | **个人网站托管**    | 完全控制你的在线存在，可定制 | [Ghost](https://ghost.org/)                    |
+
+### 如何立即开始
+准备好投入了吗？自托管有两种主要方式：家庭服务器（使用您自己的物理硬件——从 Raspberry Pi 到高端定制设备，用于文件存储、媒体流传输或网站；它们灵活且适合亲手控制）或 VPS 租赁（虚拟化服务器，具有专用资源，便于扩展，受企业青睐，需要托管的 24/7 在线时间）。我们推荐从旧笔记本上的家庭服务器开始：它是免费的，利用其电池作为 UPS（不间断电源）来应对断电，非常适合快速实验——然后根据需要升级到更好的硬件。如果您不想费心在自己的硬件上设置东西，那么在 [kycnot.me](https://kycnot.me/) 上找一个无 KYC 的 VPS。
+
+#### 步骤 1: 安装 Debian（无桌面环境）
+- 从 [debian.org/distrib](https://www.debian.org/distrib/) 下载 ISO。
+- 使用 [Rufus](https://rufus.ie) 或 `dd` 刻录到 USB（如果需要快速复习，请参阅我们的 [Linux 安装指南](/zh-cn/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide/)）。
+- 从 USB 启动（通过 F2/Del 进入 BIOS，在启动顺序中优先 USB），继续默认安装，但在软件选择中，取消选中 **Debian 桌面环境** 和 **GNOME** 以获得无头服务器。
+
+#### 步骤 2: 安装 Docker
+在终端中运行以下命令：
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release -y
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sudo usermod -aG docker $USER
+```
+测试：`docker run hello-world`。
+
+#### 步骤 3: 运行一个服务
+浏览 [awesome-selfhosted](https://awesome-selfhosted.net/) 以查找 Docker 就绪应用（例如 Jellyfin）。使用它们的 `docker run` 或 `docker-compose.yml`。
+- Jellyfin 示例：
+```
+docker run -d \
+  --name=jellyfin \
+  -p 8096:8096 \
+  -v /srv/jellyfin/config:/config \
+  -v /srv/jellyfin/cache:/cache \
+  -v /media:/media \
+  jellyfin/jellyfin:latest
+```
+- 现在您可以在网络上通过 `http://your-server-ip:8096` 访问 Jellyfin。
