@@ -4,6 +4,8 @@ excludeSearch: true
 ---
 {{< checklists/item link="/articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" text="Cambiar a Linux puede mejorar tu privacidad y seguridad al reducir la dependencia del software propietario." id="switch-to-linux" >}}Cambiar a Linux{{< /checklists/item >}}
 
+{{< checklists/item link="/articles/break-free-from-proprietary-software-with-foss" text="Usar solo Software Libre y de Código Abierto reduce el riesgo de vigilancia oculta en el código propietario." id="only-use-foss" >}}Solo usa FOSS{{< /checklists/item >}}
+
 {{< checklists/item link="/articles/why-you-should-ditch-social-media-and-use-a-frontend" text="Usar frontends de redes sociales puede ayudarte a mantener la privacidad mientras sigues interactuando con las mismas plataformas." id="use-social-media-frontends" >}}Usar frontends de redes sociales{{< /checklists/item >}}
 
 {{< checklists/item link="/articles/limit-the-personal-information-you-share-online" text="Ten cuidado con la información personal que compartes en línea para proteger tu privacidad." id="limit-information-shared" >}}Limitar la información compartida{{< /checklists/item >}}
@@ -14,4 +16,4 @@ excludeSearch: true
 
 {{< checklists/item link="/articles/what-is-a-vpn-and-should-you-use-one" text="Una Red Privada Virtual (VPN) puede proporcionar una capa adicional de seguridad para tu conexión a internet." id="virtual-private-network" >}}Red Privada Virtual (VPN){{< /checklists/item >}}
 
-{{< checklists/item link="/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" text="Comprar cosas con efectivo o criptomonedas para mejorar tu privacidad financiera." id="only-buy-with-cash-or-cryptocurrency" >}}Solo compra con efectivo o criptomonedas{{< /checklists/item >}}
+{{< checklists/item link="/articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" text="Usa efectivo o criptomoneda para las compras para minimizar el seguimiento financiero y mejorar el anonimato de las transacciones." id="only-buy-with-cash-or-cryptocurrency" >}}Solo compra con efectivo o criptomoneda{{< /checklists/item >}}
