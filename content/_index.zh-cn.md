@@ -16,11 +16,11 @@ layout: hextra-home
     <p class="hx-text-lg">您的隐私很重要！但大型组织正在剥夺它。<br> Beginner Privacy 帮助您在在线隐私和安全的广阔海洋中航行。</p>
   </div>
 
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
     开始您的旅程
     <span class="arrow">&rarr;</span>
   </div>
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">不确定？这就是原因</div>
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">不确定？这就是原因</div>
 
   <div class="hero-waves">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -41,7 +41,7 @@ layout: hextra-home
   <div>
       <h2 class="text-4xl hx-text-center hx-font-bold md:hx-text-6xl">路线图</h2>
       <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-        <div class="tabs">
+        <div class="tabs hx-select-none">
             <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
             <label class="tab" for="radio-start">开始</label>
             <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
