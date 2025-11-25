@@ -7,35 +7,56 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-### ¿Qué es I2P?
-Lanzado en 2003 por defensores de la privacidad, el Proyecto de Internet Invisible (I2P) es una red de código abierto para comunicación anónima y resistente a la censura. No es para navegar por la web pública como Tor; en cambio, construye una superposición oculta para servicios P2P como eepsites, compartición de archivos, chats y correo electrónico—todo encriptado e interno.
+I2P (Invisible Internet Project) es una de las redes superpuestas anónimas más antiguas y resistentes que aún sigue en desarrollo activo. Lanzado en 2003, sigue siendo el favorito entre entusiastas de la privacidad, denunciantes en regímenes represivos y personas que simplemente rechazan confiar en el modelo de nodos de salida de Tor. A diferencia de Tor, I2P nunca fue diseñado para navegar por la clearnet: es una “darknet” completamente separada y autocontenida donde todo permanece dentro de la red.
 
-<br>
+### ¿Cómo funciona I2P?
+I2P está construido de forma completamente diferente a Tor. Aquí está la idea principal en términos simples:
 
-I2P utiliza enrutamiento de ajo: los mensajes se agrupan en "ajos" con múltiples "dientes de ajo" (tus datos mezclados con los de otros), lo que hace difícil el análisis de tráfico. Esto supera las capas de cebolla de Tor al agregar desvíos. Los datos viajan a través de túneles unidireccionales con encriptación de extremo a extremo, y las claves cambian en cada salto. Totalmente descentralizado, funciona en routers voluntarios sin control central, resistiendo apagones y espionaje.
+1. **Nadie ve nunca tu IP real**  
+   Tu tráfico siempre pasa por túneles formados por nodos voluntarios (pares). Todo usuario de I2P también es un relay.
+2. **Túneles unidireccionales (la gran diferencia con Tor)**  
+   - Túnel de salida: tus datos salen a través de 3–7 pares aleatorios.  
+   - Túnel de entrada: las respuestas regresan por un conjunto completamente diferente de 3–7 pares.  
+   Ningún nodo sabe tanto el origen como el destino del tráfico, ni siquiera el primer o último salto.
+3. **Enrutamiento garlic (no onion)**  
+   Tu mensaje se divide, se encripta muchas veces y se empaqueta (“ajo”) junto con mensajes de otras personas. Algunas partes son reales, otras son señuelos y otras son instrucciones para otros destinos. Esto hace extremadamente difícil el análisis de tráfico y de temporización, mucho más que con las capas de cebolla individuales de Tor.
+4. **Los túneles cambian cada 10 minutos**  
+   Los caminos antiguos se descartan y se construyen nuevos caminos aleatorios. Aunque alguien te vigile durante días, la imagen se reinicia constantemente.
+5. **Cifrado de extremo a extremo**  
+   Solo tú y el destinatario final tenéis las claves para leer el contenido. Los nodos voluntarios del medio solo mueven paquetes encriptados; nunca ven el interior.
+6. **Totalmente dentro de su propia red**  
+   No existen “nodos de salida” que toquen Internet normal (salvo que uses un outproxy raro explícitamente). Todo —sitios web (.i2p), torrents, chat, correo— permanece dentro de I2P.
 
-### ¿Deberías Usar I2P?
-I2P destaca en P2P privado, pero no es amigable para principiantes. Considera esto:
+I2P oculta tanto quién eres como lo que dices rebotando pedazos encriptados y mezclados a través de túneles voluntarios unidireccionales que cambian constantemente, y nunca permite que nada salga de su propia red oculta.
 
-| **Pros** | **Cons** |
+### ¿Deberías usar I2P?
+I2P destaca en P2P privado, pero no es muy amigable para principiantes. Considera esto:
+
+| **Ventajas** | **Desventajas** |
 |------|------|
-| Excelente anonimato para actividades internas como torrenting (vía I2PSnark) sin nodos de salida. | Velocidades más lentas debido a la encriptación pesada y el enrutamiento. |
-| Resiste la vigilancia mediante la mezcla de datos y sin un punto único de fallo. | Base de usuarios más pequeña (30k-60k routers) significa menos contenido y confiabilidad. |
-| Comunidad activa con integraciones para IRC y correo electrónico dentro de la red. | Configuración más empinada: aprende conceptos como destinos; no hay un paquete de navegador fácil. |
+| Excelente anonimato para actividades internas como torrenting (vía I2PSnark) sin nodos de salida. | Velocidades más lentas por el pesado encriptado y enrutamiento. |
+| Resiste la vigilancia mediante mezcla de datos y sin punto único de fallo. | Base de usuarios más pequeña (30k-60k routers) → menos contenido y fiabilidad. |
+| Comunidad activa con integraciones para IRC y correo dentro de la red. | Configuración más compleja: hay que aprender conceptos como “destinos”; no hay bundle fácil para navegador. |
 
-Opta por I2P si necesitas una red interna anónima y puedes manejar la configuración. Para acceso a clearnet, usa Tor o VPN.
+Elige I2P si necesitas red interna anónima y puedes con la configuración. Para acceso a la clearnet, usa [Tor](/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics) o [VPNs](/es/articles/what-is-a-vpn-and-should-you-use-one).
 
-### Instalando I2P
-Descarga I2P desde el [sitio web oficial](https://geti2p.net/en/download), recuerda verificar las firmas.
+### Instalación de I2P: Paso a Paso
+1. **Descargar I2P**  
+   Ve al sitio oficial: [geti2p.net/es/download](https://geti2p.net/es/download)
+2. **Requisitos previos (Escritorio)**  
+   - [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/downloads/)
+   - Excepción: El “Easy Install Bundle” de Windows ya incluye todo (no necesita Java).
+3. **Instalación**
 
-**Requisitos Previos:** [Java JRE](https://www.oracle.com/java/technologies/downloads/) (excepto el Easy Bundle de Windows).
+| Sistema operativo | Instalación |
+|-------------------|-------------|
+| **Windows** | Descarga y ejecuta el “Easy Install Bundle” (.exe) desde [geti2p.net/es/nsis](https://geti2p.net/es/nsis) |
+| **macOS** | Descarga el `.jar` para macOS y haz doble clic en `i2pinstall_X.X.X.jar`, o ejecuta en terminal: <br>`java -jar i2pinstall_X.X.X.jar` |
+| **Linux** | Descarga el `.jar` para Linux y ejecuta en terminal: <br>`java -jar i2pinstall_X.X.X.jar` |
+| **Android** | Descarga el APK directamente desde la web de I2P o vía [F-Droid](https://f-droid.org/packages/net.i2p.android.router/) |
 
-**Windows:** Easy Bundle (sin Java) desde geti2p.net/nsis, o instalador estándar después de instalar Java.
-
-**macOS:** Ejecuta el instalador .jar con doble clic o en la terminal: `java -jar i2pinstall_2.10.0.jar`.
-
-**Linux:** Ejecuta el instalador .jar en la terminal: `java -jar i2pinstall_2.10.0.jar`.
-
-**Android:** APK desde el sitio o F-Droid (Android 4.0+, 512MB RAM); desinstala versiones antiguas.
-
-**Después de la Instalación:** Accede a la consola en `http://127.0.0.1:7657/` para la configuración. Comienza con bajo ancho de banda. Integra aplicaciones como I2PSnark.
+4. **Después de la instalación**  
+   - Inicia el router I2P (normalmente arranca automáticamente).  
+   - Abre tu navegador y ve a la consola: `http://127.0.0.1:7657/`
+   - En el primer arranque elige **bajo ancho de banda** (puedes aumentarlo después).  
+   - Explora la consola: ajusta tu ancho de banda, activa aplicaciones integradas como **I2PSnark** (cliente torrent) y empieza a navegar sitios .i2p o a añadir otras aplicaciones I2P.
