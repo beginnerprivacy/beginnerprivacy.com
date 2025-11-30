@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://beginnerprivacy.github.io/"          
+            --baseURL "https://beginnerprivacy.com/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -67,7 +67,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://beginnerprivacy.github.io/
+      url: https://beginnerprivacy.com/
     runs-on: ubuntu-latest
     needs: build
     steps:

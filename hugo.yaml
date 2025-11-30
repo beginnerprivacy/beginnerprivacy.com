@@ -130,7 +130,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/beginnerprivacy/beginnerprivacy.github.io/edit/main/content"
+    base: "https://github.com/beginnerprivacy/beginnerprivacy.com/edit/main/content"
 
   articles:
     list:
