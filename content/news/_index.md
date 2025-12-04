@@ -1,6 +1,9 @@
 ---
 title: News
 excludeSearch: true
+Params:
+  sidebar:
+    exclude: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
   <div>The news sites below may track you. Please complete our <a href="../checklists/?m=casual-internet-user">Casual Internet User Checklist</a> before clicking any links!</div> 

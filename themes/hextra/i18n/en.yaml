@@ -2,13 +2,38 @@ backToTop: "Scroll to top"
 changeLanguage: "Change language"
 changeTheme: "Change theme"
 copyCode: "Copy code"
-copyright: "© 2025 Hextra Project."
 dark: "Dark"
 editThisPage: "Edit this page on GitHub →"
 lastUpdated: "Last updated on"
 light: "Light"
 noResultsFound: "No results found."
 onThisPage: "On this page"
-poweredBy: "Powered by Hextra"
 readMore: "Read more →"
+404Message: "Whoa there, buddy! This page is VIP access only!"
+homepageTagline: "Take Back Control of Your Privacy"
+
+# Navbar
+services: "Services"
+news: "News"
+newsDescription: "Stay up to date with the latest privacy news"
+shop: "Shop"
+shopDescription: "Shop our awesome merchandise"
+articles: "Articles"
+about: "About"
+checklists: "Checklists"
 searchPlaceholder: "Search..."
+
+# Footer
+home: "Home"
+contact: "Contact"
+contributors: "Contributors"
+disclaimer: "Disclaimer"
+copyright: "Beginner Privacy & contributors."
+privacyNotice: "Privacy notice."
+
+# Checklists
+readChecklist: "Read checklist"
+
+# Roadmap
+next: "Next"
+previous: "Previous"

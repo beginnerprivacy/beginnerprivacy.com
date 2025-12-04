@@ -74,17 +74,9 @@
               <path id="done-icon-{{ $id }}" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <div style="display: flex; justify-content: space-between; width: 95%; margin-top: 10px;">
-            {{- if (strings.Contains .Page.Permalink "/es/") -}}
-              <button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">< Anterior</button>
-              <button style="font-size: 1.5rem;" onclick="nextRoadmapModal()">Siguiente ></button>
-            {{- else if (strings.Contains .Page.Permalink "/zh-cn/") -}}
-              <button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">< 以前</button>
-              <button style="font-size: 1.5rem;" onclick="nextRoadmapModal()">下一个 ></button>
-            {{- else -}}
-              <button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">< Previous</button>
-              <button style="font-size: 1.5rem;" onclick="nextRoadmapModal()">Next ></button>
-            {{- end -}}
+          <div style="display: flex; justify-content: space-between; width: 100%; margin-top: 10px;">
+            <button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">< {{ T "previous" }}</button>
+            <button style="font-size: 1.5rem;" onclick="nextRoadmapModal()">{{ T "next" }} ></button>
           </div>
         </main>
       </article>

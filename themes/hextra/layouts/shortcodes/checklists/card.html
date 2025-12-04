@@ -44,7 +44,7 @@
     </h3>
     <span class="hx-text-black dark:hx-text-black hx-p-1.5 hx-flex-grow">{{ $description }}</span>
     <div class="hx-flex hx-justify-between hx-items-center hx-mt-auto hx-p-2">
-      <span class="hx-text-sm hx-text-gray-600 dark:hx-text-gray-400">{{- if (strings.Contains .Page.Permalink "/es/") -}}Leer la lista de verificación{{- else if (strings.Contains .Page.Permalink "/zh-cn/") -}}阅读清单{{- else -}}Read checklist{{- end -}}</span>
+      <span class="hx-text-sm hx-text-gray-600 dark:hx-text-gray-400">{{ T "readChecklist" }}</span>
       <svg class="hx-w-4 hx-h-4 hx-text-gray-600 dark:hx-text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
       </svg>

@@ -10,4 +10,31 @@ noResultsFound: "无结果"
 onThisPage: "此页上"
 poweredBy: "由 Hextra 驱动"
 readMore: "更多 →"
+404Message: "等等，朋友！这个页面仅限VIP访问！"
+homepageTagline: "掌控你的隐私"
+
+# Navbar
+services: "服务"
+news: "新闻"
+newsDescription: "随时了解最新的隐私新闻"
+shop: "商店"
+shopDescription: "选购我们的超赞周边商品"
+articles: "文章"
+about: "关于"
+checklists: "检查表"
 searchPlaceholder: "搜索文档..."
+
+# Footer
+home: "首页"
+contact: "联系"
+contributors: "贡献者"
+disclaimer: "免責聲明"
+copyright: "Beginner Privacy 和贡献者。"
+privacyNotice: "隐私声明。"
+
+# Checklists
+readChecklist: "阅读清单"
+
+# Roadmap
+next: "下一个"
+previous: "以前"

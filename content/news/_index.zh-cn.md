@@ -1,6 +1,9 @@
 ---
 title: 新闻
 excludeSearch: true
+Params:
+  sidebar:
+    exclude: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
   <div>以下新闻网站可能会追踪您。在点击任何链接之前，请完成我们的<a href="../checklists/?m=casual-internet-user">普通互联网用户检查清单</a>!</div> 

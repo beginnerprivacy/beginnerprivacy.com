@@ -9,13 +9,7 @@
   {{ partialCached "favicons.html" . -}}
   <title>
     {{- if .IsHome -}}
-      {{- if or (strings.Contains .Page.Permalink "/es/") (eq .Lang "es") -}}
-        {{ .Site.Title -}}&nbsp;– Recupera el Control de Tu Privacidad
-      {{- else if or (strings.Contains .Page.Permalink "/zh-cn/") (eq .Lang "zh-cn") -}}
-        {{ .Site.Title -}}&nbsp;– 掌控你的隐私
-      {{- else -}}
-        {{ .Site.Title -}}&nbsp;– Take Back Control of Your Privacy
-      {{- end -}}
+      {{ .Site.Title -}}&nbsp;– {{ T "homepageTagline" }}
     {{ else -}}
       {{ with .Title }}{{ . }} – {{ end -}}
       {{ .Site.Title -}}

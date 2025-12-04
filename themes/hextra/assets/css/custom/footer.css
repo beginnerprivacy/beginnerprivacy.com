@@ -21,6 +21,7 @@
 
 .footer-nav-links a {
   position: relative;
+  margin-inline: 6px; 
   color: inherit;
   text-decoration: none;
   display: inline-block;

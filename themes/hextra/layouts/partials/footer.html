@@ -36,37 +36,28 @@
       </div>
       <!-- Navigation Links Section -->
       <div class="footer-nav-links hx-flex hx-flex-wrap hx-justify-center hx-gap-8 hx-mb-6 md:hx-mb-0">
-          {{ if (strings.Contains .Page.Permalink "/es/") }}
-            <a href="/es" class="hx-text-black dark:hx-text-black dark:hx-text-white">Inicio</a>
-            <a href="/es/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Acerca De</a>
-            <a href="/es/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">Noticia</a>
-            <a href="/es/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Artículos</a>
-            <a href="/es/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Listas de Verificación</a>
-            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Tienda</a>
-            <a href="/es/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contacto</a>
-            <a href="/es/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contribuyentes</a>
-            <a href="/es/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">Renuncia</a>
-          {{ else if (strings.Contains .Page.Permalink "/zh-cn/") }}
-            <a href="/zh-cn" class="hx-text-black dark:hx-text-black dark:hx-text-white">首页</a>
-            <a href="/zh-cn/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">关于</a>
-            <a href="/zh-cn/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">新闻</a>
-            <a href="/zh-cn/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">文章</a>
-            <a href="/zh-cn/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">检查表</a>
-            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">商店</a>
-            <a href="/zh-cn/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">联系</a>
-            <a href="/zh-cn/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">贡献者</a>
-            <a href="/zh-cn/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">免責聲明</a>
-          {{ else }}
-            <a href="/" class="hx-text-black dark:hx-text-black dark:hx-text-white">Home</a>
-            <a href="/about" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">About</a>
-            <a href="/news" class="hx-ml-4 hx-text-black dark:hx-text-black dark:hx-text-white">News</a>
-            <a href="/articles" class="hx-ml-4 hx-text-black dark:hx-text-white">Articles</a>
-            <a href="/checklists" class="hx-ml-4 hx-text-black dark:hx-text-white">Checklists</a>
-            <a href="https://shop.beginnerprivacy.com" class="hx-ml-4 hx-text-black dark:hx-text-white">Shop</a>
-            <a href="/about/contact" class="hx-ml-4 hx-text-black dark:hx-text-white">Contact</a>
-            <a href="/about/contributors" class="hx-ml-4 hx-text-black dark:hx-text-white">Contributors</a>
-            <a href="/about/legal-disclaimer" class="hx-ml-4 hx-text-black dark:hx-text-white">Disclaimer</a>
+        {{ $links := slice
+          (dict "url" "/"              "text" "home")
+          (dict "url" "/about"         "text" "about")
+          (dict "url" "/news"          "text" "news")
+          (dict "url" "/articles"      "text" "articles")
+          (dict "url" "/checklists"    "text" "checklists")
+          (dict "url" "https://shop.beginnerprivacy.com" "text" "shop")
+          (dict "url" "/about/contact" "text" "contact")
+          (dict "url" "/about/contributors" "text" "contributors")
+          (dict "url" "/about/legal-disclaimer" "text" "disclaimer")
+        }}
+
+        {{ range $links }}
+          {{ $translated := T .text }}
+          {{ $href := .url }}
+          {{ if not (strings.HasPrefix $href "http") }}
+            {{ $href = (relLangURL .url) }}
           {{ end }}
+          <a href="{{ $href }}" class="hx-text-black dark:hx-text-white">
+            {{ $translated }}
+          </a>
+        {{ end }}
       </div>
       <!-- Social Media Section -->
       <div class="social-media hx-flex hx-flex-wrap hx-justify-center hx-gap-4">
@@ -94,13 +85,7 @@
     <hr class="hx-border-black/5 dark:hx-border-white/10 hx-my-2" />
     <!-- Copyright Section -->
     <div class="copyright-section hx-text-center hx-text-black dark:hx-text-white hx-py-4">
-        {{- if or (strings.Contains .Page.Permalink "/es/") -}}
-          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy y colaboradores. <strong><a href="/es/about/privacy-policy">Aviso de privacidad.</a></strong></p>
-        {{- else if or (strings.Contains .Page.Permalink "/zh-cn/") -}}
-          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy 和贡献者。 <strong><a href="/zh-cn/about/privacy-policy">隐私声明。</a></strong></p>
-        {{- else -}}
-          <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> Beginner Privacy & contributors. <strong><a href="/about/privacy-policy">Privacy notice.</a></strong></p>
-        {{- end -}}
+      <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0 </a>{{- T "copyright" -}}<strong>&nbsp;<a href="/about/privacy-policy"> {{- T "privacyNotice" -}}</a></strong></p>
     </div>
   </div>
 </footer>

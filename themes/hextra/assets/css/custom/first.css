@@ -58,7 +58,7 @@ section#contributors {
   font-style: normal;
 }
 
-/* Language Dropdown */
+/* Language + Services Dropdown */
 .language-theme-container {
   display: flex;
   align-items: center;
@@ -69,6 +69,7 @@ section#contributors {
   inset: auto auto -160px 0;
   margin: 0;
   min-width: 100px;
+  height: 108px;
 }
 
 .language-theme-sidebar-container {
@@ -94,7 +95,7 @@ section#contributors {
 }
 
 @media (max-width: 768px) {
-  .language-theme-container {
+  .language-theme-container, .services-dropdown-button {
     display: none;
   }
 

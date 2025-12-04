@@ -627,6 +627,9 @@ video {
 .-hx-mt-1px {
   margin-top: -1px;
 }
+.-hx-mt-5px {
+  margin-top: -5px;
+}
 .hx-mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -782,6 +785,9 @@ video {
 }
 .hx-w-64 {
   width: 16rem;
+}
+.hx-w-76 {
+  width: 19rem;
 }
 .hx-w-\[110\%\] {
   width: 110%;

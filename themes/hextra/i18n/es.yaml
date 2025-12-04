@@ -10,4 +10,31 @@ noResultsFound: "No hubo resultados."
 onThisPage: "En esta página"
 poweredBy: "Con tecnología de Hextra"
 readMore: "Leer más →"
+404Message: "¡Espera, amigo! ¡Esta página es solo para acceso VIP!"
+homepageTagline: "Recupera el Control de Tu Privacidad"
+
+# Navbar
+services: "Servicios"
+news: "Noticia"
+newsDescription: "Mantente al día con las últimas noticias de privacidad"
+shop: "Tienda"
+shopDescription: "Compra nuestro increíble merchandising"
+articles: "Artículos"
+about: "Acerca De"
+checklists: "Listas de Verificación"
 searchPlaceholder: "Buscar..."
+
+# Footer
+home: "Inicio"
+contact: "Contacto"
+contributors: "Contribuyentes"
+disclaimer: "Renuncia"
+copyright: "Beginner Privacy y colaboradores."
+privacyNotice: "Aviso de privacidad."
+
+# Checklists
+readChecklist: "Leer la lista de verificación"
+
+# Roadmap
+next: "Siguiente"
+previous: "Anterior"
