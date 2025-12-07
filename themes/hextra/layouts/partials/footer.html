@@ -76,7 +76,7 @@
         <a href="https://mastodon.social/@BeginnerPrivacy" target="_blank" title="Mastodon" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white">
           {{ partial "utils/icon.html" (dict "name" "mastodon" "attributes" "height=24") }}
         </a>
-        <a {{ if (strings.Contains .Page.Permalink "/es/") }}href="/es/about/join-simplex-group"{{ else if (strings.Contains .Page.Permalink "/zh-cn/") }}href="/zh-cn/about/join-simplex-group"{{ else }}href="/about/join-simplex-group"{{ end }} target="_blank" title="SimpleX Chat" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white ">
+        <a href='{{ "about/join-simplex-group" | relLangURL }}' target="_blank" title="SimpleX Chat" rel="noopener noreferrer" class="hx-text-black dark:hx-text-white ">
           {{ partial "utils/icon.html" (dict "name" "simplex" "attributes" "height=24") }}
         </a>
       </div>
