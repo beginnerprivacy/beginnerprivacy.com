@@ -29,7 +29,7 @@ Elegir la distribución de Linux adecuada puede mejorar tu experiencia de juego.
   <div class="grid">
     {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="Desarrollado por System76, Pop!_OS está optimizado para juegos" buttonText="Visitar Sitio Web" >}}
     {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="Una distribución popular y fácil de usar con una gran comunidad" buttonText="Visitar Sitio Web" >}}
-    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="Basado en Ubuntu, Linux Mint es ligero e ideal para hardware antiguo" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="Una distro ligera construida sobre Ubuntu y ideal para hardware antiguo" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

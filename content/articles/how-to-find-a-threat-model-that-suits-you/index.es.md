@@ -5,8 +5,6 @@ authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
-tags:
-  - Threat Model
 excludeSearch: false
 ---
 Crear un modelo de amenazas es un paso importante en tu camino hacia una mejor privacidad y seguridad. Se trata de averiguar de quién o de qué necesitas protegerte y qué estás dispuesto a hacer para mantener tu información segura. Pero aquí está el truco: cuanto más privacidad y seguridad quieras, más inconvenientes pueden surgir. Podrías encontrarte manejando pasos adicionales, usando herramientas complejas o cambiando tus hábitos. Es un acto de equilibrio: encontrar la mezcla adecuada de seguridad que te mantenga a salvo sin complicar demasiado tu vida.

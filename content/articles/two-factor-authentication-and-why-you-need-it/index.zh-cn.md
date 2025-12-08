@@ -46,5 +46,3 @@ excludeSearch: false
     {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="本地存储，开源" platformIcon="android" buttonText="访问网站" >}}
   </div>
 </div>
-
-*与那些仍然只靠密码冒险的人分享这篇文章！*

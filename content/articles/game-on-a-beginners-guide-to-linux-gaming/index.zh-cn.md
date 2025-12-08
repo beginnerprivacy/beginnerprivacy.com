@@ -29,7 +29,7 @@ Linux游戏最重要的工具之一是[Proton](https://github.com/ValveSoftware/
   <div class="grid">
     {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="由 System76 开发，Pop!_OS 针对游戏进行了优化" buttonText="访问网站" >}}
     {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="一款广受欢迎、用户友好的发行版，拥有庞大的社区" buttonText="访问网站" >}}
-    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="基于 Ubuntu，Linux Mint 轻量且适合老旧硬件" buttonText="访问网站" >}}
+    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="一个基于Ubuntu构建的轻量级发行版，非常适合老旧硬件" buttonText="访问网站" >}}
   </div>
 </div>
 

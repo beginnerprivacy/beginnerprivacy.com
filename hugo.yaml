@@ -11,6 +11,9 @@ hasCJKLanguage: true
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
 
+disableKinds:
+  - taxonomy
+
 outputs:
   home: [HTML]
   page: [HTML]
@@ -130,7 +133,7 @@ params:
 
   articles:
     list:
-      displayTags: true
+      displayTags: false
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"

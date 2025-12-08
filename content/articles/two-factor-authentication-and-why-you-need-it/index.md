@@ -49,5 +49,3 @@ Here are the authenticator apps we recommend for storing your 2FA codes. Many [p
     {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, open-source" platformIcon="android" buttonText="Visit Website" >}}
   </div>
 </div>
-
-*Share this article with someone who’s still risking it with passwords alone!*

@@ -5,8 +5,6 @@ authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
-tags:
-  - Threat Model
 excludeSearch: false
 ---
 Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.

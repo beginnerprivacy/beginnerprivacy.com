@@ -46,5 +46,3 @@ Aquí están las aplicaciones autenticadoras que recomendamos para almacenar tus
     {{< articles/recommendation title="Aegis" link="https://getaegis.app/" logo="../../images/articles/two-factor-authentication-and-why-you-need-it/aegis.webp" text="Local, de código abierto" platformIcon="android" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
-
-*¡Comparte este artículo con alguien que aún está arriesgándose con solo contraseñas!*

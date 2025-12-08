@@ -5,8 +5,6 @@ authors:
   - name: PrintN
     link: https://github.com/PrintN
     image: https://github.com/PrintN.png
-tags:
-  - Threat Model
 excludeSearch: false
 ---
 创建威胁模型是你迈向更好隐私和安全的重要一步。 关键在于弄清楚你需要保护自己免受谁或什么的侵害，以及你愿意做些什么来确保你的信息安全。 但这里有个问题：你越想要隐私和安全，事情就会变得越不方便。 你可能会发现自己需要应对额外的步骤，使用复杂的工具，或者改变你的习惯。 这是一种平衡艺术——找到既能让你安全又不让你的生活变得太复杂的安全措施的正确组合。
