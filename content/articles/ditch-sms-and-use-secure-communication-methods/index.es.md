@@ -26,7 +26,7 @@ Los Servicios de Comunicación Ricos (RCS) son a menudo considerados como la pr�
 - **Seguridad Mejorada:** Aunque RCS no proporciona encriptación de extremo a extremo por defecto, ofrece mejores características de seguridad que el SMS. Algunos operadores y aplicaciones de mensajería están implementando encriptación para los mensajes RCS, lo que puede ayudar a proteger tus conversaciones de la interceptación.
 
 ### Por Qué Elegir Aplicaciones Enfocadas en la Privacidad Sobre RCS
-Mientras que RCS mejora el SMS, aún se queda corto en términos de privacidad y seguridad en comparación con aplicaciones de mensajería dedicadas como Signal. Aquí hay por qué usar una aplicación de comunicación enfocada en la privacidad es una mejor opción:
+Mientras que RCS mejora el SMS, aún se queda corto en términos de privacidad y seguridad en comparación con aplicaciones de mensajería dedicadas como **Signal**. Aquí hay por qué usar una aplicación de comunicación enfocada en la privacidad es una mejor opción:
 
 - **Encriptación de Extremo a Extremo:** Signal ofrece una robusta encriptación de extremo a extremo para todos los mensajes y llamadas, asegurando que solo el remitente y el destinatario puedan leer el contenido. En contraste, las aplicaciones de mensajería propietarias de Google y Apple pueden no proporcionar el mismo nivel de seguridad, ya que pueden acceder a los datos y mensajes de los usuarios.
 

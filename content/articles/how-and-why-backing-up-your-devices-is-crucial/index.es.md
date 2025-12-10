@@ -72,7 +72,7 @@ Para una solución de copia de seguridad conveniente y accesible, considera usar
 
 ### Mejores Prácticas para Tus Copias de Seguridad
 Para asegurar que tus datos estén siempre seguros, sigue estas mejores prácticas:
-- **Frecuencia de Copias de Seguridad**: Realiza copias de seguridad de tus dispositivos regularmente, idealmente a diario o semanalmente, dependiendo de cuán a menudo agregues nuevos datos.
+- **Frecuencia de las copias de seguridad**: Realiza copias de seguridad regularmente, idealmente semanal o mensualmente, dependiendo de la frecuencia con la que añades nuevos datos.
 
 - **Mantener Múltiples Copias de Seguridad**: Almacena copias de seguridad en diferentes ubicaciones (por ejemplo, en la nube y en un disco duro externo) para protegerte contra la pérdida de datos.
 

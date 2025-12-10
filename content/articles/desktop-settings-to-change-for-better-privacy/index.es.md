@@ -7,10 +7,10 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-El escritorio recopila todo tipo de información sobre nosotros. Por eso es importante tomar el control y limitar lo que sabe sobre nosotros.
+Nuestros escritorios recopilan grandes cantidades de datos sobre nosotros, por lo que es crucial tomar el control y limitar lo que saben. Aquí tienes algunas configuraciones que puedes cambiar para mejorar tu privacidad.
 
 ### ¿Qué Sistema Operativo es Más Privado? Windows, Linux o macOS
-Linux destaca como el claro ganador en términos de privacidad. Aunque Windows y macOS dominan el mercado gracias a la familiaridad de los usuarios —Windows viene preinstalado en la mayoría de los nuevos ordenadores—, la limitada conciencia de alternativas y la estrecha integración con sus ecosistemas, en última instancia priorizan los intereses corporativos sobre la privacidad del usuario. En contraste, las distribuciones de Linux son de código abierto y impulsadas por la comunidad, empoderando a los usuarios con control total sobre sus datos y todo el sistema.
+Linux es el claro ganador en cuanto a privacidad. Aunque Windows y macOS dominan el mercado—principalmente debido a la familiaridad del usuario (Windows viene preinstalado en la mayoría de las computadoras nuevas) y una fuerte integración en el ecosistema—finalmente priorizan los intereses corporativos sobre la privacidad del usuario. En contraste, las distribuciones de Linux son de código abierto y gestionadas por la comunidad, lo que otorga a los usuarios un control total sobre sus datos y el sistema completo.
 
 ### Configuración de Privacidad
 #### Restringir Permisos de Aplicaciones

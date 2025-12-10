@@ -10,7 +10,7 @@ excludeSearch: false
 Our smartphones are the biggest data collectors, soaking up all kinds of information about us—our locations, fingerprints, app usage, and so much more. That’s why it’s important to take control and limit what they know about us.
 
 ### Which Is More Private? Android or iOS
-Both Android and iOS collect similar data, such as location, app usage, and personal preferences. However, keep in mind that neither iOS nor Android offers true privacy, even if you disable every privacy setting. Both operating systems are closed-source (Android's foundational kernel (AOSP) is open-source, but off-the-shelf devices from retailers comes with proprietary components), and they continue to track you in ways you can't fully control.
+Both Android and iOS collect similar data, such as location, app usage, and personal preferences. However, it’s important to note that neither iOS nor Android can provide true privacy, even if you disable every privacy setting. Both operating systems are closed-source (although Android's foundational kernel, AOSP, is open-source, the devices you buy typically come with proprietary components), and they continue to track you in ways that are difficult to fully control.
 
 ### Privacy Settings
 {{< callout type="info" >}}

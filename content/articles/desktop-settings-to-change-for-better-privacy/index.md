@@ -7,10 +7,10 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-The desktop collects all kinds of information about us. That’s why it’s important to take control and limit what it knows about us.
+Our desktops collect vast amounts of data about us, and it’s crucial to take control and limit what they know. Here are some settings you can change to improve your privacy.
 
 ### Which Operating System Is More Private? Windows, Linux, or macOS
-Linux stands out as the clear winner for privacy. While Windows and macOS dominate the market thanks to user familiarity—Windows comes pre-installed on most new computers—limited awareness of alternatives, and tight ecosystem integration, they ultimately prioritize corporate interests over user privacy. In contrast, Linux distributions are open-source and community-driven, empowering users with full control over their data and the entire system.
+Linux is the clear winner when it comes to privacy. While Windows and macOS dominate the market—mainly due to user familiarity (Windows is pre-installed on most new computers) and strong ecosystem integration—they ultimately prioritize corporate interests over user privacy. In contrast, Linux distributions are open-source and community-driven, giving users full control over their data and the entire system.
 
 ### Privacy Settings
 #### Restrict App Permissions

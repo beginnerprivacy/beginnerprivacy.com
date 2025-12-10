@@ -12,7 +12,7 @@ Linux no es solo para magos de la tecnología; es un poderoso sistema operativo 
 
 <br>
 
-Puedes decir que aún quieres jugar tus juegos favoritos. ¡La buena noticia es que puedes! Muchos juegos populares ahora están disponibles en Linux, y con herramientas como Proton, puedes disfrutar de una amplia gama de juegos que antes eran exclusivos de Windows. Si deseas aprender más sobre cómo jugar tus juegos favoritos en Linux, lee nuestro artículo [aquí](/es/articles/game-on-a-beginners-guide-to-linux-gaming).
+Pero es posible que aún quieras jugar a tus juegos favoritos. ¡La buena noticia es que puedes! Muchos juegos populares ahora están disponibles en Linux, y con herramientas como Proton, puedes disfrutar de una amplia gama de juegos que antes eran exclusivos de Windows. Además, si necesitas ejecutar aplicaciones diseñadas únicamente para Windows, [Wine](https://www.winehq.org/) te permite hacerlo en Linux también. Si quieres aprender más sobre cómo jugar tus juegos favoritos en Linux, lee nuestro artículo [aquí]((/es/articles/game-on-a-beginners-guide-to-linux-gaming)).
 
 ### Elegir tu Distribución de Linux
 Con cientos de distribuciones (o "distros") disponibles, elegir la correcta puede parecer abrumador. Aquí hay un desglose rápido:

@@ -71,7 +71,7 @@ For a convenient and accessible backup solution, consider using cloud storage. T
 
 ### Best Practices for Your Backups
 To ensure your data is always safe, follow these best practices:
-- **Frequency of Backups:** Regularly back up your devices, ideally daily or weekly, depending on how often you add new data.
+- **Frequency of Backups:** Regularly back up your devices, ideally weekly or monthly, depending on how often you add new data.
 
 - **Keeping Multiple Backup Copies:** Store backups in different locations (e.g., cloud and external hard drive) to safeguard against data loss.
 

@@ -10,7 +10,7 @@ excludeSearch: false
 Nuestros teléfonos inteligentes son los mayores recolectores de datos, absorbiendo todo tipo de información sobre nosotros: nuestras ubicaciones, huellas dactilares, uso de aplicaciones y mucho más.  Por eso es importante tomar el control y limitar lo que saben sobre nosotros.
 
 ### ¿Cuál es Más Privado? ¿Android o iOS?
-Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales. Sin embargo, ten en cuenta que ni iOS ni Android ofrecen verdadera privacidad, incluso si desactivas todos los ajustes de privacidad. Ambos sistemas operativos son de código cerrado (el núcleo fundamental de Android (AOSP) es de código abierto, pero los dispositivos listos para usar de los minoristas vienen con componentes propietarios), y continúan rastreándote de formas que no puedes controlar completamente.
+Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales. Sin embargo, es importante destacar que ni iOS ni Android pueden ofrecer verdadera privacidad, incluso si desactivas todas las configuraciones de privacidad. Ambos sistemas operativos son de código cerrado (aunque el núcleo fundamental de Android, AOSP, es de código abierto, los dispositivos que compras generalmente vienen con componentes propietarios) y siguen rastreándote de maneras que son difíciles de controlar completamente.
 
 ### Configuraciones de Privacidad
 {{< callout type="info" >}}

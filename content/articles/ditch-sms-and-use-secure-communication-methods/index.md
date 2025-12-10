@@ -26,7 +26,7 @@ Rich Communication Services (RCS) is often touted as the next evolution of SMS, 
 - **Improved Security:** While RCS does not provide end-to-end encryption by default, it offers better security features than SMS. Some carriers and messaging apps are implementing encryption for RCS messages, which can help protect your conversations from interception.
 
 ### Why Choose Privacy-Focused Apps Over RCS
-While RCS improves upon SMS, it still falls short in terms of privacy and security compared to dedicated messaging apps like Signal. Here’s why using a privacy-focused communication app is a better choice:
+While RCS improves upon SMS, it still falls short in terms of privacy and security compared to dedicated messaging apps like **Signal**. Here’s why using a privacy-focused communication app is a better choice:
 - **End-to-End Encryption:** Signal offers robust end-to-end encryption for all messages and calls, ensuring that only the sender and recipient can read the content. In contrast, proprietary messaging apps from Google and Apple may not provide the same level of security, as they can access user data and messages.
 
 - **No Data Collection:** Signal is designed with privacy in mind and does not collect user data or metadata. Unlike proprietary messaging apps, which may track user behavior and store data for advertising purposes, Signal operates on a minimal data retention policy, ensuring your conversations remain private.
