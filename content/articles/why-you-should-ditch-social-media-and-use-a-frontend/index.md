@@ -24,38 +24,38 @@ Choosing a frontend over social media has several benefits:
 
 ### Recommended Frontends
 {{< callout type="info" >}}
-  You can find more frontends [here](https://github.com/mendel5/alternative-front-ends).
+  Want even more options? Check out this [list](https://github.com/mendel5/alternative-front-ends).
 {{< /callout >}}
 
 #### YouTube
 <div class="recommendations">  
   <div class="grid">
-    {{< articles/recommendation title="Invidious" link="https://invidious.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="FreeTube" link="https://freetubeapp.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp" platformIcon="linux macos windows" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="LibreTube" link="https://libretube.dev/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/libretube.webp" platformIcon="android" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="NewPipe" link="https://newpipe.net/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/newpipe.webp" platformIcon="android" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="Yattee" link="https://github.com/yattee/yattee" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/yattee.webp" platformIcon="ios macos" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Invidious" link="https://invidious.io/" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="FreeTube" link="https://freetubeapp.io/" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp" platformIcon="linux macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="NewPipe" link="https://newpipe.net/" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/newpipe.webp" platformIcon="android" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Yattee" link="https://github.com/yattee/yattee" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/yattee.webp" platformIcon="ios macos tvos" buttonText="Visit GitHub" >}}
   </div>
 </div>
 
-#### Spotify
+#### Spotify & Soundcloud
 <div class="recommendations">  
   <div class="grid">
-    {{< articles/recommendation title="Spotube" link="https://github.com/KRTirtho/spotube" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/spotube.webp" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Spotube" link="https://github.com/KRTirtho/spotube" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/spotube.webp" platformIcon="linux android ios macos windows" buttonText="Visit GitHub" >}}
+    {{< articles/recommendation title="Soundcloak" link="https://maid.zone/soundcloak/instances.html" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
 
-#### 𝕏 / Twitter
+#### Twitter
 <div class="recommendations">  
   <div class="grid">  
-    {{< articles/recommendation title="Nitter" link="https://nitter.net/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/nitter.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Nitter" link="https://nitter.net/" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/nitter.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
 
 #### Reddit
 <div class="recommendations">  
   <div class="grid">  
-    {{< articles/recommendation title="Redlib" link="https://safereddit.com/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/redlib.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Redlib" link="https://github.com/redlib-org/redlib" logo="../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/redlib.webp" platformIcon="globe-alt" buttonText="Visit Website" >}}
   </div>
 </div>
 

@@ -24,44 +24,44 @@ excludeSearch: false
 
 ### 推荐的前端
 {{< callout type="info" >}}
-  你可以在[这里](https://github.com/mendel5/alternative-front-ends)找到更多前端。
+  想要更多选择？查看这个[完整列表](https://github.com/mendel5/alternative-front-ends)。
 {{< /callout >}}
 
 #### YouTube
-<div class="recommendations">  
+<div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="Invidious" link="https://invidious.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
-    {{< articles/recommendation title="FreeTube" link="https://freetubeapp.io/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp" platformIcon="linux macos windows" buttonText="访问网站" >}}
-    {{< articles/recommendation title="LibreTube" link="https://libretube.dev/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/libretube.webp" platformIcon="android" buttonText="访问网站" >}}
-    {{< articles/recommendation title="NewPipe" link="https://newpipe.net/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/newpipe.webp" platformIcon="android" buttonText="访问网站" >}}
-    {{< articles/recommendation title="Yattee" link="https://github.com/yattee/yattee" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/yattee.webp" platformIcon="ios macos" buttonText="访问网站" >}}
+      {{< articles/recommendation title="Invidious" link="https://invidious.io/" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/invidious.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
+      {{< articles/recommendation title="FreeTube" link="https://freetubeapp.io/" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/freetube.webp" platformIcon="linux macos windows" buttonText="访问网站" >}}
+      {{< articles/recommendation title="NewPipe" link="https://newpipe.net/" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/newpipe.webp" platformIcon="android" buttonText="访问网站" >}}
+      {{< articles/recommendation title="Yattee" link="https://github.com/yattee/yattee" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/yattee.webp" platformIcon="ios macos tvos" buttonText="访问 GitHub" >}}
   </div>
 </div>
 
-#### Spotify
-<div class="recommendations">  
+#### Spotify & SoundCloud
+<div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="Spotube" link="https://github.com/KRTirtho/spotube" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/spotube.webp" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+      {{< articles/recommendation title="Spotube" link="https://github.com/KRTirtho/spotube" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/spotube.webp" platformIcon="linux android ios macos windows" buttonText="访问 GitHub" >}}
+      {{< articles/recommendation title="Soundcloak" link="https://maid.zone/soundcloak/instances.html" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
 
-#### 𝕏 / Twitter
-<div class="recommendations">  
-  <div class="grid">  
-    {{< articles/recommendation title="Nitter" link="https://nitter.net/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/nitter.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
+#### Twitter
+<div class="recommendations">
+  <div class="grid">
+      {{< articles/recommendation title="Nitter" link="https://nitter.net/" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/nitter.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
 
 #### Reddit
-<div class="recommendations">  
-  <div class="grid">  
-    {{< articles/recommendation title="Redlib" link="https://safereddit.com/" logo="../../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/redlib.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
+<div class="recommendations">
+  <div class="grid">
+      {{< articles/recommendation title="Redlib" link="https://github.com/redlib-org/redlib" logo="../../../images/articles/why-you-should-ditch-social-media-and-use-a-frontend/redlib.webp" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
 
 #### Medium
-<div class="recommendations">  
-  <div class="grid">  
-    {{< articles/recommendation title="Scribe" link="https://scribe.rip/" platformIcon="globe-alt" buttonText="访问网站" >}}
+<div class="recommendations">
+  <div class="grid">
+      {{< articles/recommendation title="Scribe" link="https://scribe.rip/" platformIcon="globe-alt" buttonText="访问网站" >}}
   </div>
 </div>
