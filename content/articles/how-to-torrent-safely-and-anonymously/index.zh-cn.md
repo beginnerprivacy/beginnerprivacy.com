@@ -55,13 +55,13 @@ Torrenting是一种文件共享方法，利用点对点（P2P）网络在互联�
 为了确保在Torrenting时的匿名性，你可以利用各种网络和工具。以下是一些最有效的选项的简要概述：
 
 **1. I2P（隐形互联网项目）**：  
-I2P是一个旨在匿名通信的去中心化网络。它是Torrenting最安全的方法之一，因为它加密你的流量并通过多个节点路由，使其难以追踪。
+I2P是一个旨在匿名通信的去中心化网络。它是Torrenting最安全的方法之一，因为它加密你的流量并通过多个节点路由，使其难以追踪。要了解更多关于 I2P 以及如何设置它，请查看我们的[关于 I2P 的文章](../what-is-i2p-and-should-you-use-it)。
 
 **2. Tor（洋葱路由器）**：  
 虽然Tor可以提供匿名性，但由于显著的缺点，不推荐用于Torrenting。使用Tor进行Torrenting可能导致速度非常慢，如果许多用户在Tor网络上进行Torrenting，可能会导致网络拥堵和无效。此外，如果未正确配置，使用Torrent客户端通过Tor可能会[暴露你的IP地址](https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea)。
 
 **3. VPN（虚拟私人网络）**：  
-VPN是保持Torrenting时匿名性的流行且有效的选项。它加密你的互联网流量并隐藏你的IP地址，提供一层隐私保护。请阅读我们关于[如何选择一个好的VPN](../what-is-a-vpn-and-should-you-use-one)的文章。
+使用 VPN 是保持 torrent 下载匿名性的最流行且有效的工具。它加密你的互联网流量并隐藏你的IP地址，提供一层隐私保护。请阅读我们关于[如何选择一个好的VPN](../what-is-a-vpn-and-should-you-use-one)的文章。
 
 #### Kill Switch
 在使用VPN进行Torrenting时，kill switch是必不可少的，因为它会在VPN连接中断时停止你的Torrent客户端下载或上传。这一功能对于保持匿名至关重要，因为断开连接可能会暴露你的真实IP地址给对等方。通过使用kill switch，你可以确保你的Torrenting活动立即停止，从而保护你的身份。

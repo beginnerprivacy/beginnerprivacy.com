@@ -29,9 +29,9 @@ Para mejorar tu seguridad física, considera implementar las siguientes cosas:
 {{< /callout >}}
 
 #### Dispositivos  
-- **Encripta Tus Dispositivos**: Asegúrate de que todos tus dispositivos, incluidos smartphones y laptops, estén encriptados. Esto protege los datos sensibles de accesos no autorizados, especialmente si un dispositivo se pierde o es robado.
+- **Cifra y Realiza Copias de Seguridad de Tus Dispositivos**: Asegúrate de que todos tus dispositivos, incluidos teléfonos inteligentes y portátiles, estén cifrados. Esto protege tus datos sensibles de accesos no autorizados, especialmente si un dispositivo se pierde o es robado. También es crucial [mantener copias de seguridad cifradas regulares](../how-and-why-backing-up-your-devices-is-crucial) de tus datos más importantes para garantizar que puedas recuperarlos cuando sea necesario.
 
-- **Utiliza Pantallas de Privacidad**: Para prevenir el "shoulder surfing" en espacios públicos, usa pantallas de privacidad en tus dispositivos. Estas pantallas limitan el ángulo de visión, dificultando que otros vean tu pantalla mientras trabajas o navegas en áreas concurridas.
+- **Utiliza Pantallas de Privacidad**: Para evitar el "shoulder surfing" en espacios públicos, [usa pantallas de privacidad en tus dispositivos](../what-is-a-privacy-screen-protector-and-should-you-use-one). Estas pantallas limitan el ángulo de visión, lo que dificulta que otras personas vean tu pantalla mientras trabajas o navegas en áreas concurridas.
 
 - **Desactiva Cámaras y Micrófonos**: Para prevenir grabaciones de video no autorizadas, usa una simple cubierta para la cámara web, cinta adhesiva o incluso retira la cámara por completo. Y para el micrófono, considera usar auriculares con un micrófono no funcional o quitar el micrófono de tu dispositivo.
 

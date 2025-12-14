@@ -29,9 +29,9 @@ To enhance your physical security, consider implementing the following things:
 {{< /callout >}}
 
 #### Devices
-- **Encrypt Your Devices**: Ensure that all your devices, including smartphones and laptops, are encrypted. This protects sensitive data from unauthorized access, especially if a device is lost or stolen.
+- **Encrypt and Backup Your Devices**: Ensure that all your devices, including smartphones and laptops, are encrypted. This protects sensitive data from unauthorized access, especially if a device is lost or stolen. It's also crucial to [keep regular encrypted backups](../how-and-why-backing-up-your-devices-is-crucial) of your most important data to ensure you can recover it when needed.
 
-- **Utilize Privacy Screens**: To prevent shoulder surfing in public spaces, use privacy screens on your devices. These screens limit the viewing angle, making it difficult for others to see your screen while you work or browse in crowded areas.
+- **Utilize Privacy Screens**: To prevent shoulder surfing in public spaces, [use privacy screens on your devices](../what-is-a-privacy-screen-protector-and-should-you-use-one). These screens limit the viewing angle, making it difficult for others to see your screen while you work or browse in crowded areas.
 
 - **Disable Cameras and Microphones**: To prevent unauthorized video recording, use a simple webcam cover, tape, or even remove the camera entirely. And for the microphone, consider using headphones with a non-functional microphone or removing your device's microphone.
 

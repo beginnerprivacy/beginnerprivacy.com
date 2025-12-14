@@ -55,13 +55,13 @@ Aquí tienes una versión mejorada de la sección con un título más preciso y 
 Para asegurar tu anonimato mientras torrentas, puedes utilizar diversas redes y herramientas. Aquí tienes un breve resumen de las opciones más efectivas:
 
 **1. I2P (Invisible Internet Project)**:  
-I2P es una red descentralizada diseñada para la comunicación anónima. Es uno de los métodos más seguros para torrentear, ya que cifra tu tráfico y lo enruta a través de múltiples nodos, dificultando su rastreo.
+I2P es una red descentralizada diseñada para la comunicación anónima. Es uno de los métodos más seguros para torrentear, ya que cifra tu tráfico y lo enruta a través de múltiples nodos, dificultando su rastreo. Para obtener más información sobre I2P y cómo configurarlo, por favor consulta nuestro [artículo sobre I2P](../what-is-i2p-and-should-you-use-it).
 
 **2. Tor (The Onion Router)**:  
 Aunque Tor puede proporcionar anonimato, no se recomienda para torrenting debido a desventajas significativas. Usar Tor para torrenting puede resultar en velocidades muy lentas, y si muchos usuarios torrentan a través de la red Tor, puede congestionarse y volverse ineficaz. Además, usar un cliente torrent sobre Tor puede [exponer tu dirección IP](https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea) si no está configurado correctamente.
 
 **3. VPN (Red Privada Virtual)**:  
-Una VPN es una opción popular y efectiva para mantener el anonimato mientras torrentas. Cifra tu tráfico de Internet y oculta tu dirección IP, proporcionando una capa de privacidad. Por favor, lee nuestro artículo sobre [cómo elegir una buena VPN](../what-is-a-vpn-and-should-you-use-one).
+Usar una VPN es la herramienta más popular y efectiva para mantener el anonimato mientras se realiza torrenting. Cifra tu tráfico de Internet y oculta tu dirección IP, proporcionando una capa de privacidad. Por favor, lee nuestro artículo sobre [cómo elegir una buena VPN](../what-is-a-vpn-and-should-you-use-one).
 
 #### Kill Switch
 Un kill switch es esencial para torrentear con una VPN, ya que detiene tu cliente torrent de descargar o subir si la conexión VPN se interrumpe. Esta función es crucial para mantener el anonimato, ya que una desconexión podría exponer tu verdadera dirección IP a los pares. Al usar un kill switch, aseguras que tus actividades de torrenting se detengan de inmediato, protegiendo tu identidad.

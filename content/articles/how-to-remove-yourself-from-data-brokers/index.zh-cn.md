@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-数据经纪人从各种来源收集和汇编大量关于你的个人信息，以创建详细的个人资料。这些个人资料可用于定向营销、广告，甚至可能[影响你的信用或保险费率](https://www.npr.org/sections/health-shots/2018/07/17/629441555/health-insurers-are-vacuuming-up-details-about-you-and-it-could-raise-your-rates)—通常是在你不知情或未同意的情况下。
+数据经纪人是一个常常隐形的行业，从公共记录、在线活动甚至社交媒体档案中收集个人信息。这些公司可以为几乎任何人创建详细的档案，并且它们数据库的覆盖范围远远超出大多数人所意识到的——影响从定向广告到[信用和保险决策](https://www.npr.org/sections/health-shots/2018/07/17/629441555/health-insurers-are-vacuuming-up-details-about-you-and-it-could-raise-your-rates)的各个方面。
 
 ### 从数据经纪人中删除自己
 重新获得对个人数据的控制涉及几个关键步骤，从识别你的数据存放位置到提交删除请求。以下是处理此事的方法：
@@ -44,7 +44,7 @@ excludeSearch: false
 我们建议从在[大数据经纪人选择退出列表](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List)中标记为💐（关键）或☠（高优先级）的经纪人开始。
 
 ##### 自动化服务
-一些隐私公司提供工具，可以自动向多个数据经纪人提交删除请求，节省你的时间并确保彻底性。然而，要小心——这些服务有时可能会造成更多的伤害而不是好处。它们可能会与许多经纪人分享你提供的所有信息，包括之前未知的敏感细节。要了解使用数据删除服务的风险，请阅读[这里](https://inteltechniques.com/blog/2023/09/19/the-dangers-of-data-removal-service-doxxing/)。
+一些隐私公司提供工具，可以自动向多个数据经纪人提交删除请求，节省你的时间并确保彻底性。然而，要小心——这些服务有时可能会造成更多的伤害而不是好处。它们可能会与许多经纪人分享你提供的所有信息，包括之前未知的敏感细节。要了解使用数据删除服务的风险，请阅读[这篇文章](https://inteltechniques.com/blog/2023/09/19/the-dangers-of-data-removal-service-doxxing/)。
 
 ##### 推荐的数据删除服务
 <div class="recommendations">  

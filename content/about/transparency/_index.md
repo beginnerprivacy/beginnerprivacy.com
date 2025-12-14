@@ -12,6 +12,7 @@ At Beginner Privacy, we prioritize transparency in everything we do. That's why,
       {{< card link="./2025/q1" title="Q1" >}}
       {{< card link="./2025/q2" title="Q2" >}}
       {{< card link="./2025/q3" title="Q3" >}}
+      {{< card link="./2025/q4" title="Q4" >}}
     {{< /cards >}}
   {{< /tab >}}
 

@@ -25,7 +25,7 @@ Beginner Privacy 路线图向你介绍了基础概念和基本安全实践，但
 | **官方站点（强烈推荐）**                 | [opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion) | 任何时候 — 最高隐私，即使在明网被封锁时依然可用                         |
 | **明网镜像（由 Beginner Privacy 提供）** | [bible.beginnerprivacy.com](https://bible.beginnerprivacy.com)                                | 不想开 Tor 时快速访问，或 Tor 连接有问题时的备用方案                   |
 
-**只要条件允许，始终优先使用 .onion 地址**。如果需要复习 Tor 的基本使用方法，请查看我们的 [Tor 基础指南](/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics)。
+**只要条件允许，始终优先使用 .onion 地址**。如果你需要复习一下如何安全使用Tor，请查看我们的 [Tor 基础指南](/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics)。
 
 #### 开始使用
 1. 打开 Tor Browser。

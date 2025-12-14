@@ -7,7 +7,7 @@ authors:
     image: https://github.com/PrintN.png
 excludeSearch: false
 ---
-Data brokers collect and compile vast amounts of personal information about you from a variety of sources to create detailed profiles. These profiles can be used for targeted marketing, advertising, and may even [affect your credit or insurance rates](https://www.npr.org/sections/health-shots/2018/07/17/629441555/health-insurers-are-vacuuming-up-details-about-you-and-it-could-raise-your-rates)—often without your direct knowledge or consent.
+Data brokers are an often invisible industry, gathering personal information from public records, online activities, and even social media profiles. These companies can create detailed profiles on nearly anyone, and the reach of their databases extends far beyond what most people realize—affecting everything from targeted ads to [credit and insurance decisions](https://www.npr.org/sections/health-shots/2018/07/17/629441555/health-insurers-are-vacuuming-up-details-about-you-and-it-could-raise-your-rates).
 
 ### Removing Yourself From Data Brokers
 Regaining control over your personal data involves a few key steps, from identifying where your data lives to submitting removal requests. Here’s how to approach it:
@@ -44,7 +44,7 @@ Follow each broker’s instructions on their website to request removal. This of
 We suggest starting with the data brokers that have your information and are marked with a 💐 (crucial) or ☠ (high priority) in the [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List).
 
 ##### Automated Services
-Some privacy companies offer tools that can automatically submit removal requests to multiple data brokers, saving you time and ensuring thoroughness. However, be careful—these services can sometimes do more harm than good. They may share all the information you provide with many brokers, including sensitive details that were previously unknown. To learn more about the risks of using data removal services, read [here](https://inteltechniques.com/blog/2023/09/19/the-dangers-of-data-removal-service-doxxing/).
+Some privacy companies offer tools that can automatically submit removal requests to multiple data brokers, saving you time and ensuring thoroughness. However, be careful—these services can sometimes do more harm than good. They may share all the information you provide with many brokers, including sensitive details that were previously unknown. To learn more about the risks of using data removal services, read [this article](https://inteltechniques.com/blog/2023/09/19/the-dangers-of-data-removal-service-doxxing/).
 
 ##### Recommended Data Removal Services
 <div class="recommendations">  

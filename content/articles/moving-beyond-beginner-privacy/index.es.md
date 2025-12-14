@@ -25,7 +25,7 @@ Creada por la [comunidad Nowhere](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjl
 | **Sitio oficial (fuertemente recomendado)** | [opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion) | Siempre — máxima privacidad, permanece activo incluso durante censura en clearnet |
 | **Mirror clearnet (por Beginner Privacy)** | [bible.beginnerprivacy.com](https://bible.beginnerprivacy.com)                                | Acceso rápido sin Tor, opción de respaldo si tienes problemas de conexión |
 
-**Siempre prefiera la dirección .onion** cuando sea posible. Si necesitas repasar cómo usar Tor, consulta nuestra [guía básica de Tor](/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics).
+**Siempre prefiera la dirección .onion** cuando sea posible. Si necesitas repasar cómo usar Tor de forma segura, consulta nuestra [guía básica de Tor](/es/articles/navigating-the-web-anonymously-a-guide-to-tor-basics).
 
 #### Para Comenzar
 1. Abre el Tor Browser.

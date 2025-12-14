@@ -25,7 +25,7 @@ Created by the [Nowhere community](http://nowherejezfoltodf4jiyl6r56jnzintap5vyj
 | **Official site (strongly recommended)** | [opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion) | Always — maximum privacy, stays up even during clearnet censorship |
 | **Clearnet mirror (by Beginner Privacy)** | [bible.beginnerprivacy.com](https://bible.beginnerprivacy.com)                        | Quick access without Tor, fallback option if you have connectivity issues                 |
 
-**Always prefer the .onion address** when possible. If you need a refresher on using Tor, check out our [guide to Tor basics](/articles/navigating-the-web-anonymously-a-guide-to-tor-basics).
+**Always prefer the .onion address** when possible. If you need a refresher on using Tor safely, check out our [guide to Tor basics](/articles/navigating-the-web-anonymously-a-guide-to-tor-basics).
 
 #### To Get Started
 1. Open the Tor Browser.
