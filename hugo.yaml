@@ -25,16 +25,20 @@ languages:
     languageName: English
     weight: 1
     title: Beginner Privacy
+    contentDir: "content/en"
   es:
     languageName: Español
     languageCode: es
     weight: 2
     title: Beginner Privacy
+    contentDir: "content/es"
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 4
     title: Beginner Privacy
+    contentDir: "content/zh-cn"
+
 module:
   hugoVersion:
     extended: true

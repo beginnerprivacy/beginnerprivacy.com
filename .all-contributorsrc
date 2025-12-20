@@ -1,8 +1,8 @@
 {
   "files": [
-    "content/about/contributors.md",
-    "content/about/contributors.es.md",
-    "content/about/contributors.zh-cn.md",
+    "content/en/about/contributors.md",
+    "content/es/about/contributors.md",
+    "content/zh-cn/about/contributors.md",
     "README.md"
   ],
   "imageSize": 100,
