@@ -1,5 +1,5 @@
 ---
-title: Libérate del Software Propietario con FOSS
+title: Libérate Del Software Propietario Con FOSS
 date: 2025-03-05
 authors:
   - name: PrintN
@@ -19,7 +19,7 @@ FOSS supera al software propietario en varias formas clave:
 - **Soporte Comunitario**: FOSS prospera gracias a colaboradores apasionados que proporcionan actualizaciones, correcciones y soporte, a menudo superando los cronogramas rígidos del software propietario impulsado por corporaciones.
 - **Libertad Ética**: Elegir FOSS se alinea con una filosofía de empoderamiento del usuario, rechazando licencias restrictivas y el control corporativo sobre tu tecnología.
 
-#### Ejemplo del Mundo Real
+#### Ejemplo Del Mundo Real
 Toma LibreOffice**, una alternativa FOSS a Microsoft Office. Ofrece funciones robustas para documentos, hojas de cálculo y presentaciones, sin cuotas de suscripción ni riesgos para la privacidad, todo mientras es perfeccionado por una comunidad global.
 
 #### “FOSS no es amigable para el usuario.”
@@ -35,7 +35,7 @@ Encontrar reemplazos FOSS es sencillo con estos excelentes recursos:
   </div>
 </div>
 
-### Cómo Reemplazar el Software Propietario con FOSS
+### Cómo Reemplazar el Software Propietario Con FOSS
 Migrar de software propietario a FOSS puede ser un desafío. Aquí tienes algunos consejos para hacer la transición más fluida:
 - **Comienza Lentamente**: Empieza reemplazando una aplicación propietaria a la vez con su alternativa FOSS. Esto te permite adaptarte gradualmente.
 - **Prueba las Alternativas**: Descarga la alternativa FOSS y úsala durante unos días para familiarizarte con sus funciones e interfaz.

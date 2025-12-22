@@ -1,5 +1,5 @@
 ---
-title: 通过私人电子邮件保护您的通信。
+title: 通过私人电子邮件保护您的对话
 date: 2025-03-02
 authors:
   - name: PrintN

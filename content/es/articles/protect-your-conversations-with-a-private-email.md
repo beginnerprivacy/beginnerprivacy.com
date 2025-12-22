@@ -1,5 +1,5 @@
 ---
-title: Protege Tu Comunicación Con Un Correo Electrónico Privado
+title: Protege Tus Conversaciones Con Un Correo Electrónico Privado
 date: 2025-03-02
 authors:
   - name: PrintN

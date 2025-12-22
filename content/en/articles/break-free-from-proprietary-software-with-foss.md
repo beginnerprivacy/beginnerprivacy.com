@@ -1,5 +1,5 @@
 ---
-title: Break Free from Proprietary Software with FOSS
+title: Break Free From Proprietary Software With FOSS
 date: 2025-03-05
 authors:
   - name: PrintN
@@ -38,7 +38,7 @@ Finding FOSS replacements is simple with these excellent resources:
   </div>
 </div>
 
-### How to Replace Proprietary Software with FOSS
+### How to Replace Proprietary Software With FOSS
 Migrating from proprietary software to FOSS can be challenging. Here are some tips to make the transition smoother:
 - **Start Slowly**: Begin by replacing one proprietary application at a time with its FOSS alternative. This allows you to adjust gradually.
 
