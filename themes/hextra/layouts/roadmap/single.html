@@ -1,0 +1,50 @@
+{{ define "main" }}
+  {{ $id := path.Base .RelPermalink }}
+  <div class="task-info hx-mx-auto hx-w-full hx-min-w-0 hx-max-w-4xl hx-px-6 hx-pt-4 md:hx-px-12">
+    <div class="hx-inline-flex hx-w-full hx-justify-between">
+      <a href="../.." style="padding-top: 7px;">&larr; {{ T "backToRoadmap" }}</a>
+      <button id="{{ $id }}" class="not-prose hx-inline-flex hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}');">
+        {{ partial "utils/icon.html" (dict "name" "check-circle" "attributes" "height=20") }}
+        <p class="-hx-mt-2px hx-ml-4px hx-font-large">{{ T "markAsComplete" }}</p>
+      </button>
+    </div>
+    {{ if .Title }}
+      <h1 class="hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>
+    {{ end }}
+    {{ if .Description }}
+      <p class="hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Description }}</p>
+    {{ end }}
+    {{ if .Params.time }}
+      <div class="hx-inline-flex hx-mt-2">{{ partial "utils/icon.html" (dict "name" "clock" "attributes" "height=20") }}
+        <p class="-hx-mt-2px hx-ml-4px hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Params.time }}</p>
+      </div>
+    {{ end }}
+  </div>
+  <hr class="task-info-hr">
+  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 md:hx-px-12">
+        <div class="content">
+          {{ .Content }}
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        <hr>
+        <button id="{{ $id }}" class="not-prose hx-w-full hx-text-xl hx-justify-center hx-inline-flex hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-mt-8 hx-mb-4 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}');">
+          {{ partial "utils/icon.html" (dict "name" "check-circle" "attributes" "height=25") }}
+          <p class="-hx-mt-2px hx-ml-4px hx-font-large">{{ T "markAsComplete" }}</p>
+        </button>
+        {{ .Scratch.Set "reversePagination" true }}
+        {{ partial "components/pager.html" . }}
+      </main>
+    </article>
+  </div>
+
+  <script>
+    window.translations = {
+      markAsComplete: '{{ T "markAsComplete" }}',
+      taskCompleted: '{{ T "taskCompleted" }}',
+    };
+  </script>
+{{ end }}

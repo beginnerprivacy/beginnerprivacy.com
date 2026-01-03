@@ -26,7 +26,7 @@
 {{- end -}}
 
 {{- if or $prev $next -}}
-  <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden">
+  <div class="hx-mb-8 hx-flex hx-items-center print:hx-hidden">
     {{- if $prev -}}
       {{- $linkTitle := partial "utils/title" $prev -}}
       <a

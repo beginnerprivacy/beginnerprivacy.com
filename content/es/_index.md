@@ -15,10 +15,10 @@ layout: hextra-home
     <p class="hx-text-lg">¡Tu privacidad es importante! Pero las grandes organizaciones la están eliminando.<br> Beginner Privacy te ayuda a navegar el vasto océano de la privacidad y seguridad en línea.</p>
   </div>
 
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+  <a href="roadmap" class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;">
     Comienza Tu Viaje
     <span class="arrow">&rarr;</span>
-  </div>
+  </a>
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</div>
 
   <div class="hero-waves">
@@ -36,69 +36,6 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap" id="roadmap">
-  <div>
-      <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-5xl">Hoja de Ruta</h2>
-      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-        <div class="tabs hx-select-none">
-            <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-            <label class="tab" for="radio-start">Inicio</label>
-            <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-basic">Básico</label>
-            <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-medium">Medio</label>
-            <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-            <label class="tab" for="radio-advanced">Avanzado</label>
-            <span class="glider"></span>
-        </div>
-      </div>
-  </div>
-
-  <div id="roadmapContent" class="hx-mt-4">
-    <div id="startContent" class="roadmap-section">
-      <ol class="centerRoadmapOL">
-        <li>{{< roadmap/card title="Sobre Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="¿Por Qué Preocuparse Por Tu Privacidad?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Encontrar Un Modelo de Amenaza" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="basicContent" class="roadmap-section" style="display:none;">
-      <ol>
-          <li>{{< roadmap/card title="Introducción Básica" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Contraseñas Fuertes" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Autenticación de Dos Factores (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Limitar la Información Compartida" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Navegador Privado" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Motor de Búsqueda Privado" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Red Privada Virtual (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Configuración de Privacidad Móvil" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Configuración de Privacidad Del Escritorio" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Correo Electrónico Privado" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Mensajería Segura" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Eliminación de Corredores de Datos" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="basic-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="mediumContent" class="roadmap-section" style="display:none;">
-      <ol>
-        <li>{{< roadmap/card title="Introducción Media" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Cámbiate a Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Software Libre y de Código Abierto" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="DNS Encriptado" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Interfaces de Redes Sociales" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend"  class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="¿Qué es Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Criptomoneda" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Autoalojamiento" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services"  class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Seguridad Física" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="medium-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="advancedContent" class="roadmap-section" style="display:none;">
-      <ol class="centerRoadmapOL">
-        <li>{{< roadmap/card title="Más Allá de Beginner Privacy" id="moving-beyond-beginner-privacy" link="articles/moving-beyond-beginner-privacy" class="advanced-hf-card-color" >}}</li>
-      </ol>
-    </div>
-  </div>
-</section>
-
 <section id="common-misconceptions" class="hx-text-center">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Conceptos Erróneos Comunes</h2>
     <div class="misconception-container">
@@ -113,7 +50,7 @@ layout: hextra-home
         <div class="misconception-card">
             <h2 class="hx-text-2xl hx-font-bold">"¿Qué debo hacer?"</h2>
             <p class="hx-text-base">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
-            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" onclick="scrollDown();" style="margin-top: 15px;" noLink="true" >}}
+            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" link="roadmap" style="margin-top: 15px;" noLink="true" >}}
         </div>
     </div>
 </section>

@@ -13,14 +13,16 @@ readMore: "Read more →"
 homepageTagline: "Take Back Control of Your Privacy"
 
 # Navbar
-services: "Services"
+explore: "Explore"
 news: "News"
 newsDescription: "Stay up to date with the latest privacy news"
 shop: "Shop"
 shopDescription: "Shop our awesome merchandise"
 articles: "Articles"
 about: "About"
+roadmap: "Roadmap"
 checklists: "Checklists"
+checklistsDescription: "Get ready for anything with our checklists"
 searchPlaceholder: "Search..."
 
 # Footer
@@ -35,5 +37,21 @@ privacyNotice: "Privacy notice."
 readChecklist: "Read checklist"
 
 # Roadmap
-next: "Next"
-previous: "Previous"
+bookmarkRoadmapReminder: "Bookmark this page and visit weekly to improve your privacy score"
+resetRoadmapProgressPrompt: "Are you sure you want to delete all roadmap progress? This cannot be undone."
+yourProgress: "Your Progress"
+privacyStarter: "🌱 Privacy Starter"
+privacyAware: "👀 Privacy Aware"
+privacyEnthusiast: "⚡ Privacy Enthusiast"
+privacyDefender: "🛡️ Privacy Defender"
+PrivacyExpert: "👨‍💻 Privacy Expert"
+yourProgressTasksSmallText1: "out of"
+yourProgressTasksSmallText2: "tasks completed"
+yourProgressCircleSmallText: "complete"
+taskCompleted: "Completed"
+startTask: "Start Task"
+reviewTask: "Review Task"
+
+## Roadmap tasks
+backToRoadmap: "Back to Roadmap"
+markAsComplete: "Mark as Complete"

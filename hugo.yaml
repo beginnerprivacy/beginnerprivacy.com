@@ -69,9 +69,9 @@ menu:
       name: Articles
       pageRef: /articles
       weight: 1
-    - identifier: checklists
-      name: Checklists
-      pageRef: /checklists
+    - identifier: roadmap
+      name: Roadmap
+      pageRef: /roadmap
       weight: 2
     - identifier: about
       name: About

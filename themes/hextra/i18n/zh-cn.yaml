@@ -14,14 +14,16 @@ readMore: "更多 →"
 homepageTagline: "掌控你的隐私"
 
 # Navbar
-services: "服务"
+explore: "探索"
 news: "新闻"
 newsDescription: "随时了解最新的隐私新闻"
 shop: "商店"
 shopDescription: "选购我们的超赞周边商品"
 articles: "文章"
 about: "关于"
+roadmap: "路线图"
 checklists: "检查表"
+checklistsDescription: "用我们的检查清单做好万全准备"
 searchPlaceholder: "搜索文档..."
 
 # Footer
@@ -36,5 +38,21 @@ privacyNotice: "隐私声明。"
 readChecklist: "阅读清单"
 
 # Roadmap
-next: "下一个"
-previous: "以前"
+bookmarkRoadmapReminder: "收藏此页面，每周访问以提升你的隐私分数"
+resetRoadmapProgressPrompt: "你确定要删除所有的进度吗？此操作无法撤销。"
+yourProgress: "你的进度"
+privacyStarter: "🌱 隐私初学者"
+privacyAware: "👀 隐私意识"
+privacyEnthusiast: "⚡ 隐私爱好者"
+privacyDefender: "🛡️ 隐私捍卫者"
+PrivacyExpert: "👨‍💻 隐私专家"
+yourProgressTasksSmallText1: "完成了"
+yourProgressTasksSmallText2: "任务"
+yourProgressCircleSmallText: "完成"
+taskCompleted: "已完成"
+startTask: "开始任务"
+reviewTask: "审查任务"
+
+## Roadmap tasks
+backToRoadmap: "返回到路线图"
+markAsComplete: "标记为完成"

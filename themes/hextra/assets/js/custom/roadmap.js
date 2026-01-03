@@ -28,179 +28,135 @@ function updateRoadmap() {
 }
 window.onload = updateRoadmap;
 
-// Roadmap modals
-function handleModalParam() {
-  const params = new URLSearchParams(window.location.search);
-  const modalID = params.get('m');
+// Roadmap Progress
+function getRoadmapProgress() {
+    let progress = localStorage.getItem('roadmap-progress');
+    if (!progress) {
+        progress = '{"completedTasks":[]}';
+        localStorage.setItem('roadmap-progress', progress);
+    }
+    return JSON.parse(progress);
+}
 
-  document.querySelectorAll('.roadmap-modal').forEach(modal => {
-    modal.style.display = 'none';
-  });
+function saveRoadmapProgress(progress) {
+    localStorage.setItem('roadmap-progress', JSON.stringify(progress));
+}
 
-  if (modalID) {
-    const modal = document.getElementById(modalID);
-    if (modal) {
-      const parentSection = modal.closest('.roadmap-section');
+function updateRoadmapProgress() {
+const progress = getRoadmapProgress();
+    const completedTasks = progress.completedTasks || [];
+    const totalTasks = document.querySelectorAll('.hextra-feature-card').length;
 
-      if (parentSection) {
-        const tabName = parentSection.id.replace('Content', '');
-        const tabInput = document.querySelector(`input[name="tabs"][value="${tabName}"]`);
+    const percentComplete = totalTasks > 0
+        ? Math.round((completedTasks.length / totalTasks) * 100)
+        : 0;
 
-        if (tabInput) {
-          tabInput.checked = true;
-          updateRoadmap();
-          modal.style.display = 'block';
-          const overlay = document.querySelector('.overlay')
-          const navoverlay = document.querySelector('.nav-overlay')
-          overlay.style.display = 'block';
-          navoverlay.style.display = 'block';
-          document.querySelector('html').style.overflow = 'hidden';
+    document.getElementById('tasks-completed').textContent = completedTasks.length;
+    document.getElementById('total-tasks').textContent = totalTasks;
+    document.getElementById('percent-display').textContent = `${percentComplete}%`;
+
+    const circle = document.getElementById('progress-circle');
+    const circumference = 276.46;
+    const offset = circumference - (percentComplete / 100) * circumference;
+    circle.style.strokeDashoffset = offset;
+
+    const startTasks = Array.from(document.querySelectorAll('.start-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const basicTasks = Array.from(document.querySelectorAll('.basic-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const mediumTasks = Array.from(document.querySelectorAll('.medium-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const advancedTasks = Array.from(document.querySelectorAll('.advanced-hf-card-color.hextra-feature-card')).map(card => card.id);
+
+    let privacyLevel = window.translations.privacyStarter;
+    const allComplete = (tasks) => tasks.every(taskId => completedTasks.includes(taskId));
+
+    if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks) && allComplete(advancedTasks)) {
+        privacyLevel = window.translations.privacyExpert;
+    } else if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks)) {
+        privacyLevel = window.translations.privacyDefender;
+    } else if (allComplete(startTasks) && allComplete(basicTasks)) {
+        privacyLevel = window.translations.privacyEnthusiast;
+    } else if (allComplete(startTasks)) {
+        privacyLevel = window.translations.privacyAware;
+    }
+
+    document.getElementById('privacy-level').textContent = privacyLevel;
+
+    document.querySelectorAll('.hextra-feature-card').forEach(card => {
+        const taskId = card.id;
+        const timeBadgeInfo = card.querySelector('.time-badge-info');
+        const startTaskButton = card.querySelector('.start-task-button');
+
+        if (completedTasks.includes(taskId)) {
+            const badge = document.createElement('span');
+            badge.textContent = window.translations.taskCompleted;
+            badge.classList.add('completed-badge');
+            timeBadgeInfo.appendChild(badge);
+
+            card.classList.add('completed');
+            startTaskButton.textContent = window.translations.reviewTask;
         }
-      }
-    }
-  }
+    });
 }
 
-function closeRoadmapModal() {
-  const params = new URLSearchParams(window.location.search);
-  const modalID = params.get('m');
-  const url = new URL(window.location);
-  url.searchParams.delete('m');
-  window.history.replaceState({}, '', url);
-  document.getElementById(modalID).style.display = 'none';
-  const overlay = document.querySelector('.overlay')
-  const navoverlay = document.querySelector('.nav-overlay')
-  overlay.style.display = 'none';
-  navoverlay.style.display = 'none';
-  document.querySelector('html').style.overflow = '';
-  return false;
-}
-
-document.querySelectorAll('a[href^="?m="]').forEach(link => {
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-    const modalID = new URL(this.href).searchParams.get('m');
-    const url = new URL(window.location);
-    url.searchParams.set('m', modalID);
-    window.history.pushState({}, '', url);
-    handleModalParam();
-  });
-});
-
-document.querySelectorAll('.roadmap-modal-close').forEach(btn => {
-  btn.onclick = () => {
-    closeRoadmapModal();
-  };
-});
-
-document.querySelectorAll('.overlay, .nav-overlay').forEach(overlay => {
-  overlay.onclick = () => {
-    closeRoadmapModal();
-  }
-});
-
-window.addEventListener('popstate', handleModalParam);
-document.addEventListener('DOMContentLoaded', handleModalParam);
-
-function previousRoadmapModal() {
-  const params = new URLSearchParams(window.location.search);
-  const currentModalID = params.get('m');
-  const modals = document.querySelectorAll('.roadmap-modal');
-  let currentIndex = -1;
-
-  modals.forEach((modal, index) => {
-    if (modal.id === currentModalID) {
-      currentIndex = index;
-    }
-  });
-
-  while (currentIndex > 0) {
-    const previousModal = modals[currentIndex - 1];
-    const previousModalID = previousModal.id;
-
-    if (previousModalID !== 'something-missing-contribute') {
-      const url = new URL(window.location);
-      url.searchParams.set('m', previousModalID);
-      window.history.pushState({}, '', url);
-      handleModalParam();
-      break;
-    }
-    currentIndex--;
-  }
-}
-
-function nextRoadmapModal() {
-  const params = new URLSearchParams(window.location.search);
-  const currentModalID = params.get('m');
-  const modals = document.querySelectorAll('.roadmap-modal');
-  let currentIndex = -1;
-
-  modals.forEach((modal, index) => {
-    if (modal.id === currentModalID) {
-      currentIndex = index;
-    }
-  });
-
-  while (currentIndex < modals.length - 1) {
-    const nextModal = modals[currentIndex + 1];
-    const nextModalID = nextModal.id;
-
-    if (nextModalID !== 'something-missing-contribute') {
-      const url = new URL(window.location);
-      url.searchParams.set('m', nextModalID);
-      window.history.pushState({}, '', url);
-      handleModalParam();
-      break;
-    }
-    currentIndex++;
-  }
-}
-
-// Checkbox
 function markAsDone(id) {
-  const checkbox = document.getElementById(`roadmap-${id}`);
-  if (!checkbox) return;
+    let progress = getRoadmapProgress();
+    
+    if (!progress.completedTasks.includes(id)) {
+        progress.completedTasks.push(id);
+        saveRoadmapProgress(progress);
+    }
 
-  const isChecked = checkbox.getAttribute('aria-checked') === 'true';
-  checkbox.setAttribute('aria-checked', !isChecked);
+    document.querySelectorAll(`button#${id}`).forEach(button => {
+        const p = button.querySelector('p');
+        if (p) p.textContent = window.translations.taskCompleted;
+        button.classList.add('completed');
+        button.disabled = true;
+    });
 
-  updateStatus(checkbox);
-  localStorage.setItem(`roadmap-${id}`, checkbox.getAttribute('aria-checked'));
-}
-
-function updateStatus(checkbox) {
-  const id = checkbox.id.replace('roadmap-', '');
-  const button = document.getElementById(`mark-done-${id}`);
-  const icon = document.getElementById(`status-icon-${id}`);
-  const todoIcon = document.getElementById(`todo-icon-${id}`);
-  const doneIcon = document.getElementById(`done-icon-${id}`);
-
-  if (!button || !icon || !todoIcon || !doneIcon) return;
-
-  const isChecked = checkbox.getAttribute('aria-checked') === 'true';
-  const isSpanish = window.location.href.includes('/es/');
-  const isChinese = window.location.href.includes('/zh-cn/');
-  if (isSpanish) {
-    button.textContent = isChecked ? 'Marcar como pendiente' : 'Marcar como hecho';
-  } else if (isChinese) {
-    button.textContent = isChecked ? '标记为待办事项' : '标记为完成';
-  } else {
-    button.textContent = isChecked ? 'Mark as to do' : 'Mark as done';
-  }
-
-  icon.style.color = isChecked ? '#008d0c' : '#9CA3AF';
-  todoIcon.classList.toggle('hx-hidden', isChecked);
-  doneIcon.classList.toggle('hx-hidden', !isChecked);
+    updateRoadmapProgress();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.roadmap-checkbox div').forEach(checkbox => {
-    const id = checkbox.id;
-    const savedState = localStorage.getItem(id);
-    if (savedState === 'true') {
-      checkbox.setAttribute('aria-checked', 'true');
-      updateStatus(checkbox);
+    const progress = getRoadmapProgress();
+
+    document.querySelectorAll('button[id]').forEach(button => {
+        const id = button.id;
+        if (progress.completedTasks.includes(id)) {
+            const p = button.querySelector('p');
+            if (p) p.textContent = window.translations.taskCompleted;
+            button.classList.add('completed');
+            button.disabled = true;
+        }
+    });
+
+    updateRoadmapProgress();
+});
+
+function resetRoadmapProgress() {
+    localStorage.removeItem('roadmap-progress');
+
+    const circle = document.getElementById('progress-circle');
+    if (circle) circle.style.strokeDashoffset = '276.46';
+
+    document.getElementById('percent-display').textContent = '0%';
+    document.getElementById('tasks-completed').textContent = '0';
+
+    document.querySelectorAll('.hextra-feature-card .completed-badge').forEach(badge => badge.remove());
+    document.querySelectorAll('.hextra-feature-card.completed').forEach(card => card.classList.remove('completed'));
+    document.querySelectorAll('.hextra-feature-card .start-task-button').forEach(button => {
+        button.textContent = window.translations.startTask;
+    });
+
+    updateRoadmapProgress();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const resetButton = document.getElementById('reset-roadmap-progress');
+    if (resetButton) {
+        resetButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (confirm(window.translations.resetRoadmapProgressPrompt)) {
+                resetRoadmapProgress();
+            }
+        });
     }
-  });
-  handleModalParam();
 });

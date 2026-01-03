@@ -4,37 +4,19 @@
 {{- $class := .Get "class" | default " " -}}
 {{- $onclick := .Get "onclick" -}}
 {{- $icon := .Get "icon" -}}
-{{- $noLink := .Get "noLink" -}}
 
 {{- $external := hasPrefix $link "http" -}}
 {{- $href := cond (hasPrefix $link "/") ($link | relURL) $link -}}
 
-{{- if eq $noLink "true" -}}
-  <div
-    {{ with $class }}class="{{ . | safeHTML }} not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"{{ end }}
-    {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
-    {{ if eq $onclick "scrollDown();" }}onclick="scrollDown();"
-    {{ else if eq $onclick "scrollMisconceptions();" }}onclick="scrollMisconceptions();"
-    {{ else }}onclick="toggleShareDropdown();"{{ end }}
-  >
-    {{- if $icon -}}
-      {{ partial "utils/icon.html" (dict "name" $icon "attributes" "height=20") }}
-    {{ end }}
-    {{- $text -}}
-  </div>
-{{- else -}}
-  <a
-    {{ if $href }}href="{{ $href }}"{{ end }}
-    {{ with $class }}class="{{ . | safeHTML }} not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"{{ end }}
-    {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
-    {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
-    {{ if eq $onclick "scrollDown();" }}onclick="scrollDown();"
-    {{ else if eq $onclick "scrollMisconceptions();" }}onclick="scrollMisconceptions();"
-    {{ else }}onclick="toggleShareDropdown();"{{ end }}
-  >
-    {{- if $icon -}}
-      {{ partial "utils/icon.html" (dict "name" $icon "attributes" "height=20") }}
-    {{ end }}
-    {{- $text -}}
-  </a>
-{{- end -}}
+<a
+  {{ if $href }}href="{{ $href }}"{{ end }}
+  {{ with $class }}class="{{ . | safeHTML }} not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200"{{ end }}
+  {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+  {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
+  {{ if eq $onclick "toggleShareDropdown();" }}onclick="toggleShareDropdown();"{{ end }}
+>
+  {{- if $icon -}}
+    {{ partial "utils/icon.html" (dict "name" $icon "attributes" "height=20") }}
+  {{ end }}
+  {{- $text -}}
+</a>

@@ -79,6 +79,7 @@
   box-shadow: 0 4px 6px -1px rgba(var(--color-black), 0.1);
   margin: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  list-style: none;
 }
 
 .checklist-item:hover {

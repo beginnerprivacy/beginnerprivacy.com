@@ -56,9 +56,7 @@ Beginner Privacy is available in 3 languages: English, Spanish, and Chinese (Sim
     - Catch mistranslated technical terms
     - Verify sentence structure matches the intended meaning
     - Identify missing context
-3. **Adjust image paths** for non-English articles:
-    - Add `../` to paths (e.g., `../../images/...` → `../../../images/...` for the Spanish/Chinese articles).
-4. **Proofread:** Fix formatting issues and ensure clarity.
+3. **Proofread:** Fix formatting issues and ensure clarity.
 
 ### Markdown & Shortcodes
 Explore the Hextra documentation on [Markdown](https://imfing.github.io/hextra/docs/guide/markdown/) and [Shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/) to enhance your articles, making them more interactive and easier to read. Additionally, Beginner Privacy offers several custom shortcodes, which are detailed below
@@ -68,13 +66,13 @@ When there is a certain tool or piece of software that you want to recommend.
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="Paid, open source" platformIcon="linux android ios macos windows" buttonText="Visit Website" >}}
   </div>
 </div>
 

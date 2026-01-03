@@ -12,15 +12,10 @@
   --color-white: 0, 0, 0;
 }
 
-section#roadmap,
 section#common-misconceptions,
 section.community-section,
 section.checklists-section {
   padding: 10rem 0 10rem 0;
-}
-
-section#roadmap {
-  min-height: 725px;
 }
 
 section#contributors {
@@ -58,7 +53,7 @@ section#contributors {
   font-style: normal;
 }
 
-/* Language + Services Dropdown */
+/* Language + Explore Dropdown */
 .language-theme-container {
   display: flex;
   align-items: center;
@@ -95,7 +90,7 @@ section#contributors {
 }
 
 @media (max-width: 768px) {
-  .language-theme-container, .services-dropdown-button {
+  .language-theme-container, .explore-dropdown-button {
     display: none;
   }
 

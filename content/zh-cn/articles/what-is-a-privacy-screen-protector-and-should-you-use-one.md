@@ -15,7 +15,7 @@ excludeSearch: false
 ### 隐私屏幕保护膜是如何工作的？
 隐私屏幕保护膜使用先进的光学技术来限制设备屏幕的视角。它们由成千上万的小垂直百叶窗（称为微百叶窗）组成，这些微百叶窗的排列方式使得只有在正面观看时光线才能通过。当有人试图从侧面查看屏幕时，这些微百叶窗会阻挡光线，使内容变得暗淡或不可见。这种设计确保只有直接面对屏幕的人才能清晰地访问信息。
 
-![带有隐私屏幕保护膜的手机](../../images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
+![带有隐私屏幕保护膜的手机](/images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
 
 ### 您应该使用隐私屏幕保护膜吗？
 简短的回答是肯定的，特别是对于您在公共场所频繁使用的设备。在这些环境中，“视觉黑客”（也称为肩膀冲浪）的风险显著增加。隐私屏幕保护膜可以提供额外的安全层，帮助保护您的敏感信息不被好奇的旁观者看到。

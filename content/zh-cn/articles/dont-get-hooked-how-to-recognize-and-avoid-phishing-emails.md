@@ -9,7 +9,7 @@ excludeSearch: false
 ---
 越来越多的网络钓鱼邮件被发送，每封邮件都有不同的目的，旨在危害您的个人信息和安全。在当今的数字环境中，了解如何识别和避免这些欺骗性信息至关重要。
 
-![特色图片](../../../images/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/feature-image.webp)
+![特色图片](/images/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/feature-image.webp)
 
 ### 什么是网络钓鱼？
 网络钓鱼是一种网络犯罪，攻击者冒充合法组织或个人，欺骗受害者提供敏感信息，如用户名、密码、信用卡号码或其他个人数据。这些攻击通常以电子邮件、消息或看似可信的网站的形式出现，但旨在欺骗。

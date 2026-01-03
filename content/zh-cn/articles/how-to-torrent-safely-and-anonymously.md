@@ -35,8 +35,8 @@ Torrenting是一种文件共享方法，利用点对点（P2P）网络在互联�
 
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="qBittorrent" link="https://www.qbittorrent.org/" logo="../../../images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="访问网站" >}}
-    {{< articles/recommendation title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="../../../images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="访问GitHub" >}}
+    {{< articles/recommendation title="qBittorrent" link="https://www.qbittorrent.org/" logo="/images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="/images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="访问GitHub" >}}
   </div>
 </div>
 

@@ -35,8 +35,8 @@ Para torrentear de manera segura, es esencial comenzar con una aplicación torre
 
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="qBittorrent" link="https://www.qbittorrent.org/" logo="../../../images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
-    {{< articles/recommendation title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="../../../images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="Visitar GitHub" >}}
+    {{< articles/recommendation title="qBittorrent" link="https://www.qbittorrent.org/" logo="/images/articles/how-to-torrent-safely-and-anonymously/qbittorrent.webp" platformIcon="linux macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="LibreTorrent" link="https://github.com/proninyaroslav/libretorrent" logo="/images/articles/how-to-torrent-safely-and-anonymously/libretorrent.webp" platformIcon="android" buttonText="Visitar GitHub" >}}
   </div>
 </div>
 

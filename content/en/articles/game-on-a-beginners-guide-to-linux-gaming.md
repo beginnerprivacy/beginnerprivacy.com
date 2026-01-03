@@ -27,9 +27,9 @@ In addition to Proton, there’s [Lutris](https://lutris.net/), an open-source g
 Choosing the right Linux distribution can enhance your gaming experience. Here are three beginner-friendly distros ideal for gaming:
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="Developed by System76, Pop!_OS is optimized for gaming" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="A popular, user-friendly distro with a large community" buttonText="Visit Website" >}}
-    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="../../images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="A lightweight distro built on Ubuntu and ideal for older hardware" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Pop!_OS" link="https://system76.com/pop/" logo="/images/articles/game-on-a-beginners-guide-to-linux-gaming/pop-os.webp" text="Developed by System76, Pop!_OS is optimized for gaming" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Ubuntu" link="https://ubuntu.com/download" logo="/images/articles/game-on-a-beginners-guide-to-linux-gaming/ubuntu.webp" text="A popular, user-friendly distro with a large community" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Linux Mint" link="https://www.linuxmint.com/" logo="/images/articles/game-on-a-beginners-guide-to-linux-gaming/linux-mint.webp" text="A lightweight distro built on Ubuntu and ideal for older hardware" buttonText="Visit Website" >}}
   </div>
 </div>
 

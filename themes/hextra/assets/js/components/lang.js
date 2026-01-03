@@ -1,5 +1,5 @@
 (function () {
-  const triggers = document.querySelectorAll('.language-switcher, .services-trigger');
+  const triggers = document.querySelectorAll('.language-switcher, .explore-trigger');
 
   function closeAllExcept(excludeTrigger = null) {
     triggers.forEach((trigger) => {
@@ -58,7 +58,7 @@
   });
 
   document.addEventListener('click', (e) => {
-    if (!e.target.closest('.language-switcher') && !e.target.closest('.services-trigger')) {
+    if (!e.target.closest('.language-switcher') && !e.target.closest('.explore-trigger')) {
       closeAllExcept();
     }
   });

@@ -1,37 +1,11 @@
-{{- $title := .Get "title" -}}
-{{- $style := .Get "style" -}}
-{{- $description := .Get "description" -}}
-{{- $icon := .Get "icon" | default "badge-check" -}}
-{{- $modalID := .Get "modalID" -}}
-
-{{- $pageContent := "" -}}
-{{- $pageTitle := "" -}}
-{{- with $.Site.GetPage $modalID -}}
-  {{- $pageContent = .Content -}}
-{{- end -}}
-
-<div id="{{ $modalID }}" class="checklist-modal">
-  <div class="checklist-modal-content">
-    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-pt-4">
-        <a class="roadmap-modal-close">&times;</a>
-        <h2 class="not-prose hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-flex hx-justify-center" style="border-bottom-width: 0;">{{ $title }}</h2>
-        {{- if $pageContent -}}
-          <div class="checklist-items">
-            <ul>
-              {{ $pageContent | safeHTML }}
-            </ul>
-          </div>
-        {{ else }}
-          <p>Content coming soon!</p>
-        {{ end }}
-      </main>
-    </article>
-  </div>
-</div>
+{{ $title := .Get "title" }}
+{{ $style := .Get "style" }}
+{{ $description := .Get "description" }}
+{{ $icon := .Get "icon" | default "badge-check" }}
+{{ $id := .Get "id" }}
 
 <a
-  href="?m={{ $modalID }}"
+  href="{{ $id }}"
   {{ with $style }}style="{{ . | safeCSS }} height: 100px;"{{ end }}
   class="checklist-card hx-block hx-relative hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 transition-all duration-300 ease-in-out before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >

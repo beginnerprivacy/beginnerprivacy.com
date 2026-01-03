@@ -15,7 +15,7 @@ A privacy screen protector is a thin, transparent film that adheres to the scree
 ### How Does a Privacy Screen Protector Work?
 Privacy screen protectors use advanced optical technology to restrict the viewing angles of a device's screen. They are composed of thousands of tiny vertical slats, known as micro-louvers, which are arranged to allow light to pass through only when viewed head-on. When someone tries to view the screen from the side, these micro-louvers block the light, rendering the content dark or invisible. This design ensures that only the individual directly in front of the screen can access the information clearly.
 
-![A phone with a privacy screen protector](../../images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
+![A phone with a privacy screen protector](/images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
 
 ### Should You Use a Privacy Screen Protector?
 The short answer is yes, especially for devices you frequently use in public spaces. In these environments, the risk of "visual hacking," also known as shoulder surfing, is significantly higher. A privacy screen protector can provide an added layer of security, helping to keep your sensitive information safe from curious onlookers.

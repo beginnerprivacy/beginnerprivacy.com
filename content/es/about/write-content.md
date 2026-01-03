@@ -1,6 +1,6 @@
 ---
-linkTitle: "Escribir contenido"
-title: Escribir contenido
+linkTitle: "Escribir Contenido"
+title: Escribir Contenido
 category: Contributing
 ---
 ¡Bienvenido a la guía de contenido de Privacidad para Principiantes!
@@ -56,11 +56,7 @@ Beginner Privacy está disponible en 3 idiomas: inglés, español y chino (simpl
     - Atrapar términos técnicos mal traducidos
     - Verifica que la estructura de la oración coincida con el significado previsto.
     - Identificar el contexto faltante
-3. **Ajustar las rutas de las imágenes** para artículos en otros idiomas:
-    - Agrega `../` a las rutas (por ejemplo, `../../images/...` → `../../../images/...` para los artículos en español/chino).
-4. **Revisar:** Corrige problemas de formato y asegura la claridad.
-
-**Translation to Spanish**
+3. **Revisar:** Corrige problemas de formato y asegura la claridad.
 
 ### Markdown y Shortcodes
 Explora la documentación de Hextra sobre [Markdown](https://imfing.github.io/hextra/docs/guide/markdown/) y [Shortcodes](https://imfing.github.io/hextra/docs/guide/shortcodes/) para mejorar tus artículos, haciéndolos más interactivos y fáciles de leer. Además, Beginner Privacy ofrece varios shortcodes personalizados, que se detallan a continuación.
@@ -70,13 +66,13 @@ Cuando hay una herramienta o software que deseas recomendar.
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="De pago, código abierto" platformIcon="linux android ios macos windows" buttonText="Visitar Sitio Web" >}}
   </div>
 </div>
 

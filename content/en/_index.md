@@ -15,10 +15,10 @@ layout: hextra-home
     <p class="hx-text-lg">Your privacy is important! But big organizations are taking it away.<br> Beginner Privacy helps you navigate the vast ocean to reclaim a private life.</p>
   </div>
 
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;" onclick="scrollDown();">
+  <a href="roadmap" class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 start-now-button" style="margin: 2px;">
     Start Your Journey
     <span class="arrow">&rarr;</span>
-  </div>
+  </a>
   <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</div>
 
   <div class="hero-waves">
@@ -36,68 +36,6 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="roadmap" id="roadmap">
-  <div>
-    <h2 class="hx-text-4xl hx-text-center hx-font-bold md:hx-text-6xl">Roadmap</h2>
-    <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-      <div class="tabs hx-select-none">
-          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-          <label class="tab" for="radio-start">Start</label>
-          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-basic">Basic</label>
-          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-medium">Medium</label>
-          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-advanced">Advanced</label>
-          <span class="glider"></span>
-      </div>
-    </div>
-  </div>
-  <div id="roadmapContent" class="hx-mt-4">
-    <div id="startContent" class="roadmap-section">
-      <ol class="centerRoadmapOL">
-        <li>{{< roadmap/card title="About Beginner Privacy" id="about-beginner-privacy" link="about" class="start-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Why Care About Your Privacy?" id="why-care-about-your-privacy" link="articles/why-you-should-care-about-your-privacy" class="start-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Finding a Threat Model" id="finding-a-threat-model" link="articles/how-to-find-a-threat-model-that-suits-you" class="start-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="basicContent" class="roadmap-section" style="display:none;">
-      <ol>
-          <li>{{< roadmap/card title="Basic Introduction" id="basic-introduction" link="about/roadmap-introductions/basic" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Strong Passwords" id="strong-passwords" link="articles/how-to-create-strong-passwords-and-store-them-securely" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Two-Factor Authentication (2FA)" id="two-factor-authentication" link="articles/two-factor-authentication-and-why-you-need-it" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Limit Information Shared" id="limit-information-shared" link="articles/limit-the-personal-information-you-share-online" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Private Browser" id="private-browser" link="articles/why-you-need-a-private-browser-to-protect-yourself" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Private Search Engine" id="private-search-engine" link="articles/searching-safely-with-a-privacy-focused-search-engine" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Virtual Private Network (VPN)" id="virtual-private-network" link="articles/what-is-a-vpn-and-should-you-use-one" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Mobile Privacy Settings" id="mobile-privacy-settings" link="articles/change-these-mobile-settings-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Desktop Privacy Settings" id="desktop-privacy-settings" link="articles/desktop-settings-to-change-for-better-privacy" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Private Email" id="private-email" link="articles/protect-your-communication-with-a-private-email" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Secure Messaging" id="secure-messaging" link="articles/ditch-sms-and-use-secure-communication-methods" class="basic-hf-card-color" >}}</li>
-          <li>{{< roadmap/card title="Removal from Data Brokers" id="removal-from-data-brokers" link="articles/how-to-remove-yourself-from-data-brokers" class="basic-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="mediumContent" class="roadmap-section" style="display:none;">
-      <ol>
-        <li>{{< roadmap/card title="Medium Introduction" id="medium-introduction" link="about/roadmap-introductions/medium" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Switch to Linux" id="switch-to-linux" link="articles/how-to-effortlessly-switch-to-linux-step-by-step-guide" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Free and Open Source Software" id="free-and-open-source-software" link="articles/break-free-from-proprietary-software-with-foss" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Encrypted DNS" id="encrypted-dns" link="articles/why-you-need-to-use-an-encrypted-dns" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Social Media Frontends" id="social-media-frontends" link="articles/why-you-should-ditch-social-media-and-use-a-frontend" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="What is Tor?" id="what-is-tor" link="articles/navigating-the-web-anonymously-a-guide-to-tor-basics" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Cryptocurrency" id="cryptocurrency" link="articles/cryptocurrency-and-anonymity-a-guide-to-buying-things-without-a-trace" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Self-Hosting" id="self-hosting" link="articles/why-you-should-start-self-hosting-your-own-services" class="medium-hf-card-color" >}}</li>
-        <li>{{< roadmap/card title="Physical Security" id="physical-security" link="articles/why-you-should-enhance-your-physical-security" class="medium-hf-card-color" >}}</li>
-      </ol>
-    </div>
-    <div id="advancedContent" class="roadmap-section" style="display:none;">
-      <ol class="centerRoadmapOL">
-        <li>{{< roadmap/card title="Beyond Beginner Privacy" id="moving-beyond-beginner-privacy" link="articles/moving-beyond-beginner-privacy" class="advanced-hf-card-color" >}}</li>
-      </ol>
-    </div>
-  </div>
-</section>
-
 <section id="common-misconceptions" class="hx-text-center">
     <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Common Misconceptions</h2>
     <div class="misconception-container">
@@ -112,7 +50,7 @@ layout: hextra-home
       <div class="misconception-card">
           <h2 class="hx-text-2xl hx-font-bold">"What should I do?"</h2>
           <p class="hx-text-base">Trying to improve your privacy can feel overwhelming; that's why we created Beginner Privacy, to make it as easy as possible.</p>
-          {{< hextra/hero-button text="Start Improving Your Privacy" onclick="scrollDown();" style="margin-top: 15px; border-radius: 30px;" noLink="true" >}}
+          {{< hextra/hero-button text="Start Improving Your Privacy" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
       </div>
     </div>
 </div>

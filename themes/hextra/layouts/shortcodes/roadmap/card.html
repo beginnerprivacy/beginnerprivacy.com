@@ -1,104 +1,45 @@
-{{- $title := .Get "title" -}}
-{{- $class := .Get "class" -}}
-{{- $style := .Get "style" -}}
-{{- $link := .Get "link" -}}
-{{- $contributeCard := .Get "contributeCard" -}}
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+{{ $style := .Get "style" }}
 {{ $id := .Get "id" }}
 
-{{- $pageContent := "" -}}
-{{- $pageTitle := "" -}}
-{{- $date := "" -}}
-{{- $authors := slice -}}
+{{ $link := "" }}
 
-{{- if $link -}}
-  {{- with $.Site.GetPage $link -}}
-    {{- $pageTitle = .Title -}}
-    {{- $pageContent = .Content -}}
-    {{- $date = .Date -}}
-    {{- $authors = .Params.authors -}}
-  {{- end -}}
-{{- end -}}
-
-{{ if (not $contributeCard) }}
-  <div id="{{ $id }}" class="roadmap-modal">
-    <div class="roadmap-modal-content">
-      <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-        <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-pt-4">
-          <div class="roadmap-modal-close hx-select-none">&times;</div>
-          {{ if $pageTitle }}<a href="{{ $link }}" target="_blank"><h2 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100 hx-inline">{{ $pageTitle }}</h2><svg class="hx-w-5 hx-h-5" style="display: inline; margin: 0 0 0.35rem 0.4rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>{{ end }}
-          
-          {{ if or $date $authors }}
-          <div class="hx-mt-4 hx-mb-16 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2">
-            {{- with $date }}<span class="hx-mr-1">{{ partial "utils/format-date" . }}</span>{{ end -}}
-            {{- $lazyLoading := site.Params.enableImageLazyLoading | default true -}}
-            {{ if and $date $authors }}<span class="hx-mx-1">·</span>{{ end -}}
-            {{- with $authors -}}
-              {{- range $i, $author := . -}}
-                {{- if reflect.IsMap $author -}}
-                  {{- if and $i (not $author.image) }}<span class="hx-mr-1">,</span>{{ end -}}
-                  <a
-                    {{ with $author.link }}href="{{ . }}" target="_blank"{{ end }}
-                    class="hx-group hx-inline-flex hx-items-center hx-text-current hx-gap-x-1.5 hx-mx-1"
-                    {{ with $author.name }}title="{{ . }}"{{ end }}
-                  >
-                    {{- with $image := $author.image }}
-                      {{- $isLocal := not (urls.Parse $image).Scheme -}}
-                      {{- $startsWithSlash := hasPrefix $image "/" -}}
-                      {{- if and $isLocal $startsWithSlash }}
-                        {{- $image = (relURL (strings.TrimPrefix "/" $image)) -}}
-                      {{ end -}}
-                      <img src="{{ $image | safeURL }}" alt="{{ $author.name }}" class="hx-inline-block hx-h-4 hx-w-4 hx-rounded-full" {{ if $lazyLoading }}loading="lazy"{{ end }} />
-                    {{ end -}}
-                    <div class="group-hover:hx-underline">{{ $author.name }}</div>
-                  </a>
-                {{- else -}}
-                  {{- if $i }}<span class="hx-mr-1">,</span>{{ end -}}<span class="hx-mx-1">{{ $author }}</span>
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}
-          </div>
-          {{ end }}
-
-          {{- if $pageContent -}}
-            <div class="content">
-              {{ $pageContent | safeHTML }}
-            </div>
-          {{ else }}
-            <p>Content coming soon!</p>
-          {{ end }}
-          <hr class="hx-my-8 hx-mt-12 hx-border-t hx-border-gray-200 dark:hx-border-gray-800">
-          <div id="roadmap-modal-mark" class="hx-flex hx-items-center hx-gap-x-3 hx-mt-4">
-            <button id="mark-done-{{ $id }}" class="mark-done-button not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}')">Mark as done</button>
-            <svg id="status-icon-{{ $id }}" class="hx-w-6 hx-h-6 hx-text-gray-400" style="width: 50px;height: 50px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path id="todo-icon-{{ $id }}" stroke-width="2" stroke="grey" d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-4.5 4.5l9 9m0-9l-9 9" />
-              <path id="done-icon-{{ $id }}" class="hx-hidden" style="color: #008d0c;" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <div style="display: flex; justify-content: space-between; width: 100%; margin-top: 10px;">
-            <button style="font-size: 1.5rem;" onclick="previousRoadmapModal()">< {{ T "previous" }}</button>
-            <button style="font-size: 1.5rem;" onclick="nextRoadmapModal()">{{ T "next" }} ></button>
-          </div>
-        </main>
-      </article>
-    </div>
-  </div>
+{{ if eq $class "start-hf-card-color" }}
+  {{ $link = printf "start/%s" $id }}
+{{ else if eq $class "basic-hf-card-color" }}
+  {{ $link = printf "basic/%s" $id }}
+{{ else if eq $class "medium-hf-card-color" }}
+  {{ $link = printf "medium/%s" $id }}
+{{ else }}
+  {{ $link = printf "advanced/%s" $id }}
 {{ end }}
 
-<a
-  {{ if $contributeCard }}href="{{ $link }}" target="_blank" {{ else }}href="?m={{ $id }}"{{ end }}
-  {{ with $style }}style="{{ . | safeCSS }} height: 100px;"{{ end }}
+{{ $description := "" }}
+{{ $time := "" }}
+{{ $fullLink := "" }}
+
+{{ $fullLink = printf "/roadmap/%s" $link }}
+{{ with $.Site.GetPage $fullLink }}
+  {{ $description = .Params.description | default "" }}
+  {{ $time = .Params.time | default "" }}
+{{ end }}
+
+<div id="{{ $id }}" {{ with $style }}style="{{ . | safeCSS }} height: 100px;"{{ end }}
     class="{{ $class }} hextra-feature-card hx-block hx-relative hx-overflow-hidden hx-rounded-xl hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
 >
-  <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-justify-center hx-items-center" style="height: 100%;">
-    {{ if (not $link) }}<div class="coming-soon-label">Coming Soon</div>{{ end }}
-    <h3 class="hx-text-2xl hx-leading-6 hx-flex hx-items-center hx-text-center hx-p-1.5">
-      <span>{{ $title }}</span>
-    </h3>
-  </div>
-
-  {{ if (not $contributeCard) }}
-    <div class="roadmap-checkbox">
-      <div role="checkbox" aria-checked="false" id="roadmap-{{ $id }}" aria-label="Checkbox for {{ $title }}"></div>
+  <div class="hx-relative hx-p-3 hx-w-full hx-h-full hx-flex hx-flex-col hx-justify-between">
+    <h4 class="hx-leading-6 hx-flex">{{ $title }}</h4>
+    <p class="hx-py-3">{{ $description }}</p>
+    <div>
+      <div class="time-badge-info hx-w-full hx-justify-between hx-inline-flex">
+        <div class="hx-inline-flex hx-mt-1">
+          {{ partial "utils/icon.html" (dict "name" "clock" "attributes" "height=20") }}
+          <p class="-hx-mt-2px hx-ml-4px">{{ $time }}</p>
+        </div>
+      </div>
+      <br>
+      <a href="{{ $link }}" class="start-task-button not-prose hx-w-full hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-mt-3 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200">{{ T "startTask" }}</a>
     </div>
-  {{ end }}
-</a>
+  </div>
+</div>

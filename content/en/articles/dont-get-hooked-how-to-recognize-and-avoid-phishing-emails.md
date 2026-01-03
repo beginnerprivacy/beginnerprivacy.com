@@ -9,7 +9,7 @@ excludeSearch: false
 ---
 More and more phishing emails are being sent out, each with various purposes aimed at compromising your personal information and security. Understanding how to recognize and avoid these deceptive messages is crucial in today’s digital landscape.
 
-![Feature image](../../images/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/feature-image.webp)
+![Feature image](/images/articles/dont-get-hooked-how-to-recognize-and-avoid-phishing-emails/feature-image.webp)
 
 ### What is Phishing?
 Phishing is a cybercrime where attackers impersonate legitimate organizations or individuals to trick victims into providing sensitive information, such as usernames, passwords, credit card numbers, or other personal data. These attacks often come in the form of emails, messages, or websites that appear trustworthy but are designed to deceive.

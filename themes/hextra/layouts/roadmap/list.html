@@ -1,0 +1,64 @@
+{{ define "main" }}
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pb-8 hx-pt-8 md:hx-pt-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]">
+      <div>
+        <div class="hx-text-center">
+          {{ if .Title }}<h1 class="hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}
+          <div class="hx-my-4">
+            <a class="not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-px-3 hx-py-1 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">
+              <span class="hx-inline-block hx-align-text-bottom icon">{{ partial "utils/icon.html" (dict "name" "star" "attributes" "height=15") }}</span>
+              <span>{{ T "bookmarkRoadmapReminder" }}</span>
+            </a>
+          </div>
+          <div class="roadmap-progress-compact">
+            <div class="roadmap-progress-bar">
+              <div class="progress-info">
+                <h3>{{ T "yourProgress" }}</h3>
+                <span class="privacy-badge" id="privacy-level">{{ T "privacyStarter" }}</span>
+                <br class="hx-mb-2">
+                <span class="tasks-text">
+                  <span id="tasks-completed">0</span> {{ T "yourProgressTasksSmallText1" }} <span id="total-tasks">0</span> {{ T "yourProgressTasksSmallText2" }}
+                </span>
+              </div>
+              <div class="progress-circle-small">
+                <svg class="progress-circle-svg" viewBox="0 0 100 100">
+                  <circle class="progress-circle-bg" cx="50" cy="50" r="44" />
+                  <circle class="progress-circle-fg" id="progress-circle" cx="50" cy="50" r="44" />
+                  <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#3b82f6" />
+                      <stop offset="100%" stop-color="#60a5fa" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="progress-center-text">
+                  <strong id="percent-display">0%</strong>
+                  <small>{{ T "yourProgressCircleSmallText" }}</small>
+                </div>
+              </div>
+              <button id="reset-roadmap-progress" title="Reset all roadmap progress" aria-label="Reset progress">
+                {{ partial "utils/icon.html" (dict "name" "trash" "attributes" "width=18 height=18") }}
+              </button>
+            </div>
+          </div>
+        </div>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.translations = {
+      resetRoadmapProgressPrompt: '{{ T "resetRoadmapProgressPrompt" }}',
+      privacyStarter: '{{ T "privacyStarter" }}',
+      privacyAware: '{{ T "privacyAware" }}',
+      privacyEnthusiast: '{{ T "privacyEnthusiast" }}',
+      privacyDefender: '{{ T "privacyDefender" }}',
+      privacyExpert: '{{ T "privacyExpert" }}',
+      taskCompleted: '{{ T "taskCompleted" }}',
+      startTask: '{{ T "startTask" }}',
+      reviewTask: '{{ T "reviewTask" }}',
+    };
+  </script>
+{{ end }}

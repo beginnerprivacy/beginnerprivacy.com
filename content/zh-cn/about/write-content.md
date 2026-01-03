@@ -56,9 +56,7 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
     - 捕捉翻译错误的技术术语
     - 验证句子结构是否符合预期的意思
     - 识别缺失的上下文
-3. **调整非英语文章的图片路径**：
-    - 在路径中添加 `../`（例如，`../../images/...` → `../../../images/...` 用于西班牙语/中文文章）。
-4. **校对：** 修正格式问题并确保清晰度。
+3. **校对：** 修正格式问题并确保清晰度。
 
 ### Markdown 和短代码
 探索Hextra文档中的[Markdown](https://imfing.github.io/hextra/docs/guide/markdown/)和[短代码](https://imfing.github.io/hextra/docs/guide/shortcodes/)，以增强您的文章，使其更具互动性和易读性。此外，初学者隐私提供了几个自定义短代码，详细信息如下。
@@ -68,13 +66,13 @@ Beginner Privacy 提供三种语言：英语、西班牙语和简体中文。
 ```
 <div class="recommendations">
   <div class="grid">
-    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" */>}}
+    {{</* articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" */>}}
   </div>
 </div>
 ```
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="../../../../images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
+    {{< articles/recommendation title="MullvadVPN" link="https://mullvad.net/en/vpn" logo="/images/articles/what-is-a-vpn-and-should-you-use-one/mullvadvpn.webp" text="付费，开源" platformIcon="linux android ios macos windows" buttonText="访问网站" >}}
   </div>
 </div>
 

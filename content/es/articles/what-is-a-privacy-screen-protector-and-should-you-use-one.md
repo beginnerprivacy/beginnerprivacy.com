@@ -15,7 +15,7 @@ Un protector de pantalla de privacidad es una película delgada y transparente q
 ### ¿Cómo funciona un protector de pantalla de privacidad?
 Los protectores de pantalla de privacidad utilizan tecnología óptica avanzada para restringir los ángulos de visión de la pantalla de un dispositivo. Están compuestos por miles de pequeñas lamas verticales, conocidas como micro-lamas, que están dispuestas para permitir que la luz pase solo cuando se ve de frente. Cuando alguien intenta ver la pantalla desde un lado, estas micro-lamas bloquean la luz, oscureciendo o haciendo invisible el contenido. Este diseño asegura que solo la persona directamente frente a la pantalla pueda acceder a la información claramente.
 
-![Un teléfono con un protector de pantalla de privacidad](../../images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
+![Un teléfono con un protector de pantalla de privacidad](/images/articles/what-is-a-privacy-screen-protector-and-should-you-use-one/phone-with-privacy-screen.webp)
 
 ### ¿Deberías usar un protector de pantalla de privacidad?
 La respuesta corta es sí, especialmente para dispositivos que usas con frecuencia en espacios públicos. En estos entornos, el riesgo de "hackeo visual", también conocido como shoulder surfing, es significativamente mayor. Un protector de pantalla de privacidad puede proporcionar una capa adicional de seguridad, ayudando a mantener tu información sensible a salvo de miradas curiosas.
