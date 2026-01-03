@@ -27,7 +27,7 @@
 {{- if hugo.IsProduction -}}
   {{- $first = $first | minify | fingerprint }}
   {{- $homepage = $homepage | minify | fingerprint }}
-  {{- $roadmap = $homepage | minify | fingerprint }}
+  {{- $roadmap = $roadmap | minify | fingerprint }}
   {{- $checklists = $checklists | minify | fingerprint }}
   {{- $news = $news | minify | fingerprint }}
   {{- $footer = $footer | minify | fingerprint }}
