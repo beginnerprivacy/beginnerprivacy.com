@@ -1,6 +1,9 @@
 ---
 title: 路线图
 excludeSearch: false
+Params:
+  sidebar:
+    exclude: true
 ---
 <section class="roadmap hx-pt-20" id="roadmap">
   <div>

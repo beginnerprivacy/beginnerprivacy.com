@@ -1,6 +1,9 @@
 ---
 title: Hoja de Ruta
 excludeSearch: false
+Params:
+  sidebar:
+    exclude: true
 ---
 <section class="roadmap hx-pt-20" id="roadmap">
   <div>

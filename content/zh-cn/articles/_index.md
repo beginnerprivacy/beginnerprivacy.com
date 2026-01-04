@@ -1,5 +1,8 @@
 ---
 title: "文章"
+Params:
+  sidebar:
+    exclude: true
 ---
 
 <div style="text-align: center; margin-top: 1em;">
