@@ -26,6 +26,9 @@ checklists: "Listas de Verificación"
 checklistsDescription: "Prepárate para cualquier cosa con nuestras listas de verificación"
 searchPlaceholder: "Buscar..."
 
+# Language Dropdown
+languageOther: "Otro"
+
 # Footer
 home: "Inicio"
 contact: "Contacto"

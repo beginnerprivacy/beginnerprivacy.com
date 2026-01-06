@@ -26,6 +26,9 @@ checklists: "检查表"
 checklistsDescription: "用我们的检查清单做好万全准备"
 searchPlaceholder: "搜索文档..."
 
+# Language Dropdown
+languageOther: "其他"
+
 # Footer
 home: "首页"
 contact: "联系"

@@ -3,4 +3,6 @@ linkTitle: "翻译"
 title: 翻译
 category: Contributing
 ---
-发现翻译错误了吗？然后请在[这里](https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues)提交问题。
+在翻译中发现错误了吗？请通过[在这里打开问题](https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues)报告。
+
+感谢你帮助使 Beginner Privacy 更加可访问！🙌

@@ -25,6 +25,9 @@ checklists: "Checklists"
 checklistsDescription: "Get ready for anything with our checklists"
 searchPlaceholder: "Search..."
 
+# Language Dropdown
+languageOther: "Other"
+
 # Footer
 home: "Home"
 contact: "Contact"
