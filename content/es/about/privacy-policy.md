@@ -5,24 +5,30 @@ category: Policies
 ---
 {{< callout type="info" >}}
 **TL;DR**  
-Priorizamos tu privacidad y recopilamos la cantidad mínima de datos. No registramos direcciones IP, no almacenamos cookies ni mantenemos registros. La única información que conservamos es tu progreso en la hoja de ruta y lista de verificación (guardada localmente en tu dispositivo). Todo lo demás se recoge intencionalmente NO para proteger tu privacidad.
+Priorizamos su privacidad y recopilamos datos mínimos. No registramos direcciones IP, almacenamos cookies ni mantenemos registros. La única información que guardamos es el progreso de su roadmap y lista de verificación (y preferencias de modo oscuro), guardada localmente en su dispositivo. Todo lo demás se evita intencionalmente para proteger su privacidad.
 {{< /callout >}}
 
-### Qué NO Recopilamos
-Nuestro sitio está diseñado con tu privacidad como máxima prioridad:
+### Información Que No Recopilamos
+Nuestro sitio está diseñado con la privacidad como prioridad principal:
+- **No direcciones IP:** No registramos ninguna dirección IP.
+- **No estadísticas de uso:** No recopilamos datos analíticos como vistas de página, tipo de dispositivo, ubicación o información de referidor.
+- **No cookies:** No almacenamos cookies en su dispositivo.
+- **No servicios de terceros:** No cargamos servicios externos ni bibliotecas de terceros que podrían comprometer su información personal.
 
-- ❌ **Sin Estadísticas de Uso:** No recopilamos ningún dato analítico como vistas de página, tipo de dispositivo, ubicación o información de referencia.
-- ❌ **Sin Cookies:** No almacenamos cookies en tu dispositivo.
-- ❌ **Sin Servicios de Terceros:** No cargamos servicios externos ni bibliotecas de terceros que puedan comprometer tu información personal.
+### Almacenamiento Local de Su Progreso
+Para ofrecer una experiencia útil, permitimos guardar el progreso de su roadmap y lista de verificación, así como las preferencias de modo oscuro. Estos datos se almacenan **localmente en su dispositivo** utilizando la función localStorage integrada en su navegador:
+- Permanece completamente en su dispositivo.
+- **Nunca se envía a nuestros servidores** ni se comparte con nadie.
+- Puede borrarlo en cualquier momento limpiando el almacenamiento o la caché del navegador para este sitio.
 
-### Qué SÍ Recopilamos
-Hemos construido este sitio utilizando las herramientas más simples para garantizar la máxima privacidad:
+### Seguridad
+Dado que no se transmite ni almacena ningún dato en nuestros servidores, no existe riesgo de brechas de datos por nuestra parte relacionadas con su uso.
 
-- ✅ **Progreso en la Hoja de Ruta y Lista de Verificación:** Tu progreso se almacena localmente en tu dispositivo en el almacenamiento local (local storage) del navegador y nunca se comparte.
+### Transparencia de Código Abierto
+Todo nuestro sitio web es de código abierto y está disponible para revisión en [GitHub](https://github.com/BeginnerPrivacy) o [Codeberg](https://codeberg.org/BeginnerPrivacy). Le animamos a inspeccionarlo usted mismo o pedir a un asesor técnico de confianza que lo revise.
 
-### ¿Tienes Preguntas?
-Si tienes preguntas sobre nuestras prácticas de privacidad o necesitas verificar cualquiera de nuestras afirmaciones, todo el código de nuestro sitio web es de código abierto y está disponible para su revisión en [GitHub](https://github.com/BeginnerPrivacy). Te animamos a inspeccionarlo tú mismo o a que lo revise un asesor técnico de confianza.
+### Cambios en Esta Política
+Actualizaremos esta política si cambian nuestras prácticas. La fecha de la última actualización se indicará al final.
 
-<br>
-
-Si tienes preguntas adicionales, por favor [contáctanos](../contact).
+### ¿Tiene Preguntas?
+Si tiene preguntas sobre esta política o nuestras prácticas, por favor [contáctenos](../contact).

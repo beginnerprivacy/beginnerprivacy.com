@@ -17,6 +17,20 @@ Here’s what we offer at Beginner Privacy to help you protect your online priva
 - **News**: Stay updated with the latest privacy and security updates.
 - **Community**: Join our active [community](/about/join-simplex-group) to share tips, ask questions, and connect with others.
 
+### Languages
+Beginner Privacy is currently available in three languages:
+- English  
+- Spanish  
+- Chinese (Simplified)
+
+These are the three [most widely spoken languages in the world](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers#Ethnologue_(2025)), which is why we chose to support them. Our goal is to make the site as accessible as possible while still keeping maintenance manageable — that's also why we don't currently offer additional languages.
+
+#### Want the site in another language?  
+No problem! If you're using **Brave** or **Firefox**, you can take advantage of their excellent built-in translation features:
+- **Brave**: Click the menu (⋮) → **Translate this page**
+
+- **Firefox**: Click the menu (☰) → **Translate Page** (or right-click anywhere on the page → **Translate Page**)
+
 ### Find Us Here
 Beginner Privacy has accounts on various social media platforms to reach new people. However, it is not an endorsement of these platforms, and we generally discourage their use.
 

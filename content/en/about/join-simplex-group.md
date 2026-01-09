@@ -36,7 +36,7 @@ To get started with SimpleX, follow these steps:
    - Click on the **Create Profile** button.
    - Choose a **profile name**.
    - Select a **long, unique passphrase** for encrypting your data. 
-     - We recommend storing this passphrase in a [password manager](../../articles/how-to-create-strong-passwords-and-store-them-securely).
+     - We recommend storing this passphrase in a [password manager](/articles/how-to-create-strong-passwords-and-store-them-securely).
 
 2. **Join the SimpleX Group**
    - To join our SimpleX group, simply paste the following link into the left sidebar:
@@ -46,7 +46,7 @@ To get started with SimpleX, follow these steps:
 
    - If you are using a mobile device, you can easily join by scanning the QR code below:
 
-   <img alt="Beginner Privacy SimpleX Group QR Code" src="../../images/about/simplex-group-qr.webp" width="400">
+   <img alt="Beginner Privacy SimpleX Group QR Code" src="/images/about/simplex-group-qr.webp" width="400">
 
 **Congratulations! You are all set up 🎉** 
 

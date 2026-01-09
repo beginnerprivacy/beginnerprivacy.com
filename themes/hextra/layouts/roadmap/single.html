@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{ $id := path.Base .RelPermalink }}
-  <div class="task-info hx-mx-auto hx-w-full hx-min-w-0 hx-max-w-4xl hx-px-6 hx-pt-4 md:hx-px-12">
+  <div class="task-info hx-mx-auto hx-w-full hx-min-w-0 hx-max-w-4xl hx-px-6 hx-pt-8 hx-mb-4 md:hx-px-12">
     <div class="hx-inline-flex hx-w-full hx-justify-between">
-      <a href="../.." style="padding-top: 7px;">&larr; {{ T "backToRoadmap" }}</a>
+      <a href="../.." class="contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200" style="padding-top: 7px;">&larr; {{ T "backToRoadmap" }}</a>
       <button id="{{ $id }}" class="not-prose hx-inline-flex hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}');">
         {{ partial "utils/icon.html" (dict "name" "check-circle" "attributes" "height=20") }}
         <p class="-hx-mt-2px hx-ml-4px hx-font-large">{{ T "markAsComplete" }}</p>
@@ -20,8 +20,8 @@
       </div>
     {{ end }}
   </div>
-  <hr class="task-info-hr">
-  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+  <hr>
+  <div class="hx-mx-auto hx-pt-8 hx-flex {{ partial `utils/page-width` . }}">
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" . }}
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
@@ -31,7 +31,7 @@
         </div>
         {{ partial "components/last-updated.html" . }}
         <hr>
-        <button id="{{ $id }}" class="not-prose hx-w-full hx-text-xl hx-justify-center hx-inline-flex hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-mt-8 hx-mb-4 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}');">
+        <button id="{{ $id }}" class="not-prose hx-w-full hx-text-xl hx-justify-center hx-inline-flex hx-cursor-pointer hx-select-none hx-px-10 hx-py-2 hx-mt-8 hx-rounded-lg hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200" onclick="markAsDone('{{ $id }}');">
           {{ partial "utils/icon.html" (dict "name" "check-circle" "attributes" "height=25") }}
           <p class="-hx-mt-2px hx-ml-4px hx-font-large">{{ T "markAsComplete" }}</p>
         </button>

@@ -37,7 +37,7 @@ Para comenzar con SimpleX, sigue estos pasos:
    - Haz clic en el botón **Crear perfil**.
    - Elige un **nombre de perfil**.
    - Selecciona una **frase de paso larga y única** para cifrar tus datos. 
-     - Recomendamos almacenar esta frase de paso en un [gestor de contraseñas](../../articles/how-to-create-strong-passwords-and-store-them-securely).
+     - Recomendamos almacenar esta frase de paso en un [gestor de contraseñas](/es/articles/how-to-create-strong-passwords-and-store-them-securely).
 
 2. **Únete al Grupo SimpleX**
    - Para unirte a nuestro grupo SimpleX, simplemente pega el siguiente enlace en la barra lateral izquierda:
@@ -47,7 +47,7 @@ Para comenzar con SimpleX, sigue estos pasos:
 
    - Si estás usando un dispositivo móvil, puedes unirte fácilmente escaneando el código QR a continuación:
 
-   <img alt="Código QR del Grupo SimpleX para Principiantes" src="../../../images/about/simplex-group-qr.webp" width="400">
+   <img alt="Código QR del Grupo SimpleX para Principiantes" src="/images/about/simplex-group-qr.webp" width="400">
 
 **¡Felicidades! Est ás completamente configurado 🎉** 
 

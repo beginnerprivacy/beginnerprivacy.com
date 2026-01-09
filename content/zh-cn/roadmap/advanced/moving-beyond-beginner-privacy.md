@@ -14,7 +14,7 @@ date: 2025-10-01
 Beginner Privacy 路线图向你介绍了基础概念和基本安全实践，但要实现强大的隐私、安全和匿名，需要更高级的措施。为了帮助你实现这一跃进，我们很高兴介绍一个强大的资源和社区。
 
 ### 隆重介绍 The OpSec Bible
-由 [Nowhere 社区](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/) 编写，*The OpSec Bible* 提供深度指南，帮助你实现真正的隐私、安全、匿名和可否认性。他们的使命？教你**如何变得无法被统治**。这些指南技术性很强，最适合已经准备好深入研究操作安全（OpSec）的进阶用户。
+由 [Nowhere 社区](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/) 编写，*The OpSec Bible* 提供深度指南，帮助你实现真正的隐私、安全、匿名和可否认性。这些指南技术性很强，最适合已经准备好深入研究操作安全（OpSec）的进阶用户。
 
 #### 访问方式
 | 选项                                     | 链接                                                                                           | 何时使用                                                               |

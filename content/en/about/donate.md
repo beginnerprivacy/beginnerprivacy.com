@@ -9,7 +9,7 @@ Beginner Privacy relies solely on donations, not by affiliate links or recommend
 ```bash
 836HHAyiLmAEXtiFVktMvhJGSzCxSxi4FjYhMhmx1H3wNuhhkESmiRQRz7n4dcdMSDDtaw23ty9qdYzHf6ycfzpzLdx6Lxq
 ```
-![Monero QR code](../../images/xmr-qr.webp)
+![Monero QR code](/images/xmr-qr.webp)
 
 ### Merchandise
 Show your support for Beginner Privacy by purchasing merchandise from our [shop](https://shop.beginnerprivacy.com).

@@ -14,7 +14,7 @@ La privacidad es binaria: la tienes o no la tienes. Aunque usar aplicaciones de 
 El roadmap de Beginner Privacy te presentó conceptos fundamentales y prácticas básicas de seguridad, pero lograr una privacidad, seguridad y anonimato robustos requiere medidas más avanzadas. Para ayudarte a dar este salto, estamos emocionados de presentarte un recurso poderoso y una comunidad.
 
 ### Presentando The OpSec Bible
-Creada por la [comunidad Nowhere](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/), *The OpSec Bible* ofrece guías detalladas para lograr verdadera privacidad, seguridad, anonimato y negación plausible. ¿Su misión? Enseñarte **cómo volverte ingobernable**. Estas guías son técnicas y están dirigidas principalmente a usuarios avanzados dispuestos a profundizar en seguridad operacional (OpSec).
+Creada por la [comunidad Nowhere](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/), *The OpSec Bible* ofrece guías detalladas para lograr verdadera privacidad, seguridad, anonimato y negación plausible. Estas guías son técnicas y están dirigidas principalmente a usuarios avanzados dispuestos a profundizar en seguridad operacional (OpSec).
 
 #### Dónde Acceder
 | Opción                                   | Enlace                                                                                         | Cuándo usarlo                                                          |

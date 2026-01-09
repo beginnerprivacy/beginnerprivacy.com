@@ -38,7 +38,9 @@ copyright: "Beginner Privacy 和贡献者。"
 privacyNotice: "隐私声明。"
 
 # Checklists
+checklistsPageDescription: "为任何事情做好准备—我们的检查清单为您提供保障！"
 readChecklist: "阅读清单"
+backToChecklists: "返回检查清单"
 
 # Roadmap
 bookmarkRoadmapReminder: "收藏此页面，每周访问以提升你的隐私分数"

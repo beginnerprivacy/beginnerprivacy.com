@@ -473,13 +473,6 @@ input[type="radio"]:checked + label {
 }
 
 /* Task Page */
-.task-info-hr {
-  border-top-width: 1.5px;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 @media (min-width: 764px) and (max-width: 1280px) {
   .task-info {
     max-width: 72rem !important;

@@ -7,7 +7,7 @@
           <br class="hx-mt-1.5 hx-text-sm" />
           <div style="text-align: center;">
             {{ if .Title }}<h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}
-            <p style="margin-bottom: 20px; margin-top: 0;">{{ if strings.Contains .Permalink "es" }}Prepárate para cualquier cosa—nuestras listas de verificación te tienen cubierto!{{ else if strings.Contains .Permalink "zh-cn" }}为任何事情做好准备—我们的检查清单为您提供保障！{{ else }}Get ready for anything—our checklists have you covered!{{ end }}</p>
+            <p style="margin-bottom: 20px; margin-top: 0;">{{ T "checklistsPageDescription" }}</p>
           </div>
           {{ .Content }}
         </div>

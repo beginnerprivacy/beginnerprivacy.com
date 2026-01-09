@@ -14,7 +14,7 @@ Privacy is binary: you either have it, or you don’t. While using free and open
 The Beginner Privacy roadmap introduced you to foundational concepts and basic security practices, but achieving robust privacy, security, and anonymity requires more advanced measures. To help you take this leap, we’re excited to introduce a powerful resource and community.
 
 ### Introducing The OpSec Bible
-Created by the [Nowhere community](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/), *The OpSec Bible* offers in-depth guides to achieve true privacy, security, anonymity, and deniability. Their mission? To teach you **how to become ungovernable**. These guides are technical and best suited for advanced users ready to dive deeper into operational security (OpSec).
+Created by the [Nowhere community](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/), *The OpSec Bible* offers in-depth guides to achieve true privacy, security, anonymity, and deniability. These guides are technical and best suited for advanced users ready to dive deeper into operational security (OpSec).
 
 #### Where to Access It
 | Option                              | Link                                                                                          | When to use it                                                                 |

@@ -38,7 +38,9 @@ copyright: "Beginner Privacy y colaboradores."
 privacyNotice: "Aviso de privacidad."
 
 # Checklists
+checklistsPageDescription: "Prepárate para cualquier cosa—nuestras listas de verificación te tienen cubierto!"
 readChecklist: "Leer la lista de verificación"
+backToChecklists: "Volver a Listas de Verificación"
 
 # Roadmap
 bookmarkRoadmapReminder: "Guarda esta página en favoritos y visítala semanalmente para mejorar tu puntuación de privacidad"

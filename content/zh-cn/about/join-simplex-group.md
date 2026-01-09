@@ -37,7 +37,7 @@ SimpleX兼容多种平台，您可以选择图形用户界面（GUI）或终端�
    - 点击**创建个人资料**按钮。
    - 选择一个**个人资料名称**。
    - 选择一个**长且独特的密码短语**来加密您的数据。 
-     - 我们建议将此密码短语存储在[密码管理器](../../articles/how-to-create-strong-passwords-and-store-them-securely)中以确保安全。
+     - 我们建议将此密码短语存储在[密码管理器](/zh-cn/articles/how-to-create-strong-passwords-and-store-them-securely)中以确保安全。
 
 2. **加入SimpleX群组**
    - 要加入我们的SimpleX群组，只需将以下链接粘贴到左侧边栏：
@@ -47,7 +47,7 @@ SimpleX兼容多种平台，您可以选择图形用户界面（GUI）或终端�
 
    - 如果您使用的是移动设备，可以通过扫描下面的二维码轻松加入：
 
-   <img alt="初学者隐私SimpleX群组二维码" src="../../../images/about/simplex-group-qr.webp" width="400">
+   <img alt="初学者隐私SimpleX群组二维码" src="/images/about/simplex-group-qr.webp" width="400">
 
 **恭喜您！您已完全设置好 🎉** 
 

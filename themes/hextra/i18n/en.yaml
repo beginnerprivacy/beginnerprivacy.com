@@ -37,7 +37,9 @@ copyright: "Beginner Privacy & contributors."
 privacyNotice: "Privacy notice."
 
 # Checklists
+checklistsPageDescription: "Get ready for anything—our checklists have you covered!"
 readChecklist: "Read checklist"
+backToChecklists: "Back to Checklists"
 
 # Roadmap
 bookmarkRoadmapReminder: "Bookmark this page and visit weekly to improve your privacy score"

@@ -39,9 +39,9 @@
           {{ .Content }}
         </div>
         {{ partial "components/last-updated.html" . }}
+        <hr>
         {{ .Scratch.Set "reversePagination" true }}
         {{ partial "components/pager.html" . }}
-        {{ partial "components/comments.html" . }}
       </main>
     </article>
   </div>

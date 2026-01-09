@@ -9,7 +9,7 @@ Beginner Privacy 完全依赖捐款，而不是通过联盟链接或推荐特定
 ```bash
 836HHAyiLmAEXtiFVktMvhJGSzCxSxi4FjYhMhmx1H3wNuhhkESmiRQRz7n4dcdMSDDtaw23ty9qdYzHf6ycfzpzLdx6Lxq
 ```
-![Monero QR code](../../../images/xmr-qr.webp)
+![Monero QR code](/images/xmr-qr.webp)
 
 ### 商品
 通过在我们的[在线商店](https://shop.beginnerprivacy.com)购买商品来支持 Beginner Privacy。您购买的每一件商品都帮助我们继续我们的使命！

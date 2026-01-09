@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . "disableSidebar" true "displayPlaceholder" true}}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <a href=".." class="hx-ml-8px contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200">&larr; {{ T "backToChecklists" }}</a>
+        {{ if .Title }}<h1 class="hx-mt-2 hx-text-center hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>{{ end }}
+        <div class="content">
+          {{ .Content }}
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        <hr>
+        {{ .Scratch.Set "reversePagination" true }}
+        {{ partial "components/pager.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}
