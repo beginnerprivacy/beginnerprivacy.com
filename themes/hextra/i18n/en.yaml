@@ -27,6 +27,7 @@ searchPlaceholder: "Search..."
 
 # Language Dropdown
 languageOther: "Other"
+languageOtherLink: "/about#languages"
 
 # Footer
 home: "Home"

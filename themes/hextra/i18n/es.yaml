@@ -28,6 +28,7 @@ searchPlaceholder: "Buscar..."
 
 # Language Dropdown
 languageOther: "Otro"
+languageOtherLink: "/es/about#idiomas"
 
 # Footer
 home: "Inicio"

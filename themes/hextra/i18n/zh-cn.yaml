@@ -28,6 +28,7 @@ searchPlaceholder: "搜索文档..."
 
 # Language Dropdown
 languageOther: "其他"
+languageOtherLink: "/zh-cn/about#语言"
 
 # Footer
 home: "首页"
