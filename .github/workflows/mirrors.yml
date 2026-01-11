@@ -1,4 +1,4 @@
-name: Mirroring
+name: Mirror to Codeberg
 
 on:   
   push:
@@ -15,14 +15,3 @@ jobs:
         with:
           target_repo_url: "git@codeberg.org:beginnerprivacy/beginnerprivacy.com.git"
           ssh_private_key: ${{ secrets.CODEBERG_SSH_PRIVATE_KEY }}
-
-  to_gitlab:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: fscarmen/repository-mirroring-action@v1.0.0
-        with:
-          target_repo_url: git@gitlab.com:beginnerprivacy/beginnerprivacy.com.git
-          ssh_private_key: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}

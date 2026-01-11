@@ -38,9 +38,5 @@ Beginner Privacy 在多个社交媒体平台上拥有账户，以接触新用户
     {{< hextra/link-card title="Mastodon" link="https://mastodon.social/@BeginnerPrivacy" logo="/images/about/mastodon.webp" >}}
     {{< hextra/link-card title="Codeberg" link="https://codeberg.org/BeginnerPrivacy" logo="/images/about/codeberg.webp" >}}
     {{< hextra/link-card title="GitHub" link="https://github.com/BeginnerPrivacy" logo="/images/about/github.webp" >}}
-    {{< hextra/link-card title="GitLab" link="https://gitlab.com/BeginnerPrivacy" logo="/images/about/gitlab.webp" >}}
-    {{< hextra/link-card title="YouTube" link="https://youtube.com/@BeginnerPrivacy" logo="/images/about/youtube.webp" >}}
-    {{< hextra/link-card title="𝕏 (Twitter)" link="https://x.com/BeginnerPrivacy" logo="/images/about/x.webp" >}}
-    {{< hextra/link-card title="TikTok" link="https://tiktok.com/@BeginnerPrivacy" logo="/images/about/tiktok.webp" >}}
   </div>
 </div>
