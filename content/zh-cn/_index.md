@@ -38,22 +38,30 @@ layout: hextra-home
 </section>
 
 <section id="common-misconceptions" class="hx-text-center">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">常见误解</h2>
-    <div class="misconception-container">
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"我为什么要关心？"</h2>
-            <p class="hx-text-base">你的隐私对你的安全和尊严至关重要。就像你在上厕所时关上门以保护个人空间一样，保护你的个人信息也是至关重要的。“我没有什么好隐藏的”这个想法忽视了隐私是每个人的基本权利，而不仅仅是那些有秘密的人。保护你的数据有助于防止身份盗窃和不必要的监视。</p>
-        </div>
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"现在还来得及吗？"</h2>
-            <p class="hx-text-base">保护你隐私的最佳时机就是今天！现在采取行动至关重要，因为公司可能已经可以访问你的数据。通过主动管理你的隐私设置和数据共享，你可以显著减少你的数字足迹，并保护你的个人信息安全。</p>
-        </div>
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"我该怎么办？"</h2>
-            <p class="hx-text-base">尝试改善你的隐私可能会让人感到不知所措；这就是我们创建 Beginner Privacy 的原因，旨在尽可能简化这一过程。</p>
-            {{< hextra/hero-button text="开始改善你的隐私" link="roadmap" style="margin-top: 15px;" noLink="true" >}}
-        </div>
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">隐私为何重要</h2>
+  <div class="misconception-grid">
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">你的个人生活很重要</h2>
+      <p class="hx-text-base">你锁上前门，拉上窗帘，保持私人谈话不被他人知晓。数字隐私也是一样——它关乎你对个人空间和信息的控制。</p>
     </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">你的数据很有价值</h2>
+      <p class="hx-text-base">公司投资数十亿美元收集数据是有原因的。你的在线活动、位置和兴趣都是宝贵的资产，经常在广告商和数据经纪人之间交易。</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">监控在增长</h2>
+      <p class="hx-text-base">在全球范围内，监控系统持续增长。今天可以接受的行为，明天可能发生变化，你的数字足迹可能被以意想不到的方式使用。</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">保护你的未来</h2>
+      <p class="hx-text-base">隐私保护你免受身份盗用、歧视以及信息被滥用。这是对家人安全和自身安心的投资。</p>
+    </div>
+    <div class="misconception-card cta-card">
+      <h2 class="hx-text-2xl hx-font-bold">准备好重新掌控了吗？</h2>
+      <p class="hx-text-base">加入成千上万已经通过 Beginner Privacy Roadmap 重新掌控自己隐私的人，它会一步步引导你完成隐私之旅。</p>
+      {{< hextra/hero-button text="开始改善你的隐私" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
+    </div>
+  </div>
 </section>
 
 <section class="community-section">
@@ -84,48 +92,42 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section">
-  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">检查清单</h2>
-  <p class="hx-text-base hx-mb-10px hx-text-center">使用我们的检查清单在抗议等活动中保持安全和匿名。<br>点击与您匹配的个人资料以获取 重要提示和资源。</p>
-  <div class="carousel-container" aria-label="Checklists carousel">
-    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
-      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
-        <div class="carousel-track">
-          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">举报人</div>
-          </a>
-          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">抗议者</div>
-          </a>
-          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">普通互联网用户</div>
-          </a>
-          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">网络盗版</div>
-          </a>
-          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">暗网用户</div>
-          </a>
-          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">社交媒体影响者</div>
-          </a>
-          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">黑客</div>
-          </a>
-          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">数字游牧者</div>
-          </a>
-          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">大规模监控</div>
-          </a>
-          <a href="checklists/?m=journalist" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">记者</div>
-          </a>
-        </div>
-      </div>
-    <div class="carousel-button next" aria-label="Next">&#10095;</div>
-    <div class="carousel-fade left"></div>
-    <div class="carousel-fade right"></div>
+<section class="explore-section">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">
+    探索网站
+  </h2>
+  <p class="hx-text-base hx-text-center hx-mb-10px">
+    Beginner Privacy 不仅仅提供路线图，还有更多内容可供探索。随意浏览一下，这里有一些我们推荐你先查看的内容。
+  </p>
+  <div class="explore-grid">
+    <a href="articles" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="newspaper" attributes="height=30" >}}<span>文章</span></h2>
+      <p>
+        所有不在路线图中的指南都可以在我们的文章页面找到。
+      </p>
+      <span class="explore-link">阅读文章 →</span>
+    </a>
+    <a href="checklists" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="user" attributes="height=30" >}}<span>清单</span></h2>
+      <p>
+        针对不同情况和风险等级的实用清单——让你知道该做什么。
+      </p>
+      <span class="explore-link">查看清单 →</span>
+    </a>
+    <a href="news" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="speakerphone" attributes="height=30" >}}<span>新闻</span></h2>
+      <p>
+        了解最新的隐私和安全新闻，包括任何数据泄露事件。
+      </p>
+      <span class="explore-link">阅读新闻 →</span>
+    </a>
+    <a href="https://shop.beginnerprivacy.com" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="shopping-cart" attributes="height=30" >}}<span>商店</span></h2>
+      <p>
+        支持我们，同时购买一些超酷的周边商品。
+      </p>
+      <span class="explore-link">立即购买 →</span>
+    </a>
   </div>
 </section>
 

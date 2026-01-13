@@ -5,7 +5,7 @@ Params:
   sidebar:
     exclude: true
 ---
-{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
+{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container hx-mb-4" >}}
   <div>The news sites below may track you. Please complete our <a href="../checklists/?m=casual-internet-user">Casual Internet User Checklist</a> before clicking any links!</div> 
   <div class="news-warning-close">&times;</div>
 {{< /callout >}}

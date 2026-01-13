@@ -37,23 +37,31 @@ layout: hextra-home
 </section>
 
 <section id="common-misconceptions" class="hx-text-center">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Common Misconceptions</h2>
-    <div class="misconception-container">
-      <div class="misconception-card">
-          <h2 class="hx-text-2xl hx-font-bold">"Why should I care?"</h2>
-          <p class="hx-text-base">Your privacy is essential for your safety and dignity. Just as you close the bathroom door for personal space, protecting your personal information is vital. The idea of "I have nothing to hide" overlooks the fact that privacy is a fundamental right, not just for those with secrets. Safeguarding your data helps prevent identity theft and unwanted surveillance.</p>
-      </div>
-      <div class="misconception-card">
-          <h2 class="hx-text-2xl hx-font-bold">"It's too late now"</h2>
-          <p class="hx-text-base">The best time to start protecting your privacy is today! It's crucial to take action now, as companies may already have access to your data. By being proactive about your privacy settings and data sharing, you can significantly reduce your digital footprint and keep your personal information safe.</p>
-      </div>
-      <div class="misconception-card">
-          <h2 class="hx-text-2xl hx-font-bold">"What should I do?"</h2>
-          <p class="hx-text-base">Trying to improve your privacy can feel overwhelming; that's why we created Beginner Privacy, to make it as easy as possible.</p>
-          {{< hextra/hero-button text="Start Improving Your Privacy" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
-      </div>
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Why Privacy Matters</h2>
+  <div class="misconception-grid">
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Your Personal Life Matters</h2>
+      <p class="hx-text-base">You lock your front door, close your curtains, and keep personal conversations private. Digital privacy is the same — it's about having control over your personal space and information.</p>
     </div>
-</div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Your Data Has Value</h2>
+      <p class="hx-text-base">There’s a reason companies invest billions in collecting data. Your online activity, location, and interests are valuable assets, often traded between advertisers and data brokers.</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Surveillance is Growing</h2>
+      <p class="hx-text-base">Around the world, surveillance systems continue to grow. What’s acceptable today may change tomorrow, and your digital footprint could be used in unexpected ways.</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Protect Your Future</h2>
+      <p class="hx-text-base">Privacy protects you from identity theft, discrimination, and misuse of your information. It's an investment in your family's safety and your own peace of mind.</p>
+    </div>
+    <div class="misconception-card cta-card">
+      <h2 class="hx-text-2xl hx-font-bold">Ready to Take Back Control?</h2>
+      <p class="hx-text-base">Join thousands of people who have already taken back control of their privacy with the Beginner Privacy Roadmap, which guides you step-by-step on your privacy journey.</p>
+      {{< hextra/hero-button text="Start Improving Your Privacy" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
+    </div>
+  </div>
+</section>
 
 <section class="community-section">
     <div class="community-content">
@@ -83,48 +91,42 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section">
-  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Checklists</h2>
-  <p class="hx-text-base hx-mb-10px hx-text-center">Use our checklists to stay safe and anonymous during activities like protests. <br>Click on the profile that matches you for essential tips and resources.</p>
-  <div class="carousel-container" aria-label="Checklists carousel">
-    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
-      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
-        <div class="carousel-track">
-          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Whistleblower</div>
-          </a>
-          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Protestor</div>
-          </a>
-          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Casual Internet User</div>
-          </a>
-          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Internet Pirate</div>
-          </a>
-          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Darknet User</div>
-          </a>
-          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Social Media Influencers</div>
-          </a>
-          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Hacker</div>
-          </a>
-          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Digital Nomad</div>
-          </a>
-          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Mass Surveillance</div>
-          </a>
-          <a href="checklists/?m=journalist" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Journalist</div>
-          </a>
-        </div>
-      </div>
-    <div class="carousel-button next" aria-label="Next">&#10095;</div>
-    <div class="carousel-fade left"></div>
-    <div class="carousel-fade right"></div>
+<section class="explore-section">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">
+    Explore the Site
+  </h2>
+  <p class="hx-text-base hx-text-center hx-mb-10px">
+    Beginner Privacy has much more to offer than just our roadmap, feel free to explore a little bit, here are some things we recommend you start looking at.
+  </p>
+  <div class="explore-grid">
+    <a href="articles" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="newspaper" attributes="height=30" >}}<span>Articles</span></h2>
+      <p>
+        All the guides that aren't on the roadmap we put in our articles page.
+      </p>
+      <span class="explore-link">Read articles →</span>
+    </a>
+    <a href="checklists" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="user" attributes="height=30" >}}<span>Checklists</span></h2>
+      <p>
+        Practical checklists tailored to different situations and risk levels — know exactly what to do.
+      </p>
+      <span class="explore-link">View checklists →</span>
+    </a>
+    <a href="news" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="speakerphone" attributes="height=30" >}}<span>News</span></h2>
+      <p>
+        Stay up to date with the latest privacy and security news and if there has been any data breaches.
+      </p>
+      <span class="explore-link">Read news →</span>
+    </a>
+    <a href="https://shop.beginnerprivacy.com" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="shopping-cart" attributes="height=30" >}}<span>Shop</span></h2>
+      <p>
+        Support us and get some cool merchandise at the same time.
+      </p>
+      <span class="explore-link">Shop now →</span>
+    </a>
   </div>
 </section>
 

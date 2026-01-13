@@ -5,7 +5,7 @@ Params:
   sidebar:
     exclude: true
 ---
-<section class="roadmap hx-pt-20" id="roadmap">
+<section class="roadmap hx-pt-12" id="roadmap">
   <div>
     <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
       <div class="tabs hx-select-none">

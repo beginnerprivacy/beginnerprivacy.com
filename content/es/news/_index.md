@@ -5,7 +5,7 @@ Params:
   sidebar:
     exclude: true
 ---
-{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container" >}}
+{{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container hx-mb-4" >}}
   <div>Los sitios de noticias a continuación pueden rastrearte. ¡Por favor completa nuestra <a href="../checklists/?m=casual-internet-user">Lista de Verificación para Usuarios de Internet Casuales</a> antes de hacer clic en cualquier enlace!</div> 
   <div class="news-warning-close">&times;</div>
 {{< /callout >}}

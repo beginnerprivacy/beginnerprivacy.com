@@ -37,22 +37,30 @@ layout: hextra-home
 </section>
 
 <section id="common-misconceptions" class="hx-text-center">
-    <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Conceptos Erróneos Comunes</h2>
-    <div class="misconception-container">
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"¿Por qué debería preocuparme?"</h2>
-            <p class="hx-text-base">Tu privacidad es esencial para tu seguridad y dignidad. Así como cierras la puerta del baño para tener espacio personal, proteger tu información personal es vital. La idea de "no tengo nada que ocultar" pasa por alto el hecho de que la privacidad es un derecho fundamental, no solo para aquellos que tienen secretos. Proteger tus datos ayuda a prevenir el robo de identidad y la vigilancia no deseada.</p>
-        </div>
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"¿No es demasiado tarde ahora?"</h2>
-            <p class="hx-text-base">¡El mejor momento para comenzar a proteger tu privacidad es hoy! Es crucial tomar acción ahora, ya que las empresas pueden tener acceso a tus datos. Al ser proactivo con la configuración de tu privacidad y el intercambio de datos, puedes reducir significativamente tu huella digital y mantener tu información personal segura.</p>
-        </div>
-        <div class="misconception-card">
-            <h2 class="hx-text-2xl hx-font-bold">"¿Qué debo hacer?"</h2>
-            <p class="hx-text-base">Tratar de mejorar tu privacidad puede resultar abrumador; por eso creamos Beginner Privacy, para hacerlo lo más fácil posible.</p>
-            {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" link="roadmap" style="margin-top: 15px;" noLink="true" >}}
-        </div>
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Por Qué La Privacidad Importa</h2>
+  <div class="misconception-grid">
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Tu Vida Personal Importa</h2>
+      <p class="hx-text-base">Cierras la puerta de tu casa, bajas las cortinas y mantienes privadas tus conversaciones personales. La privacidad digital es lo mismo: se trata de tener control sobre tu espacio e información personal.</p>
     </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Tus Datos Tienen Valor</h2>
+      <p class="hx-text-base">Hay una razón por la que las empresas invierten miles de millones en la recopilación de datos. Tu actividad en línea, ubicación e intereses son activos valiosos, a menudo intercambiados entre anunciantes y corredores de datos.</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">La Vigilancia Está Creciendo</h2>
+      <p class="hx-text-base">En todo el mundo, los sistemas de vigilancia continúan expandiéndose. Lo que hoy se considera aceptable puede cambiar mañana, y tu huella digital podría usarse de maneras inesperadas.</p>
+    </div>
+    <div class="misconception-card">
+      <h2 class="hx-text-2xl hx-font-bold">Protege Tu Futuro</h2>
+      <p class="hx-text-base">La privacidad te protege del robo de identidad, la discriminación y el uso indebido de tu información. Es una inversión en la seguridad de tu familia y en tu tranquilidad.</p>
+    </div>
+    <div class="misconception-card cta-card">
+      <h2 class="hx-text-2xl hx-font-bold">¿Listo Para Recuperar El Control?</h2>
+      <p class="hx-text-base">Únete a miles de personas que ya han recuperado el control de su privacidad con el Beginner Privacy Roadmap, que te guía paso a paso en tu camino hacia la privacidad.</p>
+      {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
+    </div>
+  </div>
 </section>
 
 <section class="community-section">
@@ -83,48 +91,42 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="checklists-section">
-  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">Listas de Verificación</h2>
-  <p class="hx-text-base hx-mb-10px hx-text-center">Utiliza nuestras listas de verificación para mantenerte seguro y anónimo durante actividades como protestas. <br>Haz clic en el perfil que te corresponde para acceder a consejos y recursos esenciales.</p>
-  <div class="carousel-container" aria-label="Checklists carousel">
-    <div class="carousel-button prev" aria-label="Previous">&#10094;</div>
-      <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-live="polite" aria-atomic="true">
-        <div class="carousel-track">
-          <a href="checklists/?m=whistleblower" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Denunciante</div>
-          </a>
-          <a href="checklists/?m=protestor" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Manifestante</div>
-          </a>
-          <a href="checklists/?m=casual-internet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Usuario de Internet Casual</div>
-          </a>
-          <a href="checklists/?m=internet-pirate" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Pirata de Internet</div>
-          </a>
-          <a href="checklists/?m=darknet-user" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Usuario de la Darknet</div>
-          </a>
-          <a href="checklists/?m=social-media-influencer" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Influencer de Redes Sociales</div>
-          </a>
-          <a href="checklists/?m=hacker" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Hacker</div>
-          </a>
-          <a href="checklists/?m=digital-nomad" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Nómada Digital</div>
-          </a>
-          <a href="checklists/?m=mass-surveillance" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Vigilancia Masiva</div>
-          </a>
-          <a href="checklists/?m=journalist" draggable="false" tabindex="-1">
-            <div class="carousel-item" tabindex="0">Periodista</div>
-          </a>
-        </div>
-      </div>
-    <div class="carousel-button next" aria-label="Next">&#10095;</div>
-    <div class="carousel-fade left"></div>
-    <div class="carousel-fade right"></div>
+<section class="explore-section">
+  <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">
+    Explora el Sitio
+  </h2>
+  <p class="hx-text-base hx-text-center hx-mb-10px">
+    Beginner Privacy tiene mucho más que ofrecer que solo nuestro roadmap. Siéntete libre de explorar un poco; aquí hay algunas secciones que te recomendamos empezar a revisar.
+  </p>
+  <div class="explore-grid">
+    <a href="articles" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="newspaper" attributes="height=30" >}}<span>Artículos</span></h2>
+      <p>
+        Todas las guías que no están en el roadmap las encontrarás en nuestra página de artículos.
+      </p>
+      <span class="explore-link">Leer artículos →</span>
+    </a>
+    <a href="checklists" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="user" attributes="height=30" >}}<span>Listas de Verificación</span></h2>
+      <p>
+        Listas de verificación prácticas adaptadas a diferentes situaciones y niveles de riesgo — sabrás exactamente qué hacer.
+      </p>
+      <span class="explore-link">Ver listas →</span>
+    </a>
+    <a href="news" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="speakerphone" attributes="height=30" >}}<span>Noticias</span></h2>
+      <p>
+        Mantente al día con las últimas noticias sobre privacidad y seguridad, incluyendo alertas sobre filtraciones de datos.
+      </p>
+      <span class="explore-link">Leer noticias →</span>
+    </a>
+    <a href="https://shop.beginnerprivacy.com" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="shopping-cart" attributes="height=30" >}}<span>Tienda</span></h2>
+      <p>
+        Apóyanos y consigue mercancía genial al mismo tiempo.
+      </p>
+      <span class="explore-link">Comprar ahora →</span>
+    </a>
   </div>
 </section>
 

@@ -14,7 +14,7 @@
 
 section#common-misconceptions,
 section.community-section,
-section.checklists-section {
+section.explore-section {
   padding: 10rem 0 10rem 0;
 }
 
@@ -136,10 +136,6 @@ section#contributors {
 }
 
 @media (max-width: 520px) {
-  .hero {
-    padding-top: 0rem !important;
-  }
-
   .hero-waves svg.waves {
     height: 100px !important;
   }
