@@ -51,52 +51,54 @@ function updateRoadmapProgress() {
         ? Math.round((completedTasks.length / totalTasks) * 100)
         : 0;
 
-    if (/^\/[a-z]{2}\/roadmap\/?$/.test(window.location.pathname)) {
-        document.getElementById('tasks-completed').textContent = completedTasks.length;
-        document.getElementById('total-tasks').textContent = totalTasks;
-        document.getElementById('percent-display').textContent = `${percentComplete}%`;
-
-        const circle = document.getElementById('progress-circle');
-        const circumference = 276.46;
-        const offset = circumference - (percentComplete / 100) * circumference;
-        circle.style.strokeDashoffset = offset;
-
-        const startTasks = Array.from(document.querySelectorAll('.start-hf-card-color.hextra-feature-card')).map(card => card.id);
-        const basicTasks = Array.from(document.querySelectorAll('.basic-hf-card-color.hextra-feature-card')).map(card => card.id);
-        const mediumTasks = Array.from(document.querySelectorAll('.medium-hf-card-color.hextra-feature-card')).map(card => card.id);
-        const advancedTasks = Array.from(document.querySelectorAll('.advanced-hf-card-color.hextra-feature-card')).map(card => card.id);
-
-        let privacyLevel = window.translations.privacyStarter;
-        const allComplete = (tasks) => tasks.every(taskId => completedTasks.includes(taskId));
-
-        if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks) && allComplete(advancedTasks)) {
-            privacyLevel = window.translations.privacyExpert;
-        } else if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks)) {
-            privacyLevel = window.translations.privacyDefender;
-        } else if (allComplete(startTasks) && allComplete(basicTasks)) {
-            privacyLevel = window.translations.privacyEnthusiast;
-        } else if (allComplete(startTasks)) {
-            privacyLevel = window.translations.privacyAware;
-        }
-
-        document.getElementById('privacy-level').textContent = privacyLevel;
-
-        document.querySelectorAll('.hextra-feature-card').forEach(card => {
-            const taskId = card.id;
-            const timeBadgeInfo = card.querySelector('.time-badge-info');
-            const startTaskButton = card.querySelector('.start-task-button');
-
-            if (completedTasks.includes(taskId)) {
-                const badge = document.createElement('span');
-                badge.textContent = window.translations.taskCompleted;
-                badge.classList.add('completed-badge');
-                timeBadgeInfo.appendChild(badge);
-
-                card.classList.add('completed');
-                startTaskButton.textContent = window.translations.reviewTask;
-            }
-        });
+    if (!totalTasks) {
+        return;
     }
+
+    document.getElementById('tasks-completed').textContent = completedTasks.length;
+    document.getElementById('total-tasks').textContent = totalTasks;
+    document.getElementById('percent-display').textContent = `${percentComplete}%`;
+
+    const circle = document.getElementById('progress-circle');
+    const circumference = 276.46;
+    const offset = circumference - (percentComplete / 100) * circumference;
+    circle.style.strokeDashoffset = offset;
+
+    const startTasks = Array.from(document.querySelectorAll('.start-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const basicTasks = Array.from(document.querySelectorAll('.basic-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const mediumTasks = Array.from(document.querySelectorAll('.medium-hf-card-color.hextra-feature-card')).map(card => card.id);
+    const advancedTasks = Array.from(document.querySelectorAll('.advanced-hf-card-color.hextra-feature-card')).map(card => card.id);
+
+    let privacyLevel = window.translations.privacyStarter;
+    const allComplete = (tasks) => tasks.every(taskId => completedTasks.includes(taskId));
+
+    if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks) && allComplete(advancedTasks)) {
+        privacyLevel = window.translations.privacyExpert;
+    } else if (allComplete(startTasks) && allComplete(basicTasks) && allComplete(mediumTasks)) {
+        privacyLevel = window.translations.privacyDefender;
+    } else if (allComplete(startTasks) && allComplete(basicTasks)) {
+        privacyLevel = window.translations.privacyEnthusiast;
+    } else if (allComplete(startTasks)) {
+        privacyLevel = window.translations.privacyAware;
+    }
+
+    document.getElementById('privacy-level').textContent = privacyLevel;
+
+    document.querySelectorAll('.hextra-feature-card').forEach(card => {
+        const taskId = card.id;
+        const timeBadgeInfo = card.querySelector('.time-badge-info');
+        const startTaskButton = card.querySelector('.start-task-button');
+
+        if (completedTasks.includes(taskId)) {
+            const badge = document.createElement('span');
+            badge.textContent = window.translations.taskCompleted;
+            badge.classList.add('completed-badge');
+            timeBadgeInfo.appendChild(badge);
+
+            card.classList.add('completed');
+            startTaskButton.textContent = window.translations.reviewTask;
+        }
+    });
 }
 
 function markAsDone(id) {
