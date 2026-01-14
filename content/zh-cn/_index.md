@@ -1,5 +1,6 @@
 ---
 title: 初学者的隐私
+description: 掌控你的在线隐私。Beginner Privacy 通过简单易懂的指南和清晰、可执行的路线图，帮助你保护个人数据。
 layout: hextra-home
 ---
 <section class="hero hx-py-40 hx-text-center" id="hero">

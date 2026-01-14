@@ -1,5 +1,6 @@
 ---
 title: News
+description: Get the latest privacy and security news, data breaches, and online threats—stay informed and protect your personal data.
 excludeSearch: true
 Params:
   sidebar:

@@ -86,7 +86,7 @@ menu:
       name: A beginner-friendly roadmap for enhancing your online privacy.
 
 params:
-  description: Online privacy made simple with Beginner Privacy. Learn how to protect your data with our actionable roadmap and guides.
+  description: Take control of your online privacy. Beginner Privacy helps you protect your data with simple guides and a clear, actionable roadmap.
   images:
     - images/og_image.png
   navbar:

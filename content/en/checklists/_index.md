@@ -1,5 +1,6 @@
 ---
 title: Checklists
+descriptions: Quick privacy checklists for specific situations, like protests or travel—simple steps to quickly get prepared.
 excludeSearch: false
 Params:
   sidebar:

@@ -1,5 +1,6 @@
 ---
 title: Listas de Verificación
+description: Listas de verificación rápidas de privacidad para situaciones específicas, como protestas o viajes—pasos sencillos para prepararte rápidamente.
 excludeSearch: false
 Params:
   sidebar:

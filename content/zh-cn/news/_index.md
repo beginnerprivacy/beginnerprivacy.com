@@ -1,5 +1,6 @@
 ---
 title: 新闻
+description: 获取最新的隐私与安全新闻、数据泄露事件以及网络威胁，随时了解动态并保护你的个人数据。
 excludeSearch: true
 Params:
   sidebar:

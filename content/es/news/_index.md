@@ -1,5 +1,6 @@
 ---
 title: Noticia
+description: Obtén las últimas noticias sobre privacidad y seguridad, filtraciones de datos y amenazas en línea; mantente informado y protege tus datos personales.
 excludeSearch: true
 Params:
   sidebar:

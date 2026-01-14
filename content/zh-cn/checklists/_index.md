@@ -1,5 +1,6 @@
 ---
 title: 检查表
+description: 针对特定情况如抗议活动或旅行的快速隐私检查清单—通过简单步骤快速做好准备。
 excludeSearch: false
 Params:
   sidebar:

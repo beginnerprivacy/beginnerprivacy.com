@@ -1,5 +1,6 @@
 ---
-title: "Artículos"
+title: Artículos
+description: Artículos sobre privacidad y seguridad que cubren herramientas, consejos y situaciones del mundo real para ayudarte a proteger mejor tus datos personales.
 Params:
   sidebar:
     exclude: true

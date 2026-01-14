@@ -1,5 +1,5 @@
 ---
-linkTitle: "About"
+linkTitle: About
 title: About
 ---
 Protecting your personal data can feel overwhelming. Our mission is to simplify online privacy for everyone, from beginners to experts. We prioritize foundational knowledge and practical habits over complex tools, ensuring you build a strong privacy base before diving into advanced software.

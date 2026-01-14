@@ -1,5 +1,6 @@
 ---
 title: Beginner Privacy
+description: Take control of your online privacy. Beginner Privacy helps you protect your data with simple guides and a clear, actionable roadmap.
 layout: hextra-home
 ---
 <section class="hero hx-py-40 hx-text-center" id="hero">
