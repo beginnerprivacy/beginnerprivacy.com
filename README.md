@@ -25,7 +25,6 @@ We provide clear, actionable guidance on everything from basic privacy practices
 
 ## Git Mirrors
 [![GitHub](https://img.shields.io/static/v1?logo=github&label=&message=GitHub&color=000&style=for-the-badge)](https://github.com/beginnerprivacy/beginnerprivacy.com)
-[![GitLab](https://img.shields.io/static/v1?logo=gitlab&label=&message=GitLab&color=000&style=for-the-badge)](https://gitlab.com/beginnerprivacy/beginnerprivacy.com)
 [![Codeberg](https://img.shields.io/static/v1?logo=codeberg&label=&message=Codeberg&color=000&style=for-the-badge)](https://codeberg.org/beginnerprivacy/beginnerprivacy.com)
 
 ## Contributing
