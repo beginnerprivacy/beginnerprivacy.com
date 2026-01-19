@@ -6,22 +6,44 @@ Params:
     exclude: true
 ---
 <section class="roadmap hx-pt-12" id="roadmap">
-  <div>
-    <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-      <div class="tabs hx-select-none">
-          <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
-          <label class="tab" for="radio-start">Start</label>
-          <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-basic">Basic</label>
-          <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-medium">Medium</label>
-          <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
-          <label class="tab" for="radio-advanced">Advanced</label>
-          <span class="glider"></span>
+  <div class="hx-flex hx-justify-center">
+    <div class="tabs hx-select-none">
+      <div class="tab-wrapper">
+        <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
+        <label class="tab" for="radio-start">Start</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
+        <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
+        <label class="tab" for="radio-basic">Basic</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
+        <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
+        <label class="tab" for="radio-medium">Medium</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
+        <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
+        <label class="tab" for="radio-advanced">Advanced</label>
       </div>
     </div>
   </div>
-  <div id="roadmapContent" class="hx-mt-4">
+  <script>
+    (function() {
+      try {
+        var last = localStorage.getItem('roadmap-last-tab');
+        if (last) {
+          var radio = document.getElementById('radio-' + last);
+          if (radio) radio.checked = true;
+        }
+      } catch (e) {}
+      if (typeof updateRoadmap === 'function') {
+        updateRoadmap();
+      }
+    })();
+  </script>
+  <div id="roadmapContent">
     <div id="startContent" class="roadmap-section">
       <ol class="centerRoadmapOL">
         <li>{{< roadmap/card title="About Beginner Privacy" id="about-beginner-privacy" class="start-hf-card-color" >}}</li>

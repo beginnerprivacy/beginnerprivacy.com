@@ -6,21 +6,43 @@ Params:
     exclude: true
 ---
 <section class="roadmap hx-pt-12" id="roadmap">
-  <div>
-    <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-      <div class="tabs hx-select-none">
+  <div class="hx-flex hx-justify-center">
+    <div class="tabs hx-select-none">
+      <div class="tab-wrapper">
         <input type="radio" id="radio-start" name="tabs" value="start" checked onclick="updateRoadmap()" />
         <label class="tab" for="radio-start">入门</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
         <input type="radio" id="radio-basic" name="tabs" value="basic" onclick="updateRoadmap()" />
         <label class="tab" for="radio-basic">基础</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
         <input type="radio" id="radio-medium" name="tabs" value="medium" onclick="updateRoadmap()" />
         <label class="tab" for="radio-medium">中级</label>
+      </div>
+      <span class="tab-separator">›</span>
+      <div class="tab-wrapper">
         <input type="radio" id="radio-advanced" name="tabs" value="advanced" onclick="updateRoadmap()" />
         <label class="tab" for="radio-advanced">高级</label>
-        <span class="glider"></span>
       </div>
     </div>
   </div>
+  <script>
+    (function() {
+      try {
+        var last = localStorage.getItem('roadmap-last-tab');
+        if (last) {
+          var radio = document.getElementById('radio-' + last);
+          if (radio) radio.checked = true;
+        }
+      } catch (e) {}
+      if (typeof updateRoadmap === 'function') {
+        updateRoadmap();
+      }
+    })();
+  </script>
   <div id="roadmapContent" class="hx-mt-4">
     <div id="startContent" class="roadmap-section">
       <ol class="centerRoadmapOL">

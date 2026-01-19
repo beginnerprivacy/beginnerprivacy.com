@@ -26,7 +26,39 @@ function updateRoadmap() {
     }
   }
 }
-window.onload = updateRoadmap;
+
+function saveLastTab(tabValue) {
+  try {
+    localStorage.setItem('roadmap-last-tab', tabValue);
+  } catch (e) {}
+}
+
+function getLastTab() {
+  try {
+    return localStorage.getItem('roadmap-last-tab');
+  } catch (e) {
+    return null;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const last = getLastTab();
+  if (last) {
+    const input = document.getElementById(`radio-${last}`);
+    if (input) {
+      input.checked = true;
+    }
+  }
+
+  document.querySelectorAll('input[name="tabs"]').forEach(input => {
+    input.addEventListener('change', () => {
+      if (input.checked) saveLastTab(input.value);
+      updateRoadmap();
+    });
+  });
+
+  updateRoadmap();
+});
 
 // Roadmap Progress
 function getRoadmapProgress() {
