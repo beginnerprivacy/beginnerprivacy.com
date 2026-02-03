@@ -7,7 +7,7 @@ Params:
     exclude: true
 ---
 {{< callout type="warning" styleClass="hx-flex hx-justify-between" customClass="news-warning-container hx-mb-4" >}}
-  <div>以下新闻网站可能会追踪您。在点击任何链接之前，请完成我们的<a href="../checklists/?m=casual-internet-user">普通互联网用户检查清单</a>!</div> 
+  <div>以下新闻网站可能会追踪您。在点击任何链接之前，请完成我们的<a href="/zh-cn/checklists/casual-internet-user">普通互联网用户检查清单</a>!</div> 
   <div class="news-warning-close">&times;</div>
 {{< /callout >}}
 
