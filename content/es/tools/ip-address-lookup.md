@@ -21,5 +21,5 @@ description: Descubre información sobre tu dirección IP con nuestra herramient
   <h3 class="hx-text-center">Preguntas Frecuentes</h3>
   {{< tools/faq-item question="¿Qué es una dirección IP?" answer="Una dirección IP es un identificador único asignado a cada dispositivo conectado a una red. Se utiliza para la comunicación con otros dispositivos a través de Internet." >}}
   {{< tools/faq-item question="¿Cómo puedo ocultar mi dirección IP?" answer="Para ocultar tu dirección IP, te recomendamos leer nuestro artículo sobre [uso de una VPN](/es/roadmap/basic/virtual-private-network)." >}}
-  {{< tools/faq-item question="¿Cómo funciona esta búsqueda de dirección IP?" answer="Utilizamos [ipapi](https://ipapi.co/json/) para buscar tu dirección IP y obtener detalles de ubicación como latitud y longitud." >}}
+  {{< tools/faq-item question="¿Cómo funciona esta búsqueda de dirección IP?" answer="Usamos [ipify](https://ipify.org) para consultar tu dirección IP y [ipapi](https://ipapi.co) para obtener detalles de ubicación como latitud y longitud." >}}
 </div>
