@@ -1,5 +1,6 @@
 ---
 title: Hoja de Ruta
+description: Sigue nuestra práctica hoja de ruta paso a paso desde lo básico hasta lo experto en privacidad en línea. Simplificamos estrategias esenciales para ayudarte a proteger eficazmente tus datos personales sin sentirte abrumado.
 excludeSearch: false
 Params:
   sidebar:

@@ -1,6 +1,6 @@
 ---
 title: Acerca De
-toc: false
+description: Aprende más sobre Beginner Privacy, nuestra misión para mejorar la seguridad en línea y cómo puedes contribuir a nuestra comunidad. Únete a nosotros para simplificar la privacidad para todos y hacer de Internet un lugar más seguro.
 ---
 Proteger tus datos personales puede parecer abrumador. Nuestra misión es simplificar la privacidad en línea para todos, desde principiantes hasta expertos. Priorizamos el conocimiento fundamental y los hábitos prácticos sobre herramientas complejas, asegurando que construyas una base sólida de privacidad antes de adentrarte en software avanzado.
 

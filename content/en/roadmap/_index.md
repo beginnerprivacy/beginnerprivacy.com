@@ -1,5 +1,6 @@
 ---
 title: Roadmap
+description: Follow our practical step-by-step roadmap from basic to expert in online privacy. We simplify essential strategies to help you effectively protect your personal data without feeling overwhelmed.
 excludeSearch: false
 Params:
   sidebar:

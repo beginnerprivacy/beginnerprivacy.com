@@ -1,5 +1,6 @@
 ---
 title: 路线图
+description: 跟随我们从基础到专家的在线隐私实用路线图。我们简化了关键策略，帮助您有效保护个人数据，而不会感到压力山大。
 excludeSearch: false
 Params:
   sidebar:

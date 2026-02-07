@@ -1,6 +1,6 @@
 ---
-linkTitle: About
 title: About
+description: Learn more about Beginner Privacy, our mission to enhance online security, and how you can contribute to our community. Join us in simplifying privacy for everyone and making the internet a safer place.
 ---
 Protecting your personal data can feel overwhelming. Our mission is to simplify online privacy for everyone, from beginners to experts. We prioritize foundational knowledge and practical habits over complex tools, ensuring you build a strong privacy base before diving into advanced software.
 
