@@ -24,6 +24,8 @@ about: "关于"
 roadmap: "路线图"
 checklists: "检查表"
 checklistsDescription: "用我们的检查清单做好万全准备"
+tools: "工具"
+toolsDescription: "易于使用的工具来增强您的隐私"
 searchPlaceholder: "搜索文档..."
 
 # Language Dropdown
@@ -42,6 +44,14 @@ privacyNotice: "隐私声明。"
 checklistsPageDescription: "为任何事情做好准备—我们的检查清单为您提供保障！"
 readChecklist: "阅读清单"
 backToChecklists: "返回检查清单"
+
+# Tools
+toolsPageDescription: "简单易用的工具，旨在增强您的隐私、安全性和匿名性。"
+useTool: "使用工具"
+backToTools: "返回工具"
+
+## IP Address Lookup
+notDetected: "未检测到"
 
 # Roadmap
 bookmarkRoadmapReminder: "收藏此页面，每周访问以提升你的隐私分数"

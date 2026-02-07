@@ -129,6 +129,13 @@ layout: hextra-home
       </p>
       <span class="explore-link">立即购买 →</span>
     </a>
+    <a href="tools" class="explore-card">
+      <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="wrench-screwdriver" attributes="height=30" >}}<span>工具</span></h2>
+      <p>
+        尝试我们的快速简便工具，增强您的在线隐私、安全性和匿名性。
+      </p>
+      <span class="explore-link">使用工具 →</span>
+    </a>
   </div>
 </section>
 

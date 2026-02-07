@@ -1,0 +1,67 @@
+/* FAQ */  
+.faq-container { 
+  width: 100%; 
+  max-width: 650px;
+  margin: auto; 
+}
+
+.faq-item { padding: 0; }
+
+.faq-question { 
+  background: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer { 
+  display: none; 
+  padding: 15px;
+}
+
+.faq-answer p {
+  margin: 10px 0;
+}
+
+.faq-divider {
+  height: 1px;
+  background: #ccc;
+  margin: 5px 0;
+}
+
+.faq-question .arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.faq-question.active .arrow {
+  transform: rotate(45deg);
+}
+
+/* IP Address Lookup */
+#tool-container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#ip-info {
+  margin-bottom: 20px;
+}
+
+#ip-info p {
+  margin: 8px 0;
+}
+
+#map-container {
+  border-radius: 8px;
+  z-index: 5;
+}

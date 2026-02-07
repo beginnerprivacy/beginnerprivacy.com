@@ -24,6 +24,8 @@ about: "Acerca De"
 roadmap: "Hoja de Ruta"
 checklists: "Listas de Verificación"
 checklistsDescription: "Prepárate para cualquier cosa con nuestras listas de verificación"
+tools: "Herramientas"
+toolsDescription: "Herramientas fáciles de usar para mejorar tu privacidad"
 searchPlaceholder: "Buscar..."
 
 # Language Dropdown
@@ -42,6 +44,14 @@ privacyNotice: "Aviso de privacidad."
 checklistsPageDescription: "Prepárate para cualquier cosa—nuestras listas de verificación te tienen cubierto!"
 readChecklist: "Leer la lista de verificación"
 backToChecklists: "Volver a Listas de Verificación"
+
+# Tools
+toolsPageDescription: "Herramientas simples y fáciles de usar para mejorar tu privacidad, seguridad y anonimato."
+useTool: "Usar herramienta"
+backToTools: "Volver a las Herramientas"
+
+## IP Address Lookup
+notDetected: "No detectado"
 
 # Roadmap
 bookmarkRoadmapReminder: "Guarda esta página en favoritos y visítala semanalmente para mejorar tu puntuación de privacidad"

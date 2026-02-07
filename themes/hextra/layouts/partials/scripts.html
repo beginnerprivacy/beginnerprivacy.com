@@ -13,8 +13,9 @@
 {{- $jsQuizAssessment := resources.Get "js/custom/assessment.js" -}}
 {{- $jsChecklists := resources.Get "js/custom/checklists.js" -}}
 {{- $jsNews := resources.Get "js/custom/news.js" -}}
+{{- $jsTools := resources.Get "js/custom/tools.js" -}}
 
-{{- $scripts := slice $jsTheme $jsMenu $jsCodeCopy $jsTabs $jsLang $jsFileTree $jsSidebar $jsBackToTop $jsQuizAssessment $jsMisc $jsRoadmap $jsChecklists $jsNews | resources.Concat "js/main.js" -}}
+{{- $scripts := slice $jsTheme $jsMenu $jsCodeCopy $jsTabs $jsLang $jsFileTree $jsSidebar $jsBackToTop $jsQuizAssessment $jsMisc $jsRoadmap $jsChecklists $jsNews $jsTools | resources.Concat "js/main.js" -}}
 {{- if hugo.IsProduction -}}
   {{- $scripts = $scripts | minify | fingerprint -}}
 {{- end -}}
@@ -108,4 +109,16 @@
       });
     });
   </script>
+{{ end }}
+
+{{/* Tools */}}
+{{- if in .Page.RelPermalink "/tools" -}}
+  {{- $leafletCSS := resources.Get "lib/leaflet/leaflet.min.css" | fingerprint -}}
+  {{- $leafletJS := resources.Get "lib/leaflet/leaflet.min.js" | fingerprint -}}
+  <link type="text/css" rel="stylesheet" href="{{ $leafletCSS.RelPermalink }}" integrity="{{ $leafletCSS.Data.Integrity }}" />
+  <script defer src="{{ $leafletJS.RelPermalink }}" integrity="{{ $leafletJS.Data.Integrity }}"></script>
+  {{ $leafletImages := resources.Match "lib/leaflet/images/*" }}
+  {{- range $leafletImages -}}
+    {{ .Publish }}
+  {{- end -}}
 {{ end }}

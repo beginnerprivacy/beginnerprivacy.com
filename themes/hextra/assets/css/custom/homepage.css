@@ -171,6 +171,10 @@ html[class~="dark"] .misconception-card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+.explore-card:nth-of-type(odd):last-child {
+  grid-column: span 2;
+}
+
 .explore-card h2 svg {
   margin-top: 3px;
 }

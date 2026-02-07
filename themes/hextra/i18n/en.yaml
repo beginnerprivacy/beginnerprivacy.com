@@ -23,6 +23,8 @@ about: "About"
 roadmap: "Roadmap"
 checklists: "Checklists"
 checklistsDescription: "Get ready for anything with our checklists"
+tools: "Tools"
+toolsDescription: "User-friendly tools to enhance your privacy"
 searchPlaceholder: "Search..."
 
 # Language Dropdown
@@ -41,6 +43,14 @@ privacyNotice: "Privacy notice."
 checklistsPageDescription: "Get ready for anything—our checklists have you covered!"
 readChecklist: "Read checklist"
 backToChecklists: "Back to Checklists"
+
+# Tools
+toolsPageDescription: "Simple and user-friendly tools to enhance your privacy, security, and anonymity."
+useTool: "Use tool"
+backToTools: "Back to Tools"
+
+## IP Address Lookup
+notDetected: "Not detected"
 
 # Roadmap
 bookmarkRoadmapReminder: "Bookmark this page and visit weekly to improve your privacy score"

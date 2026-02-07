@@ -1,0 +1,24 @@
+{{ $title := .Get "title" }}
+{{ $style := .Get "style" }}
+{{ $description := .Get "description" }}
+{{ $icon := .Get "icon" | default "badge-check" }}
+{{ $link := .Get "link" }}
+
+<a
+  href="{{ $link }}"
+  {{ with $style }}style="{{ . | safeCSS }} height: 100px;"{{ end }}
+  class="checklist-card hx-block hx-relative hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hover:hx-border-gray-300 dark:hx-border-neutral-800 dark:hover:hx-border-neutral-700 transition-all duration-300 ease-in-out before:hx-pointer-events-none before:hx-absolute before:hx-inset-0 before:hx-bg-glass-gradient"
+>
+  <div class="hx-relative hx-w-full hx-flex hx-flex-col hx-p-2" style="height: 100%;">
+    <h3 class="hx-flex hx-items-center hx-leading-6 hx-p-1.5 hx-gap-2">
+      <span class="hx-font-semibold">{{ $title }}</span>
+    </h3>
+    <span class="hx-text-black dark:hx-text-black hx-p-1.5 hx-flex-grow">{{ $description }}</span>
+    <div class="hx-flex hx-justify-between hx-items-center hx-mt-auto hx-p-2">
+      <span class="hx-text-sm hx-text-gray-600 dark:hx-text-gray-400">{{ T "useTool" }}</span>
+      <svg class="hx-w-4 hx-h-4 hx-text-gray-600 dark:hx-text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
+  </div>
+</a>

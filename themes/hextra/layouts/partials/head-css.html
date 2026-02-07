@@ -24,6 +24,7 @@
 {{- $footer := resources.Get "css/custom/footer.css" }}
 {{- $404 := resources.Get "css/custom/404.css" }}
 {{- $articles := resources.Get "css/custom/articles.css" }}
+{{- $tools := resources.Get "css/custom/tools.css" }}
 {{- if hugo.IsProduction -}}
   {{- $first = $first | minify | fingerprint }}
   {{- $homepage = $homepage | minify | fingerprint }}
@@ -33,6 +34,7 @@
   {{- $footer = $footer | minify | fingerprint }}
   {{- $404 = $404 | minify | fingerprint }}
   {{- $articles = $articles | minify | fingerprint }}
+  {{- $tools = $tools | minify | fingerprint }}
   <link href="{{ $first.RelPermalink }}" rel="stylesheet" integrity="{{ $first.Data.Integrity }}" />
   <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" integrity="{{ $homepage.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $roadmap.RelPermalink }}" rel="stylesheet" integrity="{{ $roadmap.Data.Integrity }}" media="print" onload="this.media='all'" />
@@ -41,6 +43,7 @@
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" integrity="{{ $footer.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $404.RelPermalink }}" rel="stylesheet" integrity="{{ $404.Data.Integrity }}" media="print" onload="this.media='all'" />
   <link href="{{ $articles.RelPermalink }}" rel="stylesheet" integrity="{{ $articles.Data.Integrity }}" media="print" onload="this.media='all'" />
+  <link href="{{ $tools.RelPermalink }}" rel="stylesheet" integrity="{{ $tools.Data.Integrity }}" media="print" onload="this.media='all'" />
 {{- else }}
   <link href="{{ $first.RelPermalink }}" rel="stylesheet" />
   <link href="{{ $homepage.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
@@ -50,4 +53,5 @@
   <link href="{{ $footer.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $404.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
   <link href="{{ $articles.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
+  <link href="{{ $tools.RelPermalink }}" rel="stylesheet" media="print" onload="this.media='all'" />
 {{- end }}
