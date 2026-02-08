@@ -1,5 +1,6 @@
 ---
 title: Social Media Influencer
+description: Security and privacy checklist for social media influencers, including creating strong passwords, utilizing Two-Factor Authentication (2FA), and being cautious with personal information.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Create strong and unique passwords for each of your accounts to enhance security." id="strong-passwords" >}}Strong passwords{{< /checklists/item >}}
 

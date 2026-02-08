@@ -1,6 +1,6 @@
 ---
 title: 举报人
-excludeSearch: true
+description: 告密者的安全和隐私检查清单，包括使用加密通信、寻找不引渡你的国家，并提升你的隐私知识。
 ---
 {{< checklists/item link="/roadmap/basic/secure-communication" text="使用端到端加密的消息应用程序进行沟通。" id="secure-communication" >}}仅使用加密通信{{< /checklists/item >}}
 

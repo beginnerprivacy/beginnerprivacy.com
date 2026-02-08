@@ -1,5 +1,6 @@
 ---
 title: Darknet User
+description: Security and privacy checklist for darknet users, including understanding Tor fundamentals, ensuring strict compartmentalization, and using cash or cryptocurrency for purchases.
 ---
 {{< checklists/item link="/roadmap/medium/what-is-tor" text="Learn the fundamentals before accessing any darknet services." id="basics-of-tor" >}}Learn the basics of Tor{{< /checklists/item >}}
 

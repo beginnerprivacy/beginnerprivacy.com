@@ -1,5 +1,6 @@
 ---
 title: Manifestante
+description: Lista de verificación de seguridad y privacidad para manifestantes, que incluye apagar completamente tu teléfono, planificar cuidadosamente tu viaje y usar comunicación cifrada.
 ---
 {{< checklists/item text="Apaga completamente tu teléfono para asegurarte al 100% de que no se está filtrando nada. ¡El modo avión no es suficiente!" id="turn-your-phone-completely-off" >}}Apaga completamente tu teléfono{{< /checklists/item >}}
 

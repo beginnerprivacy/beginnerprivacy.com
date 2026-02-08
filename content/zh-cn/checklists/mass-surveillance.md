@@ -1,6 +1,6 @@
 ---
 title: 大规模监控
-excludeSearch: true
+description: 大规模监视意识的安全和隐私检查清单，包括切换到Linux、只使用自由和开源软件（FOSS）以及限制在线共享信息。
 ---
 {{< checklists/item link="/roadmap/medium/switch-to-linux" text="切换到Linux可以通过减少对专有软件的依赖来增强您的隐私和安全性。" id="switch-to-linux" >}}切换到Linux{{< /checklists/item >}}
 

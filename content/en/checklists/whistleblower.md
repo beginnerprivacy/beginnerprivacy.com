@@ -1,5 +1,6 @@
 ---
 title: Whistleblower
+description: Security and privacy checklist for whistleblowers, including using encrypted communication, finding countries that won't extradite you, and advancing your privacy knowledge.
 ---
 {{< checklists/item link="/roadmap/basic/secure-communication" text="Use end-to-end encrypted messaging apps to communicate." id="secure-communication" >}}Only use encrypted communication{{< /checklists/item >}}
 

@@ -1,5 +1,6 @@
 ---
 title: Casual Internet User
+description: Security and privacy checklist for casual internet users, including creating strong passwords and limiting shared information.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Create strong and unique passwords for each of your accounts to enhance security." id="strong-passwords" >}}Strong passwords{{< /checklists/item >}}
 

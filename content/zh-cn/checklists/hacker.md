@@ -1,6 +1,6 @@
 ---
 title: 黑客
-excludeSearch: true
+description: 黑客的安全和隐私检查清单，包括始终使用Tor、保持严格的隔离以及超越Beginner Privacy。
 ---
 {{< checklists/item link="/roadmap/medium/what-is-tor" text="连接互联网时只使用Tor以保护你的身份。" id="basics-of-tor" >}}始终使用Tor{{< /checklists/item >}}
 

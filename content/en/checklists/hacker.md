@@ -1,5 +1,6 @@
 ---
 title: Hacker
+description: Security and privacy checklist for hackers, including always using Tor, maintaining strict compartmentalization, and moving beyond Beginner Privacy.
 ---
 {{< checklists/item link="/roadmap/medium/what-is-tor" text="Only use Tor when connecting to the internet to protect your identity." id="basics-of-tor" >}}Always use Tor{{< /checklists/item >}}
 

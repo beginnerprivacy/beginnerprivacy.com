@@ -1,6 +1,6 @@
 ---
 title: 数字游牧者
-excludeSearch: true
+description: 数字游牧民的安全和隐私检查清单，包括创建强密码、使用虚拟私人网络（VPN）以及备份设备。
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="为每个账户创建强大且独特的密码，以增强安全性。" id="strong-passwords" >}}强大且独特的密码{{< /checklists/item >}}
 

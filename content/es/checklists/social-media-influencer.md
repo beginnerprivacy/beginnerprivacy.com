@@ -1,5 +1,6 @@
 ---
 title: Influencer de Redes Sociales
+description: Lista de verificación de seguridad y privacidad para influencers de redes sociales, que incluye crear contraseñas fuertes, utilizar la autenticación en dos pasos (2FA) y tener precaución con la información personal.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad." id="strong-passwords" >}}Contraseñas fuertes y únicas{{< /checklists/item >}}
 

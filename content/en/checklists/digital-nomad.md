@@ -1,5 +1,6 @@
 ---
 title: Digital Nomad
+description: Security and privacy checklist for digital nomads, including creating strong passwords, using a Virtual Private Network (VPN), and backing up your devices.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Create strong and unique passwords for each of your accounts to enhance security." id="strong-passwords" >}}Strong passwords{{< /checklists/item >}}
 

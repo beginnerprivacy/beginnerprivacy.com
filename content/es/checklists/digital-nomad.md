@@ -1,5 +1,6 @@
 ---
 title: Nómada Digital
+description: Lista de verificación de seguridad y privacidad para nómadas digitales, que incluye la creación de contraseñas fuertes, el uso de una red privada virtual (VPN) y la realización de copias de seguridad de tus dispositivos.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Crea contraseñas fuertes y únicas para cada una de tus cuentas para mejorar la seguridad." id="strong-passwords" >}}Contraseñas fuertes y únicas{{< /checklists/item >}}
 

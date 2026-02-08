@@ -1,6 +1,6 @@
 ---
 title: 普通互联网用户
-excludeSearch: true
+description: 安全和隐私检查清单，适用于普通互联网用户，包括创建强密码和限制共享信息。
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="为每个账户创建强大且独特的密码以增强安全性。" id="strong-passwords" >}}强大且独特的密码{{< /checklists/item >}}
 

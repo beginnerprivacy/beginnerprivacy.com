@@ -1,6 +1,6 @@
 ---
 title: 社交媒体影响者
-excludeSearch: true
+description: 社交媒体影响者的安全和隐私检查清单，包括创建强密码、使用双因素认证（2FA）并小心处理个人信息。
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="为每个账户创建强大且独特的密码以增强安全性。" id="strong-passwords" >}}强大且独特的密码{{< /checklists/item >}}
 

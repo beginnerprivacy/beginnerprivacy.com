@@ -1,5 +1,6 @@
 ---
 title: Denunciante
+description: Lista de verificación de seguridad y privacidad para denunciantes, que incluye usar comunicación cifrada, encontrar países que no te extraditen y avanzar en tus conocimientos sobre privacidad.
 ---
 {{< checklists/item link="/roadmap/basic/secure-communication" text="Utiliza aplicaciones de mensajería cifradas de extremo a extremo para comunicarte." id="secure-communication" >}}Solo usa comunicación cifrada{{< /checklists/item >}}
 

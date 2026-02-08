@@ -1,5 +1,6 @@
 ---
 title: Protestor
+description: Security and privacy checklist for protestors, including turning your phone off completely, planning your trip carefully, and using encrypted communication.
 ---
 {{< checklists/item text="Turn your phone completely off to be 100% sure nothing is leaking from it. Airplane mode is not enough!" id="turn-your-phone-completely-off" >}}Turn your phone completely off{{< /checklists/item >}}
 

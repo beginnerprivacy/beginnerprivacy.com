@@ -1,5 +1,6 @@
 ---
 title: Usuario de Internet Casual
+description: Lista de verificación de seguridad y privacidad para usuarios casuales de internet, que incluye la creación de contraseñas fuertes y la limitación de la información compartida.
 ---
 {{< checklists/item link="/roadmap/basic/strong-passwords" text="Cree contraseñas fuertes y únicas para cada una de sus cuentas para mejorar la seguridad." id="strong-passwords" >}}Contraseñas únicas y fuertes{{< /checklists/item >}}
 

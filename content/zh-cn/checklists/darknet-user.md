@@ -1,6 +1,6 @@
 ---
 title: 暗网用户
-excludeSearch: true
+description: 针对暗网用户的安全和隐私检查清单，包括理解Tor的基本原理、确保严格的隔离，并使用现金或加密货币进行购买。
 ---
 {{< checklists/item link="/roadmap/medium/what-is-tor" text="在访问任何暗网服务之前，先学习基础知识。" id="basics-of-tor" >}}学习Tor的基础知识{{< /checklists/item >}}
 

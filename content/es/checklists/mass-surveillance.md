@@ -1,5 +1,6 @@
 ---
 title: Vigilancia Masiva
+description: Lista de verificación de seguridad y privacidad para la concienciación sobre la vigilancia masiva, que incluye cambiar a Linux, usar solo software libre y de código abierto (FOSS) y limitar la información compartida en línea.
 ---
 {{< checklists/item link="/roadmap/medium/switch-to-linux" text="Cambiar a Linux puede mejorar tu privacidad y seguridad al reducir la dependencia del software propietario." id="switch-to-linux" >}}Cambiar a Linux{{< /checklists/item >}}
 

@@ -1,5 +1,6 @@
 ---
 title: Usuario de la Darknet
+description: Lista de verificación de seguridad y privacidad para usuarios de la darknet, que incluye comprender los fundamentos de Tor, asegurar una estricta compartimentalización y usar efectivo o criptomonedas para las compras.
 ---
 {{< checklists/item link="/roadmap/medium/what-is-tor" text="Aprende los fundamentos antes de acceder a cualquier servicio de la darknet." id="basics-of-tor" >}}Aprender los fundamentos de Tor{{< /checklists/item >}}
 

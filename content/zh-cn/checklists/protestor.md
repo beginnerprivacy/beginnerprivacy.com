@@ -1,6 +1,6 @@
 ---
 title: 抗议者
-excludeSearch: true
+description: 抗议者的安全和隐私检查清单，包括完全关闭手机、仔细规划旅行并使用加密通信。
 ---
 {{< checklists/item text="完全关闭你的手机，以确保100%没有信息泄露。飞行模式不够！" id="turn-your-phone-completely-off" >}}完全关闭你的手机{{< /checklists/item >}}
 

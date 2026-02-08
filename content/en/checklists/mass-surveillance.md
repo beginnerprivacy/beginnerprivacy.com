@@ -1,5 +1,6 @@
 ---
 title: Mass Surveillance
+description: Security and privacy checklist for mass surveillance awareness, including switching to Linux, using only Free and Open Source Software (FOSS), and limiting shared information online.
 ---
 {{< checklists/item link="/roadmap/medium/switch-to-linux" text="Switching to Linux can enhance your privacy and security by reducing reliance on proprietary software." id="switch-to-linux" >}}Switch to Linux{{< /checklists/item >}}
 
