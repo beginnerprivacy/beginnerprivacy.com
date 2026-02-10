@@ -53,6 +53,10 @@ backToTools: "返回工具"
 ## IP Address Lookup
 notDetected: "未检测到"
 
+## URL Unshortener
+unshortenBtnText: "解短"
+resolvingBtnText: "正在解析…"
+
 # Roadmap
 bookmarkRoadmapReminder: "收藏此页面，每周访问以提升你的隐私分数"
 resetRoadmapProgressPrompt: "你确定要删除所有的进度吗？此操作无法撤销。"

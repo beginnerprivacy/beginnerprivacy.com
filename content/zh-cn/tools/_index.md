@@ -8,4 +8,5 @@ Params:
 ---
 <div class="checklist-grid">
     {{< tools/card title="IP地址查询" link="ip-address-lookup" description="查看您的公共IP地址以及附加的IP信息。" >}}
+    {{< tools/card title="URL 解短器" link="url-unshortener" description="在点击之前查看任何缩短链接背后的最终目标。" >}}
 </div>

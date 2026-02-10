@@ -8,4 +8,5 @@ Params:
 ---
 <div class="checklist-grid">
     {{< tools/card title="IP Address Lookup" link="ip-address-lookup" description="View your public IP address along with additional IP information." >}}
+    {{< tools/card title="URL Unshortener" link="url-unshortener" description="See the final destination behind any shortened link before clicking." >}}
 </div>

@@ -73,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
 
     if (
-      e.key === '/' ||
       (e.key === 'k' &&
         (e.metaKey /* for Mac */ || /* for non-Mac */ e.ctrlKey))
     ) {

@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/beginnerprivacy/beginnerprivacy.github.io/issues"
   },
-  "homepage": "https://github.com/beginnerprivacy/beginnerprivacy.github.io#readme",
-  "dependencies": {
-    "@mlc-ai/web-llm": "^0.2.78"
-  }
+  "homepage": "https://github.com/beginnerprivacy/beginnerprivacy.github.io#readme"
 }
