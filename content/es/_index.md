@@ -20,7 +20,7 @@ layout: hextra-home
     Comienza Tu Viaje
     <span class="arrow">&rarr;</span>
   </a>
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">¿No estás seguro? Aquí está la razón</div>
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollDownSection();">¿No estás seguro? Aquí está la razón</div>
 
   <div class="hero-waves">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -37,26 +37,26 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="common-misconceptions" class="hx-text-center">
+<section id="why-privacy-matters">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Por Qué La Privacidad Importa</h2>
-  <div class="misconception-grid">
-    <div class="misconception-card">
+  <div class="hover-cards-grid">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Tu Vida Personal Importa</h2>
       <p class="hx-text-base">Cierras la puerta de tu casa, bajas las cortinas y mantienes privadas tus conversaciones personales. La privacidad digital es lo mismo: se trata de tener control sobre tu espacio e información personal.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Tus Datos Tienen Valor</h2>
       <p class="hx-text-base">Hay una razón por la que las empresas invierten miles de millones en la recopilación de datos. Tu actividad en línea, ubicación e intereses son activos valiosos, a menudo intercambiados entre anunciantes y corredores de datos.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">La Vigilancia Está Creciendo</h2>
       <p class="hx-text-base">En todo el mundo, los sistemas de vigilancia continúan expandiéndose. Lo que hoy se considera aceptable puede cambiar mañana, y tu huella digital podría usarse de maneras inesperadas.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Protege Tu Futuro</h2>
       <p class="hx-text-base">La privacidad te protege del robo de identidad, la discriminación y el uso indebido de tu información. Es una inversión en la seguridad de tu familia y en tu tranquilidad.</p>
     </div>
-    <div class="misconception-card cta-card">
+    <div class="hover-card cta-card">
       <h2 class="hx-text-2xl hx-font-bold">¿Listo Para Recuperar El Control?</h2>
       <p class="hx-text-base">Únete a miles de personas que ya han recuperado el control de su privacidad con el Beginner Privacy Roadmap, que te guía paso a paso en tu camino hacia la privacidad.</p>
       {{< hextra/hero-button text="Comienza a Mejorar Tu Privacidad" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
@@ -64,7 +64,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="community-section">
+<section id="community">
     <div class="community-content">
         <img src="../images/earth.webp" alt="Imagen de la Comunidad" class="community-image">
     </div>
@@ -92,43 +92,43 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="explore-section">
+<section id="explore">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">
     Explora el Sitio
   </h2>
   <p class="hx-text-base hx-text-center hx-mb-10px">
     Beginner Privacy tiene mucho más que ofrecer que solo nuestro roadmap. Siéntete libre de explorar un poco; aquí hay algunas secciones que te recomendamos empezar a revisar.
   </p>
-  <div class="explore-grid">
-    <a href="articles" class="explore-card">
+  <div class="hover-cards-grid">
+    <a href="articles" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="newspaper" attributes="height=30" >}}<span>Artículos</span></h2>
       <p>
         Todas las guías que no están en el roadmap las encontrarás en nuestra página de artículos.
       </p>
       <span class="explore-link">Leer artículos →</span>
     </a>
-    <a href="checklists" class="explore-card">
+    <a href="checklists" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="user" attributes="height=30" >}}<span>Listas de Verificación</span></h2>
       <p>
         Listas de verificación prácticas adaptadas a diferentes situaciones y niveles de riesgo — sabrás exactamente qué hacer.
       </p>
       <span class="explore-link">Ver listas →</span>
     </a>
-    <a href="news" class="explore-card">
+    <a href="news" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="speakerphone" attributes="height=30" >}}<span>Noticias</span></h2>
       <p>
         Mantente al día con las últimas noticias sobre privacidad y seguridad, incluyendo alertas sobre filtraciones de datos.
       </p>
       <span class="explore-link">Leer noticias →</span>
     </a>
-    <a href="https://shop.beginnerprivacy.com" class="explore-card">
+    <a href="https://shop.beginnerprivacy.com" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="shopping-cart" attributes="height=30" >}}<span>Tienda</span></h2>
       <p>
         Apóyanos y consigue mercancía genial al mismo tiempo.
       </p>
       <span class="explore-link">Comprar ahora →</span>
     </a>
-    <a href="tools" class="explore-card">
+    <a href="tools" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="wrench-screwdriver" attributes="height=30" >}}<span>Herramientas</span></h2>
       <p>
         Prueba nuestras herramientas rápidas y fáciles para mejorar tu privacidad, seguridad y anonimato en línea.

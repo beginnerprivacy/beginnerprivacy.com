@@ -107,7 +107,7 @@ function render(data){
   const info = el("div", "final-info");
   info.innerHTML = `
     <div class="label">Final URL</div>
-    <div class="url"><a href="${finalUrl}" target="_blank">${finalUrl}</a></div>
+    <div class="url"><a href="${finalUrl}" target="_blank" rel="noopener noreferrer nofollow">${finalUrl}</a></div>
   `;
 
   finalBox.appendChild(fav);
@@ -164,37 +164,39 @@ function render(data){
   }
 }
 
-btn.onclick = async () => {
-  const url = input.value.trim();
-  if (!url) return;
+if (btn) {
+  btn.onclick = async () => {
+    const url = input.value.trim();
+    if (!url) return;
 
-  btn.disabled = true;
-  btn.textContent = window.translations.resolvingBtnText;
-  area.innerHTML = "";
+    btn.disabled = true;
+    btn.textContent = window.translations.resolvingBtnText;
+    area.innerHTML = "";
 
-  try {
-    const res = await fetch(ENDPOINT, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": AUTH
-      },
-      body: JSON.stringify({ url })
-    });
+    try {
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": AUTH
+        },
+        body: JSON.stringify({ url })
+      });
 
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || "Request failed");
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Request failed");
 
-    render(data);
+      render(data);
 
-  } catch (err) {
-    area.innerHTML = `<div class="panel">Error: ${err.message}</div>`;
-  }
+    } catch (err) {
+      area.innerHTML = `<div class="panel">Error: ${err.message}</div>`;
+    }
 
-  btn.disabled = false;
-  btn.textContent = window.translations.unshortenBtnText;
-};
+    btn.disabled = false;
+    btn.textContent = window.translations.unshortenBtnText;
+  };
 
-input.addEventListener("keydown", e => {
-  if (e.key === "Enter") btn.click();
-});
+  input.addEventListener("keydown", e => {
+    if (e.key === "Enter") btn.click();
+  });
+}

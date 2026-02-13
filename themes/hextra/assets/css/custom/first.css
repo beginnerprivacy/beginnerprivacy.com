@@ -12,9 +12,9 @@
   --color-white: 0, 0, 0;
 }
 
-section#common-misconceptions,
-section.community-section,
-section.explore-section {
+section#why-privacy-matters,
+section#community,
+section#explore {
   padding: 10rem 0 10rem 0;
 }
 

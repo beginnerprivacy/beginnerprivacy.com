@@ -1,14 +1,18 @@
 /* 1. Hero Section */
 /* In ./first.css */
 
-/* 2. Common Misconceptions Section */
-.misconception-grid {
+/* 2. Why Privacy Matters + Explore Section */
+section#why-privacy-matters {
+  text-align: center;
+}
+
+.hover-cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
-.misconception-card {
+.hover-card {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -19,31 +23,34 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.misconception-card:hover,
-.misconception-card:focus {
+.hover-card:hover,
+.hover-card:focus {
   transform: translateY(-4px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
-html[class~="dark"] .misconception-card {
+html[class~="dark"] .hover-card {
   border-color: #2a2a2a;
 }
 
 @media (max-width: 768px) {
-  .misconception-grid {
+  .hover-cards-grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 768px) {
-  .misconception-card:last-child {
+  .hover-card:last-child {
     grid-column: span 2;
+  }
+
+  .hover-card.cta-card:last-child {
     padding-inline: 10rem;
   }
 }
 
 /* 3. Community Section */
-.community-section {
+section#community {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -122,7 +129,7 @@ html[class~="dark"] .misconception-card {
 }
 
 @media (min-width: 1149px) {
-  .community-section {
+  section#community {
     flex-direction: row;
     align-items: flex-start;
     gap: 4rem;
@@ -152,61 +159,19 @@ html[class~="dark"] .misconception-card {
 }
 
 /* 4. Explore Section */
-.explore-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  margin: 2.5rem auto 0;
-}
-
-.explore-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 2rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 1rem;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.explore-card:nth-of-type(odd):last-child {
-  grid-column: span 2;
-}
-
-.explore-card h2 svg {
-  margin-top: 3px;
-}
-
-.explore-card h2 span {
-  margin-left: 6px;
-}
-
 .explore-link {
   margin-top: 1.25rem;
   font-weight: 600;
   color: #2563eb;
 }
 
-.explore-card:hover,
-.explore-card:focus {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
-}
-
-html[class~="dark"] .explore-card {
-  border-color: #2a2a2a;
-}
-
 html[class~="dark"] .explore-link {
   color: #00aeff;
 }
 
-@media (max-width: 768px) {
-  .explore-grid {
-    grid-template-columns: 1fr;
-  }
+.hover-card h2 svg {
+  margin-top: 2.5px;
+  margin-right: 6px;
 }
 
 /* 5. Contributors Section */

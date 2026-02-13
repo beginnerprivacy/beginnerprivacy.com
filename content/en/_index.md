@@ -20,7 +20,7 @@ layout: hextra-home
     Start Your Journey
     <span class="arrow">&rarr;</span>
   </a>
-  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollMisconceptions();">Not sure? Here's why</div>
+  <div class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-10 hx-py-3 hx-rounded-lg hx-text-center hx-text-black dark:hx-text-white hx-inline-block not-sure-button hx-transition-all hx-ease-in hx-duration-200" style="margin: 2px;" onclick="scrollDownSection();">Not sure? Here's why</div>
 
   <div class="hero-waves">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -37,26 +37,26 @@ layout: hextra-home
   </div>
 </section>
 
-<section id="common-misconceptions" class="hx-text-center">
+<section id="why-privacy-matters">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-inline">Why Privacy Matters</h2>
-  <div class="misconception-grid">
-    <div class="misconception-card">
+  <div class="hover-cards-grid">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Your Personal Life Matters</h2>
       <p class="hx-text-base">You lock your front door, close your curtains, and keep personal conversations private. Digital privacy is the same — it's about having control over your personal space and information.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Your Data Has Value</h2>
       <p class="hx-text-base">There’s a reason companies invest billions in collecting data. Your online activity, location, and interests are valuable assets, often traded between advertisers and data brokers.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Surveillance is Growing</h2>
       <p class="hx-text-base">Around the world, surveillance systems continue to grow. What’s acceptable today may change tomorrow, and your digital footprint could be used in unexpected ways.</p>
     </div>
-    <div class="misconception-card">
+    <div class="hover-card">
       <h2 class="hx-text-2xl hx-font-bold">Protect Your Future</h2>
       <p class="hx-text-base">Privacy protects you from identity theft, discrimination, and misuse of your information. It's an investment in your family's safety and your own peace of mind.</p>
     </div>
-    <div class="misconception-card cta-card">
+    <div class="hover-card cta-card">
       <h2 class="hx-text-2xl hx-font-bold">Ready to Take Back Control?</h2>
       <p class="hx-text-base">Join thousands of people who have already taken back control of their privacy with the Beginner Privacy Roadmap, which guides you step-by-step on your privacy journey.</p>
       {{< hextra/hero-button text="Start Improving Your Privacy" link="roadmap" style="margin-top: 15px; border-radius: 30px;" >}}
@@ -64,7 +64,7 @@ layout: hextra-home
   </div>
 </section>
 
-<section class="community-section">
+<section id="community">
     <div class="community-content">
         <img src="images/earth.webp" alt="Community Image" class="community-image">
     </div>
@@ -92,43 +92,43 @@ layout: hextra-home
     </div>
 </section>
 
-<section class="explore-section">
+<section id="explore">
   <h2 class="hx-text-4xl hx-font-bold md:hx-text-6xl hx-text-center">
     Explore the Site
   </h2>
   <p class="hx-text-base hx-text-center hx-mb-10px">
     Beginner Privacy has much more to offer than just our roadmap, feel free to explore a little bit, here are some things we recommend you start looking at.
   </p>
-  <div class="explore-grid">
-    <a href="articles" class="explore-card">
+  <div class="hover-cards-grid">
+    <a href="articles" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="newspaper" attributes="height=30" >}}<span>Articles</span></h2>
       <p>
         All the guides that aren't on the roadmap we put in our articles page.
       </p>
       <span class="explore-link">Read articles →</span>
     </a>
-    <a href="checklists" class="explore-card">
+    <a href="checklists" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="user" attributes="height=30" >}}<span>Checklists</span></h2>
       <p>
         Practical checklists tailored to different situations and risk levels — know exactly what to do.
       </p>
       <span class="explore-link">View checklists →</span>
     </a>
-    <a href="news" class="explore-card">
+    <a href="news" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="speakerphone" attributes="height=30" >}}<span>News</span></h2>
       <p>
         Stay up to date with the latest privacy and security news and if there has been any data breaches.
       </p>
       <span class="explore-link">Read news →</span>
     </a>
-    <a href="https://shop.beginnerprivacy.com" class="explore-card">
+    <a href="https://shop.beginnerprivacy.com" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="shopping-cart" attributes="height=30" >}}<span>Shop</span></h2>
       <p>
         Support us and get some cool merchandise at the same time.
       </p>
       <span class="explore-link">Shop now →</span>
     </a>
-    <a href="tools" class="explore-card">
+    <a href="tools" class="hover-card">
       <h2 class="hx-text-2xl hx-inline-flex hx-font-bold">{{< hextra/icon name="wrench-screwdriver" attributes="height=30" >}}<span>Tools</span></h2>
       <p>
         Try our quick and easy tools to enhance your online privacy, security, and anonymity.

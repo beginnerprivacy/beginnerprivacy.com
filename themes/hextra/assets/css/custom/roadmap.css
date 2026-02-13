@@ -159,7 +159,7 @@ input[type="radio"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 84px;
+  width: 100px;
   height: 40px;
   padding: 0 18px;
 
@@ -215,11 +215,11 @@ input[type="radio"]:checked + .tab {
   user-select: none;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
   .tabs {
     display: grid;
-    grid-template-columns: auto 10px auto;
-    grid-template-rows: auto 10px auto;
+    grid-template-columns: auto 5px auto;
+    grid-template-rows: auto 5px auto;
   }
 
   .tabs > .tab-wrapper {
@@ -229,9 +229,7 @@ input[type="radio"]:checked + .tab {
   }
 
   .tab {
-    min-width: 84px;
-    width: auto;
-    box-sizing: border-box;
+    width: 100px;
   }
 
   .tabs > .tab-wrapper:nth-of-type(1) { grid-column: 1; grid-row: 1; }
@@ -546,5 +544,21 @@ input[type="radio"]:checked + .tab {
 @media (min-width: 764px) and (max-width: 1280px) {
   .task-info {
     max-width: 72rem !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .task-info button:first-of-type {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .task-info button:first-of-type {
+    padding-inline: 0.5rem;
+  }
+
+  .task-info button:first-of-type svg {
+    display: none;
   }
 }
