@@ -11,7 +11,8 @@ Beginner Privacy es completamente gratuito y de código abierto, gracias a nuest
 ### Lo Que Ofrecemos
 Esto es lo que ofrecemos en Beginner Privacy para ayudarte a proteger tu privacidad en línea:  
 - **Hoja de Ruta**: Aprende sobre privacidad y seguridad paso a paso, desde cero hasta experto.  
-- **Listas de Verificación**: Pasos rápidos y prácticos para necesidades específicas, como nuestra lista de verificación para manifestantes.  
+- **Listas de Verificación**: Pasos rápidos y prácticos para necesidades específicas, como nuestra lista de verificación para manifestantes.
+- **Herramientas**: Herramientas fáciles de usar para mejorar tu privacidad, seguridad y anonimato en línea.
 - **Noticias**: Mantente al día con las últimas actualizaciones sobre privacidad y seguridad.  
 - **Comunidad**: Únete a nuestra activa [comunidad](/es/about/join-simplex-group) para compartir consejos, hacer preguntas y conectar con otros.
 

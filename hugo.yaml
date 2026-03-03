@@ -165,3 +165,6 @@ params:
       # inputPosition: top
       # lang: en
       # theme: noborder_dark
+
+ignoreLogs:
+  - "warning-rendershortcodes-in-html"

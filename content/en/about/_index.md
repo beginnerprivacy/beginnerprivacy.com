@@ -12,6 +12,7 @@ Beginner Privacy is completely free and open source, thanks to our [contributors
 Here’s what we offer at Beginner Privacy to help you protect your online privacy:
 - **Roadmap**: Learn privacy and security step-by-step, from zero to expert.  
 - **Checklists**: Quick, practical steps for specific needs, like our protester safety checklist.  
+- **Tools**: Easy-to-use tools to enhance your online privacy, security, and anonymity.
 - **News**: Stay updated with the latest privacy and security updates.
 - **Community**: Join our active [community](/about/join-simplex-group) to share tips, ask questions, and connect with others.
 
