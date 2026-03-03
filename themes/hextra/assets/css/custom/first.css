@@ -222,8 +222,8 @@ section#contributors {
   background-color: #008ae6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 517px) {
   .not-sure-button {
-    margin-left: -1px !important;
+    scale: 1;
   }
 }

@@ -56,6 +56,14 @@ notDetected: "Not detected"
 unshortenBtnText: "Unshorten"
 resolvingBtnText: "Resolving…"
 
+## Password Generator
+seconds: "seconds"
+minutes: "minutes"
+hours: "hours"
+days: "days"
+years: "years"
+centuries: "centuries"
+
 # Roadmap
 bookmarkRoadmapReminder: "Bookmark this page and visit weekly to improve your privacy score"
 resetRoadmapProgressPrompt: "Are you sure you want to delete all roadmap progress? This cannot be undone."

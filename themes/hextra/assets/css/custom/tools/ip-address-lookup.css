@@ -1,0 +1,12 @@
+#ip-info {
+  margin-bottom: 20px;
+}
+
+#ip-info p {
+  margin: 8px 0;
+}
+
+#map-container {
+  border-radius: 8px;
+  z-index: 5;
+}

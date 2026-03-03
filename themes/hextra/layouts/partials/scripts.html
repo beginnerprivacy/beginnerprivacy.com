@@ -8,14 +8,13 @@
 
 {{- $jsTheme := resources.Get "js/theme.js" | resources.ExecuteAsTemplate "theme.js" . -}}
 
-{{- $jsMisc := resources.Get "js/custom/homepage.js" -}}
+{{- $jsHomepage := resources.Get "js/custom/homepage.js" -}}
 {{- $jsRoadmap := resources.Get "js/custom/roadmap.js" -}}
-{{- $jsQuizAssessment := resources.Get "js/custom/assessment.js" -}}
+{{- $jsMisc := resources.Get "js/custom/misc.js" -}}
 {{- $jsChecklists := resources.Get "js/custom/checklists.js" -}}
 {{- $jsNews := resources.Get "js/custom/news.js" -}}
-{{- $jsTools := resources.Get "js/custom/tools.js" -}}
 
-{{- $scripts := slice $jsTheme $jsMenu $jsCodeCopy $jsTabs $jsLang $jsFileTree $jsSidebar $jsBackToTop $jsQuizAssessment $jsMisc $jsRoadmap $jsChecklists $jsNews $jsTools | resources.Concat "js/main.js" -}}
+{{- $scripts := slice $jsTheme $jsMenu $jsCodeCopy $jsTabs $jsLang $jsFileTree $jsSidebar $jsBackToTop $jsHomepage $jsMisc $jsRoadmap $jsChecklists $jsNews | resources.Concat "js/main.js" -}}
 {{- if hugo.IsProduction -}}
   {{- $scripts = $scripts | minify | fingerprint -}}
 {{- end -}}
@@ -112,13 +111,43 @@
 {{ end }}
 
 {{/* Tools */}}
-{{- if in .Page.RelPermalink "/tools" -}}
+{{- if in .Page.RelPermalink "/tools/ip-address-lookup" -}}
+  {{- $ipAddressLookupJS := resources.Get "js/custom/tools/ip-address-lookup.js" -}}
+  <script defer src="{{ $ipAddressLookupJS.RelPermalink }}" integrity="{{ $ipAddressLookupJS.Data.Integrity }}"></script>
+ 
+  {{- $ipAddressLookupCSS := resources.Get "css/custom/tools/ip-address-lookup.css" }}
+  {{- $ipAddressLookupCSS = $ipAddressLookupCSS | minify | fingerprint }}
+  <link href="{{ $ipAddressLookupCSS.RelPermalink }}" rel="stylesheet" integrity="{{ $ipAddressLookupCSS.Data.Integrity }}" />
+
   {{- $leafletCSS := resources.Get "lib/leaflet/leaflet.min.css" | fingerprint -}}
   {{- $leafletJS := resources.Get "lib/leaflet/leaflet.min.js" | fingerprint -}}
   <link type="text/css" rel="stylesheet" href="{{ $leafletCSS.RelPermalink }}" integrity="{{ $leafletCSS.Data.Integrity }}" />
   <script defer src="{{ $leafletJS.RelPermalink }}" integrity="{{ $leafletJS.Data.Integrity }}"></script>
   {{ $leafletImages := resources.Match "lib/leaflet/images/*" }}
   {{- range $leafletImages -}}
+    {{ .Publish }}
+  {{- end -}}
+{{ end }}
+
+{{- if in .Page.RelPermalink "/tools/url-unshortener" -}}
+  {{- $urlUnshortenerJS := resources.Get "js/custom/tools/url-unshortener.js" -}}
+  <script defer src="{{ $urlUnshortenerJS.RelPermalink }}" integrity="{{ $urlUnshortenerJS.Data.Integrity }}"></script>
+
+  {{- $urlUnshortenerCSS := resources.Get "css/custom/tools/url-unshortener.css" }}
+  {{- $urlUnshortenerCSS = $urlUnshortenerCSS | minify | fingerprint }}
+  <link href="{{ $urlUnshortenerCSS.RelPermalink }}" rel="stylesheet" integrity="{{ $urlUnshortenerCSS.Data.Integrity }}" />
+{{ end }}
+
+{{- if in .Page.RelPermalink "/tools/password-generator" -}}
+  {{- $passwordGeneratorJS := resources.Get "js/custom/tools/password-generator.js" -}}
+  <script defer src="{{ $passwordGeneratorJS.RelPermalink }}" integrity="{{ $passwordGeneratorJS.Data.Integrity }}"></script>
+
+  {{- $passwordGeneratorCSS := resources.Get "css/custom/tools/password-generator.css" }}
+  {{- $passwordGeneratorCSS = $passwordGeneratorCSS | minify | fingerprint }}
+  <link href="{{ $passwordGeneratorCSS.RelPermalink }}" rel="stylesheet" integrity="{{ $passwordGeneratorCSS.Data.Integrity }}" />
+
+  {{ $wordlist := resources.Match "json/*.txt" }}
+  {{- range $wordlist -}}
     {{ .Publish }}
   {{- end -}}
 {{ end }}
