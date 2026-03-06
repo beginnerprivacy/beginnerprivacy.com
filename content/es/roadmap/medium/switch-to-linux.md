@@ -1,9 +1,20 @@
 ---
 title: "Cómo Cambiar a Linux Sin Esfuerzo: Guía Paso a Paso"
-description: Guía paso a paso para cambiar a Linux fácilmente, desde la instalación hasta la elección de tu distribución.
+description: Guía paso a paso para cambiar fácilmente a Linux, desde elegir tu distribución hasta la instalación
 time: 1 hora 20 minutos
 date: 2025-03-01
 ---
+### ¿Qué es Linux?
+Linux es un kernel de sistema operativo libre y de código abierto creado en 1991 por el estudiante finlandés Linus Torvalds. Frustrado con el costoso Unix comercial y con las limitaciones de MINIX, Torvalds comenzó a construir su propio kernel similar a Unix como un proyecto de hobby en su PC.
+
+<br>
+
+Técnicamente, Linux es solo el kernel: el software central que gestiona el hardware (CPU, memoria, almacenamiento y dispositivos) y ejecuta programas. Un sistema operativo completo también necesita herramientas, bibliotecas y una interfaz de usuario. El Proyecto GNU (lanzado por Richard Stallman en 1983) ya había creado la mayoría de estos componentes, pero le faltaba un kernel. Cuando Torvalds publicó su kernel bajo una licencia libre, este se combinó con las herramientas de GNU para formar un sistema operativo completo, comúnmente llamado Linux (aunque el nombre más preciso es GNU/Linux).
+
+<br>
+
+Hoy en día, "Linux" se refiere a la enorme familia de sistemas operativos construidos alrededor de este kernel. Existen cientos de distribuciones ("distros"), desde opciones amigables para principiantes como Ubuntu y Linux Mint hasta versiones enfocadas en servidores, sistemas embebidos y usos especializados.
+
 ### ¿Por Qué Cambiar a Linux?
 Linux no es solo para magos de la tecnología; es un poderoso sistema operativo de código abierto que prioriza la **privacidad**, la **personalización** y la **estabilidad**. A diferencia de Windows o macOS, Linux no rastrea tu actividad ni te obliga a entrar en ecosistemas propietarios. Es gratuito para usar, modificar y compartir, respaldado por una comunidad global de desarrolladores. Ya seas un usuario consciente de la privacidad, un entusiasta o alguien cansado del software inflado, Linux ofrece una alternativa refrescante.
 
@@ -142,4 +153,4 @@ Visita la [página de descarga de Debian](https://www.debian.org/distrib/netinst
 4. Cuando te pregunte sobre **Selección de Software**: Elige el entorno de escritorio que deseas (GNOME o KDE Plasma) y herramientas opcionales (por ejemplo, servidor SSH, servidor de impresión).
 5. Completa la instalación y reinicia.
 
-##### Linux no es solo un sistema operativo; es una puerta de entrada al aprendizaje, la creatividad y el control. ¡Feliz exploración! 🐧
+**Linux no es solo un sistema operativo; es una puerta de entrada al aprendizaje, la creatividad y el control. ¡Feliz exploración! 🐧**

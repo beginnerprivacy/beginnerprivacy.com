@@ -1,9 +1,20 @@
 ---
 title: "How to Effortlessly Switch to Linux: Step-by-Step Guide"
-description: Step-by-step guide to easily switch to Linux, from installation to choosing your distro.
+description: Step-by-step guide to easily switch to Linux, from choosing your distro to installation.
 time: 1 hour 20 minutes
 date: 2025-03-01
 ---
+### What is Linux?
+Linux is a free, open-source operating system kernel created in 1991 by Finnish student Linus Torvalds. Frustrated with expensive commercial Unix and the limitations of MINIX, Torvalds started building his own Unix-like kernel as a hobby project on his PC.
+
+<br>
+
+Technically, Linux is just the kernel—the core software that manages hardware (CPU, memory, storage, devices) and runs programs. A full operating system also needs tools, libraries, and a user interface. The GNU Project (launched by Richard Stallman in 1983) had already created most of these components, but was missing a kernel. When Torvalds released his kernel under a free license, it combined with GNU’s tools to form a complete OS—commonly called Linux (though the more precise name is GNU/Linux).
+
+<br>
+
+Today "Linux" refers to the huge family of operating systems built around this kernel. Hundreds of distributions ("distros") exist, from beginner-friendly ones like Ubuntu and Linux Mint to server-focused, embedded, and specialized versions.
+
 ### Why Switch to Linux? 
 Linux isn’t just for tech wizards—it’s a powerful, open-source operating system that prioritizes **privacy**, **customization**, and **stability**. Unlike Windows or macOS, Linux doesn’t track your activity or force you into proprietary ecosystems. It’s free to use, modify, and share, backed by a global community of developers. Whether you’re a privacy-conscious user, a tinkerer, or someone tired of bloated software, Linux offers a refreshing alternative.
 
@@ -111,4 +122,6 @@ Visit [Debian’s download page](https://www.debian.org/distrib/netinst) and sel
 4. When it prompts you about **Software Selection**: Choose the desktop environment you want (GNOME or KDE Plasma) and optional tools (e.g., SSH server, print server).
 5. Complete the installation and reboot.
 
-##### Linux isn’t just an OS—it’s a gateway to learning, creativity, and control. Happy exploring! 🐧
+<br>
+
+**Linux isn’t just an OS—it’s a gateway to learning, creativity, and control. Happy exploring! 🐧**
