@@ -67,18 +67,21 @@ function previousQuestion(id) {
 
 function showAssessmentResult(id) {
   const container = document.querySelector(`#${id}`);
-  const totalScore = currentAssessmentScores[id] || 0;
-  let resultText = '';
-
-  if (totalScore <= 5) {
-    resultText = resultTexts.casual;
-  } else if (totalScore <= 10) {
-    resultText = resultTexts.privacyConscious;
+  const total = currentAssessmentScores[id] || 0;
+  
+  let category;
+  
+  if (total <= 8) {
+    category = 'casual';
+  } else if (total <= 13) {
+    category = 'privacyConscious';
   } else {
-    resultText = resultTexts.advanced;
+    category = 'advanced';
   }
 
-  container.querySelector('.tm-result-content').textContent = resultText;
+  const text = resultTexts[category];
+  
+  container.querySelector('.tm-result-content').textContent = text;
   container.querySelector('.tm-result').style.display = 'block';
   container.querySelectorAll('.tm-question').forEach(q => {
     q.style.display = 'none';

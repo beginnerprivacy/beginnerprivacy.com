@@ -8,44 +8,55 @@ Crear un modelo de amenazas es un paso importante en tu camino hacia una mejor p
 
 ### Desarrollando tu Modelo de Amenazas
 Para crear un modelo de amenazas, puedes realizar nuestra evaluación de modelo de amenazas. 
-{{< articles/assessment >}}
+
+{{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
-      "question": "¿Qué tan sensible es tu actividad en línea típica?",
+      "question": "¿De quién quieres protegerte principalmente?",
       "answers": [
-        {"text": "Navegación web básica (por ejemplo, leer noticias, comprar)", "score": 1},
-        {"text": "Algunas comunicaciones personales (por ejemplo, redes sociales, correos electrónicos)", "score": 2},
-        {"text": "Manejo de documentos de trabajo sensibles (por ejemplo, datos de clientes, contratos)", "score": 3},
-        {"text": "Activismo o denuncia (por ejemplo, compartir información sensible)", "score": 4}
+        {"text": "Empresas y anunciantes (seguimiento, creación de perfiles, anuncios dirigidos)", "score": 1},
+        {"text": "Empleadores, escuelas, familiares o personas entrometidas en mi vida", "score": 2},
+        {"text": "Hackers criminales, acosadores, estafadores o personas que hacen doxxing", "score": 3},
+        {"text": "Fuerzas del orden, agencias de inteligencia o actores a nivel estatal", "score": 4},
+        {"text": "Varios de los anteriores — enfrento múltiples adversarios serios", "score": 5}
       ]
     },
     {
-      "question": "¿Cuál es tu mayor preocupación de privacidad?",
+      "question": "¿Qué estás tratando de proteger principalmente?",
       "answers": [
-        {"text": "Anuncios dirigidos", "score": 1},
-        {"text": "Vigilancia masiva", "score": 2},
-        {"text": "Tener una huella digital", "score": 3},
-        {"text": "Ser objetivo de actores maliciosos", "score": 4}
+        {"text": "Solo hábitos básicos de navegación web y compras", "score": 1},
+        {"text": "Comunicaciones personales, fotos, datos de ubicación, redes sociales", "score": 2},
+        {"text": "Información financiera, registros de salud/médicos, documentos de trabajo", "score": 3},
+        {"text": "Identidad / vínculo con nombre real, fuentes y contactos, material activista/periodístico, contenido de denuncia", "score": 5}
       ]
     },
     {
-      "question": "¿Qué tan lejos estás dispuesto a llegar para proteger tu privacidad?",
+      "question": "¿Qué tan grave sería si las personas equivocadas accedieran o vincularan tus datos?",
       "answers": [
-        {"text": "Prefiero la conveniencia a la seguridad", "score": 1},
-        {"text": "Haré un esfuerzo, pero no demasiado", "score": 2},
-        {"text": "Estoy dispuesto a sacrificar una cantidad razonable de conveniencia por mejor seguridad y privacidad", "score": 3},
-        {"text": "Estoy listo para invertir mucho en seguridad y cambiar mi estilo de vida", "score": 4}
+        {"text": "Mayormente molesto (más spam, anuncios inquietantes)", "score": 1},
+        {"text": "Vergonzoso o inconveniente (secretos personales expuestos, riesgo laboral)", "score": 2},
+        {"text": "Daño personal/financiero serio (robo de identidad, acoso, chantaje, pérdida del empleo)", "score": 4},
+        {"text": "Grave — la seguridad física, la libertad o la vida de otras personas podría verse en peligro", "score": 6}
+      ]
+    },
+    {
+      "question": "¿Cuánto esfuerzo e inconveniencia estás dispuesto a aceptar de forma realista para mejorar tu privacidad/seguridad?",
+      "answers": [
+        {"text": "Muy poco — la comodidad es lo primero", "score": 1},
+        {"text": "Algunos cambios (mejores contraseñas, 2FA, bloqueadores de anuncios, VPN a veces)", "score": 2},
+        {"text": "Bastante (dejar de usar Google, sistema operativo/navegador enfocado en privacidad, mensajería cifrada, dispositivos/identidades separadas)", "score": 4},
+        {"text": "Muchísimo — dispuesto a usar Tor/Tails, máquinas aisladas (air-gapped), identidades desechables, cambiar hábitos/estilo de vida", "score": 6}
       ]
     }
   ],
   "resultText": {
-    "casual": "Usuario Casual: Se recomiendan protecciones básicas de privacidad",
-    "privacyConscious": "Consciente de la Privacidad: Se aconsejan medidas de seguridad de nivel medio",
-    "advanced": "Usuario Avanzado: Se necesita un marco de seguridad integral"
+    "casual": "Usuario Cotidiano – El endurecimiento básico suele ser suficiente.",
+    "privacyConscious": "Usuario Consciente de la Privacidad – Se recomiendan protecciones sólidas de nivel medio.",
+    "advanced": "Usuario de Alto Riesgo – Se necesita OpSec integral."
   }
 }
-{{< /articles/assessment >}}
+{{</ articles/assessment >}}
 
 También puedes hacerlo manualmente haciéndote las siguientes preguntas:
 
@@ -72,11 +83,17 @@ Determina tu nivel de comodidad con varias medidas de seguridad. ¿Estás dispue
 ### Tengo Un Modelo de Amenazas. ¿Y Ahora Qué?
 Ahora que tienes tu modelo de amenazas, es hora de decidir hasta dónde quieres llegar en la hoja de ruta de Privacidad para Principiantes. Aquí hay algunos perfiles para ayudarte a guiar tu elección:
 
+<br>
+
 **El Usuario Casual:** Si tu principal preocupación es simplemente ocultar tu información personal de las grandes corporaciones y la vigilancia masiva, la hoja de ruta **Básica** es todo lo que necesitas.
+
+<br>
 
 **La Persona Consciente de la Privacidad:** Si quieres tomarte más en serio tu privacidad y ir más allá de lo básico para protegerte de posibles amenazas, deberías continuar con la hoja de ruta **Media** después de completar la hoja de ruta **Básica**.
 
-**El Activista o Individuo de Alto Riesgo:** Si eres un activista, un periodista, o alguien buscado por el gobierno, o si simplemente quieres asegurar el más alto nivel de privacidad, deberías seguir la hoja de ruta **Avanzada** después de completar las hojas de ruta **Básica** y **Media**.
+<br>
+
+**El Individuo de Alto Riesgo:** Si eres un activista, un periodista, o alguien buscado por el gobierno, o si simplemente quieres asegurar el más alto nivel de privacidad, deberías seguir la hoja de ruta **Avanzada** después de completar las hojas de ruta **Básica** y **Media**.
 
 ### Actualizando Regularmente Su Modelo de Amenazas
 Tu modelo de amenazas no es una tarea de una sola vez; es algo que debe evolucionar a medida que tu vida y circunstancias cambian. Para mantenerlo relevante, considera establecer un horario para revisar tu modelo de amenazas regularmente. Esto es especialmente importante después de eventos significativos en la vida, como comenzar un nuevo trabajo, mudarse a una ubicación diferente o hacer cambios en su presencia en línea.

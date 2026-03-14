@@ -10,6 +10,10 @@ Nuestros teléfonos inteligentes son los mayores recolectores de datos, absorbie
 Tanto Android como iOS recopilan datos similares, como la ubicación, el uso de aplicaciones y las preferencias personales. Sin embargo, es importante destacar que ni iOS ni Android pueden ofrecer verdadera privacidad, incluso si desactivas todas las configuraciones de privacidad. Ambos sistemas operativos son de código cerrado (aunque el núcleo fundamental de Android, AOSP, es de código abierto, los dispositivos que compras generalmente vienen con componentes propietarios) y siguen rastreándote de maneras que son difíciles de controlar completamente.
 
 ### Configuraciones de Privacidad
+{{< callout type="warning" >}}
+  Android y iOS siguen enviando datos de uso y diagnósticos, incluso si desactivas todo en la configuración. Así es simplemente como funcionan los sistemas operativos propietarios.
+{{< /callout >}}
+
 {{< callout type="info" >}}
 Los pasos para acceder a estas configuraciones pueden variar según la versión de tu dispositivo y el fabricante.
 {{< /callout >}}

@@ -10,6 +10,10 @@ Our desktops collect vast amounts of data about us, and it’s crucial to take c
 Linux is the clear winner when it comes to privacy. While Windows and macOS dominate the market—mainly due to user familiarity (Windows is pre-installed on most new computers) and strong ecosystem integration—they ultimately prioritize corporate interests over user privacy. In contrast, Linux distributions are open-source and community-driven, giving users full control over their data and the entire system.
 
 ### Privacy Settings
+{{< callout type="warning" >}}
+  Windows and macOS keep sending usage data and diagnostics, even if you turn everything off in the settings. That’s just how proprietary operating systems work.
+{{< /callout >}}
+
 #### Restrict App Permissions
 Blocks apps from accessing sensitive features like camera or files unless you approve.
 

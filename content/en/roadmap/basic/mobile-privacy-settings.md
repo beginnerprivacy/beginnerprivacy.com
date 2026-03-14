@@ -10,6 +10,10 @@ Our smartphones are the biggest data collectors, soaking up all kinds of informa
 Both Android and iOS collect similar data, such as location, app usage, and personal preferences. However, it’s important to note that neither iOS nor Android can provide true privacy, even if you disable every privacy setting. Both operating systems are closed-source (although Android's foundational kernel, AOSP, is open-source, the devices you buy typically come with proprietary components), and they continue to track you in ways that are difficult to fully control.
 
 ### Privacy Settings
+{{< callout type="warning" >}}
+  Android and iOS keep sending usage data and diagnostics, even if you turn everything off in the settings. That’s just how proprietary operating systems work.
+{{< /callout >}}
+
 {{< callout type="info" >}}
   The steps to access these settings may vary depending on your device's version and manufacturer.
 {{< /callout >}}

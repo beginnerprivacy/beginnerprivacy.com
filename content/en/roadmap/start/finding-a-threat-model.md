@@ -7,45 +7,56 @@ date: 2025-01-22
 Creating a threat model is an important step in your journey toward better privacy and security. It’s all about figuring out who or what you need to protect yourself from and what you’re willing to do to keep your information safe. But here’s the catch: the more privacy and security you want, the more inconvenient things can get. You might find yourself juggling extra steps, using complex tools, or changing your habits. It’s a balancing act—finding the right mix of security that keeps you safe without making your life too complicated.
 
 ### Developing Your Threat Model
-To create a threat model, you can take our threat model assessment. 
+To create a threat model, you can take our threat model assessment.
+
 {{< articles/assessment id="threat-model-assesment" >}}
 {
   "questions": [
     {
-      "question": "How sensitive is your typical online activity?",
+      "question": "Who do you most want to protect yourself from?",
       "answers": [
-        {"text": "Basic web browsing (e.g., reading news, shopping)", "score": 1},
-        {"text": "Some personal communications (e.g., social media, emails)", "score": 2},
-        {"text": "Handling sensitive work documents (e.g., client data, contracts)", "score": 3},
-        {"text": "Activism or whistleblowing (e.g., sharing sensitive information)", "score": 4}
+        {"text": "Companies & advertisers (tracking, profiling, targeted ads)", "score": 1},
+        {"text": "Employers, schools, family members, or nosy people in my life", "score": 2},
+        {"text": "Criminal hackers, stalkers, scammers, or doxxers", "score": 3},
+        {"text": "Law enforcement, intelligence agencies, or state-level actors", "score": 4},
+        {"text": "Multiple of the above — I face several serious adversaries", "score": 5}
       ]
     },
     {
-      "question": "What's your biggest privacy concern?",
+      "question": "What are you primarily trying to protect?",
       "answers": [
-        {"text": "Targeted ads", "score": 1},
-        {"text": "Mass surveillance", "score": 2},
-        {"text": "Having a digital footprint", "score": 3},
-        {"text": "Being targeted by malicious actors", "score": 4}
+        {"text": "Just basic web browsing habits and shopping", "score": 1},
+        {"text": "Personal communications, photos, location data, social media", "score": 2},
+        {"text": "Financial information, health/medical records, work documents", "score": 3},
+        {"text": "Identity / real name linkage, sources & contacts, activist/journalistic material, whistleblowing content", "score": 5}
       ]
     },
     {
-      "question": "What lengths are you willing to go to protect your privacy?",
+      "question": "How bad would it be if the wrong people accessed or linked your data?",
       "answers": [
-        {"text": "I prefer convenience over security", "score": 1},
-        {"text": "I'll make some effort, but not too much", "score": 2},
-        {"text": "I'm willing to sacrifice a decent amount of convenience for better security and privacy", "score": 3},
-        {"text": "I’m ready to invest heavily in security and change my lifestyle", "score": 4}
+        {"text": "Mostly annoying (more spam, creepy ads)", "score": 1},
+        {"text": "Embarrassing or inconvenient (personal secrets exposed, job risk)", "score": 2},
+        {"text": "Serious personal/financial harm (identity theft, stalking, blackmail, job loss)", "score": 4},
+        {"text": "Severe — physical safety, freedom, or lives of others could be endangered", "score": 6}
+      ]
+    },
+    {
+      "question": "How much effort & inconvenience are you realistically willing to accept for better privacy/security?",
+      "answers": [
+        {"text": "Very little — convenience comes first", "score": 1},
+        {"text": "Some changes (better passwords, 2FA, ad blockers, VPN sometimes)", "score": 2},
+        {"text": "Quite a lot (de-Googling, privacy OS/browser, encrypted messaging, separate devices/identities)", "score": 4},
+        {"text": "A great deal — willing to use Tor/Tails, air-gapped machines, burner identities, change habits/lifestyle", "score": 6}
       ]
     }
   ],
   "resultText": {
-    "casual": "Casual User: Basic privacy protections recommended",
-    "privacyConscious": "Privacy-Conscious: Medium-level security measures advised",
-    "advanced": "Advanced User: Comprehensive security framework needed"
+    "casual": "Everyday User – Basic hardening is usually enough.",
+    "privacyConscious": "Privacy-Conscious User – Solid mid-tier protections are recommended.",
+    "advanced": "High-Risk User – Comprehensive OpSec is needed."
   }
 }
-{{< /articles/assessment >}}
+{{</ articles/assessment >}}
 
 You can also do it manually by asking yourself the following questions:
 
@@ -72,11 +83,17 @@ Determine your comfort level with various security measures. Are you willing to 
 ### I have a threat model. Now what?
 Now that you have your threat model, it’s time to decide how far you want to go on the Beginner Privacy roadmap. Here are a few profiles to help guide your choice:
 
+<br>
+
 **The Casual User:** If your main concern is simply hiding your personal information from big corporations and mass surveillance, the **Basic** roadmap is all you need.
+
+<br>
 
 **The Privacy-Conscious Individual:** If you want to take your privacy more seriously and go beyond the basics to shield yourself from potential threats, you should continue to the **Medium** roadmap after completing the **Basic** roadmap.
 
-**The Activist or High-Risk Individual:** If you’re an activist, a journalist, or someone who is wanted by the government, or if you simply want to ensure the highest level of privacy, you should follow the **Advanced** roadmap after completing both the **Basic** and **Medium** roadmaps.
+<br>
+
+**The High-Risk Individual:** If you’re an activist, a journalist, or someone who is wanted by the government, or if you simply want to ensure the highest level of privacy, you should follow the **Advanced** roadmap after completing both the **Basic** and **Medium** roadmaps.
 
 ### Regularly Updating Your Threat Model
 Your threat model isn’t a one-and-done task; it’s something that should evolve as your life and circumstances change. To keep it relevant, consider setting a schedule to review your threat model regularly. This is especially important after significant life events, such as starting a new job, moving to a different location, or making changes to your online presence.

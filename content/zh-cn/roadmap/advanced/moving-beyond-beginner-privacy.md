@@ -17,10 +17,10 @@ Beginner Privacy 路线图向你介绍了基础概念和基本安全实践，但
 由 [Nowhere 社区](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/) 编写，*The OpSec Bible* 提供深度指南，帮助你实现真正的隐私、安全、匿名和可否认性。这些指南技术性很强，最适合已经准备好深入研究操作安全（OpSec）的进阶用户。
 
 #### 访问方式
-| 选项                                     | 链接                                                                                           | 何时使用                                                               |
-|------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| **官方站点（强烈推荐）**                 | [opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion) | 任何时候 — 最高隐私，即使在明网被封锁时依然可用                         |
-| **明网镜像（由 Beginner Privacy 提供）** | [bible.beginnerprivacy.com](https://bible.beginnerprivacy.com)                                | 不想开 Tor 时快速访问，或 Tor 连接有问题时的备用方案                   |
+| 选项                                     | 链接                                                                                           |
+|------------------------------------------|------------------------------------------------------------------------------------------------|
+| **官方站点（强烈推荐）**                 | [opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion)
+| **明网镜像（由 Beginner Privacy 提供）** | [bible.beginnerprivacy.com](https://bible.beginnerprivacy.com)
 
 **只要条件允许，始终优先使用 .onion 地址**。如果你需要复习一下如何安全使用Tor，请查看我们的 [Tor 基础指南](/zh-cn/articles/navigating-the-web-anonymously-a-guide-to-tor-basics)。
 
@@ -35,4 +35,4 @@ Nowhere 社区还托管了几个 SimpleX 群组，用于安全、私密的通信
 [nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/simplex.html](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/simplex.html)
 
 ### 结束语
-你的隐私之旅并未结束——它才刚刚开始。*The OpSec Bible* 和 Nowhere 社区提供了工具和知识，让你掌控自己的数字生活。拥抱挑战，跟随指南，并加入一个致力于真正隐私和安全的社区。保持警惕，迈出下一步，成为不可治理之人。
+你的隐私之旅并不会在这里结束，它才刚刚开始。*The OpSec Bible* 和 Nowhere 社区为你提供掌控数字生活所需的工具和知识。迎接挑战，遵循这些指南，并加入一个致力于真正隐私与安全的社区。保持警惕，在你的旅程中迈出下一步。

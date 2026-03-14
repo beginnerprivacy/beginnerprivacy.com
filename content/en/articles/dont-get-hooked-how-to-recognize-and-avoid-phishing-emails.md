@@ -58,4 +58,4 @@ If you identify a phishing email, take the following steps:
 While it’s impossible to eliminate phishing emails entirely, you can take steps to reduce their frequency:
 - **Use Spam Filters**: Ensure that your email provider’s spam filters are enabled. These filters can help catch and redirect phishing attempts before they reach your inbox.
 
-- **Be Cautious with Your Email Address**: Avoid sharing your email publicly on social media or websites, as this increases the risk of being targeted. Consider [using temporary email addresses](../limit-the-personal-information-you-share-online) for one-time sites to protect your data.
+- **Be Cautious with Your Email Address**: Avoid sharing your email publicly on social media or websites, as this increases the risk of being targeted. Consider [using temporary email addresses](/roadmap/basic/limit-information-shared) for one-time sites to protect your data.

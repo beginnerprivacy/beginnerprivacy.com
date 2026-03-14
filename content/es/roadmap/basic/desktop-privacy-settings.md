@@ -10,6 +10,10 @@ Nuestros escritorios recopilan grandes cantidades de datos sobre nosotros, por l
 Linux es el claro ganador en cuanto a privacidad. Aunque Windows y macOS dominan el mercado—principalmente debido a la familiaridad del usuario (Windows viene preinstalado en la mayoría de las computadoras nuevas) y una fuerte integración en el ecosistema—finalmente priorizan los intereses corporativos sobre la privacidad del usuario. En contraste, las distribuciones de Linux son de código abierto y gestionadas por la comunidad, lo que otorga a los usuarios un control total sobre sus datos y el sistema completo.
 
 ### Configuración de Privacidad
+{{< callout type="warning" >}}
+  Windows y macOS siguen enviando datos de uso y diagnósticos, incluso si desactivas todo en la configuración. Así es simplemente como funcionan los sistemas operativos propietarios.
+{{< /callout >}}
+
 #### Restringir Permisos de Aplicaciones
 Bloquea las aplicaciones de acceder a funciones sensibles como la cámara o archivos a menos que lo apruebes.
 

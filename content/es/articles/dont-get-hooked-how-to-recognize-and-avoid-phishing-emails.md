@@ -58,4 +58,4 @@ Si identificas un correo electrónico de phishing, sigue estos pasos:
 Aunque es imposible eliminar por completo los correos electrónicos de phishing, puedes tomar medidas para reducir su frecuencia:
 - **Usa Filtros de Spam**: Asegúrate de que los filtros de spam de tu proveedor de correo electrónico estén habilitados. Estos filtros pueden ayudar a atrapar y redirigir intentos de phishing antes de que lleguen a tu bandeja de entrada.
 
-- **Ten Cuidado con tu Dirección de Correo Electrónico**: Evita compartir tu correo públicamente en redes sociales o sitios web, ya que esto aumenta el riesgo de ser objetivo. Considera [usar direcciones de correo electrónico temporales](../limit-the-personal-information-you-share-online) para sitios de una sola vez para proteger tus datos.
+- **Ten Cuidado con tu Dirección de Correo Electrónico**: Evita compartir tu correo públicamente en redes sociales o sitios web, ya que esto aumenta el riesgo de ser objetivo. Considera [usar direcciones de correo electrónico temporales](/es/roadmap/basic/limit-information-shared) para sitios de una sola vez para proteger tus datos.
