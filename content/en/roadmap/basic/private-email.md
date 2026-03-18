@@ -25,7 +25,17 @@ Using mainstream email services often means compromising your privacy. Providers
 ### Recommended Email Providers
 <div class="recommendations">
   <div class="grid">
-    {{< articles/recommendation title="Tuta" link="https://tuta.com/" logo="/images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="Tuta" link="https://tuta.com" logo="/images/articles/protect-your-communication-with-a-private-email/tuta.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
     {{< articles/recommendation title="Proton Mail" link="https://proton.me/mail" logo="/images/articles/protect-your-communication-with-a-private-email/protonmail.webp" platformIcon="linux macos windows globe-alt android ios" buttonText="Visit Website" >}}
+  </div>
+</div>
+
+### Email Aliasing
+Email aliasing lets you create unique email addresses that forward to your real inbox, helping you protect your privacy and reduce spam. Instead of sharing your primary email, you can use an alias for specific sites or services. If one alias starts getting spam, you can simply delete or change it without affecting your main email.
+
+<div class="recommendations">
+  <div class="grid">
+    {{< articles/recommendation title="addy.io" link="https://addy.io" logo="/images/articles/protect-your-communication-with-a-private-email/addy-io.webp" platformIcon="globe-alt extension android ios" buttonText="Visit Website" >}}
+    {{< articles/recommendation title="SimpleLogin" link="https://simplelogin.io" logo="/images/articles/protect-your-communication-with-a-private-email/simplelogin.webp" platformIcon="globe-alt extension android ios" buttonText="Visit Website" >}}
   </div>
 </div>

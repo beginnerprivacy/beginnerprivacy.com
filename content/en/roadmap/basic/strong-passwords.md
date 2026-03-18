@@ -20,10 +20,14 @@ Brute-force attacks are a big risk—these are when hackers try every possible c
 
 <br>
 
-To create a strong, random password, use a [password generator](https://bitwarden.com/password-generator/#password-generator).
+To create a strong, random password, you can use our [password generator](/tools/password-generator) or the built-in password generator offered by many password managers.
 
 ### Storing Passwords Securely
 Password managers are great because they let you store long, complex passwords and just copy-paste them when you need to log in. You set a master password that encrypts all your other passwords, keeping them safe and accessible only with that one key.
+
+<br>
+
+For the master password, use a passphrase that's easy to remember but hard to crack. For other accounts, create long, complex passwords.
 
 <div class="recommendations">
   <div class="grid">
