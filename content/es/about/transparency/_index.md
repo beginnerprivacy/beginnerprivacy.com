@@ -1,12 +1,11 @@
 ---
-linkTitle: "Transparencia"
 title: Transparencia
 category: About
+disableDropdown: true
 ---
 En Beginner Privacy, priorizamos la transparencia en todo lo que hacemos. Por eso, cada trimestre, publicamos un informe de transparencia completo que detalla nuestro progreso, estado financiero y planes futuros. Creemos que mantener a nuestra comunidad informada fomenta la confianza y la responsabilidad, y estamos comprometidos a compartir nuestro viaje con ustedes.
 
-{{< tabs items="2025" >}}
-
+{{< tabs items="2025, 2026" >}}
   {{< tab >}}
     {{< cards >}}
       {{< card link="./2025/q1" title="T1" >}}
@@ -16,4 +15,9 @@ En Beginner Privacy, priorizamos la transparencia en todo lo que hacemos. Por es
     {{< /cards >}}
   {{< /tab >}}
 
+  {{< tab >}}
+    {{< cards >}}
+      {{< card link="./2026/q1" title="T1" >}}
+    {{< /cards >}}
+  {{< /tab >}}
 {{< /tabs >}}

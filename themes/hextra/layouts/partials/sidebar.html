@@ -143,6 +143,8 @@
   {{- $level := .level -}}
   {{- $toc := .toc | default false -}}
 
+  {{- $disableDropdown := $context.Params.disableDropdown | default false -}}
+
   {{- with $items := union .context.RegularPages .context.Sections -}}
     {{- $items = where $items "Params.sidebar.exclude" "!=" true -}}
     {{- if eq $level 0 -}}
@@ -207,17 +209,19 @@
     {{- else -}}
       <div class="ltr:hx-pr-0 hx-overflow-hidden">
         <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'>
-          {{- range $items.ByWeight }}
-            {{- $active := eq $pageURL .RelPermalink -}}
-            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-            {{- $linkTitle := partial "utils/title" . -}}
-            <li class="hx-flex hx-flex-col {{ if $shouldOpen }}open{{ end }}">
-              {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
-              {{- if and $toc $active -}}
-                {{ template "sidebar-toc" dict "page" . }}
-              {{- end }}
-              {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
-            </li>
+          {{- if not $disableDropdown }}
+            {{- range $items.ByWeight }}
+              {{- $active := eq $pageURL .RelPermalink -}}
+              {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+              {{- $linkTitle := partial "utils/title" . -}}
+              <li class="hx-flex hx-flex-col {{ if $shouldOpen }}open{{ end }}">
+                {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
+                {{- if and $toc $active -}}
+                  {{ template "sidebar-toc" dict "page" . }}
+                {{- end }}
+                {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
+              </li>
+            {{- end -}}
           {{- end -}}
         </ul>
       </div>
@@ -275,13 +279,16 @@
     {{ if $external }}target="_blank" rel="noreferrer"{{ end }}
   >
     {{- .title -}}
-    {{- with .context }}
-      {{- if or .RegularPages .Sections }}
+    {{- $sectionPage := .context -}}
+    {{- $disableDropdown := $sectionPage.Params.disableDropdown | default false -}}
+
+    {{- if not $disableDropdown -}}
+      {{- if or $sectionPage.RegularPages $sectionPage.Sections -}}
         <span class="hextra-sidebar-collapsible-button">
           {{- template "sidebar-collapsible-button" -}}
         </span>
-      {{- end }}
-    {{ end -}}
+      {{- end -}}
+    {{- end -}}
   </a>
 {{- end -}}
 

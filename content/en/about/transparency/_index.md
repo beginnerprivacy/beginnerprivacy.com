@@ -1,12 +1,11 @@
 ---
-linkTitle: "Transparency"
 title: Transparency
 category: About
+disableDropdown: true
 ---
 At Beginner Privacy, we prioritize transparency in everything we do. That's why, each quarter, we publish a comprehensive transparency report detailing our progress, financial status, and future plans. We believe that keeping our community informed fosters trust and accountability, and we are committed to sharing our journey with you.
 
-{{< tabs items="2025" >}}
-
+{{< tabs items="2025, 2026" >}}
   {{< tab >}}
     {{< cards >}}
       {{< card link="./2025/q1" title="Q1" >}}
@@ -16,4 +15,9 @@ At Beginner Privacy, we prioritize transparency in everything we do. That's why,
     {{< /cards >}}
   {{< /tab >}}
 
+  {{< tab >}}
+    {{< cards >}}
+      {{< card link="./2026/q1" title="Q1" >}}
+    {{< /cards >}}
+  {{< /tab >}}
 {{< /tabs >}}
