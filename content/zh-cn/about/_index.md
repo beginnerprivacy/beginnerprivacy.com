@@ -31,11 +31,9 @@ Beginner Privacy 目前提供三种语言：
 - **Firefox**: 点击菜单 (☰) → **翻译页面** （或者右键点击页面任何地方 → **翻译页面**）
 
 ### 在这里找到我们
-Beginner Privacy 在多个社交媒体平台上拥有账户，以接触新用户。然而，这并不意味着我们对这些平台的支持，我们通常不鼓励使用它们。
-
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/link-card title="SimpleX" link="about/join-simplex-group" logo="/images/about/simplex.webp" >}}
+    {{< hextra/link-card title="SimpleX" link="/zh-cn/about/join-simplex-group" logo="/images/about/simplex.webp" >}}
     {{< hextra/link-card title="Mastodon" link="https://mastodon.social/@BeginnerPrivacy" logo="/images/about/mastodon.webp" >}}
     {{< hextra/link-card title="Codeberg" link="https://codeberg.org/BeginnerPrivacy" logo="/images/about/codeberg.webp" >}}
     {{< hextra/link-card title="GitHub" link="https://github.com/BeginnerPrivacy" logo="/images/about/github.webp" >}}

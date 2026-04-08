@@ -31,11 +31,9 @@ Estos son los tres [idiomas más hablados en el mundo](https://en.wikipedia.org/
 - **Firefox**: Haz clic en el menú (☰) → **Traducir página** (o haz clic derecho en cualquier parte de la página → **Traducir página**)
 
 ### Encuéntranos Aquí
-Beginner Privacy tiene cuentas en varias plataformas de redes sociales para llegar a nuevas personas. Sin embargo, esto no es un respaldo de estas plataformas, y generalmente desaconsejamos su uso.
-
 <div class="recommendations">
   <div class="grid">
-    {{< hextra/link-card title="SimpleX" link="about/join-simplex-group" logo="/images/about/simplex.webp" >}}
+    {{< hextra/link-card title="SimpleX" link="/es/about/join-simplex-group" logo="/images/about/simplex.webp" >}}
     {{< hextra/link-card title="Mastodon" link="https://mastodon.social/@BeginnerPrivacy" logo="/images/about/mastodon.webp" >}}
     {{< hextra/link-card title="Codeberg" link="https://codeberg.org/BeginnerPrivacy" logo="/images/about/codeberg.webp" >}}
     {{< hextra/link-card title="GitHub" link="https://github.com/BeginnerPrivacy" logo="/images/about/github.webp" >}}
