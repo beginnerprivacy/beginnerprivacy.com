@@ -64,6 +64,14 @@ hours: "小时"
 days: "天"
 years: "年"
 centuries: "世纪"
+millennias: "千年"
+
+## Password Strength Tester
+veryWeak: "非常弱"
+weak: "弱"
+moderate: "中等"
+strong: "强"
+veryStrong: "非常强"
 
 # Roadmap
 bookmarkRoadmapReminder: "收藏此页面，每周访问以提升你的隐私分数"

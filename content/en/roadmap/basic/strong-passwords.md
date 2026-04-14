@@ -16,7 +16,7 @@ A strong password is one that’s tough to guess or crack. It should be complete
 
 <br>
 
-Brute-force attacks are a big risk—these are when hackers try every possible combination to crack your password. The longer and more complex your password is, the harder it is for them to break it. You can check how long it would take to crack your password with a [password strength tester](https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool). 
+Brute-force attacks are a big risk—these are when hackers try every possible combination to crack your password. The longer and more complex your password is, the harder it is for them to break it. You can check how long it would take to crack your password with a [password strength tester](/tools/password-strength-tester). 
 
 <br>
 

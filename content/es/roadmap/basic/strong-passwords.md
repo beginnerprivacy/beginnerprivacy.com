@@ -16,11 +16,11 @@ Una contraseña fuerte es aquella que es difícil de adivinar o descifrar. Debe 
 
 <br>
 
-Los ataques de fuerza bruta son un gran riesgo: estos ocurren cuando los hackers prueban todas las combinaciones posibles para descifrar tu contraseña. Cuanto más larga y compleja sea tu contraseña, más difícil será descifrarla. Puedes verificar cuánto tiempo tomaría descifrar tu contraseña con un [probador de fortaleza de contraseñas](https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool).
+Los ataques de fuerza bruta son un gran riesgo: estos ocurren cuando los hackers prueban todas las combinaciones posibles para descifrar tu contraseña. Cuanto más larga y compleja sea tu contraseña, más difícil será descifrarla. Puedes comprobar cuánto tiempo tardaría en descifrarse tu contraseña con un [probador de fuerza de contraseña](/es/tools/password-strength-tester).
 
 <br>
 
-Para crear una contraseña fuerte y aleatoria, usa un [generador de contraseñas](https://bitwarden.com/password-generator/#password-generator).
+Para crear una contraseña fuerte y aleatoria, puedes usar nuestro [generador de contraseñas](/es/tools/password-generator) o el generador de contraseñas integrado que ofrecen muchos gestores de contraseñas.
 
 ### Almacenar Contraseñas de Forma Segura
 Los administradores de contraseñas son excelentes porque te permiten almacenar contraseñas largas y complejas, y simplemente copiarlas y pegarlas cuando las necesites. Funcionan configurando una contraseña maestra que cifra todas tus otras contraseñas, manteniéndolas seguras y accesibles solo con esa clave.

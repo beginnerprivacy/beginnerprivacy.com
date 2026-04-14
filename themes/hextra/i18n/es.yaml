@@ -64,6 +64,14 @@ hours: "horas"
 days: "días"
 years: "años"
 centuries: "siglos"
+millennias: "milenios"
+
+## Password Strength Tester
+veryWeak: "Muy débil"
+weak: "Débil"
+moderate: "Moderada"
+strong: "Fuerte"
+veryStrong: "Muy fuerte"
 
 # Roadmap
 bookmarkRoadmapReminder: "Guarda esta página en favoritos y visítala semanalmente para mejorar tu puntuación de privacidad"

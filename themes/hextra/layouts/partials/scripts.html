@@ -151,3 +151,12 @@
     {{ .Publish }}
   {{- end -}}
 {{ end }}
+
+{{- if in .Page.RelPermalink "/tools/password-strength-tester" -}}
+  {{- $passwordStrengthTesterJS := resources.Get "js/custom/tools/password-strength-tester.js" -}}
+  <script defer src="{{ $passwordStrengthTesterJS.RelPermalink }}" integrity="{{ $passwordStrengthTesterJS.Data.Integrity }}"></script>
+
+  {{- $passwordStrengthTesterCSS := resources.Get "css/custom/tools/password-strength-tester.css" }}
+  {{- $passwordStrengthTesterCSS = $passwordStrengthTesterCSS | minify | fingerprint }}
+  <link href="{{ $passwordStrengthTesterCSS.RelPermalink }}" rel="stylesheet" integrity="{{ $passwordStrengthTesterCSS.Data.Integrity }}" />
+{{ end }}

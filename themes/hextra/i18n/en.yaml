@@ -63,6 +63,14 @@ hours: "hours"
 days: "days"
 years: "years"
 centuries: "centuries"
+millennias: "millennias"
+
+## Password Strength Tester
+veryWeak: "Very Weak"
+weak: "Weak"
+moderate: "Moderate"
+strong: "Strong"
+veryStrong: "Very Strong"
 
 # Roadmap
 bookmarkRoadmapReminder: "Bookmark this page and visit weekly to improve your privacy score"

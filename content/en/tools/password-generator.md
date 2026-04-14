@@ -72,7 +72,7 @@ description: Generate strong, unique passwords, memorable passphrases, and secur
   <div class="result-card">
     <button onclick="copyPassword()" id="password-box" class="password-display" title="Click to copy"></button>
     <hr style="width: 95%; margin: auto;">
-    <div id="crack-display" class="hx-p-2">Estimated time to crack: <span id="crack-time"></span></div>
+    <div id="crack-display" class="hx-p-2">Estimated time to crack: <span id="crack-time">-</span></div>
   </div>
   <div class="hx-flex hx-flex-wrap hx-justify-center hx-py-4 hx-gap-1">
     <button onclick="copyPassword()" class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-8 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-flex hx-items-center hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 hx-gap-1">
@@ -89,7 +89,7 @@ description: Generate strong, unique passwords, memorable passphrases, and secur
 <div class="faq-container">
   <h3 class="hx-text-center">Frequently Asked Questions</h3>
   {{< tools/faq-item question="What is a strong password?" answer="A strong password uses a mix of uppercase letters, lowercase letters, numbers, and symbols. It should be long at least 16 characters and unique." >}}
-  {{< tools/faq-item question="Are passphrases more secure?" answer="Not necessarily. Passphrases are not inherently more secure than passwords, but they are usually easier to remember. For that reason, they are often recommended as the master password for password managers." >}}
+  {{< tools/faq-item question="Are passphrases more secure?" answer="Not necessarily. Passphrases are not inherently more secure than passwords, but they are usually easier to remember. For that reason, they are often recommended as the master password for [password managers](/roadmap/basic/strong-passwords)." >}}
   {{< tools/faq-item question="Is this password generator safe?" answer="Yes. All passwords are generated locally in your browser. Nothing is stored or transmitted." >}}
 </div>
 

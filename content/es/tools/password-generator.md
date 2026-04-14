@@ -72,7 +72,7 @@ description: Genera contraseñas fuertes, únicas, frases de contraseña memorab
   <div class="result-card">
     <button onclick="copyPassword()" id="password-box" class="password-display" title="Haga clic para copiar"></button>
     <hr style="width: 95%; margin: auto;">
-    <div id="crack-display" class="hx-p-2">Tiempo estimado para descifrar: <span id="crack-time"></span></div>
+    <div id="crack-display" class="hx-p-2">Tiempo estimado para descifrar: <span id="crack-time">-</span></div>
   </div>
   <div class="hx-flex hx-flex-wrap hx-justify-center hx-py-4 hx-gap-1">
     <button onclick="copyPassword()" class="not-prose hx-font-medium hx-cursor-pointer hx-select-none hx-px-8 hx-py-2 hx-rounded-full hx-text-center hx-text-white hx-inline-flex hx-items-center hx-bg-primary-600 hover:hx-bg-primary-700 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 hx-transition-all hx-ease-in hx-duration-200 hx-gap-1">
@@ -89,7 +89,7 @@ description: Genera contraseñas fuertes, únicas, frases de contraseña memorab
 <div class="faq-container">
   <h3 class="hx-text-center">Preguntas Frecuentes</h3>
   {{< tools/faq-item question="¿Qué es una contraseña fuerte?" answer="Una contraseña fuerte usa una combinación de letras mayúsculas, minúsculas, números y símbolos. Debe tener al menos 16 caracteres y ser única." >}}
-  {{< tools/faq-item question="¿Son las frases de contraseña más seguras?" answer="No necesariamente. Las frases de contraseña no son inherentemente más seguras que las contraseñas, pero generalmente son más fáciles de recordar. Por esa razón, a menudo se recomiendan como la contraseña maestra para administradores de contraseñas." >}}
+  {{< tools/faq-item question="¿Son las frases de contraseña más seguras?" answer="No necesariamente. Las frases de contraseña no son inherentemente más seguras que las contraseñas, pero generalmente son más fáciles de recordar. Por esa razón, a menudo se recomiendan como la contraseña maestra para los [gestores de contraseñas](/es/roadmap/basic/strong-passwords)." >}}
   {{< tools/faq-item question="¿Es seguro este generador de contraseñas?" answer="Sí. Todas las contraseñas se generan localmente en tu navegador. Nada se almacena ni se transmite." >}}
 </div>
 

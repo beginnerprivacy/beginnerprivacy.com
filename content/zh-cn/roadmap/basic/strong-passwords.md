@@ -16,11 +16,11 @@ date: 2025-02-01
 
 <br>
 
-暴力破解攻击是一个重大风险——这是黑客尝试所有可能组合来破解你的密码。你的密码越长、越复杂，破解它就越困难。你可以通过[密码强度测试工具](https://bitwarden.com/password-strength/#Password-Strength-Testing-Tool)检查破解你的密码需要多长时间。
+暴力攻击是一个重大风险——这是指黑客尝试所有可能的组合来破解你的密码。你的密码越长、越复杂，他们就越难破解。你可以使用[密码强度测试器](/zh-cn/tools/password-strength-tester)来检查破解你的密码需要多长时间。
 
-<br>
+<br>  
 
-要创建强大、随机的密码，请使用[密码生成器](https://bitwarden.com/password-generator/#password-generator)。
+要创建强大且随机的密码，你可以使用我们的[密码生成器](/zh-cn/tools/password-generator)或许多密码管理器提供的内置密码生成器。
 
 ### 安全存储密码
 密码管理器非常好用，因为它们允许你存储长而复杂的密码，并在需要时轻松复制粘贴。你可以设置一个主密码，用于加密所有其他密码，确保它们安全且只能通过该主密码访问。
